@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="P5 Sensory Defensiveness" abrv="p5sd" filename="p5sd">
+	<template name="temp">
+		<name format="" />
+		<field format="sd@t" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<validator name="val02_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="2">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<key name="Twin" field="twin" template="na" validator="INTEGER" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<data name="1. Seams in clothing" field="ta01" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060093" />
+	<data name="2.Tags in clothing" field="ta02" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060094" />
+	<data name="3.Socks" field="ta03" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060095" />
+	<data name="4.Changing from long" field="ta04" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060096" />
+	<data name="5.Accessories" field="ta05" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060097" />
+	<data name="6.fuzzy textures" field="ta06" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060098" />
+	<data name="7.washing face" field="ta07" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060099" />
+	<data name="8.Cutting fingernails" field="ta08" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060100" />
+	<data name="9.Cutting toenails" field="ta09" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060101" />
+	<data name="10.Haircut" field="ta10" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060102" />
+	<data name="11.Hair washing or drying" field="ta11" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060103" />
+	<data name="12.Hair brushing or comgbing" field="ta12" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060104" />
+	<data name="13.Taking a shower" field="ta13" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060105" />
+	<data name="14.Getting dressed" field="ta14" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060106" />
+	<data name="15.Brushing teeth" field="ta15" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060107" />
+	<data name="16.People standing close" field="ta16" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060108" />
+	<data name="17.Wet clothes" field="ta17" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060109" />
+	<data name="18.Getting dirty" field="ta18" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060110" />
+	<data name="19.Light stroking " field="ta19" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060111" />
+	<data name="20.Kissing/ hugging" field="ta20" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060112" />
+	<data name="21.Grass" field="ta21" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060113" />
+	<data name="22.Coarse carpet" field="ta22" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060114" />
+	<data name="23.Dirt" field="ta23" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060115" />
+	<data name="24.Dirty floors" field="ta24" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060116" />
+	<data name="25.Mud" field="ta25" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060117" />
+	<data name="26.Finger Paint" field="ta26" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060118" />
+	<data name="27.Glue" field="ta27" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060119" />
+	<data name="28.Play Dough" field="ta28" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060120" />
+	<data name="29.Foods" field="ta29" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060121" />
+	<data name="30.Lotion" field="ta30" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060122" />
+	<data name="31.Other ways you are touch sensitive?" field="ta31" template="temp" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060123" />
+	<data name="1.Toilet flushing" field="au01" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060124" />
+	<data name="2.Door bell" field="au02" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060125" />
+	<data name="3.Dog barking" field="au03" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060126" />
+	<data name="4.Sirens" field="au04" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060127" />
+	<data name="5.Alarms" field="au05" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060128" />
+	<data name="6.Appliances" field="au06" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060129" />
+	<data name="7.Sound of utensils" field="au07" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060130" />
+	<data name="9.Radio" field="au09" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060131" />
+	<data name="8.Clothing that makes noise" field="au08" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1373312641742" />
+	<data name="12.Clock Ticking" field="au12" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1373312641743" />
+	<data name="10.Fluorescent lights" field="au10" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060132" />
+	<data name="11.People talking" field="au11" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060133" />
+	<data name="13.Construction" field="au13" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060134" />
+	<data name="14.Water running" field="au14" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060135" />
+	<data name="15.Lawn Mower" field="au15" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060136" />
+	<data name="16.Concert" field="au16" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060137" />
+	<data name="17.Large gatherings" field="au17" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060138" />
+	<data name="18.Crowded supermarket" field="au18" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060139" />
+	<data name="19.Restaurants" field="au19" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060140" />
+	<data name="20.Malls" field="au20" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060141" />
+	<data name="21.Cafeterias" field="au21" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060142" />
+	<data name="22.Gymnasium" field="au22" template="temp" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060143" />
+	<data name="23.Other ways you are sensitive to sound?" field="au23" template="temp" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060144" />
+</dataset>
+

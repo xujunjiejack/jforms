@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Neonatal Complication Scale" abrv="ncs" filename="ncs">
+	<template name="temp1">
+		<name format="" />
+		<field format="nc@t" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<validator name="val01_9" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="1">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="val13_9" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="3">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="val12" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="2">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="val12_9" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="2">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="yesno01_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="1">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<key name="Twin" field="twin" template="na" validator="INTEGER" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<data name="Todays Date" field="datetoday" template="na" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="9045652824187" />
+	<data name="Coder ID" field="coderid" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="9145652824187" />
+	<data name="Sex" field="001" template="temp1" validator="val12" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824187" />
+	<data name="Birth Order" field="002" template="temp1" validator="val12_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824189" />
+	<data name="Gestational Age" field="003" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824191" />
+	<data name="Size for Gestational Age" field="004" template="temp1" validator="val13_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824193" />
+	<data name="Birth Weight" field="005" template="temp1" validator="DOUBLE" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824195" />
+	<data name="Head Circumference" field="006" template="temp1" validator="DOUBLE" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824199" />
+	<data name="Length" field="007" template="temp1" validator="DOUBLE" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824201" />
+	<data name="Resuscitation" field="008" template="temp1" validator="val01_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824203" />
+	<data name="How Long" field="08a" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824205" />
+	<data name="Resuscitation Comments" field="08b" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1045652824207" />
+	<data name="Onset of Stable Respiration" field="009" template="temp1" validator="val01_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824209" />
+	<data name="Specify Time (minutes)" field="09a" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824211" />
+	<data name="Neonatal Heart Rate" field="010" template="temp1" validator="val01_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824213" />
+	<data name="Highest Heart Rate" field="011" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824215" />
+	<data name="Lowest Heart Rate" field="012" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824217" />
+	<data name="Neonatal Respiratory Rate" field="013" template="temp1" validator="val01_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824219" />
+	<data name="Specific Neonatal Respiratory Rate" field="014" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824221" />
+	<data name="Apgar Score at One Minute" field="015" template="temp1" validator="val01_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824223" />
+	<data name="Specific Apgar Score One Minute" field="016" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824225" />
+	<data name="Apgar Score at Five Minutes" field="017" template="temp1" validator="val01_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824227" />
+	<data name="Specific Apgar Score Five Minutes" field="018" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824229" />
+	<data name="Infection" field="019" template="temp1" validator="val01_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824231" />
+	<data name="Infection Comments" field="19a" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1045652824233" />
+	<data name="Noninfectious Illness" field="020" template="temp1" validator="val01_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824235" />
+	<data name="Noninfectious Illness Comments" field="20a" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1045652824237" />
+	<data name="Temperature Disturbance" field="021" template="temp1" validator="val01_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824239" />
+	<data name="Temperature Disturbance Value" field="21a" template="temp1" validator="DOUBLE" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824241" />
+	<data name="First Nipple Feeding" field="022" template="temp1" validator="val01_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824243" />
+	<data name="Type of Feeding" field="22a" template="temp1" validator="val13_9" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824245" />
+	<data name="How Many Days" field="22b" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824247" />
+	<data name="How Many Days Until Nipple Feed" field="22c" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824249" />
+	<data name="Type of Nipple Feeding" field="023" template="temp1" validator="val13_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824251" />
+	<data name="Surgery" field="024" template="temp1" validator="val01_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824253" />
+	<data name="Surgery Comments" field="24a" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1045652824255" />
+	<data name="Urinated" field="025" template="temp1" validator="val01_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824257" />
+	<data name="Defecated" field="026" template="temp1" validator="val01_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824259" />
+	<data name="Admitted to NICU" field="027" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652827261" />
+	<data name="Days in NICU" field="027a" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824261" />
+	<data name="Days in Nursery" field="028" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824263" />
+	<data name="Additional Comments" field="029" template="temp1" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1045652824265" />
+	<data name="Circumcision" field="030" template="temp1" validator="val01_9" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824267" />
+	<data name="Circumcision Comments" field="30a" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1045652824269" />
+	<data name="Were Anesthetics Used" field="30b" template="temp1" validator="val01_9" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824271" />
+	<data name="Specify Amount" field="30c" template="temp1" validator="DOUBLE" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824273" />
+	<data name="Special Flag" field="sf" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1215454447107" />
+	<data name="Special Flag Explain" field="sfexp" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1215454447108" />
+	<dependency field="How Long">
+		<parent field="Resuscitation" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Resuscitation Comments">
+		<parent field="Resuscitation" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Specify Time (minutes)">
+		<parent field="Onset of Stable Respiration" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Infection Comments">
+		<parent field="Infection" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Noninfectious Illness Comments">
+		<parent field="Noninfectious Illness" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Temperature Disturbance Value">
+		<parent field="Temperature Disturbance" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Type of Feeding">
+		<parent field="First Nipple Feeding" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="0" />
+			<enable value="9999" />
+		</parent>
+	</dependency>
+	<dependency field="How Many Days">
+		<parent field="First Nipple Feeding" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="0" />
+			<enable value="9999" />
+		</parent>
+	</dependency>
+	<dependency field="How Many Days Until Nipple Feed">
+		<parent field="First Nipple Feeding" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="0" />
+			<enable value="9999" />
+		</parent>
+	</dependency>
+	<dependency field="Surgery Comments">
+		<parent field="Surgery" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Circumcision">
+		<parent field="Sex" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+		</parent>
+	</dependency>
+	<dependency field="Circumcision Comments">
+		<parent field="Circumcision" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+		<parent field="Sex" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+		</parent>
+	</dependency>
+	<dependency field="Were Anesthetics Used">
+		<parent field="Circumcision" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+		<parent field="Sex" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+		</parent>
+	</dependency>
+	<dependency field="Specify Amount">
+		<parent field="Were Anesthetics Used" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+		<parent field="Circumcision" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+		<parent field="Sex" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+		</parent>
+	</dependency>
+	<dependency field="Special Flag Explain">
+		<parent field="Special Flag" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+   </dependency>
+   <dependency field="Days in NICU">
+		<parent field="Admitted to NICU" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+</dataset>
+

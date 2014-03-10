@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Recruit Second Contact" abrv="recruitseccontact" filename="recruitseccontact">
+	<validator name="blankvarchar" type="VARCHAR" defaultvalue="" allowblanks="true" lowerbound="2147483647" upperbound="2147483647" />
+	<validator name="blankformat" type="VARCHAR" defaultvalue="" allowblanks="true" lowerbound="2147483647" upperbound="2147483647">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<data name="Contact" field="name" template="na" validator="blankvarchar" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1124916514431" />
+	<data name="Relationship" field="relationship" template="na" validator="blankvarchar" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1124916514432" />
+	<data name="Address" field="address" template="na" validator="blankvarchar" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1124916514433" />
+	<data name="State" field="state" template="na" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.ComboFieldBox" classid="1124916514434" />
+	<data name="Zip Code" field="zip" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1124916514435" />
+	<data name="Phone Number" field="phone" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1124916514436" />
+	<data name="City" field="city" template="na" validator="blankvarchar" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1124916514437" />
+</dataset>
+

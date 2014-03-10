@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Behavior Problems" abrv="pvrctpb" filename="pvrctpb">
+	<template name="temp1">
+		<name format="" />
+		<field format="bp@" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<validator name="val14_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="4">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<key name="Twin" field="twin" template="na" validator="INTEGER" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<data name="Hyperactivity Behavior" field="b001" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1051139187711" />
+	<data name="Hyperactivity Problem" field="p001" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1051139187712" />
+	<data name="Inattention Behavior" field="b002" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1051139187713" />
+	<data name="Inattention Problem" field="p002" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1051139187714" />
+	<data name="Aggressive Behavior" field="b003" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1051139187715" />
+	<data name="Agressive Problem" field="p003" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1051139187716" />
+	<data name="Non-compliance Behavior" field="b004" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1051139187717" />
+	<data name="Non-compliance Problem" field="p004" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1051139187718" />
+	<data name="Manic Behavior" field="b005" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1051139187719" />
+	<data name="Manic Problem" field="p005" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1051139187720" />
+	<data name="Depression Behavior" field="b006" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1051139187721" />
+	<data name="Depression Problem" field="p006" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1051139187722" />
+	<data name="Tics Behavior" field="b007" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1051139187723" />
+	<data name="Tics Problem" field="p007" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1051139187724" />
+	<data name="Obsessive-Compulsive Behavior" field="b008" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1051139187725" />
+	<data name="Obsessive-Compulsive Problem" field="p008" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1051139187726" />
+	<data name="Selective Mutism Behavior" field="b009" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1051139187727" />
+	<data name="Selective Mutism Problem" field="p009" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1051139187728" />
+	<data name="General Anxiety Behavior" field="b010" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1051139187729" />
+	<data name="General Anxiety Problem" field="p010" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1051139187730" />
+	<data name="Separation Anxiety Behavior" field="b011" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1051139187731" />
+	<data name="Separation Anxiety Problem" field="p011" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1051139187732" />
+	<data name="Social Phobia Behavior" field="b012" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1051139187733" />
+	<data name="Social Phobia Problem" field="p012" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1051139187734" />
+</dataset>
+

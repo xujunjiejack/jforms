@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE validator SYSTEM "../../dtd/validator.dtd">
+<validator name="val06_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="6">
+	<valid value="9998" />
+	<valid value="9999" />
+</validator>
+

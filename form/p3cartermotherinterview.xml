@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Carter Mother Inteview" abrv="p3cartermotherinterview" filename="p3cartermotherinterview">
+	<template name="temp1">
+		<name format="" />
+		<field format="@m" />
+	</template>
+	<dataset file="ccra" connection="Microsoft Access 2000:e:\share-common\data\database\new_wtp_data.mdb" tablename="DATA_3_CC_RA_M" />
+	<dataset file="ccoc" connection="Microsoft Access 2000:e:\share-common\data\database\new_wtp_data.mdb" tablename="DATA_3_CC_OC_M" />
+	<key name="Family Id" entryset="Recreational Activities" filename="ccra" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:e:\share-common\data\database\new_wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Twin" entryset="Recreational Activities" filename="ccra" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Twin,A:1,B:2" />
+	<key name="Data Mode" entryset="Recreational Activities" filename="ccra" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="Recreational Activities" abrv="RA" numcols="2" displayheader="true" header="Recreational Activities">
+		<datafield name="1" entryset="Recreational Activities" filename="build\dataset\ccra.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1097266934155" options="" />
+		<datafield name="1a" entryset="Recreational Activities" filename="build\dataset\ccra.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1097266934156" options="" />
+		<datafield name="1b" entryset="Recreational Activities" filename="build\dataset\ccra.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1097266934157" options="" />
+		<datafield name="2" entryset="Recreational Activities" filename="build\dataset\ccra.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1097266934158" options="" />
+		<datafield name="2a" entryset="Recreational Activities" filename="build\dataset\ccra.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1097266934159" options="" />
+		<datafield name="2b" entryset="Recreational Activities" filename="build\dataset\ccra.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1097266934160" options="" />
+		<datafield name="3" entryset="Recreational Activities" filename="build\dataset\ccra.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1097266934161" options="" />
+		<datafield name="3a" entryset="Recreational Activities" filename="build\dataset\ccra.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1097266934162" options="" />
+		<datafield name="3b" entryset="Recreational Activities" filename="build\dataset\ccra.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1097266934163" options="" />
+	</componentset>
+	<componentset name="Obsessions and Compulsions" abrv="OC" numcols="2" displayheader="true" header="Obsessions and Compulsions">
+		<datafield name="1" entryset="Obsessions and Compulsions" filename="build\dataset\ccoc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1097266934167" options="" />
+		<datafield name="2" entryset="Obsessions and Compulsions" filename="build\dataset\ccoc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1097266934168" options="" />
+		<datafield name="3" entryset="Obsessions and Compulsions" filename="build\dataset\ccoc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1097266934169" options="" />
+		<datafield name="4" entryset="Obsessions and Compulsions" filename="build\dataset\ccoc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1097266934170" options="" />
+		<datafield name="5" entryset="Obsessions and Compulsions" filename="build\dataset\ccoc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1097266934171" options="" />
+		<datafield name="6" entryset="Obsessions and Compulsions" filename="build\dataset\ccoc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1097266934172" options="" />
+		<datafield name="7" entryset="Obsessions and Compulsions" filename="build\dataset\ccoc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1097266934173" options="" />
+		<datafield name="8" entryset="Obsessions and Compulsions" filename="build\dataset\ccoc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1097266934174" options="" />
+		<datafield name="8a" entryset="Obsessions and Compulsions" filename="build\dataset\ccoc.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1097266934175" options="" />
+	</componentset>
+</form>
+

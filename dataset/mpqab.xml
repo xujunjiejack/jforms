@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Absorption" abrv="ab" filename="mpqab">
+	<template name="temp1">
+		<name format="" />
+		<field format="ab@" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<validator name="val14_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="4">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<data name="20" field="020" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045181624097" />
+	<data name="26" field="026" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045181624098" />
+	<data name="44" field="044" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045181624099" />
+	<data name="48" field="048" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045181624100" />
+	<data name="66" field="066" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045181624101" />
+	<data name="78" field="078" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045181624102" />
+	<data name="83" field="083" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045181624103" />
+	<data name="97" field="097" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045181624104" />
+	<data name="103" field="103" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045181624105" />
+	<data name="116" field="116" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045181624106" />
+	<data name="127" field="127" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045181624107" />
+	<data name="133" field="133" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045181624108" />
+	<data name="140" field="140" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045181624109" />
+	<data name="155" field="155" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045181624110" />
+	<data name="172" field="172" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045181624111" />
+	<data name="178" field="178" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045181624112" />
+	<data name="186" field="186" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045181624113" />
+	<data name="192" field="192" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045181624114" />
+</dataset>
+

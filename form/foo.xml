@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="foo" abrv="foo" filename="foo">
+	<dataset file="hbqsr" connection="Microsoft Access 2000:e:\share-common\data\database\new_wtp_data.mdb" tablename="DATA_3_HB_SR_M" />
+	<key name="Family Id" entryset="Social Relations" filename="hbqsr" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:e:\share-common\data\database\new_wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Twin" entryset="Social Relations" filename="hbqsr" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Twin,A:1,B:2" />
+	<key name="Data Mode" entryset="Social Relations" filename="hbqsr" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="foo" abrv="foo" numcols="2" displayheader="true" header="foo">
+		<datafield name="1" entryset="Social Relations" filename="build\dataset\hbqsr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341059" options="" />
+		<datafield name="2" entryset="Social Relations" filename="build\dataset\hbqsr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341060" options="" />
+		<datafield name="3" entryset="Social Relations" filename="build\dataset\hbqsr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341061" options="" />
+	</componentset>
+</form>
+

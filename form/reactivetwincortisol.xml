@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Reactive Twin Cortisol" abrv="reactivetwincortisol" filename="reactivetwincortisol">
+	<dataset file="reactivecortisolchildtester" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_RC_T" />
+	<dataset file="reactivemeasures" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_MS_T" />
+	<dataset file="reactivecortisolinterviewer" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_RC_T" />
+	<key name="Family Id" entryset="Recative Cortisol Child Tester" filename="reactivecortisolchildtester" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Twin" entryset="Recative Cortisol Child Tester" filename="reactivecortisolchildtester" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Twin,A:1,B:2" />
+	<key name="Data Mode" entryset="Recative Cortisol Child Tester" filename="reactivecortisolchildtester" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="Twin Cortisol Child Tester" abrv="child tester" numcols="2" displayheader="true" header="Twin Cortisol Child Tester">
+		<datafield name="Visit Date" entryset="Recative Cortisol Child Tester" filename="build\dataset\reactivecortisolchildtester.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1054584993173" options="0,MM/dd/yyyy" />
+		<datafield name="Visit Time" entryset="Recative Cortisol Child Tester" filename="build\dataset\reactivecortisolchildtester.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1054584993174" options="0,HHmm" />
+		<datafield name="Pre-sample Time" entryset="Recative Cortisol Child Tester" filename="build\dataset\reactivecortisolchildtester.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1054584993175" options="0,HHmm" />
+		<datafield name="Mid-visit Time" entryset="Recative Cortisol Child Tester" filename="build\dataset\reactivecortisolchildtester.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1054584993176" options="0,HHmm" />
+		<datafield name="Post-sample Time" entryset="Recative Cortisol Child Tester" filename="build\dataset\reactivecortisolchildtester.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1054584993177" options="0,HHmm" />
+		<datafield name="Height (Inches)" entryset="Reactive Measures" filename="build\dataset\reactivemeasures.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054584993181" options="" />
+		<datafield name="Weight (Pounds)" entryset="Reactive Measures" filename="build\dataset\reactivemeasures.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054584993182" options="" />
+		<datafield name="Head Circumference Measure 1 (Inches)" entryset="Reactive Measures" filename="build\dataset\reactivemeasures.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054584993183" options="" />
+		<datafield name="Head Circumference Measure 2 (Inches)" entryset="Reactive Measures" filename="build\dataset\reactivemeasures.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054584993184" options="" />
+	</componentset>
+	<componentset name="Twin Cortisol Child Interviewer" abrv="reactive" numcols="2" displayheader="true" header="Reactive Twin interviewer">
+		<datafield name="Wake Up Time" entryset="Reactive Cortisol Interviewer" filename="build\dataset\reactivecortisolinterviewer.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1064574134735" options="0,HHmm" />
+		<datafield name="Sleep (Minutes)" entryset="Reactive Cortisol Interviewer" filename="build\dataset\reactivecortisolinterviewer.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574434735" options="" />
+		<datafield name="Nap" entryset="Reactive Cortisol Interviewer" filename="build\dataset\reactivecortisolinterviewer.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574134736" options="" />
+		<datafield name="Nap (Minutes)" entryset="Reactive Cortisol Interviewer" filename="build\dataset\reactivecortisolinterviewer.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574134737" options="" />
+		<datafield name="Runny Nose or Cough" entryset="Reactive Cortisol Interviewer" filename="build\dataset\reactivecortisolinterviewer.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574134738" options="" />
+		<datafield name="Warm or Flushed" entryset="Reactive Cortisol Interviewer" filename="build\dataset\reactivecortisolinterviewer.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574134739" options="" />
+		<datafield name="Cranky or Irritable" entryset="Reactive Cortisol Interviewer" filename="build\dataset\reactivecortisolinterviewer.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574134740" options="" />
+		<datafield name="Ear Infection" entryset="Reactive Cortisol Interviewer" filename="build\dataset\reactivecortisolinterviewer.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574134741" options="" />
+		<datafield name="Aches and Pains" entryset="Reactive Cortisol Interviewer" filename="build\dataset\reactivecortisolinterviewer.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574134742" options="" />
+		<datafield name="Nausea or Uneasy Stomach" entryset="Reactive Cortisol Interviewer" filename="build\dataset\reactivecortisolinterviewer.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574134743" options="" />
+		<datafield name="Antibiotics" entryset="Reactive Cortisol Interviewer" filename="build\dataset\reactivecortisolinterviewer.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574134744" options="" />
+		<datafield name="Type" entryset="Reactive Cortisol Interviewer" filename="build\dataset\reactivecortisolinterviewer.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574134745" options="" />
+		<datafield name="How Long" entryset="Reactive Cortisol Interviewer" filename="build\dataset\reactivecortisolinterviewer.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574134746" options="" />
+		<datafield name="Medication Today" entryset="Reactive Cortisol Interviewer" filename="build\dataset\reactivecortisolinterviewer.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574134747" options="" />
+		<datafield name="Type and Amount" entryset="Reactive Cortisol Interviewer" filename="build\dataset\reactivecortisolinterviewer.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1054574134748" options="" />
+	</componentset>
+</form>
+

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Throwing Game" abrv="throwinggame" filename="throwinggame">
+	<dataset file="tgtester" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_TG" />
+	<dataset file="tgnrv" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_TG" />
+	<dataset file="tgrt" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_TG" />
+	<dataset file="tgfc" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_TG" />
+	<dataset file="tgoda" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_TG" />
+	<dataset file="tgpcc" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_TG" />
+	<dataset file="tgpfc" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_TG" />
+	<key name="Family Id" entryset="Tester" filename="tgtester" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Twin" entryset="Tester" filename="tgtester" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Twin,A:1,B:2" />
+	<key name="Data Mode" entryset="Tester" filename="tgtester" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="Tester" abrv="tester" numcols="2" displayheader="true" header="Tester">
+		<datafield name="Episode order" entryset="Tester" filename="build\dataset\tgtester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475579" options="" />
+		<datafield name="Scorer" entryset="Tester" filename="build\dataset\tgtester.xml" type="0" class="com.wtp.jforms.ui.control.smart.ComboFieldBox" editable="true" classid="1052931475578" options="0,Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_STAFF,number" />
+		<datafield name="Child tester" entryset="Tester" filename="build\dataset\tgtester.xml" type="0" class="com.wtp.jforms.ui.control.smart.ComboFieldBox" editable="true" classid="1052931475580" options="0,Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_STAFF,number" />
+		<datafield name="Baseline" entryset="Tester" filename="build\dataset\tgtester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475581" options="" />
+		<datafield name="Verbally Complain" entryset="Tester" filename="build\dataset\tgtester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670052" options="" />
+		<datafield name="Childs Attention" entryset="Tester" filename="build\dataset\tgtester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670053" options="" />
+		<datafield name="Minor Cheating" entryset="Tester" filename="build\dataset\tgtester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670054" options="" />
+		<datafield name="Bold Cheating" entryset="Tester" filename="build\dataset\tgtester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670055" options="" />
+		<datafield name="Unintentionally Cheated" entryset="Tester" filename="build\dataset\tgtester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670056" options="" />
+		<datafield name="Undo Cheating" entryset="Tester" filename="build\dataset\tgtester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670057" options="" />
+	</componentset>
+	<componentset name="Minute 1" abrv="min 1" numcols="2" displayheader="true" header="Minute 1">
+		<datafield name="1" entryset="Throwing Ball Without Violating Rules" filename="build\dataset\tgnrv.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670199" options="" />
+		<datafield name="1" entryset="Retrieves Ball And Throws Again" filename="build\dataset\tgrt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670220" options="" />
+		<datafield name="1" entryset="Throws Ball Facing Cup" filename="build\dataset\tgfc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670242" options="" />
+		<datafield name="1" entryset="Throws Ball Outside Area" filename="build\dataset\tgoda.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670284" options="" />
+		<datafield name="1" entryset="Puts Ball in Closer Cup" filename="build\dataset\tgpcc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670305" options="" />
+		<datafield name="1" entryset="Puts Ball in Farther Cup" filename="build\dataset\tgpfc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670326" options="" />
+		<datafield name="2" entryset="Throwing Ball Without Violating Rules" filename="build\dataset\tgnrv.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670200" options="" />
+		<datafield name="2" entryset="Retrieves Ball And Throws Again" filename="build\dataset\tgrt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670221" options="" />
+		<datafield name="2" entryset="Throws Ball Facing Cup" filename="build\dataset\tgfc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670243" options="" />
+		<datafield name="2" entryset="Throws Ball Outside Area" filename="build\dataset\tgoda.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670285" options="" />
+		<datafield name="2" entryset="Puts Ball in Closer Cup" filename="build\dataset\tgpcc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670306" options="" />
+		<datafield name="2" entryset="Puts Ball in Farther Cup" filename="build\dataset\tgpfc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670327" options="" />
+		<datafield name="3" entryset="Throwing Ball Without Violating Rules" filename="build\dataset\tgnrv.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670201" options="" />
+		<datafield name="3" entryset="Retrieves Ball And Throws Again" filename="build\dataset\tgrt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670222" options="" />
+		<datafield name="3" entryset="Throws Ball Facing Cup" filename="build\dataset\tgfc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670244" options="" />
+		<datafield name="3" entryset="Throws Ball Outside Area" filename="build\dataset\tgoda.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670286" options="" />
+		<datafield name="3" entryset="Puts Ball in Closer Cup" filename="build\dataset\tgpcc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670307" options="" />
+		<datafield name="3" entryset="Puts Ball in Farther Cup" filename="build\dataset\tgpfc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670328" options="" />
+		<datafield name="4" entryset="Throwing Ball Without Violating Rules" filename="build\dataset\tgnrv.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670202" options="" />
+		<datafield name="4" entryset="Retrieves Ball And Throws Again" filename="build\dataset\tgrt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670223" options="" />
+		<datafield name="4" entryset="Throws Ball Facing Cup" filename="build\dataset\tgfc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670245" options="" />
+		<datafield name="4" entryset="Throws Ball Outside Area" filename="build\dataset\tgoda.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670287" options="" />
+		<datafield name="4" entryset="Puts Ball in Closer Cup" filename="build\dataset\tgpcc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670308" options="" />
+		<datafield name="4" entryset="Puts Ball in Farther Cup" filename="build\dataset\tgpfc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670329" options="" />
+		<datafield name="5" entryset="Throwing Ball Without Violating Rules" filename="build\dataset\tgnrv.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670203" options="" />
+		<datafield name="5" entryset="Retrieves Ball And Throws Again" filename="build\dataset\tgrt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670224" options="" />
+		<datafield name="5" entryset="Throws Ball Facing Cup" filename="build\dataset\tgfc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670246" options="" />
+		<datafield name="5" entryset="Throws Ball Outside Area" filename="build\dataset\tgoda.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670288" options="" />
+		<datafield name="5" entryset="Puts Ball in Closer Cup" filename="build\dataset\tgpcc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670309" options="" />
+		<datafield name="5" entryset="Puts Ball in Farther Cup" filename="build\dataset\tgpfc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670330" options="" />
+		<datafield name="6" entryset="Throwing Ball Without Violating Rules" filename="build\dataset\tgnrv.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670204" options="" />
+		<datafield name="6" entryset="Retrieves Ball And Throws Again" filename="build\dataset\tgrt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670225" options="" />
+		<datafield name="6" entryset="Throws Ball Facing Cup" filename="build\dataset\tgfc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670247" options="" />
+		<datafield name="6" entryset="Throws Ball Outside Area" filename="build\dataset\tgoda.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670289" options="" />
+		<datafield name="6" entryset="Puts Ball in Closer Cup" filename="build\dataset\tgpcc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670310" options="" />
+		<datafield name="6" entryset="Puts Ball in Farther Cup" filename="build\dataset\tgpfc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670331" options="" />
+	</componentset>
+	<componentset name="Minute 2" abrv="min 2" numcols="2" displayheader="true" header="Minute 2">
+		<datafield name="7" entryset="Throwing Ball Without Violating Rules" filename="build\dataset\tgnrv.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670205" options="" />
+		<datafield name="7" entryset="Retrieves Ball And Throws Again" filename="build\dataset\tgrt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670226" options="" />
+		<datafield name="7" entryset="Throws Ball Facing Cup" filename="build\dataset\tgfc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670248" options="" />
+		<datafield name="7" entryset="Throws Ball Outside Area" filename="build\dataset\tgoda.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670290" options="" />
+		<datafield name="7" entryset="Puts Ball in Closer Cup" filename="build\dataset\tgpcc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670311" options="" />
+		<datafield name="7" entryset="Puts Ball in Farther Cup" filename="build\dataset\tgpfc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670332" options="" />
+		<datafield name="8" entryset="Throwing Ball Without Violating Rules" filename="build\dataset\tgnrv.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670206" options="" />
+		<datafield name="8" entryset="Retrieves Ball And Throws Again" filename="build\dataset\tgrt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670227" options="" />
+		<datafield name="8" entryset="Throws Ball Facing Cup" filename="build\dataset\tgfc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670249" options="" />
+		<datafield name="8" entryset="Throws Ball Outside Area" filename="build\dataset\tgoda.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670291" options="" />
+		<datafield name="8" entryset="Puts Ball in Closer Cup" filename="build\dataset\tgpcc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670312" options="" />
+		<datafield name="8" entryset="Puts Ball in Farther Cup" filename="build\dataset\tgpfc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670333" options="" />
+		<datafield name="9" entryset="Throwing Ball Without Violating Rules" filename="build\dataset\tgnrv.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670207" options="" />
+		<datafield name="9" entryset="Retrieves Ball And Throws Again" filename="build\dataset\tgrt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670228" options="" />
+		<datafield name="9" entryset="Throws Ball Facing Cup" filename="build\dataset\tgfc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670250" options="" />
+		<datafield name="9" entryset="Throws Ball Outside Area" filename="build\dataset\tgoda.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670292" options="" />
+		<datafield name="9" entryset="Puts Ball in Closer Cup" filename="build\dataset\tgpcc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670313" options="" />
+		<datafield name="9" entryset="Puts Ball in Farther Cup" filename="build\dataset\tgpfc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670334" options="" />
+		<datafield name="10" entryset="Throwing Ball Without Violating Rules" filename="build\dataset\tgnrv.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670208" options="" />
+		<datafield name="10" entryset="Retrieves Ball And Throws Again" filename="build\dataset\tgrt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670229" options="" />
+		<datafield name="10" entryset="Throws Ball Facing Cup" filename="build\dataset\tgfc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670251" options="" />
+		<datafield name="10" entryset="Throws Ball Outside Area" filename="build\dataset\tgoda.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670293" options="" />
+		<datafield name="10" entryset="Puts Ball in Closer Cup" filename="build\dataset\tgpcc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670314" options="" />
+		<datafield name="10" entryset="Puts Ball in Farther Cup" filename="build\dataset\tgpfc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670335" options="" />
+		<datafield name="11" entryset="Throwing Ball Without Violating Rules" filename="build\dataset\tgnrv.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670209" options="" />
+		<datafield name="11" entryset="Retrieves Ball And Throws Again" filename="build\dataset\tgrt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670230" options="" />
+		<datafield name="11" entryset="Throws Ball Facing Cup" filename="build\dataset\tgfc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670252" options="" />
+		<datafield name="11" entryset="Throws Ball Outside Area" filename="build\dataset\tgoda.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670294" options="" />
+		<datafield name="11" entryset="Puts Ball in Closer Cup" filename="build\dataset\tgpcc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670315" options="" />
+		<datafield name="11" entryset="Puts Ball in Farther Cup" filename="build\dataset\tgpfc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670336" options="" />
+		<datafield name="12" entryset="Throwing Ball Without Violating Rules" filename="build\dataset\tgnrv.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670210" options="" />
+		<datafield name="12" entryset="Retrieves Ball And Throws Again" filename="build\dataset\tgrt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670231" options="" />
+		<datafield name="12" entryset="Throws Ball Facing Cup" filename="build\dataset\tgfc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670253" options="" />
+		<datafield name="12" entryset="Throws Ball Outside Area" filename="build\dataset\tgoda.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670295" options="" />
+		<datafield name="12" entryset="Puts Ball in Closer Cup" filename="build\dataset\tgpcc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670316" options="" />
+		<datafield name="12" entryset="Puts Ball in Farther Cup" filename="build\dataset\tgpfc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670337" options="" />
+	</componentset>
+	<componentset name="Minute 3" abrv="min 3" numcols="2" displayheader="true" header="Minute 3">
+		<datafield name="13" entryset="Throwing Ball Without Violating Rules" filename="build\dataset\tgnrv.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670211" options="" />
+		<datafield name="13" entryset="Retrieves Ball And Throws Again" filename="build\dataset\tgrt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670232" options="" />
+		<datafield name="13" entryset="Throws Ball Facing Cup" filename="build\dataset\tgfc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670254" options="" />
+		<datafield name="13" entryset="Throws Ball Outside Area" filename="build\dataset\tgoda.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670296" options="" />
+		<datafield name="13" entryset="Puts Ball in Closer Cup" filename="build\dataset\tgpcc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670317" options="" />
+		<datafield name="13" entryset="Puts Ball in Farther Cup" filename="build\dataset\tgpfc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670338" options="" />
+		<datafield name="14" entryset="Throwing Ball Without Violating Rules" filename="build\dataset\tgnrv.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670212" options="" />
+		<datafield name="14" entryset="Retrieves Ball And Throws Again" filename="build\dataset\tgrt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670233" options="" />
+		<datafield name="14" entryset="Throws Ball Facing Cup" filename="build\dataset\tgfc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670255" options="" />
+		<datafield name="14" entryset="Throws Ball Outside Area" filename="build\dataset\tgoda.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670297" options="" />
+		<datafield name="14" entryset="Puts Ball in Closer Cup" filename="build\dataset\tgpcc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670318" options="" />
+		<datafield name="14" entryset="Puts Ball in Farther Cup" filename="build\dataset\tgpfc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670339" options="" />
+		<datafield name="15" entryset="Throwing Ball Without Violating Rules" filename="build\dataset\tgnrv.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670213" options="" />
+		<datafield name="15" entryset="Retrieves Ball And Throws Again" filename="build\dataset\tgrt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670234" options="" />
+		<datafield name="15" entryset="Throws Ball Facing Cup" filename="build\dataset\tgfc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670256" options="" />
+		<datafield name="15" entryset="Throws Ball Outside Area" filename="build\dataset\tgoda.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670298" options="" />
+		<datafield name="15" entryset="Puts Ball in Closer Cup" filename="build\dataset\tgpcc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670319" options="" />
+		<datafield name="15" entryset="Puts Ball in Farther Cup" filename="build\dataset\tgpfc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670340" options="" />
+		<datafield name="16" entryset="Throwing Ball Without Violating Rules" filename="build\dataset\tgnrv.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670214" options="" />
+		<datafield name="16" entryset="Retrieves Ball And Throws Again" filename="build\dataset\tgrt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670235" options="" />
+		<datafield name="16" entryset="Throws Ball Facing Cup" filename="build\dataset\tgfc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670257" options="" />
+		<datafield name="16" entryset="Throws Ball Outside Area" filename="build\dataset\tgoda.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670299" options="" />
+		<datafield name="16" entryset="Puts Ball in Closer Cup" filename="build\dataset\tgpcc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670320" options="" />
+		<datafield name="16" entryset="Puts Ball in Farther Cup" filename="build\dataset\tgpfc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670341" options="" />
+		<datafield name="17" entryset="Throwing Ball Without Violating Rules" filename="build\dataset\tgnrv.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670215" options="" />
+		<datafield name="17" entryset="Retrieves Ball And Throws Again" filename="build\dataset\tgrt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670236" options="" />
+		<datafield name="17" entryset="Throws Ball Facing Cup" filename="build\dataset\tgfc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670258" options="" />
+		<datafield name="17" entryset="Throws Ball Outside Area" filename="build\dataset\tgoda.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670300" options="" />
+		<datafield name="17" entryset="Puts Ball in Closer Cup" filename="build\dataset\tgpcc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670321" options="" />
+		<datafield name="17" entryset="Puts Ball in Farther Cup" filename="build\dataset\tgpfc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670342" options="" />
+		<datafield name="18" entryset="Throwing Ball Without Violating Rules" filename="build\dataset\tgnrv.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670216" options="" />
+		<datafield name="18" entryset="Retrieves Ball And Throws Again" filename="build\dataset\tgrt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670237" options="" />
+		<datafield name="18" entryset="Throws Ball Facing Cup" filename="build\dataset\tgfc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670259" options="" />
+		<datafield name="18" entryset="Throws Ball Outside Area" filename="build\dataset\tgoda.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670301" options="" />
+		<datafield name="18" entryset="Puts Ball in Closer Cup" filename="build\dataset\tgpcc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670322" options="" />
+		<datafield name="18" entryset="Puts Ball in Farther Cup" filename="build\dataset\tgpfc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670343" options="" />
+		<datafield name="Child tester re-enters room" entryset="Tester" filename="build\dataset\tgtester.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1200346652404" options="0,HHmm:ss" />
+		<datafield name="Child leaves room" entryset="Tester" filename="build\dataset\tgtester.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1200346652405" options="0,HHmm:ss" />
+		<datafield name="Child re-enters room" entryset="Tester" filename="build\dataset\tgtester.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1200346652406" options="0,HHmm:ss" />
+		<datafield name="Admit to Violating Rules" entryset="Tester" filename="build\dataset\tgtester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670058" options="" />
+		<datafield name="Childs Guilt" entryset="Tester" filename="build\dataset\tgtester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670059" options="" />
+		<datafield name="Degree of Protest" entryset="Tester" filename="build\dataset\tgtester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964670060" options="" />
+		<datafield name="Special Flag" entryset="Special Flag" filename="build\dataset\tgtester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1191884590260" options="" />
+		<datafield name="Special Flag Explain" entryset="Special Flag" filename="build\dataset\tgtester.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1191884590261" options="" />
+	</componentset>
+</form>
+

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Autism Screener Twin B" abrv="as_bf" filename="as_bf">
+	<template name="temp2">
+		<name format="A2 @" />
+		<field format="asa2@" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<template name="temp1">
+		<name format="A1 @" />
+		<field format="asa1@" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<template name="temp3">
+		<name format="@" />
+		<field format="@" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<validator name="val02_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="2">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="yesno01_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="1">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="val04_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="4">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<key name="Twin" field="twin" template="na" validator="INTEGER" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="2" />
+	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<data name="129" field="129" template="temp1" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1049902032625" />
+	<data name="1" field="001" template="temp2" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1049902032626" />
+	<data name="2" field="002" template="temp2" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1049902032627" />
+	<data name="3" field="003" template="temp2" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1049902032628" />
+	<data name="4" field="004" template="temp2" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1049902032629" />
+	<data name="5" field="005" template="temp2" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1049902032630" />
+	<data name="6" field="006" template="temp2" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1049902032631" />
+	<data name="7" field="007" template="temp2" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1049902032632" />
+	<data name="8" field="008" template="temp2" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1049902032633" />
+	<data name="B1 6" field="asb1006" template="temp3" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1049902032634" />
+	<data name="B1 7" field="asb1007" template="temp3" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1049902032635" />
+	<data name="B1 8" field="asb1008" template="temp3" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1049902032636" />
+	<data name="B2 1" field="asb2001" template="temp3" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1049902032637" />
+	<data name="B2 2" field="asb2002" template="temp3" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1049902032638" />
+	<data name="B2 2 explain" field="asb202s" template="temp3" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1050961311331" />
+	<data name="B2 3" field="asb2003" template="temp3" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1049902032639" />
+	<data name="B2 3 explain" field="asb203s" template="temp3" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1050961311332" />
+	<data name="B2 4" field="asb2004" template="temp3" validator="val04_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1049902032640" />
+	<data name="B2 5" field="asb2005" template="temp3" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1049902032641" />
+	<dependency field="B2 2 explain">
+		<parent field="B2 2" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+		</parent>
+	</dependency>
+	<dependency field="B2 3 explain">
+		<parent field="B2 3" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+		</parent>
+	</dependency>
+</dataset>
+

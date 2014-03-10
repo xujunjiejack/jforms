@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Biological (Home) Visit Measures" abrv="p4homevisitmeasures" filename="p4homevisitmeasures">
+	<dataset file="visitphysicalmeasures" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_MS_T" />
+	<key name="Family Id" entryset="Visit Physical Measures" filename="visitphysicalmeasures" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Twin" entryset="Visit Physical Measures" filename="visitphysicalmeasures" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Twin,A:1,B:2" />
+	<key name="Data Mode" entryset="Visit Physical Measures" filename="visitphysicalmeasures" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="Height, Weight, Head Circumference Measures" abrv="measures" numcols="2" displayheader="true" header="Height, Weight, Head Circumference Measures">
+		<datafield name="Height (inches)" entryset="Visit Physical Measures" filename="build\dataset\visitphysicalmeasures.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200002110527" options="" />
+		<datafield name="Weight (pounds)" entryset="Visit Physical Measures" filename="build\dataset\visitphysicalmeasures.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200002110528" options="" />
+		<datafield name="Head Circumference Measure #1 (inches)" entryset="Visit Physical Measures" filename="build\dataset\visitphysicalmeasures.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200002110529" options="" />
+		<datafield name="Head Circumference Measure #2 (inches)" entryset="Visit Physical Measures" filename="build\dataset\visitphysicalmeasures.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200002110530" options="" />
+	</componentset>
+</form>
+

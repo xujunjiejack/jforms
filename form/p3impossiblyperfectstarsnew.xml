@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Impossibly Perfect Stars" abrv="impossiblyperfectstarts" filename="p3impossiblyperfectstarts">
+	<dataset file="isnewtester" connection="MySQL:mysql.waisman.wisc.edu/wtp_data" tablename="DATA_3_IS_NEW" />
+	<dataset file="isnewae" connection="MySQL:mysql.waisman.wisc.edu/wtp_data" tablename="DATA_3_IS_NEW" />
+	<dataset file="isnewba" connection="MySQL:mysql.waisman.wisc.edu/wtp_data" tablename="DATA_3_IS_NEW" />
+	<dataset file="isnewse" connection="MySQL:mysql.waisman.wisc.edu/wtp_data" tablename="DATA_3_IS_NEW" />
+	<dataset file="isnewbs" connection="MySQL:mysql.waisman.wisc.edu/wtp_data" tablename="DATA_3_IS_NEW" />
+	<dataset file="isnewpp" connection="MySQL:mysql.waisman.wisc.edu/wtp_data" tablename="DATA_3_IS_NEW" />
+	<dataset file="isnewpn" connection="MySQL:mysql.waisman.wisc.edu/wtp_data" tablename="DATA_3_IS_NEW" />
+	<dataset file="isnewnc" connection="MySQL:mysql.waisman.wisc.edu/wtp_data" tablename="DATA_3_IS_NEW" />
+	<dataset file="isnewav" connection="MySQL:mysql.waisman.wisc.edu/wtp_data" tablename="DATA_3_IS_NEW" />
+	<dataset file="isnewsv" connection="MySQL:mysql.waisman.wisc.edu/wtp_data" tablename="DATA_3_IS_NEW" />
+	<dataset file="isnewpv" connection="MySQL:mysql.waisman.wisc.edu/wtp_data" tablename="DATA_3_IS_NEW" />
+	<key name="Family Id" entryset="Tester" filename="isnewtester" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Twin" entryset="Tester" filename="isnewtester" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Twin,A:1,B:2" />
+	<key name="Data Mode" entryset="Tester" filename="isnewtester" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="Tester" abrv="tester" numcols="2" displayheader="true" header="Tester">
+		<datafield name="Episode Order" entryset="Tester" filename="build\dataset\isnewtester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1056386252684" options="" />
+		<datafield name="Scorer" entryset="Tester" filename="build\dataset\isnewtester.xml" type="0" class="com.wtp.jforms.ui.control.smart.ComboFieldBox" editable="true" classid="1056386252682" options="0,Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_STAFF,number" />
+		<datafield name="Child Tester" entryset="Tester" filename="build\dataset\isnewtester.xml" type="0" class="com.wtp.jforms.ui.control.smart.ComboFieldBox" editable="true" classid="1056386252683" options="0,Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_STAFF,number" />
+		<datafield name="Baseline" entryset="Tester" filename="build\dataset\isnewtester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1056386252685" options="" />
+		<datafield name="Latency to First Anger Response" entryset="Tester" filename="build\dataset\isnewtester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1056386252688" options="" />
+		<datafield name="Latency to First Sadness Response" entryset="Tester" filename="build\dataset\isnewtester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017836" options="" />
+	</componentset>
+	<componentset name="Minute 1" abrv="min 1" numcols="2" displayheader="true" header="Minute 1">
+		<datafield name="1" entryset="Intensity of Anger Expression" filename="build\dataset\isnewae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710274983" options="" />
+		<datafield name="1" entryset="Intensity of Bodily Anger" filename="build\dataset\isnewba.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275010" options="" />
+		<datafield name="1" entryset="Intensity of Sadness Expression" filename="build\dataset\isnewse.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275037" options="" />
+		<datafield name="1" entryset="Intensity of Bodily Sadness" filename="build\dataset\isnewbs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275064" options="" />
+		<datafield name="1" entryset="Presence of Positivity" filename="build\dataset\isnewpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275091" options="" />
+		<datafield name="1" entryset="Presence os Negativity" filename="build\dataset\isnewpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275118" options="" />
+		<datafield name="1" entryset="Number of Crititques" filename="build\dataset\isnewnc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275145" options="" />
+		<datafield name="2" entryset="Intensity of Anger Expression" filename="build\dataset\isnewae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710274984" options="" />
+		<datafield name="2" entryset="Intensity of Bodily Anger" filename="build\dataset\isnewba.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275011" options="" />
+		<datafield name="2" entryset="Intensity of Sadness Expression" filename="build\dataset\isnewse.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275038" options="" />
+		<datafield name="2" entryset="Intensity of Bodily Sadness" filename="build\dataset\isnewbs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275065" options="" />
+		<datafield name="2" entryset="Presence of Positivity" filename="build\dataset\isnewpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275092" options="" />
+		<datafield name="2" entryset="Presence os Negativity" filename="build\dataset\isnewpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275119" options="" />
+		<datafield name="2" entryset="Number of Crititques" filename="build\dataset\isnewnc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275146" options="" />
+		<datafield name="3" entryset="Intensity of Anger Expression" filename="build\dataset\isnewae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710274985" options="" />
+		<datafield name="3" entryset="Intensity of Bodily Anger" filename="build\dataset\isnewba.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275012" options="" />
+		<datafield name="3" entryset="Intensity of Sadness Expression" filename="build\dataset\isnewse.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275039" options="" />
+		<datafield name="3" entryset="Intensity of Bodily Sadness" filename="build\dataset\isnewbs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275066" options="" />
+		<datafield name="3" entryset="Presence of Positivity" filename="build\dataset\isnewpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275093" options="" />
+		<datafield name="3" entryset="Presence os Negativity" filename="build\dataset\isnewpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275120" options="" />
+		<datafield name="3" entryset="Number of Crititques" filename="build\dataset\isnewnc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275147" options="" />
+		<datafield name="4" entryset="Intensity of Anger Expression" filename="build\dataset\isnewae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710274986" options="" />
+		<datafield name="4" entryset="Intensity of Bodily Anger" filename="build\dataset\isnewba.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275013" options="" />
+		<datafield name="4" entryset="Intensity of Sadness Expression" filename="build\dataset\isnewse.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275040" options="" />
+		<datafield name="4" entryset="Intensity of Bodily Sadness" filename="build\dataset\isnewbs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275067" options="" />
+		<datafield name="4" entryset="Presence of Positivity" filename="build\dataset\isnewpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275094" options="" />
+		<datafield name="4" entryset="Presence os Negativity" filename="build\dataset\isnewpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275121" options="" />
+		<datafield name="4" entryset="Number of Crititques" filename="build\dataset\isnewnc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275148" options="" />
+		<datafield name="5" entryset="Intensity of Anger Expression" filename="build\dataset\isnewae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710274987" options="" />
+		<datafield name="5" entryset="Intensity of Bodily Anger" filename="build\dataset\isnewba.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275014" options="" />
+		<datafield name="5" entryset="Intensity of Sadness Expression" filename="build\dataset\isnewse.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275041" options="" />
+		<datafield name="5" entryset="Intensity of Bodily Sadness" filename="build\dataset\isnewbs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275068" options="" />
+		<datafield name="5" entryset="Presence of Positivity" filename="build\dataset\isnewpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275095" options="" />
+		<datafield name="5" entryset="Presence os Negativity" filename="build\dataset\isnewpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275122" options="" />
+		<datafield name="5" entryset="Number of Crititques" filename="build\dataset\isnewnc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275149" options="" />
+		<datafield name="6" entryset="Intensity of Anger Expression" filename="build\dataset\isnewae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710274988" options="" />
+		<datafield name="6" entryset="Intensity of Bodily Anger" filename="build\dataset\isnewba.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275015" options="" />
+		<datafield name="6" entryset="Intensity of Sadness Expression" filename="build\dataset\isnewse.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275042" options="" />
+		<datafield name="6" entryset="Intensity of Bodily Sadness" filename="build\dataset\isnewbs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275069" options="" />
+		<datafield name="6" entryset="Presence of Positivity" filename="build\dataset\isnewpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275096" options="" />
+		<datafield name="6" entryset="Presence os Negativity" filename="build\dataset\isnewpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275123" options="" />
+		<datafield name="6" entryset="Number of Crititques" filename="build\dataset\isnewnc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275150" options="" />
+	</componentset>
+	<componentset name="Minute 2" abrv="min 2" numcols="2" displayheader="true" header="Minute 2">
+		<datafield name="7" entryset="Intensity of Anger Expression" filename="build\dataset\isnewae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710274989" options="" />
+		<datafield name="7" entryset="Intensity of Bodily Anger" filename="build\dataset\isnewba.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275016" options="" />
+		<datafield name="7" entryset="Intensity of Sadness Expression" filename="build\dataset\isnewse.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275043" options="" />
+		<datafield name="7" entryset="Intensity of Bodily Sadness" filename="build\dataset\isnewbs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275070" options="" />
+		<datafield name="7" entryset="Presence of Positivity" filename="build\dataset\isnewpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275097" options="" />
+		<datafield name="7" entryset="Presence os Negativity" filename="build\dataset\isnewpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275124" options="" />
+		<datafield name="7" entryset="Number of Crititques" filename="build\dataset\isnewnc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275151" options="" />
+		<datafield name="8" entryset="Intensity of Anger Expression" filename="build\dataset\isnewae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710274990" options="" />
+		<datafield name="8" entryset="Intensity of Bodily Anger" filename="build\dataset\isnewba.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275017" options="" />
+		<datafield name="8" entryset="Intensity of Sadness Expression" filename="build\dataset\isnewse.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275044" options="" />
+		<datafield name="8" entryset="Intensity of Bodily Sadness" filename="build\dataset\isnewbs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275071" options="" />
+		<datafield name="8" entryset="Presence of Positivity" filename="build\dataset\isnewpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275098" options="" />
+		<datafield name="8" entryset="Presence os Negativity" filename="build\dataset\isnewpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275125" options="" />
+		<datafield name="8" entryset="Number of Crititques" filename="build\dataset\isnewnc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275152" options="" />
+		<datafield name="9" entryset="Intensity of Anger Expression" filename="build\dataset\isnewae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710274991" options="" />
+		<datafield name="9" entryset="Intensity of Bodily Anger" filename="build\dataset\isnewba.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275018" options="" />
+		<datafield name="9" entryset="Intensity of Sadness Expression" filename="build\dataset\isnewse.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275045" options="" />
+		<datafield name="9" entryset="Intensity of Bodily Sadness" filename="build\dataset\isnewbs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275072" options="" />
+		<datafield name="9" entryset="Presence of Positivity" filename="build\dataset\isnewpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275099" options="" />
+		<datafield name="9" entryset="Presence os Negativity" filename="build\dataset\isnewpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275126" options="" />
+		<datafield name="9" entryset="Number of Crititques" filename="build\dataset\isnewnc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275153" options="" />
+		<datafield name="10" entryset="Intensity of Anger Expression" filename="build\dataset\isnewae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710274992" options="" />
+		<datafield name="10" entryset="Intensity of Bodily Anger" filename="build\dataset\isnewba.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275019" options="" />
+		<datafield name="10" entryset="Intensity of Sadness Expression" filename="build\dataset\isnewse.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275046" options="" />
+		<datafield name="10" entryset="Intensity of Bodily Sadness" filename="build\dataset\isnewbs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275073" options="" />
+		<datafield name="10" entryset="Presence of Positivity" filename="build\dataset\isnewpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275100" options="" />
+		<datafield name="10" entryset="Presence os Negativity" filename="build\dataset\isnewpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275127" options="" />
+		<datafield name="10" entryset="Number of Crititques" filename="build\dataset\isnewnc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275154" options="" />
+		<datafield name="11" entryset="Intensity of Anger Expression" filename="build\dataset\isnewae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710274993" options="" />
+		<datafield name="11" entryset="Intensity of Bodily Anger" filename="build\dataset\isnewba.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275020" options="" />
+		<datafield name="11" entryset="Intensity of Sadness Expression" filename="build\dataset\isnewse.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275047" options="" />
+		<datafield name="11" entryset="Intensity of Bodily Sadness" filename="build\dataset\isnewbs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275074" options="" />
+		<datafield name="11" entryset="Presence of Positivity" filename="build\dataset\isnewpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275101" options="" />
+		<datafield name="11" entryset="Presence os Negativity" filename="build\dataset\isnewpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275128" options="" />
+		<datafield name="11" entryset="Number of Crititques" filename="build\dataset\isnewnc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275155" options="" />
+		<datafield name="12" entryset="Intensity of Anger Expression" filename="build\dataset\isnewae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710274994" options="" />
+		<datafield name="12" entryset="Intensity of Bodily Anger" filename="build\dataset\isnewba.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275021" options="" />
+		<datafield name="12" entryset="Intensity of Sadness Expression" filename="build\dataset\isnewse.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275048" options="" />
+		<datafield name="12" entryset="Intensity of Bodily Sadness" filename="build\dataset\isnewbs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275075" options="" />
+		<datafield name="12" entryset="Presence of Positivity" filename="build\dataset\isnewpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275102" options="" />
+		<datafield name="12" entryset="Presence os Negativity" filename="build\dataset\isnewpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275129" options="" />
+		<datafield name="12" entryset="Number of Crititques" filename="build\dataset\isnewnc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275156" options="" />
+	</componentset>
+	<componentset name="Minute 3" abrv="min 3" numcols="2" displayheader="true" header="Minute 3">
+		<datafield name="13" entryset="Intensity of Anger Expression" filename="build\dataset\isnewae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710274995" options="" />
+		<datafield name="13" entryset="Intensity of Bodily Anger" filename="build\dataset\isnewba.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275022" options="" />
+		<datafield name="13" entryset="Intensity of Sadness Expression" filename="build\dataset\isnewse.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275049" options="" />
+		<datafield name="13" entryset="Intensity of Bodily Sadness" filename="build\dataset\isnewbs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275076" options="" />
+		<datafield name="13" entryset="Presence of Positivity" filename="build\dataset\isnewpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275103" options="" />
+		<datafield name="13" entryset="Presence os Negativity" filename="build\dataset\isnewpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275130" options="" />
+		<datafield name="13" entryset="Number of Crititques" filename="build\dataset\isnewnc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275157" options="" />
+		<datafield name="14" entryset="Intensity of Anger Expression" filename="build\dataset\isnewae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710274996" options="" />
+		<datafield name="14" entryset="Intensity of Bodily Anger" filename="build\dataset\isnewba.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275023" options="" />
+		<datafield name="14" entryset="Intensity of Sadness Expression" filename="build\dataset\isnewse.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275050" options="" />
+		<datafield name="14" entryset="Intensity of Bodily Sadness" filename="build\dataset\isnewbs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275077" options="" />
+		<datafield name="14" entryset="Presence of Positivity" filename="build\dataset\isnewpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275104" options="" />
+		<datafield name="14" entryset="Presence os Negativity" filename="build\dataset\isnewpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275131" options="" />
+		<datafield name="14" entryset="Number of Crititques" filename="build\dataset\isnewnc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275158" options="" />
+		<datafield name="15" entryset="Intensity of Anger Expression" filename="build\dataset\isnewae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710274997" options="" />
+		<datafield name="15" entryset="Intensity of Bodily Anger" filename="build\dataset\isnewba.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275024" options="" />
+		<datafield name="15" entryset="Intensity of Sadness Expression" filename="build\dataset\isnewse.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275051" options="" />
+		<datafield name="15" entryset="Intensity of Bodily Sadness" filename="build\dataset\isnewbs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275078" options="" />
+		<datafield name="15" entryset="Presence of Positivity" filename="build\dataset\isnewpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275105" options="" />
+		<datafield name="15" entryset="Presence os Negativity" filename="build\dataset\isnewpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275132" options="" />
+		<datafield name="15" entryset="Number of Crititques" filename="build\dataset\isnewnc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275159" options="" />
+		<datafield name="16" entryset="Intensity of Anger Expression" filename="build\dataset\isnewae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710274998" options="" />
+		<datafield name="16" entryset="Intensity of Bodily Anger" filename="build\dataset\isnewba.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275025" options="" />
+		<datafield name="16" entryset="Intensity of Sadness Expression" filename="build\dataset\isnewse.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275052" options="" />
+		<datafield name="16" entryset="Intensity of Bodily Sadness" filename="build\dataset\isnewbs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275079" options="" />
+		<datafield name="16" entryset="Presence of Positivity" filename="build\dataset\isnewpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275106" options="" />
+		<datafield name="16" entryset="Presence os Negativity" filename="build\dataset\isnewpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275133" options="" />
+		<datafield name="16" entryset="Number of Crititques" filename="build\dataset\isnewnc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275160" options="" />
+		<datafield name="17" entryset="Intensity of Anger Expression" filename="build\dataset\isnewae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710274999" options="" />
+		<datafield name="17" entryset="Intensity of Bodily Anger" filename="build\dataset\isnewba.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275026" options="" />
+		<datafield name="17" entryset="Intensity of Sadness Expression" filename="build\dataset\isnewse.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275053" options="" />
+		<datafield name="17" entryset="Intensity of Bodily Sadness" filename="build\dataset\isnewbs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275080" options="" />
+		<datafield name="17" entryset="Presence of Positivity" filename="build\dataset\isnewpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275107" options="" />
+		<datafield name="17" entryset="Presence os Negativity" filename="build\dataset\isnewpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275134" options="" />
+		<datafield name="17" entryset="Number of Crititques" filename="build\dataset\isnewnc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275161" options="" />
+		<datafield name="18" entryset="Intensity of Anger Expression" filename="build\dataset\isnewae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275000" options="" />
+		<datafield name="18" entryset="Intensity of Bodily Anger" filename="build\dataset\isnewba.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275027" options="" />
+		<datafield name="18" entryset="Intensity of Sadness Expression" filename="build\dataset\isnewse.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275054" options="" />
+		<datafield name="18" entryset="Intensity of Bodily Sadness" filename="build\dataset\isnewbs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275081" options="" />
+		<datafield name="18" entryset="Presence of Positivity" filename="build\dataset\isnewpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275108" options="" />
+		<datafield name="18" entryset="Presence os Negativity" filename="build\dataset\isnewpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275135" options="" />
+		<datafield name="18" entryset="Number of Crititques" filename="build\dataset\isnewnc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275162" options="" />
+	</componentset>
+	<componentset name="Minute 4" abrv="min 4" numcols="2" displayheader="true" header="Minute 4">
+		<datafield name="19" entryset="Intensity of Anger Expression" filename="build\dataset\isnewae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275001" options="" />
+		<datafield name="19" entryset="Intensity of Bodily Anger" filename="build\dataset\isnewba.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275028" options="" />
+		<datafield name="19" entryset="Intensity of Sadness Expression" filename="build\dataset\isnewse.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275055" options="" />
+		<datafield name="19" entryset="Intensity of Bodily Sadness" filename="build\dataset\isnewbs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275082" options="" />
+		<datafield name="19" entryset="Presence of Positivity" filename="build\dataset\isnewpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275109" options="" />
+		<datafield name="19" entryset="Presence os Negativity" filename="build\dataset\isnewpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275136" options="" />
+		<datafield name="19" entryset="Number of Crititques" filename="build\dataset\isnewnc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275163" options="" />
+		<datafield name="20" entryset="Intensity of Anger Expression" filename="build\dataset\isnewae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275002" options="" />
+		<datafield name="20" entryset="Intensity of Bodily Anger" filename="build\dataset\isnewba.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275029" options="" />
+		<datafield name="20" entryset="Intensity of Sadness Expression" filename="build\dataset\isnewse.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275056" options="" />
+		<datafield name="20" entryset="Intensity of Bodily Sadness" filename="build\dataset\isnewbs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275083" options="" />
+		<datafield name="20" entryset="Presence of Positivity" filename="build\dataset\isnewpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275110" options="" />
+		<datafield name="20" entryset="Presence os Negativity" filename="build\dataset\isnewpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275137" options="" />
+		<datafield name="20" entryset="Number of Crititques" filename="build\dataset\isnewnc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275164" options="" />
+		<datafield name="21" entryset="Intensity of Anger Expression" filename="build\dataset\isnewae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275003" options="" />
+		<datafield name="21" entryset="Intensity of Bodily Anger" filename="build\dataset\isnewba.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275030" options="" />
+		<datafield name="21" entryset="Intensity of Sadness Expression" filename="build\dataset\isnewse.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275057" options="" />
+		<datafield name="21" entryset="Intensity of Bodily Sadness" filename="build\dataset\isnewbs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275084" options="" />
+		<datafield name="21" entryset="Presence of Positivity" filename="build\dataset\isnewpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275111" options="" />
+		<datafield name="21" entryset="Presence os Negativity" filename="build\dataset\isnewpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275138" options="" />
+		<datafield name="21" entryset="Number of Crititques" filename="build\dataset\isnewnc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275165" options="" />
+		<datafield name="22" entryset="Intensity of Anger Expression" filename="build\dataset\isnewae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275004" options="" />
+		<datafield name="22" entryset="Intensity of Bodily Anger" filename="build\dataset\isnewba.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275031" options="" />
+		<datafield name="22" entryset="Intensity of Sadness Expression" filename="build\dataset\isnewse.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275058" options="" />
+		<datafield name="22" entryset="Intensity of Bodily Sadness" filename="build\dataset\isnewbs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275085" options="" />
+		<datafield name="22" entryset="Presence of Positivity" filename="build\dataset\isnewpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275112" options="" />
+		<datafield name="22" entryset="Presence os Negativity" filename="build\dataset\isnewpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275139" options="" />
+		<datafield name="22" entryset="Number of Crititques" filename="build\dataset\isnewnc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275166" options="" />
+		<datafield name="23" entryset="Intensity of Anger Expression" filename="build\dataset\isnewae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275005" options="" />
+		<datafield name="23" entryset="Intensity of Bodily Anger" filename="build\dataset\isnewba.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275032" options="" />
+		<datafield name="23" entryset="Intensity of Sadness Expression" filename="build\dataset\isnewse.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275059" options="" />
+		<datafield name="23" entryset="Intensity of Bodily Sadness" filename="build\dataset\isnewbs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275086" options="" />
+		<datafield name="23" entryset="Presence of Positivity" filename="build\dataset\isnewpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275113" options="" />
+		<datafield name="23" entryset="Presence os Negativity" filename="build\dataset\isnewpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275140" options="" />
+		<datafield name="23" entryset="Number of Crititques" filename="build\dataset\isnewnc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275167" options="" />
+		<datafield name="24" entryset="Intensity of Anger Expression" filename="build\dataset\isnewae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275006" options="" />
+		<datafield name="24" entryset="Intensity of Bodily Anger" filename="build\dataset\isnewba.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275033" options="" />
+		<datafield name="24" entryset="Intensity of Sadness Expression" filename="build\dataset\isnewse.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275060" options="" />
+		<datafield name="24" entryset="Intensity of Bodily Sadness" filename="build\dataset\isnewbs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275087" options="" />
+		<datafield name="24" entryset="Presence of Positivity" filename="build\dataset\isnewpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275114" options="" />
+		<datafield name="24" entryset="Presence os Negativity" filename="build\dataset\isnewpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275141" options="" />
+		<datafield name="24" entryset="Number of Crititques" filename="build\dataset\isnewnc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710275168" options="" />
+		<datafield name="Presence of Vocalizations" entryset="Tester" filename="build\dataset\isnewtester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710274977" options="" />
+		<datafield name="Right Handed" entryset="Tester" filename="build\dataset\isnewtester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710274978" options="" />
+		<datafield name="Left Handed" entryset="Tester" filename="build\dataset\isnewtester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062710274979" options="" />
+		<datafield name="Special Flag" entryset="Tester" filename="build\dataset\isnewtester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017837" options="" />
+		<datafield name="Comments" entryset="Tester" filename="build\dataset\isnewtester.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1082397697657" options="" />
+	</componentset>
+	<componentset name="Language Coding" abrv="coding" numcols="2" displayheader="true" header="Language Coding">
+		<datafield name="Latency to First Anger Vocalization" entryset="Tester" filename="build\dataset\isnewtester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064593438716" options="" />
+		<datafield name="Latency to First Sadness Vocalization" entryset="Tester" filename="build\dataset\isnewtester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064593438717" options="" />
+		<module class="com.wtp.jforms.ui.control.module.Header" options="Time Block 1" />
+		<datafield name="1" entryset="Anger Vocalizations" filename="build\dataset\isnewav.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706018021" options="" />
+		<datafield name="1" entryset="Sadness Vocalizations" filename="build\dataset\isnewsv.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706018028" options="" />
+		<datafield name="1" entryset="Positive Vocalizations" filename="build\dataset\isnewpv.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706018035" options="" />
+		<module class="com.wtp.jforms.ui.control.module.Header" options="Time Block 2" />
+		<datafield name="2" entryset="Anger Vocalizations" filename="build\dataset\isnewav.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706018022" options="" />
+		<datafield name="2" entryset="Sadness Vocalizations" filename="build\dataset\isnewsv.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706018029" options="" />
+		<datafield name="2" entryset="Positive Vocalizations" filename="build\dataset\isnewpv.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706018036" options="" />
+		<module class="com.wtp.jforms.ui.control.module.Header" options="Time Block 3" />
+		<datafield name="3" entryset="Anger Vocalizations" filename="build\dataset\isnewav.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706018023" options="" />
+		<datafield name="3" entryset="Sadness Vocalizations" filename="build\dataset\isnewsv.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706018030" options="" />
+		<datafield name="3" entryset="Positive Vocalizations" filename="build\dataset\isnewpv.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706018037" options="" />
+		<module class="com.wtp.jforms.ui.control.module.Header" options="Time Block 4" />
+		<datafield name="4" entryset="Anger Vocalizations" filename="build\dataset\isnewav.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706018024" options="" />
+		<datafield name="4" entryset="Sadness Vocalizations" filename="build\dataset\isnewsv.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706018031" options="" />
+		<datafield name="4" entryset="Positive Vocalizations" filename="build\dataset\isnewpv.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706018038" options="" />
+	</componentset>
+</form>
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Taste Smell Processing" abrv="spsp" filename="sdspsp">
+	<template name="temp1">
+		<name format="@" />
+		<field format="spsp@" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<validator name="val15_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="5">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<data name="1" field="001" template="temp1" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1087322059332" />
+	<data name="2" field="002" template="temp1" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1087322059333" />
+	<data name="3" field="003" template="temp1" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1087322059334" />
+	<data name="4" field="004" template="temp1" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1087322059335" />
+	<data name="5" field="005" template="temp1" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1087322059336" />
+	<data name="6" field="006" template="temp1" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1087322059337" />
+	<data name="7" field="007" template="temp1" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1087322059338" />
+	<data name="8" field="008" template="temp1" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1087322059339" />
+</dataset>
+

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Childs Birth" abrv="shcb" filename="sdshcd">
+	<template name="temp1">
+		<name format="" />
+		<field format="cb@" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<validator name="yesno01_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="1">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<key name="Twin" field="twin" template="na" validator="INTEGER" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<data name="Cesarean Section" field="001" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1088614832864" />
+	<data name="Breach" field="002" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1088614832865" />
+	<data name="Face presentation" field="003" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1088614832866" />
+	<data name="Transverse" field="004" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1088614832867" />
+	<data name="Have cord wrapped around neck" field="005" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1088614832868" />
+	<data name="Difficulties with cords" field="006" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1088614832869" />
+	<data name="Describe difficulties" field="06s" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1088614832870" />
+	<data name="Require forceps" field="007" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1088614832871" />
+	<data name="Require suction" field="008" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1088614832872" />
+	<data name="Have birth injuries" field="009" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1088614832873" />
+	<data name="Describe injuries" field="09s" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1088614832874" />
+	<data name="Require a fetal monitor" field="010" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1088614832875" />
+	<data name="Insufficient oxygen" field="011" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1088614832876" />
+	<data name="Cry right away" field="012" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1088614832877" />
+	<data name="Need intensive care or hospitalization" field="013" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1088614832878" />
+	<data name="How long" field="13as" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1088614832879" />
+	<data name="Prematurity" field="13b" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1088614832880" />
+	<data name="Repiratory problems" field="13c" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1088614832881" />
+	<data name="Describe problems" field="13cs" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1088614832882" />
+	<data name="Need respirator" field="13d" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1089076024458" />
+	<data name="Explain respirator" field="13ds" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1089076024459" />
+	<data name="Small for gestational age" field="13e" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1088614832883" />
+	<data name="Describe related problems" field="13es" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1088614832884" />
+	<data name="Heart defect" field="13f" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1088614832885" />
+	<data name="Describe defect" field="13fs" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1088614832886" />
+	<data name="Need exchange transfusion" field="13g" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1088614832887" />
+	<data name="Describe transfusion" field="13gs" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1088614832888" />
+	<data name="Jaundiced" field="13h" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1088614832889" />
+	<data name="Describe jaundiced" field="13hs" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1088614832890" />
+	<data name="Have congenital abnormalitites" field="13i" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1088614832891" />
+	<data name="Describe abnormalities" field="13is" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1088614832892" />
+	<data name="Have seizures" field="13j" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1088614832893" />
+	<data name="Describe seizures" field="13js" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1088614832894" />
+	<data name="Have infection at birth" field="13k" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1088614832895" />
+	<data name="Describe infection" field="13ks" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1088614832896" />
+	<data name="Have surgery as a newborn" field="13l" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1088614832897" />
+	<data name="Describe surgery" field="13ls" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1088614832898" />
+	<data name="Have feeding problems as a newborn" field="13m" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1088614832899" />
+	<data name="Describe feeding problems" field="13ms" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1088614832900" />
+	<data name="Comments" field="co" template="temp1" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1088614832901" />
+	<dependency field="Describe difficulties">
+		<parent field="Difficulties with cords" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Describe injuries">
+		<parent field="Have birth injuries" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="How long">
+		<parent field="Need intensive care or hospitalization" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Describe problems">
+		<parent field="Repiratory problems" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Describe related problems">
+		<parent field="Small for gestational age" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Describe defect">
+		<parent field="Heart defect" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Describe transfusion">
+		<parent field="Need exchange transfusion" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Describe jaundiced">
+		<parent field="Jaundiced" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Describe abnormalities">
+		<parent field="Have congenital abnormalitites" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Describe seizures">
+		<parent field="Have seizures" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Describe infection">
+		<parent field="Have infection at birth" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Describe surgery">
+		<parent field="Have surgery as a newborn" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Describe feeding problems">
+		<parent field="Have feeding problems as a newborn" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Explain respirator">
+		<parent field="Need respirator" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+</dataset>
+

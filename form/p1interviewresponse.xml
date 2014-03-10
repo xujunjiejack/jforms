@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Inteview Response" abrv="inir" filename="p1interviewresponse">
+	<dataset file="interviewm" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_IN_M" />
+	<dataset file="p1dates" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_DATES" />
+	<dataset file="p1zygosityinterview" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_ZY" />
+	<dataset file="specialflag" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="GEN_FAMILY" />
+	<key name="Family Id" entryset="Interview Mother" filename="interviewm" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Data Mode" entryset="Interview Mother" filename="interviewm" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="Interview Response" abrv="INIR" numcols="2" displayheader="true" header="Interview Response">
+		<datafield name="Respondent" entryset="Interview Mother" filename="build\dataset\interviewm.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048187006121" options="" />
+		<datafield name="Phone Interview" entryset="P1 Dates" filename="build\dataset\p1dates.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1199916000969" options="0,MM/dd/yyyy" />
+		<datafield name="Caregiver" entryset="Interview Mother" filename="build\dataset\interviewm.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048633615872" options="" />
+		<datafield name="Interested" entryset="Interview Mother" filename="build\dataset\interviewm.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048187006125" options="" />
+		<datafield name="Relaxed" entryset="Interview Mother" filename="build\dataset\interviewm.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048187006126" options="" />
+		<datafield name="Comprehending" entryset="Interview Mother" filename="build\dataset\interviewm.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048187006127" options="" />
+		<datafield name="Frank" entryset="Interview Mother" filename="build\dataset\interviewm.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048187006128" options="" />
+		<datafield name="Talkative" entryset="Interview Mother" filename="build\dataset\interviewm.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048187006129" options="" />
+		<datafield name="Assertive" entryset="Interview Mother" filename="build\dataset\interviewm.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048187006131" options="" />
+		<datafield name="Impulsive" entryset="Interview Mother" filename="build\dataset\interviewm.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048187006132" options="" />
+		<datafield name="Zygosity" entryset="P1 Zygosity Interview" filename="build\dataset\p1zygosityinterview.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200425568341" options="" />
+		<datafield name="Tricky Zygosity" entryset="P1 Zygosity Interview" filename="build\dataset\p1zygosityinterview.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200425568342" options="" />
+		<datafield name="Picture Requested" entryset="P1 Zygosity Interview" filename="build\dataset\p1zygosityinterview.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200425568343" options="" />
+		<datafield name="Picture Included" entryset="P1 Zygosity Interview" filename="build\dataset\p1zygosityinterview.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200425568344" options="" />
+		<datafield name="Special Flag" entryset="Special Flag" filename="build\dataset\specialflag.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1191884590260" options="" />
+		<datafield name="Special Flag Explain" entryset="Special Flag" filename="build\dataset\specialflag.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1191884590261" options="" />
+		<datafield name="Comments" entryset="Interview Mother" filename="build\dataset\interviewm.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1048187006144" options="" />
+	</componentset>
+</form>
+

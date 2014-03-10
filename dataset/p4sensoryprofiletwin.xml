@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Sensory Profile Twin" abrv="p4sensoryprofiletwin" filename="p4sensoryprofiletwin">
+	<template name="auditory">
+		<name format="AP @" />
+		<field format="auap@t" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<template name="touch">
+		<name format="TP @" />
+		<field format="autp@t" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<validator name="val15_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="5">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<key name="Twin" field="twin" template="na" validator="INTEGER" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<data name="1" field="001" template="touch" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211315205313" />
+	<data name="2" field="002" template="touch" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211315205314" />
+	<data name="3" field="003" template="touch" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211315205315" />
+	<data name="4" field="004" template="touch" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211315205316" />
+	<data name="5" field="005" template="touch" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211315205317" />
+	<data name="6" field="006" template="touch" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211315205318" />
+	<data name="7" field="007" template="touch" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211315205319" />
+	<data name="8" field="008" template="touch" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211315205320" />
+	<data name="9" field="009" template="touch" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211315205321" />
+	<data name="10" field="010" template="touch" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211315205322" />
+	<data name="11" field="011" template="touch" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211315215322" />
+	<data name="12" field="012" template="touch" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211315205323" />
+	<data name="13" field="013" template="touch" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211315205324" />
+	<data name="Touch Processing Comments" field="com" template="touch" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1211315205325" />
+	<data name="14" field="014" template="auditory" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211315205342" />
+	<data name="15" field="015" template="auditory" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211315205343" />
+	<data name="16" field="016" template="auditory" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211315205344" />
+	<data name="17" field="017" template="auditory" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211315205345" />
+	<data name="18" field="018" template="auditory" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211315205346" />
+	<data name="19" field="019" template="auditory" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211315205347" />
+	<data name="20" field="020" template="auditory" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211315205348" />
+	<data name="21" field="021" template="auditory" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211315205349" />
+	<data name="22" field="022" template="auditory" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211315205350" />
+	<data name="23" field="023" template="auditory" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211315205351" />
+	<data name="24" field="024" template="auditory" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211315205352" />
+	<data name="Auditory Processing Comments" field="com" template="auditory" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1211315205353" />
+</dataset>
+

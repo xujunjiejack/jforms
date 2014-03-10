@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Berkeley Puppet Interview" abrv="bpi" filename="p3bpi">
+	<dataset file="bptester" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_BP_SY_T" />
+	<dataset file="bpoa" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_BP_SY_T" />
+	<dataset file="bpim" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_BP_SY_T" />
+	<dataset file="bpcd" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_BP_SY_T" />
+	<dataset file="bpsa" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_BP_SY_T" />
+	<dataset file="bpde" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_BP_SY_T" />
+	<dataset file="bpag" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_BP_SY_T" />
+	<dataset file="bpat" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_BP_SY_T" />
+	<dataset file="bpod" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_BP_SY_T" />
+	<dataset file="bpen" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_BP_SY_T" />
+	<dataset file="bpgi" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_BP_SY_T" />
+	<key name="Family Id" entryset="Overanxiousness" filename="bpoa" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Twin" entryset="Overanxiousness" filename="bpoa" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Twin,A:1,B:2" />
+	<key name="Data Mode" entryset="Overanxiousness" filename="bpoa" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="BPI" abrv="bpi" numcols="2" displayheader="true" header="BPI">
+		<datafield name="Episode order" entryset="Tester" filename="build\dataset\bptester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475579" options="" />
+		<datafield name="Scorer" entryset="Tester" filename="build\dataset\bptester.xml" type="0" class="com.wtp.jforms.ui.control.smart.ComboFieldBox" editable="true" classid="1052931475578" options="0,Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_STAFF,number" />
+		<datafield name="Child tester" entryset="Tester" filename="build\dataset\bptester.xml" type="0" class="com.wtp.jforms.ui.control.smart.ComboFieldBox" editable="true" classid="1052931475580" options="0,Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_STAFF,number" />
+		<datafield name="Baseline" entryset="Tester" filename="build\dataset\bptester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475581" options="" />
+		<datafield name="1" entryset="Overanxiousness" filename="build\dataset\bpoa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685627" options="" />
+		<datafield name="1c" entryset="Overanxiousness" filename="build\dataset\bpoa.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685628" options="" />
+		<datafield name="2" entryset="Impulsivity" filename="build\dataset\bpim.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685595" options="" />
+		<datafield name="2c" entryset="Impulsivity" filename="build\dataset\bpim.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685596" options="" />
+		<datafield name="3" entryset="Conduct" filename="build\dataset\bpcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685542" options="" />
+		<datafield name="3c" entryset="Conduct" filename="build\dataset\bpcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685543" options="" />
+		<datafield name="4" entryset="Separation Anxiety" filename="build\dataset\bpsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685661" options="" />
+		<datafield name="4c" entryset="Separation Anxiety" filename="build\dataset\bpsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685662" options="" />
+		<datafield name="5" entryset="Depression" filename="build\dataset\bpde.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685563" options="" />
+		<datafield name="5c" entryset="Depression" filename="build\dataset\bpde.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685564" options="" />
+		<datafield name="6" entryset="Overt Aggression" filename="build\dataset\bpag.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685610" options="" />
+		<datafield name="6c" entryset="Overt Aggression" filename="build\dataset\bpag.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685611" options="" />
+		<datafield name="7" entryset="Overanxiousness" filename="build\dataset\bpoa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685629" options="" />
+		<datafield name="7c" entryset="Overanxiousness" filename="build\dataset\bpoa.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685630" options="" />
+		<datafield name="8" entryset="Depression" filename="build\dataset\bpde.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685565" options="" />
+		<datafield name="8c" entryset="Depression" filename="build\dataset\bpde.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685566" options="" />
+		<datafield name="9" entryset="Depression" filename="build\dataset\bpde.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685567" options="" />
+		<datafield name="9c" entryset="Depression" filename="build\dataset\bpde.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685568" options="" />
+		<datafield name="10" entryset="Conduct" filename="build\dataset\bpcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685544" options="" />
+		<datafield name="10c" entryset="Conduct" filename="build\dataset\bpcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685545" options="" />
+		<datafield name="11" entryset="Separation Anxiety" filename="build\dataset\bpsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685663" options="" />
+		<datafield name="11c" entryset="Separation Anxiety" filename="build\dataset\bpsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685664" options="" />
+		<datafield name="12" entryset="Inattention" filename="build\dataset\bpat.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915686228" options="" />
+		<datafield name="12c" entryset="Inattention" filename="build\dataset\bpat.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915686229" options="" />
+		<datafield name="13" entryset="Overt Aggression" filename="build\dataset\bpag.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685612" options="" />
+		<datafield name="13c" entryset="Overt Aggression" filename="build\dataset\bpag.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685613" options="" />
+		<datafield name="14" entryset="Overanxiousness" filename="build\dataset\bpoa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685631" options="" />
+		<datafield name="14c" entryset="Overanxiousness" filename="build\dataset\bpoa.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685632" options="" />
+		<datafield name="15" entryset="Depression" filename="build\dataset\bpde.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685569" options="" />
+		<datafield name="15c" entryset="Depression" filename="build\dataset\bpde.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685570" options="" />
+		<datafield name="16" entryset="Impulsivity" filename="build\dataset\bpim.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685597" options="" />
+		<datafield name="16c" entryset="Impulsivity" filename="build\dataset\bpim.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685598" options="" />
+		<datafield name="17" entryset="Conduct" filename="build\dataset\bpcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685546" options="" />
+		<datafield name="17c" entryset="Conduct" filename="build\dataset\bpcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685547" options="" />
+		<datafield name="18" entryset="Overt Aggression" filename="build\dataset\bpag.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685614" options="" />
+		<datafield name="18c" entryset="Overt Aggression" filename="build\dataset\bpag.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685615" options="" />
+		<datafield name="19" entryset="Separation Anxiety" filename="build\dataset\bpsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685665" options="" />
+		<datafield name="19c" entryset="Separation Anxiety" filename="build\dataset\bpsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685666" options="" />
+		<datafield name="20" entryset="Inattention" filename="build\dataset\bpat.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915686230" options="" />
+		<datafield name="20c" entryset="Inattention" filename="build\dataset\bpat.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915686231" options="" />
+		<datafield name="21" entryset="Overt Aggression" filename="build\dataset\bpag.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685616" options="" />
+		<datafield name="21c" entryset="Overt Aggression" filename="build\dataset\bpag.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685617" options="" />
+		<datafield name="22" entryset="Overanxiousness" filename="build\dataset\bpoa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685633" options="" />
+		<datafield name="22c" entryset="Overanxiousness" filename="build\dataset\bpoa.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685634" options="" />
+		<datafield name="23" entryset="Depression" filename="build\dataset\bpde.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685571" options="" />
+		<datafield name="23c" entryset="Depression" filename="build\dataset\bpde.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685572" options="" />
+		<datafield name="24" entryset="Impulsivity" filename="build\dataset\bpim.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685599" options="" />
+		<datafield name="24c" entryset="Impulsivity" filename="build\dataset\bpim.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685600" options="" />
+		<datafield name="25" entryset="Overanxiousness" filename="build\dataset\bpoa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685635" options="" />
+		<datafield name="25c" entryset="Overanxiousness" filename="build\dataset\bpoa.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685636" options="" />
+		<datafield name="25p" entryset="Overanxiousness" filename="build\dataset\bpoa.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915686636" options="" />
+		<datafield name="26" entryset="Inattention" filename="build\dataset\bpat.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915686232" options="" />
+		<datafield name="26c" entryset="Inattention" filename="build\dataset\bpat.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915686233" options="" />
+		<datafield name="27" entryset="Separation Anxiety" filename="build\dataset\bpsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685667" options="" />
+		<datafield name="27c" entryset="Separation Anxiety" filename="build\dataset\bpsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685668" options="" />
+		<datafield name="28" entryset="Inattention" filename="build\dataset\bpat.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915686234" options="" />
+		<datafield name="28c" entryset="Inattention" filename="build\dataset\bpat.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915686235" options="" />
+		<datafield name="29" entryset="Overt Aggression" filename="build\dataset\bpag.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685618" options="" />
+		<datafield name="29c" entryset="Overt Aggression" filename="build\dataset\bpag.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685619" options="" />
+		<datafield name="30" entryset="Overanxiousness" filename="build\dataset\bpoa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685637" options="" />
+		<datafield name="30c" entryset="Overanxiousness" filename="build\dataset\bpoa.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685638" options="" />
+		<datafield name="31" entryset="Depression" filename="build\dataset\bpde.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685573" options="" />
+		<datafield name="31c" entryset="Depression" filename="build\dataset\bpde.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685574" options="" />
+		<datafield name="32" entryset="Impulsivity" filename="build\dataset\bpim.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685601" options="" />
+		<datafield name="32c" entryset="Impulsivity" filename="build\dataset\bpim.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685602" options="" />
+		<datafield name="33" entryset="Opposition and Defiance" filename="build\dataset\bpod.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685646" options="" />
+		<datafield name="33c" entryset="Opposition and Defiance" filename="build\dataset\bpod.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685647" options="" />
+		<datafield name="34" entryset="Conduct" filename="build\dataset\bpcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685548" options="" />
+		<datafield name="34c" entryset="Conduct" filename="build\dataset\bpcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685549" options="" />
+		<datafield name="35" entryset="Separation Anxiety" filename="build\dataset\bpsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685669" options="" />
+		<datafield name="35c" entryset="Separation Anxiety" filename="build\dataset\bpsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685670" options="" />
+		<datafield name="36" entryset="Inattention" filename="build\dataset\bpat.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915686236" options="" />
+		<datafield name="36c" entryset="Inattention" filename="build\dataset\bpat.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915686237" options="" />
+		<datafield name="37" entryset="Opposition and Defiance" filename="build\dataset\bpod.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685648" options="" />
+		<datafield name="37c" entryset="Opposition and Defiance" filename="build\dataset\bpod.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685649" options="" />
+		<datafield name="38" entryset="Overanxiousness" filename="build\dataset\bpoa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685639" options="" />
+		<datafield name="38c" entryset="Overanxiousness" filename="build\dataset\bpoa.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685640" options="" />
+		<datafield name="38p" entryset="Overanxiousness" filename="build\dataset\bpoa.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915686640" options="" />
+		<datafield name="39" entryset="Depression" filename="build\dataset\bpde.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685575" options="" />
+		<datafield name="39c" entryset="Depression" filename="build\dataset\bpde.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685576" options="" />
+		<datafield name="40" entryset="Impulsivity" filename="build\dataset\bpim.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685603" options="" />
+		<datafield name="40c" entryset="Impulsivity" filename="build\dataset\bpim.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685604" options="" />
+		<datafield name="41" entryset="Overt Aggression" filename="build\dataset\bpag.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685620" options="" />
+		<datafield name="41c" entryset="Overt Aggression" filename="build\dataset\bpag.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685621" options="" />
+		<datafield name="42" entryset="Separation Anxiety" filename="build\dataset\bpsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685671" options="" />
+		<datafield name="42c" entryset="Separation Anxiety" filename="build\dataset\bpsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685672" options="" />
+		<datafield name="43" entryset="Inattention" filename="build\dataset\bpat.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915686238" options="" />
+		<datafield name="43c" entryset="Inattention" filename="build\dataset\bpat.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915686239" options="" />
+		<datafield name="44" entryset="Depression" filename="build\dataset\bpde.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685577" options="" />
+		<datafield name="44c" entryset="Depression" filename="build\dataset\bpde.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685578" options="" />
+		<datafield name="44p" entryset="Depression" filename="build\dataset\bpde.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915686578" options="" />
+		<datafield name="45" entryset="Depression" filename="build\dataset\bpde.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685579" options="" />
+		<datafield name="45c" entryset="Depression" filename="build\dataset\bpde.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685580" options="" />
+		<datafield name="46" entryset="Impulsivity" filename="build\dataset\bpim.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685605" options="" />
+		<datafield name="46c" entryset="Impulsivity" filename="build\dataset\bpim.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685606" options="" />
+		<datafield name="47" entryset="Overt Aggression" filename="build\dataset\bpag.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685622" options="" />
+		<datafield name="47c" entryset="Overt Aggression" filename="build\dataset\bpag.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685623" options="" />
+		<datafield name="48" entryset="Opposition and Defiance" filename="build\dataset\bpod.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685650" options="" />
+		<datafield name="48c" entryset="Opposition and Defiance" filename="build\dataset\bpod.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685651" options="" />
+		<datafield name="49" entryset="Conduct" filename="build\dataset\bpcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685550" options="" />
+		<datafield name="49c" entryset="Conduct" filename="build\dataset\bpcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685551" options="" />
+		<datafield name="50" entryset="Depression" filename="build\dataset\bpde.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685581" options="" />
+		<datafield name="50c" entryset="Depression" filename="build\dataset\bpde.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685582" options="" />
+		<datafield name="51" entryset="Separation Anxiety" filename="build\dataset\bpsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685673" options="" />
+		<datafield name="51c" entryset="Separation Anxiety" filename="build\dataset\bpsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685674" options="" />
+		<datafield name="52" entryset="Opposition and Defiance" filename="build\dataset\bpod.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685652" options="" />
+		<datafield name="52c" entryset="Opposition and Defiance" filename="build\dataset\bpod.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685653" options="" />
+		<datafield name="53" entryset="Enuresis" filename="build\dataset\bpen.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685588" options="" />
+		<datafield name="53c" entryset="Enuresis" filename="build\dataset\bpen.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685589" options="" />
+		<datafield name="54" entryset="Conduct" filename="build\dataset\bpcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685552" options="" />
+		<datafield name="54c" entryset="Conduct" filename="build\dataset\bpcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685553" options="" />
+		<datafield name="54p" entryset="Conduct" filename="build\dataset\bpcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915686553" options="" />
+		<datafield name="55" entryset="Conduct" filename="build\dataset\bpcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685554" options="" />
+		<datafield name="55c" entryset="Conduct" filename="build\dataset\bpcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685555" options="" />
+		<datafield name="56" entryset="Depression" filename="build\dataset\bpde.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685583" options="" />
+		<datafield name="56c" entryset="Depression" filename="build\dataset\bpde.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685584" options="" />
+		<datafield name="57" entryset="Conduct" filename="build\dataset\bpcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685556" options="" />
+		<datafield name="57c" entryset="Conduct" filename="build\dataset\bpcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685557" options="" />
+		<datafield name="58" entryset="Overanxiousness" filename="build\dataset\bpoa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685641" options="" />
+		<datafield name="58c" entryset="Overanxiousness" filename="build\dataset\bpoa.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685642" options="" />
+		<datafield name="59" entryset="Opposition and Defiance" filename="build\dataset\bpod.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685654" options="" />
+		<datafield name="59c" entryset="Opposition and Defiance" filename="build\dataset\bpod.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685655" options="" />
+		<datafield name="60" entryset="Enuresis" filename="build\dataset\bpen.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685590" options="" />
+		<datafield name="60c" entryset="Enuresis" filename="build\dataset\bpen.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685591" options="" />
+		<datafield name="61" entryset="Opposition and Defiance" filename="build\dataset\bpod.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685656" options="" />
+		<datafield name="61c" entryset="Opposition and Defiance" filename="build\dataset\bpod.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685657" options="" />
+		<datafield name="62" entryset="Conduct" filename="build\dataset\bpcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685558" options="" />
+		<datafield name="62c" entryset="Conduct" filename="build\dataset\bpcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685559" options="" />
+	</componentset>
+	<componentset name="Global Impression Ratings" abrv="gir" numcols="2" displayheader="true" header="Global Impression Ratings">
+		<datafield name="1" entryset="Global Impression Ratings" filename="build\dataset\bpgi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685822" options="" />
+		<datafield name="2" entryset="Global Impression Ratings" filename="build\dataset\bpgi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685823" options="" />
+		<datafield name="3" entryset="Global Impression Ratings" filename="build\dataset\bpgi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685824" options="" />
+		<datafield name="4" entryset="Global Impression Ratings" filename="build\dataset\bpgi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685825" options="" />
+		<datafield name="5" entryset="Global Impression Ratings" filename="build\dataset\bpgi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685826" options="" />
+		<datafield name="6" entryset="Global Impression Ratings" filename="build\dataset\bpgi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685827" options="" />
+		<datafield name="7" entryset="Global Impression Ratings" filename="build\dataset\bpgi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685828" options="" />
+		<datafield name="8" entryset="Global Impression Ratings" filename="build\dataset\bpgi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685829" options="" />
+		<datafield name="9" entryset="Global Impression Ratings" filename="build\dataset\bpgi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685830" options="" />
+		<datafield name="10" entryset="Global Impression Ratings" filename="build\dataset\bpgi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685831" options="" />
+		<datafield name="11" entryset="Global Impression Ratings" filename="build\dataset\bpgi.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685832" options="" />
+	</componentset>
+</form>
+

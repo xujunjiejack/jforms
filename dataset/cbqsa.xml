@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Sadness" abrv="cbsa" filename="cbqsa">
+	<template name="temp1">
+		<name format="CBQ @" />
+		<field format="cbsa@" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<validator name="val17_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="7">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<key name="Twin" field="twin" template="na" validator="INTEGER" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<data name="13" field="013" template="temp1" validator="val17_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045169643126" />
+	<data name="34" field="034" template="temp1" validator="val17_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045169643127" />
+	<data name="56" field="056" template="temp1" validator="val17_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045169643128" />
+	<data name="62" field="062" template="temp1" validator="val17_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045169643129" />
+	<data name="71" field="071" template="temp1" validator="val17_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045169643130" />
+	<data name="77" field="077" template="temp1" validator="val17_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045169643131" />
+	<data name="88" field="088" template="temp1" validator="val17_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045169643132" />
+	<data name="89" field="089" template="temp1" validator="val17_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045169643133" />
+	<data name="104" field="104" template="temp1" validator="val17_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045169643134" />
+	<data name="123" field="123" template="temp1" validator="val17_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045169643135" />
+</dataset>
+

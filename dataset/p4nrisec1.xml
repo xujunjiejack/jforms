@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="NRI Section 1" abrv="p4nrisec1" filename="p4nrisec1">
+	<template name="temp">
+		<name format="NRI Section 1 - @" />
+		<field format="nr@t" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<validator name="val19_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="9">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="val04_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="4">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="val12_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="2">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="yesno01_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="1">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<key name="Twin" field="twin" template="na" validator="INTEGER" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<data name="1a" field="pr01a" template="temp" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211900073451" />
+	<data name="1b" field="pr01b" template="temp" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211900073452" />
+	<data name="1c" field="pr01c" template="temp" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211900073453" />
+	<data name="1d" field="pr01d" template="temp" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211900073454" />
+	<data name="2a" field="pr02a" template="temp" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211900073455" />
+	<data name="2b" field="pr02b" template="temp" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211900073456" />
+	<data name="2c" field="pr02c" template="temp" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211900073457" />
+	<data name="2d" field="pr02d" template="temp" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211900073458" />
+	<data name="3a" field="pr03a" template="temp" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211900073459" />
+	<data name="3b" field="pr03b" template="temp" validator="val12_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211900073460" />
+	<data name="3c" field="pr03c" template="temp" validator="val12_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211900073461" />
+	<data name="3d" field="pr03d" template="temp" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211900073462" />
+	<data name="4" field="pr004" template="temp" validator="val04_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211900073490" />
+	<data name="5" field="pr005" template="temp" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211900073491" />
+	<data name="5a" field="pr05a" template="temp" validator="val19_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211900073492" />
+	<data name="5b" field="pr05b" template="temp" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211900073493" />
+	<data name="6 First" field="pr06f" template="temp" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211900073494" />
+	<data name="6 Last" field="pr06l" template="temp" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211900073495" />
+	<data name="6a" field="pr06a" template="temp" validator="val12_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211900073496" />
+	<data name="6b (Months)" field="pr06b" template="temp" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211900073497" />
+	<data name="6c" field="pr06c" template="temp" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1211900073498" />
+	<dependency field="5a">
+		<parent field="5" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="5b">
+		<parent field="5" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+</dataset>
+

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Sensory Defensiveness Demographics" abrv="sddemo" filename="sdde">
+	<template name="temp1">
+		<name format="" />
+		<field format="de@" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<validator name="val113_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="13">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="val13_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="3">
+		<valid value="9998" />
+		<valid value="9999" />
+	</validator>
+	<validator name="yesno01_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="1">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="val620_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="6" upperbound="20">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="varchar_9998_9999" type="VARCHAR" defaultvalue="9998" allowblanks="false" lowerbound="2147483647" upperbound="2147483647">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="val14_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="4">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="val116_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="16">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="val49_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="4" upperbound="9">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="hospital_H_R" type="VARCHAR" defaultvalue="9998" allowblanks="false" lowerbound="2147483647" upperbound="2147483647">
+		<valid value="H" />
+		<valid value="R" />
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<data name="Mother Schooling" field="010" template="temp1" validator="val620_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048019587746" />
+	<data name="Father Schooling" field="011" template="temp1" validator="val620_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048019587747" />
+	<data name="Mother Working" field="12a" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048019587748" />
+	<data name="Mother Work Hrs/Week" field="12b" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048019587749" />
+	<data name="Mother Work from Home (Hrs/Week)" field="12c" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048019587750" />
+	<data name="Mother Job Title" field="12d" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048019587751" />
+	<data name="Mother Job Title 2" field="12e" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048019587752" />
+	<data name="Mother Job Activities" field="12f" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048019587753" />
+	<data name="Mother Job Activities 2" field="12g" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048019587754" />
+	<data name="Mother Not Working" field="12h" template="temp1" validator="val14_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048019587755" />
+	<data name="Mother Not Working Other Explain" field="12he" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048019587756" />
+	<data name="Father Working" field="13a" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048019587757" />
+	<data name="Father Work Hrs/Week" field="13b" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048019587758" />
+	<data name="Father Work from Home (Hrs/Week)" field="13c" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048019587759" />
+	<data name="Father Job Title" field="13d" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048019587760" />
+	<data name="Father Job Title 2" field="13e" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048019587761" />
+	<data name="Father Job Activities" field="13f" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048019587762" />
+	<data name="Father Job Activities 2" field="13g" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048019587763" />
+	<data name="Father Not Working" field="13h" template="temp1" validator="val14_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048019587764" />
+	<data name="Father Not Working Other Explain" field="13he" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048019587765" />
+	<data name="Own Business/Farm" field="14a" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048019587766" />
+	<data name="Value of Business/Farm" field="14b" template="temp1" validator="val49_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048019587767" />
+	<data name="Family Income" field="015" template="temp1" validator="val113_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048019587768" />
+	<data name="Marital Status" field="016" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048019587769" />
+	<data name="Martial Status Change" field="17a" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048019587770" />
+	<data name="Marital Status Change Explain" field="17b" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048019587771" />
+	<data name="Marital Status Change - Age of Twins" field="17c" template="temp1" validator="DOUBLE" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048019587772" />
+	<data name="No. of Brothers" field="08a" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048542087508" />
+	<data name="No. of Sisters" field="08b" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048542087509" />
+	<dependency field="Mother NOT Bio. Parent Explain">
+		<parent field="Mother Bio. Parent" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="0" />
+		</parent>
+	</dependency>
+	<dependency field="Father NOT Bio. Parent Explain">
+		<parent field="Father Bio. Parent" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="0" />
+		</parent>
+	</dependency>
+	<dependency field="Birth Hospital Name">
+		<parent field="Where Twins Born" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="H" />
+		</parent>
+	</dependency>
+	<dependency field="Mother Work Hrs/Week">
+		<parent field="Mother Working" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Mother Work from Home (Hrs/Week)">
+		<parent field="Mother Working" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Mother Job Title">
+		<parent field="Mother Working" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Mother Job Title 2">
+		<parent field="Mother Working" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Mother Job Activities">
+		<parent field="Mother Working" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Mother Job Activities 2">
+		<parent field="Mother Working" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Mother Not Working">
+		<parent field="Mother Working" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="0" />
+		</parent>
+	</dependency>
+	<dependency field="Mother Not Working Other Explain">
+		<parent field="Mother Not Working" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="4" />
+		</parent>
+	</dependency>
+	<dependency field="Father Work Hrs/Week">
+		<parent field="Father Working" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Father Work from Home (Hrs/Week)">
+		<parent field="Father Working" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Father Job Title">
+		<parent field="Father Working" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Father Job Title 2">
+		<parent field="Father Working" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Father Job Activities">
+		<parent field="Father Working" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Father Job Activities 2">
+		<parent field="Father Working" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Father Not Working">
+		<parent field="Father Working" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="0" />
+		</parent>
+	</dependency>
+	<dependency field="Father Not Working Other Explain">
+		<parent field="Father Not Working" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="4" />
+		</parent>
+	</dependency>
+	<dependency field="Value of Business/Farm">
+		<parent field="Own Business/Farm" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Marital Status Change Explain">
+		<parent field="Martial Status Change" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Marital Status Change - Age of Twins">
+		<parent field="Martial Status Change" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+</dataset>
+

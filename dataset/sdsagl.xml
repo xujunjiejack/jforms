@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Guess What Letter" abrv="gl" filename="sdsagl">
+	<template name="temp2">
+		<name format="" />
+		<field format="satglb@" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<template name="temp4">
+		<name format="" />
+		<field format="satgld@" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<template name="temp1">
+		<name format="" />
+		<field format="satgla@" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<template name="temp3">
+		<name format="" />
+		<field format="satglc@" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<validator name="yesno01_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="1">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<key name="Twin" field="twin" template="na" validator="INTEGER" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<data name="A S" field="s" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1084903159407" />
+	<data name="A 1" field="1" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1084903149407" />
+	<data name="A 2" field="2" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1084903149408" />
+	<data name="A 3" field="3" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1084903149409" />
+	<data name="A 4" field="4" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1084903149410" />
+	<data name="A 5" field="5" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1084903149411" />
+	<data name="A 6" field="6" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1084903149412" />
+	<data name="A 7" field="7" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1084903149413" />
+	<data name="A 8" field="8" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1084903149414" />
+	<data name="B S" field="s" template="temp2" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1084903159415" />
+	<data name="B 1" field="1" template="temp2" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1084903149415" />
+	<data name="B 2" field="2" template="temp2" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1084903149416" />
+	<data name="B 3" field="3" template="temp2" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1084903149417" />
+	<data name="B 4" field="4" template="temp2" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1084903149418" />
+	<data name="B 5" field="5" template="temp2" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1084903149419" />
+	<data name="B 6" field="6" template="temp2" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1084903149420" />
+	<data name="B 7" field="7" template="temp2" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1084903149421" />
+	<data name="B 8" field="8" template="temp2" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1084903149422" />
+	<data name="C S" field="s" template="temp3" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1084903159423" />
+	<data name="C 1" field="1" template="temp3" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1084903149423" />
+	<data name="C 2" field="2" template="temp3" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1084903149424" />
+	<data name="C 3" field="3" template="temp3" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1084903149425" />
+	<data name="C 4" field="4" template="temp3" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1084903149426" />
+	<data name="C 5" field="5" template="temp3" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1084903149427" />
+	<data name="C 6" field="6" template="temp3" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1084903149428" />
+	<data name="C 7" field="7" template="temp3" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1084903149429" />
+	<data name="C 8" field="8" template="temp3" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1084903149430" />
+	<data name="D S" field="s" template="temp4" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1084903159431" />
+	<data name="D 1" field="1" template="temp4" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1084903149431" />
+	<data name="D 2" field="2" template="temp4" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1084903149432" />
+	<data name="D 3" field="3" template="temp4" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1084903149433" />
+	<data name="D 4" field="4" template="temp4" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1084903149434" />
+	<data name="D 5" field="5" template="temp4" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1084903149435" />
+	<data name="D 6" field="6" template="temp4" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1084903149436" />
+	<data name="D 7" field="7" template="temp4" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1084903149437" />
+	<data name="D 8" field="8" template="temp4" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1084903149438" />
+</dataset>
+

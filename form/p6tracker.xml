@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="P6 Tracker" abrv="p6tracker" filename="p6tracker">
+	<dataset file="p6tracker" connection="MySQL:mysql.waisman.wisc.edu/wtp_data" tablename="data_6_tr" />
+	<key name="Family Id" entryset="P6 Tracker" filename="p6tracker" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,gen_family,familyid" />
+	<componentset name="p6tracker" abrv="p6tracker" numcols="2" displayheader="true" header="p6tracker">
+		<datafield name="Risk Group" entryset="P6 Tracker" filename="build\dataset\p6tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1289879040000" options="" />
+		<datafield name="Primary Caregiver" entryset="P6 Tracker" filename="build\dataset\p6tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1289879040009" options="" />
+		<datafield name="Visit Date" entryset="P6 Tracker" filename="build\dataset\p6tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1289879040048" options="0,MM/dd/yyyy" />
+		<datafield name="Interviewer" entryset="P6 Tracker" filename="build\dataset\p6tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1289879040049" options="" />
+		<datafield name="PC Consent" entryset="P6 Tracker" filename="build\dataset\p6tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1289879040050" options="" />
+		<datafield name="Tw A Consent" entryset="P6 Tracker" filename="build\dataset\p6tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1289879040051" options="" />
+		<datafield name="Tw B Consent" entryset="P6 Tracker" filename="build\dataset\p6tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1289879040052" options="" />
+		<datafield name="PC Payment Date" entryset="P6 Tracker" filename="build\dataset\p6tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1289879040053" options="0,MM/dd/yyyy" />
+		<datafield name="PC Payment Amt" entryset="P6 Tracker" filename="build\dataset\p6tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1289879040054" options="" />
+		<datafield name="Tw A Payment Date" entryset="P6 Tracker" filename="build\dataset\p6tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1289879040055" options="0,MM/dd/yyyy" />
+		<datafield name="Tw A Payment Amt" entryset="P6 Tracker" filename="build\dataset\p6tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1289879040056" options="" />
+		<datafield name="Tw B Payment Date" entryset="P6 Tracker" filename="build\dataset\p6tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1289879040057" options="0,MM/dd/yyyy" />
+		<datafield name="Tw B Payment Amt" entryset="P6 Tracker" filename="build\dataset\p6tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1289879040058" options="" />
+		<datafield name="P6 Complete Date" entryset="P6 Tracker" filename="build\dataset\p6tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1289879040059" options="0,MM/dd/yyyy" />
+		<datafield name="Exclude" entryset="P6 Tracker" filename="build\dataset\p6tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1289879040060" options="" />
+		<datafield name="Comments" entryset="P6 Tracker" filename="build\dataset\p6tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1289879040061" options="" />
+		<datafield name="Date of Last WTP Assessment" entryset="P6 Tracker" filename="build\dataset\p6tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1289879040062" options="0,MM/dd/yyyy" />
+		<datafield name="Letter Sent Date" entryset="P6 Tracker" filename="build\dataset\p6tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1289879040063" options="0,MM/dd/yyyy" />
+		<datafield name="Referred to Davidson Lab Date" entryset="P6 Tracker" filename="build\dataset\p6tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1289879040064" options="0,MM/dd/yyyy" />
+	</componentset>
+</form>
+

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="School Experiences" abrv="schoolexperiences" filename="schoolexperiences">
+	<template name="temp1">
+		<name format="" />
+		<field format="st@m" />
+		<subsetname format="" />
+		<subsetfield format="" />
+   </template>
+   <validator name="val112_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="12">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="val14_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="4">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="val15_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="5">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="blankformat" type="VARCHAR" defaultvalue="9998" allowblanks="true" lowerbound="2147483647" upperbound="2147483647">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="val03_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="3">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="yesno01_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="1">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="val02_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="2">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<key name="Twin" field="twin" template="na" validator="INTEGER" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<data name="1 Current Grade" field="001" template="temp1" validator="val112_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336324945" />
+	<data name="2 Ever Repeat a Grade" field="002" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336324946" />
+	<data name="2a What grade was repeated" field="02a" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336324947" />
+	<data name="2b Other Grades Repeated" field="02b" template="temp1" validator="yesno01_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336324948" />
+	<data name="2c What Grade" field="02c" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336324949" />
+	<data name="3 Ever Changed Schools" field="003" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336324958" />
+	<data name="3a Has that been a positive, negative, or neutral experience" field="03a" template="temp1" validator="val02_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336324959" />
+	<data name="3b What prompted the change" field="03b" template="temp1" validator="val02_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336324960" />
+	<data name="3c What age was the twin at the change" field="03c" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336324961" />
+	<data name="4 Changed Teachers" field="004" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336324962" />
+	<data name="4a Reason for Change" field="04a" template="temp1" validator="yesno01_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336324963" />
+	<data name="5 What Form of Schooling" field="005" template="temp1" validator="val03_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336324964" />
+	<data name="6 How Many Subjects Taken" field="006" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336324965" />
+	<data name="6a Advanced Placement" field="06a" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336324966" />
+	<data name="6b Personal Assistance/Remedial" field="06b" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336324967" />
+	<data name="6c General Placement" field="06c" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336324968" />
+	<data name="7 Leaves the classroom for any reason" field="007" template="temp1" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336324969" />
+	<data name="8 How many days absent" field="008" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336324970" />
+	<data name="9 Time outside school on projects/homework (Min)" field="009" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336324992" />
+	<data name="10 Satisification with teachers" field="010" template="temp1" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336324993" />
+	<data name="11a Reading" field="11a" template="temp1" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336324994" />
+	<data name="11b Writing" field="11b" template="temp1" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336324995" />
+	<data name="11c Math" field="11c" template="temp1" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336324996" />
+	<data name="11d Science" field="11d" template="temp1" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336324997" />
+	<data name="11e Social Studies" field="11e" template="temp1" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336324998" />
+	<data name="11f Physical Education" field="11f" template="temp1" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336324999" />
+   <data name="11g Music/Band/Choir" field="11g" template="temp1" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336325000" />
+	<data name="11h Overall Performance" field="11h" template="temp1" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336325001" />
+	<data name="11ia As" field="12a" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336325002" />
+	<data name="11ib Bs" field="12b" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336325003" />
+	<data name="11ic Cs" field="12c" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336325004" />
+	<data name="11id Ds" field="12d" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336325005" />
+	<data name="11if Fs" field="11e" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336325006" />
+	<data name="11j Performance over past year" field="013" template="temp1" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336325007" />
+	<data name="14a Enthusiastic about school" field="14a" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336325045" />
+	<data name="14b Upset about school" field="14b" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336325046" />
+	<data name="14c Happy about school" field="14c" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336325047" />
+	<data name="14d Frustrated about school" field="14d" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336325048" />
+	<data name="14e Interested in school" field="14e" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336325049" />
+	<data name="14f Distressed about school" field="14f" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336325050" />
+	<data name="14g Irritable about school" field="14g" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336325051" />
+	<data name="14h Eager about school" field="14h" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336325052" />
+	<data name="14i Bored with school" field="14i" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336325053" />
+	<data name="14j Dislike school" field="14j" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336325054" />
+	<data name="14k Verbally protest" field="14k" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336325055" />
+	<data name="14l Actively resist" field="14l" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336325056" />
+	<data name="14m Make up reasons" field="14m" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336325057" />
+	<data name="14n Attitudes changed over past year" field="14n" template="temp1" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200336325058" />
+	<dependency field="What grade was repeated">
+		<parent field="Ever Repeat a Grade" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Other Grades Repeated">
+		<parent field="Ever Repeat a Grade" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="What Grade">
+		<parent field="Other Grades Repeated" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Has that been a positive, negative, or neutral experience">
+		<parent field="Ever Changed Schools" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="What prompted the change">
+		<parent field="Ever Changed Schools" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="What age was the twin at the change">
+		<parent field="Ever Changed Schools" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Reason for Change">
+		<parent field="Changed Teachers" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+</dataset>
+

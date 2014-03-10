@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Baseline Twin Cortisol" abrv="baselinetwincortisol" filename="baselinetwincortisol">
+	<dataset file="twinmidday1" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_BC_T" />
+	<dataset file="twinevening1" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_BC_T" />
+	<dataset file="twinmidday2" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_BC_T" />
+	<dataset file="twinevening2" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_BC_T" />
+	<dataset file="twinmidday3" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_BC_T" />
+	<dataset file="twinevening3" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_BC_T" />
+	<key name="Family Id" entryset="Twin Mid-Day 1" filename="twinmidday1" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Twin" entryset="Twin Mid-Day 1" filename="twinmidday1" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Twin,A:1,B:2" />
+	<key name="Data Mode" entryset="Twin Mid-Day 1" filename="twinmidday1" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="Mid-Day 1" abrv="mid-day 1" numcols="2" displayheader="true" header="Mid-Day 1">
+		<datafield name="Date" entryset="Twin Mid-Day 1" filename="build\dataset\twinmidday1.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1054574133733" options="0,MM/dd/yyyy" />
+		<datafield name="Time" entryset="Twin Mid-Day 1" filename="build\dataset\twinmidday1.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133734" options="" />
+		<datafield name="Wake Up Time" entryset="Twin Mid-Day 1" filename="build\dataset\twinmidday1.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064574133735" options="" />
+		<datafield name="Sleep (Minutes)" entryset="Twin Mid-Day 1" filename="build\dataset\twinmidday1.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133735" options="" />
+		<datafield name="Nap" entryset="Twin Mid-Day 1" filename="build\dataset\twinmidday1.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133736" options="" />
+		<datafield name="Nap (Minutes)" entryset="Twin Mid-Day 1" filename="build\dataset\twinmidday1.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133737" options="" />
+		<datafield name="Runny Nose or Cough" entryset="Twin Mid-Day 1" filename="build\dataset\twinmidday1.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133738" options="" />
+		<datafield name="Warm or Flushed" entryset="Twin Mid-Day 1" filename="build\dataset\twinmidday1.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133739" options="" />
+		<datafield name="Cranky or Irritable" entryset="Twin Mid-Day 1" filename="build\dataset\twinmidday1.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133740" options="" />
+		<datafield name="Ear Infection" entryset="Twin Mid-Day 1" filename="build\dataset\twinmidday1.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133741" options="" />
+		<datafield name="Aches and Pains" entryset="Twin Mid-Day 1" filename="build\dataset\twinmidday1.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133742" options="" />
+		<datafield name="Nausea or Uneasy Stomach" entryset="Twin Mid-Day 1" filename="build\dataset\twinmidday1.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133743" options="" />
+		<datafield name="Antibiotics" entryset="Twin Mid-Day 1" filename="build\dataset\twinmidday1.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133744" options="" />
+		<datafield name="Type" entryset="Twin Mid-Day 1" filename="build\dataset\twinmidday1.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133745" options="" />
+		<datafield name="How Long" entryset="Twin Mid-Day 1" filename="build\dataset\twinmidday1.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133746" options="" />
+		<datafield name="Medication Today" entryset="Twin Mid-Day 1" filename="build\dataset\twinmidday1.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133747" options="" />
+		<datafield name="Type and Amount" entryset="Twin Mid-Day 1" filename="build\dataset\twinmidday1.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1054574133748" options="" />
+	</componentset>
+	<componentset name="Evening 1" abrv="evening 1" numcols="2" displayheader="true" header="Evening 1">
+		<datafield name="Date" entryset="Twin Evening 1" filename="build\dataset\twinevening1.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1054574133749" options="0,MM/dd/yyyy" />
+		<datafield name="Time" entryset="Twin Evening 1" filename="build\dataset\twinevening1.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133750" options="" />
+		<datafield name="Wake Up Time" entryset="Twin Evening 1" filename="build\dataset\twinevening1.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1065484133735" options="" />
+		<datafield name="Sleep (Minutes)" entryset="Twin Evening 1" filename="build\dataset\twinevening1.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133751" options="" />
+		<datafield name="Nap" entryset="Twin Evening 1" filename="build\dataset\twinevening1.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133752" options="" />
+		<datafield name="Nap (Minutes)" entryset="Twin Evening 1" filename="build\dataset\twinevening1.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133753" options="" />
+		<datafield name="Runny Nose or Cough" entryset="Twin Evening 1" filename="build\dataset\twinevening1.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133754" options="" />
+		<datafield name="Warm or Flushed" entryset="Twin Evening 1" filename="build\dataset\twinevening1.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133755" options="" />
+		<datafield name="Cranky or Irritable" entryset="Twin Evening 1" filename="build\dataset\twinevening1.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133756" options="" />
+		<datafield name="Ear Infection" entryset="Twin Evening 1" filename="build\dataset\twinevening1.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133757" options="" />
+		<datafield name="Aches and Pains" entryset="Twin Evening 1" filename="build\dataset\twinevening1.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133758" options="" />
+		<datafield name="Nausea or Uneasy Stomach" entryset="Twin Evening 1" filename="build\dataset\twinevening1.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133759" options="" />
+		<datafield name="Antibiotics" entryset="Twin Evening 1" filename="build\dataset\twinevening1.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133760" options="" />
+		<datafield name="Type" entryset="Twin Evening 1" filename="build\dataset\twinevening1.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133761" options="" />
+		<datafield name="How Long" entryset="Twin Evening 1" filename="build\dataset\twinevening1.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133762" options="" />
+		<datafield name="Medication Today" entryset="Twin Evening 1" filename="build\dataset\twinevening1.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133763" options="" />
+		<datafield name="Type and Amount" entryset="Twin Evening 1" filename="build\dataset\twinevening1.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1054574133764" options="" />
+	</componentset>
+	<componentset name="Mid-Day 2" abrv="mid-day 2" numcols="2" displayheader="true" header="Mid-Day 2">
+		<datafield name="Date" entryset="Twin Mid-Day 2" filename="build\dataset\twinmidday2.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1054574133765" options="0,MM/dd/yyyy" />
+		<datafield name="Time" entryset="Twin Mid-Day 2" filename="build\dataset\twinmidday2.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133766" options="" />
+		<datafield name="Wake Up Time" entryset="Twin Mid-Day 2" filename="build\dataset\twinmidday2.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1065574133735" options="" />
+		<datafield name="Sleep (Minutes)" entryset="Twin Mid-Day 2" filename="build\dataset\twinmidday2.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133767" options="" />
+		<datafield name="Nap" entryset="Twin Mid-Day 2" filename="build\dataset\twinmidday2.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133768" options="" />
+		<datafield name="Nap (Minutes)" entryset="Twin Mid-Day 2" filename="build\dataset\twinmidday2.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133769" options="" />
+		<datafield name="Runny Nose or Cough" entryset="Twin Mid-Day 2" filename="build\dataset\twinmidday2.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133770" options="" />
+		<datafield name="Warm or Flushed" entryset="Twin Mid-Day 2" filename="build\dataset\twinmidday2.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133771" options="" />
+		<datafield name="Cranky or Irritable" entryset="Twin Mid-Day 2" filename="build\dataset\twinmidday2.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133772" options="" />
+		<datafield name="Ear Infection" entryset="Twin Mid-Day 2" filename="build\dataset\twinmidday2.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133773" options="" />
+		<datafield name="Aches and Pains" entryset="Twin Mid-Day 2" filename="build\dataset\twinmidday2.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133774" options="" />
+		<datafield name="Nausea or Uneasy Stomach" entryset="Twin Mid-Day 2" filename="build\dataset\twinmidday2.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133775" options="" />
+		<datafield name="Antibiotics" entryset="Twin Mid-Day 2" filename="build\dataset\twinmidday2.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133776" options="" />
+		<datafield name="Type" entryset="Twin Mid-Day 2" filename="build\dataset\twinmidday2.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133777" options="" />
+		<datafield name="How Long" entryset="Twin Mid-Day 2" filename="build\dataset\twinmidday2.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133778" options="" />
+		<datafield name="Medication Today" entryset="Twin Mid-Day 2" filename="build\dataset\twinmidday2.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133779" options="" />
+		<datafield name="Type and Amount" entryset="Twin Mid-Day 2" filename="build\dataset\twinmidday2.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1054574133780" options="" />
+	</componentset>
+	<componentset name="Evening 2" abrv="evening 2" numcols="2" displayheader="true" header="Evening 2">
+		<datafield name="Date" entryset="Twin Evening 2" filename="build\dataset\twinevening2.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1054574133781" options="0,MM/dd/yyyy" />
+		<datafield name="Time" entryset="Twin Evening 2" filename="build\dataset\twinevening2.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133782" options="" />
+		<datafield name="Wake Up Time" entryset="Twin Evening 2" filename="build\dataset\twinevening2.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1065464133735" options="" />
+		<datafield name="Sleep (Minutes)" entryset="Twin Evening 2" filename="build\dataset\twinevening2.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133783" options="" />
+		<datafield name="Nap" entryset="Twin Evening 2" filename="build\dataset\twinevening2.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133784" options="" />
+		<datafield name="Nap (Minutes)" entryset="Twin Evening 2" filename="build\dataset\twinevening2.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133785" options="" />
+		<datafield name="Runny Nose or Cough" entryset="Twin Evening 2" filename="build\dataset\twinevening2.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133786" options="" />
+		<datafield name="Warm or Flushed" entryset="Twin Evening 2" filename="build\dataset\twinevening2.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133787" options="" />
+		<datafield name="Cranky or Irritable" entryset="Twin Evening 2" filename="build\dataset\twinevening2.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133788" options="" />
+		<datafield name="Ear Infection" entryset="Twin Evening 2" filename="build\dataset\twinevening2.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133789" options="" />
+		<datafield name="Aches and Pains" entryset="Twin Evening 2" filename="build\dataset\twinevening2.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133790" options="" />
+		<datafield name="Nausea or Uneasy Stomach" entryset="Twin Evening 2" filename="build\dataset\twinevening2.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133791" options="" />
+		<datafield name="Antibiotics" entryset="Twin Evening 2" filename="build\dataset\twinevening2.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133792" options="" />
+		<datafield name="Type" entryset="Twin Evening 2" filename="build\dataset\twinevening2.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133793" options="" />
+		<datafield name="How Long" entryset="Twin Evening 2" filename="build\dataset\twinevening2.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133794" options="" />
+		<datafield name="Medication Today" entryset="Twin Evening 2" filename="build\dataset\twinevening2.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133795" options="" />
+		<datafield name="Type and Amount" entryset="Twin Evening 2" filename="build\dataset\twinevening2.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1054574133796" options="" />
+	</componentset>
+	<componentset name="Mid-Day 3" abrv="mid-day 3" numcols="2" displayheader="true" header="Mid-Day 3">
+		<datafield name="Date" entryset="Twin Mid-Day 3" filename="build\dataset\twinmidday3.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1054574133797" options="0,MM/dd/yyyy" />
+		<datafield name="Time" entryset="Twin Mid-Day 3" filename="build\dataset\twinmidday3.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133798" options="" />
+		<datafield name="Wake Up Time" entryset="Twin Mid-Day 3" filename="build\dataset\twinmidday3.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1065474133735" options="" />
+		<datafield name="Sleep (Minutes)" entryset="Twin Mid-Day 3" filename="build\dataset\twinmidday3.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133799" options="" />
+		<datafield name="Nap" entryset="Twin Mid-Day 3" filename="build\dataset\twinmidday3.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133800" options="" />
+		<datafield name="Nap (Minutes)" entryset="Twin Mid-Day 3" filename="build\dataset\twinmidday3.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133801" options="" />
+		<datafield name="Runny Nose or Cough" entryset="Twin Mid-Day 3" filename="build\dataset\twinmidday3.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133802" options="" />
+		<datafield name="Warm or Flushed" entryset="Twin Mid-Day 3" filename="build\dataset\twinmidday3.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133803" options="" />
+		<datafield name="Cranky or Irritable" entryset="Twin Mid-Day 3" filename="build\dataset\twinmidday3.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133804" options="" />
+		<datafield name="Ear Infection" entryset="Twin Mid-Day 3" filename="build\dataset\twinmidday3.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133805" options="" />
+		<datafield name="Aches and Pains" entryset="Twin Mid-Day 3" filename="build\dataset\twinmidday3.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133806" options="" />
+		<datafield name="Nausea or Uneasy Stomach" entryset="Twin Mid-Day 3" filename="build\dataset\twinmidday3.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133807" options="" />
+		<datafield name="Antibiotics" entryset="Twin Mid-Day 3" filename="build\dataset\twinmidday3.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133808" options="" />
+		<datafield name="Type" entryset="Twin Mid-Day 3" filename="build\dataset\twinmidday3.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133809" options="" />
+		<datafield name="How Long" entryset="Twin Mid-Day 3" filename="build\dataset\twinmidday3.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133810" options="" />
+		<datafield name="Medication Today" entryset="Twin Mid-Day 3" filename="build\dataset\twinmidday3.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133811" options="" />
+		<datafield name="Type and Amount" entryset="Twin Mid-Day 3" filename="build\dataset\twinmidday3.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1054574133812" options="" />
+	</componentset>
+	<componentset name="Evening 3" abrv="evening 3" numcols="2" displayheader="true" header="Evening 3">
+		<datafield name="Date" entryset="Twin Evening 3" filename="build\dataset\twinevening3.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1054574133813" options="0,MM/dd/yyyy" />
+		<datafield name="Time" entryset="Twin Evening 3" filename="build\dataset\twinevening3.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133814" options="" />
+		<datafield name="Wake Up Time" entryset="Twin Evening 3" filename="build\dataset\twinevening3.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1066464133735" options="" />
+		<datafield name="Sleep (Minutes)" entryset="Twin Evening 3" filename="build\dataset\twinevening3.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133815" options="" />
+		<datafield name="Nap" entryset="Twin Evening 3" filename="build\dataset\twinevening3.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133816" options="" />
+		<datafield name="Nap (Minutes)" entryset="Twin Evening 3" filename="build\dataset\twinevening3.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133817" options="" />
+		<datafield name="Runny Nose or Cough" entryset="Twin Evening 3" filename="build\dataset\twinevening3.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133818" options="" />
+		<datafield name="Warm or Flushed" entryset="Twin Evening 3" filename="build\dataset\twinevening3.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133819" options="" />
+		<datafield name="Cranky or Irritable" entryset="Twin Evening 3" filename="build\dataset\twinevening3.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133820" options="" />
+		<datafield name="Ear Infection" entryset="Twin Evening 3" filename="build\dataset\twinevening3.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133821" options="" />
+		<datafield name="Aches and Pains" entryset="Twin Evening 3" filename="build\dataset\twinevening3.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133822" options="" />
+		<datafield name="Nausea or Uneasy Stomach" entryset="Twin Evening 3" filename="build\dataset\twinevening3.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133823" options="" />
+		<datafield name="Antibiotics" entryset="Twin Evening 3" filename="build\dataset\twinevening3.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133824" options="" />
+		<datafield name="Type" entryset="Twin Evening 3" filename="build\dataset\twinevening3.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133825" options="" />
+		<datafield name="How Long" entryset="Twin Evening 3" filename="build\dataset\twinevening3.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133826" options="" />
+		<datafield name="Medication Today" entryset="Twin Evening 3" filename="build\dataset\twinevening3.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574133827" options="" />
+		<datafield name="Type and Amount" entryset="Twin Evening 3" filename="build\dataset\twinevening3.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1054574133828" options="" />
+	</componentset>
+</form>
+

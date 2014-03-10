@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Object Fear" abrv="of" filename="of">
+	<template name="temp1">
+		<name format="of@" />
+		<field format="of@" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+</dataset>
+

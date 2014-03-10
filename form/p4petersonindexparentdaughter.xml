@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Parent Report: Daughter" abrv="p4petersonindexparentdaughter" filename="p4petersonindexparentdaughter">
+	<dataset file="petersonindexparent" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_PI_M" />
+	<key name="Family Id" entryset="Parent Response" filename="petersonindexparent" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Twin" entryset="Parent Response" filename="petersonindexparent" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Twin,A:1,B:2" />
+	<key name="Data Mode" entryset="Parent Response" filename="petersonindexparent" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="Peterson Pubertal Index for Daughter" abrv="daughter" numcols="2" displayheader="true" header="Peterson Pubertal Index for Daughter">
+		<datafield name="Growth in height" entryset="Parent Response" filename="build\dataset\petersonindexparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1206543063481" options="" />
+		<datafield name="Growth of body hair" entryset="Parent Response" filename="build\dataset\petersonindexparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1206543063482" options="" />
+		<datafield name="Skin changes" entryset="Parent Response" filename="build\dataset\petersonindexparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1206543063483" options="" />
+		<datafield name="Growth of breasts" entryset="Parent Response" filename="build\dataset\petersonindexparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1206543063484" options="" />
+		<datafield name="Begun to menstruate" entryset="Parent Response" filename="build\dataset\petersonindexparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1206543063496" options="" />
+		<datafield name="Month of first menstruation" entryset="Parent Response" filename="build\dataset\petersonindexparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1206543063497" options="" />
+		<datafield name="Year of first menstruation" entryset="Parent Response" filename="build\dataset\petersonindexparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1206543063509" options="0,yyyy" />
+		<datafield name="Length of cycle (days)" entryset="Parent Response" filename="build\dataset\petersonindexparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1206543063522" options="" />
+		<datafield name="How regular is cycle" entryset="Parent Response" filename="build\dataset\petersonindexparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1206543063523" options="" />
+	</componentset>
+</form>
+

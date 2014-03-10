@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="PPVT" abrv="p3ppvt" filename="p3ppvt">
+	<dataset file="ppvt" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_PP_T" />
+	<key name="Family Id" entryset="PPVT" filename="ppvt" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Twin" entryset="PPVT" filename="ppvt" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Twin,A:1,B:2" />
+	<key name="Data Mode" entryset="PPVT" filename="ppvt" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="PPVT" abrv="ppvt" numcols="2" displayheader="true" header="PPVT">
+		<datafield name="English" entryset="PPVT" filename="build\dataset\ppvt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574112478" options="" />
+		<datafield name="Other Language" entryset="PPVT" filename="build\dataset\ppvt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574112479" options="" />
+		<datafield name="Examiner" entryset="PPVT" filename="build\dataset\ppvt.xml" type="1" class="com.wtp.jforms.ui.control.smart.ComboFieldBox" editable="true" classid="1054666518897" options="0,Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_STAFF,number" />
+		<datafield name="Raw Score" entryset="PPVT" filename="build\dataset\ppvt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574112480" options="" />
+		<datafield name="Standard Score" entryset="PPVT" filename="build\dataset\ppvt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574112481" options="" />
+		<datafield name="Percentile Rank" entryset="PPVT" filename="build\dataset\ppvt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574112482" options="" />
+		<datafield name="Normal Curve Equivalent" entryset="PPVT" filename="build\dataset\ppvt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574112483" options="" />
+		<datafield name="Stanine" entryset="PPVT" filename="build\dataset\ppvt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574112484" options="" />
+		<datafield name="Age Equivalent (months)" entryset="PPVT" filename="build\dataset\ppvt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574112485" options="" />
+	</componentset>
+</form>
+

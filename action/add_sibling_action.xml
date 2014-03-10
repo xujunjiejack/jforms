@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE categories SYSTEM "../../dtd/action.dtd">
+<action name="add_siblings_action" abrv="addsiblings" classid="com.wtp.jforms.entity.action.SiblingActionListener"> 
+   <text value="You have changed the number of siblings.  Please use the add siblings form to update sibling information."/>
+   <options value="" format=""/>
+</action>
+

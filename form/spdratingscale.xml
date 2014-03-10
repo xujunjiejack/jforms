@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Rating Scale" abrv="spdratingscale" filename="spdratingscale">
+	<dataset file="spdratingscale" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_SD" />
+	<key name="Family Id" entryset="SPD Rating Scale" filename="spdratingscale" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Twin" entryset="SPD Rating Scale" filename="spdratingscale" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Twin,A:1,B:2" />
+	<key name="Data Mode" entryset="SPD Rating Scale" filename="spdratingscale" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="Rating Scale" abrv="ratingscale" numcols="2" displayheader="true" header="Rating Scale">
+		<datafield name="Affect: Yarn Tangle" entryset="SPD Rating Scale" filename="build\dataset\spdratingscale.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233705901351" options="" />
+		<datafield name="Affect: Snack" entryset="SPD Rating Scale" filename="build\dataset\spdratingscale.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233705901352" options="" />
+		<datafield name="Affect: Free Play" entryset="SPD Rating Scale" filename="build\dataset\spdratingscale.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233705901353" options="" />
+		<datafield name="Affect: Balloon Bop" entryset="SPD Rating Scale" filename="build\dataset\spdratingscale.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233705901354" options="" />
+		<datafield name="Affect: Mask" entryset="SPD Rating Scale" filename="build\dataset\spdratingscale.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233705901355" options="" />
+		<datafield name="Confident: Yarn Tangle" entryset="SPD Rating Scale" filename="build\dataset\spdratingscale.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233705901356" options="" />
+		<datafield name="Confident: Snack" entryset="SPD Rating Scale" filename="build\dataset\spdratingscale.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233705901357" options="" />
+		<datafield name="Confident: Free Play" entryset="SPD Rating Scale" filename="build\dataset\spdratingscale.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233705901358" options="" />
+		<datafield name="Confident: Balloon Bop" entryset="SPD Rating Scale" filename="build\dataset\spdratingscale.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233705901359" options="" />
+		<datafield name="Confident: Mask" entryset="SPD Rating Scale" filename="build\dataset\spdratingscale.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233705901360" options="" />
+		<datafield name="Playful: Free Play" entryset="SPD Rating Scale" filename="build\dataset\spdratingscale.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233705901361" options="" />
+		<datafield name="Playful: Balloon Bop" entryset="SPD Rating Scale" filename="build\dataset\spdratingscale.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233705901362" options="" />
+		<datafield name="Proximity: View Master" entryset="SPD Rating Scale" filename="build\dataset\spdratingscale.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233705901363" options="" />
+		<datafield name="Proximity: Snack" entryset="SPD Rating Scale" filename="build\dataset\spdratingscale.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233705901364" options="" />
+		<datafield name="Communication: View Master" entryset="SPD Rating Scale" filename="build\dataset\spdratingscale.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233705901365" options="" />
+		<datafield name="Communication: Snack" entryset="SPD Rating Scale" filename="build\dataset\spdratingscale.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233705901366" options="" />
+		<datafield name="Engagement: View Master" entryset="SPD Rating Scale" filename="build\dataset\spdratingscale.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233705901386" options="" />
+		<datafield name="Engagement: Snack" entryset="SPD Rating Scale" filename="build\dataset\spdratingscale.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233705901387" options="" />
+		<datafield name="Problem Solving: View Master" entryset="SPD Rating Scale" filename="build\dataset\spdratingscale.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233705901388" options="" />
+		<datafield name="Problem Solving: Snack" entryset="SPD Rating Scale" filename="build\dataset\spdratingscale.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233705901389" options="" />
+		<datafield name="Persistence: Yarn Tangle" entryset="SPD Rating Scale" filename="build\dataset\spdratingscale.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233705901390" options="" />
+		<datafield name="Behavior Inhibition: View Master" entryset="SPD Rating Scale" filename="build\dataset\spdratingscale.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233705901391" options="" />
+		<datafield name="Behavior Inhibition: Yarn Tangle" entryset="SPD Rating Scale" filename="build\dataset\spdratingscale.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233705901392" options="" />
+		<datafield name="Behavior Inhibition: Snack" entryset="SPD Rating Scale" filename="build\dataset\spdratingscale.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233705901393" options="" />
+		<datafield name="Behavior Inhibition: Free Play" entryset="SPD Rating Scale" filename="build\dataset\spdratingscale.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233705901394" options="" />
+		<datafield name="Behavior Inhibition: Balloon Bop" entryset="SPD Rating Scale" filename="build\dataset\spdratingscale.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233705901395" options="" />
+		<datafield name="Behavior Inhibition: Mask" entryset="SPD Rating Scale" filename="build\dataset\spdratingscale.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233705901396" options="" />
+		<datafield name="Behavior Inhibition: Palm Print" entryset="SPD Rating Scale" filename="build\dataset\spdratingscale.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233705901397" options="" />
+		<datafield name="Motor: Free Play" entryset="SPD Rating Scale" filename="build\dataset\spdratingscale.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233705901398" options="" />
+		<datafield name="Motor: Balloon Bop" entryset="SPD Rating Scale" filename="build\dataset\spdratingscale.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233705901399" options="" />
+		<datafield name="Postural: Free Play" entryset="SPD Rating Scale" filename="build\dataset\spdratingscale.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233705901400" options="" />
+		<datafield name="Postural: Balloon Bop" entryset="SPD Rating Scale" filename="build\dataset\spdratingscale.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233705901401" options="" />
+		<datafield name="Ideation: Free Play" entryset="SPD Rating Scale" filename="build\dataset\spdratingscale.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233705901402" options="" />
+		<datafield name="Sensory Responsivity: Palm Print" entryset="SPD Rating Scale" filename="build\dataset\spdratingscale.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233705901403" options="" />
+		<datafield name="Global Clinical Impression" entryset="SPD Rating Scale" filename="build\dataset\spdratingscale.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233705901404" options="" />
+		<datafield name="Comments" entryset="SPD Rating Scale" filename="build\dataset\spdratingscale.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1233705901405" options="" />
+		<datafield name="Special Flag" entryset="SPD Rating Scale" filename="build\dataset\spdratingscale.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233705901572" options="" />
+		<datafield name="Special Flag Explain" entryset="SPD Rating Scale" filename="build\dataset\spdratingscale.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1233705901573" options="" />
+	</componentset>
+</form>
+

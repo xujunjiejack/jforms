@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="DNA" abrv="dna" filename="dna">
+	<dataset file="dnt" connection="Microsoft Access 2000:\\wcs\wtp_common\data\dna\dna.mdb" tablename="DATA_DNA" />
+	<dataset file="dnm" connection="Microsoft Access 2000:\\wcs\wtp_common\data\dna\dna.mdb" tablename="DATA_DNA" />
+	<dataset file="dnf" connection="Microsoft Access 2000:\\wcs\wtp_common\data\dna\dna.mdb" tablename="DATA_DNA" />
+	<dataset file="dns" connection="Microsoft Access 2000:\\wcs\wtp_common\data\dna\dna.mdb" tablename="DATA_DNA" />
+	<key name="Family Id" entryset="Twin" filename="dnt" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<componentset name="Id" abrv="id" numcols="2" displayheader="true" header="Id">
+		<datafield name="Twin A Id" entryset="Twin" filename="build\dataset\dnt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1100113376192" options="" />
+		<datafield name="Twin B Id" entryset="Twin" filename="build\dataset\dnt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1100113376196" options="" />
+		<datafield name="Mother Id" entryset="Mother" filename="build\dataset\dnm.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1100113376171" options="" />
+		<datafield name="Father Id" entryset="Father" filename="build\dataset\dnf.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1100113376176" options="" />
+		<datafield name="Sibling 1 Id" entryset="Sibling" filename="build\dataset\dns.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1100113376211" options="" />
+		<datafield name="Sibling 2 Id" entryset="Sibling" filename="build\dataset\dns.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1100113376215" options="" />
+		<datafield name="Sibling 3 Id" entryset="Sibling" filename="build\dataset\dns.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1100113376219" options="" />
+		<datafield name="Sibling 4 Id" entryset="Sibling" filename="build\dataset\dns.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1100113376223" options="" />
+		<datafield name="Sibling 5 Id" entryset="Sibling" filename="build\dataset\dns.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1100113376227" options="" />
+		<datafield name="Sibling 6 Id" entryset="Sibling" filename="build\dataset\dns.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1100113376231" options="" />
+		<datafield name="Sibling 7 Id" entryset="Sibling" filename="build\dataset\dns.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1100113376235" options="" />
+		<datafield name="Sibling 8 Id" entryset="Sibling" filename="build\dataset\dns.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1100113376239" options="" />
+	</componentset>
+	<componentset name="Received" abrv="rec" numcols="2" displayheader="true" header="Received">
+		<datafield name="Twin A Received" entryset="Twin" filename="build\dataset\dnt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1100113376193" options="" />
+		<datafield name="Twin B Received" entryset="Twin" filename="build\dataset\dnt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1100113376197" options="" />
+		<datafield name="Mother Received" entryset="Mother" filename="build\dataset\dnm.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1100113376172" options="" />
+		<datafield name="Father Received" entryset="Father" filename="build\dataset\dnf.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1100113376177" options="" />
+		<datafield name="Sibling 1 Received" entryset="Sibling" filename="build\dataset\dns.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1100113376212" options="" />
+		<datafield name="Sibling 2 Received" entryset="Sibling" filename="build\dataset\dns.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1100113376216" options="" />
+		<datafield name="Sibling 3 Received" entryset="Sibling" filename="build\dataset\dns.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1100113376220" options="" />
+		<datafield name="Sibling 4 Received" entryset="Sibling" filename="build\dataset\dns.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1100113376224" options="" />
+		<datafield name="Sibling 5 Received" entryset="Sibling" filename="build\dataset\dns.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1100113376228" options="" />
+		<datafield name="Sibling 6 Received" entryset="Sibling" filename="build\dataset\dns.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1100113376232" options="" />
+		<datafield name="Sibling 7 Received" entryset="Sibling" filename="build\dataset\dns.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1100113376236" options="" />
+		<datafield name="Sibling 8 Received" entryset="Sibling" filename="build\dataset\dns.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1100113376240" options="" />
+	</componentset>
+	<componentset name="Date" abrv="dat" numcols="2" displayheader="true" header="Date">
+		<datafield name="Twin A Date" entryset="Twin" filename="build\dataset\dnt.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1100113376194" options="0,MM/dd/yyyy" />
+		<datafield name="Twin B Date" entryset="Twin" filename="build\dataset\dnt.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1100113376198" options="0,MM/dd/yyyy" />
+		<datafield name="Mother Date" entryset="Mother" filename="build\dataset\dnm.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1100113376173" options="0,MM/dd/yyyy" />
+		<datafield name="Father Date" entryset="Father" filename="build\dataset\dnf.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1100113376178" options="0,MM/dd/yyyy" />
+		<datafield name="Sibling 1 Date" entryset="Sibling" filename="build\dataset\dns.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1100113376213" options="0,MM/dd/yyyy" />
+		<datafield name="Sibling 2 Date" entryset="Sibling" filename="build\dataset\dns.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1100113376217" options="0,MM/dd/yyyy" />
+		<datafield name="Sibling 3 Date" entryset="Sibling" filename="build\dataset\dns.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1100113376221" options="0,MM/dd/yyyy" />
+		<datafield name="Sibling 4 Date" entryset="Sibling" filename="build\dataset\dns.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1100113376225" options="0,MM/dd/yyyy" />
+		<datafield name="Sibling 5 Date" entryset="Sibling" filename="build\dataset\dns.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1100113376229" options="0,MM/dd/yyyy" />
+		<datafield name="Sibling 6 Date" entryset="Sibling" filename="build\dataset\dns.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1100113376233" options="0,MM/dd/yyyy" />
+		<datafield name="Sibling 7 Date" entryset="Sibling" filename="build\dataset\dns.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1100113376237" options="0,MM/dd/yyyy" />
+		<datafield name="Sibling 8 Date" entryset="Sibling" filename="build\dataset\dns.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1100113376241" options="0,MM/dd/yyyy" />
+	</componentset>
+	<componentset name="Comments" abrv="com" numcols="2" displayheader="true" header="Comments">
+		<datafield name="Twin A Comments" entryset="Twin" filename="build\dataset\dnt.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1100113376195" options="" />
+		<datafield name="Twin B Comments" entryset="Twin" filename="build\dataset\dnt.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1100113376199" options="" />
+		<datafield name="Mother Comments" entryset="Mother" filename="build\dataset\dnm.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1100113376174" options="" />
+		<datafield name="Father Comments" entryset="Father" filename="build\dataset\dnf.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1100113376179" options="" />
+		<datafield name="Sibling 1 Comments" entryset="Sibling" filename="build\dataset\dns.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1100113376214" options="" />
+		<datafield name="Sibling 2 Comments" entryset="Sibling" filename="build\dataset\dns.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1100113376218" options="" />
+		<datafield name="Sibling 3 Comments" entryset="Sibling" filename="build\dataset\dns.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1100113376222" options="" />
+		<datafield name="Sibling 4 Comments" entryset="Sibling" filename="build\dataset\dns.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1100113376226" options="" />
+		<datafield name="Sibling 5 Comments" entryset="Sibling" filename="build\dataset\dns.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1100113376230" options="" />
+		<datafield name="Sibling 6 Comments" entryset="Sibling" filename="build\dataset\dns.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1100113376234" options="" />
+		<datafield name="Sibling 7 Comments" entryset="Sibling" filename="build\dataset\dns.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1100113376238" options="" />
+		<datafield name="Sibling 8 Comments" entryset="Sibling" filename="build\dataset\dns.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1100113376242" options="" />
+	</componentset>
+</form>
+

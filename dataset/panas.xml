@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Postive Affect and Negative Affect Scales" abrv="panas" filename="panas">
+	<template name="temp1">
+		<name format="" />
+		<field format="" />
+		<subsetname format="panas@" />
+		<subsetfield format="pa@" />
+	</template>
+</dataset>
+

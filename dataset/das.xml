@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Dyadic Adjustment Scale" abrv="das" filename="das">
+	<template name="temp1">
+		<name format="" />
+		<field format="" />
+		<subsetname format="das@" />
+		<subsetfield format="da@" />
+	</template>
+</dataset>
+

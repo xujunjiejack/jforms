@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="HBQ2 B" abrv="hbq2b" filename="hbq2b">
+	<template name="temp">
+		<name format="HBQ2 -- @" />
+		<field format="pb@t" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<validator name="val" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="2147483647" upperbound="2147483647">
+		<valid value="1" />
+		<valid value="2" />
+		<valid value="3" />
+		<valid value="5" />
+		<valid value="6" />
+		<valid value="7" />
+		<valid value="9998" />
+		<valid value="9999" />
+	</validator>
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<key name="Twin" field="twin" template="na" validator="INTEGER" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="2" />
+	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<data name="1" field="im001" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763444955" />
+	<data name="2" field="sa002" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763444956" />
+	<data name="3" field="oa003" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763444962" />
+	<data name="4" field="de004" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763444963" />
+	<data name="5" field="cd005" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763444964" />
+	<data name="6" field="sa006" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763444965" />
+	<data name="7" field="oa007" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763444966" />
+	<data name="8" field="de008" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763444967" />
+	<data name="9" field="im009" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763444968" />
+	<data name="10" field="cd010" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763444969" />
+	<data name="11" field="de011" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763444970" />
+	<data name="12" field="sx012" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763444971" />
+	<data name="13" field="sa013" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763444972" />
+	<data name="14" field="oa014" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763444973" />
+	<data name="15" field="at015" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763444974" />
+	<data name="16" field="sx016" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763444975" />
+	<data name="17" field="de017" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763444976" />
+	<data name="18" field="oa018" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763444977" />
+	<data name="19" field="im019" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763444978" />
+	<data name="20" field="oa020" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763444979" />
+	<data name="21" field="at021" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445003" />
+	<data name="22" field="sx022" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445004" />
+	<data name="23" field="od023" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445005" />
+	<data name="24" field="de024" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445006" />
+	<data name="25" field="oa025" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445007" />
+	<data name="26" field="de026" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445008" />
+	<data name="27" field="sx027" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445009" />
+	<data name="28" field="im028" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445010" />
+	<data name="29" field="od029" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445011" />
+	<data name="30" field="cd030" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445012" />
+	<data name="31" field="sa031" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445013" />
+	<data name="32" field="sx032" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445014" />
+	<data name="33" field="at033" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445015" />
+	<data name="34" field="od034" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445016" />
+	<data name="35" field="sx035" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445017" />
+	<data name="36" field="oa036" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445018" />
+	<data name="37" field="de037" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445019" />
+	<data name="38" field="im038" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445020" />
+	<data name="39" field="sa039" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445021" />
+	<data name="40" field="im040" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445022" />
+	<data name="41" field="sx041" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445066" />
+	<data name="42" field="od042" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445067" />
+	<data name="43" field="de043" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445068" />
+	<data name="44" field="od044" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445069" />
+	<data name="45" field="de045" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445070" />
+	<data name="46" field="sa046" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445071" />
+	<data name="47" field="de047" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445072" />
+	<data name="48" field="cd048" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445073" />
+	<data name="49" field="od049" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445074" />
+	<data name="50" field="cd050" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445075" />
+	<data name="51" field="oa051" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445076" />
+	<data name="52" field="od052" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445077" />
+	<data name="53" field="cd053" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445078" />
+	<data name="54" field="cd054" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445079" />
+	<data name="55" field="de055" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445080" />
+	<data name="56" field="od056" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445081" />
+	<data name="57" field="im057" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445082" />
+	<data name="58" field="de058" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445083" />
+	<data name="59" field="de059" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445084" />
+	<data name="60" field="cd060" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445085" />
+	<data name="61" field="cd061" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445149" />
+	<data name="62" field="oa062" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445150" />
+	<data name="63" field="im063" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445151" />
+	<data name="64" field="cd064" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445152" />
+	<data name="65" field="oa065" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445153" />
+	<data name="66" field="od066" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445154" />
+	<data name="67" field="cd067" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445155" />
+	<data name="68" field="oa068" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445156" />
+	<data name="69" field="at069" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445157" />
+	<data name="70" field="cd070" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445158" />
+	<data name="71" field="oa071" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445159" />
+	<data name="72" field="sa072" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445160" />
+	<data name="73" field="at073" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445161" />
+	<data name="74" field="oa074" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445162" />
+	<data name="75" field="at075" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445163" />
+	<data name="76" field="at076" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445164" />
+	<data name="77" field="od077" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445165" />
+	<data name="78" field="sa078" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445166" />
+	<data name="79" field="ph079" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445167" />
+	<data name="80" field="ph080" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445168" />
+	<data name="81" field="ph081" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445169" />
+	<data name="82" field="ph082" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445170" />
+	<data name="83" field="ph083" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445171" />
+	<data name="84" field="ph084" template="temp" validator="val" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1216763445172" />
+</dataset>
+

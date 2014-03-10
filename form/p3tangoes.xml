@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Tangoes" abrv="tangoes" filename="p3tangoes">
+	<dataset file="tatester" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_TA" />
+	<dataset file="tapw" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_TA" />
+	<dataset file="taoe" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_TA" />
+	<dataset file="tafi" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_TA" />
+	<dataset file="tapp" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_TA" />
+	<dataset file="tapn" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_TA" />
+	<dataset file="taduration" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_TA" />
+	<key name="Family Id" entryset="Tester" filename="tatester" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Twin" entryset="Tester" filename="tatester" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Twin,A:1,B:2" />
+	<key name="Data Mode" entryset="Tester" filename="tatester" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="Tester" abrv="tester" numcols="2" displayheader="true" header="Tester">
+		<datafield name="Episode Order" entryset="Tester" filename="build\dataset\tatester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1056386252684" options="" />
+		<datafield name="Scorer" entryset="Tester" filename="build\dataset\tatester.xml" type="0" class="com.wtp.jforms.ui.control.smart.ComboFieldBox" editable="true" classid="1056386252682" options="0,Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_STAFF,number" />
+		<datafield name="Child Tester" entryset="Tester" filename="build\dataset\tatester.xml" type="0" class="com.wtp.jforms.ui.control.smart.ComboFieldBox" editable="true" classid="1056386252683" options="0,Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_STAFF,number" />
+		<datafield name="Baseline" entryset="Tester" filename="build\dataset\tatester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1056386252685" options="" />
+		<datafield name="Familiarity with the Game" entryset="Tester" filename="build\dataset\tatester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1056386252687" options="" />
+		<datafield name="Latency to First Quit" entryset="Tester" filename="build\dataset\tatester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1056386252688" options="" />
+	</componentset>
+	<componentset name="Minute 1" abrv="min 1" numcols="2" displayheader="true" header="Minute 1">
+		<datafield name="1" entryset="Puzzle Worked on the Most" filename="build\dataset\tapw.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257338" options="" />
+		<datafield name="1" entryset="Childs Overall Effort" filename="build\dataset\taoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257371" options="" />
+		<datafield name="1" entryset="Intensity of Interest Face" filename="build\dataset\tafi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257404" options="" />
+		<datafield name="1" entryset="Presence of Positivity" filename="build\dataset\tapp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257470" options="" />
+		<datafield name="1" entryset="Presence of Negativity" filename="build\dataset\tapn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257503" options="" />
+		<datafield name="2" entryset="Puzzle Worked on the Most" filename="build\dataset\tapw.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257339" options="" />
+		<datafield name="2" entryset="Childs Overall Effort" filename="build\dataset\taoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257372" options="" />
+		<datafield name="2" entryset="Intensity of Interest Face" filename="build\dataset\tafi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257405" options="" />
+		<datafield name="2" entryset="Presence of Positivity" filename="build\dataset\tapp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257471" options="" />
+		<datafield name="2" entryset="Presence of Negativity" filename="build\dataset\tapn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257504" options="" />
+		<datafield name="3" entryset="Puzzle Worked on the Most" filename="build\dataset\tapw.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257340" options="" />
+		<datafield name="3" entryset="Childs Overall Effort" filename="build\dataset\taoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257373" options="" />
+		<datafield name="3" entryset="Intensity of Interest Face" filename="build\dataset\tafi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257406" options="" />
+		<datafield name="3" entryset="Presence of Positivity" filename="build\dataset\tapp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257472" options="" />
+		<datafield name="3" entryset="Presence of Negativity" filename="build\dataset\tapn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257505" options="" />
+		<datafield name="4" entryset="Puzzle Worked on the Most" filename="build\dataset\tapw.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257341" options="" />
+		<datafield name="4" entryset="Childs Overall Effort" filename="build\dataset\taoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257374" options="" />
+		<datafield name="4" entryset="Intensity of Interest Face" filename="build\dataset\tafi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257407" options="" />
+		<datafield name="4" entryset="Presence of Positivity" filename="build\dataset\tapp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257473" options="" />
+		<datafield name="4" entryset="Presence of Negativity" filename="build\dataset\tapn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257506" options="" />
+		<datafield name="5" entryset="Puzzle Worked on the Most" filename="build\dataset\tapw.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257342" options="" />
+		<datafield name="5" entryset="Childs Overall Effort" filename="build\dataset\taoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257375" options="" />
+		<datafield name="5" entryset="Intensity of Interest Face" filename="build\dataset\tafi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257408" options="" />
+		<datafield name="5" entryset="Presence of Positivity" filename="build\dataset\tapp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257474" options="" />
+		<datafield name="5" entryset="Presence of Negativity" filename="build\dataset\tapn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257507" options="" />
+		<datafield name="6" entryset="Puzzle Worked on the Most" filename="build\dataset\tapw.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257343" options="" />
+		<datafield name="6" entryset="Childs Overall Effort" filename="build\dataset\taoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257376" options="" />
+		<datafield name="6" entryset="Intensity of Interest Face" filename="build\dataset\tafi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257409" options="" />
+		<datafield name="6" entryset="Presence of Positivity" filename="build\dataset\tapp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257475" options="" />
+		<datafield name="6" entryset="Presence of Negativity" filename="build\dataset\tapn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257508" options="" />
+	</componentset>
+	<componentset name="Minute 2" abrv="min 2" numcols="2" displayheader="true" header="Minute 2">
+		<datafield name="7" entryset="Puzzle Worked on the Most" filename="build\dataset\tapw.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257344" options="" />
+		<datafield name="7" entryset="Childs Overall Effort" filename="build\dataset\taoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257377" options="" />
+		<datafield name="7" entryset="Intensity of Interest Face" filename="build\dataset\tafi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257410" options="" />
+		<datafield name="7" entryset="Presence of Positivity" filename="build\dataset\tapp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257476" options="" />
+		<datafield name="7" entryset="Presence of Negativity" filename="build\dataset\tapn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257509" options="" />
+		<datafield name="8" entryset="Puzzle Worked on the Most" filename="build\dataset\tapw.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257345" options="" />
+		<datafield name="8" entryset="Childs Overall Effort" filename="build\dataset\taoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257378" options="" />
+		<datafield name="8" entryset="Intensity of Interest Face" filename="build\dataset\tafi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257411" options="" />
+		<datafield name="8" entryset="Presence of Positivity" filename="build\dataset\tapp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257477" options="" />
+		<datafield name="8" entryset="Presence of Negativity" filename="build\dataset\tapn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257510" options="" />
+		<datafield name="9" entryset="Puzzle Worked on the Most" filename="build\dataset\tapw.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257346" options="" />
+		<datafield name="9" entryset="Childs Overall Effort" filename="build\dataset\taoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257379" options="" />
+		<datafield name="9" entryset="Intensity of Interest Face" filename="build\dataset\tafi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257412" options="" />
+		<datafield name="9" entryset="Presence of Positivity" filename="build\dataset\tapp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257478" options="" />
+		<datafield name="9" entryset="Presence of Negativity" filename="build\dataset\tapn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257511" options="" />
+		<datafield name="10" entryset="Puzzle Worked on the Most" filename="build\dataset\tapw.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257347" options="" />
+		<datafield name="10" entryset="Childs Overall Effort" filename="build\dataset\taoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257380" options="" />
+		<datafield name="10" entryset="Intensity of Interest Face" filename="build\dataset\tafi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257413" options="" />
+		<datafield name="10" entryset="Presence of Positivity" filename="build\dataset\tapp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257479" options="" />
+		<datafield name="10" entryset="Presence of Negativity" filename="build\dataset\tapn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257512" options="" />
+		<datafield name="11" entryset="Puzzle Worked on the Most" filename="build\dataset\tapw.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257348" options="" />
+		<datafield name="11" entryset="Childs Overall Effort" filename="build\dataset\taoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257381" options="" />
+		<datafield name="11" entryset="Intensity of Interest Face" filename="build\dataset\tafi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257414" options="" />
+		<datafield name="11" entryset="Presence of Positivity" filename="build\dataset\tapp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257480" options="" />
+		<datafield name="11" entryset="Presence of Negativity" filename="build\dataset\tapn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257513" options="" />
+		<datafield name="12" entryset="Puzzle Worked on the Most" filename="build\dataset\tapw.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257349" options="" />
+		<datafield name="12" entryset="Childs Overall Effort" filename="build\dataset\taoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257382" options="" />
+		<datafield name="12" entryset="Intensity of Interest Face" filename="build\dataset\tafi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257415" options="" />
+		<datafield name="12" entryset="Presence of Positivity" filename="build\dataset\tapp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257481" options="" />
+		<datafield name="12" entryset="Presence of Negativity" filename="build\dataset\tapn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257514" options="" />
+	</componentset>
+	<componentset name="Minute 3" abrv="min 3" numcols="2" displayheader="true" header="Minute 3">
+		<datafield name="13" entryset="Puzzle Worked on the Most" filename="build\dataset\tapw.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257350" options="" />
+		<datafield name="13" entryset="Childs Overall Effort" filename="build\dataset\taoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257383" options="" />
+		<datafield name="13" entryset="Intensity of Interest Face" filename="build\dataset\tafi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257416" options="" />
+		<datafield name="13" entryset="Presence of Positivity" filename="build\dataset\tapp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257482" options="" />
+		<datafield name="13" entryset="Presence of Negativity" filename="build\dataset\tapn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257515" options="" />
+		<datafield name="14" entryset="Puzzle Worked on the Most" filename="build\dataset\tapw.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257351" options="" />
+		<datafield name="14" entryset="Childs Overall Effort" filename="build\dataset\taoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257384" options="" />
+		<datafield name="14" entryset="Intensity of Interest Face" filename="build\dataset\tafi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257417" options="" />
+		<datafield name="14" entryset="Presence of Positivity" filename="build\dataset\tapp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257483" options="" />
+		<datafield name="14" entryset="Presence of Negativity" filename="build\dataset\tapn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257516" options="" />
+		<datafield name="15" entryset="Puzzle Worked on the Most" filename="build\dataset\tapw.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257352" options="" />
+		<datafield name="15" entryset="Childs Overall Effort" filename="build\dataset\taoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257385" options="" />
+		<datafield name="15" entryset="Intensity of Interest Face" filename="build\dataset\tafi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257418" options="" />
+		<datafield name="15" entryset="Presence of Positivity" filename="build\dataset\tapp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257484" options="" />
+		<datafield name="15" entryset="Presence of Negativity" filename="build\dataset\tapn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257517" options="" />
+		<datafield name="16" entryset="Puzzle Worked on the Most" filename="build\dataset\tapw.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257353" options="" />
+		<datafield name="16" entryset="Childs Overall Effort" filename="build\dataset\taoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257386" options="" />
+		<datafield name="16" entryset="Intensity of Interest Face" filename="build\dataset\tafi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257419" options="" />
+		<datafield name="16" entryset="Presence of Positivity" filename="build\dataset\tapp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257485" options="" />
+		<datafield name="16" entryset="Presence of Negativity" filename="build\dataset\tapn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257518" options="" />
+		<datafield name="17" entryset="Puzzle Worked on the Most" filename="build\dataset\tapw.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257354" options="" />
+		<datafield name="17" entryset="Childs Overall Effort" filename="build\dataset\taoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257387" options="" />
+		<datafield name="17" entryset="Intensity of Interest Face" filename="build\dataset\tafi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257420" options="" />
+		<datafield name="17" entryset="Presence of Positivity" filename="build\dataset\tapp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257486" options="" />
+		<datafield name="17" entryset="Presence of Negativity" filename="build\dataset\tapn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257519" options="" />
+		<datafield name="18" entryset="Puzzle Worked on the Most" filename="build\dataset\tapw.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257355" options="" />
+		<datafield name="18" entryset="Childs Overall Effort" filename="build\dataset\taoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257388" options="" />
+		<datafield name="18" entryset="Intensity of Interest Face" filename="build\dataset\tafi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257421" options="" />
+		<datafield name="18" entryset="Presence of Positivity" filename="build\dataset\tapp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257487" options="" />
+		<datafield name="18" entryset="Presence of Negativity" filename="build\dataset\tapn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257520" options="" />
+	</componentset>
+	<componentset name="Minute 4" abrv="min 4" numcols="2" displayheader="true" header="Minute 4">
+		<datafield name="19" entryset="Puzzle Worked on the Most" filename="build\dataset\tapw.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257356" options="" />
+		<datafield name="19" entryset="Childs Overall Effort" filename="build\dataset\taoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257389" options="" />
+		<datafield name="19" entryset="Intensity of Interest Face" filename="build\dataset\tafi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257422" options="" />
+		<datafield name="19" entryset="Presence of Positivity" filename="build\dataset\tapp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257488" options="" />
+		<datafield name="19" entryset="Presence of Negativity" filename="build\dataset\tapn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257521" options="" />
+		<datafield name="20" entryset="Puzzle Worked on the Most" filename="build\dataset\tapw.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257357" options="" />
+		<datafield name="20" entryset="Childs Overall Effort" filename="build\dataset\taoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257390" options="" />
+		<datafield name="20" entryset="Intensity of Interest Face" filename="build\dataset\tafi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257423" options="" />
+		<datafield name="20" entryset="Presence of Positivity" filename="build\dataset\tapp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257489" options="" />
+		<datafield name="20" entryset="Presence of Negativity" filename="build\dataset\tapn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257522" options="" />
+		<datafield name="21" entryset="Puzzle Worked on the Most" filename="build\dataset\tapw.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257358" options="" />
+		<datafield name="21" entryset="Childs Overall Effort" filename="build\dataset\taoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257391" options="" />
+		<datafield name="21" entryset="Intensity of Interest Face" filename="build\dataset\tafi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257424" options="" />
+		<datafield name="21" entryset="Presence of Positivity" filename="build\dataset\tapp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257490" options="" />
+		<datafield name="21" entryset="Presence of Negativity" filename="build\dataset\tapn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257523" options="" />
+		<datafield name="22" entryset="Puzzle Worked on the Most" filename="build\dataset\tapw.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257359" options="" />
+		<datafield name="22" entryset="Childs Overall Effort" filename="build\dataset\taoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257392" options="" />
+		<datafield name="22" entryset="Intensity of Interest Face" filename="build\dataset\tafi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257425" options="" />
+		<datafield name="22" entryset="Presence of Positivity" filename="build\dataset\tapp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257491" options="" />
+		<datafield name="22" entryset="Presence of Negativity" filename="build\dataset\tapn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257524" options="" />
+		<datafield name="23" entryset="Puzzle Worked on the Most" filename="build\dataset\tapw.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257360" options="" />
+		<datafield name="23" entryset="Childs Overall Effort" filename="build\dataset\taoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257393" options="" />
+		<datafield name="23" entryset="Intensity of Interest Face" filename="build\dataset\tafi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257426" options="" />
+		<datafield name="23" entryset="Presence of Positivity" filename="build\dataset\tapp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257492" options="" />
+		<datafield name="23" entryset="Presence of Negativity" filename="build\dataset\tapn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257525" options="" />
+		<datafield name="24" entryset="Puzzle Worked on the Most" filename="build\dataset\tapw.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257361" options="" />
+		<datafield name="24" entryset="Childs Overall Effort" filename="build\dataset\taoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257394" options="" />
+		<datafield name="24" entryset="Intensity of Interest Face" filename="build\dataset\tafi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257427" options="" />
+		<datafield name="24" entryset="Presence of Positivity" filename="build\dataset\tapp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257493" options="" />
+		<datafield name="24" entryset="Presence of Negativity" filename="build\dataset\tapn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257526" options="" />
+	</componentset>
+	<componentset name="Minute 5" abrv="min 5" numcols="2" displayheader="true" header="Minute 5">
+		<datafield name="25" entryset="Puzzle Worked on the Most" filename="build\dataset\tapw.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257362" options="" />
+		<datafield name="25" entryset="Childs Overall Effort" filename="build\dataset\taoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257395" options="" />
+		<datafield name="25" entryset="Intensity of Interest Face" filename="build\dataset\tafi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257428" options="" />
+		<datafield name="25" entryset="Presence of Positivity" filename="build\dataset\tapp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257494" options="" />
+		<datafield name="25" entryset="Presence of Negativity" filename="build\dataset\tapn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257527" options="" />
+		<datafield name="26" entryset="Puzzle Worked on the Most" filename="build\dataset\tapw.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257363" options="" />
+		<datafield name="26" entryset="Childs Overall Effort" filename="build\dataset\taoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257396" options="" />
+		<datafield name="26" entryset="Intensity of Interest Face" filename="build\dataset\tafi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257429" options="" />
+		<datafield name="26" entryset="Presence of Positivity" filename="build\dataset\tapp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257495" options="" />
+		<datafield name="26" entryset="Presence of Negativity" filename="build\dataset\tapn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257528" options="" />
+		<datafield name="27" entryset="Puzzle Worked on the Most" filename="build\dataset\tapw.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257364" options="" />
+		<datafield name="27" entryset="Childs Overall Effort" filename="build\dataset\taoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257397" options="" />
+		<datafield name="27" entryset="Intensity of Interest Face" filename="build\dataset\tafi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257430" options="" />
+		<datafield name="27" entryset="Presence of Positivity" filename="build\dataset\tapp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257496" options="" />
+		<datafield name="27" entryset="Presence of Negativity" filename="build\dataset\tapn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257529" options="" />
+		<datafield name="28" entryset="Puzzle Worked on the Most" filename="build\dataset\tapw.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257365" options="" />
+		<datafield name="28" entryset="Childs Overall Effort" filename="build\dataset\taoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257398" options="" />
+		<datafield name="28" entryset="Intensity of Interest Face" filename="build\dataset\tafi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257431" options="" />
+		<datafield name="28" entryset="Presence of Positivity" filename="build\dataset\tapp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257497" options="" />
+		<datafield name="28" entryset="Presence of Negativity" filename="build\dataset\tapn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257530" options="" />
+		<datafield name="29" entryset="Puzzle Worked on the Most" filename="build\dataset\tapw.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257366" options="" />
+		<datafield name="29" entryset="Childs Overall Effort" filename="build\dataset\taoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257399" options="" />
+		<datafield name="29" entryset="Intensity of Interest Face" filename="build\dataset\tafi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257432" options="" />
+		<datafield name="29" entryset="Presence of Positivity" filename="build\dataset\tapp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257498" options="" />
+		<datafield name="29" entryset="Presence of Negativity" filename="build\dataset\tapn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257531" options="" />
+		<datafield name="30" entryset="Puzzle Worked on the Most" filename="build\dataset\tapw.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257367" options="" />
+		<datafield name="30" entryset="Childs Overall Effort" filename="build\dataset\taoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257400" options="" />
+		<datafield name="30" entryset="Intensity of Interest Face" filename="build\dataset\tafi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257433" options="" />
+		<datafield name="30" entryset="Presence of Positivity" filename="build\dataset\tapp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257499" options="" />
+		<datafield name="30" entryset="Presence of Negativity" filename="build\dataset\tapn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062703257532" options="" />
+		<datafield name="Special Flag" entryset="Tester" filename="build\dataset\tatester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1059150491906" options="" />
+		<datafield name="Special Flag Explain" entryset="Tester" filename="build\dataset\tatester.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1205798876565" options="" />
+	</componentset>
+	<componentset name="Duration" abrv="duration" numcols="2" displayheader="true" header="Duration">
+		<datafield name="1" entryset="Duration of On-Task Work" filename="build\dataset\taduration.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537522" options="" />
+		<datafield name="2" entryset="Duration of On-Task Work" filename="build\dataset\taduration.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537523" options="" />
+		<datafield name="3" entryset="Duration of On-Task Work" filename="build\dataset\taduration.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537524" options="" />
+		<datafield name="4" entryset="Duration of On-Task Work" filename="build\dataset\taduration.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537525" options="" />
+		<datafield name="5" entryset="Duration of On-Task Work" filename="build\dataset\taduration.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537526" options="" />
+		<datafield name="6" entryset="Duration of On-Task Work" filename="build\dataset\taduration.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537527" options="" />
+		<datafield name="7" entryset="Duration of On-Task Work" filename="build\dataset\taduration.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537528" options="" />
+		<datafield name="8" entryset="Duration of On-Task Work" filename="build\dataset\taduration.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537529" options="" />
+		<datafield name="9" entryset="Duration of On-Task Work" filename="build\dataset\taduration.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537530" options="" />
+		<datafield name="10" entryset="Duration of On-Task Work" filename="build\dataset\taduration.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537531" options="" />
+		<datafield name="11" entryset="Duration of On-Task Work" filename="build\dataset\taduration.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537532" options="" />
+		<datafield name="12" entryset="Duration of On-Task Work" filename="build\dataset\taduration.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537533" options="" />
+	</componentset>
+</form>
+

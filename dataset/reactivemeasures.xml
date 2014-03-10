@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Reactive Measures" abrv="reactivemeasures" filename="reactivemeasures">
+	<template name="temp1">
+		<name format="" />
+		<field format="ms@" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<key name="Twin" field="twin" template="na" validator="INTEGER" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<data name="Height (Inches)" field="hit" template="temp1" validator="DOUBLE" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054584993181" />
+	<data name="Weight (Pounds)" field="wpt" template="temp1" validator="DOUBLE" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054584993182" />
+	<data name="Head Circumference Measure 1 (Inches)" field="hc1t" template="temp1" validator="DOUBLE" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054584993183" />
+	<data name="Head Circumference Measure 2 (Inches)" field="hc2t" template="temp1" validator="DOUBLE" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054584993184" />
+</dataset>
+

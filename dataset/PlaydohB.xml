@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Playdoh Behavior" abrv="PlaydohB" filename="PlaydohB">
+	<template name="Playdoh_B">
+		<name format="" />
+		<field format="pd@" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<validator name="val01_9980-9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="1">
+		<valid value="9999" />
+		<valid value="9998" />
+		<valid value="9997" />
+		<valid value="9996" />
+		<valid value="9995" />
+		<valid value="9994" />
+		<valid value="9993" />
+		<valid value="9992" />
+		<valid value="9991" />
+		<valid value="9990" />
+		<valid value="9989" />
+		<valid value="9988" />
+		<valid value="9987" />
+		<valid value="9986" />
+		<valid value="9985" />
+		<valid value="9984" />
+		<valid value="9983" />
+		<valid value="9982" />
+		<valid value="9981" />
+		<valid value="9980" />
+	</validator>
+	<validator name="val01_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="1">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="val02_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="2">
+		<valid value="9999" />
+		<valid value="9998" />
+   </validator>
+   <validator name="val15_9980_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="5">
+		<valid value="9999" />
+		<valid value="9998" />
+		<valid value="9997" />
+		<valid value="9996" />
+		<valid value="9995" />
+		<valid value="9994" />
+		<valid value="9993" />
+		<valid value="9992" />
+		<valid value="9991" />
+		<valid value="9990" />
+		<valid value="9989" />
+		<valid value="9988" />
+		<valid value="9987" />
+		<valid value="9986" />
+		<valid value="9985" />
+		<valid value="9984" />
+		<valid value="9983" />
+		<valid value="9982" />
+		<valid value="9981" />
+		<valid value="9980" />
+	</validator>
+	<validator name="yesno01_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="1">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<key name="Twin" field="twin" template="na" validator="INTEGER" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<data name="Scorer" field="sc" template="Playdoh_B" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276976977" />
+	<data name="Child tester" field="ct" template="Playdoh_B" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.ComboFieldBox" classid="1271276976978" />
+	<data name="Episode order" field="ord" template="Playdoh_B" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276976979" />
+	<data name="Baseline state" field="bl" template="Playdoh_B" validator="val15_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276976980" />
+	<data name="Bodily Expression01" field="1be" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674737" />
+	<data name="Off-Task Behavior01" field="1otb" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674738" />
+	<data name="Positive Interaction01" field="1ipi" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674739" />
+	<data name="Negative Interaction01" field="1ini" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674740" />
+	<data name="Acquiescence01" field="1pta" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674741" />
+	<data name="Resistance01" field="1ptr" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674742" />
+	<data name="Bodily Expression02" field="2be" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674743" />
+	<data name="Off-Task Behavior02" field="2otb" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674744" />
+	<data name="Positive Interaction02" field="2ipi" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674745" />
+	<data name="Negative Interaction02" field="2ini" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674746" />
+	<data name="Acquiescence02" field="2pta" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674747" />
+	<data name="Resistance02" field="2ptr" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674748" />
+	<data name="Bodily Expression03" field="3be" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674749" />
+	<data name="Off-Task Behavior03" field="3otb" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674750" />
+	<data name="Positive Interaction03" field="3ipi" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674751" />
+	<data name="Negative Interaction03" field="3ini" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674752" />
+	<data name="Acquiescence03" field="3pta" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674753" />
+	<data name="Resistance03" field="3ptr" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674754" />
+	<data name="Bodily Expression04" field="4be" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674755" />
+	<data name="Off-Task Behavior04" field="4otb" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674756" />
+	<data name="Positive Interaction04" field="4ipi" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674757" />
+	<data name="Negative Interaction04" field="4ini" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674758" />
+	<data name="Acquiescence04" field="4pta" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674759" />
+	<data name="Resistance04" field="4ptr" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674760" />
+	<data name=" Bodily Expression05" field="5be" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674761" />
+	<data name="Off-Task Behavior05" field="5otb" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674762" />
+	<data name="Positive Interaction05" field="5ipi" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674763" />
+	<data name="Negative Interaction05" field="5ini" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674764" />
+	<data name="Acquiescence05" field="5pta" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674765" />
+	<data name="Resistance05" field="5ptr" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674766" />
+	<data name="Bodily Expression06" field="6be" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674767" />
+	<data name="Off-Task Behavior06" field="6otb" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674768" />
+	<data name="Positive Interaction06" field="6ipi" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674769" />
+	<data name="Negative Interaction06" field="6ini" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674770" />
+	<data name="Acquiescence06" field="6pta" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674771" />
+	<data name="Resistance06" field="6ptr" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674772" />
+	<data name="Bodily Expression07" field="7be" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674773" />
+	<data name="Off-Task Behavior07" field="7otb" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674774" />
+	<data name="Positive Interaction07" field="7ipi" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674775" />
+	<data name="Negative Interaction07" field="7ini" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674776" />
+	<data name="Acquiescence07" field="7pta" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674777" />
+	<data name="Resistance07" field="7ptr" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674778" />
+	<data name="Bodily Expression08" field="8be" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674779" />
+	<data name="Off-Task Behavior08" field="8otb" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674780" />
+	<data name="Positive Interaction08" field="8ipi" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674781" />
+	<data name="Negative Interaction08" field="8ini" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674782" />
+	<data name="Acquiescence08" field="8pta" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674783" />
+	<data name="Resistance08" field="8ptr" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674784" />
+	<data name=" Bodily Expression09" field="9be" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674785" />
+	<data name="Off-Task Behavior09" field="9otb" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674786" />
+	<data name="Positive Interaction09" field="9ipi" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674787" />
+	<data name="Negative Interaction09" field="9ini" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674788" />
+	<data name="Acquiescence09" field="9pta" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674789" />
+	<data name="Resistance09" field="9ptr" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674790" />
+	<data name="Bodily Expression10" field="10be" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674791" />
+	<data name="Off-Task Behavior10" field="10otb" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674792" />
+	<data name="Positive Interaction10" field="10ipi" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674793" />
+	<data name="Negative Interaction10" field="10ini" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674794" />
+	<data name="Acquiescence10" field="10pta" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674795" />
+	<data name="Resistance10" field="10ptr" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674796" />
+	<data name="Bodily Expression11" field="11be" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674797" />
+	<data name="Off-Task Behavior11" field="11otb" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674798" />
+	<data name="Positive Interaction11" field="11ipi" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674799" />
+	<data name="Negative Interaction11" field="11ini" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674800" />
+	<data name="Acquiescence11" field="11pta" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674801" />
+	<data name="Resistance11" field="11ptr" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674802" />
+	<data name="Bodily Expression12" field="12be" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674803" />
+	<data name="Off-Task Behavior12" field="12otb" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674804" />
+	<data name="Positive Interaction12" field="12ipi" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674805" />
+	<data name="Negative Interaction12" field="12ini" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674806" />
+	<data name="Acquiescence12" field="12pta" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674807" />
+	<data name="Resistance12" field="12ptr" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674808" />
+	<data name="Bodily Expression13" field="13be" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674809" />
+	<data name="Off-Task Behavior13" field="13otb" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674810" />
+	<data name="Positive Interaction13" field="13ipi" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674811" />
+	<data name="Negative Interaction13" field="13ini" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674812" />
+	<data name="Acquiescence13" field="13pta" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674813" />
+	<data name="Resistance13" field="13ptr" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674814" />
+	<data name="Bodily Expression14" field="14be" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674815" />
+	<data name="Off-Task Behavior14" field="14otb" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674816" />
+	<data name="Positive Interaction14" field="14ipi" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674817" />
+	<data name="Negative Interaction14" field="14ini" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674818" />
+	<data name="Acquiescence14" field="14pta" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674819" />
+	<data name="Resistance14" field="14ptr" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674820" />
+	<data name=" Bodily Expression15" field="15be" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674821" />
+	<data name="Off-Task Behavior15" field="15otb" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674822" />
+	<data name="Positive Interaction15" field="15ipi" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674823" />
+	<data name="Negative Interaction15" field="15ini" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674824" />
+	<data name="Acquiescence15" field="15pta" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674825" />
+	<data name="Resistance15" field="15ptr" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674826" />
+	<data name="Bodily Expression16" field="16be" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674827" />
+	<data name="Off-Task Behavior16" field="16otb" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674828" />
+	<data name="Positive Interaction16" field="16ipi" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674829" />
+	<data name="Negative Interaction16" field="16ini" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674830" />
+	<data name="Acquiescence16" field="16pta" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674831" />
+	<data name="Resistance16" field="16ptr" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674832" />
+	<data name=" Bodily Expression17" field="17be" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674833" />
+	<data name="Off-Task Behavior17" field="17otb" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674834" />
+	<data name="Positive Interaction17" field="17ipi" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674835" />
+	<data name="Negative Interaction17" field="17ini" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674836" />
+	<data name="Acquiescence17" field="17pta" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674837" />
+	<data name="Resistance17" field="17ptr" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674838" />
+	<data name="Bodily Expression18" field="18be" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674839" />
+	<data name="Off-Task Behavior18" field="18otb" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674840" />
+	<data name="Positive Interaction18" field="18ipi" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674841" />
+	<data name="Negative Interaction18" field="18ini" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674842" />
+	<data name="Acquiescence18" field="18pta" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674843" />
+	<data name="Resistance18" field="18ptr" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674844" />
+	<data name=" Bodily Expression19" field="19be" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674845" />
+	<data name="Off-Task Behavior19" field="19otb" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674846" />
+	<data name="Positive Interaction19" field="19ipi" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674847" />
+	<data name="Negative Interaction19" field="19ini" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674848" />
+	<data name="Acquiescence19" field="19pta" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674849" />
+	<data name="Resistance19" field="19ptr" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674850" />
+	<data name="Bodily Expression20" field="20be" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674851" />
+	<data name="Off-Task Behavior20" field="20otb" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674852" />
+	<data name="Positive Interaction20" field="20ipi" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674853" />
+	<data name="Negative Interaction20" field="20ini" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674854" />
+	<data name="Acquiescence20" field="20pta" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674855" />
+	<data name="Resistance20" field="20ptr" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674856" />
+	<data name="Bodily Expression21" field="21be" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674857" />
+	<data name="Off-Task Behavior21" field="21otb" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674858" />
+	<data name="Positive Interaction21" field="21ipi" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674859" />
+	<data name="Negative Interaction21" field="21ini" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674860" />
+	<data name="Acquiescence21" field="21pta" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674861" />
+	<data name="Resistance21" field="21ptr" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674862" />
+	<data name=" Bodily Expression22" field="22be" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674863" />
+	<data name="Off-Task Behavior22" field="22otb" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674864" />
+	<data name="Positive Interaction22" field="22ipi" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674865" />
+	<data name="Negative Interaction22" field="22ini" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674866" />
+	<data name="Acquiescence22" field="22pta" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674867" />
+	<data name="Resistance22" field="22ptr" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674868" />
+	<data name=" Bodily Expression23" field="23be" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674869" />
+	<data name="Off-Task Behavior23" field="23otb" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674870" />
+	<data name="Positive Interaction23" field="23ipi" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674871" />
+	<data name="Negative Interaction23" field="23ini" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674872" />
+	<data name="Acquiescence23" field="23pta" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674873" />
+	<data name="Resistance23" field="23ptr" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674874" />
+	<data name=" Bodily Expression24" field="24be" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674875" />
+	<data name="Off-Task Behavior24" field="24otb" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674876" />
+	<data name="Positive Interaction24" field="24ipi" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674877" />
+	<data name="Negative Interaction24" field="24ini" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674878" />
+	<data name="Acquiescence24" field="24pta" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674879" />
+	<data name="Resistance24" field="24ptr" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674880" />
+	<data name="Bodily Expression25" field="25be" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674881" />
+	<data name="Off-Task Behavior25" field="25otb" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674882" />
+	<data name=" Positive Interaction25" field="25ipi" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674883" />
+	<data name="Negative Interaction25" field="25ini" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674884" />
+	<data name="Acquiescence25" field="25pta" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674885" />
+	<data name="Resistance25" field="25ptr" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674886" />
+	<data name="Bodily Expression26" field="26be" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674887" />
+	<data name="Off-Task Behavior26" field="26otb" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674888" />
+	<data name="Positive Interaction26" field="26ipi" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674889" />
+	<data name=" Negative Interaction26" field="26ini" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674890" />
+	<data name="Acquiescence26" field="26pta" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674891" />
+	<data name="Resistance26" field="26ptr" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674892" />
+	<data name=" Bodily Expression27" field="27be" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674893" />
+	<data name="Off-Task Behavior27" field="27otb" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674894" />
+	<data name="Positive Interaction27" field="27ipi" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674895" />
+	<data name="Negative Interaction27" field="27ini" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674896" />
+	<data name="Acquiescence27" field="27pta" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674897" />
+	<data name="Resistance27" field="27ptr" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674898" />
+	<data name=" Bodily Expression28" field="28be" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674899" />
+	<data name="Off-Task Behavior28" field="28otb" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674900" />
+	<data name="Positive Interaction28" field="28ipi" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674901" />
+	<data name="Negative Interaction28" field="28ini" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674902" />
+	<data name="Acquiescence28" field="28pta" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674903" />
+	<data name="Resistance28" field="28ptr" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674904" />
+	<data name=" Bodily Expression29" field="29be" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674905" />
+	<data name="Off-Task Behavior29" field="29otb" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674906" />
+	<data name="Positive Interactinn29" field="29ipi" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674907" />
+	<data name="Negative Interaction29" field="29ini" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674908" />
+	<data name="Acquiescence29" field="29pta" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674909" />
+	<data name="Resistance29" field="29ptr" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674910" />
+	<data name="Bodily Expression30" field="30be" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674911" />
+	<data name="Off-Task Behavior30" field="30otb" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674912" />
+	<data name="Positive Interactinn30" field="30ipi" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674913" />
+	<data name="Negative Interaction30" field="30ini" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674914" />
+	<data name="Acquiescence30" field="30pta" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674915" />
+	<data name="Resistance30" field="30ptr" template="Playdoh_B" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674916" />
+	<data name="Special Flag" field="sf" template="Playdoh_B" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674917" />
+	<data name="Special Flag Explain" field="sfexp" template="Playdoh_B" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1271881674918" />
+	<data name="Equality of Sharing" field="esg" template="Playdoh_B" validator="val01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674919" />
+	<data name="Dominance" field="dcg" template="Playdoh_B" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271881674920" />
+	<dependency field="Special Flag Explain">
+		<parent field="Special Flag" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+</dataset>
+

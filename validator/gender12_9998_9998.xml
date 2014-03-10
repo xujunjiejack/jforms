@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE validator SYSTEM "../../dtd/validator.dtd">
+<validator name="gender12_9998_9998" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="2">
+	<valid value="9999" />
+	<valid value="9998" />
+</validator>
+

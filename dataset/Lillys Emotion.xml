@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Lillys Emotion" abrv="Lillys Emotion" filename="Lillys Emotion">
+	<template name="temp1">
+		<name format="" />
+		<field format="cg@" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<validator name="val01_9980-9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="1">
+		<valid value="9999" />
+		<valid value="9998" />
+		<valid value="9997" />
+		<valid value="9996" />
+		<valid value="9995" />
+		<valid value="9994" />
+		<valid value="9993" />
+		<valid value="9992" />
+		<valid value="9991" />
+		<valid value="9990" />
+		<valid value="9989" />
+		<valid value="9988" />
+		<valid value="9987" />
+		<valid value="9986" />
+		<valid value="9985" />
+		<valid value="9984" />
+		<valid value="9983" />
+		<valid value="9982" />
+		<valid value="9981" />
+		<valid value="9980" />
+	</validator>
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<key name="Twin" field="twin" template="na" validator="INTEGER" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<data name="Frustrated 1" field="1fr" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055393" />
+	<data name="Sad 1" field="1sa" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055394" />
+	<data name="Neutral 1" field="1nl" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055395" />
+	<data name="Content 1" field="1co" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055396" />
+	<data name="Enthusiastic 1 " field="1en" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055397" />
+	<data name="Frustrated 2" field="2fr" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055398" />
+	<data name="Sad 2" field="2sa" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055399" />
+	<data name="Neutral 2" field="2nl" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055400" />
+	<data name="Content 2" field="2co" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055401" />
+	<data name="Enthusiastic 2" field="2en" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055402" />
+	<data name="Frustrated 3" field="3fr" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055403" />
+	<data name="Sad 3" field="3sa" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055404" />
+	<data name="Neutral 3" field="3nl" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055405" />
+	<data name="Content 3" field="3co" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055406" />
+	<data name="Enthusiastic 3" field="3en" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055407" />
+	<data name="Frustrated 4" field="4fr" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055408" />
+	<data name="Sad 4" field="4sa" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055409" />
+	<data name="Neutral 4" field="4nl" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055410" />
+	<data name="Content 4" field="4co" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055411" />
+	<data name="Enthusiastic 4" field="4en" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055412" />
+	<data name="Frustrated 5" field="5fr" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055413" />
+	<data name="Sad 5" field="5sa" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055414" />
+	<data name="Neutral 5" field="5nl" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055415" />
+	<data name="Content 5" field="5co" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055416" />
+	<data name="Enthusiastic 5" field="5en" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055417" />
+	<data name="Frustrated 6" field="6fr" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055418" />
+	<data name="Sad 6" field="6sa" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055419" />
+	<data name="Neutral 6" field="6nl" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055420" />
+	<data name="Content 6" field="6co" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055421" />
+	<data name="Enthusiastic 6" field="6en" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055422" />
+	<data name="Frustrated 7" field="7fr" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055423" />
+	<data name="Sad 7" field="7sa" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055424" />
+	<data name="Neutral 7" field="7nl" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055425" />
+	<data name="Content 7" field="7co" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055426" />
+	<data name="Enthusiastic 7" field="7en" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055427" />
+	<data name="Frustrated 8" field="8fr" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055428" />
+	<data name="Sad 8" field="8sa" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055429" />
+	<data name="Neutral 8" field="8nl" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055430" />
+	<data name="Content 8" field="8co" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055431" />
+	<data name="Enthusiastic 8" field="8en" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055432" />
+	<data name="Frustrated 9" field="9fr" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055433" />
+	<data name="Sad 9" field="9sa" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055434" />
+	<data name="Neutral 9" field="9nl" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055435" />
+	<data name="Content 9" field="9co" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055436" />
+	<data name="Enthusiastic 9" field="9en" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055437" />
+	<data name="Frustrated 10" field="10fr" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055438" />
+	<data name="Sad 10" field="10sa" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055439" />
+	<data name="Neutral 10" field="10nl" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055440" />
+	<data name="Content 10" field="10co" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055441" />
+	<data name="Enthusiastic 10" field="10en" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055442" />
+	<data name="Frustrated 11" field="11fr" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055443" />
+	<data name="Sad 11" field="11sa" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055444" />
+	<data name="Neutral 11" field="11nl" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055445" />
+	<data name="Content 11" field="11co" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055446" />
+	<data name="Enthusiastic 11" field="11en" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055447" />
+	<data name="Frustrated 12" field="12fr" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055448" />
+	<data name="Sad 12" field="12sa" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055449" />
+	<data name="Neutral 12" field="12nl" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055450" />
+	<data name="Content 12" field="12co" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055451" />
+	<data name="Enthusiastic 12" field="12en" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055452" />
+	<data name="Frustrated 13" field="13fr" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055453" />
+	<data name="Sad 13" field="13sa" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055454" />
+	<data name="Neutral 13" field="13nl" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055455" />
+	<data name="Content 13" field="13co" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055456" />
+	<data name="Enthusiastic 13" field="13en" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055457" />
+	<data name="Frustrated 14" field="14fr" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055458" />
+	<data name="Sad 14" field="14sa" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055459" />
+	<data name="Neutral 14" field="14nl" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055460" />
+	<data name="Content 14" field="14co" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055461" />
+	<data name="Enthusiastic 14" field="14en" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055462" />
+	<data name="Frustrated 15" field="15fr" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055463" />
+	<data name="Sad 15" field="15sa" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055464" />
+	<data name="Neutral 15" field="15nl" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055465" />
+	<data name="Content 15" field="15co" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055466" />
+	<data name="Enthusiastic 15" field="15en" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055467" />
+	<data name="Frustrated 16" field="16fr" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055468" />
+	<data name="Sad 16" field="16sa" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055469" />
+	<data name="Neutral 16" field="16nl" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055470" />
+	<data name="Content 16" field="16co" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055471" />
+	<data name="Enthusiastic 16" field="16en" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055472" />
+	<data name="Frustrated 17" field="17fr" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055473" />
+	<data name="Sad 17" field="17sa" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055474" />
+	<data name="Neutral 17" field="17nl" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055475" />
+	<data name="Content 17" field="17co" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055476" />
+	<data name="Enthusiastic 17" field="17en" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055477" />
+	<data name="Frustrated 18" field="18fr" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055478" />
+	<data name="Sad 18" field="18sa" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055479" />
+	<data name="Neutral 18" field="18nl" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055480" />
+	<data name="Content 18" field="18co" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055481" />
+	<data name="Enthusiastic 18" field="18en" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055482" />
+	<data name="Frustrated 19" field="19fr" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055483" />
+	<data name="Sad 19" field="19sa" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055484" />
+	<data name="Neutral 19" field="19nl" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055485" />
+	<data name="Content 19" field="19co" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055486" />
+	<data name="Enthusiastic 19" field="19en" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055487" />
+	<data name="Frustrated 20" field="20fr" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055488" />
+	<data name="Sad 20" field="20sa" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055489" />
+	<data name="Neutral 20" field="20nl" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055490" />
+	<data name="Content 20" field="20co" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055491" />
+	<data name="Enthusiastic 20" field="20en" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055492" />
+	<data name="Frustrated 21" field="21fr" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055493" />
+	<data name="Sad 21" field="21sa" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055494" />
+	<data name="Neutral 21" field="21nl" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055495" />
+	<data name="Content 21" field="21co" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055496" />
+	<data name="Enthusiastic 21" field="21en" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055497" />
+	<data name="Frustrated 22" field="22fr" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055498" />
+	<data name="Sad 22" field="22sa" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055499" />
+	<data name="Neutral 22" field="22nl" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055500" />
+	<data name="Content 22" field="22co" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055501" />
+	<data name="Enthusiastic 22" field="22en" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055502" />
+	<data name="Frustrated 23" field="23fr" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055503" />
+	<data name="Sad 23" field="23sa" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055504" />
+	<data name="Neutral 23" field="23nl" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055505" />
+	<data name="Content 23" field="23co" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055506" />
+	<data name="Enthusiastic 23" field="23en" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055507" />
+	<data name="Frustrated 24" field="24fr" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055508" />
+	<data name="Sad 24" field="24sa" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055509" />
+	<data name="Neutral 24" field="24nl" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055510" />
+	<data name="Content 24" field="24co" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055511" />
+	<data name="Enthusiastic 24" field="24en" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055512" />
+	<data name="Frustrated 25" field="25fr" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055513" />
+	<data name="Sad 25" field="25sa" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055514" />
+	<data name="Neutral 25" field="25nl" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055515" />
+	<data name="Content 25" field="25co" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055516" />
+	<data name="Enthusiastic 25" field="25en" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055517" />
+	<data name="Frustrated 26" field="26fr" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055518" />
+	<data name="Sad 26" field="26sa" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055519" />
+	<data name="Neutral 26" field="26nl" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055520" />
+	<data name="Content 26" field="26co" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055521" />
+	<data name="Enthusiastic 26" field="26en" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055522" />
+	<data name="Frustrated 27" field="27fr" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055523" />
+	<data name="Sad 27" field="27sa" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055524" />
+	<data name="Neutral 27" field="27nl" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055525" />
+	<data name="Content 27" field="27co" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055526" />
+	<data name="Enthusiastic 27" field="27en" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055527" />
+	<data name="Frustrated 28" field="28fr" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055528" />
+	<data name="Sad 28" field="28sa" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055529" />
+	<data name="Neutral 28" field="28nl" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055530" />
+	<data name="Content 28" field="28co" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055531" />
+	<data name="Enthusiastic 28" field="28en" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055532" />
+	<data name="Frustrated 29" field="29fr" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055533" />
+	<data name="Sad 29" field="29sa" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055534" />
+	<data name="Neutral 29" field="29nl" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055535" />
+	<data name="Content 29" field="29co" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055536" />
+	<data name="Enthusiastic 29" field="29en" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055537" />
+	<data name="Frustrated 30" field="30fr" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055538" />
+	<data name="Sad 30" field="30sa" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055539" />
+	<data name="Neutral 30" field="30nl" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055540" />
+	<data name="Content 30" field="30co" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055541" />
+	<data name="Enthusiastic 30" field="30en" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055542" />
+	<data name="Frustrated 31" field="31fr" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055543" />
+	<data name="Sad 31" field="31sa" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055544" />
+	<data name="Neutral 31" field="31nl" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055545" />
+	<data name="Content 31" field="31co" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055546" />
+	<data name="Enthusiastic 31" field="31en" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055547" />
+	<data name="Frustrated 32" field="32fr" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055548" />
+	<data name="Sad 32" field="32sa" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055549" />
+	<data name="Neutral 32" field="32nl" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055550" />
+	<data name="Content 32" field="32co" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055551" />
+	<data name="Enthusiastic 32" field="32en" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055552" />
+	<data name="Frustrated 33" field="33fr" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055553" />
+	<data name="Sad 33" field="33sa" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055554" />
+	<data name="Neutral 33" field="33nl" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055555" />
+	<data name="Content 33" field="33co" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055556" />
+	<data name="Enthusiastic 33" field="33en" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055557" />
+	<data name="Frustrated 34" field="34fr" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055558" />
+	<data name="Sad 34" field="34sa" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055559" />
+	<data name="Neutral 34" field="34nl" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055560" />
+	<data name="Content 34" field="34co" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055561" />
+	<data name="Enthusiastic 34" field="34en" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055562" />
+	<data name="Frustrated 35" field="35fr" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055563" />
+	<data name="Sad 35" field="35sa" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055564" />
+	<data name="Neutral 35" field="35nl" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055565" />
+	<data name="Content 35" field="35co" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055566" />
+	<data name="Enthusiastic 35" field="35en" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055567" />
+	<data name="Frustrated 36" field="36fr" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055568" />
+	<data name="Sad 36" field="36sa" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055569" />
+	<data name="Neutral 36" field="36nl" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055570" />
+	<data name="Content 36" field="36co" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055571" />
+	<data name="Enthusiastic 36" field="36en" template="temp1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1297978055572" />
+</dataset>
+

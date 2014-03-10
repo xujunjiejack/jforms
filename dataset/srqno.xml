@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Nurturance of Sibling" abrv="srqno" filename="srqno">
+	<template name="temp1">
+		<name format="" />
+		<field format="spno@" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<validator name="val15_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="5">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<data name="3" field="003m" template="temp1" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054240604489" />
+	<data name="19" field="019m" template="temp1" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054240604490" />
+	<data name="35" field="035m" template="temp1" validator="val15_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054240604491" />
+</dataset>
+

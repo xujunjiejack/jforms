@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Recative Cortisol" abrv="reactivecortisol" filename="reactivecortisol">
+	<template name="temp1">
+		<name format="" />
+		<field format="rc@" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<key name="Twin" field="twin" template="na" validator="INTEGER" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<data name="Visit Date" field="vdatt" template="temp1" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1054584993173" />
+	<data name="Visit Time" field="vtimt" template="temp1" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1054584993174" />
+	<data name="Pre-sample Time" field="1timt" template="temp1" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054584993175" />
+	<data name="Mid-visit Time" field="2timt" template="temp1" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054584993176" />
+	<data name="Post-sample Time" field="3timt" template="temp1" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054584993177" />
+</dataset>
+

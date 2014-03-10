@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="MRI Screener" abrv="p5cg1mri" filename="p5cg1mri">
+	<dataset file="p5mri" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_5_MR" />
+	<key name="Family Id" entryset="P5 MRI" filename="p5mri" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Twin" entryset="P5 MRI" filename="p5mri" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Twin,A:1,B:2" />
+	<key name="Data Mode" entryset="P5 MRI" filename="p5mri" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="MR" abrv="mr" numcols="2" displayheader="true" header="MR">
+		<datafield name="1" entryset="P5 MRI" filename="build\dataset\p5mri.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1241772999843" options="" />
+		<datafield name="1a" entryset="P5 MRI" filename="build\dataset\p5mri.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1241772999844" options="" />
+		<datafield name="2" entryset="P5 MRI" filename="build\dataset\p5mri.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1241772999845" options="" />
+		<datafield name="2a" entryset="P5 MRI" filename="build\dataset\p5mri.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1241772999846" options="" />
+		<datafield name="3" entryset="P5 MRI" filename="build\dataset\p5mri.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1241772999847" options="" />
+		<datafield name="3a" entryset="P5 MRI" filename="build\dataset\p5mri.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1241772999848" options="" />
+		<datafield name="4" entryset="P5 MRI" filename="build\dataset\p5mri.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1241772999849" options="" />
+		<datafield name="4a" entryset="P5 MRI" filename="build\dataset\p5mri.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1241772999850" options="" />
+		<datafield name="5" entryset="P5 MRI" filename="build\dataset\p5mri.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1241772999851" options="" />
+		<datafield name="5a" entryset="P5 MRI" filename="build\dataset\p5mri.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1241772999852" options="" />
+		<datafield name="6" entryset="P5 MRI" filename="build\dataset\p5mri.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1241772999853" options="" />
+		<datafield name="6a" entryset="P5 MRI" filename="build\dataset\p5mri.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1241772999854" options="" />
+		<datafield name="7" entryset="P5 MRI" filename="build\dataset\p5mri.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1241772999855" options="" />
+		<datafield name="7a" entryset="P5 MRI" filename="build\dataset\p5mri.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1241772999856" options="" />
+		<datafield name="8" entryset="P5 MRI" filename="build\dataset\p5mri.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1241772999857" options="" />
+		<datafield name="8a" entryset="P5 MRI" filename="build\dataset\p5mri.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1241772999858" options="" />
+		<datafield name="9" entryset="P5 MRI" filename="build\dataset\p5mri.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1241772999859" options="" />
+		<datafield name="9a" entryset="P5 MRI" filename="build\dataset\p5mri.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1241772999860" options="" />
+		<datafield name="10" entryset="P5 MRI" filename="build\dataset\p5mri.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1241772999861" options="" />
+		<datafield name="10a" entryset="P5 MRI" filename="build\dataset\p5mri.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1241772999862" options="" />
+		<datafield name="10b" entryset="P5 MRI" filename="build\dataset\p5mri.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1241772999863" options="" />
+		<datafield name="10c" entryset="P5 MRI" filename="build\dataset\p5mri.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1241772999864" options="0,MM/dd/yyyy" />
+		<datafield name="11" entryset="P5 MRI" filename="build\dataset\p5mri.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1241772999865" options="" />
+		<datafield name="11a" entryset="P5 MRI" filename="build\dataset\p5mri.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1241772999866" options="" />
+		<datafield name="12" entryset="P5 MRI" filename="build\dataset\p5mri.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1241772999867" options="" />
+		<datafield name="12a" entryset="P5 MRI" filename="build\dataset\p5mri.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1241772999868" options="" />
+		<datafield name="13" entryset="P5 MRI" filename="build\dataset\p5mri.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1241772999869" options="" />
+		<datafield name="13a" entryset="P5 MRI" filename="build\dataset\p5mri.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1241772999870" options="" />
+		<datafield name="14" entryset="P5 MRI" filename="build\dataset\p5mri.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1241772999871" options="" />
+		<datafield name="14a" entryset="P5 MRI" filename="build\dataset\p5mri.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1241772999872" options="" />
+		<datafield name="15" entryset="P5 MRI" filename="build\dataset\p5mri.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1241772999873" options="" />
+		<datafield name="16" entryset="P5 MRI" filename="build\dataset\p5mri.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1241772999874" options="0,MM/dd/yyyy" />
+		<datafield name="17" entryset="P5 MRI" filename="build\dataset\p5mri.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1241772999875" options="" />
+		<datafield name="18" entryset="P5 MRI" filename="build\dataset\p5mri.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1241772999876" options="" />
+		<datafield name="19" entryset="P5 MRI" filename="build\dataset\p5mri.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1241772999877" options="" />
+		<datafield name="19a" entryset="P5 MRI" filename="build\dataset\p5mri.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1241772999878" options="" />
+		<datafield name="20" entryset="P5 MRI" filename="build\dataset\p5mri.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1241772999879" options="" />
+	</componentset>
+</form>
+

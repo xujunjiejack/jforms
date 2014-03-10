@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE validator SYSTEM "../../dtd/validator.dtd">
+<validator name="yesno_9980-9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="1">
+	<valid value="9999" />
+	<valid value="9998" />
+	<valid value="9997" />
+	<valid value="9996" />
+	<valid value="9995" />
+	<valid value="9994" />
+	<valid value="9993" />
+	<valid value="9992" />
+	<valid value="9991" />
+	<valid value="9990" />
+	<valid value="9989" />
+	<valid value="9988" />
+	<valid value="9987" />
+	<valid value="9986" />
+	<valid value="9985" />
+	<valid value="9984" />
+	<valid value="9983" />
+	<valid value="9982" />
+	<valid value="9981" />
+	<valid value="9980" />
+</validator>
+

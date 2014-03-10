@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE validator SYSTEM "../../dtd/validator.dtd">
+<validator name="varchar_9998_9999" type="VARCHAR" defaultvalue="9998" allowblanks="false" lowerbound="2147483647" upperbound="2147483647">
+	<valid value="9999" />
+	<valid value="9998" />
+</validator>
+

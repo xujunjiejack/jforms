@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Obstetrical Complications Twin" abrv="ocst" filename="ocst">
+	<template name="temp">
+		<name format="" />
+		<field format="@t" />
+	</template>
+	<dataset file="ocst" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_OC_T" />
+	<key name="Family Id" entryset="Obstetrical Complications Scale Twin" filename="ocst" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Twin" entryset="Obstetrical Complications Scale Twin" filename="ocst" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Twin,A:1,B:2" />
+	<key name="Data Mode" entryset="Obstetrical Complications Scale Twin" filename="ocst" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="Obstetrical Complications" abrv="ocst" numcols="2" displayheader="true" header="Obstetrical Complications">
+		<datafield name="Fetal heart rate (BPM) first stage" entryset="Obstetrical Complications Scale Twin" filename="build\dataset\ocst.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1129137221275" options="" />
+		<datafield name="Specify BPM first stage" entryset="Obstetrical Complications Scale Twin" filename="build\dataset\ocst.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1129137221276" options="" />
+		<datafield name="Fetal Heart Rate (BPM) second stage" entryset="Obstetrical Complications Scale Twin" filename="build\dataset\ocst.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1129137221277" options="" />
+		<datafield name="Specify BPM second stage" entryset="Obstetrical Complications Scale Twin" filename="build\dataset\ocst.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1129137221278" options="" />
+		<datafield name="Fetal presentation-delivery" entryset="Obstetrical Complications Scale Twin" filename="build\dataset\ocst.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1129137221279" options="" />
+		<datafield name="Forceps Used" entryset="Obstetrical Complications Scale Twin" filename="build\dataset\ocst.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1129137221280" options="" />
+		<datafield name="Delivery" entryset="Obstetrical Complications Scale Twin" filename="build\dataset\ocst.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1129137221281" options="" />
+		<datafield name="If other, what type" entryset="Obstetrical Complications Scale Twin" filename="build\dataset\ocst.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1129137221282" options="" />
+		<datafield name="Other delivery information" entryset="Obstetrical Complications Scale Twin" filename="build\dataset\ocst.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1129137221283" options="" />
+		<datafield name="Cord around neck or in knot" entryset="Obstetrical Complications Scale Twin" filename="build\dataset\ocst.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1129137221284" options="" />
+		<datafield name="Cord prolapsed" entryset="Obstetrical Complications Scale Twin" filename="build\dataset\ocst.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1129137221285" options="" />
+		<datafield name="Cord insertion" entryset="Obstetrical Complications Scale Twin" filename="build\dataset\ocst.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1129137221286" options="" />
+		<datafield name="Other cord information" entryset="Obstetrical Complications Scale Twin" filename="build\dataset\ocst.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1129137221287" options="" />
+		<datafield name="Placental infarction" entryset="Obstetrical Complications Scale Twin" filename="build\dataset\ocst.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1129137221288" options="" />
+		<datafield name="Amniotic fluid" entryset="Obstetrical Complications Scale Twin" filename="build\dataset\ocst.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1129137221289" options="" />
+		<datafield name="Meconium staining" entryset="Obstetrical Complications Scale Twin" filename="build\dataset\ocst.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1129137221290" options="" />
+		<datafield name="Special Flag" entryset="Obstetrical Complications Scale Twin" filename="build\dataset\ocst.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1129137221291" options="" />
+		<datafield name="Explain" entryset="Obstetrical Complications Scale Twin" filename="build\dataset\ocst.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1129137221292" options="" />
+	</componentset>
+</form>
+

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Caregiver 2 - Short Assessment" abrv="p4cg2questionnaireshort" filename="p4cg2questionnaireshort">
+	<template name="temp">
+		<name format="" />
+		<field format="@f" />
+	</template>
+	<dataset file="p4cgquestionairerespondant" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_CG2_QU_RESPONDENT" />
+	<dataset file="p4cgquestionairedate" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_DATES" />
+	<dataset file="hbqsr" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_HB_SR_F" />
+	<dataset file="hbqps" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_HB_PS_F" />
+	<dataset file="hbqpr" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_HB_PR_F" />
+	<dataset file="p4tire" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_TI_F" />
+	<key name="Family Id" entryset="P4 CG Questionaire Respondant" filename="p4cgquestionairerespondant" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Twin" entryset="Social Relations" filename="hbqsr" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Twin,A:1,B:2" />
+	<key name="Data Mode" entryset="Social Relations" filename="hbqsr" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="Questionnaire" abrv="questionnaire" numcols="2" displayheader="true" header="Questionnaire">
+		<datafield name="Respondant" entryset="P4 CG Questionaire Respondant" filename="build\dataset\p4cgquestionairerespondant.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1212442220633" options="" />
+		<datafield name="Date Completed" entryset="P4 CG Questionaire Date" filename="build\dataset\p4cgquestionairedate.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1212442220631" options="0,MM/dd/yyyy" />
+	</componentset>
+	<componentset name="SR" abrv="sr" numcols="2" displayheader="true" header="SR">
+		<datafield name="1" entryset="Social Relations" filename="build\dataset\hbqsr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341059" options="" />
+		<datafield name="2" entryset="Social Relations" filename="build\dataset\hbqsr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341060" options="" />
+		<datafield name="3" entryset="Social Relations" filename="build\dataset\hbqsr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341061" options="" />
+	</componentset>
+	<componentset name="PS" abrv="ps" numcols="2" displayheader="true" header="PS">
+		<datafield name="1" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341077" options="" />
+		<datafield name="2" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341078" options="" />
+		<datafield name="3" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341079" options="" />
+		<datafield name="4" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341080" options="" />
+		<datafield name="5" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341081" options="" />
+		<datafield name="6" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341082" options="" />
+		<datafield name="7" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341083" options="" />
+		<datafield name="8" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341084" options="" />
+		<datafield name="9" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341085" options="" />
+		<datafield name="10" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341086" options="" />
+		<datafield name="11" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341087" options="" />
+		<datafield name="12" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341088" options="" />
+		<datafield name="13" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341089" options="" />
+		<datafield name="14" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341090" options="" />
+		<datafield name="15" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341091" options="" />
+		<datafield name="16" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341092" options="" />
+		<datafield name="17" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341093" options="" />
+		<datafield name="18" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341094" options="" />
+		<datafield name="19" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341095" options="" />
+		<datafield name="20" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341096" options="" />
+	</componentset>
+	<componentset name="PR" abrv="pr" numcols="2" displayheader="true" header="PR">
+		<datafield name="1" entryset="Peer Relationships" filename="build\dataset\hbqpr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1212013586477" options="" />
+		<datafield name="2" entryset="Peer Relationships" filename="build\dataset\hbqpr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1212013586478" options="" />
+		<datafield name="3" entryset="Peer Relationships" filename="build\dataset\hbqpr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1212013586479" options="" />
+		<datafield name="4" entryset="Peer Relationships" filename="build\dataset\hbqpr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1212013586480" options="" />
+		<datafield name="5" entryset="Peer Relationships" filename="build\dataset\hbqpr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1212013586481" options="" />
+		<datafield name="6" entryset="Peer Relationships" filename="build\dataset\hbqpr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1212013586482" options="" />
+		<datafield name="7" entryset="Peer Relationships" filename="build\dataset\hbqpr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1212013586483" options="" />
+		<datafield name="8" entryset="Peer Relationships" filename="build\dataset\hbqpr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1212013586484" options="" />
+		<datafield name="9" entryset="Peer Relationships" filename="build\dataset\hbqpr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1212013586485" options="" />
+		<datafield name="10" entryset="Peer Relationships" filename="build\dataset\hbqpr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1212013586486" options="" />
+		<datafield name="11" entryset="Peer Relationships" filename="build\dataset\hbqpr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1212013586487" options="" />
+		<datafield name="12" entryset="Peer Relationships" filename="build\dataset\hbqpr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1212013586488" options="" />
+		<datafield name="13" entryset="Peer Relationships" filename="build\dataset\hbqpr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1212013586489" options="" />
+		<datafield name="14" entryset="Peer Relationships" filename="build\dataset\hbqpr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1212013586490" options="" />
+		<datafield name="15" entryset="Peer Relationships" filename="build\dataset\hbqpr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1212013586491" options="" />
+		<datafield name="16" entryset="Peer Relationships" filename="build\dataset\hbqpr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1212013586492" options="" />
+		<datafield name="17" entryset="Peer Relationships" filename="build\dataset\hbqpr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1212013586493" options="" />
+		<datafield name="18" entryset="Peer Relationships" filename="build\dataset\hbqpr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1212013586514" options="" />
+		<datafield name="19" entryset="Peer Relationships" filename="build\dataset\hbqpr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1212013586515" options="" />
+		<datafield name="20" entryset="Peer Relationships" filename="build\dataset\hbqpr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1212013586516" options="" />
+		<datafield name="21" entryset="Peer Relationships" filename="build\dataset\hbqpr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1212013586517" options="" />
+		<datafield name="22" entryset="Peer Relationships" filename="build\dataset\hbqpr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1212013586518" options="" />
+		<datafield name="23" entryset="Peer Relationships" filename="build\dataset\hbqpr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1212013586519" options="" />
+		<datafield name="24" entryset="Peer Relationships" filename="build\dataset\hbqpr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1212013586520" options="" />
+		<datafield name="25" entryset="Peer Relationships" filename="build\dataset\hbqpr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1212013586521" options="" />
+	</componentset>
+	<componentset name="TIRE" abrv="tire" numcols="2" displayheader="true" header="TIRE">
+		<datafield name="1" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211900073952" options="" />
+		<datafield name="2" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211900073953" options="" />
+		<datafield name="3" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211900073954" options="" />
+		<datafield name="4" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211900073955" options="" />
+		<datafield name="5" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211900073956" options="" />
+		<datafield name="6" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211900073957" options="" />
+		<datafield name="7" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211900073958" options="" />
+		<datafield name="8" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211900073959" options="" />
+		<datafield name="9" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211900073960" options="" />
+		<datafield name="10" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211900073961" options="" />
+		<datafield name="11" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211900073962" options="" />
+		<datafield name="12" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211900073963" options="" />
+		<datafield name="13" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211900073964" options="" />
+		<datafield name="14" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211900073965" options="" />
+		<datafield name="15" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211900073966" options="" />
+		<datafield name="16" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211900073967" options="" />
+		<datafield name="17" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211900073968" options="" />
+		<datafield name="18" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211900073969" options="" />
+		<datafield name="19" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211900073970" options="" />
+		<datafield name="20" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211900073971" options="" />
+		<datafield name="21" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532143" options="" />
+		<datafield name="22" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532144" options="" />
+		<datafield name="23" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532145" options="" />
+		<datafield name="24" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532146" options="" />
+		<datafield name="25" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532147" options="" />
+		<datafield name="26" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532148" options="" />
+		<datafield name="27" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532149" options="" />
+		<datafield name="28" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532150" options="" />
+		<datafield name="29" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532151" options="" />
+		<datafield name="30" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532152" options="" />
+		<datafield name="31" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532153" options="" />
+		<datafield name="32" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532154" options="" />
+		<datafield name="33" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532155" options="" />
+		<datafield name="34" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532156" options="" />
+		<datafield name="35" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532157" options="" />
+		<datafield name="36" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532158" options="" />
+		<datafield name="37" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532159" options="" />
+		<datafield name="38" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532160" options="" />
+		<datafield name="39" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532161" options="" />
+		<datafield name="40" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532162" options="" />
+		<datafield name="41" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532163" options="" />
+		<datafield name="42" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532164" options="" />
+		<datafield name="43" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532165" options="" />
+		<datafield name="44" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532166" options="" />
+		<datafield name="45" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532167" options="" />
+		<datafield name="46" entryset="TIRE" filename="build\dataset\p4tire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532168" options="" />
+	</componentset>
+</form>
+

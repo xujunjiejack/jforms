@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Test Form" abrv="testform" filename="testform">
+	<dataset file="ts1" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="TRASH_TEST" />
+	<key name="Family Id" entryset="Test" filename="ts1" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<componentset name="Test" abrv="test" numcols="2" displayheader="false" header="Test">
+		<module class="com.wtp.jforms.ui.control.module.Header" options="Test 1" />
+		<datafield name="Test 1" entryset="Test" filename="build\dataset\ts1.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1057701198861" options="" />
+		<module class="com.wtp.jforms.ui.control.module.Header" options="Test 2" />
+		<datafield name="Staff Number" entryset="Test" filename="build\dataset\ts1.xml" type="0" class="com.wtp.jforms.ui.control.smart.ComboFieldBox" editable="true" classid="1057701198862" options="0,Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_STAFF,number" />
+		<datafield name="Date Completed" entryset="Test" filename="build\dataset\ts1.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1057701198863" options="0,MM/dd/yyyy" />
+	</componentset>
+</form>
+

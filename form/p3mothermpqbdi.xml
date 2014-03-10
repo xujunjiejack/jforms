@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Mother Questionnaire" abrv="p3mothermpqbdi" filename="p3mothermpqbdi">
+	<template name="temp1">
+		<name format="" />
+		<field format="@m" />
+	</template>
+	<dataset file="mpqsp" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_MP_M" />
+	<dataset file="mpqcn" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_MP_M" />
+	<dataset file="mpqsr" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_MP_M" />
+	<dataset file="mpqsc" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_MP_M" />
+	<dataset file="mpqag" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_MP_M" />
+	<dataset file="mpqwb" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_MP_M" />
+	<dataset file="mpqtr" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_MP_M" />
+	<dataset file="mpqac" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_MP_M" />
+	<dataset file="mpqal" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_MP_M" />
+	<dataset file="mpqab" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_MP_M" />
+	<dataset file="mpqha" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_MP_M" />
+	<dataset file="bdi" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_BD_M" />	
+	<key name="Family Id" entryset="Activity Level Twin A" filename="cbqal_a" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Data Mode" entryset="Activity Level Twin A" filename="cbqal_a" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry :Entry,Check:Check" />
+	<componentset name="Mutidimensional Personality Questionnaire" abrv="mpq" numcols="2" displayheader="true" header="Mutidimensional Personality Questionnaire">
+		<datafield name="1" entryset="Social Potency" filename="build\dataset\mpqsp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624591" options="" />
+		<datafield name="2" entryset="Control" filename="build\dataset\mpqcn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624177" options="" />
+		<datafield name="3" entryset="Stress Reaction" filename="build\dataset\mpqsr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624321" options="" />
+		<datafield name="4" entryset="Social Closeness" filename="build\dataset\mpqsc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624215" options="" />
+		<datafield name="5" entryset="Aggression" filename="build\dataset\mpqag.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624157" options="" />
+		<datafield name="6" entryset="Well-Being" filename="build\dataset\mpqwb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624360" options="" />
+		<datafield name="7" entryset="Traditionalism" filename="build\dataset\mpqtr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624340" options="" />
+		<datafield name="8" entryset="Achievement" filename="build\dataset\mpqac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624117" options="" />
+		<datafield name="9" entryset="Alienation" filename="build\dataset\mpqal.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045197417139" options="" />
+		<datafield name="10" entryset="Stress Reaction" filename="build\dataset\mpqsr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624322" options="" />
+		<datafield name="11" entryset="Social Closeness" filename="build\dataset\mpqsc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624216" options="" />
+		<datafield name="12" entryset="Well-Being" filename="build\dataset\mpqwb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624361" options="" />
+		<datafield name="13" entryset="Aggression" filename="build\dataset\mpqag.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624158" options="" />
+		<datafield name="14" entryset="Social Potency" filename="build\dataset\mpqsp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624592" options="" />
+		<datafield name="15" entryset="Control" filename="build\dataset\mpqcn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624178" options="" />
+		<datafield name="16" entryset="Stress Reaction" filename="build\dataset\mpqsr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045197421004" options="" />
+		<datafield name="17" entryset="Alienation" filename="build\dataset\mpqal.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045197417140" options="" />
+		<datafield name="18" entryset="Traditionalism" filename="build\dataset\mpqtr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624341" options="" />
+		<datafield name="19" entryset="Social Closeness" filename="build\dataset\mpqsc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624217" options="" />
+		<datafield name="20" entryset="Absorption" filename="build\dataset\mpqab.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624097" options="" />
+		<datafield name="21" entryset="Harm Avoidance" filename="build\dataset\mpqha.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624197" options="" />
+		<datafield name="22" entryset="Well-Being" filename="build\dataset\mpqwb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624362" options="" />
+		<datafield name="23" entryset="Achievement" filename="build\dataset\mpqac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624118" options="" />
+		<datafield name="24" entryset="Aggression" filename="build\dataset\mpqag.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624159" options="" />
+		<datafield name="25" entryset="Stress Reaction" filename="build\dataset\mpqsr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624323" options="" />
+		<datafield name="26" entryset="Absorption" filename="build\dataset\mpqab.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624098" options="" />
+		<datafield name="27" entryset="Control" filename="build\dataset\mpqcn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624179" options="" />
+		<datafield name="28" entryset="Social Closeness" filename="build\dataset\mpqsc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624218" options="" />
+		<datafield name="29" entryset="Well-Being" filename="build\dataset\mpqwb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624363" options="" />
+		<datafield name="30" entryset="Social Potency" filename="build\dataset\mpqsp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624593" options="" />
+		<datafield name="31" entryset="Control" filename="build\dataset\mpqcn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624180" options="" />
+		<datafield name="32" entryset="Achievement" filename="build\dataset\mpqac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624119" options="" />
+		<datafield name="33" entryset="Well-Being" filename="build\dataset\mpqwb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624364" options="" />
+		<datafield name="34" entryset="Alienation" filename="build\dataset\mpqal.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045197417141" options="" />
+		<datafield name="35" entryset="Social Closeness" filename="build\dataset\mpqsc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624219" options="" />
+		<datafield name="36" entryset="Traditionalism" filename="build\dataset\mpqtr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624342" options="" />
+		<datafield name="37" entryset="Control" filename="build\dataset\mpqcn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624181" options="" />
+		<datafield name="38" entryset="Aggression" filename="build\dataset\mpqag.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624160" options="" />
+		<datafield name="39" entryset="Well-Being" filename="build\dataset\mpqwb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624365" options="" />
+		<datafield name="40" entryset="Social Potency" filename="build\dataset\mpqsp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624594" options="" />
+		<datafield name="41" entryset="Stress Reaction" filename="build\dataset\mpqsr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624324" options="" />
+		<datafield name="42" entryset="Alienation" filename="build\dataset\mpqal.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045197417142" options="" />
+		<datafield name="43" entryset="Social Closeness" filename="build\dataset\mpqsc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624220" options="" />
+		<datafield name="44" entryset="Absorption" filename="build\dataset\mpqab.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624099" options="" />
+		<datafield name="45" entryset="Harm Avoidance" filename="build\dataset\mpqha.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624198" options="" />
+		<datafield name="46" entryset="Achievement" filename="build\dataset\mpqac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624120" options="" />
+		<datafield name="47" entryset="Aggression" filename="build\dataset\mpqag.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624161" options="" />
+		<datafield name="48" entryset="Absorption" filename="build\dataset\mpqab.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624100" options="" />
+		<datafield name="49" entryset="Stress Reaction" filename="build\dataset\mpqsr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624325" options="" />
+		<datafield name="50" entryset="Social Closeness" filename="build\dataset\mpqsc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624221" options="" />
+		<datafield name="51" entryset="Alienation" filename="build\dataset\mpqal.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045197417143" options="" />
+		<datafield name="52" entryset="Traditionalism" filename="build\dataset\mpqtr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624343" options="" />
+		<datafield name="53" entryset="Control" filename="build\dataset\mpqcn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624182" options="" />
+		<datafield name="54" entryset="Social Potency" filename="build\dataset\mpqsp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624595" options="" />
+		<datafield name="55" entryset="Aggression" filename="build\dataset\mpqag.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624162" options="" />
+		<datafield name="56" entryset="Achievement" filename="build\dataset\mpqac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624121" options="" />
+		<datafield name="57" entryset="Social Closeness" filename="build\dataset\mpqsc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624222" options="" />
+		<datafield name="58" entryset="Traditionalism" filename="build\dataset\mpqtr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624344" options="" />
+		<datafield name="59" entryset="Alienation" filename="build\dataset\mpqal.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045197417144" options="" />
+		<datafield name="60" entryset="Control" filename="build\dataset\mpqcn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624183" options="" />
+		<datafield name="61" entryset="Social Potency" filename="build\dataset\mpqsp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624596" options="" />
+		<datafield name="62" entryset="Harm Avoidance" filename="build\dataset\mpqha.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624199" options="" />
+		<datafield name="63" entryset="Stress Reaction" filename="build\dataset\mpqsr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624326" options="" />
+		<datafield name="64" entryset="Traditionalism" filename="build\dataset\mpqtr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624345" options="" />
+		<datafield name="65" entryset="Achievement" filename="build\dataset\mpqac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624122" options="" />
+		<datafield name="66" entryset="Absorption" filename="build\dataset\mpqab.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624101" options="" />
+		<datafield name="67" entryset="Aggression" filename="build\dataset\mpqag.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624163" options="" />
+		<datafield name="68" entryset="Social Closeness" filename="build\dataset\mpqsc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624223" options="" />
+		<datafield name="69" entryset="Control" filename="build\dataset\mpqcn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624184" options="" />
+		<datafield name="70" entryset="Social Potency" filename="build\dataset\mpqsp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624597" options="" />
+		<datafield name="71" entryset="Harm Avoidance" filename="build\dataset\mpqha.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624200" options="" />
+		<datafield name="72" entryset="Traditionalism" filename="build\dataset\mpqtr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624346" options="" />
+		<datafield name="73" entryset="Well-Being" filename="build\dataset\mpqwb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624366" options="" />
+		<datafield name="74" entryset="Achievement" filename="build\dataset\mpqac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624123" options="" />
+		<datafield name="75" entryset="Aggression" filename="build\dataset\mpqag.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624164" options="" />
+		<datafield name="76" entryset="Harm Avoidance" filename="build\dataset\mpqha.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624201" options="" />
+		<datafield name="77" entryset="Social Potency" filename="build\dataset\mpqsp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624598" options="" />
+		<datafield name="78" entryset="Absorption" filename="build\dataset\mpqab.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624102" options="" />
+		<datafield name="79" entryset="Stress Reaction" filename="build\dataset\mpqsr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624327" options="" />
+		<datafield name="80" entryset="Alienation" filename="build\dataset\mpqal.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045197417145" options="" />
+		<datafield name="81" entryset="Well-Being" filename="build\dataset\mpqwb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624367" options="" />
+		<datafield name="82" entryset="Achievement" filename="build\dataset\mpqac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624124" options="" />
+		<datafield name="83" entryset="Absorption" filename="build\dataset\mpqab.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624103" options="" />
+		<datafield name="84" entryset="Harm Avoidance" filename="build\dataset\mpqha.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624202" options="" />
+		<datafield name="85" entryset="Social Closeness" filename="build\dataset\mpqsc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624224" options="" />
+		<datafield name="86" entryset="Stress Reaction" filename="build\dataset\mpqsr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624328" options="" />
+		<datafield name="87" entryset="Aggression" filename="build\dataset\mpqag.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624165" options="" />
+		<datafield name="88" entryset="Alienation" filename="build\dataset\mpqal.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045197417146" options="" />
+		<datafield name="89" entryset="Well-Being" filename="build\dataset\mpqwb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624368" options="" />
+		<datafield name="90" entryset="Harm Avoidance" filename="build\dataset\mpqha.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624203" options="" />
+		<datafield name="91" entryset="Social Potency" filename="build\dataset\mpqsp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624599" options="" />
+		<datafield name="92" entryset="Control" filename="build\dataset\mpqcn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624185" options="" />
+		<datafield name="93" entryset="Social Closeness" filename="build\dataset\mpqsc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624225" options="" />
+		<datafield name="94" entryset="Achievement" filename="build\dataset\mpqac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624125" options="" />
+		<datafield name="95" entryset="Stress Reaction" filename="build\dataset\mpqsr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624329" options="" />
+		<datafield name="96" entryset="Traditionalism" filename="build\dataset\mpqtr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624347" options="" />
+		<datafield name="97" entryset="Absorption" filename="build\dataset\mpqab.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624104" options="" />
+		<datafield name="98" entryset="Aggression" filename="build\dataset\mpqag.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624166" options="" />
+		<datafield name="99" entryset="Well-Being" filename="build\dataset\mpqwb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624369" options="" />
+		<datafield name="100" entryset="Harm Avoidance" filename="build\dataset\mpqha.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624204" options="" />
+		<datafield name="101" entryset="Alienation" filename="build\dataset\mpqal.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045197417147" options="" />
+		<datafield name="102" entryset="Control" filename="build\dataset\mpqcn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624186" options="" />
+		<datafield name="103" entryset="Absorption" filename="build\dataset\mpqab.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624105" options="" />
+		<datafield name="104" entryset="Achievement" filename="build\dataset\mpqac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624126" options="" />
+		<datafield name="105" entryset="Traditionalism" filename="build\dataset\mpqtr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624348" options="" />
+		<datafield name="106" entryset="Social Closeness" filename="build\dataset\mpqsc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624226" options="" />
+		<datafield name="107" entryset="Well-Being" filename="build\dataset\mpqwb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624370" options="" />
+		<datafield name="108" entryset="Harm Avoidance" filename="build\dataset\mpqha.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624205" options="" />
+		<datafield name="109" entryset="Aggression" filename="build\dataset\mpqag.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624167" options="" />
+		<datafield name="110" entryset="Social Potency" filename="build\dataset\mpqsp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624600" options="" />
+		<datafield name="111" entryset="Stress Reaction" filename="build\dataset\mpqsr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624330" options="" />
+		<datafield name="112" entryset="Control" filename="build\dataset\mpqcn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624187" options="" />
+		<datafield name="113" entryset="Traditionalism" filename="build\dataset\mpqtr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624349" options="" />
+		<datafield name="114" entryset="Alienation" filename="build\dataset\mpqal.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045197417148" options="" />
+		<datafield name="115" entryset="Achievement" filename="build\dataset\mpqac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624127" options="" />
+		<datafield name="116" entryset="Absorption" filename="build\dataset\mpqab.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624106" options="" />
+		<datafield name="117" entryset="Harm Avoidance" filename="build\dataset\mpqha.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624206" options="" />
+		<datafield name="118" entryset="Well-Being" filename="build\dataset\mpqwb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624371" options="" />
+		<datafield name="119" entryset="Social Potency" filename="build\dataset\mpqsp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624601" options="" />
+		<datafield name="120" entryset="Stress Reaction" filename="build\dataset\mpqsr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624331" options="" />
+		<datafield name="121" entryset="Control" filename="build\dataset\mpqcn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624188" options="" />
+		<datafield name="122" entryset="Alienation" filename="build\dataset\mpqal.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045197417149" options="" />
+		<datafield name="123" entryset="Well-Being" filename="build\dataset\mpqwb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624372" options="" />
+		<datafield name="124" entryset="Social Closeness" filename="build\dataset\mpqsc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624227" options="" />
+		<datafield name="125" entryset="Achievement" filename="build\dataset\mpqac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624128" options="" />
+		<datafield name="126" entryset="Traditionalism" filename="build\dataset\mpqtr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624350" options="" />
+		<datafield name="127" entryset="Absorption" filename="build\dataset\mpqab.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624107" options="" />
+		<datafield name="128" entryset="Aggression" filename="build\dataset\mpqag.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624168" options="" />
+		<datafield name="129" entryset="Control" filename="build\dataset\mpqcn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624189" options="" />
+		<datafield name="130" entryset="Harm Avoidance" filename="build\dataset\mpqha.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624207" options="" />
+		<datafield name="131" entryset="Alienation" filename="build\dataset\mpqal.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045197417150" options="" />
+		<datafield name="132" entryset="Social Potency" filename="build\dataset\mpqsp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624602" options="" />
+		<datafield name="133" entryset="Absorption" filename="build\dataset\mpqab.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624108" options="" />
+		<datafield name="134" entryset="Well-Being" filename="build\dataset\mpqwb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624373" options="" />
+		<datafield name="135" entryset="Traditionalism" filename="build\dataset\mpqtr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624351" options="" />
+		<datafield name="136" entryset="Stress Reaction" filename="build\dataset\mpqsr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624332" options="" />
+		<datafield name="137" entryset="Achievement" filename="build\dataset\mpqac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624129" options="" />
+		<datafield name="138" entryset="Control" filename="build\dataset\mpqcn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624190" options="" />
+		<datafield name="139" entryset="Harm Avoidance" filename="build\dataset\mpqha.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624208" options="" />
+		<datafield name="140" entryset="Absorption" filename="build\dataset\mpqab.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624109" options="" />
+		<datafield name="141" entryset="Aggression" filename="build\dataset\mpqag.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624169" options="" />
+		<datafield name="142" entryset="Social Potency" filename="build\dataset\mpqsp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624603" options="" />
+		<datafield name="143" entryset="Social Closeness" filename="build\dataset\mpqsc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624228" options="" />
+		<datafield name="144" entryset="Stress Reaction" filename="build\dataset\mpqsr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624333" options="" />
+		<datafield name="145" entryset="Achievement" filename="build\dataset\mpqac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624130" options="" />
+		<datafield name="146" entryset="Well-Being" filename="build\dataset\mpqwb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624374" options="" />
+		<datafield name="147" entryset="Harm Avoidance" filename="build\dataset\mpqha.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624209" options="" />
+		<datafield name="148" entryset="Alienation" filename="build\dataset\mpqal.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045197417151" options="" />
+		<datafield name="149" entryset="Control" filename="build\dataset\mpqcn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624191" options="" />
+		<datafield name="150" entryset="Traditionalism" filename="build\dataset\mpqtr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624352" options="" />
+		<datafield name="151" entryset="Well-Being" filename="build\dataset\mpqwb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624375" options="" />
+		<datafield name="152" entryset="Aggression" filename="build\dataset\mpqag.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624170" options="" />
+		<datafield name="153" entryset="Social Potency" filename="build\dataset\mpqsp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624604" options="" />
+		<datafield name="154" entryset="Stress Reaction" filename="build\dataset\mpqsr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624334" options="" />
+		<datafield name="155" entryset="Absorption" filename="build\dataset\mpqab.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624110" options="" />
+		<datafield name="156" entryset="Social Closeness" filename="build\dataset\mpqsc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624229" options="" />
+		<datafield name="157" entryset="Harm Avoidance" filename="build\dataset\mpqha.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624210" options="" />
+		<datafield name="158" entryset="Alienation" filename="build\dataset\mpqal.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045197417152" options="" />
+		<datafield name="159" entryset="Control" filename="build\dataset\mpqcn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624192" options="" />
+		<datafield name="160" entryset="Achievement" filename="build\dataset\mpqac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624131" options="" />
+		<datafield name="161" entryset="Traditionalism" filename="build\dataset\mpqtr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624353" options="" />
+		<datafield name="162" entryset="Social Potency" filename="build\dataset\mpqsp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624605" options="" />
+		<datafield name="163" entryset="Aggression" filename="build\dataset\mpqag.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624171" options="" />
+		<datafield name="164" entryset="Harm Avoidance" filename="build\dataset\mpqha.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624211" options="" />
+		<datafield name="165" entryset="Social Closeness" filename="build\dataset\mpqsc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624230" options="" />
+		<datafield name="166" entryset="Alienation" filename="build\dataset\mpqal.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045197417153" options="" />
+		<datafield name="167" entryset="Achievement" filename="build\dataset\mpqac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624132" options="" />
+		<datafield name="168" entryset="Traditionalism" filename="build\dataset\mpqtr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624354" options="" />
+		<datafield name="169" entryset="Well-Being" filename="build\dataset\mpqwb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624376" options="" />
+		<datafield name="170" entryset="Social Potency" filename="build\dataset\mpqsp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624606" options="" />
+		<datafield name="171" entryset="Harm Avoidance" filename="build\dataset\mpqha.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624212" options="" />
+		<datafield name="172" entryset="Absorption" filename="build\dataset\mpqab.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624111" options="" />
+		<datafield name="173" entryset="Aggression" filename="build\dataset\mpqag.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624172" options="" />
+		<datafield name="174" entryset="Traditionalism" filename="build\dataset\mpqtr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624355" options="" />
+		<datafield name="175" entryset="Social Closeness" filename="build\dataset\mpqsc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624231" options="" />
+		<datafield name="176" entryset="Alienation" filename="build\dataset\mpqal.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045197417154" options="" />
+		<datafield name="177" entryset="Stress Reaction" filename="build\dataset\mpqsr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624335" options="" />
+		<datafield name="178" entryset="Absorption" filename="build\dataset\mpqab.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624112" options="" />
+		<datafield name="179" entryset="Well-Being" filename="build\dataset\mpqwb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624377" options="" />
+		<datafield name="180" entryset="Control" filename="build\dataset\mpqcn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624193" options="" />
+		<datafield name="181" entryset="Traditionalism" filename="build\dataset\mpqtr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624356" options="" />
+		<datafield name="182" entryset="Social Closeness" filename="build\dataset\mpqsc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624232" options="" />
+		<datafield name="183" entryset="Aggression" filename="build\dataset\mpqag.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624173" options="" />
+		<datafield name="184" entryset="Social Potency" filename="build\dataset\mpqsp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624607" options="" />
+		<datafield name="185" entryset="Harm Avoidance" filename="build\dataset\mpqha.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624213" options="" />
+		<datafield name="186" entryset="Absorption" filename="build\dataset\mpqab.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624113" options="" />
+		<datafield name="187" entryset="Stress Reaction" filename="build\dataset\mpqsr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624336" options="" />
+		<datafield name="188" entryset="Achievement" filename="build\dataset\mpqac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624133" options="" />
+		<datafield name="189" entryset="Alienation" filename="build\dataset\mpqal.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045197417155" options="" />
+		<datafield name="190" entryset="Traditionalism" filename="build\dataset\mpqtr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624357" options="" />
+		<datafield name="191" entryset="Social Potency" filename="build\dataset\mpqsp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624608" options="" />
+		<datafield name="192" entryset="Absorption" filename="build\dataset\mpqab.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624114" options="" />
+		<datafield name="193" entryset="Control" filename="build\dataset\mpqcn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624194" options="" />
+		<datafield name="194" entryset="Harm Avoidance" filename="build\dataset\mpqha.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624214" options="" />
+		<datafield name="195" entryset="Stress Reaction" filename="build\dataset\mpqsr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624337" options="" />
+		<datafield name="196" entryset="Aggression" filename="build\dataset\mpqag.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624174" options="" />
+		<datafield name="197" entryset="Achievement" filename="build\dataset\mpqac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045181624134" options="" />
+		<datafield name="198" entryset="Alienation" filename="build\dataset\mpqal.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045197417156" options="" />
+	</componentset>
+	<componentset name="Beck Depression Inventory" abrv="bdi" numcols="2" displayheader="true" header="Beck Depression Inventory">
+		<datafield name="1" entryset="Beck Depression Inventory" filename="build\dataset\bdi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045169643225" options="" />
+		<datafield name="2" entryset="Beck Depression Inventory" filename="build\dataset\bdi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045169643226" options="" />
+		<datafield name="3" entryset="Beck Depression Inventory" filename="build\dataset\bdi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045169643227" options="" />
+		<datafield name="4" entryset="Beck Depression Inventory" filename="build\dataset\bdi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045169643228" options="" />
+		<datafield name="5" entryset="Beck Depression Inventory" filename="build\dataset\bdi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045169643229" options="" />
+		<datafield name="6" entryset="Beck Depression Inventory" filename="build\dataset\bdi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045169643230" options="" />
+		<datafield name="7" entryset="Beck Depression Inventory" filename="build\dataset\bdi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045169643231" options="" />
+		<datafield name="8" entryset="Beck Depression Inventory" filename="build\dataset\bdi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045169643232" options="" />
+		<datafield name="9" entryset="Beck Depression Inventory" filename="build\dataset\bdi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045169643233" options="" />
+		<datafield name="10" entryset="Beck Depression Inventory" filename="build\dataset\bdi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045169643234" options="" />
+		<datafield name="11" entryset="Beck Depression Inventory" filename="build\dataset\bdi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045169643235" options="" />
+		<datafield name="12" entryset="Beck Depression Inventory" filename="build\dataset\bdi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045169643236" options="" />
+		<datafield name="13" entryset="Beck Depression Inventory" filename="build\dataset\bdi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045169643237" options="" />
+		<datafield name="14" entryset="Beck Depression Inventory" filename="build\dataset\bdi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045169643238" options="" />
+		<datafield name="15" entryset="Beck Depression Inventory" filename="build\dataset\bdi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045169643239" options="" />
+		<datafield name="16" entryset="Beck Depression Inventory" filename="build\dataset\bdi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045169643240" options="" />
+		<datafield name="17" entryset="Beck Depression Inventory" filename="build\dataset\bdi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045169643241" options="" />
+		<datafield name="18" entryset="Beck Depression Inventory" filename="build\dataset\bdi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045169643242" options="" />
+		<datafield name="19" entryset="Beck Depression Inventory" filename="build\dataset\bdi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045169643243" options="" />
+		<datafield name="19a" entryset="Beck Depression Inventory" filename="build\dataset\bdi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045169643244" options="" />
+		<datafield name="20" entryset="Beck Depression Inventory" filename="build\dataset\bdi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045169643245" options="" />
+		<datafield name="21" entryset="Beck Depression Inventory" filename="build\dataset\bdi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045169643246" options="" />
+		<datafield name="22" entryset="Beck Depression Inventory" filename="build\dataset\bdi.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1045169643247" options="0,MM/dd/yyyy" />
+	</componentset>
+</form>

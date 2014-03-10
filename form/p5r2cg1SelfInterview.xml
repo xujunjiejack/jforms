@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="CG Interview-Self" abrv="p5r2cg1si" filename="p5r2cg1SelfInterview">
+	<template name="temp1">
+		<name format="" />
+		<field format="@m" />
+	</template>
+	<dataset file="crprei" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_5_CR_M" />
+	<dataset file="crproa" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_5_CR_M" />
+	<dataset file="crprac" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_5_CR_M" />
+	<dataset file="crpreo" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_5_CR_M" />
+	<dataset file="crprca" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_5_CR_M" />
+	<dataset file="crprrg" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_5_CR_M" />
+	<dataset file="crprcg" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_5_CR_M" />
+	<dataset file="p4sensoryprofile" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_5_AU_M" />
+	<key name="Family Id" entryset="Encouraging Independence" filename="crprei" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Data Mode" entryset="Encouraging Independence" filename="crprei" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	
+
+	<componentset name="SP" abrv="sp" numcols="2" displayheader="true" header="ASP">
+		<datafield name="1" entryset="Sensory Profile" filename="build\dataset\p4sensoryprofile.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211315205313" options="" />
+		<datafield name="2" entryset="Sensory Profile" filename="build\dataset\p4sensoryprofile.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211315205314" options="" />
+		<datafield name="3" entryset="Sensory Profile" filename="build\dataset\p4sensoryprofile.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211315205315" options="" />
+		<datafield name="4" entryset="Sensory Profile" filename="build\dataset\p4sensoryprofile.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211315205316" options="" />
+		<datafield name="5" entryset="Sensory Profile" filename="build\dataset\p4sensoryprofile.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211315205317" options="" />
+		<datafield name="6" entryset="Sensory Profile" filename="build\dataset\p4sensoryprofile.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211315205318" options="" />
+		<datafield name="7" entryset="Sensory Profile" filename="build\dataset\p4sensoryprofile.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211315205319" options="" />
+		<datafield name="8" entryset="Sensory Profile" filename="build\dataset\p4sensoryprofile.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211315205320" options="" />
+		<datafield name="9" entryset="Sensory Profile" filename="build\dataset\p4sensoryprofile.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211315205321" options="" />
+		<datafield name="10" entryset="Sensory Profile" filename="build\dataset\p4sensoryprofile.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211315205322" options="" />
+		<datafield name="11" entryset="Sensory Profile" filename="build\dataset\p4sensoryprofile.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211315215322" options="" />
+		<datafield name="12" entryset="Sensory Profile" filename="build\dataset\p4sensoryprofile.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211315205323" options="" />
+		<datafield name="13" entryset="Sensory Profile" filename="build\dataset\p4sensoryprofile.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211315205324" options="" />
+		<datafield name="Touch Processing Comments" entryset="Sensory Profile" filename="build\dataset\p4sensoryprofile.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1211315205325" options="" />
+		<datafield name="14" entryset="Sensory Profile" filename="build\dataset\p4sensoryprofile.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211315205342" options="" />
+		<datafield name="15" entryset="Sensory Profile" filename="build\dataset\p4sensoryprofile.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211315205343" options="" />
+		<datafield name="16" entryset="Sensory Profile" filename="build\dataset\p4sensoryprofile.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211315205344" options="" />
+		<datafield name="17" entryset="Sensory Profile" filename="build\dataset\p4sensoryprofile.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211315205345" options="" />
+		<datafield name="18" entryset="Sensory Profile" filename="build\dataset\p4sensoryprofile.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211315205346" options="" />
+		<datafield name="19" entryset="Sensory Profile" filename="build\dataset\p4sensoryprofile.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211315205347" options="" />
+		<datafield name="20" entryset="Sensory Profile" filename="build\dataset\p4sensoryprofile.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211315205348" options="" />
+		<datafield name="21" entryset="Sensory Profile" filename="build\dataset\p4sensoryprofile.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211315205349" options="" />
+		<datafield name="22" entryset="Sensory Profile" filename="build\dataset\p4sensoryprofile.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211315205350" options="" />
+		<datafield name="23" entryset="Sensory Profile" filename="build\dataset\p4sensoryprofile.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211315205351" options="" />
+		<datafield name="24" entryset="Sensory Profile" filename="build\dataset\p4sensoryprofile.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211315205352" options="" />
+		<datafield name="Auditory Processing Comments" entryset="Sensory Profile" filename="build\dataset\p4sensoryprofile.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1211315205353" options="" />
+	</componentset>
+
+
+
+	<componentset name="Child Rearing Practices Report" abrv="crpr" numcols="2" displayheader="true" header="Child Rearing Practices Report">
+		<datafield name="1" entryset="Encouraging Independence" filename="build\dataset\crprei.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341227" options="" />
+		<datafield name="2" entryset="Encouraging Independence" filename="build\dataset\crprei.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341228" options="" />
+		<datafield name="3" entryset="Open expression of affect" filename="build\dataset\crproa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341254" options="" />
+		<datafield name="4" entryset="Authoritarian Control" filename="build\dataset\crprac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341276" options="" />
+		<datafield name="5" entryset="Authoritarian Control" filename="build\dataset\crprac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341277" options="" />
+		<datafield name="6" entryset="Open expression of affect" filename="build\dataset\crproa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341255" options="" />
+		<datafield name="7" entryset="Encouraging openness of expression" filename="build\dataset\crpreo.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047943100826" options="" />
+		<datafield name="8" entryset="Encouraging Independence" filename="build\dataset\crprei.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341229" options="" />
+		<datafield name="9" entryset="Encouraging openness of expression" filename="build\dataset\crpreo.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047943100827" options="" />
+		<datafield name="10" entryset="Encouraging Independence" filename="build\dataset\crprei.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341230" options="" />
+		<datafield name="11" entryset="Authoritarian Control" filename="build\dataset\crprac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341278" options="" />
+		<datafield name="12" entryset="Control by anxiety induction" filename="build\dataset\crprca.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341272" options="" />
+		<datafield name="13" entryset="Authoritarian Control" filename="build\dataset\crprac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341279" options="" />
+		<datafield name="14" entryset="Open expression of affect" filename="build\dataset\crproa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341256" options="" />
+		<datafield name="15" entryset="Rational guiding of child" filename="build\dataset\crprrg.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341262" options="" />
+		<datafield name="16" entryset="Open expression of affect" filename="build\dataset\crproa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341257" options="" />
+		<datafield name="17" entryset="Encouraging Independence" filename="build\dataset\crprei.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341231" options="" />
+		<datafield name="18" entryset="Open expression of affect" filename="build\dataset\crproa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341258" options="" />
+		<datafield name="19" entryset="Authoritarian Control" filename="build\dataset\crprac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341280" options="" />
+		<datafield name="20" entryset="Encouraging openness of expression" filename="build\dataset\crpreo.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047943100828" options="" />
+		<datafield name="21" entryset="Control by guilt induction" filename="build\dataset\crprcg.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341267" options="" />
+		<datafield name="22" entryset="Rational guiding of child" filename="build\dataset\crprrg.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341263" options="" />
+		<datafield name="23" entryset="Rational guiding of child" filename="build\dataset\crprrg.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341264" options="" />
+		<datafield name="24" entryset="Encouraging openness of expression" filename="build\dataset\crpreo.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047943100829" options="" />
+		<datafield name="25" entryset="Authoritarian Control" filename="build\dataset\crprac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341281" options="" />
+		<datafield name="26" entryset="Authoritarian Control" filename="build\dataset\crprac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341282" options="" />
+		<datafield name="27" entryset="Open expression of affect" filename="build\dataset\crproa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341259" options="" />
+		<datafield name="28" entryset="Authoritarian Control" filename="build\dataset\crprac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341283" options="" />
+		<datafield name="29" entryset="Control by guilt induction" filename="build\dataset\crprcg.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341268" options="" />
+		<datafield name="30" entryset="Encouraging Independence" filename="build\dataset\crprei.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341232" options="" />
+		<datafield name="31" entryset="Authoritarian Control" filename="build\dataset\crprac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341284" options="" />
+		<datafield name="32" entryset="Control by guilt induction" filename="build\dataset\crprcg.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341269" options="" />
+		<datafield name="33" entryset="Encouraging Independence" filename="build\dataset\crprei.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341233" options="" />
+		<datafield name="34" entryset="Authoritarian Control" filename="build\dataset\crprac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341285" options="" />
+		<datafield name="35" entryset="Control by anxiety induction" filename="build\dataset\crprca.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341273" options="" />
+	</componentset>
+</form>
+

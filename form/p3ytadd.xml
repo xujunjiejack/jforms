@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Yarn Tangle Add" abrv="yarntangleadd" filename="p3ytadd">
+	<dataset file="yttester" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="data_3_yt" />
+	<dataset file="ytsa" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="data_3_yt" />
+	<dataset file="ytif" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="data_3_yt" />
+	<key name="Family Id" entryset="Tester" filename="yttester" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,gen_family,familyid" />
+	<key name="Twin" entryset="Tester" filename="yttester" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Twin,A:1,B:2" />
+	<key name="Data Mode" entryset="Tester" filename="yttester" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="Tester" abrv="tester" numcols="2" displayheader="true" header="Tester">
+		<datafield name="Eye Ref. Scorer" entryset="Tester" filename="build\dataset\yttester.xml" type="0" class="com.wtp.jforms.ui.control.smart.ComboFieldBox" editable="true" classid="9152931475584" options="0,Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,gen_staff,number" />
+	</componentset>
+	<componentset name="Minute 1" abrv="min 1" numcols="2" displayheader="true" header="Minute 1">
+		<datafield name="1" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118930" options="" />
+		<datafield name="1" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118616" options="" />
+		<datafield name="2" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118931" options="" />
+		<datafield name="2" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118617" options="" />
+		<datafield name="3" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118932" options="" />
+		<datafield name="3" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118618" options="" />
+		<datafield name="4" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118933" options="" />
+		<datafield name="4" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118619" options="" />
+		<datafield name="5" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118934" options="" />
+		<datafield name="5" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118620" options="" />
+		<datafield name="6" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118935" options="" />
+		<datafield name="6" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118621" options="" />
+	</componentset>
+	<componentset name="Minute 2" abrv="min 2" numcols="2" displayheader="true" header="Minute 2">
+		<datafield name="7" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118936" options="" />
+		<datafield name="7" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118622" options="" />
+		<datafield name="8" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118937" options="" />
+		<datafield name="8" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118623" options="" />
+		<datafield name="9" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118938" options="" />
+		<datafield name="9" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118624" options="" />
+		<datafield name="10" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118939" options="" />
+		<datafield name="10" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118625" options="" />
+		<datafield name="11" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118940" options="" />
+		<datafield name="11" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118626" options="" />
+		<datafield name="12" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118941" options="" />
+		<datafield name="12" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118627" options="" />
+	</componentset>
+	<componentset name="Minute 3" abrv="min 3" numcols="2" displayheader="true" header="Minute 3">
+		<datafield name="13" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118942" options="" />
+		<datafield name="13" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118628" options="" />
+		<datafield name="14" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118943" options="" />
+		<datafield name="14" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118629" options="" />
+		<datafield name="15" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118944" options="" />
+		<datafield name="15" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118630" options="" />
+		<datafield name="16" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118945" options="" />
+		<datafield name="16" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118631" options="" />
+		<datafield name="17" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118946" options="" />
+		<datafield name="17" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118632" options="" />
+		<datafield name="18" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118947" options="" />
+		<datafield name="18" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118633" options="" />
+	</componentset>
+	<componentset name="Minute 4" abrv="min 4" numcols="2" displayheader="true" header="Minute 4">
+		<datafield name="19" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118948" options="" />
+		<datafield name="19" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118634" options="" />
+		<datafield name="20" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118949" options="" />
+		<datafield name="20" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118635" options="" />
+		<datafield name="21" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118950" options="" />
+		<datafield name="21" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118636" options="" />
+		<datafield name="22" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118951" options="" />
+		<datafield name="22" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118637" options="" />
+		<datafield name="23" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118952" options="" />
+		<datafield name="23" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118638" options="" />
+		<datafield name="24" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118953" options="" />
+		<datafield name="24" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118639" options="" />
+	</componentset>
+	<componentset name="Minute 5" abrv="min 5" numcols="2" displayheader="true" header="Minute 5">
+		<datafield name="25" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118954" options="" />
+		<datafield name="25" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118640" options="" />
+		<datafield name="26" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118955" options="" />
+		<datafield name="26" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118641" options="" />
+		<datafield name="27" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118956" options="" />
+		<datafield name="27" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118642" options="" />
+		<datafield name="28" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118957" options="" />
+		<datafield name="28" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118643" options="" />
+		<datafield name="29" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118958" options="" />
+		<datafield name="29" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118644" options="" />
+		<datafield name="30" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118959" options="" />
+		<datafield name="30" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118645" options="" />
+	</componentset>
+</form>
+

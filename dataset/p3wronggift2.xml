@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Wrong Gift 2" abrv="p3wg2" filename="p3wronggift2">
+	<template name="main">
+		<name format="" />
+		<field format="wg@" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<validator name="val03_9980-9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="3">
+		<valid value="9999" />
+		<valid value="9998" />
+		<valid value="9997" />
+		<valid value="9996" />
+		<valid value="9995" />
+		<valid value="9994" />
+		<valid value="9993" />
+		<valid value="9992" />
+		<valid value="9991" />
+		<valid value="9990" />
+		<valid value="9989" />
+		<valid value="9988" />
+		<valid value="9987" />
+		<valid value="9986" />
+		<valid value="9985" />
+		<valid value="9984" />
+		<valid value="9983" />
+		<valid value="9982" />
+		<valid value="9981" />
+		<valid value="9980" />
+		<valid value="8" />
+	</validator>
+	<validator name="val02_9980-9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="2">
+		<valid value="9999" />
+		<valid value="9998" />
+		<valid value="9997" />
+		<valid value="9996" />
+		<valid value="9995" />
+		<valid value="9994" />
+		<valid value="9993" />
+		<valid value="9992" />
+		<valid value="9991" />
+		<valid value="9990" />
+		<valid value="9989" />
+		<valid value="9988" />
+		<valid value="9987" />
+		<valid value="9986" />
+		<valid value="9985" />
+		<valid value="9984" />
+		<valid value="9983" />
+		<valid value="9982" />
+		<valid value="9981" />
+		<valid value="9980" />
+		<valid value="8" />
+	</validator>
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<key name="Twin" field="twin" template="na" validator="INTEGER" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<data name="Int. of A.E. 7" field="ae7" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601370" />
+	<data name="Int. of A.E. 8" field="ae8" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601371" />
+	<data name="Int. of A.E. 9" field="ae9" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601372" />
+	<data name="Int. of A.E. 10" field="ae10" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601373" />
+	<data name="Int. of A.E. 11" field="ae11" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601374" />
+	<data name="Int. of A.E. 12" field="ae12" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601375" />
+	<data name="Int. of A.E. 13" field="ae13" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601376" />
+	<data name="Int. of A.E. 14" field="ae14" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601377" />
+	<data name="Int. of A.E. 15" field="ae15" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601378" />
+	<data name="Int. of A.E. 16" field="ae16" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601379" />
+	<data name="Int. of A.E. 17" field="ae17" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601380" />
+	<data name="Int. of A.E. 18" field="ae18" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601381" />
+	<data name="Int. of A.E. 19" field="ae19" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601382" />
+	<data name="Int. of A.E. 20" field="ae20" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601383" />
+	<data name="Int. of A.E. 21" field="ae21" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601384" />
+	<data name="Int. of A.E. 22" field="ae22" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601385" />
+	<data name="Int. of A.E. 23" field="ae23" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601386" />
+	<data name="Int. of A.E. 24" field="ae24" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601387" />
+	<data name="Int. of A.E. 25" field="ae25" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601388" />
+	<data name="Int. of A.E. 26" field="ae26" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601389" />
+	<data name="Int. of A.E. 27" field="ae27" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601390" />
+	<data name="Int. of A.E. 28" field="ae28" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601391" />
+	<data name="Int. of A.E. 29" field="ae29" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601392" />
+	<data name="Int. of A.E. 30" field="ae30" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601393" />
+	<data name="Int. of A.E. 31" field="ae31" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601394" />
+	<data name="Int. of A.E. 32" field="ae32" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601395" />
+	<data name="Int. of A.E. 33" field="ae33" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601396" />
+	<data name="Int. of A.E. 34" field="ae34" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601397" />
+	<data name="Int. of A.E. 35" field="ae35" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601398" />
+	<data name="Int. of A.E. 36" field="ae36" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601399" />
+	<data name="Int. of B.A. 7" field="ba7" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601445" />
+	<data name="Int. of B.A. 8" field="ba8" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601446" />
+	<data name="Int. of B.A. 9" field="ba9" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601447" />
+	<data name="Int. of B.A. 10" field="ba10" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601448" />
+	<data name="Int. of B.A. 11" field="ba11" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601449" />
+	<data name="Int. of B.A. 12" field="ba12" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601450" />
+	<data name="Int. of B.A. 13" field="ba13" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601451" />
+	<data name="Int. of B.A. 14" field="ba14" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601452" />
+	<data name="Int. of B.A. 15" field="ba15" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601453" />
+	<data name="Int. of B.A. 16" field="ba16" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601454" />
+	<data name="Int. of B.A. 17" field="ba17" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601455" />
+	<data name="Int. of B.A. 18" field="ba18" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601456" />
+	<data name="Int. of B.A. 19" field="ba19" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601457" />
+	<data name="Int. of B.A. 20" field="ba20" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601458" />
+	<data name="Int. of B.A. 21" field="ba21" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601459" />
+	<data name="Int. of B.A. 22" field="ba22" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601460" />
+	<data name="Int. of B.A. 23" field="ba23" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601461" />
+	<data name="Int. of B.A. 24" field="ba24" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601518" />
+	<data name="Int. of B.A. 25" field="ba25" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601519" />
+	<data name="Int. of B.A. 26" field="ba26" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601520" />
+	<data name="Int. of B.A. 27" field="ba27" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601521" />
+	<data name="Int. of B.A. 28" field="ba28" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601522" />
+	<data name="Int. of B.A. 29" field="ba29" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601523" />
+	<data name="Int. of B.A. 30" field="ba30" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601524" />
+	<data name="Int. of B.A. 31" field="ba31" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601525" />
+	<data name="Int. of B.A. 32" field="ba32" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601526" />
+	<data name="Int. of B.A. 33" field="ba33" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601527" />
+	<data name="Int. of B.A. 34" field="ba34" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601528" />
+	<data name="Int. of B.A. 35" field="ba35" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601529" />
+	<data name="Int. of B.A. 36" field="ba36" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601530" />
+	<data name="Int. of S.E. 7" field="se7" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601537" />
+	<data name="Int. of S.E. 8" field="se8" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601538" />
+	<data name="Int. of S.E. 9" field="se9" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601539" />
+	<data name="Int. of S.E. 10" field="se10" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601540" />
+	<data name="Int. of S.E. 11" field="se11" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601541" />
+	<data name="Int. of S.E. 12" field="se12" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601542" />
+	<data name="Int. of S.E. 13" field="se13" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601543" />
+	<data name="Int. of S.E. 14" field="se14" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601544" />
+	<data name="Int. of S.E. 15" field="se15" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601545" />
+	<data name="Int. of S.E. 16" field="se16" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601546" />
+	<data name="Int. of S.E. 17" field="se17" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601547" />
+	<data name="Int. of S.E. 18" field="se18" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601548" />
+	<data name="Int. of S.E. 19" field="se19" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601549" />
+	<data name="Int. of S.E. 20" field="se20" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601550" />
+	<data name="Int. of S.E. 21" field="se21" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601551" />
+	<data name="Int. of S.E. 22" field="se22" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601552" />
+	<data name="Int. of S.E. 23" field="se23" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601553" />
+	<data name="Int. of S.E. 24" field="se24" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601554" />
+	<data name="Int. of S.E. 25" field="se25" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601555" />
+	<data name="Int. of S.E. 26" field="se26" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601556" />
+	<data name="Int. of S.E. 27" field="se27" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601557" />
+	<data name="Int. of S.E. 28" field="se28" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601558" />
+	<data name="Int. of S.E. 29" field="se29" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601559" />
+	<data name="Int. of S.E. 30" field="se30" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601560" />
+	<data name="Int. of S.E. 31" field="se31" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601561" />
+	<data name="Int. of S.E. 32" field="se32" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601562" />
+	<data name="Int. of S.E. 33" field="se33" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601563" />
+	<data name="Int. of S.E. 34" field="se34" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601564" />
+	<data name="Int. of S.E. 35" field="se35" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601565" />
+	<data name="Int. of S.E. 36" field="se36" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601566" />
+	<data name="Int. of B.S. 7" field="bs7" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601573" />
+	<data name="Int. of B.S. 8" field="bs8" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601574" />
+	<data name="Int. of B.S. 9" field="bs9" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601575" />
+	<data name="Int. of B.S. 10" field="bs10" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601576" />
+	<data name="Int. of B.S. 11" field="bs11" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601577" />
+	<data name="Int. of B.S. 12" field="bs12" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601578" />
+	<data name="Int. of B.S. 13" field="bs13" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601579" />
+	<data name="Int. of B.S. 14" field="bs14" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601580" />
+	<data name="Int. of B.S. 15" field="bs15" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601581" />
+	<data name="Int. of B.S. 16" field="bs16" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601582" />
+	<data name="Int. of B.S. 17" field="bs17" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601583" />
+	<data name="Int. of B.S. 18" field="bs18" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601584" />
+	<data name="Int. of B.S. 19" field="bs19" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601585" />
+	<data name="Int. of B.S. 20" field="bs20" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601586" />
+	<data name="Int. of B.S. 21" field="bs21" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601587" />
+	<data name="Int. of B.S. 22" field="bs22" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601588" />
+	<data name="Int. of B.S. 23" field="bs23" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601589" />
+	<data name="Int. of B.S. 24" field="bs24" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601590" />
+	<data name="Int. of B.S. 25" field="bs25" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601591" />
+	<data name="Int. of B.S. 26" field="bs26" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601592" />
+	<data name="Int. of B.S. 27" field="bs27" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601593" />
+	<data name="Int. of B.S. 28" field="bs28" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601594" />
+	<data name="Int. of B.S. 29" field="bs29" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601595" />
+	<data name="Int. of B.S. 30" field="bs30" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601596" />
+	<data name="Int. of B.S. 31" field="bs31" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601597" />
+	<data name="Int. of B.S. 32" field="bs32" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601598" />
+	<data name="Int. of B.S. 33" field="bs33" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601599" />
+	<data name="Int. of B.S. 34" field="bs34" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601600" />
+	<data name="Int. of B.S. 35" field="bs35" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601601" />
+	<data name="Int. of B.S. 36" field="bs36" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601602" />
+	<data name="Lang. Val. 7" field="lv7" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601756" />
+	<data name="Lang. Val. 8" field="lv8" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601757" />
+	<data name="Lang. Val. 9" field="lv9" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601758" />
+	<data name="Lang. Val. 10" field="lv10" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601759" />
+	<data name="Lang. Val. 11" field="lv11" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601760" />
+	<data name="Lang. Val. 12" field="lv12" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601761" />
+	<data name="Lang. Val. 13" field="lv13" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601762" />
+	<data name="Lang. Val. 14" field="lv14" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601763" />
+	<data name="Lang. Val. 15" field="lv15" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601764" />
+	<data name="Lang. Val. 16" field="lv16" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601765" />
+	<data name="Lang. Val. 17" field="lv17" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601766" />
+	<data name="Lang. Val. 18" field="lv18" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601767" />
+	<data name="Lang. Val. 19" field="lv19" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601768" />
+	<data name="Lang. Val. 20" field="lv20" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601769" />
+	<data name="Lang. Val. 21" field="lv21" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601770" />
+	<data name="Lang. Val. 22" field="lv22" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601771" />
+	<data name="Lang. Val. 23" field="lv23" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601772" />
+	<data name="Lang. Val. 24" field="lv24" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601773" />
+	<data name="Lang. Val. 25" field="lv25" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601774" />
+	<data name="Lang. Val. 26" field="lv26" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601775" />
+	<data name="Lang. Val. 27" field="lv27" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601776" />
+	<data name="Lang. Val. 28" field="lv28" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601777" />
+	<data name="Lang. Val. 29" field="lv29" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601778" />
+	<data name="Lang. Val. 30" field="lv30" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601779" />
+	<data name="Lang. Val. 31" field="lv31" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601780" />
+	<data name="Lang. Val. 32" field="lv32" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601781" />
+	<data name="Lang. Val. 33" field="lv33" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601782" />
+	<data name="Lang. Val. 34" field="lv34" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601783" />
+	<data name="Lang. Val. 35" field="lv35" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601784" />
+	<data name="Lang. Val. 36" field="lv36" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601785" />
+	<data name="Lang. Cont. 7" field="lc7" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601975" />
+	<data name="Lang. Cont. 8" field="lc8" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601976" />
+	<data name="Lang. Cont. 9" field="lc9" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601977" />
+	<data name="Lang. Cont. 10" field="lc10" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601978" />
+	<data name="Lang. Cont. 11" field="lc11" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601979" />
+	<data name="Lang. Cont. 12" field="lc12" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601980" />
+	<data name="Lang. Cont. 13" field="lc13" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601981" />
+	<data name="Lang. Cont. 14" field="lc14" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601982" />
+	<data name="Lang. Cont. 15" field="lc15" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601983" />
+	<data name="Lang. Cont. 16" field="lc16" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601984" />
+	<data name="Lang. Cont. 17" field="lc17" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601985" />
+	<data name="Lang. Cont. 18" field="lc18" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601986" />
+	<data name="Lang. Cont. 19" field="lc19" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601987" />
+	<data name="Lang. Cont. 20" field="lc20" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601988" />
+	<data name="Lang. Cont. 21" field="lc21" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601989" />
+	<data name="Lang. Cont. 22" field="lc22" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601990" />
+	<data name="Lang. Cont. 23" field="lc23" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601991" />
+	<data name="Lang. Cont. 24" field="lc24" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601992" />
+	<data name="Lang. Cont. 25" field="lc25" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601993" />
+	<data name="Lang. Cont. 26" field="lc26" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601994" />
+	<data name="Lang. Cont. 27" field="lc27" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601995" />
+	<data name="Lang. Cont. 28" field="lc28" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601996" />
+	<data name="Lang. Cont. 29" field="lc29" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601997" />
+	<data name="Lang. Cont. 30" field="lc30" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601998" />
+	<data name="Lang. Cont. 31" field="lc31" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601999" />
+	<data name="Lang. Cont. 32" field="lc32" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456602000" />
+	<data name="Lang. Cont. 33" field="lc33" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456602001" />
+	<data name="Lang. Cont. 34" field="lc34" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456602002" />
+	<data name="Lang. Cont. 35" field="lc35" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456602003" />
+	<data name="Lang. Cont. 36" field="lc36" template="main" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456602004" />
+</dataset>
+

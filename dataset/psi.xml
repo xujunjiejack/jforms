@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Parenting Stress Index" abrv="psi" filename="psi">
+	<template name="temp1">
+		<name format="" />
+		<field format="" />
+		<subsetname format="psi@" />
+		<subsetfield format="ps@" />
+	</template>
+</dataset>
+

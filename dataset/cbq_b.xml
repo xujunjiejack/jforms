@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Childrens Behavior Questionnaire Twin B" abrv="CBQ_b" filename="cbq_b">
+	<template name="temp">
+		<name format="" />
+		<field format="" />
+		<subsetname format="cbq @" />
+		<subsetfield format="cb@" />
+	</template>
+</dataset>
+

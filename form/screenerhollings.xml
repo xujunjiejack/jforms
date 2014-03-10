@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Screener" abrv="screenerhollings" filename="screenerhollings">
+	<dataset file="hollingsheadm" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_S_HC_M" />
+	<key name="Family Id" entryset="Hollingshead" filename="hollingsheadm" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Data Mode" entryset="Hollingshead" filename="hollingsheadm" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="Hollings Head" abrv="hollings" numcols="2" displayheader="true" header="Hollings Head">
+		<datafield name="PC Edu." entryset="Hollingshead" filename="build\dataset\hollingsheadm.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048724092420" options="" />
+		<datafield name="SC Edu" entryset="Hollingshead" filename="build\dataset\hollingsheadm.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048724092421" options="" />
+		<datafield name="PC Occupation Include" entryset="Hollingshead" filename="build\dataset\hollingsheadm.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048724092422" options="" />
+		<datafield name="PC Occupation" entryset="Hollingshead" filename="build\dataset\hollingsheadm.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048724092423" options="" />
+		<datafield name="SC Occupation Include" entryset="Hollingshead" filename="build\dataset\hollingsheadm.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048724092424" options="" />
+		<datafield name="SC Occupation" entryset="Hollingshead" filename="build\dataset\hollingsheadm.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048724092425" options="" />
+	</componentset>
+</form>
+

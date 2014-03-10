@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Scary Mask" abrv="scarymask" filename="scarymask">
+	<template name="temp1">
+		<name format="" />
+		<field format="sm@" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<validator name="val03_9980-9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="3">
+		<valid value="9999" />
+		<valid value="9998" />
+		<valid value="9997" />
+		<valid value="9996" />
+		<valid value="9995" />
+		<valid value="9994" />
+		<valid value="9993" />
+		<valid value="9992" />
+		<valid value="9991" />
+		<valid value="9990" />
+		<valid value="9989" />
+		<valid value="9988" />
+		<valid value="9987" />
+		<valid value="9986" />
+		<valid value="9985" />
+		<valid value="9984" />
+		<valid value="9983" />
+		<valid value="9982" />
+		<valid value="9981" />
+		<valid value="9980" />
+	</validator>
+	<validator name="val02_9980-9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="2">
+		<valid value="9999" />
+		<valid value="9998" />
+		<valid value="9997" />
+		<valid value="9996" />
+		<valid value="9995" />
+		<valid value="9994" />
+		<valid value="9993" />
+		<valid value="9992" />
+		<valid value="9991" />
+		<valid value="9990" />
+		<valid value="9989" />
+		<valid value="9988" />
+		<valid value="9987" />
+		<valid value="9986" />
+		<valid value="9985" />
+		<valid value="9984" />
+		<valid value="9983" />
+		<valid value="9982" />
+		<valid value="9981" />
+		<valid value="9980" />
+	</validator>
+	<validator name="yesno_9980-9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="1">
+		<valid value="9999" />
+		<valid value="9998" />
+		<valid value="9997" />
+		<valid value="9996" />
+		<valid value="9995" />
+		<valid value="9994" />
+		<valid value="9993" />
+		<valid value="9992" />
+		<valid value="9991" />
+		<valid value="9990" />
+		<valid value="9989" />
+		<valid value="9988" />
+		<valid value="9987" />
+		<valid value="9986" />
+		<valid value="9985" />
+		<valid value="9984" />
+		<valid value="9983" />
+		<valid value="9982" />
+		<valid value="9981" />
+		<valid value="9980" />
+	</validator>
+	<validator name="val12_9980-9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="2">
+		<valid value="9980" />
+		<valid value="9981" />
+		<valid value="9982" />
+		<valid value="9983" />
+		<valid value="9984" />
+		<valid value="9985" />
+		<valid value="9986" />
+		<valid value="9987" />
+		<valid value="9988" />
+		<valid value="9989" />
+		<valid value="9990" />
+		<valid value="9991" />
+		<valid value="9992" />
+		<valid value="9993" />
+		<valid value="9994" />
+		<valid value="9995" />
+		<valid value="9996" />
+		<valid value="9997" />
+		<valid value="9998" />
+		<valid value="9999" />
+	</validator>
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<key name="Twin" field="twin" template="na" validator="INTEGER" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<data name="Scorer" field="sc" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.ComboFieldBox" classid="1200426941628" />
+	<data name="Child Tester" field="ct" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.ComboFieldBox" classid="1200426941629" />
+	<data name="Episode Order" field="ord" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941630" />
+	<data name="Baseline" field="bl" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941631" />
+	<data name="Gender" field="gs" template="temp1" validator="val12_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941632" />
+	<data name="Stranger Behavior" field="sb" template="temp1" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941633" />
+	<data name="Latency (sec)" field="lfr" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941634" />
+	<data name="Intensity of facial fear 1" field="1ff" template="temp1" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941635" />
+	<data name="Intensity of facial fear 2" field="2ff" template="temp1" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941636" />
+	<data name="Intensity of facial fear 3" field="3ff" template="temp1" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941637" />
+	<data name="Intensity of facial fear 4" field="4ff" template="temp1" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941638" />
+	<data name="Intensity of facial fear 5" field="5ff" template="temp1" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941639" />
+	<data name="Intensity of facial fear 6" field="6ff" template="temp1" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941640" />
+	<data name="Intensity of vocal distress 1" field="1vd" template="temp1" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941641" />
+	<data name="Intensity of vocal distress 2" field="2vd" template="temp1" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941642" />
+	<data name="Intensity of vocal distress 3" field="3vd" template="temp1" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941643" />
+	<data name="Intensity of vocal distress 4" field="4vd" template="temp1" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941644" />
+	<data name="Intensity of vocal distress 5" field="5vd" template="temp1" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941645" />
+	<data name="Intensity of vocal distress 6" field="6vd" template="temp1" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941646" />
+	<data name="Intensity of bodily fear 1" field="1bf" template="temp1" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941669" />
+	<data name="Intensity of bodily fear 2" field="2bf" template="temp1" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941670" />
+	<data name="Intensity of bodily fear 3" field="3bf" template="temp1" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941671" />
+	<data name="Intensity of bodily fear 4" field="4bf" template="temp1" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941672" />
+	<data name="Intensity of bodily fear 5" field="5bf" template="temp1" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941673" />
+	<data name="Intensity of bodily fear 6" field="6bf" template="temp1" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941674" />
+	<data name="Presence of startle" field="1ps" template="temp1" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941675" />
+	<data name="Intensity of avoidance 1" field="1iav" template="temp1" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941676" />
+	<data name="Intensity of avoidance 2" field="2iav" template="temp1" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941677" />
+	<data name="Intensity of avoidance 3" field="3iav" template="temp1" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941678" />
+	<data name="Intensity of avoidance 4" field="4iav" template="temp1" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941679" />
+	<data name="Intensity of avoidance 5" field="5iav" template="temp1" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941680" />
+	<data name="Intensity of avoidance 6" field="6iav" template="temp1" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941681" />
+	<data name="Intensity of approach 1" field="1iap" template="temp1" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941682" />
+	<data name="Intensity of approach 2" field="2iap" template="temp1" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941683" />
+	<data name="Intensity of approach 3" field="3iap" template="temp1" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941684" />
+	<data name="Intensity of approach 4" field="4iap" template="temp1" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941685" />
+	<data name="Intensity of approach 5" field="5iap" template="temp1" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941686" />
+	<data name="Intensity of approach 6" field="6iap" template="temp1" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941687" />
+	<data name="Presence of gaze aversion 1" field="1ga" template="temp1" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941729" />
+	<data name="Presence of gaze aversion 2" field="2ga" template="temp1" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941730" />
+	<data name="Presence of gaze aversion 3" field="3ga" template="temp1" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941731" />
+	<data name="Intensity of fidgeting 1" field="1if" template="temp1" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941732" />
+	<data name="Intensity of fidgeting 2" field="2if" template="temp1" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941733" />
+	<data name="Intensity of fidgeting 3" field="3if" template="temp1" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941734" />
+	<data name="Intensity of fidgeting 4" field="4if" template="temp1" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941735" />
+	<data name="Intensity of fidgeting 5" field="5if" template="temp1" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941736" />
+	<data name="Intensity of fidgeting 6" field="6if" template="temp1" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941737" />
+	<data name="Presence of negativity 1" field="1pn" template="temp1" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941738" />
+	<data name="Presence of negativity 2" field="2pn" template="temp1" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941739" />
+	<data name="Presence of negativity 3" field="3pn" template="temp1" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941740" />
+	<data name="Presence of negativity 4" field="4pn" template="temp1" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941741" />
+	<data name="Presence of negativity 5" field="5pn" template="temp1" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941742" />
+	<data name="Presence of negativity 6" field="6pn" template="temp1" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941743" />
+	<data name="Intensity of positivity 1" field="1pp" template="temp1" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941744" />
+	<data name="Intensity of positivity 2" field="2pp" template="temp1" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941745" />
+	<data name="Intensity of positivity 3" field="3pp" template="temp1" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941746" />
+	<data name="Intensity of positivity 4" field="4pp" template="temp1" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941747" />
+	<data name="Intensity of positivity 5" field="5pp" template="temp1" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941748" />
+	<data name="Intensity of positivity 6" field="6pp" template="temp1" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941749" />
+	<data name="Cooperation/refusal 1" field="1cr" template="temp1" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941750" />
+	<data name="Cooperation/refusal 2" field="2cr" template="temp1" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941751" />
+	<data name="Cooperation/refusal 3" field="3cr" template="temp1" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941752" />
+	<data name="Verbalizations" field="1ver" template="temp1" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941753" />
+	<data name="Durations (sec) 1" field="1dga" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941820" />
+	<data name="Durations (sec) 2" field="2dga" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941821" />
+	<data name="Durations (sec) 3" field="3dga" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941822" />
+	<data name="Durations (sec) 4" field="4dga" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941823" />
+	<data name="Durations (sec) 5" field="5dga" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941824" />
+	<data name="Durations (sec) 6" field="6dga" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941825" />
+	<data name="Durations (sec) 7" field="7dga" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941826" />
+	<data name="Durations (sec) 8" field="8dga" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941827" />
+	<data name="Durations (sec) 9" field="9dga" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941828" />
+	<data name="Durations (sec) 10" field="10dga" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941829" />
+	<data name="Durations (sec) 11" field="11dga" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941830" />
+	<data name="Durations (sec) 12" field="12dga" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941831" />
+	<data name="Durations (sec) 13" field="13dga" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941832" />
+	<data name="Durations (sec) 14" field="14dga" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941833" />
+	<data name="Durations (sec) 15" field="15dga" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941834" />
+	<data name="Durations (sec) 16" field="16dga" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941835" />
+	<data name="Durations (sec) 17" field="17dga" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941836" />
+	<data name="Durations (sec) 18" field="18dga" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941837" />
+	<data name="Durations (sec) 19" field="19dga" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941838" />
+	<data name="Durations (sec) 20" field="20dga" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941839" />
+	<data name="Special Flag" field="sf" template="temp1" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200426941840" />
+	<data name="Special Flag Explanation" field="sfex" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1200426941841" />
+	<dependency field="Special Flag Explanation">
+		<parent field="Special Flag" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+</dataset>
+

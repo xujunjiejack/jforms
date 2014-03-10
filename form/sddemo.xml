@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Demographics" abrv="demo" filename="sddemo">
+	<template name="temp1">
+		<name format="" />
+		<field format="sd@" />
+	</template>
+	<dataset file="sdde" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_SD_DE_M" />
+	<key name="Family Id" entryset="Sensory Defensiveness Demographics" filename="sdde" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Data Mode" entryset="Sensory Defensiveness Demographics" filename="sdde" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="Demographics" abrv="demo" numcols="2" displayheader="true" header="Demographics">
+		<datafield name="Mother Schooling" entryset="Sensory Defensiveness Demographics" filename="build\dataset\sdde.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048019587746" options="" />
+		<datafield name="Father Schooling" entryset="Sensory Defensiveness Demographics" filename="build\dataset\sdde.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048019587747" options="" />
+		<datafield name="Mother Working" entryset="Sensory Defensiveness Demographics" filename="build\dataset\sdde.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048019587748" options="" />
+		<datafield name="Mother Work Hrs/Week" entryset="Sensory Defensiveness Demographics" filename="build\dataset\sdde.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048019587749" options="" />
+		<datafield name="Mother Work from Home (Hrs/Week)" entryset="Sensory Defensiveness Demographics" filename="build\dataset\sdde.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048019587750" options="" />
+		<datafield name="Mother Job Title" entryset="Sensory Defensiveness Demographics" filename="build\dataset\sdde.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1048019587751" options="" />
+		<datafield name="Mother Job Title 2" entryset="Sensory Defensiveness Demographics" filename="build\dataset\sdde.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1048019587752" options="" />
+		<datafield name="Mother Job Activities" entryset="Sensory Defensiveness Demographics" filename="build\dataset\sdde.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1048019587753" options="" />
+		<datafield name="Mother Job Activities 2" entryset="Sensory Defensiveness Demographics" filename="build\dataset\sdde.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1048019587754" options="" />
+		<datafield name="Mother Not Working" entryset="Sensory Defensiveness Demographics" filename="build\dataset\sdde.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048019587755" options="" />
+		<datafield name="Mother Not Working Other Explain" entryset="Sensory Defensiveness Demographics" filename="build\dataset\sdde.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1048019587756" options="" />
+		<datafield name="Father Working" entryset="Sensory Defensiveness Demographics" filename="build\dataset\sdde.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048019587757" options="" />
+		<datafield name="Father Work Hrs/Week" entryset="Sensory Defensiveness Demographics" filename="build\dataset\sdde.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048019587758" options="" />
+		<datafield name="Father Work from Home (Hrs/Week)" entryset="Sensory Defensiveness Demographics" filename="build\dataset\sdde.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048019587759" options="" />
+		<datafield name="Father Job Title" entryset="Sensory Defensiveness Demographics" filename="build\dataset\sdde.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1048019587760" options="" />
+		<datafield name="Father Job Title 2" entryset="Sensory Defensiveness Demographics" filename="build\dataset\sdde.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1048019587761" options="" />
+		<datafield name="Father Job Activities" entryset="Sensory Defensiveness Demographics" filename="build\dataset\sdde.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1048019587762" options="" />
+		<datafield name="Father Job Activities 2" entryset="Sensory Defensiveness Demographics" filename="build\dataset\sdde.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1048019587763" options="" />
+		<datafield name="Father Not Working" entryset="Sensory Defensiveness Demographics" filename="build\dataset\sdde.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048019587764" options="" />
+		<datafield name="Father Not Working Other Explain" entryset="Sensory Defensiveness Demographics" filename="build\dataset\sdde.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048019587765" options="" />
+		<datafield name="Own Business/Farm" entryset="Sensory Defensiveness Demographics" filename="build\dataset\sdde.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048019587766" options="" />
+		<datafield name="Value of Business/Farm" entryset="Sensory Defensiveness Demographics" filename="build\dataset\sdde.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048019587767" options="" />
+		<datafield name="Family Income" entryset="Sensory Defensiveness Demographics" filename="build\dataset\sdde.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048019587768" options="" />
+		<datafield name="Marital Status" entryset="Sensory Defensiveness Demographics" filename="build\dataset\sdde.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048019587769" options="" />
+		<datafield name="Martial Status Change" entryset="Sensory Defensiveness Demographics" filename="build\dataset\sdde.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048019587770" options="" />
+		<datafield name="Marital Status Change Explain" entryset="Sensory Defensiveness Demographics" filename="build\dataset\sdde.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1048019587771" options="" />
+		<datafield name="Marital Status Change - Age of Twins" entryset="Sensory Defensiveness Demographics" filename="build\dataset\sdde.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048019587772" options="" />
+		<datafield name="No. of Brothers" entryset="Sensory Defensiveness Demographics" filename="build\dataset\sdde.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048542087508" options="" />
+		<datafield name="No. of Sisters" entryset="Sensory Defensiveness Demographics" filename="build\dataset\sdde.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048542087509" options="" />
+	</componentset>
+</form>
+

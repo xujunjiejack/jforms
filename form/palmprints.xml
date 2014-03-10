@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Palm Prints" abrv="palmprints" filename="palmprints">
+	<dataset file="palmprints" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_PALMPRINTS" />
+	<key name="Family Id" entryset="Palm Prints" filename="palmprints" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Twin" entryset="Palm Prints" filename="palmprints" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Twin,A:1,B:2" />
+	<key name="Data Mode" entryset="Palm Prints" filename="palmprints" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="Palm Prints" abrv="palm prints" numcols="2" displayheader="true" header="Palm Prints">
+		<datafield name="Date Scored" entryset="Palm Prints" filename="build\dataset\palmprints.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1055964674326" options="0,MM/dd/yyyy" />
+		<datafield name="Scorer" entryset="Palm Prints" filename="build\dataset\palmprints.xml" type="0" class="com.wtp.jforms.ui.control.smart.ComboFieldBox" editable="true" classid="1055964674311" options="0,Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_STAFF,number" />
+		<datafield name="Right Hand Count 1" entryset="Palm Prints" filename="build\dataset\palmprints.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964674327" options="" />
+		<datafield name="Right Hand Count 2" entryset="Palm Prints" filename="build\dataset\palmprints.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964674328" options="" />
+		<datafield name="Right Hand Special Flag" entryset="Palm Prints" filename="build\dataset\palmprints.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964674329" options="" />
+		<datafield name="Right Hand Comments" entryset="Palm Prints" filename="build\dataset\palmprints.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1055964674330" options="" />
+		<datafield name="Left Hand Count 1" entryset="Palm Prints" filename="build\dataset\palmprints.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964674331" options="" />
+		<datafield name="Left Hand Count 2" entryset="Palm Prints" filename="build\dataset\palmprints.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964674332" options="" />
+		<datafield name="Left Hand Special Flag" entryset="Palm Prints" filename="build\dataset\palmprints.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1055964674333" options="" />
+		<datafield name="Left Hand Comments" entryset="Palm Prints" filename="build\dataset\palmprints.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1055964674334" options="" />
+	</componentset>
+</form>
+

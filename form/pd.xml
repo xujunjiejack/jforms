@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Playdoh" abrv="pd" filename="pd">
+	<dataset file="pdpc" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="USER_KA_PD" />
+	<dataset file="pdnc" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="USER_KA_PD" />
+	<key name="Family Id" entryset="Positive Command" filename="pdpc" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Twin" entryset="Positive Command" filename="pdpc" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Twin,A:1,B:2" />
+	<key name="Data Mode" entryset="Positive Command" filename="pdpc" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="Minute 1" abrv="min 1" numcols="2" displayheader="true" header="Minute 1">
+		<datafield name="1" entryset="Positive Command" filename="build\dataset\pdpc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1057696994783" options="" />
+		<datafield name="1" entryset="Negative Command" filename="build\dataset\pdnc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1057696994816" options="" />
+		<datafield name="2" entryset="Positive Command" filename="build\dataset\pdpc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1057696994784" options="" />
+		<datafield name="2" entryset="Negative Command" filename="build\dataset\pdnc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1057696994817" options="" />
+		<datafield name="3" entryset="Positive Command" filename="build\dataset\pdpc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1057696994785" options="" />
+		<datafield name="3" entryset="Negative Command" filename="build\dataset\pdnc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1057696994818" options="" />
+		<datafield name="4" entryset="Positive Command" filename="build\dataset\pdpc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1057696994786" options="" />
+		<datafield name="4" entryset="Negative Command" filename="build\dataset\pdnc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1057696994819" options="" />
+		<datafield name="5" entryset="Positive Command" filename="build\dataset\pdpc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1057696994787" options="" />
+		<datafield name="5" entryset="Negative Command" filename="build\dataset\pdnc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1057696994820" options="" />
+		<datafield name="6" entryset="Positive Command" filename="build\dataset\pdpc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1057696994788" options="" />
+		<datafield name="6" entryset="Negative Command" filename="build\dataset\pdnc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1057696994821" options="" />
+	</componentset>
+	<componentset name="Minute 2" abrv="min 2" numcols="2" displayheader="true" header="Minute 2">
+		<datafield name="7" entryset="Positive Command" filename="build\dataset\pdpc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1057696994789" options="" />
+		<datafield name="7" entryset="Negative Command" filename="build\dataset\pdnc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1057696994822" options="" />
+		<datafield name="8" entryset="Positive Command" filename="build\dataset\pdpc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1057696994790" options="" />
+		<datafield name="8" entryset="Negative Command" filename="build\dataset\pdnc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1057696994823" options="" />
+		<datafield name="9" entryset="Positive Command" filename="build\dataset\pdpc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1057696994791" options="" />
+		<datafield name="9" entryset="Negative Command" filename="build\dataset\pdnc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1057696994824" options="" />
+		<datafield name="10" entryset="Positive Command" filename="build\dataset\pdpc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1057696994792" options="" />
+		<datafield name="10" entryset="Negative Command" filename="build\dataset\pdnc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1057696994825" options="" />
+		<datafield name="11" entryset="Positive Command" filename="build\dataset\pdpc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1057696994793" options="" />
+		<datafield name="11" entryset="Negative Command" filename="build\dataset\pdnc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1057696994826" options="" />
+		<datafield name="12" entryset="Positive Command" filename="build\dataset\pdpc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1057696994794" options="" />
+		<datafield name="12" entryset="Negative Command" filename="build\dataset\pdnc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1057696994827" options="" />
+	</componentset>
+</form>
+

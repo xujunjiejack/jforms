@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Final Zygosity" abrv="finalzyg" filename="finalzyg">
+	<dataset file="zyguser" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="USER_ZYG_FINAL_QU_OBSERVATION" />
+	<key name="Family Id" entryset="User Zygosity" filename="zyguser" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<componentset name="Zygosity" abrv="zyg" numcols="2" displayheader="true" header="Zygosity">
+		<datafield name="Screener" entryset="User Zygosity" filename="build\dataset\zyguser.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1121371330694" options="" />
+		<datafield name="Phase 1" entryset="User Zygosity" filename="build\dataset\zyguser.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1121371330695" options="" />
+		<datafield name="Observer 1" entryset="User Zygosity" filename="build\dataset\zyguser.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1121371330696" options="" />
+		<datafield name="Observer 2" entryset="User Zygosity" filename="build\dataset\zyguser.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1121371330697" options="" />
+		<datafield name="DNA" entryset="User Zygosity" filename="build\dataset\zyguser.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1121371330698" options="" />
+		<datafield name="Correct" entryset="User Zygosity" filename="build\dataset\zyguser.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1121371330699" options="" />
+	</componentset>
+</form>
+

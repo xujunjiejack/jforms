@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Sibling day 1" abrv="bcd1s" filename="bcd1s">
+	<template name="Waking">
+		<name format="" />
+		<field format="1w@" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<template name="Mid-day">
+		<name format="" />
+		<field format="1m@" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<template name="Evening">
+		<name format="" />
+		<field format="1e@" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<validator name="varchar_9998_9999" type="VARCHAR" defaultvalue="9998" allowblanks="false" lowerbound="2147483647" upperbound="2147483647">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="blankformat" type="VARCHAR" defaultvalue="9998" allowblanks="true" lowerbound="2147483647" upperbound="2147483647">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="yesno_9980-9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="1">
+		<valid value="9999" />
+		<valid value="9998" />
+		<valid value="9997" />
+		<valid value="9996" />
+		<valid value="9995" />
+		<valid value="9994" />
+		<valid value="9993" />
+		<valid value="9992" />
+		<valid value="9991" />
+		<valid value="9990" />
+		<valid value="9989" />
+		<valid value="9988" />
+		<valid value="9987" />
+		<valid value="9986" />
+		<valid value="9985" />
+		<valid value="9984" />
+		<valid value="9983" />
+		<valid value="9982" />
+		<valid value="9981" />
+		<valid value="9980" />
+	</validator>
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<key name="Sibling Number" field="siblingnumber" template="na" validator="INTEGER" ui="com.wtp.jforms.ui.control.selection.Sibling" value="" />
+	<data name="Morning Sample Date" field="dat" template="Waking" validator="varchar_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1098299150510" />
+	<data name="Morning Sample Time (military)" field="tim" template="Waking" validator="varchar_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1098299150511" />
+	<data name="Waking Time (military)" field="wti" template="Waking" validator="varchar_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1098299150512" />
+	<data name="What doing w/in 30 min of sample1" field="do" template="Waking" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1098299150513" />
+	<data name="Amount of Sleep (minutes)" field="slp" template="Waking" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1098299150514" />
+	<data name="Mid-Day Sample Time (military)" field="tim" template="Mid-day" validator="varchar_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1098299150515" />
+	<data name="Did you nap" field="nap" template="Waking" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1098299150516" />
+	<data name="How long was nap (minutes)" field="nat" template="Waking" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1098299150517" />
+	<data name="What doing w/in 30 min of sample2" field="do" template="Mid-day" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1098299150518" />
+	<data name="Bedtime Sample Time (military)" field="tim" template="Evening" validator="varchar_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1098299150519" />
+	<data name="What doing w/in 30 min of sample3" field="do" template="Evening" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1098299150533" />
+	<data name="Have you taken antibiotics" field="bio" template="Waking" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1098299150547" />
+	<data name="Type" field="bit" template="Waking" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1098299150548" />
+	<data name="Number of Days" field="bid" template="Waking" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1098299150549" />
+	<data name="Runny nose and/or cough" field="nc" template="Waking" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1098299150550" />
+	<data name="Feel warm or flushed" field="wf" template="Waking" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1098299150551" />
+	<data name="Cranky or irritable even when rested" field="ci" template="Waking" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1098299150552" />
+	<data name="Ear Infection" field="ei" template="Waking" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1098299150553" />
+	<data name="Feel aches and pains" field="ap" template="Waking" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1098299150554" />
+	<data name="Nausea or uneasy stomach" field="ns" template="Waking" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1098299150555" />
+	<data name="Have you taken any other medication" field="m" template="Waking" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1098299150556" />
+	<data name="Name of Med(s)" field="mn" template="Waking" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1098299150557" />
+	<data name="Taken for" field="mt" template="Waking" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1098299150558" />
+	<data name="Amount" field="ma" template="Waking" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1098299150559" />
+	<data name="Mid-Day Sample Date" field="dat" template="Mid-day" validator="varchar_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1098906974783" />
+	<data name="Bedtime Sample Date" field="dat" template="Evening" validator="varchar_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1098906974784" />
+	<data name="Date of last period" field="pd" template="Waking" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1209508696276" />
+	<data name="Length of period (Days)" field="pl" template="Waking" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1209508696277" />
+	<dependency field="How long was nap (minutes)">
+		<parent field="Did you nap" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Type">
+		<parent field="Have you taken antibiotics" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Number of Days">
+		<parent field="Have you taken antibiotics" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Name of Med(s)">
+		<parent field="Have you taken any other medication" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Taken for">
+		<parent field="Have you taken any other medication" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Amount">
+		<parent field="Have you taken any other medication" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+</dataset>
+

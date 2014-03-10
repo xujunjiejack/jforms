@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Color Word Stroop" abrv="colorwordstroop" filename="colorwordstroop">
+	<template name="temp1">
+		<name format="" />
+		<field format="cwc@t" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<validator name="blankformat" type="VARCHAR" defaultvalue="9998" allowblanks="true" lowerbound="2147483647" upperbound="2147483647">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<key name="Twin" field="twin" template="na" validator="INTEGER" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<data name="Card 1 Rxn Time (sec)" field="1rx" template="temp1" validator="DOUBLE" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200079386952" />
+	<data name="Card 1 # of Errors" field="1er" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200079386953" />
+	<data name="Card 2 Rxn Time (sec)" field="2rx" template="temp1" validator="DOUBLE" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200079386959" />
+	<data name="Card 2 # of Errors" field="2er" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200079386960" />
+	<data name="Card 3 Rxn Time (sec)" field="3rx" template="temp1" validator="DOUBLE" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200079386961" />
+	<data name="Card 3 # of Errors" field="3er" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200079386962" />
+</dataset>
+

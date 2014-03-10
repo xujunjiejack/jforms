@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE validator SYSTEM "../../dtd/validator.dtd">
+<validator name="race" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="13">
+	<valid value="15" />
+	<valid value="16" />
+	<valid value="9998" />
+	<valid value="9999" />
+</validator>
+

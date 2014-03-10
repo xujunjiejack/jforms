@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Playdoh Emotion" abrv="PlaydohE" filename="PlaydohE">
+	<template name="playdoh">
+		<name format="" />
+		<field format="pd@" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<validator name="val01_9980-9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="1">
+		<valid value="9999" />
+		<valid value="9998" />
+		<valid value="9997" />
+		<valid value="9996" />
+		<valid value="9995" />
+		<valid value="9994" />
+		<valid value="9993" />
+		<valid value="9992" />
+		<valid value="9991" />
+		<valid value="9990" />
+		<valid value="9989" />
+		<valid value="9988" />
+		<valid value="9987" />
+		<valid value="9986" />
+		<valid value="9985" />
+		<valid value="9984" />
+		<valid value="9983" />
+		<valid value="9982" />
+		<valid value="9981" />
+		<valid value="9980" />
+	</validator>
+	<validator name="val01_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="1">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="val15_9980_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="5">
+		<valid value="9999" />
+		<valid value="9998" />
+		<valid value="9997" />
+		<valid value="9996" />
+		<valid value="9995" />
+		<valid value="9994" />
+		<valid value="9993" />
+		<valid value="9992" />
+		<valid value="9991" />
+		<valid value="9990" />
+		<valid value="9989" />
+		<valid value="9988" />
+		<valid value="9987" />
+		<valid value="9986" />
+		<valid value="9985" />
+		<valid value="9984" />
+		<valid value="9983" />
+		<valid value="9982" />
+		<valid value="9981" />
+		<valid value="9980" />
+	</validator>
+	<validator name="val02_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="2">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<key name="Twin" field="twin" template="na" validator="INTEGER" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<data name="Angry01" field="1ang" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276976981" />
+	<data name="Sad01" field="1sad" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276976982" />
+	<data name="Neutral01" field="1ne" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276976983" />
+	<data name="Content01" field="1co" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276976984" />
+	<data name="Enthusiastic01" field="1en" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276976985" />
+	<data name="Angry02" field="2ang" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276976986" />
+	<data name="Sad02" field="2sad" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276976987" />
+	<data name="Neutral02" field="2ne" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276976988" />
+	<data name="Content02" field="2co" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276976989" />
+	<data name="Enthusiastic02" field="2en" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276976990" />
+	<data name="Angry03" field="3ang" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276976991" />
+	<data name="Sad03" field="3sad" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276976992" />
+	<data name="Neutral03" field="3ne" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276976993" />
+	<data name="Content03" field="3co" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276976994" />
+	<data name="Enthusiastic03" field="3en" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276976995" />
+	<data name="Angry04" field="4ang" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276976996" />
+	<data name="Sad04" field="4sad" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276976997" />
+	<data name="Neutral04" field="4ne" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276976998" />
+	<data name="Content04" field="4co" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276976999" />
+	<data name="Enthusiastic04" field="4en" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977000" />
+	<data name="Angry05" field="5ang" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977001" />
+	<data name="Sad05" field="5sad" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977002" />
+	<data name="Neutral05" field="5ne" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977003" />
+	<data name="Content05" field="5co" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977004" />
+	<data name="Enthusiastic05" field="5en" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977005" />
+	<data name="Angry06" field="6ang" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977006" />
+	<data name="Sad06" field="6sad" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977007" />
+	<data name="Neutral06" field="6ne" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977008" />
+	<data name="Content06" field="6co" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977009" />
+	<data name="Enthusiastic06" field="6en" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977010" />
+	<data name="Angry07" field="7ang" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977011" />
+	<data name="Sad07" field="7sad" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977012" />
+	<data name="Neutral07" field="7ne" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977013" />
+	<data name="Content07" field="7co" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977014" />
+	<data name="Enthusiastic07" field="7en" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977015" />
+	<data name="Angry08" field="8ang" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977016" />
+	<data name="Sad08" field="8sad" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977017" />
+	<data name="Neutral08" field="8ne" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977018" />
+	<data name="Content08" field="8co" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977019" />
+	<data name="Enthusiastic08" field="8en" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977020" />
+	<data name="Angry09" field="9ang" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977021" />
+	<data name="Sad09" field="9sad" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977022" />
+	<data name="Neutral09" field="9ne" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977023" />
+	<data name="Content09" field="9co" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977024" />
+	<data name="Enthusiastic09" field="9en" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977025" />
+	<data name="Angry10" field="10ang" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977026" />
+	<data name="Sad10" field="10sad" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977027" />
+	<data name="Neutral10" field="10ne" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977028" />
+	<data name="Content10" field="10co" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977029" />
+	<data name="Enthusiastic10" field="10en" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977030" />
+	<data name="Angry11" field="11ang" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977031" />
+	<data name="Sad11" field="11sad" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977032" />
+	<data name="Neutral11" field="11ne" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977033" />
+	<data name="Content11" field="11co" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977034" />
+	<data name="Enthusiastic11" field="11en" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977035" />
+	<data name="Angry12" field="12ang" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977036" />
+	<data name="Sad12" field="12sad" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977037" />
+	<data name="Neutral12" field="12ne" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977038" />
+	<data name="Content12" field="12co" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977039" />
+	<data name="Enthusiastic12" field="12en" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977040" />
+	<data name="Angry13" field="13ang" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977041" />
+	<data name="Sad13" field="13sad" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977042" />
+	<data name="Neutral13" field="13ne" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977043" />
+	<data name="Content13" field="13co" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977044" />
+	<data name="Enthusiastic13" field="13en" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977045" />
+	<data name="Angry14" field="14ang" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977046" />
+	<data name="Sad14" field="14sad" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977047" />
+	<data name="Neutral14" field="14ne" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977048" />
+	<data name="Content14" field="14co" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977049" />
+	<data name="Enthusiastic14" field="14en" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977050" />
+	<data name="Angry15" field="15ang" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977051" />
+	<data name="Sad15" field="15sad" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977052" />
+	<data name="Neutral15" field="15ne" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977053" />
+	<data name="Content15" field="15co" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977054" />
+	<data name="Enthusiastic15" field="15en" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977055" />
+	<data name="Angry16" field="16ang" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977056" />
+	<data name="Sad16" field="16sad" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977141" />
+	<data name="Neutral16" field="16ne" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977142" />
+	<data name="Content16" field="16co" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977143" />
+	<data name="Enthusiastic16" field="16en" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977144" />
+	<data name="Angry17" field="17ang" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977145" />
+	<data name="Sad17" field="17sad" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977146" />
+	<data name="Neutral17" field="17ne" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977147" />
+	<data name="Content17" field="17co" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977148" />
+	<data name="Enthusiastic17" field="17en" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977149" />
+	<data name="Angry18" field="18ang" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977150" />
+	<data name="Sad18" field="18sad" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977151" />
+	<data name="Neutral18" field="18ne" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977152" />
+	<data name="Content18" field="18co" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977153" />
+	<data name="Enthusiastic18" field="18en" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977154" />
+	<data name="Angry19" field="19ang" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977155" />
+	<data name="Sad19" field="19sad" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977156" />
+	<data name="Neutral19" field="19ne" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977157" />
+	<data name="Content19" field="19co" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977158" />
+	<data name="Enthusiastic19" field="19en" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977159" />
+	<data name="Angry20" field="20ang" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977160" />
+	<data name="Sad20" field="20sad" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977161" />
+	<data name="Neutral20" field="20ne" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977162" />
+	<data name="Content20" field="20co" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977163" />
+	<data name="Enthusiastic20" field="20en" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977164" />
+	<data name="Angry21" field="21ang" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977165" />
+	<data name="Sad21" field="21sad" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977166" />
+	<data name="Neutral21" field="21ne" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977167" />
+	<data name="Content21" field="21co" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977168" />
+	<data name="Enthusiastic21" field="21en" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977169" />
+	<data name="Angry22" field="22ang" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977170" />
+	<data name="Sad22" field="22sad" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977171" />
+	<data name="Neutral22" field="22ne" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977172" />
+	<data name="Content22" field="22co" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977173" />
+	<data name="Enthusiastic22" field="22en" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977174" />
+	<data name="Angry23" field="23ang" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977175" />
+	<data name="Sad23" field="23sad" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977294" />
+	<data name="Neutral23" field="23ne" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977295" />
+	<data name="Content23" field="23co" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977296" />
+	<data name="Enthusiastic23" field="23en" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977297" />
+	<data name="Angry24" field="24ang" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977298" />
+	<data name="Sad24" field="24sad" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977299" />
+	<data name="Neutral24" field="24ne" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977300" />
+	<data name="Content24" field="24co" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977301" />
+	<data name="Enthusiastic24" field="24en" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977302" />
+	<data name="Angry25" field="25ang" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977303" />
+	<data name="Sad25" field="25sad" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977304" />
+	<data name="Neutral25" field="25ne" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977305" />
+	<data name="Content25" field="25co" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977306" />
+	<data name="Enthusiastic25" field="25en" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977307" />
+	<data name="Angry26" field="26ang" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977308" />
+	<data name="Sad26" field="26sad" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977309" />
+	<data name="Neutral26" field="26ne" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977310" />
+	<data name="Content26" field="26co" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977311" />
+	<data name="Enthusiastic26" field="26en" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977312" />
+	<data name="Angry27" field="27ang" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977313" />
+	<data name="Sad27" field="27sad" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977314" />
+	<data name="Neutral27" field="27ne" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977315" />
+	<data name="Content27" field="27co" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977316" />
+	<data name="Enthusiastic27" field="27en" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977317" />
+	<data name="Angry28" field="28ang" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977318" />
+	<data name="Sad28" field="28sad" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977319" />
+	<data name="Neutral28" field="28ne" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977320" />
+	<data name="Content28" field="28co" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977321" />
+	<data name="Enthusiastic28" field="28en" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977322" />
+	<data name="Angry29" field="29ang" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977323" />
+	<data name="Sad29" field="29sad" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977324" />
+	<data name="Neutral29" field="29ne" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977325" />
+	<data name="Content29" field="29co" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977326" />
+	<data name="Enthusiastic29" field="29en" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977327" />
+	<data name="Angry30" field="30ang" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977328" />
+	<data name="Sad30" field="30sad" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977329" />
+	<data name="Neutral30" field="30ne" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977330" />
+	<data name="Content30" field="30co" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977331" />
+	<data name="Enthusiastic30" field="30en" template="playdoh" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1271276977332" />
+</dataset>
+

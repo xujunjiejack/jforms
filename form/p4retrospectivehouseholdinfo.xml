@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Retrospective Household Information" abrv="p4retrospectivehouseholdinfo" filename="p4retrospectivehouseholdinfo">
+	<dataset file="retrospectivehousehold" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_RH_M" />
+	<key name="Family Id" entryset="Retrospective Household" filename="retrospectivehousehold" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Data Mode" entryset="Retrospective Household" filename="retrospectivehousehold" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="Retrospective Household Information" abrv="retrospectivehouse" numcols="2" displayheader="true" header="Retrospective Household Information">
+		<datafield name="# people at last assessment" entryset="Retrospective Household" filename="build\dataset\retrospectivehousehold.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200340736174" options="" />
+		<datafield name="# of people when twins born" entryset="Retrospective Household" filename="build\dataset\retrospectivehousehold.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200340736175" options="" />
+		<datafield name="Amount of income change" entryset="Retrospective Household" filename="build\dataset\retrospectivehousehold.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200340736176" options="" />
+		<datafield name="Direction of income change" entryset="Retrospective Household" filename="build\dataset\retrospectivehousehold.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200340736177" options="" />
+		<datafield name="Amount of income change at birth" entryset="Retrospective Household" filename="build\dataset\retrospectivehousehold.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200340736178" options="" />
+		<datafield name="Income change" entryset="Retrospective Household" filename="build\dataset\retrospectivehousehold.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200340736179" options="" />
+		<datafield name="Income range" entryset="Retrospective Household" filename="build\dataset\retrospectivehousehold.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200340736180" options="" />
+		<datafield name="Mother education" entryset="Retrospective Household" filename="build\dataset\retrospectivehousehold.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200340736181" options="" />
+		<datafield name="Father education" entryset="Retrospective Household" filename="build\dataset\retrospectivehousehold.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200340736182" options="" />
+	</componentset>
+</form>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Family Assessment Device" abrv="fad" filename="fad">
+	<template name="temp1">
+		<name format="" />
+		<field format="" />
+		<subsetname format="fad@" />
+		<subsetfield format="" />
+	</template>
+</dataset>
+

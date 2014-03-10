@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Soothability" abrv="so" filename="so">
+	<template name="temp1">
+		<name format="so@" />
+		<field format="so@" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+</dataset>
+

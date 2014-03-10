@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Demographics" abrv="demographics" filename="p2demographics">
+	<template name="temp1">
+		<name format="" />
+		<field format="@m" />
+	</template>
+	<dataset file="de" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_2_DE_M" />
+	<key name="Family Id" entryset="Demographics" filename="de" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Data Mode" entryset="Demographics" filename="de" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="Demographics" abrv="demo" numcols="2" displayheader="true" header="Demographics">
+		<datafield name="Bio. Mother Ethnic Origin" entryset="Demographics" filename="build\dataset\de.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048019587734" options="" />
+		<datafield name="Mother Birthdate" entryset="Demographics" filename="build\dataset\de.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1048019587735" options="0,MM/dd/yyyy" />
+		<datafield name="Bio. Father Ethnic Origin" entryset="Demographics" filename="build\dataset\de.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048019587736" options="" />
+		<datafield name="Father Birthdate" entryset="Demographics" filename="build\dataset\de.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1048019587737" options="0,MM/dd/yyyy" />
+		<datafield name="Twin Ethnic Origin" entryset="Demographics" filename="build\dataset\de.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048019587738" options="" />
+		<datafield name="Mother Bio. Parent" entryset="Demographics" filename="build\dataset\de.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048019587739" options="" />
+		<datafield name="Mother NOT Bio. Parent Explain" entryset="Demographics" filename="build\dataset\de.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1048019587740" options="" />
+		<datafield name="Father Bio. Parent" entryset="Demographics" filename="build\dataset\de.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048019587741" options="" />
+		<datafield name="Father NOT Bio. Parent Explain" entryset="Demographics" filename="build\dataset\de.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1048019587742" options="" />
+		<datafield name="Where Twins Born" entryset="Demographics" filename="build\dataset\de.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048019587743" options="" />
+		<datafield name="Birth Hospital Name" entryset="Demographics" filename="build\dataset\de.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1048019587744" options="" />
+		<datafield name="Birth City" entryset="Demographics" filename="build\dataset\de.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048019587745" options="" />
+		<datafield name="Mother Schooling" entryset="Demographics" filename="build\dataset\de.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048019587746" options="" />
+		<datafield name="Father Schooling" entryset="Demographics" filename="build\dataset\de.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048019587747" options="" />
+		<datafield name="Mother Working" entryset="Demographics" filename="build\dataset\de.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048019587748" options="" />
+		<datafield name="Mother Work Hrs/Week" entryset="Demographics" filename="build\dataset\de.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048019587749" options="" />
+		<datafield name="Mother Work from Home (Hrs/Week)" entryset="Demographics" filename="build\dataset\de.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048019587750" options="" />
+		<datafield name="Mother Job Title" entryset="Demographics" filename="build\dataset\de.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1048019587751" options="" />
+		<datafield name="Mother Job Title 2" entryset="Demographics" filename="build\dataset\de.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1048019587752" options="" />
+		<datafield name="Mother Job Activities" entryset="Demographics" filename="build\dataset\de.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1048019587753" options="" />
+		<datafield name="Mother Job Activities 2" entryset="Demographics" filename="build\dataset\de.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1048019587754" options="" />
+		<datafield name="Mother Not Working" entryset="Demographics" filename="build\dataset\de.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048019587755" options="" />
+		<datafield name="Mother Not Working Other Explain" entryset="Demographics" filename="build\dataset\de.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1048019587756" options="" />
+		<datafield name="Father Working" entryset="Demographics" filename="build\dataset\de.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048019587757" options="" />
+		<datafield name="Father Work Hrs/Week" entryset="Demographics" filename="build\dataset\de.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048019587758" options="" />
+		<datafield name="Father Work from Home (Hrs/Week)" entryset="Demographics" filename="build\dataset\de.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048019587759" options="" />
+		<datafield name="Father Job Title" entryset="Demographics" filename="build\dataset\de.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1048019587760" options="" />
+		<datafield name="Father Job Title 2" entryset="Demographics" filename="build\dataset\de.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1048019587761" options="" />
+		<datafield name="Father Job Activities" entryset="Demographics" filename="build\dataset\de.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1048019587762" options="" />
+		<datafield name="Father Job Activities 2" entryset="Demographics" filename="build\dataset\de.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1048019587763" options="" />
+		<datafield name="Father Not Working" entryset="Demographics" filename="build\dataset\de.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048019587764" options="" />
+		<datafield name="Father Not Working Other Explain" entryset="Demographics" filename="build\dataset\de.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048019587765" options="" />
+		<datafield name="Own Business/Farm" entryset="Demographics" filename="build\dataset\de.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048019587766" options="" />
+		<datafield name="Value of Business/Farm" entryset="Demographics" filename="build\dataset\de.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048019587767" options="" />
+		<datafield name="Family Income" entryset="Demographics" filename="build\dataset\de.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048019587768" options="" />
+		<datafield name="Marital Status" entryset="Demographics" filename="build\dataset\de.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048019587769" options="" />
+		<datafield name="Martial Status Change" entryset="Demographics" filename="build\dataset\de.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048019587770" options="" />
+		<datafield name="Marital Status Change Explain" entryset="Demographics" filename="build\dataset\de.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1048019587771" options="" />
+		<datafield name="Marital Status Change - Age of Twins" entryset="Demographics" filename="build\dataset\de.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048019587772" options="" />
+		<datafield name="No. of Brothers" entryset="Demographics" filename="build\dataset\de.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048542087508" options="" />
+		<datafield name="No. of Sisters" entryset="Demographics" filename="build\dataset\de.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048542087509" options="" />
+	</componentset>
+</form>
+

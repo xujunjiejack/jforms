@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="DSMIV Assessment Background" abrv="DAB" filename="DSMIV Assessment Background">
+	<template name="temp1">
+		<name format="" />
+		<field format="ks@" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<validator name="yesno01_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="1">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="val12_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="2">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<key name="Twin" field="twin" template="na" validator="INTEGER" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<data name="Assessment date" field="assess" template="temp1" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679608" />
+	<data name="Child name" field="child" template="temp1" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679871" />
+	<data name="Age" field="age" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679872" />
+	<data name="Gender" field="gender" template="temp1" validator="val12_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679873" />
+	<data name="Parent name" field="parent" template="temp1" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679874" />
+	<data name="Lives w/ Bio. Mother?" field="biomom" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679875" />
+	<data name="Lives w/ Bio. Dad?" field="biodad" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679876" />
+	<data name="Lives w/ Stepmom?" field="stepmom" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679877" />
+	<data name="Lives w/ stepdad?" field="stepdad" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679878" />
+	<data name="Lives w/ grandparents?" field="grand" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679879" />
+	<data name="Lives w/ relatives?" field="relative" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679880" />
+	<data name="Lives w/ non-relative?" field="other" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679881" />
+	<data name="Nonrelative explain" field="otherexp" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679882" />
+	<data name="Lives w/ siblings?" field="siblings" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679883" />
+	<data name="Siblings explain" field="siblingsexp" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1292947679884" />
+	<data name="Bio. Parents Whereabouts" field="home" template="temp1" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679885" />
+	<data name="Family relations" field="relation" template="temp1" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1292947679886" />
+	<data name="Grade" field="grade" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679887" />
+	<data name="School name" field="schoolname" template="temp1" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679888" />
+	<data name="City of School" field="city" template="temp1" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679889" />
+	<data name="School Info" field="schoolinfo" template="temp1" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1292947679890" />
+	<data name="Hobbies" field="hobby" template="temp1" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1292947679891" />
+	<data name="Has job?" field="job" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679892" />
+	<data name="Job explain" field="jobinfo" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1292947679893" />
+	<data name="Taking meds?" field="meds" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679921" />
+	<data name="Med 1 Name" field="med1" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679922" />
+	<data name="Med 1 Dose" field="dose1" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679923" />
+	<data name="Med 1 Frequency" field="freq1" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679924" />
+	<data name="Med 1 Start Date" field="meddate1" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1292947679925" />
+	<data name="Med 1 Reason" field="reason1" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679926" />
+	<data name="Med 2 Name" field="med2" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679927" />
+	<data name="Med 2 Dose" field="dose2" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679928" />
+	<data name="Med 2 Frequency" field="freq2" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679929" />
+	<data name="Med 2 Start Date" field="meddate2" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1292947679930" />
+	<data name="Med 2 Reason" field="reason2" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679931" />
+	<data name="Med 3 Name" field="med3" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679932" />
+	<data name="Med 3 Dose" field="dose3" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679933" />
+	<data name="Med 3 Freq" field="freq3" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679934" />
+	<data name="Med 3 Start Date" field="meddate3" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1292947679935" />
+	<data name="Med 3 Reason" field="reason3" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679936" />
+	<data name="All Other Meds" field="med4" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1292947679937" />
+	<data name="Medical condition treatment?" field="manytreat" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679982" />
+	<data name="Cond 1 symptoms" field="mcond1" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1292947679983" />
+	<data name="Cond 1 Onset age" field="mage1" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679984" />
+	<data name="Cond 1 Start Treatment" field="mstart1" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679985" />
+	<data name="Cond 1 End Treatment" field="mend1" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679986" />
+	<data name="Cond 1 Treatment" field="mtreat1" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1292947679987" />
+	<data name="Cond 1 Healthcare" field="mprovider1" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679988" />
+	<data name="Cond 2 Symptoms" field="mcond2" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1292947679989" />
+	<data name="Cond 2 Onset Age" field="mage2" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679990" />
+	<data name="Cond 2 Start Treatment" field="mstart2" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679991" />
+	<data name="Cond 2 End Treatment" field="mend2" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679992" />
+	<data name="Cond 2 Treatment" field="mtreat2" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1292947679993" />
+	<data name="Cond 2 Healthcare" field="mprovider2" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679994" />
+	<data name="Cond 3 Symptoms" field="mcond3" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1292947679995" />
+	<data name="Cond 3 Onset Age" field="mage3" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679996" />
+	<data name="Cond 3 Start Treatment" field="mstart3" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679997" />
+	<data name="Cond 3 End Treatment" field="mend3" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947679998" />
+	<data name="Cond 3 Treatment" field="mtreat3" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1292947679999" />
+	<data name="Cond 3 Healthcare" field="mprovider3" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680000" />
+	<data name="All Other Conditions" field="mcond4" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1292947680001" />
+	<data name="Psych. Condition Treatment?" field="panytreat" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680066" />
+	<data name="P. Cond 1 Symptoms" field="pcond1" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1292947680067" />
+	<data name="P. Cond 1 Onset Age" field="page1" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680068" />
+	<data name="P. Cond 1 Start Treatment" field="pstart1" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680069" />
+	<data name="P. Cond 1 End Treatment" field="pend1" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680070" />
+	<data name="P. Cond 1 Treatment" field="ptreat1" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1292947680071" />
+	<data name="P. Cond 1 Healthcare" field="pprovider1" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680072" />
+	<data name="P. Cond 2 Symptoms" field="pcond2" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1292947680073" />
+	<data name="P. Cond 2 Onset Age" field="page2" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680074" />
+	<data name="P. Cond 2 Start Treatment" field="pstart2" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680075" />
+	<data name="P. Cond 2 End Treatment" field="pend2" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680076" />
+	<data name="P. Cond 2 Treatment" field="ptreat2" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680077" />
+	<data name="P. Cond 2 Healthcare" field="pprovider2" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680078" />
+	<data name="P. Cond 3 Symptoms" field="pcond3" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1292947680079" />
+	<data name="P. Cond 3 Onset Age" field="page3" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680080" />
+	<data name="P. Cond 3 Start Treatment" field="pstart3" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680081" />
+	<data name="P. Cond 3 End Treatment" field="pend3" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680082" />
+	<data name="P. Cond 3 Treatment" field="ptreat3" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1292947680083" />
+	<data name="P. Cond 3 Healthcare" field="pprovider3" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680084" />
+	<data name="All Other P. Conds" field="pcond4" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1292947680085" />
+	<data name="Other services?" field="service" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680171" />
+	<data name="Explain services" field="explain" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680172" />
+	<data name="Other Background" field="background" template="temp1" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1292947680173" />
+	<data name="Child Tester" field="ct" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.ComboFieldBox" classid="1292947680183" />
+	<data name="Dep. Disorder Cur." field="ddc" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680261" />
+	<data name="Dep. Disorders Past" field="ddp" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680262" />
+	<data name="Mania Cur." field="mac" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680263" />
+	<data name="Mania Past" field="map" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680264" />
+	<data name="Psych. Cur." field="psyc" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680265" />
+	<data name="Psych. Past" field="psyp" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680266" />
+	<data name="Panic Cur." field="pac" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680267" />
+	<data name="Panic Past" field="pap" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680268" />
+	<data name="Sep. Dis. Cur." field="sepc" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680269" />
+	<data name="Sep. Dis. Past" field="sepp" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680270" />
+	<data name="Phobic Cur." field="phoc" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680271" />
+	<data name="Phobic Past" field="phop" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680272" />
+	<data name="Overanx. Cur." field="oac" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680273" />
+	<data name="Overanx. Past" field="oap" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680274" />
+	<data name="OCD Cur." field="occ" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680275" />
+	<data name="OCD Past" field="ocp" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680276" />
+	<data name="ADHD Cur." field="adc" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680277" />
+	<data name="ADHD Past" field="adp" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680278" />
+	<data name="Opp. Dis. Cur." field="odc" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680279" />
+	<data name="Opp. Dis. Past" field="odp" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680280" />
+	<data name="Conduct Cur." field="cdc" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680281" />
+	<data name="Conduct Past" field="cdp" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680282" />
+	<data name="Bulimia Cur." field="buc" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680283" />
+	<data name="Bulimia Past" field="bup" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680284" />
+	<data name="Anorexia Cur." field="anc" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680285" />
+	<data name="Anorexia Past" field="anp" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680286" />
+	<data name="Tic Cur." field="tic" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680287" />
+	<data name="Tic Past" field="tip" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1292947680288" />
+	<dependency field="Nonrelative explain">
+		<parent field="Lives w/ non-relative?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Siblings explain">
+		<parent field="Lives w/ siblings?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Job explain">
+		<parent field="Has job?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Med 1 Name">
+		<parent field="Taking meds?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Med 1 Dose">
+		<parent field="Taking meds?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Med 1 Frequency">
+		<parent field="Taking meds?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Med 1 Start Date">
+		<parent field="Taking meds?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Med 1 Reason">
+		<parent field="Taking meds?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Med 2 Name">
+		<parent field="Taking meds?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Med 2 Dose">
+		<parent field="Taking meds?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Med 2 Frequency">
+		<parent field="Taking meds?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Med 2 Start Date">
+		<parent field="Taking meds?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Med 2 Reason">
+		<parent field="Taking meds?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Med 3 Name">
+		<parent field="Taking meds?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Med 3 Dose">
+		<parent field="Taking meds?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Med 3 Freq">
+		<parent field="Taking meds?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Med 3 Start Date">
+		<parent field="Taking meds?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Med 3 Reason">
+		<parent field="Taking meds?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="All Other Meds">
+		<parent field="Taking meds?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Cond 1 symptoms">
+		<parent field="Medical condition treatment?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Cond 1 Onset age">
+		<parent field="Medical condition treatment?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Cond 1 Start Treatment">
+		<parent field="Medical condition treatment?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Cond 1 End Treatment">
+		<parent field="Medical condition treatment?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Cond 1 Treatment">
+		<parent field="Medical condition treatment?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Cond 1 Healthcare">
+		<parent field="Medical condition treatment?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Cond 2 Symptoms">
+		<parent field="Medical condition treatment?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Cond 2 Onset Age">
+		<parent field="Medical condition treatment?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Cond 2 Start Treatment">
+		<parent field="Medical condition treatment?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Cond 2 End Treatment">
+		<parent field="Medical condition treatment?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Cond 2 Treatment">
+		<parent field="Medical condition treatment?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Cond 2 Healthcare">
+		<parent field="Medical condition treatment?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Cond 3 Symptoms">
+		<parent field="Medical condition treatment?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Cond 3 Onset Age">
+		<parent field="Medical condition treatment?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Cond 3 Start Treatment">
+		<parent field="Medical condition treatment?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Cond 3 End Treatment">
+		<parent field="Medical condition treatment?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Cond 3 Treatment">
+		<parent field="Medical condition treatment?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Cond 3 Healthcare">
+		<parent field="Medical condition treatment?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="All Other Conditions">
+		<parent field="Medical condition treatment?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="P. Cond 1 Symptoms">
+		<parent field="Psych. Condition Treatment?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="P. Cond 1 Onset Age">
+		<parent field="Psych. Condition Treatment?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="P. Cond 1 Start Treatment">
+		<parent field="Psych. Condition Treatment?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="P. Cond 1 End Treatment">
+		<parent field="Psych. Condition Treatment?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="P. Cond 1 Treatment">
+		<parent field="Psych. Condition Treatment?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="P. Cond 1 Healthcare">
+		<parent field="Psych. Condition Treatment?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="P. Cond 2 Symptoms">
+		<parent field="Psych. Condition Treatment?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="P. Cond 2 Onset Age">
+		<parent field="Psych. Condition Treatment?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="P. Cond 2 Start Treatment">
+		<parent field="Psych. Condition Treatment?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="P. Cond 2 End Treatment">
+		<parent field="Psych. Condition Treatment?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="P. Cond 2 Treatment">
+		<parent field="Psych. Condition Treatment?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="P. Cond 2 Healthcare">
+		<parent field="Psych. Condition Treatment?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="P. Cond 3 Symptoms">
+		<parent field="Psych. Condition Treatment?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="P. Cond 3 Onset Age">
+		<parent field="Psych. Condition Treatment?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="P. Cond 3 Start Treatment">
+		<parent field="Psych. Condition Treatment?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="P. Cond 3 End Treatment">
+		<parent field="Psych. Condition Treatment?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="P. Cond 3 Treatment">
+		<parent field="Psych. Condition Treatment?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="P. Cond 3 Healthcare">
+		<parent field="Psych. Condition Treatment?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="All Other P. Conds">
+		<parent field="Psych. Condition Treatment?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Explain services">
+		<parent field="Other services?" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+</dataset>
+

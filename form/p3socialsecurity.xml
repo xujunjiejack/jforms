@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Social Security" abrv="ss" filename="p3socialsecurity">
+	<dataset file="socialsecurity" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="GEN_SOCIAL_SECURITY" />
+	<key name="Family Id" entryset="Social Security" filename="socialsecurity" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<componentset name="Social Security" abrv="ss" numcols="2" displayheader="true" header="Social Security">
+		<datafield name="Mother" entryset="Social Security" filename="build\dataset\socialsecurity.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1189546063236" options="0,###-##-####" />
+		<datafield name="Father" entryset="Social Security" filename="build\dataset\socialsecurity.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1189546063237" options="0,###-##-####" />
+		<datafield name="Other" entryset="Social Security" filename="build\dataset\socialsecurity.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1189546063238" options="0,###-##-####" />
+	</componentset>
+</form>
+

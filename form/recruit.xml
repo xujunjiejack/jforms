@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Recruit Response" abrv="recruit" filename="recruit">
+	<dataset file="recruitseccontact" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="GEN_SECONDARY_CONTACT" />
+	<dataset file="recruittwina" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="GEN_TWINS" />
+	<dataset file="recruittwinb" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="GEN_TWINS" />
+	<dataset file="recruitfamily" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="GEN_FAMILY" />
+	<dataset file="recruitdobdemostate" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="GEN_DE_STATE" />
+	<dataset file="p1demodob" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_DE_M" />
+	<dataset file="p2demodob" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_2_DE_M" />
+	<dataset file="p3demomotherdob" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_DE_M" />
+	<dataset file="p3demofatherdob" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_DE_F" />
+	<key name="Family Id" entryset="Recruit Second Contact" filename="recruitseccontact" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<componentset name="Family" abrv="family" numcols="2" displayheader="true" header="Family">
+		<datafield name="Family Label" entryset="Recruit Family" filename="build\dataset\recruitfamily.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1124316394010" options="" />
+		<datafield name="Mother First Name" entryset="Recruit Family" filename="build\dataset\recruitfamily.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1124316394011" options="" />
+		<datafield name="Mother Last Name" entryset="Recruit Family" filename="build\dataset\recruitfamily.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1124316394012" options="" />
+		<datafield name="Mother Maiden Name" entryset="Recruit Family" filename="build\dataset\recruitfamily.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1124316394013" options="" />
+		<datafield name="Mother Date of Birth" entryset="Recruit DOB Demo State" filename="build\dataset\recruitdobdemostate.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="false" classid="1124316394007" options="0,MM/dd/yyyy" />
+		<datafield name="P1 Mother Date of Birth" entryset="P1 Demo DOB" filename="build\dataset\p1demodob.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="false" classid="1124917160719" options="0,MM/dd/yyyy" />
+		<datafield name="P2 Mother Date of Birth" entryset="P2 Demo DOB" filename="build\dataset\p2demodob.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="false" classid="1124917160728" options="0,MM/dd/yyyy" />
+		<datafield name="P3 Mother Date of Birth" entryset="P3 Demo Mother DOB" filename="build\dataset\p3demomotherdob.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="false" classid="1189461780889" options="0,MM/dd/yyyy" />
+		<datafield name="Father First Name" entryset="Recruit Family" filename="build\dataset\recruitfamily.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1124316394014" options="" />
+		<datafield name="Father Last Name" entryset="Recruit Family" filename="build\dataset\recruitfamily.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1124316394015" options="" />
+		<datafield name="Father Date of Birth" entryset="Recruit DOB Demo State" filename="build\dataset\recruitdobdemostate.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="false" classid="1124316394008" options="0,MM/dd/yyyy" />
+		<datafield name="P1 Father Date of Birth" entryset="P1 Demo DOB" filename="build\dataset\p1demodob.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="false" classid="1124917160720" options="0,MM/dd/yyyy" />
+		<datafield name="P2 Father Date of Birth" entryset="P2 Demo DOB" filename="build\dataset\p2demodob.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="false" classid="1124917160729" options="0,MM/dd/yyyy" />
+		<datafield name="P3 Father Date of Birth" entryset="P3 Demo Father DOB" filename="build\dataset\p3demofatherdob.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="false" classid="1189461780892" options="0,MM/dd/yyyy" />
+		<datafield name="Phone Number" entryset="Recruit Family" filename="build\dataset\recruitfamily.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1124316394020" options="0,(###) ###-####" />
+		<datafield name="Address" entryset="Recruit Family" filename="build\dataset\recruitfamily.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1124316394025" options="" />
+		<datafield name="City" entryset="Recruit Family" filename="build\dataset\recruitfamily.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1124316394026" options="" />
+		<datafield name="State" entryset="Recruit Family" filename="build\dataset\recruitfamily.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1124316394017" options="" />
+		<datafield name="Zip Code" entryset="Recruit Family" filename="build\dataset\recruitfamily.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1124316394018" options="0,#####" />
+		<datafield name="Initial Response" entryset="Recruit Family" filename="build\dataset\recruitfamily.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1124316394027" options="" />
+		<datafield name="Initial Letter" entryset="Recruit Family" filename="build\dataset\recruitfamily.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1124316394019" options="0,MM/dd/yyyy" />
+		<datafield name="Email" entryset="Recruit Family" filename="build\dataset\recruitfamily.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1124316394021" options="0,email" />
+		<datafield name="Old Address" entryset="Recruit Family" filename="build\dataset\recruitfamily.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1124316394022" options="" />
+		<datafield name="Memo" entryset="Recruit Family" filename="build\dataset\recruitfamily.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1124316394023" options="" />
+		<datafield name="Other Projects" entryset="Recruit Family" filename="build\dataset\recruitfamily.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1124316394024" options="" />
+		<datafield name="Race" entryset="Recruit Family" filename="build\dataset\recruitfamily.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="false" classid="1194904284428" options="" />
+		<datafield name="Spanish Speaking" entryset="Recruit Family" filename="build\dataset\recruitfamily.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="false" classid="1194904284429" options="" />
+	</componentset>
+	<componentset name="Twin" abrv="twin" numcols="1" displayheader="true" header="Twin">
+		<module class="com.wtp.jforms.ui.control.module.Header" options="Twin A" />
+		<datafield name="Twin A First Name" entryset="Recruit Twin A" filename="build\dataset\recruittwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="false" classid="1124916514440" options="" />
+		<datafield name="Twin A Last Name" entryset="Recruit Twin A" filename="build\dataset\recruittwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="false" classid="1124916514441" options="" />
+		<datafield name="Twin A Date of Birth" entryset="Recruit Twin A" filename="build\dataset\recruittwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="false" classid="1124916514442" options="0,MM/dd/yyyy" />
+		<datafield name="Twin A Gender" entryset="Recruit Twin A" filename="build\dataset\recruittwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="false" classid="1124916514443" options="" />
+		<module class="com.wtp.jforms.ui.control.module.Header" options="Twin B" />
+		<datafield name="Twin B First Name" entryset="Recruit Twin B" filename="build\dataset\recruittwinb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="false" classid="1124917160712" options="" />
+		<datafield name="Twin B Last Name" entryset="Recruit Twin B" filename="build\dataset\recruittwinb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="false" classid="1124917160713" options="" />
+		<datafield name="Twin B Date of Birth" entryset="Recruit Twin B" filename="build\dataset\recruittwinb.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="false" classid="1124917160714" options="0,MM/dd/yyyy" />
+		<datafield name="Twin B Gender" entryset="Recruit Twin B" filename="build\dataset\recruittwinb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="false" classid="1124917160715" options="" />
+	</componentset>
+	<componentset name="Secondary Contact" abrv="secondary contact" numcols="2" displayheader="true" header="Secondary Contact">
+		<datafield name="Contact" entryset="Recruit Second Contact" filename="build\dataset\recruitseccontact.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1124916514431" options="" />
+		<datafield name="Relationship" entryset="Recruit Second Contact" filename="build\dataset\recruitseccontact.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1124916514432" options="" />
+		<datafield name="Address" entryset="Recruit Second Contact" filename="build\dataset\recruitseccontact.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1124916514433" options="" />
+		<datafield name="City" entryset="Recruit Second Contact" filename="build\dataset\recruitseccontact.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1124916514437" options="" />
+		<datafield name="State" entryset="Recruit Second Contact" filename="build\dataset\recruitseccontact.xml" type="0" class="com.wtp.jforms.ui.control.smart.ComboFieldBox" editable="true" classid="1124916514434" options="0,Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_STATES,stateabrv" />
+		<datafield name="Zip Code" entryset="Recruit Second Contact" filename="build\dataset\recruitseccontact.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1124916514435" options="0,#####" />
+		<datafield name="Phone Number" entryset="Recruit Second Contact" filename="build\dataset\recruitseccontact.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1124916514436" options="0,(###) ###-####" />
+	</componentset>
+</form>
+

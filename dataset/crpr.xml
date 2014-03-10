@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Child Rearing Practices Report" abrv="CRPR" filename="crpr">
+	<template name="temp1">
+		<name format="" />
+		<field format="" />
+		<subsetname format="CRPR@" />
+		<subsetfield format="cr@" />
+	</template>
+	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+</dataset>
+

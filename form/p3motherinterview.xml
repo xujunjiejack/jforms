@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Mother Interview" abrv="p3motherinterview" filename="p3motherinterview">
+	<template name="temp1">
+		<name format="" />
+		<field format="@m" />
+	</template>
+	<dataset file="hbqph" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_HB_PH_M" />
+	<dataset file="hbqsr" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_HB_SR_M" />
+	<dataset file="hbqra" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_HB_RA_M" />
+	<dataset file="hbqps" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_HB_PS_M" />
+	<dataset file="oc" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_OC_M" />
+	<dataset file="dcpl" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_DC_M" />
+	<key name="Family Id" entryset="Physical Health" filename="hbqph" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Twin" entryset="Physical Health" filename="hbqph" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Twin,A:1,B:2" />
+	<key name="Data Mode" entryset="Physical Health" filename="hbqph" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="Physical Health" abrv="ph" numcols="2" displayheader="true" header="Physical Health" >
+		<datafield name="1" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340925" options="" />
+		<datafield name="2" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340926" options="" />
+		<datafield name="3" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340927" options="" />
+		<datafield name="4" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340928" options="" />
+		<datafield name="5" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340929" options="" />
+		<datafield name="6" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340930" options="" />
+		<datafield name="6a" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340931" options="" />
+		<datafield name="6b" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340932" options="" />
+		<datafield name="6c" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340933" options="" />
+		<datafield name="7" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340934" options="" />
+		<datafield name="7a" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340935" options="" />
+		<datafield name="7b" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340936" options="" />
+		<datafield name="7c1" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1047935340937" options="" />
+		<datafield name="7c2" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1047935340938" options="" />
+		<datafield name="7c3" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1047935340939" options="" />
+		<datafield name="7c4" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1047935340940" options="" />
+		<datafield name="7d" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340941" options="" />
+		<datafield name="8" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340942" options="" />
+		<datafield name="8a" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340943" options="" />
+		<datafield name="8b" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340944" options="" />
+		<datafield name="9" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340945" options="" />
+		<datafield name="9a" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340946" options="" />
+		<datafield name="9b" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340947" options="" />
+		<datafield name="9c" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340948" options="" />
+		<datafield name="9d" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340949" options="" />
+		<datafield name="10" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340950" options="" />
+		<datafield name="10a" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1047935340951" options="" />
+		<datafield name="10b" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340953" options="" />
+		<datafield name="11" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340952" options="" />
+		<datafield name="11a" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340954" options="" />
+		<datafield name="11b" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340955" options="" />
+		<datafield name="11c" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340956" options="" />
+		<datafield name="12a" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340957" options="" />
+		<datafield name="12b" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340958" options="" />
+		<datafield name="12c" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340959" options="" />
+		<datafield name="12d" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340960" options="" />
+		<datafield name="12e" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340961" options="" />
+		<datafield name="12f" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340962" options="" />
+		<datafield name="12g" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340963" options="" />
+		<datafield name="12h" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340964" options="" />
+		<datafield name="12i" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340965" options="" />
+		<datafield name="12j" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340966" options="" />
+		<datafield name="12k" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340967" options="" />
+		<datafield name="12l" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340968" options="" />
+		<datafield name="12m" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340969" options="" />
+		<datafield name="12n" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340970" options="" />
+		<datafield name="12o" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340971" options="" />
+		<datafield name="12p" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340972" options="" />
+		<datafield name="13a" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340973" options="" />
+		<datafield name="13b" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340974" options="" />
+		<datafield name="13c" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340975" options="" />
+		<datafield name="13d" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340976" options="" />
+		<datafield name="14" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340977" options="" />
+		<datafield name="14a" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1047935340978" options="" />
+		<datafield name="14b" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1047935340979" options="" />
+		<datafield name="14c" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1047935340980" options="" />
+		<datafield name="14d" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1047935340981" options="" />
+		<datafield name="14e" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340982" options="" />
+		<datafield name="14f" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340983" options="" />
+		<datafield name="14g" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340984" options="" />
+		<datafield name="14h" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340985" options="" />
+		<datafield name="14i" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340986" options="" />
+		<datafield name="15" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935340987" options="" />
+		<datafield name="15a" entryset="Physical Health" filename="build\dataset\hbqph.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1047935340988" options="" />
+	</componentset>
+	<componentset name="Social Relations" abrv="sr" numcols="2" displayheader="true" header="Social Relations">
+		<datafield name="1" entryset="Social Relations" filename="build\dataset\hbqsr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341059" options="" />
+		<datafield name="2" entryset="Social Relations" filename="build\dataset\hbqsr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341060" options="" />
+		<datafield name="3" entryset="Social Relations" filename="build\dataset\hbqsr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341061" options="" />
+	</componentset>
+	<componentset name="Recreational Activities" abrv="ra" numcols="2" displayheader="true" header="Recreational Activities">
+		<datafield name="1" entryset="Recreational Activities" filename="build\dataset\hbqra.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341065" options="" />
+		<datafield name="1a" entryset="Recreational Activities" filename="build\dataset\hbqra.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341066" options="" />
+		<datafield name="1b" entryset="Recreational Activities" filename="build\dataset\hbqra.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341067" options="" />
+		<datafield name="2" entryset="Recreational Activities" filename="build\dataset\hbqra.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341068" options="" />
+		<datafield name="2a" entryset="Recreational Activities" filename="build\dataset\hbqra.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341069" options="" />
+		<datafield name="2b" entryset="Recreational Activities" filename="build\dataset\hbqra.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341073" options="" />
+		<datafield name="3" entryset="Recreational Activities" filename="build\dataset\hbqra.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341070" options="" />
+		<datafield name="3a" entryset="Recreational Activities" filename="build\dataset\hbqra.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341071" options="" />
+		<datafield name="3b" entryset="Recreational Activities" filename="build\dataset\hbqra.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341072" options="" />
+	</componentset>
+	<componentset name="Prosocial Behaviors" abrv="psb" numcols="2" displayheader="true" header="Prosocial Behaviors">
+		<datafield name="1" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341077" options="" />
+		<datafield name="2" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341078" options="" />
+		<datafield name="3" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341079" options="" />
+		<datafield name="4" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341080" options="" />
+		<datafield name="5" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341081" options="" />
+		<datafield name="6" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341082" options="" />
+		<datafield name="7" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341083" options="" />
+		<datafield name="8" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341084" options="" />
+		<datafield name="9" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341085" options="" />
+		<datafield name="10" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341086" options="" />
+		<datafield name="11" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341087" options="" />
+		<datafield name="12" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341088" options="" />
+		<datafield name="13" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341089" options="" />
+		<datafield name="14" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341090" options="" />
+		<datafield name="15" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341091" options="" />
+		<datafield name="16" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341092" options="" />
+		<datafield name="17" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341093" options="" />
+		<datafield name="18" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341094" options="" />
+		<datafield name="19" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341095" options="" />
+		<datafield name="20" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341096" options="" />
+	</componentset>
+	<componentset name="Obsessins And Compulsions" abrv="ocd" numcols="2" displayheader="true" header="Obsessins And Compulsions">
+		<datafield name="1" entryset="Obsessions and Compulsions" filename="build\dataset\oc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341100" options="" />
+		<datafield name="2" entryset="Obsessions and Compulsions" filename="build\dataset\oc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341101" options="" />
+		<datafield name="3" entryset="Obsessions and Compulsions" filename="build\dataset\oc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341102" options="" />
+		<datafield name="4" entryset="Obsessions and Compulsions" filename="build\dataset\oc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341103" options="" />
+		<datafield name="5" entryset="Obsessions and Compulsions" filename="build\dataset\oc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341104" options="" />
+		<datafield name="6" entryset="Obsessions and Compulsions" filename="build\dataset\oc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341105" options="" />
+		<datafield name="7" entryset="Obsessions and Compulsions" filename="build\dataset\oc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341106" options="" />
+		<datafield name="8" entryset="Obsessions and Compulsions" filename="build\dataset\oc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341107" options="" />
+		<datafield name="8a" entryset="Obsessions and Compulsions" filename="build\dataset\oc.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1047935341108" options="" />
+	</componentset>
+	<componentset name="Discipline Measure" abrv="dcpl" numcols="2" displayheader="true" header="Discipline Measure">
+		<datafield name="1" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880040" options="" />
+		<datafield name="2" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880041" options="" />
+		<datafield name="3" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880042" options="" />
+		<datafield name="4" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880043" options="" />
+		<datafield name="5" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880044" options="" />
+		<datafield name="6" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880045" options="" />
+		<datafield name="7" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880046" options="" />
+		<datafield name="8" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880047" options="" />
+		<datafield name="9" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880048" options="" />
+		<datafield name="10" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880049" options="" />
+		<datafield name="11" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880050" options="" />
+		<datafield name="12" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880051" options="" />
+		<datafield name="13" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880052" options="" />
+		<datafield name="13a" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880053" options="" />
+		<datafield name="13b" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880054" options="" />
+		<datafield name="13c" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880055" options="" />
+		<datafield name="14" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880056" options="" />
+		<datafield name="15" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880057" options="" />
+		<datafield name="16" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880058" options="" />
+		<datafield name="17" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880059" options="" />
+		<datafield name="18" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880060" options="" />
+		<datafield name="19" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880061" options="" />
+		<datafield name="20" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880062" options="" />
+		<datafield name="21" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880063" options="" />
+		<datafield name="22" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880064" options="" />
+		<datafield name="23" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880065" options="" />
+		<datafield name="24" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880066" options="" />
+		<datafield name="25" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880067" options="" />
+		<datafield name="26" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880068" options="" />
+		<datafield name="27" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880069" options="" />
+		<datafield name="28" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880070" options="" />
+		<datafield name="29" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880071" options="" />
+		<datafield name="30" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880072" options="" />
+	</componentset>
+</form>
+

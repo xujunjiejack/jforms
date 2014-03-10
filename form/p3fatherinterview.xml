@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Father Interview" abrv="p3fatherinterview" filename="p3fatherinterview">
+	<template name="temp1">
+		<name format="" />
+		<field format="@f" />
+	</template>
+	<dataset file="hbqsr" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_HB_SR_F" />
+	<dataset file="hbqps" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_HB_PS_F" />
+	<dataset file="hbqpbim" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_HB_PB_F" />
+	<dataset file="hbqpboa" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_HB_PB_F" />
+	<dataset file="hbqpbod" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_HB_PB_F" />
+	<dataset file="hbqpbra" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_HB_PB_F" />
+	<dataset file="hbqpbsa" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_HB_PB_F" />
+	<dataset file="hbqpbst" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_HB_PB_F" />
+	<dataset file="hbqpbcd" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_HB_PB_F" />
+	<dataset file="hbqpbas" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_HB_PB_F" />
+	<dataset file="hbqpbde" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_HB_PB_F" />
+	<dataset file="hbqpbat" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_HB_PB_F" />
+	<dataset file="hbqpbag" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_HB_PB_F" />
+	<dataset file="hbqpben" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_HB_PB_F" />
+	<dataset file="hbqpbin" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_HB_PB_F" />
+	<dataset file="oc" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_OC_F" />
+	<dataset file="hbqis" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_HB_IS_F" />
+	<dataset file="hbqif" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_HB_IF_F" />
+	<dataset file="dcpl" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_DC_F" />
+	<key name="Family Id" entryset="Social Relations" filename="hbqsr" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Twin" entryset="Social Relations" filename="hbqsr" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Twin,A:1,B:2" />
+	<key name="Data Mode" entryset="Social Relations" filename="hbqsr" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="Social Relations" abrv="sr" numcols="2" displayheader="true" header="Social Relations">
+		<datafield name="1" entryset="Social Relations" filename="build\dataset\hbqsr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341059" options="" />
+		<datafield name="2" entryset="Social Relations" filename="build\dataset\hbqsr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341060" options="" />
+		<datafield name="3" entryset="Social Relations" filename="build\dataset\hbqsr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341061" options="" />
+	</componentset>
+	<componentset name="Prosocial Behaviors" abrv="psb" numcols="2" displayheader="true" header="Prosocial Behaviors">
+		<datafield name="1" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341077" options="" />
+		<datafield name="2" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341078" options="" />
+		<datafield name="3" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341079" options="" />
+		<datafield name="4" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341080" options="" />
+		<datafield name="5" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341081" options="" />
+		<datafield name="6" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341082" options="" />
+		<datafield name="7" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341083" options="" />
+		<datafield name="8" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341084" options="" />
+		<datafield name="9" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341085" options="" />
+		<datafield name="10" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341086" options="" />
+		<datafield name="11" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341087" options="" />
+		<datafield name="12" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341088" options="" />
+		<datafield name="13" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341089" options="" />
+		<datafield name="14" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341090" options="" />
+		<datafield name="15" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341091" options="" />
+		<datafield name="16" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341092" options="" />
+		<datafield name="17" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341093" options="" />
+		<datafield name="18" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341094" options="" />
+		<datafield name="19" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341095" options="" />
+		<datafield name="20" entryset="Prosocial Behaviors" filename="build\dataset\hbqps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341096" options="" />
+	</componentset>
+	<componentset name="Problem Behaviors" abrv="pb" numcols="2" displayheader="true" header="Problem Behaviors">
+		<datafield name="1" entryset="Impulsivity" filename="build\dataset\hbqpbim.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121820" options="" />
+		<datafield name="2" entryset="Overanxious" filename="build\dataset\hbqpboa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121772" options="" />
+		<datafield name="3" entryset="Oppositional Defiant Disorder" filename="build\dataset\hbqpbod.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121801" options="" />
+		<datafield name="4" entryset="Relational Aggression" filename="build\dataset\hbqpbra.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121866" options="" />
+		<datafield name="5" entryset="Seperation Anxiety" filename="build\dataset\hbqpbsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121759" options="" />
+		<datafield name="6" entryset="Conduct Disorder" filename="build\dataset\hbqpbcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121787" options="" />
+		<datafield name="7" entryset="Overanxious" filename="build\dataset\hbqpboa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121773" options="" />
+		<datafield name="8" entryset="Impulsivity" filename="build\dataset\hbqpbim.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121821" options="" />
+		<datafield name="9" entryset="Overanxious" filename="build\dataset\hbqpboa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121774" options="" />
+		<datafield name="10" entryset="Asocial" filename="build\dataset\hbqpbas.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121857" options="" />
+		<datafield name="11" entryset="Oppositional Defiant Disorder" filename="build\dataset\hbqpbod.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121802" options="" />
+		<datafield name="12" entryset="Oppositional Defiant Disorder" filename="build\dataset\hbqpbod.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121803" options="" />
+		<datafield name="13" entryset="Seperation Anxiety" filename="build\dataset\hbqpbsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121760" options="" />
+		<datafield name="14" entryset="Conduct Disorder" filename="build\dataset\hbqpbcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121788" options="" />
+		<datafield name="15" entryset="Depression" filename="build\dataset\hbqpbde.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121749" options="" />
+		<datafield name="16" entryset="Impulsivity" filename="build\dataset\hbqpbim.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121822" options="" />
+		<datafield name="17" entryset="Relational Aggression" filename="build\dataset\hbqpbra.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121867" options="" />
+		<datafield name="18" entryset="Innattention" filename="build\dataset\hbqpbat.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121832" options="" />
+		<datafield name="19" entryset="Overt Aggression" filename="build\dataset\hbqpbag.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121813" options="" />
+		<datafield name="20" entryset="Overanxious" filename="build\dataset\hbqpboa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121775" options="" />
+		<datafield name="21" entryset="Oppositional Defiant Disorder" filename="build\dataset\hbqpbod.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121804" options="" />
+		<datafield name="22" entryset="Seperation Anxiety" filename="build\dataset\hbqpbsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121761" options="" />
+		<datafield name="23" entryset="Conduct Disorder" filename="build\dataset\hbqpbcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121789" options="" />
+		<datafield name="24" entryset="Enuresis" filename="build\dataset\hbqpben.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121841" options="" />
+		<datafield name="25" entryset="Overanxious" filename="build\dataset\hbqpboa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121776" options="" />
+		<datafield name="26" entryset="Asocial" filename="build\dataset\hbqpbas.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121858" options="" />
+		<datafield name="27" entryset="Impulsivity" filename="build\dataset\hbqpbim.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121823" options="" />
+		<datafield name="28" entryset="Conduct Disorder" filename="build\dataset\hbqpbcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138221766" options="" />
+		<datafield name="29a" entryset="Overanxious" filename="build\dataset\hbqpboa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121777" options="" />
+		<datafield name="29b" entryset="Overanxious" filename="build\dataset\hbqpboa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121778" options="" />
+		<datafield name="29c" entryset="Overanxious" filename="build\dataset\hbqpboa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121779" options="" />
+		<datafield name="29d" entryset="Overanxious" filename="build\dataset\hbqpboa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121780" options="" />
+		<datafield name="30" entryset="Relational Aggression" filename="build\dataset\hbqpbra.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121868" options="" />
+		<datafield name="31" entryset="Overt Aggression" filename="build\dataset\hbqpbag.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121814" options="" />
+		<datafield name="32" entryset="Seperation Anxiety" filename="build\dataset\hbqpbsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121762" options="" />
+		<datafield name="32a" entryset="Twin Specific Seperation Anxiety" filename="build\dataset\hbqpbst.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121846" options="" />
+		<datafield name="33" entryset="Conduct Disorder" filename="build\dataset\hbqpbcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121790" options="" />
+		<datafield name="34" entryset="Asocial" filename="build\dataset\hbqpbas.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121859" options="" />
+		<datafield name="35" entryset="Impulsivity" filename="build\dataset\hbqpbim.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121824" options="" />
+		<datafield name="36" entryset="Overanxious" filename="build\dataset\hbqpboa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121781" options="" />
+		<datafield name="37" entryset="Oppositional Defiant Disorder" filename="build\dataset\hbqpbod.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121805" options="" />
+		<datafield name="38" entryset="Seperation Anxiety" filename="build\dataset\hbqpbsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121763" options="" />
+		<datafield name="39" entryset="Conduct Disorder" filename="build\dataset\hbqpbcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121791" options="" />
+		<datafield name="40" entryset="Inhibition" filename="build\dataset\hbqpbin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121850" options="" />
+		<datafield name="41" entryset="Innattention" filename="build\dataset\hbqpbat.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121833" options="" />
+		<datafield name="42" entryset="Relational Aggression" filename="build\dataset\hbqpbra.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121869" options="" />
+		<datafield name="43" entryset="Overanxious" filename="build\dataset\hbqpboa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121782" options="" />
+		<datafield name="44" entryset="Oppositional Defiant Disorder" filename="build\dataset\hbqpbod.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121806" options="" />
+		<datafield name="45" entryset="Seperation Anxiety" filename="build\dataset\hbqpbsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121764" options="" />
+		<datafield name="46" entryset="Conduct Disorder" filename="build\dataset\hbqpbcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121792" options="" />
+		<datafield name="47" entryset="Inhibition" filename="build\dataset\hbqpbin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121851" options="" />
+		<datafield name="48" entryset="Innattention" filename="build\dataset\hbqpbat.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121834" options="" />
+		<datafield name="49" entryset="Overanxious" filename="build\dataset\hbqpboa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121783" options="" />
+		<datafield name="50" entryset="Oppositional Defiant Disorder" filename="build\dataset\hbqpbod.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121807" options="" />
+		<datafield name="51" entryset="Asocial" filename="build\dataset\hbqpbas.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121860" options="" />
+		<datafield name="52" entryset="Seperation Anxiety" filename="build\dataset\hbqpbsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121765" options="" />
+		<datafield name="53" entryset="Conduct Disorder" filename="build\dataset\hbqpbcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121793" options="" />
+		<datafield name="54" entryset="Depression" filename="build\dataset\hbqpbde.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121750" options="" />
+		<datafield name="55" entryset="Innattention" filename="build\dataset\hbqpbat.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121835" options="" />
+		<datafield name="56" entryset="Seperation Anxiety" filename="build\dataset\hbqpbsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121766" options="" />
+		<datafield name="57" entryset="Oppositional Defiant Disorder" filename="build\dataset\hbqpbod.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121808" options="" />
+		<datafield name="58" entryset="Depression" filename="build\dataset\hbqpbde.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121751" options="" />
+		<datafield name="59" entryset="Conduct Disorder" filename="build\dataset\hbqpbcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121794" options="" />
+		<datafield name="60" entryset="Depression" filename="build\dataset\hbqpbde.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121752" options="" />
+		<datafield name="61" entryset="Relational Aggression" filename="build\dataset\hbqpbra.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121870" options="" />
+		<datafield name="62" entryset="Impulsivity" filename="build\dataset\hbqpbim.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121825" options="" />
+		<datafield name="63" entryset="Seperation Anxiety" filename="build\dataset\hbqpbsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121767" options="" />
+		<datafield name="64" entryset="Oppositional Defiant Disorder" filename="build\dataset\hbqpbod.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121809" options="" />
+		<datafield name="65" entryset="Asocial" filename="build\dataset\hbqpbas.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121861" options="" />
+		<datafield name="66" entryset="Inhibition" filename="build\dataset\hbqpbin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121852" options="" />
+		<datafield name="67" entryset="Conduct Disorder" filename="build\dataset\hbqpbcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121795" options="" />
+		<datafield name="68" entryset="Seperation Anxiety" filename="build\dataset\hbqpbsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121768" options="" />
+		<datafield name="69" entryset="Impulsivity" filename="build\dataset\hbqpbim.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121826" options="" />
+		<datafield name="70" entryset="Overt Aggression" filename="build\dataset\hbqpbag.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121815" options="" />
+		<datafield name="71" entryset="Inhibition" filename="build\dataset\hbqpbin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121853" options="" />
+		<datafield name="72" entryset="Depression" filename="build\dataset\hbqpbde.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121753" options="" />
+		<datafield name="73" entryset="Conduct Disorder" filename="build\dataset\hbqpbcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121796" options="" />
+		<datafield name="74" entryset="Relational Aggression" filename="build\dataset\hbqpbra.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121871" options="" />
+		<datafield name="75" entryset="Depression" filename="build\dataset\hbqpbde.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121754" options="" />
+		<datafield name="76" entryset="Enuresis" filename="build\dataset\hbqpben.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121842" options="" />
+		<datafield name="77" entryset="Impulsivity" filename="build\dataset\hbqpbim.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121827" options="" />
+		<datafield name="78" entryset="Overt Aggression" filename="build\dataset\hbqpbag.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121816" options="" />
+		<datafield name="79" entryset="Asocial" filename="build\dataset\hbqpbas.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121862" options="" />
+		<datafield name="80" entryset="Conduct Disorder" filename="build\dataset\hbqpbcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121797" options="" />
+		<datafield name="81" entryset="Depression" filename="build\dataset\hbqpbde.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121755" options="" />
+		<datafield name="82" entryset="Innattention" filename="build\dataset\hbqpbat.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121836" options="" />
+		<datafield name="83" entryset="Innattention" filename="build\dataset\hbqpbat.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121837" options="" />
+		<datafield name="84" entryset="Impulsivity" filename="build\dataset\hbqpbim.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121828" options="" />
+	</componentset>
+	<componentset name="Obsessions And Compulsions" abrv="ocd" numcols="2" displayheader="true" header="Obsessions And Compulsions">
+		<datafield name="1" entryset="Obsessions and Compulsions" filename="build\dataset\oc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341100" options="" />
+		<datafield name="2" entryset="Obsessions and Compulsions" filename="build\dataset\oc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341101" options="" />
+		<datafield name="3" entryset="Obsessions and Compulsions" filename="build\dataset\oc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341102" options="" />
+		<datafield name="4" entryset="Obsessions and Compulsions" filename="build\dataset\oc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341103" options="" />
+		<datafield name="5" entryset="Obsessions and Compulsions" filename="build\dataset\oc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341104" options="" />
+		<datafield name="6" entryset="Obsessions and Compulsions" filename="build\dataset\oc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341105" options="" />
+		<datafield name="7" entryset="Obsessions and Compulsions" filename="build\dataset\oc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341106" options="" />
+		<datafield name="8" entryset="Obsessions and Compulsions" filename="build\dataset\oc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341107" options="" />
+		<datafield name="8a" entryset="Obsessions and Compulsions" filename="build\dataset\oc.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1047935341108" options="" />
+	</componentset>
+	<componentset name="Impact on Self" abrv="imt" numcols="2" displayheader="true" header="Impact on Self">
+		<datafield name="1" entryset="Impact on Self" filename="build\dataset\hbqis.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880563" options="" />
+		<datafield name="2" entryset="Impact on Self" filename="build\dataset\hbqis.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880564" options="" />
+		<datafield name="3" entryset="Impact on Self" filename="build\dataset\hbqis.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880565" options="" />
+		<datafield name="4" entryset="Impact on Self" filename="build\dataset\hbqis.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880566" options="" />
+		<datafield name="5" entryset="Impact on Self" filename="build\dataset\hbqis.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880567" options="" />
+		<datafield name="6" entryset="Impact on Self" filename="build\dataset\hbqis.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880568" options="" />
+		<datafield name="7" entryset="Impact on Self" filename="build\dataset\hbqis.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880569" options="" />
+		<datafield name="8" entryset="Impact on Self" filename="build\dataset\hbqis.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880570" options="" />
+	</componentset>
+	<componentset name="Impact on Family" abrv="imf" numcols="2" displayheader="true" header="Impact on Family">
+		<datafield name="1" entryset="Impact on Family" filename="build\dataset\hbqif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880574" options="" />
+		<datafield name="2" entryset="Impact on Family" filename="build\dataset\hbqif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880575" options="" />
+		<datafield name="3" entryset="Impact on Family" filename="build\dataset\hbqif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880576" options="" />
+		<datafield name="4" entryset="Impact on Family" filename="build\dataset\hbqif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880577" options="" />
+		<datafield name="5" entryset="Impact on Family" filename="build\dataset\hbqif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880578" options="" />
+		<datafield name="6" entryset="Impact on Family" filename="build\dataset\hbqif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880579" options="" />
+		<datafield name="7" entryset="Impact on Family" filename="build\dataset\hbqif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880580" options="" />
+		<datafield name="8" entryset="Impact on Family" filename="build\dataset\hbqif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880581" options="" />
+	</componentset>
+	<componentset name="Discipline Measure" abrv="dcpl" numcols="2" displayheader="true" header="Discipline Measure">
+		<datafield name="1" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880040" options="" />
+		<datafield name="2" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880041" options="" />
+		<datafield name="3" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880042" options="" />
+		<datafield name="4" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880043" options="" />
+		<datafield name="5" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880044" options="" />
+		<datafield name="6" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880045" options="" />
+		<datafield name="7" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880046" options="" />
+		<datafield name="8" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880047" options="" />
+		<datafield name="9" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880048" options="" />
+		<datafield name="10" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880049" options="" />
+		<datafield name="11" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880050" options="" />
+		<datafield name="12" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880051" options="" />
+		<datafield name="13" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880052" options="" />
+		<datafield name="13a" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880053" options="" />
+		<datafield name="13b" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880054" options="" />
+		<datafield name="13c" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880055" options="" />
+		<datafield name="14" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880056" options="" />
+		<datafield name="15" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880057" options="" />
+		<datafield name="16" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880058" options="" />
+		<datafield name="17" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880059" options="" />
+		<datafield name="18" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880060" options="" />
+		<datafield name="19" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880061" options="" />
+		<datafield name="20" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880062" options="" />
+		<datafield name="21" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880063" options="" />
+		<datafield name="22" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880064" options="" />
+		<datafield name="23" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880065" options="" />
+		<datafield name="24" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880066" options="" />
+		<datafield name="25" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880067" options="" />
+		<datafield name="26" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880068" options="" />
+		<datafield name="27" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880069" options="" />
+		<datafield name="28" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880070" options="" />
+		<datafield name="29" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880071" options="" />
+		<datafield name="30" entryset="Discipline Measure" filename="build\dataset\dcpl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880072" options="" />
+	</componentset>
+</form>
+

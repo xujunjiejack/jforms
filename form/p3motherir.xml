@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Mother Int. Response" abrv="p3motherir" filename="p3motherir">
+	<dataset file="interviewm" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_IN_M" />
+	<dataset file="p3motherinterviewdate" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_DATES" />
+	<dataset file="specialflag" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="GEN_FAMILY" />
+	<dataset file="hollingsheadm" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_HC_M" />
+	<key name="Family Id" entryset="Interview" filename="interviewm" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Data Mode" entryset="Interview" filename="interviewm" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="Interview Response" abrv="ir" numcols="2" displayheader="true" header="Interview Response">
+		<datafield name="Respondent" entryset="Interview" filename="build\dataset\interviewm.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048187006121" options="" />
+		<datafield name="Phone Int. Date" entryset="Phase Three Mother Interview Date" filename="build\dataset\p3motherinterviewdate.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1199900303513" options="0,MM/dd/yyyy" />
+		<datafield name="Interviewer" entryset="Interview" filename="build\dataset\interviewm.xml" type="0" class="com.wtp.jforms.ui.control.smart.ComboFieldBox" editable="true" classid="1051137199520" options="0,Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_STAFF,number" />
+		<datafield name="Caregiver" entryset="Interview" filename="build\dataset\interviewm.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048633615872" options="" />
+		<datafield name="Interested" entryset="Interview" filename="build\dataset\interviewm.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048187006125" options="" />
+		<datafield name="Relaxed" entryset="Interview" filename="build\dataset\interviewm.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048187006126" options="" />
+		<datafield name="Comprehending" entryset="Interview" filename="build\dataset\interviewm.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048187006127" options="" />
+		<datafield name="Frank" entryset="Interview" filename="build\dataset\interviewm.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048187006128" options="" />
+		<datafield name="Talkative" entryset="Interview" filename="build\dataset\interviewm.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048187006129" options="" />
+		<datafield name="Bold" entryset="Interview" filename="build\dataset\interviewm.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048187006130" options="" />
+		<datafield name="Assertive" entryset="Interview" filename="build\dataset\interviewm.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048187006131" options="" />
+		<datafield name="Impulsive" entryset="Interview" filename="build\dataset\interviewm.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048187006132" options="" />
+		<datafield name="Comments" entryset="Interview" filename="build\dataset\interviewm.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1048187006144" options="" />
+		<datafield name="Special Flag" entryset="Special Flag" filename="build\dataset\specialflag.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1191884590260" options="" />
+		<datafield name="Special Flag Explain" entryset="Special Flag" filename="build\dataset\specialflag.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1191884590261" options="" />
+		<datafield name="PC Edu." entryset="Hollingshead" filename="build\dataset\hollingsheadm.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048724092420" options="" />
+		<datafield name="SC Edu" entryset="Hollingshead" filename="build\dataset\hollingsheadm.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048724092421" options="" />
+		<datafield name="PC Occupation Include" entryset="Hollingshead" filename="build\dataset\hollingsheadm.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048724092422" options="" />
+		<datafield name="PC Occupation" entryset="Hollingshead" filename="build\dataset\hollingsheadm.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048724092423" options="" />
+		<datafield name="SC Occupation Include" entryset="Hollingshead" filename="build\dataset\hollingsheadm.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048724092424" options="" />
+		<datafield name="SC Occupation" entryset="Hollingshead" filename="build\dataset\hollingsheadm.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048724092425" options="" />
+	</componentset>
+</form>
+

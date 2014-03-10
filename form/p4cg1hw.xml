@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Height and Weight" abrv="p4cg1hw" filename="p4cg1hw">
+	<dataset file="p4hw" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_HW" />
+	<key name="Family Id" entryset="P4 HW" filename="p4hw" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Twin" entryset="P4 HW" filename="p4hw" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Twin,A:1,B:2" />
+	<key name="Data Mode" entryset="P4 HW" filename="p4hw" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Date Mode,Entry:Entry,Check:Check" />
+	<componentset name="HW" abrv="hw" numcols="2" displayheader="true" header="HW">
+		<datafield name="Current height in inches" entryset="P4 HW" filename="build\dataset\p4hw.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1253565705044" options="" />
+		<datafield name="Current weight in pounds" entryset="P4 HW" filename="build\dataset\p4hw.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1253565705045" options="" />
+		<datafield name="Measurement Date" entryset="P4 HW" filename="build\dataset\p4hw.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1253565705046" options="0,MM/dd/yyyy" />
+	</componentset>
+</form>
+

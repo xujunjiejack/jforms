@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="DIS Depression" abrv="disdepression" filename="disdepression">
+	<template name="temp">
+		<name format="" />
+		<field format="di@m" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<validator name="val13_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="3">
+		<valid value="9998" />
+		<valid value="9999" />
+	</validator>
+	<validator name="val12_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="2">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="yesno01_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="1">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="1997_2004" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="2147483647" upperbound="2147483647">
+		<valid value="1998" />
+		<valid value="1999" />
+		<valid value="2000" />
+		<valid value="2001" />
+		<valid value="2002" />
+		<valid value="2003" />
+		<valid value="2004" />
+		<valid value="9998" />
+		<valid value="9999" />
+		<valid value="1997" />
+	</validator>
+	<validator name="gender12_9998_9998" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="2">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="1-12_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="12">
+		<valid value="9998" />
+		<valid value="9999" />
+	</validator>
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<data name="62" field="062" template="temp" validator="val12_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672570" />
+	<data name="63" field="063" template="temp" validator="val12_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672571" />
+	<data name="64" field="064" template="temp" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672572" />
+	<data name="66 month" field="66m" template="temp" validator="1-12_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672573" />
+	<data name="66 year" field="66y" template="temp" validator="1997_2004" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672574" />
+	<data name="66 approx" field="66c" template="temp" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672575" />
+	<data name="66a" field="66a" template="temp" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1150482672576" />
+	<data name="68 month" field="68m" template="temp" validator="1-12_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672577" />
+	<data name="68 year" field="68y" template="temp" validator="1997_2004" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672578" />
+	<data name="68 approx" field="68c" template="temp" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672579" />
+	<data name="68a" field="68a" template="temp" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1150482672580" />
+	<data name="69 month" field="69m" template="temp" validator="1-12_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672581" />
+	<data name="69 year" field="69y" template="temp" validator="1997_2004" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672582" />
+	<data name="69 approx" field="69c" template="temp" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672583" />
+	<data name="69b" field="69b" template="temp" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1150482672584" />
+	<data name="70a" field="70a" template="temp" validator="val13_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672585" />
+	<data name="71a" field="71a" template="temp" validator="gender12_9998_9998" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672586" />
+	<data name="71b" field="71b" template="temp" validator="val12_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672587" />
+	<data name="71c" field="71c" template="temp" validator="val12_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672588" />
+	<data name="71d" field="71d" template="temp" validator="val12_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672589" />
+	<data name="71e" field="71e" template="temp" validator="val12_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672590" />
+	<data name="71f" field="71f" template="temp" validator="val12_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672591" />
+	<data name="71g" field="71g" template="temp" validator="val12_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672592" />
+	<data name="71h" field="71h" template="temp" validator="val12_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672593" />
+	<data name="71i" field="71i" template="temp" validator="val12_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672594" />
+	<data name="71j" field="71j" template="temp" validator="val12_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672595" />
+	<data name="71k" field="71k" template="temp" validator="val12_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672596" />
+	<data name="71l" field="71l" template="temp" validator="val12_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672597" />
+	<data name="71m" field="71m" template="temp" validator="val12_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672598" />
+	<data name="71n" field="71n" template="temp" validator="val12_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672599" />
+	<data name="71o" field="71o" template="temp" validator="val12_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672600" />
+	<data name="71p" field="71p" template="temp" validator="val12_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672601" />
+	<data name="71q" field="71q" template="temp" validator="val12_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672602" />
+	<data name="71r" field="71r" template="temp" validator="val12_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672603" />
+	<data name="71s" field="71s" template="temp" validator="val12_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672604" />
+	<data name="71t" field="71t" template="temp" validator="val12_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672605" />
+	<data name="71u" field="71u" template="temp" validator="val12_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672606" />
+	<data name="71v" field="71v" template="temp" validator="val12_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672607" />
+	<data name="71w" field="71w" template="temp" validator="val12_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672608" />
+	<data name="71x" field="71x" template="temp" validator="val12_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672609" />
+	<data name="71y" field="71y" template="temp" validator="val12_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672610" />
+	<data name="71z" field="71z" template="temp" validator="val12_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672611" />
+	<data name="72" field="072" template="temp" validator="val12_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672612" />
+	<data name="72a" field="72a" template="temp" validator="val12_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672613" />
+	<data name="72b" field="72b" template="temp" validator="val12_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672614" />
+	<data name="72c" field="72c" template="temp" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1150482672615" />
+	<data name="73" field="073" template="temp" validator="val13_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672616" />
+	<data name="73a" field="73a" template="temp" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1150482672617" />
+	<data name="76" field="076" template="temp" validator="val12_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672618" />
+	<data name="76a" field="76a" template="temp" validator="val12_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672619" />
+	<data name="76b" field="76b" template="temp" validator="val12_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672621" />
+	<data name="76c" field="76c" template="temp" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1150482672622" />
+	<data name="78" field="078" template="temp" validator="val12_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672623" />
+	<data name="78a" field="78a" template="temp" validator="val12_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672624" />
+	<data name="78b" field="78b" template="temp" validator="val12_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672625" />
+	<data name="78c" field="78c" template="temp" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1150482672626" />
+	<data name="79" field="079" template="temp" validator="val12_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672627" />
+	<data name="80a" field="80a" template="temp" validator="val12_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672628" />
+	<data name="80b" field="80b" template="temp" validator="val12_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672629" />
+	<data name="80c" field="80c" template="temp" validator="val12_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672630" />
+	<data name="80d" field="80d" template="temp" validator="val12_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672631" />
+	<data name="80e" field="80e" template="temp" validator="val12_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672632" />
+	<data name="80f" field="80f" template="temp" validator="val12_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672633" />
+	<data name="80g" field="80g" template="temp" validator="val12_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672634" />
+	<data name="80h" field="80h" template="temp" validator="val12_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672635" />
+	<data name="80i" field="80i" template="temp" validator="val12_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672636" />
+	<data name="80j" field="80j" template="temp" validator="val12_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672637" />
+	<data name="80k" field="80k" template="temp" validator="val12_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672638" />
+	<data name="80l" field="80l" template="temp" validator="val12_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672639" />
+	<data name="80m" field="80m" template="temp" validator="val12_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672640" />
+	<data name="80n" field="80n" template="temp" validator="val12_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672641" />
+	<data name="80o" field="80o" template="temp" validator="val12_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672642" />
+	<data name="80p" field="80p" template="temp" validator="val12_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672643" />
+	<data name="80q" field="80q" template="temp" validator="val12_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672644" />
+	<data name="80r" field="80r" template="temp" validator="val12_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672645" />
+	<data name="80s" field="80s" template="temp" validator="val12_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672646" />
+	<data name="80t" field="80t" template="temp" validator="val12_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672647" />
+	<data name="80w" field="80w" template="temp" validator="val12_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672652" />
+	<data name="80u" field="80u" template="temp" validator="val12_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672650" />
+	<data name="80v" field="80v" template="temp" validator="val12_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672651" />
+	<data name="80x" field="80x" template="temp" validator="val12_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672653" />
+	<data name="80y" field="80y" template="temp" validator="val12_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672654" />
+	<data name="80z" field="80z" template="temp" validator="val12_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672655" />
+	<data name="81a" field="81a" template="temp" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1150482672656" />
+	<data name="81b" field="81b" template="temp" validator="val12_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672657" />
+	<data name="83" field="083" template="temp" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1150482672658" />
+	<data name="83 life events" field="83c" template="temp" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1150482672659" />
+	<dependency field="63">
+		<parent field="62" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+			<enable value="9998" />
+			<enable value="9999" />
+		</parent>
+	</dependency>
+	<dependency field="64">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9998" />
+			<enable value="9999" />
+		</parent>
+	</dependency>
+	<dependency field="66 month">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9998" />
+			<enable value="9999" />
+		</parent>
+	</dependency>
+	<dependency field="66 year">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9998" />
+			<enable value="9999" />
+		</parent>
+		<parent field="66 month" lowerbound="1" upperbound="12">
+			<enable value="9998" />
+		</parent>
+	</dependency>
+	<dependency field="66 approx">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+	</dependency>
+	<dependency field="66a">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+	</dependency>
+	<dependency field="68 month">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+		<parent field="64" lowerbound="2" upperbound="1000">
+			<enable value="0" />
+		</parent>
+	</dependency>
+	<dependency field="68 year">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9998" />
+			<enable value="9999" />
+		</parent>
+		<parent field="64" lowerbound="2" upperbound="1000">
+			<enable value="0" />
+		</parent>
+	</dependency>
+	<dependency field="68 approx">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9998" />
+			<enable value="9999" />
+		</parent>
+		<parent field="64" lowerbound="2" upperbound="1000">
+			<enable value="0" />
+		</parent>
+	</dependency>
+	<dependency field="68a">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9998" />
+			<enable value="9999" />
+		</parent>
+		<parent field="64" lowerbound="2" upperbound="1000">
+			<enable value="0" />
+		</parent>
+	</dependency>
+	<dependency field="69 month">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+		<parent field="64" lowerbound="3" upperbound="1000">
+			<enable value="0" />
+		</parent>
+	</dependency>
+	<dependency field="69 year">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9998" />
+			<enable value="9999" />
+		</parent>
+		<parent field="64" lowerbound="3" upperbound="1000">
+			<enable value="0" />
+		</parent>
+	</dependency>
+	<dependency field="69 approx">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+		<parent field="64" lowerbound="3" upperbound="1000">
+			<enable value="0" />
+		</parent>
+	</dependency>
+	<dependency field="69b">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+		<parent field="64" lowerbound="3" upperbound="1000">
+			<enable value="0" />
+		</parent>
+	</dependency>
+	<dependency field="70a">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+		<parent field="64" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="0" />
+			<enable value="2" />
+		</parent>
+	</dependency>
+	<dependency field="71a">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+	</dependency>
+	<dependency field="71b">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+	</dependency>
+	<dependency field="71c">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+	</dependency>
+	<dependency field="71d">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+	</dependency>
+	<dependency field="71e">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+	</dependency>
+	<dependency field="71f">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+	</dependency>
+	<dependency field="71g">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+	</dependency>
+	<dependency field="71h">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+	</dependency>
+	<dependency field="71i">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+	</dependency>
+	<dependency field="71j">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+	</dependency>
+	<dependency field="71k">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+	</dependency>
+	<dependency field="71l">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+	</dependency>
+	<dependency field="71m">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+	</dependency>
+	<dependency field="71n">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+	</dependency>
+	<dependency field="71o">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+	</dependency>
+	<dependency field="71p">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+	</dependency>
+	<dependency field="71q">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+	</dependency>
+	<dependency field="71r">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+	</dependency>
+	<dependency field="71s">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+	</dependency>
+	<dependency field="71t">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+	</dependency>
+	<dependency field="71u">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+	</dependency>
+	<dependency field="71v">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+	</dependency>
+	<dependency field="71w">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+	</dependency>
+	<dependency field="71x">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+	</dependency>
+	<dependency field="71y">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+	</dependency>
+	<dependency field="71z">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+	</dependency>
+	<dependency field="72">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+	</dependency>
+	<dependency field="72a">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+	</dependency>
+	<dependency field="72b">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+	</dependency>
+	<dependency field="72c">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+	</dependency>
+	<dependency field="73">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+	</dependency>
+	<dependency field="73a">
+		<parent field="63" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+	</dependency>
+	<dependency field="76">
+		<parent field="64" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+	</dependency>
+	<dependency field="76a">
+		<parent field="64" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+	</dependency>
+	<dependency field="76b">
+		<parent field="64" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+	</dependency>
+	<dependency field="76c">
+		<parent field="76b" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+		<parent field="64" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="9998" />
+			<enable value="9999" />
+		</parent>
+	</dependency>
+	<dependency field="78">
+		<parent field="76b" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9998" />
+			<enable value="9999" />
+		</parent>
+	</dependency>
+	<dependency field="78a">
+		<parent field="76b" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+	</dependency>
+	<dependency field="78b">
+		<parent field="76b" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+	</dependency>
+	<dependency field="78c">
+		<parent field="76b" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+		<parent field="78a" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="9999" />
+			<enable value="9998" />
+		</parent>
+	</dependency>
+	<dependency field="83 life events">
+		<parent field="83" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+</dataset>
+

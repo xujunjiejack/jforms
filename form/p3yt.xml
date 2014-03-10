@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Yarn Tangle" abrv="yarntangle" filename="p3yt">
+	<dataset file="yttester" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="data_3_yt" />
+	<dataset file="ytduration" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="data_3_yt" />
+	<dataset file="ytoe" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="data_3_yt" />
+	<dataset file="ytfi" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="data_3_yt" />
+	<dataset file="ytpp" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="data_3_yt" />
+	<dataset file="ytpn" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="data_3_yt" />
+	<dataset file="ytsa" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="data_3_yt" />
+	<dataset file="ytif" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="data_3_yt" />
+	<key name="Family Id" entryset="Tester" filename="yttester" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,gen_family,familyid" />
+	<key name="Twin" entryset="Tester" filename="yttester" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Twin,A:1,B:2" />
+	<key name="Data Mode" entryset="Tester" filename="yttester" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="Tester" abrv="tester" numcols="2" displayheader="true" header="Tester">
+		<datafield name="Episode order" entryset="Tester" filename="build\dataset\yttester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475579" options="" />
+		<datafield name="Scorer" entryset="Tester" filename="build\dataset\yttester.xml" type="0" class="com.wtp.jforms.ui.control.smart.ComboFieldBox" editable="true" classid="1052931475578" options="0,Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,gen_staff,number" />
+		<datafield name="Child tester" entryset="Tester" filename="build\dataset\yttester.xml" type="0" class="com.wtp.jforms.ui.control.smart.ComboFieldBox" editable="true" classid="1052931475580" options="0,Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,gen_staff,number" />
+		<datafield name="Baseline" entryset="Tester" filename="build\dataset\yttester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475581" options="" />
+		<datafield name="Latency" entryset="Tester" filename="build\dataset\yttester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475582" options="" />
+	</componentset>
+	<componentset name="Minute 1" abrv="min 1" numcols="2" displayheader="true" header="Minute 1">
+		<datafield name="1" entryset="Child's Overall Effort" filename="build\dataset\ytoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537242" options="" />
+		<datafield name="1" entryset="Intensity of Interest Face" filename="build\dataset\ytfi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537275" options="" />
+		<datafield name="1" entryset="Presence of Positivity" filename="build\dataset\ytpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475740" options="" />
+		<datafield name="1" entryset="Presence of Negativity" filename="build\dataset\ytpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475758" options="" />
+		<datafield name="1" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118930" options="" />
+		<datafield name="1" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118616" options="" />
+		<datafield name="2" entryset="Child's Overall Effort" filename="build\dataset\ytoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537243" options="" />
+		<datafield name="2" entryset="Intensity of Interest Face" filename="build\dataset\ytfi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537276" options="" />
+		<datafield name="2" entryset="Presence of Positivity" filename="build\dataset\ytpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475741" options="" />
+		<datafield name="2" entryset="Presence of Negativity" filename="build\dataset\ytpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475759" options="" />
+		<datafield name="2" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118931" options="" />
+		<datafield name="2" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118617" options="" />
+		<datafield name="3" entryset="Child's Overall Effort" filename="build\dataset\ytoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537244" options="" />
+		<datafield name="3" entryset="Intensity of Interest Face" filename="build\dataset\ytfi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537277" options="" />
+		<datafield name="3" entryset="Presence of Positivity" filename="build\dataset\ytpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475742" options="" />
+		<datafield name="3" entryset="Presence of Negativity" filename="build\dataset\ytpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475760" options="" />
+		<datafield name="3" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118932" options="" />
+		<datafield name="3" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118618" options="" />
+		<datafield name="4" entryset="Child's Overall Effort" filename="build\dataset\ytoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537245" options="" />
+		<datafield name="4" entryset="Intensity of Interest Face" filename="build\dataset\ytfi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537278" options="" />
+		<datafield name="4" entryset="Presence of Positivity" filename="build\dataset\ytpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475743" options="" />
+		<datafield name="4" entryset="Presence of Negativity" filename="build\dataset\ytpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475761" options="" />
+		<datafield name="4" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118933" options="" />
+		<datafield name="4" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118619" options="" />
+		<datafield name="5" entryset="Child's Overall Effort" filename="build\dataset\ytoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537246" options="" />
+		<datafield name="5" entryset="Intensity of Interest Face" filename="build\dataset\ytfi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537279" options="" />
+		<datafield name="5" entryset="Presence of Positivity" filename="build\dataset\ytpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475744" options="" />
+		<datafield name="5" entryset="Presence of Negativity" filename="build\dataset\ytpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475762" options="" />
+		<datafield name="5" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118934" options="" />
+		<datafield name="5" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118620" options="" />
+		<datafield name="6" entryset="Child's Overall Effort" filename="build\dataset\ytoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537247" options="" />
+		<datafield name="6" entryset="Intensity of Interest Face" filename="build\dataset\ytfi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537280" options="" />
+		<datafield name="6" entryset="Presence of Positivity" filename="build\dataset\ytpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475745" options="" />
+		<datafield name="6" entryset="Presence of Negativity" filename="build\dataset\ytpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475763" options="" />
+		<datafield name="6" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118935" options="" />
+		<datafield name="6" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118621" options="" />
+	</componentset>
+	<componentset name="Minute 2" abrv="min 2" numcols="2" displayheader="true" header="Minute 2">
+		<datafield name="7" entryset="Child's Overall Effort" filename="build\dataset\ytoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537248" options="" />
+		<datafield name="7" entryset="Intensity of Interest Face" filename="build\dataset\ytfi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537281" options="" />
+		<datafield name="7" entryset="Presence of Positivity" filename="build\dataset\ytpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475746" options="" />
+		<datafield name="7" entryset="Presence of Negativity" filename="build\dataset\ytpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475764" options="" />
+		<datafield name="7" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118936" options="" />
+		<datafield name="7" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118622" options="" />
+		<datafield name="8" entryset="Child's Overall Effort" filename="build\dataset\ytoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537249" options="" />
+		<datafield name="8" entryset="Intensity of Interest Face" filename="build\dataset\ytfi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537282" options="" />
+		<datafield name="8" entryset="Presence of Positivity" filename="build\dataset\ytpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475747" options="" />
+		<datafield name="8" entryset="Presence of Negativity" filename="build\dataset\ytpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475765" options="" />
+		<datafield name="8" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118937" options="" />
+		<datafield name="8" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118623" options="" />
+		<datafield name="9" entryset="Child's Overall Effort" filename="build\dataset\ytoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537250" options="" />
+		<datafield name="9" entryset="Intensity of Interest Face" filename="build\dataset\ytfi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537283" options="" />
+		<datafield name="9" entryset="Presence of Positivity" filename="build\dataset\ytpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475748" options="" />
+		<datafield name="9" entryset="Presence of Negativity" filename="build\dataset\ytpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475766" options="" />
+		<datafield name="9" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118938" options="" />
+		<datafield name="9" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118624" options="" />
+		<datafield name="10" entryset="Child's Overall Effort" filename="build\dataset\ytoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537251" options="" />
+		<datafield name="10" entryset="Intensity of Interest Face" filename="build\dataset\ytfi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537284" options="" />
+		<datafield name="10" entryset="Presence of Positivity" filename="build\dataset\ytpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475749" options="" />
+		<datafield name="10" entryset="Presence of Negativity" filename="build\dataset\ytpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475767" options="" />
+		<datafield name="10" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118939" options="" />
+		<datafield name="10" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118625" options="" />
+		<datafield name="11" entryset="Child's Overall Effort" filename="build\dataset\ytoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537252" options="" />
+		<datafield name="11" entryset="Intensity of Interest Face" filename="build\dataset\ytfi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537285" options="" />
+		<datafield name="11" entryset="Presence of Positivity" filename="build\dataset\ytpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475750" options="" />
+		<datafield name="11" entryset="Presence of Negativity" filename="build\dataset\ytpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475768" options="" />
+		<datafield name="11" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118940" options="" />
+		<datafield name="11" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118626" options="" />
+		<datafield name="12" entryset="Child's Overall Effort" filename="build\dataset\ytoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537253" options="" />
+		<datafield name="12" entryset="Intensity of Interest Face" filename="build\dataset\ytfi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537286" options="" />
+		<datafield name="12" entryset="Presence of Positivity" filename="build\dataset\ytpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475751" options="" />
+		<datafield name="12" entryset="Presence of Negativity" filename="build\dataset\ytpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475769" options="" />
+		<datafield name="12" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118941" options="" />
+		<datafield name="12" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118627" options="" />
+	</componentset>
+	<componentset name="Minute 3" abrv="min 3" numcols="2" displayheader="true" header="Minute 3">
+		<datafield name="13" entryset="Child's Overall Effort" filename="build\dataset\ytoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537254" options="" />
+		<datafield name="13" entryset="Intensity of Interest Face" filename="build\dataset\ytfi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537287" options="" />
+		<datafield name="13" entryset="Presence of Positivity" filename="build\dataset\ytpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475752" options="" />
+		<datafield name="13" entryset="Presence of Negativity" filename="build\dataset\ytpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475770" options="" />
+		<datafield name="13" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118942" options="" />
+		<datafield name="13" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118628" options="" />
+		<datafield name="14" entryset="Child's Overall Effort" filename="build\dataset\ytoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537255" options="" />
+		<datafield name="14" entryset="Intensity of Interest Face" filename="build\dataset\ytfi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537288" options="" />
+		<datafield name="14" entryset="Presence of Positivity" filename="build\dataset\ytpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475753" options="" />
+		<datafield name="14" entryset="Presence of Negativity" filename="build\dataset\ytpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475771" options="" />
+		<datafield name="14" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118943" options="" />
+		<datafield name="14" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118629" options="" />
+		<datafield name="15" entryset="Child's Overall Effort" filename="build\dataset\ytoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537256" options="" />
+		<datafield name="15" entryset="Intensity of Interest Face" filename="build\dataset\ytfi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537289" options="" />
+		<datafield name="15" entryset="Presence of Positivity" filename="build\dataset\ytpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475754" options="" />
+		<datafield name="15" entryset="Presence of Negativity" filename="build\dataset\ytpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475772" options="" />
+		<datafield name="15" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118944" options="" />
+		<datafield name="15" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118630" options="" />
+		<datafield name="16" entryset="Child's Overall Effort" filename="build\dataset\ytoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537257" options="" />
+		<datafield name="16" entryset="Intensity of Interest Face" filename="build\dataset\ytfi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537290" options="" />
+		<datafield name="16" entryset="Presence of Positivity" filename="build\dataset\ytpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537339" options="" />
+		<datafield name="16" entryset="Presence of Negativity" filename="build\dataset\ytpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537372" options="" />
+		<datafield name="16" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118945" options="" />
+		<datafield name="16" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118631" options="" />
+		<datafield name="17" entryset="Child's Overall Effort" filename="build\dataset\ytoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537258" options="" />
+		<datafield name="17" entryset="Intensity of Interest Face" filename="build\dataset\ytfi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537291" options="" />
+		<datafield name="17" entryset="Presence of Positivity" filename="build\dataset\ytpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537340" options="" />
+		<datafield name="17" entryset="Presence of Negativity" filename="build\dataset\ytpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537373" options="" />
+		<datafield name="17" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118946" options="" />
+		<datafield name="17" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118632" options="" />
+		<datafield name="18" entryset="Child's Overall Effort" filename="build\dataset\ytoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537259" options="" />
+		<datafield name="18" entryset="Intensity of Interest Face" filename="build\dataset\ytfi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537292" options="" />
+		<datafield name="18" entryset="Presence of Positivity" filename="build\dataset\ytpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537341" options="" />
+		<datafield name="18" entryset="Presence of Negativity" filename="build\dataset\ytpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537374" options="" />
+		<datafield name="18" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118947" options="" />
+		<datafield name="18" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118633" options="" />
+	</componentset>
+	<componentset name="Minute 4" abrv="min 4" numcols="2" displayheader="true" header="Minute 4">
+		<datafield name="19" entryset="Child's Overall Effort" filename="build\dataset\ytoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537260" options="" />
+		<datafield name="19" entryset="Intensity of Interest Face" filename="build\dataset\ytfi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537293" options="" />
+		<datafield name="19" entryset="Presence of Positivity" filename="build\dataset\ytpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537342" options="" />
+		<datafield name="19" entryset="Presence of Negativity" filename="build\dataset\ytpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537375" options="" />
+		<datafield name="19" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118948" options="" />
+		<datafield name="19" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118634" options="" />
+		<datafield name="20" entryset="Child's Overall Effort" filename="build\dataset\ytoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537261" options="" />
+		<datafield name="20" entryset="Intensity of Interest Face" filename="build\dataset\ytfi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537294" options="" />
+		<datafield name="20" entryset="Presence of Positivity" filename="build\dataset\ytpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537343" options="" />
+		<datafield name="20" entryset="Presence of Negativity" filename="build\dataset\ytpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537376" options="" />
+		<datafield name="20" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118949" options="" />
+		<datafield name="20" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118635" options="" />
+		<datafield name="21" entryset="Child's Overall Effort" filename="build\dataset\ytoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537262" options="" />
+		<datafield name="21" entryset="Intensity of Interest Face" filename="build\dataset\ytfi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537295" options="" />
+		<datafield name="21" entryset="Presence of Positivity" filename="build\dataset\ytpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537344" options="" />
+		<datafield name="21" entryset="Presence of Negativity" filename="build\dataset\ytpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537377" options="" />
+		<datafield name="21" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118950" options="" />
+		<datafield name="21" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118636" options="" />
+		<datafield name="22" entryset="Child's Overall Effort" filename="build\dataset\ytoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537263" options="" />
+		<datafield name="22" entryset="Intensity of Interest Face" filename="build\dataset\ytfi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537296" options="" />
+		<datafield name="22" entryset="Presence of Positivity" filename="build\dataset\ytpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537345" options="" />
+		<datafield name="22" entryset="Presence of Negativity" filename="build\dataset\ytpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537378" options="" />
+		<datafield name="22" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118951" options="" />
+		<datafield name="22" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118637" options="" />
+		<datafield name="23" entryset="Child's Overall Effort" filename="build\dataset\ytoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537264" options="" />
+		<datafield name="23" entryset="Intensity of Interest Face" filename="build\dataset\ytfi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537297" options="" />
+		<datafield name="23" entryset="Presence of Positivity" filename="build\dataset\ytpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537346" options="" />
+		<datafield name="23" entryset="Presence of Negativity" filename="build\dataset\ytpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537379" options="" />
+		<datafield name="23" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118952" options="" />
+		<datafield name="23" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118638" options="" />
+		<datafield name="24" entryset="Child's Overall Effort" filename="build\dataset\ytoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537265" options="" />
+		<datafield name="24" entryset="Intensity of Interest Face" filename="build\dataset\ytfi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537298" options="" />
+		<datafield name="24" entryset="Presence of Positivity" filename="build\dataset\ytpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537347" options="" />
+		<datafield name="24" entryset="Presence of Negativity" filename="build\dataset\ytpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537380" options="" />
+		<datafield name="24" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118953" options="" />
+		<datafield name="24" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118639" options="" />
+	</componentset>
+	<componentset name="Minute 5" abrv="min 5" numcols="2" displayheader="true" header="Minute 5">
+		<datafield name="25" entryset="Child's Overall Effort" filename="build\dataset\ytoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537266" options="" />
+		<datafield name="25" entryset="Intensity of Interest Face" filename="build\dataset\ytfi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537299" options="" />
+		<datafield name="25" entryset="Presence of Positivity" filename="build\dataset\ytpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537348" options="" />
+		<datafield name="25" entryset="Presence of Negativity" filename="build\dataset\ytpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537381" options="" />
+		<datafield name="25" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118954" options="" />
+		<datafield name="25" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118640" options="" />
+		<datafield name="26" entryset="Child's Overall Effort" filename="build\dataset\ytoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537267" options="" />
+		<datafield name="26" entryset="Intensity of Interest Face" filename="build\dataset\ytfi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537300" options="" />
+		<datafield name="26" entryset="Presence of Positivity" filename="build\dataset\ytpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537349" options="" />
+		<datafield name="26" entryset="Presence of Negativity" filename="build\dataset\ytpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537382" options="" />
+		<datafield name="26" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118955" options="" />
+		<datafield name="26" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118641" options="" />
+		<datafield name="27" entryset="Child's Overall Effort" filename="build\dataset\ytoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537268" options="" />
+		<datafield name="27" entryset="Intensity of Interest Face" filename="build\dataset\ytfi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537301" options="" />
+		<datafield name="27" entryset="Presence of Positivity" filename="build\dataset\ytpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537350" options="" />
+		<datafield name="27" entryset="Presence of Negativity" filename="build\dataset\ytpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537383" options="" />
+		<datafield name="27" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118956" options="" />
+		<datafield name="27" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118642" options="" />
+		<datafield name="28" entryset="Child's Overall Effort" filename="build\dataset\ytoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537269" options="" />
+		<datafield name="28" entryset="Intensity of Interest Face" filename="build\dataset\ytfi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537302" options="" />
+		<datafield name="28" entryset="Presence of Positivity" filename="build\dataset\ytpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537351" options="" />
+		<datafield name="28" entryset="Presence of Negativity" filename="build\dataset\ytpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537384" options="" />
+		<datafield name="28" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118957" options="" />
+		<datafield name="28" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118643" options="" />
+		<datafield name="29" entryset="Child's Overall Effort" filename="build\dataset\ytoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537270" options="" />
+		<datafield name="29" entryset="Intensity of Interest Face" filename="build\dataset\ytfi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537303" options="" />
+		<datafield name="29" entryset="Presence of Positivity" filename="build\dataset\ytpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537352" options="" />
+		<datafield name="29" entryset="Presence of Negativity" filename="build\dataset\ytpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537385" options="" />
+		<datafield name="29" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118958" options="" />
+		<datafield name="29" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118644" options="" />
+		<datafield name="30" entryset="Child's Overall Effort" filename="build\dataset\ytoe.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537271" options="" />
+		<datafield name="30" entryset="Intensity of Interest Face" filename="build\dataset\ytfi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537304" options="" />
+		<datafield name="30" entryset="Presence of Positivity" filename="build\dataset\ytpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537353" options="" />
+		<datafield name="30" entryset="Presence of Negativity" filename="build\dataset\ytpn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537386" options="" />
+		<datafield name="30" entryset="Attention Shifts" filename="build\dataset\ytsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118959" options="" />
+		<datafield name="30" entryset="Item Of Focus" filename="build\dataset\ytif.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1286838118645" options="" />
+		<datafield name="Special Flag" entryset="Tester" filename="build\dataset\yttester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475583" options="" />
+		<datafield name="Special Flag Explain" entryset="Tester" filename="build\dataset\yttester.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1286838118769" options="" />
+	</componentset>
+	<componentset name="Duration" abrv="duration" numcols="2" displayheader="true" header="Duration">
+		<datafield name="1" entryset="Duration of On-Task Work" filename="build\dataset\ytduration.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537522" options="" />
+		<datafield name="2" entryset="Duration of On-Task Work" filename="build\dataset\ytduration.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537523" options="" />
+		<datafield name="3" entryset="Duration of On-Task Work" filename="build\dataset\ytduration.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537524" options="" />
+		<datafield name="4" entryset="Duration of On-Task Work" filename="build\dataset\ytduration.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537525" options="" />
+		<datafield name="5" entryset="Duration of On-Task Work" filename="build\dataset\ytduration.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537526" options="" />
+		<datafield name="6" entryset="Duration of On-Task Work" filename="build\dataset\ytduration.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537527" options="" />
+		<datafield name="7" entryset="Duration of On-Task Work" filename="build\dataset\ytduration.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537528" options="" />
+		<datafield name="8" entryset="Duration of On-Task Work" filename="build\dataset\ytduration.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537529" options="" />
+		<datafield name="9" entryset="Duration of On-Task Work" filename="build\dataset\ytduration.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537530" options="" />
+		<datafield name="10" entryset="Duration of On-Task Work" filename="build\dataset\ytduration.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537531" options="" />
+		<datafield name="11" entryset="Duration of On-Task Work" filename="build\dataset\ytduration.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537532" options="" />
+		<datafield name="12" entryset="Duration of On-Task Work" filename="build\dataset\ytduration.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1053023537533" options="" />
+	</componentset>
+</form>
+

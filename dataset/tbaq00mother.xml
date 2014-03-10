@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="TBAQ 2000 Mother" abrv="tbaq00mother" filename="tbaq00mother">
+	<template name="temp1">
+		<name format="" />
+		<field format="" />
+		<subsetname format="" />
+		<subsetfield format="@m" />
+	</template>
+</dataset>
+

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Not Sharing" abrv="notsharing" filename="p3notsharing">
+	<dataset file="nstester" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_NS_r1" />
+	<dataset file="nsae" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_NS_r1" />
+	<dataset file="nsse" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_ns_r1" />
+	<dataset file="nsprg" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_ns_r1" />
+	<dataset file="nspp" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_ns_r1" />
+	<dataset file="nspn" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_ns_r1" />
+	<dataset file="nsav" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_ns_r1" />
+	<dataset file="nssv" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_ns_r1" />
+	<dataset file="nspv" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_ns_r1" />
+	<dataset file="nsprs" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_ns_r1" />
+	<key name="Family Id" entryset="Tester" filename="nstester" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Twin" entryset="Tester" filename="nstester" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Twin,A:1,B:2" />
+	<key name="Data Mode" entryset="Tester" filename="nstester" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="Tester" abrv="tester" numcols="2" displayheader="true" header="Tester">
+		<datafield name="Episode Order" entryset="Tester" filename="build\dataset\nstester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1056386252684" options="" />
+		<datafield name="Scorer" entryset="Tester" filename="build\dataset\nstester.xml" type="0" class="com.wtp.jforms.ui.control.smart.ComboFieldBox" editable="true" classid="1056386252682" options="0,Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_STAFF,number" />
+		<datafield name="Child Tester" entryset="Tester" filename="build\dataset\nstester.xml" type="0" class="com.wtp.jforms.ui.control.smart.ComboFieldBox" editable="true" classid="1056386252683" options="0,Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_STAFF,number" />
+		<datafield name="Baseline" entryset="Tester" filename="build\dataset\nstester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1056386252685" options="" />
+		<datafield name="Latency to First Anger Response" entryset="Tester" filename="build\dataset\nstester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1056386252688" options="" />
+		<datafield name="Latency to Unequal Sharing" entryset="Tester" filename="build\dataset\nstester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017835" options="" />
+		<datafield name="Latency to First Sadness Response" entryset="Tester" filename="build\dataset\nstester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017836" options="" />
+	</componentset>
+	<componentset name="Minute 1" abrv="min 1" numcols="2" displayheader="true" header="Minute 1">
+		<datafield name="1" entryset="Intensity of Anger" filename="build\dataset\nsae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017874" options="" />
+		<datafield name="1" entryset="Intensity of Sadness" filename="build\dataset\nsse.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017916" options="" />
+		<datafield name="1" entryset="Presence of Resignation" filename="build\dataset\nsprg.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017958" options="" />
+		<datafield name="1" entryset="Presence of Resistance" filename="build\dataset\nsprs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063212631464" options="" />
+		<datafield name="1" entryset="Intensity of Positivity" filename="build\dataset\nspp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017979" options="" />
+		<datafield name="1" entryset="Presence of Negativity" filename="build\dataset\nspn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706018000" options="" />
+		<datafield name="2" entryset="Intensity of Anger" filename="build\dataset\nsae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017875" options="" />
+		<datafield name="2" entryset="Intensity of Sadness" filename="build\dataset\nsse.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017917" options="" />
+		<datafield name="2" entryset="Presence of Resignation" filename="build\dataset\nsprg.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017959" options="" />
+		<datafield name="2" entryset="Presence of Resistance" filename="build\dataset\nsprs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063212631465" options="" />
+		<datafield name="2" entryset="Intensity of Positivity" filename="build\dataset\nspp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017980" options="" />
+		<datafield name="2" entryset="Presence of Negativity" filename="build\dataset\nspn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706018001" options="" />
+		<datafield name="3" entryset="Intensity of Anger" filename="build\dataset\nsae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017876" options="" />
+		<datafield name="3" entryset="Intensity of Sadness" filename="build\dataset\nsse.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017918" options="" />
+		<datafield name="3" entryset="Presence of Resignation" filename="build\dataset\nsprg.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017960" options="" />
+		<datafield name="3" entryset="Presence of Resistance" filename="build\dataset\nsprs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063212631466" options="" />
+		<datafield name="3" entryset="Intensity of Positivity" filename="build\dataset\nspp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017981" options="" />
+		<datafield name="3" entryset="Presence of Negativity" filename="build\dataset\nspn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706018002" options="" />
+		<datafield name="4" entryset="Intensity of Anger" filename="build\dataset\nsae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017877" options="" />
+		<datafield name="4" entryset="Intensity of Sadness" filename="build\dataset\nsse.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017919" options="" />
+		<datafield name="4" entryset="Presence of Resignation" filename="build\dataset\nsprg.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017961" options="" />
+		<datafield name="4" entryset="Presence of Resistance" filename="build\dataset\nsprs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063212631467" options="" />
+		<datafield name="4" entryset="Intensity of Positivity" filename="build\dataset\nspp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017982" options="" />
+		<datafield name="4" entryset="Presence of Negativity" filename="build\dataset\nspn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706018003" options="" />
+		<datafield name="5" entryset="Intensity of Anger" filename="build\dataset\nsae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017878" options="" />
+		<datafield name="5" entryset="Intensity of Sadness" filename="build\dataset\nsse.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017920" options="" />
+		<datafield name="5" entryset="Presence of Resignation" filename="build\dataset\nsprg.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017962" options="" />
+		<datafield name="5" entryset="Presence of Resistance" filename="build\dataset\nsprs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063212631468" options="" />
+		<datafield name="5" entryset="Intensity of Positivity" filename="build\dataset\nspp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017983" options="" />
+		<datafield name="5" entryset="Presence of Negativity" filename="build\dataset\nspn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706018004" options="" />
+		<datafield name="6" entryset="Intensity of Anger" filename="build\dataset\nsae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017879" options="" />
+		<datafield name="6" entryset="Intensity of Sadness" filename="build\dataset\nsse.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017921" options="" />
+		<datafield name="6" entryset="Presence of Resignation" filename="build\dataset\nsprg.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017963" options="" />
+		<datafield name="6" entryset="Presence of Resistance" filename="build\dataset\nsprs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063212631469" options="" />
+		<datafield name="6" entryset="Intensity of Positivity" filename="build\dataset\nspp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017984" options="" />
+		<datafield name="6" entryset="Presence of Negativity" filename="build\dataset\nspn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706018005" options="" />
+	</componentset>
+	<componentset name="Minute 2" abrv="min 2" numcols="2" displayheader="true" header="Minute 2">
+		<datafield name="7" entryset="Intensity of Anger" filename="build\dataset\nsae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017880" options="" />
+		<datafield name="7" entryset="Intensity of Sadness" filename="build\dataset\nsse.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017922" options="" />
+		<datafield name="7" entryset="Presence of Resignation" filename="build\dataset\nsprg.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017964" options="" />
+		<datafield name="7" entryset="Presence of Resistance" filename="build\dataset\nsprs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063212631470" options="" />
+		<datafield name="7" entryset="Intensity of Positivity" filename="build\dataset\nspp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017985" options="" />
+		<datafield name="7" entryset="Presence of Negativity" filename="build\dataset\nspn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706018006" options="" />
+		<datafield name="8" entryset="Intensity of Anger" filename="build\dataset\nsae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017881" options="" />
+		<datafield name="8" entryset="Intensity of Sadness" filename="build\dataset\nsse.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017923" options="" />
+		<datafield name="8" entryset="Presence of Resignation" filename="build\dataset\nsprg.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017965" options="" />
+		<datafield name="8" entryset="Presence of Resistance" filename="build\dataset\nsprs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063212631471" options="" />
+		<datafield name="8" entryset="Intensity of Positivity" filename="build\dataset\nspp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017986" options="" />
+		<datafield name="8" entryset="Presence of Negativity" filename="build\dataset\nspn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706018007" options="" />
+		<datafield name="9" entryset="Intensity of Anger" filename="build\dataset\nsae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017882" options="" />
+		<datafield name="9" entryset="Intensity of Sadness" filename="build\dataset\nsse.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017924" options="" />
+		<datafield name="9" entryset="Presence of Resignation" filename="build\dataset\nsprg.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017966" options="" />
+		<datafield name="9" entryset="Presence of Resistance" filename="build\dataset\nsprs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063212631472" options="" />
+		<datafield name="9" entryset="Intensity of Positivity" filename="build\dataset\nspp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017987" options="" />
+		<datafield name="9" entryset="Presence of Negativity" filename="build\dataset\nspn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706018008" options="" />
+		<datafield name="10" entryset="Intensity of Anger" filename="build\dataset\nsae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017883" options="" />
+		<datafield name="10" entryset="Intensity of Sadness" filename="build\dataset\nsse.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017925" options="" />
+		<datafield name="10" entryset="Presence of Resignation" filename="build\dataset\nsprg.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017967" options="" />
+		<datafield name="10" entryset="Presence of Resistance" filename="build\dataset\nsprs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063212631473" options="" />
+		<datafield name="10" entryset="Intensity of Positivity" filename="build\dataset\nspp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017988" options="" />
+		<datafield name="10" entryset="Presence of Negativity" filename="build\dataset\nspn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706018009" options="" />
+		<datafield name="11" entryset="Intensity of Anger" filename="build\dataset\nsae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017884" options="" />
+		<datafield name="11" entryset="Intensity of Sadness" filename="build\dataset\nsse.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017926" options="" />
+		<datafield name="11" entryset="Presence of Resignation" filename="build\dataset\nsprg.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017968" options="" />
+		<datafield name="11" entryset="Presence of Resistance" filename="build\dataset\nsprs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063212631474" options="" />
+		<datafield name="11" entryset="Intensity of Positivity" filename="build\dataset\nspp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017989" options="" />
+		<datafield name="11" entryset="Presence of Negativity" filename="build\dataset\nspn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706018010" options="" />
+		<datafield name="12" entryset="Intensity of Anger" filename="build\dataset\nsae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017885" options="" />
+		<datafield name="12" entryset="Intensity of Sadness" filename="build\dataset\nsse.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017927" options="" />
+		<datafield name="12" entryset="Presence of Resignation" filename="build\dataset\nsprg.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017969" options="" />
+		<datafield name="12" entryset="Presence of Resistance" filename="build\dataset\nsprs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063212631475" options="" />
+		<datafield name="12" entryset="Intensity of Positivity" filename="build\dataset\nspp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017990" options="" />
+		<datafield name="12" entryset="Presence of Negativity" filename="build\dataset\nspn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706018011" options="" />
+	</componentset>
+	<componentset name="Minute 3" abrv="min 3" numcols="2" displayheader="true" header="Minute 3">
+		<datafield name="13" entryset="Intensity of Anger" filename="build\dataset\nsae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017886" options="" />
+		<datafield name="13" entryset="Intensity of Sadness" filename="build\dataset\nsse.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017928" options="" />
+		<datafield name="13" entryset="Presence of Resignation" filename="build\dataset\nsprg.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017970" options="" />
+		<datafield name="13" entryset="Presence of Resistance" filename="build\dataset\nsprs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063212631476" options="" />
+		<datafield name="13" entryset="Intensity of Positivity" filename="build\dataset\nspp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017991" options="" />
+		<datafield name="13" entryset="Presence of Negativity" filename="build\dataset\nspn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706018012" options="" />
+		<datafield name="14" entryset="Intensity of Anger" filename="build\dataset\nsae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017887" options="" />
+		<datafield name="14" entryset="Intensity of Sadness" filename="build\dataset\nsse.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017929" options="" />
+		<datafield name="14" entryset="Presence of Resignation" filename="build\dataset\nsprg.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017971" options="" />
+		<datafield name="14" entryset="Presence of Resistance" filename="build\dataset\nsprs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063212631477" options="" />
+		<datafield name="14" entryset="Intensity of Positivity" filename="build\dataset\nspp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017992" options="" />
+		<datafield name="14" entryset="Presence of Negativity" filename="build\dataset\nspn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706018013" options="" />
+		<datafield name="15" entryset="Intensity of Anger" filename="build\dataset\nsae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017888" options="" />
+		<datafield name="15" entryset="Intensity of Sadness" filename="build\dataset\nsse.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017930" options="" />
+		<datafield name="15" entryset="Presence of Resignation" filename="build\dataset\nsprg.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017972" options="" />
+		<datafield name="15" entryset="Presence of Resistance" filename="build\dataset\nsprs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063212631478" options="" />
+		<datafield name="15" entryset="Intensity of Positivity" filename="build\dataset\nspp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017993" options="" />
+		<datafield name="15" entryset="Presence of Negativity" filename="build\dataset\nspn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706018014" options="" />
+		<datafield name="16" entryset="Intensity of Anger" filename="build\dataset\nsae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017889" options="" />
+		<datafield name="16" entryset="Intensity of Sadness" filename="build\dataset\nsse.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017931" options="" />
+		<datafield name="16" entryset="Presence of Resignation" filename="build\dataset\nsprg.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017973" options="" />
+		<datafield name="16" entryset="Presence of Resistance" filename="build\dataset\nsprs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063212631479" options="" />
+		<datafield name="16" entryset="Intensity of Positivity" filename="build\dataset\nspp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017994" options="" />
+		<datafield name="16" entryset="Presence of Negativity" filename="build\dataset\nspn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706018015" options="" />
+		<datafield name="17" entryset="Intensity of Anger" filename="build\dataset\nsae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017890" options="" />
+		<datafield name="17" entryset="Intensity of Sadness" filename="build\dataset\nsse.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017932" options="" />
+		<datafield name="17" entryset="Presence of Resignation" filename="build\dataset\nsprg.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017974" options="" />
+		<datafield name="17" entryset="Presence of Resistance" filename="build\dataset\nsprs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063212631480" options="" />
+		<datafield name="17" entryset="Intensity of Positivity" filename="build\dataset\nspp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017995" options="" />
+		<datafield name="17" entryset="Presence of Negativity" filename="build\dataset\nspn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706018016" options="" />
+		<datafield name="18" entryset="Intensity of Anger" filename="build\dataset\nsae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017891" options="" />
+		<datafield name="18" entryset="Intensity of Sadness" filename="build\dataset\nsse.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017933" options="" />
+		<datafield name="18" entryset="Presence of Resignation" filename="build\dataset\nsprg.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017975" options="" />
+		<datafield name="18" entryset="Presence of Resistance" filename="build\dataset\nsprs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063212631481" options="" />
+		<datafield name="18" entryset="Intensity of Positivity" filename="build\dataset\nspp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017996" options="" />
+		<datafield name="18" entryset="Presence of Negativity" filename="build\dataset\nspn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706018017" options="" />
+		<datafield name="Special Flag" entryset="Tester" filename="build\dataset\nstester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017837" options="" />
+		<datafield name="Special Flag Explain" entryset="Tester" filename="build\dataset\nstester.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1062706017838" options="" />
+	</componentset>
+	<componentset name="Language Coding" abrv="coding" numcols="2" displayheader="true" header="Language Coding">
+		<datafield name="Latency to Fisrt Anger Vocalization" entryset="Tester" filename="build\dataset\nstester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063212631494" options="" />
+		<datafield name="Latency to First Sadness Vocalization" entryset="Tester" filename="build\dataset\nstester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063212631495" options="" />
+		<module class="com.wtp.jforms.ui.control.module.Header" options="Time Block 1" />
+		<datafield name="1" entryset="Anger Vocalizations" filename="build\dataset\nsav.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706018021" options="" />
+		<datafield name="1" entryset="Sadness Vocalizations" filename="build\dataset\nssv.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706018028" options="" />
+		<datafield name="1" entryset="Positive Vocalizations" filename="build\dataset\nspv.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706018035" options="" />
+		<module class="com.wtp.jforms.ui.control.module.Header" options="Time Block 2" />
+		<datafield name="2" entryset="Anger Vocalizations" filename="build\dataset\nsav.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706018022" options="" />
+		<datafield name="2" entryset="Sadness Vocalizations" filename="build\dataset\nssv.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706018029" options="" />
+		<datafield name="2" entryset="Positive Vocalizations" filename="build\dataset\nspv.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706018036" options="" />
+		<module class="com.wtp.jforms.ui.control.module.Header" options="Time Block 3" />
+		<datafield name="3" entryset="Anger Vocalizations" filename="build\dataset\nsav.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706018023" options="" />
+		<datafield name="3" entryset="Sadness Vocalizations" filename="build\dataset\nssv.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706018030" options="" />
+		<datafield name="3" entryset="Positive Vocalizations" filename="build\dataset\nspv.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706018037" options="" />
+		<module class="com.wtp.jforms.ui.control.module.Header" options="Time Block 4" />
+		<datafield name="4" entryset="Anger Vocalizations" filename="build\dataset\nsav.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706018024" options="" />
+		<datafield name="4" entryset="Sadness Vocalizations" filename="build\dataset\nssv.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706018031" options="" />
+		<datafield name="4" entryset="Positive Vocalizations" filename="build\dataset\nspv.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706018038" options="" />
+		<datafield name="Global Anger" entryset="Intensity of Anger" filename="build\dataset\nsae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017892" options="" />
+		<datafield name="Global Sadness" entryset="Intensity of Anger" filename="build\dataset\nsae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1062706017893" options="" />
+	</componentset>
+</form>
+

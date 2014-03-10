@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Free Play" abrv="p3freeplay" filename="p3freeplay">
+	<dataset file="fptester" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_FP" />
+	<dataset file="fpvhh" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_FP" />
+	<dataset file="fpvbd" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_FP" />
+	<dataset file="fpvtr" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_FP" />
+	<dataset file="fpvjr" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_FP" />
+	<dataset file="fpnbt" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_FP" />
+	<dataset file="fppp" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_FP" />
+	<dataset file="fppn" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_FP" />
+	<key name="Family Id" entryset="Tester" filename="fptester" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Twin" entryset="Tester" filename="fptester" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Twin,A:1,B:2" />
+	<key name="Data Mode" entryset="Tester" filename="fptester" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="Free Play" abrv="free play" numcols="2" displayheader="true" header="Free Play">
+		<datafield name="Episode order" entryset="Tester" filename="build\dataset\fptester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475579" options="" />
+		<datafield name="Scorer" entryset="Tester" filename="build\dataset\fptester.xml" type="0" class="com.wtp.jforms.ui.control.smart.ComboFieldBox" editable="true" classid="1052931475578" options="0,Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_STAFF,number" />
+		<datafield name="Child tester" entryset="Tester" filename="build\dataset\fptester.xml" type="0" class="com.wtp.jforms.ui.control.smart.ComboFieldBox" editable="true" classid="1052931475580" options="0,Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_STAFF,number" />
+		<datafield name="Baseline" entryset="Tester" filename="build\dataset\fptester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475581" options="" />
+		<datafield name="Latency" entryset="Tester" filename="build\dataset\fptester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475582" options="" />
+	</componentset>
+	<componentset name="Minute 1" abrv="min 1" numcols="2" displayheader="true" header="Minute 1">
+		<datafield name="1" entryset="Vigor Hula Hoop" filename="build\dataset\fpvhh.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475587" options="" />
+		<datafield name="1" entryset="Vigor Bobo Doll" filename="build\dataset\fpvbd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475614" options="" />
+		<datafield name="1" entryset="Vigor Trampoline" filename="build\dataset\fpvtr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475632" options="" />
+		<datafield name="1" entryset="Vigor Jump Rope" filename="build\dataset\fpvjr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475704" options="" />
+		<datafield name="1" entryset="Number of Bouts" filename="build\dataset\fpnbt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475722" options="" />
+		<datafield name="1" entryset="Presence of Positivity" filename="build\dataset\fppp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475740" options="" />
+		<datafield name="1" entryset="Presence of Negativity" filename="build\dataset\fppn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475758" options="" />
+		<datafield name="2" entryset="Vigor Hula Hoop" filename="build\dataset\fpvhh.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475588" options="" />
+		<datafield name="2" entryset="Vigor Bobo Doll" filename="build\dataset\fpvbd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475615" options="" />
+		<datafield name="2" entryset="Vigor Trampoline" filename="build\dataset\fpvtr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475633" options="" />
+		<datafield name="2" entryset="Vigor Jump Rope" filename="build\dataset\fpvjr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475705" options="" />
+		<datafield name="2" entryset="Number of Bouts" filename="build\dataset\fpnbt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475723" options="" />
+		<datafield name="2" entryset="Presence of Positivity" filename="build\dataset\fppp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475741" options="" />
+		<datafield name="2" entryset="Presence of Negativity" filename="build\dataset\fppn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475759" options="" />
+		<datafield name="3" entryset="Vigor Hula Hoop" filename="build\dataset\fpvhh.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475589" options="" />
+		<datafield name="3" entryset="Vigor Bobo Doll" filename="build\dataset\fpvbd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475616" options="" />
+		<datafield name="3" entryset="Vigor Trampoline" filename="build\dataset\fpvtr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475634" options="" />
+		<datafield name="3" entryset="Vigor Jump Rope" filename="build\dataset\fpvjr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475706" options="" />
+		<datafield name="3" entryset="Number of Bouts" filename="build\dataset\fpnbt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475724" options="" />
+		<datafield name="3" entryset="Presence of Positivity" filename="build\dataset\fppp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475742" options="" />
+		<datafield name="3" entryset="Presence of Negativity" filename="build\dataset\fppn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475760" options="" />
+	</componentset>
+	<componentset name="Minute 2" abrv="min 2" numcols="2" displayheader="true" header="Minute 2">
+		<datafield name="4" entryset="Vigor Hula Hoop" filename="build\dataset\fpvhh.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475590" options="" />
+		<datafield name="4" entryset="Vigor Bobo Doll" filename="build\dataset\fpvbd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475617" options="" />
+		<datafield name="4" entryset="Vigor Trampoline" filename="build\dataset\fpvtr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475635" options="" />
+		<datafield name="4" entryset="Vigor Jump Rope" filename="build\dataset\fpvjr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475707" options="" />
+		<datafield name="4" entryset="Number of Bouts" filename="build\dataset\fpnbt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475725" options="" />
+		<datafield name="4" entryset="Presence of Positivity" filename="build\dataset\fppp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475743" options="" />
+		<datafield name="4" entryset="Presence of Negativity" filename="build\dataset\fppn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475761" options="" />
+		<datafield name="5" entryset="Vigor Hula Hoop" filename="build\dataset\fpvhh.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475591" options="" />
+		<datafield name="5" entryset="Vigor Bobo Doll" filename="build\dataset\fpvbd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475618" options="" />
+		<datafield name="5" entryset="Vigor Trampoline" filename="build\dataset\fpvtr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475636" options="" />
+		<datafield name="5" entryset="Vigor Jump Rope" filename="build\dataset\fpvjr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475708" options="" />
+		<datafield name="5" entryset="Number of Bouts" filename="build\dataset\fpnbt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475726" options="" />
+		<datafield name="5" entryset="Presence of Positivity" filename="build\dataset\fppp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475744" options="" />
+		<datafield name="5" entryset="Presence of Negativity" filename="build\dataset\fppn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475762" options="" />
+		<datafield name="6" entryset="Vigor Hula Hoop" filename="build\dataset\fpvhh.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475592" options="" />
+		<datafield name="6" entryset="Vigor Bobo Doll" filename="build\dataset\fpvbd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475619" options="" />
+		<datafield name="6" entryset="Vigor Trampoline" filename="build\dataset\fpvtr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475637" options="" />
+		<datafield name="6" entryset="Vigor Jump Rope" filename="build\dataset\fpvjr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475709" options="" />
+		<datafield name="6" entryset="Number of Bouts" filename="build\dataset\fpnbt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475727" options="" />
+		<datafield name="6" entryset="Presence of Positivity" filename="build\dataset\fppp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475745" options="" />
+		<datafield name="6" entryset="Presence of Negativity" filename="build\dataset\fppn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475763" options="" />
+	</componentset>
+	<componentset name="Minute 3" abrv="min 3" numcols="2" displayheader="true" header="Minute 3">
+		<datafield name="7" entryset="Vigor Hula Hoop" filename="build\dataset\fpvhh.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931476593" options="" />
+		<datafield name="7" entryset="Vigor Bobo Doll" filename="build\dataset\fpvbd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475620" options="" />
+		<datafield name="7" entryset="Vigor Trampoline" filename="build\dataset\fpvtr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475638" options="" />
+		<datafield name="7" entryset="Vigor Jump Rope" filename="build\dataset\fpvjr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475710" options="" />
+		<datafield name="7" entryset="Number of Bouts" filename="build\dataset\fpnbt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475728" options="" />
+		<datafield name="7" entryset="Presence of Positivity" filename="build\dataset\fppp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475746" options="" />
+		<datafield name="7" entryset="Presence of Negativity" filename="build\dataset\fppn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475764" options="" />
+		<datafield name="8" entryset="Vigor Hula Hoop" filename="build\dataset\fpvhh.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475594" options="" />
+		<datafield name="8" entryset="Vigor Bobo Doll" filename="build\dataset\fpvbd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475621" options="" />
+		<datafield name="8" entryset="Vigor Trampoline" filename="build\dataset\fpvtr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475639" options="" />
+		<datafield name="8" entryset="Vigor Jump Rope" filename="build\dataset\fpvjr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475711" options="" />
+		<datafield name="8" entryset="Number of Bouts" filename="build\dataset\fpnbt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475729" options="" />
+		<datafield name="8" entryset="Presence of Positivity" filename="build\dataset\fppp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475747" options="" />
+		<datafield name="8" entryset="Presence of Negativity" filename="build\dataset\fppn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475765" options="" />
+		<datafield name="9" entryset="Vigor Hula Hoop" filename="build\dataset\fpvhh.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475595" options="" />
+		<datafield name="9" entryset="Vigor Bobo Doll" filename="build\dataset\fpvbd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475622" options="" />
+		<datafield name="9" entryset="Vigor Trampoline" filename="build\dataset\fpvtr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475640" options="" />
+		<datafield name="9" entryset="Vigor Jump Rope" filename="build\dataset\fpvjr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475712" options="" />
+		<datafield name="9" entryset="Number of Bouts" filename="build\dataset\fpnbt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475730" options="" />
+		<datafield name="9" entryset="Presence of Positivity" filename="build\dataset\fppp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475748" options="" />
+		<datafield name="9" entryset="Presence of Negativity" filename="build\dataset\fppn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475766" options="" />
+	</componentset>
+	<componentset name="Minute 4" abrv="min 4" numcols="2" displayheader="true" header="Minute 4">
+		<datafield name="10" entryset="Vigor Hula Hoop" filename="build\dataset\fpvhh.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931474593" options="" />
+		<datafield name="10" entryset="Vigor Bobo Doll" filename="build\dataset\fpvbd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475623" options="" />
+		<datafield name="10" entryset="Vigor Trampoline" filename="build\dataset\fpvtr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475641" options="" />
+		<datafield name="10" entryset="Vigor Jump Rope" filename="build\dataset\fpvjr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475713" options="" />
+		<datafield name="10" entryset="Number of Bouts" filename="build\dataset\fpnbt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475731" options="" />
+		<datafield name="10" entryset="Presence of Positivity" filename="build\dataset\fppp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475749" options="" />
+		<datafield name="10" entryset="Presence of Negativity" filename="build\dataset\fppn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475767" options="" />
+		<datafield name="11" entryset="Vigor Hula Hoop" filename="build\dataset\fpvhh.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931477593" options="" />
+		<datafield name="11" entryset="Vigor Bobo Doll" filename="build\dataset\fpvbd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475624" options="" />
+		<datafield name="11" entryset="Vigor Trampoline" filename="build\dataset\fpvtr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475642" options="" />
+		<datafield name="11" entryset="Vigor Jump Rope" filename="build\dataset\fpvjr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475714" options="" />
+		<datafield name="11" entryset="Number of Bouts" filename="build\dataset\fpnbt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475732" options="" />
+		<datafield name="11" entryset="Presence of Positivity" filename="build\dataset\fppp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475750" options="" />
+		<datafield name="11" entryset="Presence of Negativity" filename="build\dataset\fppn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475768" options="" />
+		<datafield name="12" entryset="Vigor Hula Hoop" filename="build\dataset\fpvhh.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931478593" options="" />
+		<datafield name="12" entryset="Vigor Bobo Doll" filename="build\dataset\fpvbd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475625" options="" />
+		<datafield name="12" entryset="Vigor Trampoline" filename="build\dataset\fpvtr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475643" options="" />
+		<datafield name="12" entryset="Vigor Jump Rope" filename="build\dataset\fpvjr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475715" options="" />
+		<datafield name="12" entryset="Number of Bouts" filename="build\dataset\fpnbt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475733" options="" />
+		<datafield name="12" entryset="Presence of Positivity" filename="build\dataset\fppp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475751" options="" />
+		<datafield name="12" entryset="Presence of Negativity" filename="build\dataset\fppn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475769" options="" />
+	</componentset>
+	<componentset name="Minute 5" abrv="min 5" numcols="2" displayheader="true" header="Minute 5">
+		<datafield name="13" entryset="Vigor Hula Hoop" filename="build\dataset\fpvhh.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475599" options="" />
+		<datafield name="13" entryset="Vigor Bobo Doll" filename="build\dataset\fpvbd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475626" options="" />
+		<datafield name="13" entryset="Vigor Trampoline" filename="build\dataset\fpvtr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475644" options="" />
+		<datafield name="13" entryset="Vigor Jump Rope" filename="build\dataset\fpvjr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475716" options="" />
+		<datafield name="13" entryset="Number of Bouts" filename="build\dataset\fpnbt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475734" options="" />
+		<datafield name="13" entryset="Presence of Positivity" filename="build\dataset\fppp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475752" options="" />
+		<datafield name="13" entryset="Presence of Negativity" filename="build\dataset\fppn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475770" options="" />
+		<datafield name="14" entryset="Vigor Hula Hoop" filename="build\dataset\fpvhh.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475600" options="" />
+		<datafield name="14" entryset="Vigor Bobo Doll" filename="build\dataset\fpvbd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475627" options="" />
+		<datafield name="14" entryset="Vigor Trampoline" filename="build\dataset\fpvtr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475645" options="" />
+		<datafield name="14" entryset="Vigor Jump Rope" filename="build\dataset\fpvjr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475717" options="" />
+		<datafield name="14" entryset="Number of Bouts" filename="build\dataset\fpnbt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475735" options="" />
+		<datafield name="14" entryset="Presence of Positivity" filename="build\dataset\fppp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475753" options="" />
+		<datafield name="14" entryset="Presence of Negativity" filename="build\dataset\fppn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475771" options="" />
+		<datafield name="15" entryset="Vigor Hula Hoop" filename="build\dataset\fpvhh.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475601" options="" />
+		<datafield name="15" entryset="Vigor Bobo Doll" filename="build\dataset\fpvbd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475628" options="" />
+		<datafield name="15" entryset="Vigor Trampoline" filename="build\dataset\fpvtr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475646" options="" />
+		<datafield name="15" entryset="Vigor Jump Rope" filename="build\dataset\fpvjr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475718" options="" />
+		<datafield name="15" entryset="Number of Bouts" filename="build\dataset\fpnbt.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475736" options="" />
+		<datafield name="15" entryset="Presence of Positivity" filename="build\dataset\fppp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475754" options="" />
+		<datafield name="15" entryset="Presence of Negativity" filename="build\dataset\fppn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475772" options="" />
+		<datafield name="Special Flag" entryset="Tester" filename="build\dataset\fptester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475583" options="" />
+	</componentset>
+</form>
+

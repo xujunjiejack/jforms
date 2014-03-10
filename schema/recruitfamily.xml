@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE schema SYSTEM "../../dtd/schema.dtd">
+<schema name="Recruit Response Family Table" abrv="recruitfamily" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="GEN_FAMILY" filename="recruitfamily">
+	<validator name="blankvarchar" type="VARCHAR" defaultvalue="" allowblanks="true" lowerbound="2147483647" upperbound="2147483647" />
+	<validator name="blankformat" type="VARCHAR" defaultvalue="" allowblanks="true" lowerbound="2147483647" upperbound="2147483647">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="blankmemo" type="MEMO" defaultvalue="" allowblanks="true" lowerbound="2147483647" upperbound="2147483647" />
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<data name="Family Label" field="familylabel" template="na" validator="blankvarchar" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1044678997908" />
+	<data name="Mother First Name" field="motherfirstname" template="na" validator="blankvarchar" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1044678997909" />
+	<data name="Mother Last Name" field="motherlastname" template="na" validator="blankvarchar" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1044678997910" />
+	<data name="Mother Maiden Name" field="mothermadienname" template="na" validator="blankvarchar" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1044678997911" />
+	<data name="Father First Name" field="fatherfirstname" template="na" validator="blankvarchar" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1044678997912" />
+	<data name="Father Last Name" field="fatherlastname" template="na" validator="blankvarchar" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1044678997913" />
+	<data name="Phone Number" field="phonenumber" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1044678997914" />
+	<data name="State" field="state" template="na" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.ComboFieldBox" classid="104467899790616" />
+	<data name="Zip Code" field="zip" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1044678997917" />
+	<data name="Initial Letter" field="initletter" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1044678997919" />
+	<data name="Email" field="email" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1044678997920" />
+	<data name="Old Address" field="oldaddress" template="na" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1044678997921" />
+	<data name="Memo" field="memo" template="na" validator="blankmemo" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1044678997922" />
+	<data name="Other Projects" field="otherprojects" template="na" validator="blankvarchar" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1044678997923" />
+	<data name="Address" field="address" template="na" validator="blankvarchar" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1044685694302" />
+	<data name="City" field="city" template="na" validator="blankvarchar" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1044685694303" />
+	<data name="Initial Response" field="initresponse" template="na" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.ComboFieldBox" classid="1044685694304" />
+</schema>
+

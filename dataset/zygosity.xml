@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Zygosity" abrv="zyg" filename="zygosity">
+	<template name="temp1">
+		<name format="" />
+		<field format="zy@" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<validator name="val13_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="3">
+		<valid value="9998" />
+		<valid value="9999" />
+	</validator>
+	<validator name="val02_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="2">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="val12_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="2">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="yesno01_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="1">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="varchar_9998_9999" type="VARCHAR" defaultvalue="9998" allowblanks="false" lowerbound="2147483647" upperbound="2147483647">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="val14_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="4">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<data name="Weeks Gestation" field="002" template="temp1" validator="DOUBLE" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048008881071" />
+	<data name="Fertility Drug Use" field="03a" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048008881072" />
+	<data name="Type" field="03b" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048008881073" />
+	<data name="Twin A Cleft Lip" field="08a" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048008881074" />
+	<data name="Twin B Cleft Lip" field="08b" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048008881075" />
+	<data name="Twin A Current Height (in)" field="09a" template="temp1" validator="DOUBLE" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048008881076" />
+	<data name="Twin B Current Height (in)" field="09b" template="temp1" validator="DOUBLE" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048008881077" />
+	<data name="Height Date" field="09c" template="temp1" validator="varchar_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1048008881078" />
+	<data name="Medical Reason" field="09d" template="temp1" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048008881079" />
+	<data name="Medical Reason Explain" field="09e" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048008881080" />
+	<data name="Twin A Current Weight (lbs)" field="10a" template="temp1" validator="DOUBLE" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048008881081" />
+	<data name="Twin B Current Weight (lbs)" field="10b" template="temp1" validator="DOUBLE" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048008881082" />
+	<data name="Weight Date" field="10c" template="temp1" validator="varchar_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1048008881083" />
+	<data name="Twin A Hair Color" field="11a" template="temp1" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048008881084" />
+	<data name="Twin B Hair Color" field="11b" template="temp1" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048008881085" />
+	<data name="Shade Difference" field="12a" template="temp1" validator="val13_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048008881086" />
+	<data name="Hair Color Explain" field="12b" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048008881087" />
+	<data name="Texture Difference" field="13a" template="temp1" validator="val13_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048008881088" />
+	<data name="Hair Texture Explain" field="13b" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048008881089" />
+	<data name="Eye Color Difference" field="14a" template="temp1" validator="val13_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048008881090" />
+	<data name="Eye Color Difference Explain" field="14b" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048008881091" />
+	<data name="Ear Lobe Difference" field="15a" template="temp1" validator="val13_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048008881092" />
+	<data name="Ear Lobe Difference Explain" field="15b" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048008881093" />
+	<data name="1st Teeth" field="016" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048008881094" />
+	<data name="Differ in Appearance" field="017" template="temp1" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048008881095" />
+	<data name="Physical Difference not Apparent in Appearance" field="18a" template="temp1" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048008881096" />
+	<data name="Not Apparent Difference Explain" field="18b" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048008881097" />
+	<data name="Similarity as Grown Older" field="019" template="temp1" validator="val13_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048008881098" />
+	<data name="Personal" field="20a" template="temp1" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048008881099" />
+	<data name="Personal Physical Explain" field="20b" template="temp1" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048008881100" />
+	<data name="Others" field="21a" template="temp1" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048008881101" />
+	<data name="Others Physical Explain" field="21b" template="temp1" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048008881102" />
+	<data name="Mistaken by Parents" field="22a" template="temp1" validator="val13_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048008881103" />
+	<data name="Mistaken by Siblings" field="22b" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048008881104" />
+	<data name="Mistaken by Babysitters" field="22c" template="temp1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048008881105" />
+	<data name="Mistaken by Close Friends" field="22d" template="temp1" validator="val13_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048008881106" />
+	<data name="Mistaken by Casual Friends" field="22e" template="temp1" validator="val13_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048008881107" />
+	<data name="Mistaken by People Meeting 1st Time" field="22f" template="temp1" validator="val13_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048008881108" />
+	<data name="Mistaken Together" field="023" template="temp1" validator="val13_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048008881109" />
+	<data name="Photograph" field="024" template="temp1" validator="val13_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048008881110" />
+	<data name="Physically Alike As.." field="025" template="temp1" validator="val13_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048008881111" />
+	<data name="Twin A Blood Type (include Rh factor)" field="26a" template="temp1" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048008881112" />
+	<data name="Twin B Blood Type (include Rh factor)" field="26b" template="temp1" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048008881113" />
+	<data name="Twin A Other Blood Type" field="26e" template="temp1" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048008881114" />
+	<data name="Twin B Other Blood Type" field="26f" template="temp1" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048008881115" />
+	<data name="Placenta Count" field="27a" template="temp1" validator="val13_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048008881116" />
+	<data name="Placenta Tests" field="27b" template="temp1" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048008881117" />
+	<data name="Serious Illness" field="28a" template="temp1" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048008881118" />
+	<data name="Serious Illness Explain" field="28b" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048008881119" />
+	<data name="Medical Reason for Difference" field="29a" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048008881120" />
+	<data name="Medical Reason for Difference Explain" field="29b" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048008881121" />
+	<data name="Birth Zygosity" field="030" template="temp1" validator="val13_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048008881122" />
+	<data name="Pediatrician Zygosity" field="31a" template="temp1" validator="val13_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048008881123" />
+	<data name="Pediatrician Zygosity Explain" field="31b" template="temp1" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048008881124" />
+	<data name="Self Zygosity" field="32a" template="temp1" validator="val13_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048008881125" />
+	<data name="Identical Explain" field="32b" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048008881126" />
+	<data name="Fraternal Reason" field="32c" template="temp1" validator="val13_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048008881127" />
+	<data name="Zygosity" field="go" template="temp1" validator="val13_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048187005989" />
+	<data name="Tricky Zygosity" field="tr" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048187005990" />
+	<data name="Picture Requested" field="pr" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048187005991" />
+	<data name="Picture Included" field="pi" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048187005992" />
+	<dependency field="Type">
+		<parent field="Fertility Drug Use" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Medical Reason Explain">
+		<parent field="Medical Reason" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Hair Color Explain">
+		<parent field="Shade Difference" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="3" />
+		</parent>
+	</dependency>
+	<dependency field="Hair Texture Explain">
+		<parent field="Texture Difference" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="3" />
+		</parent>
+	</dependency>
+	<dependency field="Eye Color Difference Explain">
+		<parent field="Eye Color Difference" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="3" />
+		</parent>
+	</dependency>
+	<dependency field="Ear Lobe Difference Explain">
+		<parent field="Ear Lobe Difference" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+			<enable value="3" />
+		</parent>
+	</dependency>
+	<dependency field="Not Apparent Difference Explain">
+		<parent field="Physical Difference not Apparent in Appearance" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Serious Illness Explain">
+		<parent field="Serious Illness" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Medical Reason for Difference Explain">
+		<parent field="Medical Reason for Difference" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Identical Explain">
+		<parent field="Self Zygosity" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Fraternal Reason">
+		<parent field="Self Zygosity" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="2" />
+		</parent>
+	</dependency>
+</dataset>
+

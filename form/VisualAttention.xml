@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Visual Attention" abrv="va" filename="VisualAttention">
+	<dataset file="atdates" connection="MySQL:mysql.waisman.wisc.edu/wtp_data" tablename="data_at_dates" />
+	<dataset file="atin" connection="MySQL:mysql.waisman.wisc.edu/wtp_data" tablename="data_at_in" />
+	<dataset file="atph" connection="MySQL:mysql.waisman.wisc.edu/wtp_data" tablename="data_at_ph" />
+	<dataset file="atsl" connection="MySQL:mysql.waisman.wisc.edu/wtp_data" tablename="data_at_sl" />
+	<dataset file="athbpb" connection="MySQL:mysql.waisman.wisc.edu/wtp_data" tablename="data_at_hb_pb" />
+	<dataset file="atdem" connection="MySQL:mysql.waisman.wisc.edu/wtp_data" tablename="data_at_dem" />
+	<dataset file="atsp" connection="MySQL:mysql.waisman.wisc.edu/wtp_data" tablename="data_at_sp" />
+	<key name="Family Id" entryset="Visual Attention Date" filename="atdates" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,gen_family,familyid" />
+	<key name="Data Mode" entryset="Visual Attention Date" filename="atdates" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Datamode,Entry:Entry,Check:Check" />
+	<componentset name="Background" abrv="bground" numcols="2" displayheader="true" header="Background">
+		<datafield name="Date" entryset="Visual Attention Date" filename="build\dataset\atdates.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350068823068" options="" />
+		<datafield name="Date of Birth" entryset="Visual Attention Background" filename="build\dataset\atin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350068823305" options="" />
+		<datafield name="Age" entryset="Visual Attention Background" filename="build\dataset\atin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350239453160" options="" />
+		<datafield name="Respondent" entryset="Visual Attention Background" filename="build\dataset\atin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350239453161" options="" />
+		<datafield name="Gender" entryset="Visual Attention Background" filename="build\dataset\atin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350239453162" options="" />
+	</componentset>
+	<componentset name="Physical" abrv="ph" numcols="2" displayheader="true" header="Physical">
+		<datafield name="Height" entryset="Visual Attention PH" filename="build\dataset\atph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350239453163" options="" />
+		<datafield name="Weight" entryset="Visual Attention PH" filename="build\dataset\atph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350239453164" options="" />
+		<datafield name="Write" entryset="Visual Attention PH" filename="build\dataset\atph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350239453173" options="" />
+		<datafield name="Draw" entryset="Visual Attention PH" filename="build\dataset\atph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350239453174" options="" />
+		<datafield name="Throw" entryset="Visual Attention PH" filename="build\dataset\atph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350239453175" options="" />
+		<datafield name="Taking Drugs?" entryset="Visual Attention PH" filename="build\dataset\atph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350239453176" options="" />
+		<datafield name="Drug Name 1" entryset="Visual Attention PH" filename="build\dataset\atph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298446" options="" />
+		<datafield name="Drug Reason 1" entryset="Visual Attention PH" filename="build\dataset\atph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298447" options="" />
+		<datafield name="Drug Duration 1" entryset="Visual Attention PH" filename="build\dataset\atph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298448" options="" />
+		<datafield name="Drug Name 2" entryset="Visual Attention PH" filename="build\dataset\atph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298449" options="" />
+		<datafield name="Drug Reason 2" entryset="Visual Attention PH" filename="build\dataset\atph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298450" options="" />
+		<datafield name="Drug Duration 2" entryset="Visual Attention PH" filename="build\dataset\atph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298451" options="" />
+		<datafield name="Drug Name 3" entryset="Visual Attention PH" filename="build\dataset\atph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298452" options="" />
+		<datafield name="Drug Reason 3" entryset="Visual Attention PH" filename="build\dataset\atph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298453" options="" />
+		<datafield name="Drug Duration 3" entryset="Visual Attention PH" filename="build\dataset\atph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298454" options="" />
+		<datafield name="Drug Name 4" entryset="Visual Attention PH" filename="build\dataset\atph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298455" options="" />
+		<datafield name="Drug Reason 4" entryset="Visual Attention PH" filename="build\dataset\atph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298456" options="" />
+		<datafield name="Drug Duration 4" entryset="Visual Attention PH" filename="build\dataset\atph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298457" options="" />
+		<datafield name="Drug Name 5" entryset="Visual Attention PH" filename="build\dataset\atph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298458" options="" />
+		<datafield name="Drug Reason 5" entryset="Visual Attention PH" filename="build\dataset\atph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298459" options="" />
+		<datafield name="Drug Duration 5" entryset="Visual Attention PH" filename="build\dataset\atph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298460" options="" />
+		<datafield name="6ADHD" entryset="Visual Attention PH" filename="build\dataset\atph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298488" options="" />
+		<datafield name="7Anx" entryset="Visual Attention PH" filename="build\dataset\atph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298489" options="" />
+		<datafield name="8OCD" entryset="Visual Attention PH" filename="build\dataset\atph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298490" options="" />
+		<datafield name="9OtherPsych" entryset="Visual Attention PH" filename="build\dataset\atph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298491" options="" />
+		<datafield name="9OtherExplain" entryset="Visual Attention PH" filename="build\dataset\atph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298492" options="" />
+		<datafield name="10Seizures" entryset="Visual Attention PH" filename="build\dataset\atph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298493" options="" />
+		<datafield name="11Stroke" entryset="Visual Attention PH" filename="build\dataset\atph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298494" options="" />
+		<datafield name="12Visual" entryset="Visual Attention PH" filename="build\dataset\atph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298495" options="" />
+		<datafield name="13OtherVisual" entryset="Visual Attention PH" filename="build\dataset\atph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298496" options="" />
+		<datafield name="13OtherExplain" entryset="Visual Attention PH" filename="build\dataset\atph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298497" options="" />
+		<datafield name="14Migraines" entryset="Visual Attention PH" filename="build\dataset\atph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298498" options="" />
+		<datafield name="15OtherNeur" entryset="Visual Attention PH" filename="build\dataset\atph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298499" options="" />
+		<datafield name="15OtherNeurExp" entryset="Visual Attention PH" filename="build\dataset\atph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298500" options="" />
+		<datafield name="16Cancer" entryset="Visual Attention PH" filename="build\dataset\atph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298501" options="" />
+		<datafield name="16CancerExplain" entryset="Visual Attention PH" filename="build\dataset\atph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298502" options="" />
+		<datafield name="17Chronic" entryset="Visual Attention PH" filename="build\dataset\atph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298503" options="" />
+		<datafield name="17ChronicExp" entryset="Visual Attention PH" filename="build\dataset\atph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298504" options="" />
+		<datafield name="18Hearing" entryset="Visual Attention PH" filename="build\dataset\atph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298505" options="" />
+		<datafield name="19Dyslexia" entryset="Visual Attention PH" filename="build\dataset\atph.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298506" options="" />
+		<datafield name="20OtherInfo" entryset="Visual Attention PH" filename="build\dataset\atph.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1350318298507" options="" />
+	</componentset>
+	<componentset name="Sleep" abrv="sl" numcols="2" displayheader="true" header="Sleep">
+		<datafield name="1SitRead" entryset="Visual Attention SL" filename="build\dataset\atsl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298555" options="" />
+		<datafield name="2WatchTV" entryset="Visual Attention SL" filename="build\dataset\atsl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298556" options="" />
+		<datafield name="3SitInactive" entryset="Visual Attention SL" filename="build\dataset\atsl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298557" options="" />
+		<datafield name="4PassengerCar" entryset="Visual Attention SL" filename="build\dataset\atsl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298558" options="" />
+		<datafield name="5LyingDown" entryset="Visual Attention SL" filename="build\dataset\atsl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298559" options="" />
+		<datafield name="6SitTalk" entryset="Visual Attention SL" filename="build\dataset\atsl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298560" options="" />
+		<datafield name="7SitQuietly" entryset="Visual Attention SL" filename="build\dataset\atsl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298561" options="" />
+		<datafield name="8DoHomework" entryset="Visual Attention SL" filename="build\dataset\atsl.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298562" options="" />
+	</componentset>
+	<componentset name="Behavior" abrv="hbpb" numcols="2" displayheader="true" header="Behavior">
+		<datafield name="1Fidgets" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298563" options="" />
+		<datafield name="2Worries" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298564" options="" />
+		<datafield name="3Temper" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298565" options="" />
+		<datafield name="4Mad" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298566" options="" />
+		<datafield name="5Worries" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298567" options="" />
+		<datafield name="6Steals" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298568" options="" />
+		<datafield name="7TroubleSleep" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298569" options="" />
+		<datafield name="8CantStay" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298570" options="" />
+		<datafield name="9PastBehavior" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298571" options="" />
+		<datafield name="10Solitary" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298572" options="" />
+		<datafield name="11ArguesAdults" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298573" options="" />
+		<datafield name="12ArguesKids" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298574" options="" />
+		<datafield name="13Separated" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298575" options="" />
+		<datafield name="14Nervous" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298576" options="" />
+		<datafield name="15Lies" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298577" options="" />
+		<datafield name="16NoFun" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298578" options="" />
+		<datafield name="17SleepsMore" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298579" options="" />
+		<datafield name="18Threatens" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298580" options="" />
+		<datafield name="19Inpulsive" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298581" options="" />
+		<datafield name="20Tries" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298582" options="" />
+		<datafield name="21Distractable" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298583" options="" />
+		<datafield name="22Crying" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298584" options="" />
+		<datafield name="23Teases" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298585" options="" />
+		<datafield name="24Quiet" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298586" options="" />
+		<datafield name="25DoBetter" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298587" options="" />
+		<datafield name="26Defiant" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298588" options="" />
+		<datafield name="27AvoidsSchool" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298589" options="" />
+		<datafield name="28Shove" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298590" options="" />
+		<datafield name="29Vandalizes" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298591" options="" />
+		<datafield name="30Prefers" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298592" options="" />
+		<datafield name="31Difficulty" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298593" options="" />
+		<datafield name="32Fires" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298594" options="" />
+		<datafield name="33Aches" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298595" options="" />
+		<datafield name="34Headache" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298596" options="" />
+		<datafield name="35Nausea" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298597" options="" />
+		<datafield name="36Stomach" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298598" options="" />
+		<datafield name="37Tells" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298599" options="" />
+		<datafield name="38Annoy" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298600" options="" />
+		<datafield name="39Scared" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298601" options="" />
+		<datafield name="40Cruel" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298602" options="" />
+		<datafield name="41Alone" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298603" options="" />
+		<datafield name="42Tease" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298604" options="" />
+		<datafield name="43Interrupts" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298605" options="" />
+		<datafield name="44SelfConscious" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298606" options="" />
+		<datafield name="45Blames" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298607" options="" />
+		<datafield name="46Avoids" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298608" options="" />
+		<datafield name="47Physically" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298609" options="" />
+		<datafield name="48Shy" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298610" options="" />
+		<datafield name="49Difficulty" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298611" options="" />
+		<datafield name="50Tells" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298612" options="" />
+		<datafield name="51Needs" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298613" options="" />
+		<datafield name="52Tricks" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298614" options="" />
+		<datafield name="53Easily" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298615" options="" />
+		<datafield name="54Nervous" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298616" options="" />
+		<datafield name="55Nightmares" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298617" options="" />
+		<datafield name="56Threatens" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298618" options="" />
+		<datafield name="57Bothered" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298619" options="" />
+		<datafield name="58Unfamiliar" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298620" options="" />
+		<datafield name="59Concentrate" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298621" options="" />
+		<datafield name="60NotGood" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298622" options="" />
+		<datafield name="61Nervous" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298623" options="" />
+		<datafield name="62Nothing" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298624" options="" />
+		<datafield name="63Angry" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298625" options="" />
+		<datafield name="64Avoids" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298626" options="" />
+		<datafield name="65Complains" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298746" options="" />
+		<datafield name="66LovesHim" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298747" options="" />
+		<datafield name="67Uncomfortable" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298748" options="" />
+		<datafield name="68Trip" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298749" options="" />
+		<datafield name="69Destroys" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298750" options="" />
+		<datafield name="70Worthless" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298751" options="" />
+		<datafield name="71Jumps" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298752" options="" />
+		<datafield name="72Overly" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298753" options="" />
+		<datafield name="73Gets" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298754" options="" />
+		<datafield name="74Nervous" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298755" options="" />
+		<datafield name="75Unhappy" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298756" options="" />
+		<datafield name="76Destroys" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298757" options="" />
+		<datafield name="77Tends" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298758" options="" />
+		<datafield name="78Underactive" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298759" options="" />
+		<datafield name="79Verbally" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298760" options="" />
+		<datafield name="80Difficulty" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298761" options="" />
+		<datafield name="81Overly" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298762" options="" />
+		<datafield name="82Swears" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298763" options="" />
+		<datafield name="83Keeps" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298764" options="" />
+		<datafield name="84Afraid" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298765" options="" />
+		<datafield name="85Tries" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298766" options="" />
+		<datafield name="86Disobedient" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298767" options="" />
+		<datafield name="87Afraid" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298768" options="" />
+		<datafield name="88Talks" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298769" options="" />
+		<datafield name="89Hits" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298770" options="" />
+		<datafield name="90Nervous" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298771" options="" />
+		<datafield name="91Cries" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298772" options="" />
+		<datafield name="92Bullies" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298773" options="" />
+		<datafield name="93Tells" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298774" options="" />
+		<datafield name="94Lonely" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298775" options="" />
+		<datafield name="95Interrupts" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298776" options="" />
+		<datafield name="96Afraid" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298777" options="" />
+		<datafield name="97Gets" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298778" options="" />
+		<datafield name="98Withdraws" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298779" options="" />
+		<datafield name="99Uses" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298780" options="" />
+		<datafield name="100Smile" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298781" options="" />
+		<datafield name="101Listen" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298782" options="" />
+		<datafield name="102Loses" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298783" options="" />
+		<datafield name="103Dangerous" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298784" options="" />
+		<datafield name="104Feels" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298785" options="" />
+		<datafield name="105Cranky" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298786" options="" />
+		<datafield name="106Truancy" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298787" options="" />
+		<datafield name="107Broken" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298788" options="" />
+		<datafield name="108Overtired" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298789" options="" />
+		<datafield name="109Run" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298790" options="" />
+		<datafield name="110When" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298791" options="" />
+		<datafield name="111Spreads" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298792" options="" />
+		<datafield name="112Fails" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298793" options="" />
+		<datafield name="113Tries" entryset="Visual Attention HBPB" filename="build\dataset\athbpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298794" options="" />
+	</componentset>
+	<componentset name="Demographics" abrv="dem" numcols="2" displayheader="true" header="Demographics">
+		<datafield name="Mother's Race" entryset="Visual Attention Dem" filename="build\dataset\atdem.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298795" options="" />
+		<datafield name="Father's Race" entryset="Visual Attention Dem" filename="build\dataset\atdem.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298796" options="" />
+		<datafield name="Ethnic Mother" entryset="Visual Attention Dem" filename="build\dataset\atdem.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298797" options="" />
+		<datafield name="Ethnic Father" entryset="Visual Attention Dem" filename="build\dataset\atdem.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298798" options="" />
+		<datafield name="Mat Grandmothers Race" entryset="Visual Attention Dem" filename="build\dataset\atdem.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298799" options="" />
+		<datafield name="Mat Grandfathers Race" entryset="Visual Attention Dem" filename="build\dataset\atdem.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298800" options="" />
+		<datafield name="Mat Grandmother Ethnic" entryset="Visual Attention Dem" filename="build\dataset\atdem.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298801" options="" />
+		<datafield name="Mat Grandfather Ethnic" entryset="Visual Attention Dem" filename="build\dataset\atdem.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298802" options="" />
+		<datafield name="Pat Grandmother Race" entryset="Visual Attention Dem" filename="build\dataset\atdem.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298803" options="" />
+		<datafield name="Pat Grandfather Race" entryset="Visual Attention Dem" filename="build\dataset\atdem.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298804" options="" />
+		<datafield name="Pat Grandmother Ethnic" entryset="Visual Attention Dem" filename="build\dataset\atdem.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298805" options="" />
+		<datafield name="Pat Grandfather Ethnic" entryset="Visual Attention Dem" filename="build\dataset\atdem.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298806" options="" />
+		<datafield name="Income" entryset="Visual Attention Dem" filename="build\dataset\atdem.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298807" options="" />
+		<datafield name="Adults" entryset="Visual Attention Dem" filename="build\dataset\atdem.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298808" options="" />
+		<datafield name="Children" entryset="Visual Attention Dem" filename="build\dataset\atdem.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298809" options="" />
+	</componentset>
+	<componentset name="Tests" abrv="tests" numcols="2" displayheader="true" header="Tests">
+		<datafield name="Grade" entryset="Visual Attention SP" filename="build\dataset\atsp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298993" options="" />
+		<datafield name="Student Reading" entryset="Visual Attention SP" filename="build\dataset\atsp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298994" options="" />
+		<datafield name="State Reading" entryset="Visual Attention SP" filename="build\dataset\atsp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298995" options="" />
+		<datafield name="Student LA" entryset="Visual Attention SP" filename="build\dataset\atsp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298996" options="" />
+		<datafield name="State LA" entryset="Visual Attention SP" filename="build\dataset\atsp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298997" options="" />
+		<datafield name="Student Math" entryset="Visual Attention SP" filename="build\dataset\atsp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298998" options="" />
+		<datafield name="State Math" entryset="Visual Attention SP" filename="build\dataset\atsp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318298999" options="" />
+		<datafield name="Student Science" entryset="Visual Attention SP" filename="build\dataset\atsp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318299000" options="" />
+		<datafield name="State Science" entryset="Visual Attention SP" filename="build\dataset\atsp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318299001" options="" />
+		<datafield name="Student SS" entryset="Visual Attention SP" filename="build\dataset\atsp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318299002" options="" />
+		<datafield name="State SS" entryset="Visual Attention SP" filename="build\dataset\atsp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1350318299003" options="" />
+		<datafield name="Extra Information" entryset="Visual Attention Dem" filename="build\dataset\atdem.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="9990318298809" options="" />
+	</componentset>
+</form>
+

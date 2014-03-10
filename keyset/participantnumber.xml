@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE keyset SYSTEM "../../dtd/keyset.dtd">
+<keyset name="participantnumber">
+	<key name="Participant Number" field="partno" template="na" validator="INTEGER" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+</keyset>
+

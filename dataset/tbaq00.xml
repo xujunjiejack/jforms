@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Toddler Behavior Assessment Quesionnaire - 2000" abrv="tbaq00" filename="tbaq00">
+	<template name="temp1">
+		<name format="" />
+		<field format="" />
+		<subsetname format="" />
+		<subsetfield format="tb@" />
+	</template>
+</dataset>
+

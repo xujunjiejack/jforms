@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Digit Span Subtest" abrv="p4digitspansubtest" filename="p4digitspansubtest">
+	<dataset file="digitexaminer" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_DI_T" />
+	<dataset file="digitsforward" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_DI_T" />
+	<dataset file="digitsbackward" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_DI_T" />
+	<dataset file="totaldigitspanscore" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_DI_T" />
+	<key name="Family Id" entryset="Digit Examiner" filename="digitexaminer" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Twin" entryset="Digit Examiner" filename="digitexaminer" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Twin,A:1,B:2" />
+	<key name="Data Mode" entryset="Digit Examiner" filename="digitexaminer" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="Digits Forward" abrv="digitsforward" numcols="2" displayheader="true" header="Digits Forward">
+		<datafield name="Examiner" entryset="Digit Examiner" filename="build\dataset\digitexaminer.xml" type="0" class="com.wtp.jforms.ui.control.smart.ComboFieldBox" editable="true" classid="1200005345497" options="0,Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_STAFF,number" />
+		<datafield name="Item 1 Trial 1 Score" entryset="Digits Forward" filename="build\dataset\digitsforward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345501" options="" />
+		<datafield name="Item 1 Trial 2 Score" entryset="Digits Forward" filename="build\dataset\digitsforward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345502" options="" />
+		<datafield name="Item 1 Item Score" entryset="Digits Forward" filename="build\dataset\digitsforward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345503" options="" />
+		<datafield name="Item 2 Trial 2 Score" entryset="Digits Forward" filename="build\dataset\digitsforward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345505" options="" />
+		<datafield name="Item 2 Trial 1 Score" entryset="Digits Forward" filename="build\dataset\digitsforward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345504" options="" />
+		<datafield name="Item 2 Item Score" entryset="Digits Forward" filename="build\dataset\digitsforward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345506" options="" />
+		<datafield name="Item 3 Trial 1 Score" entryset="Digits Forward" filename="build\dataset\digitsforward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345507" options="" />
+		<datafield name="Item 3 Trial 2 Score" entryset="Digits Forward" filename="build\dataset\digitsforward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345508" options="" />
+		<datafield name="Item 3 Item Score" entryset="Digits Forward" filename="build\dataset\digitsforward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345509" options="" />
+		<datafield name="Item 4 Trial 1 Score" entryset="Digits Forward" filename="build\dataset\digitsforward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345510" options="" />
+		<datafield name="Item 4 Trial 2 Score" entryset="Digits Forward" filename="build\dataset\digitsforward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345511" options="" />
+		<datafield name="Item 4 Item Score" entryset="Digits Forward" filename="build\dataset\digitsforward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345512" options="" />
+		<datafield name="Item 5 Trial 1 Score" entryset="Digits Forward" filename="build\dataset\digitsforward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345528" options="" />
+		<datafield name="Item 5 Trial 2 Score" entryset="Digits Forward" filename="build\dataset\digitsforward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345529" options="" />
+		<datafield name="Item 5 Item Score" entryset="Digits Forward" filename="build\dataset\digitsforward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345530" options="" />
+		<datafield name="Item 6 Trial 1 Score" entryset="Digits Forward" filename="build\dataset\digitsforward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345549" options="" />
+		<datafield name="Item 6 Trial 2 Score" entryset="Digits Forward" filename="build\dataset\digitsforward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345550" options="" />
+		<datafield name="Item 6 Item Score" entryset="Digits Forward" filename="build\dataset\digitsforward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345551" options="" />
+		<datafield name="Item 7 Trial 1 Score" entryset="Digits Forward" filename="build\dataset\digitsforward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345552" options="" />
+		<datafield name="Item 7 Trial 2 Score" entryset="Digits Forward" filename="build\dataset\digitsforward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345553" options="" />
+		<datafield name="Item 7 Item Score" entryset="Digits Forward" filename="build\dataset\digitsforward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345554" options="" />
+		<datafield name="Item 8 Trial 1 Score" entryset="Digits Forward" filename="build\dataset\digitsforward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345555" options="" />
+		<datafield name="Item 8 Trial 2 Score" entryset="Digits Forward" filename="build\dataset\digitsforward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345556" options="" />
+		<datafield name="Item 8 Item Score" entryset="Digits Forward" filename="build\dataset\digitsforward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345557" options="" />
+		<datafield name="Digits Forward Score" entryset="Digits Forward" filename="build\dataset\digitsforward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345585" options="" />
+	</componentset>
+	<componentset name="Digits Backward" abrv="digitsbackward" numcols="2" displayheader="true" header="Digits Backward">
+		<datafield name="Item 1 Trial 1 Score" entryset="Digits Backward" filename="build\dataset\digitsbackward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345620" options="" />
+		<datafield name="Item 1 Trial 2 Score" entryset="Digits Backward" filename="build\dataset\digitsbackward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345621" options="" />
+		<datafield name="Item 1 Item Score" entryset="Digits Backward" filename="build\dataset\digitsbackward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345622" options="" />
+		<datafield name="Item 2 Trial 1 Score" entryset="Digits Backward" filename="build\dataset\digitsbackward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345641" options="" />
+		<datafield name="Item 2 Trial 2 Score" entryset="Digits Backward" filename="build\dataset\digitsbackward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345642" options="" />
+		<datafield name="Item 2 Item Score" entryset="Digits Backward" filename="build\dataset\digitsbackward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345643" options="" />
+		<datafield name="Item 3 Trial 1 Score" entryset="Digits Backward" filename="build\dataset\digitsbackward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345644" options="" />
+		<datafield name="Item 3 Trial 2 Score" entryset="Digits Backward" filename="build\dataset\digitsbackward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345645" options="" />
+		<datafield name="Item 3 Item Score" entryset="Digits Backward" filename="build\dataset\digitsbackward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345646" options="" />
+		<datafield name="Item 4 Trial 1 Score" entryset="Digits Backward" filename="build\dataset\digitsbackward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345647" options="" />
+		<datafield name="Item 4 Trial 2 Score" entryset="Digits Backward" filename="build\dataset\digitsbackward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345648" options="" />
+		<datafield name="Item 4 Item Score" entryset="Digits Backward" filename="build\dataset\digitsbackward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345649" options="" />
+		<datafield name="Item 5 Trial 1 Score" entryset="Digits Backward" filename="build\dataset\digitsbackward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345650" options="" />
+		<datafield name="Item 5 Trial 2 Score" entryset="Digits Backward" filename="build\dataset\digitsbackward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345651" options="" />
+		<datafield name="Item 5 Item Score" entryset="Digits Backward" filename="build\dataset\digitsbackward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345652" options="" />
+		<datafield name="Item 6 Trial 1 Score" entryset="Digits Backward" filename="build\dataset\digitsbackward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345653" options="" />
+		<datafield name="Item 6 Trial 2 Score" entryset="Digits Backward" filename="build\dataset\digitsbackward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345654" options="" />
+		<datafield name="Item 6 Item Score" entryset="Digits Backward" filename="build\dataset\digitsbackward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345655" options="" />
+		<datafield name="Item 7 Trial 1 Score" entryset="Digits Backward" filename="build\dataset\digitsbackward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345656" options="" />
+		<datafield name="Item 7 Trial 2 Score" entryset="Digits Backward" filename="build\dataset\digitsbackward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345657" options="" />
+		<datafield name="Item 7 Item Score" entryset="Digits Backward" filename="build\dataset\digitsbackward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345658" options="" />
+		<datafield name="Digits Backward Score" entryset="Digits Backward" filename="build\dataset\digitsbackward.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345659" options="" />
+		<datafield name="Total Digit Span Score" entryset="Total Digit Span Score" filename="build\dataset\totaldigitspanscore.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200005345662" options="" />
+	</componentset>
+</form>
+

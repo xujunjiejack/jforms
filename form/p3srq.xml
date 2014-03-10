@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="SRQ Puppet Interview" abrv="p3srq" filename="p3srq">
+	<dataset file="scgi" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_SC_T" />
+	<dataset file="sctester" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_SC_T" />
+	<dataset file="bppa" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_BP_PP_T" />
+	<dataset file="bpps" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_BP_PP_T" />
+	<dataset file="scmp" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_SC_T" />
+	<dataset file="bpbu" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_BP_PP_T" />
+	<dataset file="scdb" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_SC_T" />
+	<dataset file="scdo" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_SC_T" />
+	<dataset file="scpp" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_SC_T" />
+	<dataset file="sccn" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_SC_T" />
+	<dataset file="scan" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_SC_T" />
+	<dataset file="scsi" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_SC_T" />
+	<dataset file="scps" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_SC_T" />
+	<dataset file="bpso" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_BP_PP_T" />
+	<dataset file="scct" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_SC_T" />
+	<dataset file="scaf" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_SC_T" />
+	<dataset file="scqu" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_SC_T" />
+	<dataset file="bpmisc" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_BP_PP_T" />
+	<key name="Family Id" entryset="Global Impression Ratings" filename="scgi" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Twin" entryset="Global Impression Ratings" filename="scgi" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Twin,A:1,B:2" />
+	<key name="Data Mode" entryset="Global Impression Ratings" filename="scgi" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="SRQ" abrv="srq" numcols="2" displayheader="true" header="SRQ">
+		<datafield name="Episode order" entryset="Tester" filename="build\dataset\sctester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475579" options="" />
+		<datafield name="Scorer" entryset="Tester" filename="build\dataset\sctester.xml" type="0" class="com.wtp.jforms.ui.control.smart.ComboFieldBox" editable="true" classid="1052931475578" options="0,Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_STAFF,number" />
+		<datafield name="Child tester" entryset="Tester" filename="build\dataset\sctester.xml" type="0" class="com.wtp.jforms.ui.control.smart.ComboFieldBox" editable="true" classid="1052931475580" options="0,Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_STAFF,number" />
+		<datafield name="Baseline" entryset="Tester" filename="build\dataset\sctester.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475581" options="" />
+		<datafield name="1" entryset="Peer Accptance and Rejection" filename="build\dataset\bppa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252904976" options="" />
+		<datafield name="1c" entryset="Peer Accptance and Rejection" filename="build\dataset\bppa.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252904977" options="" />
+		<datafield name="2" entryset="Prosocial Behaviors" filename="build\dataset\bpps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252905023" options="" />
+		<datafield name="2c" entryset="Prosocial Behaviors" filename="build\dataset\bpps.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252905024" options="" />
+		<datafield name="3" entryset="Prosocial Behaviors" filename="build\dataset\bpps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252905019" options="" />
+		<datafield name="3c" entryset="Prosocial Behaviors" filename="build\dataset\bpps.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252905020" options="" />
+		<datafield name="4" entryset="Maternal Partiality" filename="build\dataset\scmp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252905089" options="" />
+		<datafield name="4c" entryset="Maternal Partiality" filename="build\dataset\scmp.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252905090" options="" />
+		<datafield name="5" entryset="Bulied" filename="build\dataset\bpbu.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252904995" options="" />
+		<datafield name="5c" entryset="Bulied" filename="build\dataset\bpbu.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252904996" options="" />
+		<datafield name="6" entryset="Dominance by Sibling" filename="build\dataset\scdb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252905107" options="" />
+		<datafield name="6c" entryset="Dominance by Sibling" filename="build\dataset\scdb.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252905108" options="" />
+		<datafield name="7" entryset="Peer Accptance and Rejection" filename="build\dataset\bppa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252904978" options="" />
+		<datafield name="7c" entryset="Peer Accptance and Rejection" filename="build\dataset\bppa.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252904979" options="" />
+		<datafield name="8" entryset="Dominance of Sibling" filename="build\dataset\scdo.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252905098" options="" />
+		<datafield name="8c" entryset="Dominance of Sibling" filename="build\dataset\scdo.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252905099" options="" />
+		<datafield name="9" entryset="Paternal Partiality" filename="build\dataset\scpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252905116" options="" />
+		<datafield name="9c" entryset="Paternal Partiality" filename="build\dataset\scpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252905117" options="" />
+		<datafield name="10" entryset="Companionship" filename="build\dataset\sccn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252905132" options="" />
+		<datafield name="10c" entryset="Companionship" filename="build\dataset\sccn.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252905133" options="" />
+		<datafield name="11" entryset="Peer Accptance and Rejection" filename="build\dataset\bppa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252904980" options="" />
+		<datafield name="11c" entryset="Peer Accptance and Rejection" filename="build\dataset\bppa.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252904981" options="" />
+		<datafield name="12" entryset="Antagonism" filename="build\dataset\scan.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252905139" options="" />
+		<datafield name="12c" entryset="Antagonism" filename="build\dataset\scan.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252905140" options="" />
+		<datafield name="13" entryset="Prosocial Behaviors" filename="build\dataset\bpps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252905021" options="" />
+		<datafield name="13c" entryset="Prosocial Behaviors" filename="build\dataset\bpps.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252905022" options="" />
+		<datafield name="14" entryset="Similarity" filename="build\dataset\scsi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252905144" options="" />
+		<datafield name="14c" entryset="Similarity" filename="build\dataset\scsi.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252905145" options="" />
+		<datafield name="15" entryset="Prosocial" filename="build\dataset\scps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252905080" options="" />
+		<datafield name="15c" entryset="Prosocial" filename="build\dataset\scps.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252905081" options="" />
+		<datafield name="15p" entryset="Prosocial" filename="build\dataset\scps.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252906577" options="" />
+		<datafield name="16" entryset="Social Inhibition" filename="build\dataset\bpso.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252905000" options="" />
+		<datafield name="16c" entryset="Social Inhibition" filename="build\dataset\bpso.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252905001" options="" />
+		<datafield name="17" entryset="Competition" filename="build\dataset\scct.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252905151" options="" />
+		<datafield name="17c" entryset="Competition" filename="build\dataset\scct.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252905152" options="" />
+		<datafield name="18" entryset="Peer Accptance and Rejection" filename="build\dataset\bppa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252904982" options="" />
+		<datafield name="18c" entryset="Peer Accptance and Rejection" filename="build\dataset\bppa.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252904983" options="" />
+		<datafield name="19" entryset="Prosocial" filename="build\dataset\scps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252905082" options="" />
+		<datafield name="19c" entryset="Prosocial" filename="build\dataset\scps.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252905083" options="" />
+		<datafield name="20" entryset="Maternal Partiality" filename="build\dataset\scmp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252905091" options="" />
+		<datafield name="20c" entryset="Maternal Partiality" filename="build\dataset\scmp.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252905092" options="" />
+		<datafield name="21" entryset="Dominance by Sibling" filename="build\dataset\scdb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252905109" options="" />
+		<datafield name="21c" entryset="Dominance by Sibling" filename="build\dataset\scdb.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252905110" options="" />
+		<datafield name="22" entryset="Social Inhibition" filename="build\dataset\bpso.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252905004" options="" />
+		<datafield name="22c" entryset="Social Inhibition" filename="build\dataset\bpso.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252905005" options="" />
+		<datafield name="23" entryset="Dominance of Sibling" filename="build\dataset\scdo.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252905100" options="" />
+		<datafield name="23c" entryset="Dominance of Sibling" filename="build\dataset\scdo.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252905101" options="" />
+		<datafield name="24" entryset="Social Inhibition" filename="build\dataset\bpso.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252905002" options="" />
+		<datafield name="24c" entryset="Social Inhibition" filename="build\dataset\bpso.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252905003" options="" />
+		<datafield name="25" entryset="Peer Accptance and Rejection" filename="build\dataset\bppa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252904984" options="" />
+		<datafield name="25c" entryset="Peer Accptance and Rejection" filename="build\dataset\bppa.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252904985" options="" />
+		<datafield name="26" entryset="Paternal Partiality" filename="build\dataset\scpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252905118" options="" />
+		<datafield name="26c" entryset="Paternal Partiality" filename="build\dataset\scpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252905119" options="" />
+		<datafield name="27" entryset="Social Inhibition" filename="build\dataset\bpso.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252905006" options="" />
+		<datafield name="27c" entryset="Social Inhibition" filename="build\dataset\bpso.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252905007" options="" />
+		<datafield name="28" entryset="Affection" filename="build\dataset\scaf.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252905127" options="" />
+		<datafield name="28c" entryset="Affection" filename="build\dataset\scaf.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252905128" options="" />
+		<datafield name="29" entryset="Social Inhibition" filename="build\dataset\bpso.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252905008" options="" />
+		<datafield name="29c" entryset="Social Inhibition" filename="build\dataset\bpso.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252905009" options="" />
+		<datafield name="30" entryset="Similarity" filename="build\dataset\scsi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252905146" options="" />
+		<datafield name="30c" entryset="Similarity" filename="build\dataset\scsi.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252905147" options="" />
+		<datafield name="31" entryset="Companionship" filename="build\dataset\sccn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252905134" options="" />
+		<datafield name="31c" entryset="Companionship" filename="build\dataset\sccn.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252905135" options="" />
+		<datafield name="31p" entryset="Companionship" filename="build\dataset\sccn.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252906585" options="" />
+		<datafield name="32" entryset="Competition" filename="build\dataset\scct.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252905153" options="" />
+		<datafield name="32c" entryset="Competition" filename="build\dataset\scct.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252905154" options="" />
+		<datafield name="33" entryset="Bulied" filename="build\dataset\bpbu.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252904989" options="" />
+		<datafield name="33c" entryset="Bulied" filename="build\dataset\bpbu.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252904990" options="" />
+		<datafield name="34" entryset="Quarreling" filename="build\dataset\scqu.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252905160" options="" />
+		<datafield name="34c" entryset="Quarreling" filename="build\dataset\scqu.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252905161" options="" />
+		<datafield name="35" entryset="Prosocial" filename="build\dataset\scps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252905084" options="" />
+		<datafield name="35c" entryset="Prosocial" filename="build\dataset\scps.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252905085" options="" />
+		<datafield name="36" entryset="Prosocial Behaviors" filename="build\dataset\bpps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252905013" options="" />
+		<datafield name="36c" entryset="Prosocial Behaviors" filename="build\dataset\bpps.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252905014" options="" />
+		<datafield name="37" entryset="Maternal Partiality" filename="build\dataset\scmp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252905093" options="" />
+		<datafield name="37c" entryset="Maternal Partiality" filename="build\dataset\scmp.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252905094" options="" />
+		<datafield name="38" entryset="Dominance of Sibling" filename="build\dataset\scdo.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252905102" options="" />
+		<datafield name="38c" entryset="Dominance of Sibling" filename="build\dataset\scdo.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252905103" options="" />
+		<datafield name="39" entryset="Dominance by Sibling" filename="build\dataset\scdb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252905111" options="" />
+		<datafield name="39c" entryset="Dominance by Sibling" filename="build\dataset\scdb.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252905112" options="" />
+		<datafield name="40" entryset="Bulied" filename="build\dataset\bpbu.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252904991" options="" />
+		<datafield name="40c" entryset="Bulied" filename="build\dataset\bpbu.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252904992" options="" />
+		<datafield name="41" entryset="Paternal Partiality" filename="build\dataset\scpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252905120" options="" />
+		<datafield name="41c" entryset="Paternal Partiality" filename="build\dataset\scpp.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252905121" options="" />
+		<datafield name="42" entryset="Affection" filename="build\dataset\scaf.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252905125" options="" />
+		<datafield name="42c" entryset="Affection" filename="build\dataset\scaf.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252905126" options="" />
+		<datafield name="43" entryset="Prosocial Behaviors" filename="build\dataset\bpps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252905015" options="" />
+		<datafield name="43c" entryset="Prosocial Behaviors" filename="build\dataset\bpps.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252905016" options="" />
+		<datafield name="44" entryset="Quarreling" filename="build\dataset\scqu.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252905158" options="" />
+		<datafield name="44c" entryset="Quarreling" filename="build\dataset\scqu.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252905159" options="" />
+		<datafield name="45" entryset="Bulied" filename="build\dataset\bpbu.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252904993" options="" />
+		<datafield name="45c" entryset="Bulied" filename="build\dataset\bpbu.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252904994" options="" />
+		<datafield name="46" entryset="Prosocial Behaviors" filename="build\dataset\bpps.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064252905017" options="" />
+		<datafield name="46c" entryset="Prosocial Behaviors" filename="build\dataset\bpps.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252905018" options="" />
+		<datafield name="End Interview" entryset="misc" filename="build\dataset\bpmisc.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064252905193" options="" />
+	</componentset>
+	<componentset name="Global Impression Ratings" abrv="gi" numcols="2" displayheader="true" header="Global Impression Ratings">
+		<datafield name="1" entryset="Global Impression Ratings" filename="build\dataset\scgi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685822" options="" />
+		<datafield name="2" entryset="Global Impression Ratings" filename="build\dataset\scgi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685823" options="" />
+		<datafield name="3" entryset="Global Impression Ratings" filename="build\dataset\scgi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685824" options="" />
+		<datafield name="4" entryset="Global Impression Ratings" filename="build\dataset\scgi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685825" options="" />
+		<datafield name="5" entryset="Global Impression Ratings" filename="build\dataset\scgi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685826" options="" />
+		<datafield name="6" entryset="Global Impression Ratings" filename="build\dataset\scgi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685827" options="" />
+		<datafield name="7" entryset="Global Impression Ratings" filename="build\dataset\scgi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685828" options="" />
+		<datafield name="8" entryset="Global Impression Ratings" filename="build\dataset\scgi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685829" options="" />
+		<datafield name="9" entryset="Global Impression Ratings" filename="build\dataset\scgi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685830" options="" />
+		<datafield name="10" entryset="Global Impression Ratings" filename="build\dataset\scgi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1063915685831" options="" />
+		<datafield name="11" entryset="Global Impression Ratings" filename="build\dataset\scgi.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1063915685832" options="" />
+	</componentset>
+</form>
+

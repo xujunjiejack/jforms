@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE validator SYSTEM "../../dtd/validator.dtd">
+<validator name="hospital_H_R" type="VARCHAR" defaultvalue="9998" allowblanks="false" lowerbound="2147483647" upperbound="2147483647">
+	<valid value="H" />
+	<valid value="R" />
+	<valid value="9999" />
+	<valid value="9998" />
+</validator>
+

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="SPD Rating Scale" abrv="spdratingscale" filename="spdratingscale">
+	<template name="temp">
+		<name format="" />
+		<field format="sd@" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<validator name="val14_9980_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="9980" upperbound="9999">
+		<valid value="1" />
+		<valid value="2" />
+		<valid value="3" />
+		<valid value="4" />
+	</validator>
+	<validator name="val12_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="2">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="yesno01_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="1">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<key name="Twin" field="twin" template="na" validator="INTEGER" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<data name="Affect: Yarn Tangle" field="ytaf3" template="temp" validator="val14_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233705901351" />
+	<data name="Affect: Snack" field="snaf" template="temp" validator="val14_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233705901352" />
+	<data name="Affect: Free Play" field="fpaf3" template="temp" validator="val14_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233705901353" />
+	<data name="Affect: Balloon Bop" field="bbaf" template="temp" validator="val14_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233705901354" />
+	<data name="Affect: Mask" field="maaf3" template="temp" validator="val14_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233705901355" />
+	<data name="Confident: Yarn Tangle" field="ytcn3" template="temp" validator="val14_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233705901356" />
+	<data name="Confident: Snack" field="sncn" template="temp" validator="val14_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233705901357" />
+	<data name="Confident: Free Play" field="fpcn3" template="temp" validator="val14_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233705901358" />
+	<data name="Confident: Balloon Bop" field="bbcn" template="temp" validator="val14_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233705901359" />
+	<data name="Confident: Mask" field="macn3" template="temp" validator="val14_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233705901360" />
+	<data name="Playful: Free Play" field="fppl3" template="temp" validator="val14_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233705901361" />
+	<data name="Playful: Balloon Bop" field="bbpl" template="temp" validator="val14_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233705901362" />
+	<data name="Proximity: View Master" field="vmpr" template="temp" validator="val14_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233705901363" />
+	<data name="Proximity: Snack" field="snpr3" template="temp" validator="val14_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233705901364" />
+	<data name="Communication: View Master" field="vmcm" template="temp" validator="val14_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233705901365" />
+	<data name="Communication: Snack" field="sncm3" template="temp" validator="val14_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233705901366" />
+	<data name="Engagement: View Master" field="vmen" template="temp" validator="val14_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233705901386" />
+	<data name="Engagement: Snack" field="snen3" template="temp" validator="val14_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233705901387" />
+	<data name="Problem Solving: View Master" field="vmps" template="temp" validator="val14_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233705901388" />
+	<data name="Problem Solving: Snack" field="snps3" template="temp" validator="val14_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233705901389" />
+	<data name="Persistence: Yarn Tangle" field="ytps3" template="temp" validator="val14_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233705901390" />
+	<data name="Behavior Inhibition: View Master" field="vmbi" template="temp" validator="val14_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233705901391" />
+	<data name="Behavior Inhibition: Yarn Tangle" field="ytbi3" template="temp" validator="val14_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233705901392" />
+	<data name="Behavior Inhibition: Snack" field="snbi3" template="temp" validator="val14_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233705901393" />
+	<data name="Behavior Inhibition: Free Play" field="fpbi3" template="temp" validator="val14_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233705901394" />
+	<data name="Behavior Inhibition: Balloon Bop" field="bbbi3" template="temp" validator="val14_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233705901395" />
+	<data name="Behavior Inhibition: Mask" field="mabi3" template="temp" validator="val14_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233705901396" />
+	<data name="Behavior Inhibition: Palm Print" field="ppbi3" template="temp" validator="val14_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233705901397" />
+	<data name="Motor: Free Play" field="fpmo3" template="temp" validator="val14_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233705901398" />
+	<data name="Motor: Balloon Bop" field="bbmo3" template="temp" validator="val14_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233705901399" />
+	<data name="Postural: Free Play" field="fppo3" template="temp" validator="val14_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233705901400" />
+	<data name="Postural: Balloon Bop" field="bbpo3" template="temp" validator="val14_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233705901401" />
+	<data name="Ideation: Free Play" field="fpid3" template="temp" validator="val14_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233705901402" />
+	<data name="Sensory Responsivity: Palm Print" field="ppsr3" template="temp" validator="val14_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233705901403" />
+	<data name="Global Clinical Impression" field="gci3" template="temp" validator="val14_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233705901404" />
+	<data name="Comments" field="comments3" template="temp" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1233705901405" />
+	<data name="Special Flag" field="sf" template="temp" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233705901572" />
+	<data name="Special Flag Explain" field="sfex" template="temp" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1233705901573" />
+	<dependency field="Special Flag Explain">
+		<parent field="Special Flag" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+</dataset>
+

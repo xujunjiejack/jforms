@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE schema SYSTEM "../../dtd/schema.dtd">
+<schema name="Phase Three Demo Father Date of Birth" abrv="p3demofatherdob" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_DE_F" filename="p3demofatherdob">
+	<validator name="blankformat" type="VARCHAR" defaultvalue="" allowblanks="true" lowerbound="2147483647" upperbound="2147483647">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<key name="Family Id" field="familyid" template="na" validator="blankformat" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="Entry" />
+	<data name="P3 Father Date of Birth" field="de002f" template="na" validator="blankformat" dependencies="false" editable="false" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1048722290854" />
+</schema>
+

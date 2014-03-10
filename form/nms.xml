@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Neonatal Morbidity" abrv="nms" filename="nms">
+	<dataset file="nms" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_NM" />
+	<key name="Family Id" entryset="Neonatal Morbidity Scale" filename="nms" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Twin" entryset="Neonatal Morbidity Scale" filename="nms" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Twin,A:1,B:2" />
+	<key name="Data Mode" entryset="Neonatal Morbidity Scale" filename="nms" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="Neonatal Morbidity" abrv="nm" numcols="2" displayheader="true" header="Neonatal Morbidity">
+		<datafield name="Bradycardia" entryset="Neonatal Morbidity Scale" filename="build\dataset\nms.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045652526968" options="" />
+		<datafield name="Number of Days Bradycardia Spells" entryset="Neonatal Morbidity Scale" filename="build\dataset\nms.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045652526970" options="" />
+		<datafield name="Tachypnea" entryset="Neonatal Morbidity Scale" filename="build\dataset\nms.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045652526972" options="" />
+		<datafield name="Number of Days Tachypnea" entryset="Neonatal Morbidity Scale" filename="build\dataset\nms.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045652526974" options="" />
+		<datafield name="Apnea" entryset="Neonatal Morbidity Scale" filename="build\dataset\nms.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045652526976" options="" />
+		<datafield name="Apnea Treatment" entryset="Neonatal Morbidity Scale" filename="build\dataset\nms.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045652526978" options="" />
+		<datafield name="Number of Days Apnea" entryset="Neonatal Morbidity Scale" filename="build\dataset\nms.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045652526980" options="" />
+		<datafield name="Repiratory Distress Syndrome" entryset="Neonatal Morbidity Scale" filename="build\dataset\nms.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045652526982" options="" />
+		<datafield name="Repiratory Distress Syndrome Treatment" entryset="Neonatal Morbidity Scale" filename="build\dataset\nms.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045652526984" options="" />
+		<datafield name="Number of Days Repiratory Distress Syndrome" entryset="Neonatal Morbidity Scale" filename="build\dataset\nms.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045652526986" options="" />
+		<datafield name="Hyperbilirubinemia" entryset="Neonatal Morbidity Scale" filename="build\dataset\nms.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045652526988" options="" />
+		<datafield name="Hyperbilirubinemia Treatment" entryset="Neonatal Morbidity Scale" filename="build\dataset\nms.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045652526990" options="" />
+		<datafield name="Number of Days Hyperbilirubinemia" entryset="Neonatal Morbidity Scale" filename="build\dataset\nms.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045652526992" options="" />
+		<datafield name="Nil Per OS" entryset="Neonatal Morbidity Scale" filename="build\dataset\nms.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045652526994" options="" />
+		<datafield name="Number of Days Nil Per OS" entryset="Neonatal Morbidity Scale" filename="build\dataset\nms.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1045652526996" options="" />
+		<datafield name="Special Flag" entryset="Neonatal Morbidity Scale" filename="build\dataset\nms.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1129566634214" options="" />
+		<datafield name="Explain" entryset="Neonatal Morbidity Scale" filename="build\dataset\nms.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1129566634215" options="" />
+	</componentset>
+</form>
+

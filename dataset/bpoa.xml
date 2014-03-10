@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Overanxiousness" abrv="bpoa" filename="bpoa">
+	<template name="temp1">
+		<name format="BPI @" />
+		<field format="bpoa@t" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<validator name="val18_9980_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="8">
+		<valid value="9999" />
+		<valid value="9998" />
+		<valid value="9997" />
+		<valid value="9996" />
+		<valid value="9995" />
+		<valid value="9994" />
+		<valid value="9993" />
+		<valid value="9992" />
+		<valid value="9991" />
+		<valid value="9990" />
+		<valid value="9989" />
+		<valid value="9988" />
+		<valid value="9987" />
+		<valid value="9986" />
+		<valid value="9985" />
+		<valid value="9984" />
+		<valid value="9983" />
+		<valid value="9982" />
+		<valid value="9981" />
+		<valid value="9980" />
+	</validator>
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<key name="Twin" field="twin" template="na" validator="INTEGER" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<data name="1" field="001" template="temp1" validator="val18_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1063915685627" />
+	<data name="1c" field="01c" template="temp1" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1063915685628" />
+	<data name="7" field="007" template="temp1" validator="val18_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1063915685629" />
+	<data name="7c" field="07c" template="temp1" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1063915685630" />
+	<data name="14" field="014" template="temp1" validator="val18_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1063915685631" />
+	<data name="14c" field="14c" template="temp1" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1063915685632" />
+	<data name="22" field="022" template="temp1" validator="val18_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1063915685633" />
+	<data name="22c" field="22c" template="temp1" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1063915685634" />
+	<data name="25" field="025" template="temp1" validator="val18_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1063915685635" />
+	<data name="25c" field="25c" template="temp1" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1063915685636" />
+	<data name="25p" field="25p" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1063915686636" />
+	<data name="30" field="030" template="temp1" validator="val18_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1063915685637" />
+	<data name="30c" field="30c" template="temp1" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1063915685638" />
+	<data name="38" field="038" template="temp1" validator="val18_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1063915685639" />
+	<data name="38c" field="38c" template="temp1" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1063915685640" />
+	<data name="38p" field="38p" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1063915686640" />
+	<data name="58" field="058" template="temp1" validator="val18_9980_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1063915685641" />
+	<data name="58c" field="58c" template="temp1" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1063915685642" />
+	<dependency field="25p">
+		<parent field="25" lowerbound="1" upperbound="3" />
+	</dependency>
+	<dependency field="38p">
+		<parent field="38" lowerbound="1" upperbound="3" />
+	</dependency>
+</dataset>
+

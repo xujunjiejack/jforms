@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Retrospective Household" abrv="retrospectivehousehold" filename="retrospectivehousehold">
+	<template name="temp1">
+		<name format="" />
+		<field format="rh@m" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<validator name="val117_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="17">
+		<valid value="9998" />
+		<valid value="9999" />
+	</validator>
+	<validator name="val13_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="3">
+		<valid value="9998" />
+		<valid value="9999" />
+	</validator>
+	<validator name="val620_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="6" upperbound="20">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<data name="# people at last assessment" field="001" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200340736174" />
+	<data name="# of people when twins born" field="002" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200340736175" />
+	<data name="Amount of income change" field="03a" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200340736176" />
+	<data name="Direction of income change" field="03b" template="temp1" validator="val13_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200340736177" />
+	<data name="Amount of income change at birth" field="04a" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200340736178" />
+	<data name="Income change" field="04b" template="temp1" validator="val13_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200340736179" />
+	<data name="Income range" field="005" template="temp1" validator="val117_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200340736180" />
+	<data name="Mother education" field="006" template="temp1" validator="val620_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200340736181" />
+	<data name="Father education" field="007" template="temp1" validator="val620_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1200340736182" />
+</dataset>
+

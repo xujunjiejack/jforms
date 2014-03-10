@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Father TBAQ 2003" abrv="tbaq03f" filename="tbaq03f">
+	<template name="temp">
+		<name format="" />
+		<field format="@f" />
+	</template>
+	<dataset file="tbaqpacketdate" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_DATES" />
+	<dataset file="tbaqal03" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_TB_03_F" />
+	<dataset file="tbaqin03" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_TB_03_F" />
+	<dataset file="tbaqof03" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_TB_03_F" />
+	<dataset file="tbaqsd03" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_TB_03_F" />
+	<dataset file="tbaqan03" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_TB_03_F" />
+	<dataset file="tbaqaa03" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_TB_03_F" />
+	<dataset file="tbaqsf03" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_TB_03_F" />
+	<dataset file="tbaqsa03" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_TB_03_F" />
+	<dataset file="tbaqpl03" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_TB_03_F" />
+	<dataset file="tbaqic03" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_TB_03_F" />
+	<dataset file="tbaqso03" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_TB_03_F" />
+	<key name="Family Id" entryset="Packet Date" filename="tbaqpacketdate" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Twin" entryset="Packet Date" filename="tbaqpacketdate" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Twin,A:1,B:2" />
+	<key name="Data Mode" entryset="Packet Date" filename="tbaqpacketdate" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="Father TBAQ 2003" abrv="tbaq03f" numcols="2" displayheader="true" header="Father TBAQ 2003">
+		<datafield name="Packet Date" entryset="Packet Date" filename="build\dataset\tbaqpacketdate.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1149179626355" options="0,MM/dd/yyyy" />
+		<datafield name="1.)" entryset="Activity Level" filename="build\dataset\tbaqal03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303069" options="" />
+		<datafield name="2.)" entryset="Activity Level" filename="build\dataset\tbaqal03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303070" options="" />
+		<datafield name="3.)" entryset="Interest" filename="build\dataset\tbaqin03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303148" options="" />
+		<datafield name="4.)" entryset="Object Fear" filename="build\dataset\tbaqof03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303161" options="" />
+		<datafield name="5.)" entryset="Sensory Defensiveness" filename="build\dataset\tbaqsd03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303200" options="" />
+		<datafield name="6.)" entryset="Anger" filename="build\dataset\tbaqan03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303082" options="" />
+		<datafield name="7.)" entryset="Anger" filename="build\dataset\tbaqan03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303083" options="" />
+		<datafield name="8.)" entryset="Object Fear" filename="build\dataset\tbaqof03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303162" options="" />
+		<datafield name="9.)" entryset="Appropriate Attentional Allocation" filename="build\dataset\tbaqaa03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303108" options="" />
+		<datafield name="10.)" entryset="Appropriate Attentional Allocation" filename="build\dataset\tbaqaa03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303109" options="" />
+		<datafield name="11.)" entryset="Social Fear" filename="build\dataset\tbaqsf03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303213" options="" />
+		<datafield name="12.)" entryset="Sadness" filename="build\dataset\tbaqsa03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303187" options="" />
+		<datafield name="13.)" entryset="Interest" filename="build\dataset\tbaqin03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303149" options="" />
+		<datafield name="14.)" entryset="Object Fear" filename="build\dataset\tbaqof03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303163" options="" />
+		<datafield name="15.)" entryset="Pleasure" filename="build\dataset\tbaqpl03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303174" options="" />
+		<datafield name="16.)" entryset="Anger" filename="build\dataset\tbaqan03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303084" options="" />
+		<datafield name="17.)" entryset="Interest" filename="build\dataset\tbaqin03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303150" options="" />
+		<datafield name="18.)" entryset="Inhibitory Control" filename="build\dataset\tbaqic03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303121" options="" />
+		<datafield name="19.)" entryset="Inhibitory Control" filename="build\dataset\tbaqic03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303122" options="" />
+		<datafield name="20.)" entryset="Sensory Defensiveness" filename="build\dataset\tbaqsd03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303201" options="" />
+		<datafield name="21.)" entryset="Sensory Defensiveness" filename="build\dataset\tbaqsd03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303202" options="" />
+		<datafield name="22.)" entryset="Pleasure" filename="build\dataset\tbaqpl03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303175" options="" />
+		<datafield name="23.)" entryset="Sadness" filename="build\dataset\tbaqsa03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303188" options="" />
+		<datafield name="24.)" entryset="Sadness" filename="build\dataset\tbaqsa03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303189" options="" />
+		<datafield name="25.)" entryset="Soothability" filename="build\dataset\tbaqso03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303239" options="" />
+		<datafield name="26.)" entryset="Soothability" filename="build\dataset\tbaqso03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303240" options="" />
+		<datafield name="27.)" entryset="Activity Level" filename="build\dataset\tbaqal03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303071" options="" />
+		<datafield name="28.)" entryset="Interest" filename="build\dataset\tbaqin03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303151" options="" />
+		<datafield name="29.)" entryset="Pleasure" filename="build\dataset\tbaqpl03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303176" options="" />
+		<datafield name="30.)" entryset="Activity Level" filename="build\dataset\tbaqal03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303072" options="" />
+		<datafield name="31.)" entryset="Pleasure" filename="build\dataset\tbaqpl03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303177" options="" />
+		<datafield name="32.)" entryset="Pleasure" filename="build\dataset\tbaqpl03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303178" options="" />
+		<datafield name="33.)" entryset="Anger" filename="build\dataset\tbaqan03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303085" options="" />
+		<datafield name="34.)" entryset="Pleasure" filename="build\dataset\tbaqpl03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303179" options="" />
+		<datafield name="35.)" entryset="Interest" filename="build\dataset\tbaqin03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303152" options="" />
+		<datafield name="36.)" entryset="Activity Level" filename="build\dataset\tbaqal03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303073" options="" />
+		<datafield name="37.)" entryset="Activity Level" filename="build\dataset\tbaqal03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303074" options="" />
+		<datafield name="38.)" entryset="Appropriate Attentional Allocation" filename="build\dataset\tbaqaa03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303110" options="" />
+		<datafield name="39.)" entryset="Social Fear" filename="build\dataset\tbaqsf03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303214" options="" />
+		<datafield name="40.)" entryset="Interest" filename="build\dataset\tbaqin03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303153" options="" />
+		<datafield name="41.)" entryset="Soothability" filename="build\dataset\tbaqso03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303241" options="" />
+		<datafield name="42.)" entryset="Soothability" filename="build\dataset\tbaqso03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303242" options="" />
+		<datafield name="43.)" entryset="Object Fear" filename="build\dataset\tbaqof03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303164" options="" />
+		<datafield name="44.)" entryset="Inhibitory Control" filename="build\dataset\tbaqic03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303123" options="" />
+		<datafield name="45.)" entryset="Inhibitory Control" filename="build\dataset\tbaqic03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303124" options="" />
+		<datafield name="46.)" entryset="Social Fear" filename="build\dataset\tbaqsf03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303215" options="" />
+		<datafield name="47.)" entryset="Social Fear" filename="build\dataset\tbaqsf03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303216" options="" />
+		<datafield name="48.)" entryset="Pleasure" filename="build\dataset\tbaqpl03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303180" options="" />
+		<datafield name="49.)" entryset="Pleasure" filename="build\dataset\tbaqpl03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303181" options="" />
+		<datafield name="50.)" entryset="Anger" filename="build\dataset\tbaqan03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303086" options="" />
+		<datafield name="51.)" entryset="Anger" filename="build\dataset\tbaqan03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303087" options="" />
+		<datafield name="52.)" entryset="Object Fear" filename="build\dataset\tbaqof03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303165" options="" />
+		<datafield name="53.)" entryset="Social Fear" filename="build\dataset\tbaqsf03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303217" options="" />
+		<datafield name="54.)" entryset="Social Fear" filename="build\dataset\tbaqsf03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303218" options="" />
+		<datafield name="55.)" entryset="Anger" filename="build\dataset\tbaqan03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303088" options="" />
+		<datafield name="56.)" entryset="Sensory Defensiveness" filename="build\dataset\tbaqsd03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303203" options="" />
+		<datafield name="57.)" entryset="Object Fear" filename="build\dataset\tbaqof03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303166" options="" />
+		<datafield name="58.)" entryset="Interest" filename="build\dataset\tbaqin03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303154" options="" />
+		<datafield name="59.)" entryset="Interest" filename="build\dataset\tbaqin03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303155" options="" />
+		<datafield name="60.)" entryset="Sadness" filename="build\dataset\tbaqsa03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303190" options="" />
+		<datafield name="61.)" entryset="Appropriate Attentional Allocation" filename="build\dataset\tbaqaa03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303111" options="" />
+		<datafield name="62.)" entryset="Inhibitory Control" filename="build\dataset\tbaqic03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303125" options="" />
+		<datafield name="63.)" entryset="Sensory Defensiveness" filename="build\dataset\tbaqsd03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303204" options="" />
+		<datafield name="64.)" entryset="Object Fear" filename="build\dataset\tbaqof03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303167" options="" />
+		<datafield name="65.)" entryset="Appropriate Attentional Allocation" filename="build\dataset\tbaqaa03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303112" options="" />
+		<datafield name="66.)" entryset="Inhibitory Control" filename="build\dataset\tbaqic03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303126" options="" />
+		<datafield name="67.)" entryset="Pleasure" filename="build\dataset\tbaqpl03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303182" options="" />
+		<datafield name="68.)" entryset="Sensory Defensiveness" filename="build\dataset\tbaqsd03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303205" options="" />
+		<datafield name="69.)" entryset="Activity Level" filename="build\dataset\tbaqal03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1116877209743" options="" />
+		<datafield name="70.)" entryset="Activity Level" filename="build\dataset\tbaqal03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1116877209744" options="" />
+		<datafield name="71.)" entryset="Object Fear" filename="build\dataset\tbaqof03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303168" options="" />
+		<datafield name="72.)" entryset="Sadness" filename="build\dataset\tbaqsa03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303191" options="" />
+		<datafield name="73.)" entryset="Object Fear" filename="build\dataset\tbaqof03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303169" options="" />
+		<datafield name="74.)" entryset="Sadness" filename="build\dataset\tbaqsa03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303192" options="" />
+		<datafield name="75.)" entryset="Social Fear" filename="build\dataset\tbaqsf03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303219" options="" />
+		<datafield name="76.)" entryset="Social Fear" filename="build\dataset\tbaqsf03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303220" options="" />
+		<datafield name="77.)" entryset="Sensory Defensiveness" filename="build\dataset\tbaqsd03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303206" options="" />
+		<datafield name="78.)" entryset="Sensory Defensiveness" filename="build\dataset\tbaqsd03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303207" options="" />
+		<datafield name="79.)" entryset="Sadness" filename="build\dataset\tbaqsa03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303193" options="" />
+		<datafield name="80.)" entryset="Soothability" filename="build\dataset\tbaqso03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303243" options="" />
+		<datafield name="81.)" entryset="Soothability" filename="build\dataset\tbaqso03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303244" options="" />
+		<datafield name="82.)" entryset="Sadness" filename="build\dataset\tbaqsa03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303194" options="" />
+		<datafield name="83.)" entryset="Interest" filename="build\dataset\tbaqin03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303156" options="" />
+		<datafield name="84.)" entryset="Interest" filename="build\dataset\tbaqin03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303157" options="" />
+		<datafield name="85.)" entryset="Anger" filename="build\dataset\tbaqan03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303089" options="" />
+		<datafield name="86.)" entryset="Anger" filename="build\dataset\tbaqan03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303090" options="" />
+		<datafield name="87.)" entryset="Appropriate Attentional Allocation" filename="build\dataset\tbaqaa03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303113" options="" />
+		<datafield name="88.)" entryset="Inhibitory Control" filename="build\dataset\tbaqic03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303127" options="" />
+		<datafield name="89.)" entryset="Activity Level" filename="build\dataset\tbaqal03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1116877209745" options="" />
+		<datafield name="90.)" entryset="Activity Level" filename="build\dataset\tbaqal03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1116877209746" options="" />
+		<datafield name="91.)" entryset="Sensory Defensiveness" filename="build\dataset\tbaqsd03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303208" options="" />
+		<datafield name="92.)" entryset="Appropriate Attentional Allocation" filename="build\dataset\tbaqaa03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303114" options="" />
+		<datafield name="93.)" entryset="Sadness" filename="build\dataset\tbaqsa03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303195" options="" />
+		<datafield name="94.)" entryset="Appropriate Attentional Allocation" filename="build\dataset\tbaqaa03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303115" options="" />
+		<datafield name="95.)" entryset="Sensory Defensiveness" filename="build\dataset\tbaqsd03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303209" options="" />
+		<datafield name="96.)" entryset="Sadness" filename="build\dataset\tbaqsa03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303196" options="" />
+		<datafield name="97.)" entryset="Soothability" filename="build\dataset\tbaqso03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303245" options="" />
+		<datafield name="98.)" entryset="Soothability" filename="build\dataset\tbaqso03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303246" options="" />
+		<datafield name="99.)" entryset="Appropriate Attentional Allocation" filename="build\dataset\tbaqaa03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303116" options="" />
+		<datafield name="100.)" entryset="Appropriate Attentional Allocation" filename="build\dataset\tbaqaa03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303117" options="" />
+		<datafield name="101.)" entryset="Object Fear" filename="build\dataset\tbaqof03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303170" options="" />
+		<datafield name="102.)" entryset="Anger" filename="build\dataset\tbaqan03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303091" options="" />
+		<datafield name="103.)" entryset="Inhibitory Control" filename="build\dataset\tbaqic03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303128" options="" />
+		<datafield name="104.)" entryset="Pleasure" filename="build\dataset\tbaqpl03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303183" options="" />
+		<datafield name="105.)" entryset="Social Fear" filename="build\dataset\tbaqsf03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303221" options="" />
+		<datafield name="106.)" entryset="Social Fear" filename="build\dataset\tbaqsf03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303222" options="" />
+		<datafield name="107.)" entryset="Inhibitory Control" filename="build\dataset\tbaqic03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303130" options="" />
+		<datafield name="108.)" entryset="Inhibitory Control" filename="build\dataset\tbaqic03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303131" options="" />
+		<datafield name="109.)" entryset="Soothability" filename="build\dataset\tbaqso03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303247" options="" />
+		<datafield name="110.)" entryset="Soothability" filename="build\dataset\tbaqso03.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1107300303248" options="" />
+	</componentset>
+</form>
+

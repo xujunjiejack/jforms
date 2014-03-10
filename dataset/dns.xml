@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Sibling" abrv="dns" filename="dns">
+	<template name="Sibling 5">
+		<name format="" />
+		<field format="dn@s5" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<template name="Sibling 3">
+		<name format="" />
+		<field format="dn@s3" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<template name="Sibling 1">
+		<name format="" />
+		<field format="dn@s1" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<template name="Sibling 4">
+		<name format="" />
+		<field format="dn@s4" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<template name="Sibling 6">
+		<name format="" />
+		<field format="dn@s6" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<template name="Sibling 8">
+		<name format="" />
+		<field format="dn@s8" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<template name="Sibling 2">
+		<name format="" />
+		<field format="dn@s2" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<template name="Sibling 7">
+		<name format="" />
+		<field format="dn@s7" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<validator name="yesno01_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="1">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="varchar_9998_9999" type="VARCHAR" defaultvalue="9998" allowblanks="false" lowerbound="2147483647" upperbound="2147483647">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<data name="Sibling 1 Id" field="id" template="Sibling 1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1100113376211" />
+	<data name="Sibling 1 Received" field="rec" template="Sibling 1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1100113376212" />
+	<data name="Sibling 1 Date" field="dat" template="Sibling 1" validator="varchar_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1100113376213" />
+	<data name="Sibling 1 Comments" field="com" template="Sibling 1" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1100113376214" />
+	<data name="Sibling 2 Id" field="id" template="Sibling 2" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1100113376215" />
+	<data name="Sibling 2 Received" field="rec" template="Sibling 2" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1100113376216" />
+	<data name="Sibling 2 Date" field="dat" template="Sibling 2" validator="varchar_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1100113376217" />
+	<data name="Sibling 2 Comments" field="com" template="Sibling 2" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1100113376218" />
+	<data name="Sibling 3 Id" field="id" template="Sibling 3" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1100113376219" />
+	<data name="Sibling 3 Received" field="rec" template="Sibling 3" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1100113376220" />
+	<data name="Sibling 3 Date" field="dat" template="Sibling 3" validator="varchar_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1100113376221" />
+	<data name="Sibling 3 Comments" field="com" template="Sibling 3" validator="varchar_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1100113376222" />
+	<data name="Sibling 4 Id" field="id" template="Sibling 4" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1100113376223" />
+	<data name="Sibling 4 Received" field="rec" template="Sibling 4" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1100113376224" />
+	<data name="Sibling 4 Date" field="dat" template="Sibling 4" validator="varchar_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1100113376225" />
+	<data name="Sibling 4 Comments" field="com" template="Sibling 4" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1100113376226" />
+	<data name="Sibling 5 Id" field="id" template="Sibling 5" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1100113376227" />
+	<data name="Sibling 5 Received" field="rec" template="Sibling 5" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1100113376228" />
+	<data name="Sibling 5 Date" field="dat" template="Sibling 5" validator="varchar_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1100113376229" />
+	<data name="Sibling 5 Comments" field="com" template="Sibling 5" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1100113376230" />
+	<data name="Sibling 6 Id" field="id" template="Sibling 6" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1100113376231" />
+	<data name="Sibling 6 Received" field="rec" template="Sibling 6" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1100113376232" />
+	<data name="Sibling 6 Date" field="dat" template="Sibling 6" validator="varchar_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1100113376233" />
+	<data name="Sibling 6 Comments" field="com" template="Sibling 6" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1100113376234" />
+	<data name="Sibling 7 Id" field="id" template="Sibling 7" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1100113376235" />
+	<data name="Sibling 7 Received" field="rec" template="Sibling 7" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1100113376236" />
+	<data name="Sibling 7 Date" field="dat" template="Sibling 7" validator="varchar_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1100113376237" />
+	<data name="Sibling 7 Comments" field="com" template="Sibling 7" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1100113376238" />
+	<data name="Sibling 8 Id" field="id" template="Sibling 8" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1100113376239" />
+	<data name="Sibling 8 Received" field="rec" template="Sibling 8" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1100113376240" />
+	<data name="Sibling 8 Date" field="dat" template="Sibling 8" validator="varchar_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1100113376241" />
+	<data name="Sibling 8 Comments" field="com" template="Sibling 8" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1100113376242" />
+</dataset>
+

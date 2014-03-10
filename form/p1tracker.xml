@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Tracker" abrv="tracker" filename="p1tracker">
+	<dataset file="p1dates" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_DATES" />
+	<dataset file="p1tracker" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_TR" />
+	<key name="Family Id" entryset="P1 Dates" filename="p1dates" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<componentset name="Tracker" abrv="tracker" numcols="2" displayheader="true" header="Tracker">
+		<datafield name="Phone Interview" entryset="P1 Dates" filename="build\dataset\p1dates.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1199916000969" options="0,MM/dd/yyyy" />
+		<datafield name="Mother Questionnaire" entryset="P1 Dates" filename="build\dataset\p1dates.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1199916000970" options="0,MM/dd/yyyy" />
+		<datafield name="Father Questionnaire" entryset="P1 Dates" filename="build\dataset\p1dates.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1199916000971" options="0,MM/dd/yyyy" />
+		<datafield name="MacArthur - Mother (Todays Date)" entryset="P1 Dates" filename="build\dataset\p1dates.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1199916000972" options="0,MM/dd/yyyy" />
+		<datafield name="MacArthur - Father (Todays Date)" entryset="P1 Dates" filename="build\dataset\p1dates.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1199916000973" options="0,MM/dd/yyyy" />
+		<datafield name="Phone Interview - No TBAQ" entryset="P1 Dates" filename="build\dataset\p1dates.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1199916000974" options="0,MM/dd/yyyy" />
+		<datafield name="Mother Questionnaire 1999 TBAQ" entryset="P1 Dates" filename="build\dataset\p1dates.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1199916000975" options="0,MM/dd/yyyy" />
+		<datafield name="Father Questionnaire 1999 TBAQ" entryset="P1 Dates" filename="build\dataset\p1dates.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1199916000976" options="0,MM/dd/yyyy" />
+		<datafield name="Phone Interview 1999 TBAQ" entryset="P1 Dates" filename="build\dataset\p1dates.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1199916000977" options="0,MM/dd/yyyy" />
+		<datafield name="All Through The Mail" entryset="P1 Tracker" filename="build\dataset\p1tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1199916000959" options="0,MM/dd/yyyy" />
+		<datafield name="Not Intrested Now" entryset="P1 Tracker" filename="build\dataset\p1tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1199916000960" options="0,MM/dd/yyyy" />
+		<datafield name="Re-Contact Date" entryset="P1 Tracker" filename="build\dataset\p1tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1199916000961" options="0,MM/dd/yyyy" />
+		<datafield name="Packet Received" entryset="P1 Tracker" filename="build\dataset\p1tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1199916000962" options="0,MM/dd/yyyy" />
+		<datafield name="Not Completing Packet" entryset="P1 Tracker" filename="build\dataset\p1tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1199916000963" options="0,MM/dd/yyyy" />
+		<datafield name="Reminder Calls" entryset="P1 Tracker" filename="build\dataset\p1tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1199916000964" options="" />
+		<datafield name="Reminder Notes" entryset="P1 Tracker" filename="build\dataset\p1tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1199916000965" options="" />
+		<datafield name="Scheduling Notes" entryset="P1 Tracker" filename="build\dataset\p1tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1199916000966" options="" />
+		<datafield name="Comments" entryset="P1 Tracker" filename="build\dataset\p1tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1199916000967" options="" />
+	</componentset>
+</form>
+

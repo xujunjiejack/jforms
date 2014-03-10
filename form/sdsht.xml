@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Twin" abrv="sht" filename="sdsht">
+	<dataset file="sdshcd" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_SD_SH_T" />
+	<dataset file="sdshin" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_SD_SH_T" />
+	<key name="Family Id" entryset="Childs Birth" filename="sdshcd" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Twin" entryset="Childs Birth" filename="sdshcd" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Twin,A:1,B:2" />
+	<key name="Data Mode" entryset="Childs Birth" filename="sdshcd" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="Childs Birth" abrv="cb" numcols="2" displayheader="true" header="Childs Birth">
+		<datafield name="Cesarean Section" entryset="Childs Birth" filename="build\dataset\sdshcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832864" options="" />
+		<datafield name="Breach" entryset="Childs Birth" filename="build\dataset\sdshcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832865" options="" />
+		<datafield name="Face presentation" entryset="Childs Birth" filename="build\dataset\sdshcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832866" options="" />
+		<datafield name="Transverse" entryset="Childs Birth" filename="build\dataset\sdshcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832867" options="" />
+		<datafield name="Have cord wrapped around neck" entryset="Childs Birth" filename="build\dataset\sdshcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832868" options="" />
+		<datafield name="Difficulties with cords" entryset="Childs Birth" filename="build\dataset\sdshcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832869" options="" />
+		<datafield name="Describe difficulties" entryset="Childs Birth" filename="build\dataset\sdshcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1088614832870" options="" />
+		<datafield name="Require forceps" entryset="Childs Birth" filename="build\dataset\sdshcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832871" options="" />
+		<datafield name="Require suction" entryset="Childs Birth" filename="build\dataset\sdshcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832872" options="" />
+		<datafield name="Have birth injuries" entryset="Childs Birth" filename="build\dataset\sdshcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832873" options="" />
+		<datafield name="Describe injuries" entryset="Childs Birth" filename="build\dataset\sdshcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1088614832874" options="" />
+		<datafield name="Require a fetal monitor" entryset="Childs Birth" filename="build\dataset\sdshcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832875" options="" />
+		<datafield name="Insufficient oxygen" entryset="Childs Birth" filename="build\dataset\sdshcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832876" options="" />
+		<datafield name="Cry right away" entryset="Childs Birth" filename="build\dataset\sdshcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832877" options="" />
+		<datafield name="Need intensive care or hospitalization" entryset="Childs Birth" filename="build\dataset\sdshcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832878" options="" />
+		<datafield name="How long" entryset="Childs Birth" filename="build\dataset\sdshcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1088614832879" options="" />
+		<datafield name="Prematurity" entryset="Childs Birth" filename="build\dataset\sdshcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832880" options="" />
+		<datafield name="Repiratory problems" entryset="Childs Birth" filename="build\dataset\sdshcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832881" options="" />
+		<datafield name="Describe problems" entryset="Childs Birth" filename="build\dataset\sdshcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1088614832882" options="" />
+		<datafield name="Need respirator" entryset="Childs Birth" filename="build\dataset\sdshcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1089076024458" options="" />
+		<datafield name="Explain respirator" entryset="Childs Birth" filename="build\dataset\sdshcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1089076024459" options="" />
+		<datafield name="Small for gestational age" entryset="Childs Birth" filename="build\dataset\sdshcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832883" options="" />
+		<datafield name="Describe related problems" entryset="Childs Birth" filename="build\dataset\sdshcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1088614832884" options="" />
+		<datafield name="Heart defect" entryset="Childs Birth" filename="build\dataset\sdshcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832885" options="" />
+		<datafield name="Describe defect" entryset="Childs Birth" filename="build\dataset\sdshcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1088614832886" options="" />
+		<datafield name="Need exchange transfusion" entryset="Childs Birth" filename="build\dataset\sdshcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832887" options="" />
+		<datafield name="Describe transfusion" entryset="Childs Birth" filename="build\dataset\sdshcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1088614832888" options="" />
+		<datafield name="Jaundiced" entryset="Childs Birth" filename="build\dataset\sdshcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832889" options="" />
+		<datafield name="Describe jaundiced" entryset="Childs Birth" filename="build\dataset\sdshcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1088614832890" options="" />
+		<datafield name="Have congenital abnormalitites" entryset="Childs Birth" filename="build\dataset\sdshcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832891" options="" />
+		<datafield name="Describe abnormalities" entryset="Childs Birth" filename="build\dataset\sdshcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1088614832892" options="" />
+		<datafield name="Have seizures" entryset="Childs Birth" filename="build\dataset\sdshcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832893" options="" />
+		<datafield name="Describe seizures" entryset="Childs Birth" filename="build\dataset\sdshcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1088614832894" options="" />
+		<datafield name="Have infection at birth" entryset="Childs Birth" filename="build\dataset\sdshcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832895" options="" />
+		<datafield name="Describe infection" entryset="Childs Birth" filename="build\dataset\sdshcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1088614832896" options="" />
+		<datafield name="Have surgery as a newborn" entryset="Childs Birth" filename="build\dataset\sdshcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832897" options="" />
+		<datafield name="Describe surgery" entryset="Childs Birth" filename="build\dataset\sdshcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1088614832898" options="" />
+		<datafield name="Have feeding problems as a newborn" entryset="Childs Birth" filename="build\dataset\sdshcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832899" options="" />
+		<datafield name="Describe feeding problems" entryset="Childs Birth" filename="build\dataset\sdshcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1088614832900" options="" />
+		<datafield name="Comments" entryset="Childs Birth" filename="build\dataset\sdshcd.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1088614832901" options="" />
+	</componentset>
+	<componentset name="Infancy" abrv="in" numcols="2" displayheader="true" header="Infancy">
+		<datafield name="Colicky/Cry excessively" entryset="Infancy" filename="build\dataset\sdshin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832905" options="" />
+		<datafield name="Describe colicky/cry" entryset="Infancy" filename="build\dataset\sdshin.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1088614832906" options="" />
+		<datafield name="Breast fed" entryset="Infancy" filename="build\dataset\sdshin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832907" options="" />
+		<datafield name="Have developmental delays" entryset="Infancy" filename="build\dataset\sdshin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832908" options="" />
+		<datafield name="Allergies" entryset="Infancy" filename="build\dataset\sdshin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832909" options="" />
+		<datafield name="Difficulties sleeping" entryset="Infancy" filename="build\dataset\sdshin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832910" options="" />
+		<datafield name="Feeding problems" entryset="Infancy" filename="build\dataset\sdshin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832911" options="" />
+		<datafield name="Prefer certain positions as infant" entryset="Infancy" filename="build\dataset\sdshin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832912" options="" />
+		<datafield name="Describe positions" entryset="Infancy" filename="build\dataset\sdshin.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1088614832913" options="" />
+		<datafield name="Dislike lying on stomach" entryset="Infancy" filename="build\dataset\sdshin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832914" options="" />
+		<datafield name="Dislike lying on back" entryset="Infancy" filename="build\dataset\sdshin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832915" options="" />
+		<datafield name="Enjoy bounching" entryset="Infancy" filename="build\dataset\sdshin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832916" options="" />
+		<datafield name="Become calmed by car rides or infant swings" entryset="Infancy" filename="build\dataset\sdshin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832917" options="" />
+		<datafield name="Become nauseated by car rides or infant swings" entryset="Infancy" filename="build\dataset\sdshin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832918" options="" />
+		<datafield name="Go through terrible twos" entryset="Infancy" filename="build\dataset\sdshin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832919" options="" />
+		<datafield name="Experience developmental delays with rolling over, sitting alon, crawling, walking" entryset="Infancy" filename="build\dataset\sdshin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832920" options="" />
+		<datafield name="Describe developmental delays" entryset="Infancy" filename="build\dataset\sdshin.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1088614832921" options="" />
+		<datafield name="Comments" entryset="Infancy" filename="build\dataset\sdshin.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1088714832922" options="" />
+	</componentset>
+</form>
+

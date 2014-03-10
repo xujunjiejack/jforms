@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Stroop Tasks" abrv="p4strooptasks" filename="p4strooptasks">
+	<dataset file="picturewordstroopexaminer" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_PW_T" />
+	<dataset file="picturewordstroop" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_PW_T" />
+	<dataset file="colorwordstroopexaminer" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_CW_T" />
+	<dataset file="colorwordstroop_new" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_CW_T" />
+	<key name="Family Id" entryset="Picture Word Stroop Examiner" filename="picturewordstroopexaminer" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Twin" entryset="Picture Word Stroop Examiner" filename="picturewordstroopexaminer" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Twin,A:1,B:2" />
+	<key name="Data Mode" entryset="Picture Word Stroop Examiner" filename="picturewordstroopexaminer" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="Picture Word Stroop" abrv="picturewordstroopform" numcols="2" displayheader="true" header="Picture Word Stroop">
+		<datafield name="Examiner" entryset="Picture Word Stroop Examiner" filename="build\dataset\picturewordstroopexaminer.xml" type="0" class="com.wtp.jforms.ui.control.smart.ComboFieldBox" editable="true" classid="1200079386925" options="0,Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_STAFF,number" />
+		<datafield name="Card 1 Rxn Time (sec)" entryset="Picture Word Stroop" filename="build\dataset\picturewordstroop.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200079386932" options="" />
+		<datafield name="Card 1 # of Errors" entryset="Picture Word Stroop" filename="build\dataset\picturewordstroop.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200079386933" options="" />
+		<datafield name="Card 2 Rxn Time (sec)" entryset="Picture Word Stroop" filename="build\dataset\picturewordstroop.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200079386939" options="" />
+		<datafield name="Card 2 # of Errors" entryset="Picture Word Stroop" filename="build\dataset\picturewordstroop.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200079386940" options="" />
+		<datafield name="Card 3 Rxn Time (sec)" entryset="Picture Word Stroop" filename="build\dataset\picturewordstroop.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200079386941" options="" />
+		<datafield name="Card 3 # of Errors" entryset="Picture Word Stroop" filename="build\dataset\picturewordstroop.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200079386942" options="" />
+		<datafield name="Card 4 Rxn Time (sec)" entryset="Picture Word Stroop" filename="build\dataset\picturewordstroop.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200079386943" options="" />
+		<datafield name="Card 4 # of Errors" entryset="Picture Word Stroop" filename="build\dataset\picturewordstroop.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1200079386944" options="" />
+	</componentset>
+	<componentset name="Color Word Stroop" abrv="colorwordstroopform" numcols="2" displayheader="true" header="Color Word Stroop">
+		<datafield name="Examiner" entryset="Color Word Stroop Examiner" filename="build\dataset\colorwordstroopexaminer.xml" type="0" class="com.wtp.jforms.ui.control.smart.ComboFieldBox" editable="true" classid="1200079386948" options="0,Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_STAFF,number" />
+		<datafield name="Card 1 # of Words" entryset="Color Word Stroop New" filename="build\dataset\colorwordstroop_new.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1234124054568" options="" />
+		<datafield name="Card 2 # of Words" entryset="Color Word Stroop New" filename="build\dataset\colorwordstroop_new.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1234124054569" options="" />
+		<datafield name="Card 3 # of Words" entryset="Color Word Stroop New" filename="build\dataset\colorwordstroop_new.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1234124054570" options="" />
+	</componentset>
+</form>
+

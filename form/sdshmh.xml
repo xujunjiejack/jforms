@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Mother" abrv="shmh" filename="sdshmh">
+	<dataset file="sdshmh" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_SD_SH_M" />
+	<key name="Family Id" entryset="Mothers Health During Pregnancy" filename="sdshmh" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Data Mode" entryset="Mothers Health During Pregnancy" filename="sdshmh" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="Mothers Health During Pregnancy" abrv="mh" numcols="2" displayheader="true" header="Mothers Health During Pregnancy">
+		<datafield name="Have any infections/illnesses" entryset="Mothers Health During Pregnancy" filename="build\dataset\sdshmh.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832810" options="" />
+		<datafield name="Describe infections/illnesses" entryset="Mothers Health During Pregnancy" filename="build\dataset\sdshmh.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1088614832811" options="" />
+		<datafield name="Medication during pregnancy" entryset="Mothers Health During Pregnancy" filename="build\dataset\sdshmh.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832812" options="" />
+		<datafield name="Describe medication" entryset="Mothers Health During Pregnancy" filename="build\dataset\sdshmh.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1088614832813" options="" />
+		<datafield name="Have any shocks or unusual stress" entryset="Mothers Health During Pregnancy" filename="build\dataset\sdshmh.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832814" options="" />
+		<datafield name="Describe shocks or stress" entryset="Mothers Health During Pregnancy" filename="build\dataset\sdshmh.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1088614832822" options="" />
+		<datafield name="Nausea" entryset="Mothers Health During Pregnancy" filename="build\dataset\sdshmh.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832815" options="" />
+		<datafield name="Describe nausea" entryset="Mothers Health During Pregnancy" filename="build\dataset\sdshmh.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1088614832823" options="" />
+		<datafield name="How many alcoholic drinks were consumed during pregnancy" entryset="Mothers Health During Pregnancy" filename="build\dataset\sdshmh.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832816" options="" />
+		<datafield name="Did the amount drunk differ" entryset="Mothers Health During Pregnancy" filename="build\dataset\sdshmh.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1088614832817" options="" />
+		<datafield name="Smoking" entryset="Mothers Health During Pregnancy" filename="build\dataset\sdshmh.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832818" options="" />
+		<datafield name="Describe quantity" entryset="Mothers Health During Pregnancy" filename="build\dataset\sdshmh.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1088614832819" options="" />
+		<datafield name="Water break more than 24 hours before delivery" entryset="Mothers Health During Pregnancy" filename="build\dataset\sdshmh.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832820" options="" />
+		<datafield name="Develop toxemia/high blood pressure" entryset="Mothers Health During Pregnancy" filename="build\dataset\sdshmh.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832821" options="" />
+		<datafield name="When" entryset="Mothers Health During Pregnancy" filename="build\dataset\sdshmh.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1088614832824" options="" />
+		<datafield name="Have any complications during delivery" entryset="Mothers Health During Pregnancy" filename="build\dataset\sdshmh.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1088614832825" options="" />
+		<datafield name="Describe complications" entryset="Mothers Health During Pregnancy" filename="build\dataset\sdshmh.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1088614832826" options="" />
+		<datafield name="Mothers age at delivery" entryset="Mothers Health During Pregnancy" filename="build\dataset\sdshmh.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832827" options="" />
+		<datafield name="Number of previous miscarriages" entryset="Mothers Health During Pregnancy" filename="build\dataset\sdshmh.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832828" options="" />
+		<datafield name="Bed rest" entryset="Mothers Health During Pregnancy" filename="build\dataset\sdshmh.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832829" options="" />
+		<datafield name="When and how long" entryset="Mothers Health During Pregnancy" filename="build\dataset\sdshmh.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1088614832830" options="" />
+		<datafield name="Apgar twin a 1 minute" entryset="Mothers Health During Pregnancy" filename="build\dataset\sdshmh.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832856" options="" />
+		<datafield name="Apgar twin a 5 minute" entryset="Mothers Health During Pregnancy" filename="build\dataset\sdshmh.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832857" options="" />
+		<datafield name="Apgar twin b 1 min" entryset="Mothers Health During Pregnancy" filename="build\dataset\sdshmh.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832858" options="" />
+		<datafield name="Apgar twin b 5 minute" entryset="Mothers Health During Pregnancy" filename="build\dataset\sdshmh.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1088614832859" options="" />
+		<datafield name="Apgar comments" entryset="Mothers Health During Pregnancy" filename="build\dataset\sdshmh.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1088614832860" options="" />
+		<datafield name="Comments" entryset="Mothers Health During Pregnancy" filename="build\dataset\sdshmh.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1088614832831" options="" />
+	</componentset>
+</form>
+

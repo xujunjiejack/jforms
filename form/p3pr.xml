@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Prize Ranking" abrv="p3pr" filename="p3pr">
+	<dataset file="p3pr" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_PR" />
+	<key name="Family Id" entryset="Prize Ranking" filename="p3pr" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Twin" entryset="Prize Ranking" filename="p3pr" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Twin,A:1,B:2" />
+	<key name="Data Mode" entryset="Prize Ranking" filename="p3pr" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="Prize Ranking" abrv="p3pr" numcols="2" displayheader="true" header="Prize Ranking">
+		<datafield name="Scorer" entryset="Prize Ranking" filename="build\dataset\p3pr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1146852717008" options="" />
+		<datafield name="Child Tester" entryset="Prize Ranking" filename="build\dataset\p3pr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1146852717009" options="" />
+		<datafield name="Episode order" entryset="Prize Ranking" filename="build\dataset\p3pr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1146853821619" options="" />
+		<datafield name="Baseline" entryset="Prize Ranking" filename="build\dataset\p3pr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1146851992120" options="" />
+		<datafield name="Did child touch toys?" entryset="Prize Ranking" filename="build\dataset\p3pr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1146851992121" options="" />
+		<datafield name="Did child rank toys?" entryset="Prize Ranking" filename="build\dataset\p3pr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1146851992122" options="" />
+		<datafield name="Latency to choose prize 1 (Seconds)" entryset="Prize Ranking" filename="build\dataset\p3pr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1146851992123" options="" />
+		<datafield name="Latency to choose prize 2 (Seconds)" entryset="Prize Ranking" filename="build\dataset\p3pr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1146851992124" options="" />
+		<datafield name="Latency to choose prize 3 (Seconds)" entryset="Prize Ranking" filename="build\dataset\p3pr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1146851992125" options="" />
+		<datafield name="Latency to choose prize 4 (Seconds)" entryset="Prize Ranking" filename="build\dataset\p3pr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1146851992126" options="" />
+		<datafield name="Latency to choose prize 5 (Seconds)" entryset="Prize Ranking" filename="build\dataset\p3pr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1146851992127" options="" />
+		<datafield name="Number of times child changed mind." entryset="Prize Ranking" filename="build\dataset\p3pr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1146851992128" options="" />
+		<datafield name="Did the child change the order of the prizes?" entryset="Prize Ranking" filename="build\dataset\p3pr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1146851992129" options="" />
+		<datafield name="Special Flag" entryset="Prize Ranking" filename="build\dataset\p3pr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1146851992130" options="" />
+		<datafield name="Special Flag (Explain)" entryset="Prize Ranking" filename="build\dataset\p3pr.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1146851992131" options="" />
+	</componentset>
+</form>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Playdoh" abrv="playdoh" filename="playdoh">
+	<template name="temp1">
+		<name format="" />
+		<field format="" />
+		<subsetname format="" />
+		<subsetfield format="pd@" />
+	</template>
+</dataset>
+

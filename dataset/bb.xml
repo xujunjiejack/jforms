@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Balloon Bop" abrv="bb" filename="bb">
+	<template name="BB">
+		<name format="" />
+		<field format="bb@" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<validator name="val03_9980-9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="3">
+		<valid value="9999" />
+		<valid value="9998" />
+		<valid value="9997" />
+		<valid value="9996" />
+		<valid value="9995" />
+		<valid value="9994" />
+		<valid value="9993" />
+		<valid value="9992" />
+		<valid value="9991" />
+		<valid value="9990" />
+		<valid value="9989" />
+		<valid value="9988" />
+		<valid value="9987" />
+		<valid value="9986" />
+		<valid value="9985" />
+		<valid value="9984" />
+		<valid value="9983" />
+		<valid value="9982" />
+		<valid value="9981" />
+		<valid value="9980" />
+	</validator>
+	<validator name="val13_9_9980-9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="3">
+		<valid value="9999" />
+		<valid value="9998" />
+		<valid value="9997" />
+		<valid value="9996" />
+		<valid value="9995" />
+		<valid value="9994" />
+		<valid value="9993" />
+		<valid value="9992" />
+		<valid value="9991" />
+		<valid value="9990" />
+		<valid value="9989" />
+		<valid value="9988" />
+		<valid value="9987" />
+		<valid value="9986" />
+		<valid value="9985" />
+		<valid value="9984" />
+		<valid value="9983" />
+		<valid value="9982" />
+		<valid value="9981" />
+		<valid value="9980" />
+		<valid value="9" />
+	</validator>
+	<validator name="val15_9980-9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="5">
+		<valid value="9999" />
+		<valid value="9998" />
+		<valid value="9997" />
+		<valid value="9996" />
+		<valid value="9995" />
+		<valid value="9994" />
+		<valid value="9993" />
+		<valid value="9992" />
+		<valid value="9991" />
+		<valid value="9990" />
+		<valid value="9989" />
+		<valid value="9988" />
+		<valid value="9987" />
+		<valid value="9986" />
+		<valid value="9985" />
+		<valid value="9984" />
+		<valid value="9983" />
+		<valid value="9982" />
+		<valid value="9981" />
+		<valid value="9980" />
+	</validator>
+	<validator name="blankformat" type="VARCHAR" defaultvalue="9998" allowblanks="true" lowerbound="2147483647" upperbound="2147483647">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="yesno_9980-9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="1">
+		<valid value="9999" />
+		<valid value="9998" />
+		<valid value="9997" />
+		<valid value="9996" />
+		<valid value="9995" />
+		<valid value="9994" />
+		<valid value="9993" />
+		<valid value="9992" />
+		<valid value="9991" />
+		<valid value="9990" />
+		<valid value="9989" />
+		<valid value="9988" />
+		<valid value="9987" />
+		<valid value="9986" />
+		<valid value="9985" />
+		<valid value="9984" />
+		<valid value="9983" />
+		<valid value="9982" />
+		<valid value="9981" />
+		<valid value="9980" />
+	</validator>
+   <validator name="yesno01_9998_9999" type="INTEGER" defaultvalue="0" allowblanks="false" lowerbound="0" upperbound="1">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<key name="Twin" field="twin" template="na" validator="INTEGER" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<data name="Intensity of Smile 01" field="1is" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918317" />
+	<data name="Intensity of Smile 02" field="2is" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918318" />
+	<data name="Intensity of Smile 03" field="3is" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918319" />
+	<data name="Intensity of Smile 04" field="4is" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918320" />
+	<data name="Intensity of Smile 05" field="5is" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918321" />
+	<data name="Intensity of Smile 06" field="6is" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918322" />
+	<data name="Intensity of Smile 07" field="7is" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918323" />
+	<data name="Intensity of Smile 08" field="8is" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918324" />
+	<data name="Intensity of Smile 09" field="9is" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918325" />
+	<data name="Intensity of Smile 10" field="10is" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918326" />
+	<data name="Intensity of Smile 11" field="11is" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918327" />
+	<data name="Intensity of Smile 12" field="12is" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918328" />
+	<data name="Intensity of Smile 13" field="13is" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918329" />
+	<data name="Intensity of Smile 14" field="14is" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918330" />
+	<data name="Intensity of Smile 15" field="15is" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918331" />
+	<data name="Intensity of Smile 16" field="16is" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918332" />
+	<data name="Intensity of Smile 17" field="17is" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918333" />
+	<data name="Intensity of Smile 18" field="18is" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918334" />
+	<data name="Intensity of Smile 19" field="19is" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918335" />
+	<data name="Intensity of Smile 20" field="20is" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918336" />
+	<data name="Intensity of Smile 21" field="21is" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918337" />
+	<data name="Intensity of Smile 22" field="22is" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918338" />
+	<data name="Intensity of Smile 23" field="23is" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918339" />
+	<data name="Intensity of Smile 24" field="24is" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918340" />
+	<data name="Intensity of Smile 25" field="25is" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918341" />
+	<data name="Intensity of Smile 26" field="26is" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918342" />
+	<data name="Intensity of Smile 27" field="27is" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918343" />
+	<data name="Intensity of Smile 28" field="28is" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918344" />
+	<data name="Intensity of Smile 29" field="29is" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918345" />
+	<data name="Intensity of Smile 30" field="30is" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918346" />
+	<data name="Intensity of Smile 31" field="31is" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918347" />
+	<data name="Intensity of Smile 32" field="32is" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918348" />
+	<data name="Intensity of Smile 33" field="33is" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918349" />
+	<data name="Intensity of Smile 34" field="34is" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918350" />
+	<data name="Intensity of Smile 35" field="35is" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918351" />
+	<data name="Intensity of Smile 36" field="36is" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918352" />
+	<data name="Vigor of Enthusiasm 01" field="1ve" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918392" />
+	<data name="Vigor of Enthusiasm 02" field="2ve" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918393" />
+	<data name="Vigor of Enthusiasm 03" field="3ve" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918394" />
+	<data name="Vigor of Enthusiasm 04" field="4ve" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918395" />
+	<data name="Vigor of Enthusiasm 05" field="5ve" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918396" />
+	<data name="Vigor of Enthusiasm 06" field="6ve" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918397" />
+	<data name="Vigor of Enthusiasm 07" field="7ve" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918398" />
+	<data name="Vigor of Enthusiasm 08" field="8ve" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918399" />
+	<data name="Vigor of Enthusiasm 09" field="9ve" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918400" />
+	<data name="Vigor of Enthusiasm 10" field="10ve" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918401" />
+	<data name="Vigor of Enthusiasm 11" field="11ve" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918402" />
+	<data name="Vigor of Enthusiasm 12" field="12ve" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918403" />
+	<data name="Vigor of Enthusiasm 13" field="13ve" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918404" />
+	<data name="Vigor of Enthusiasm 14" field="14ve" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918405" />
+	<data name="Vigor of Enthusiasm 15" field="15ve" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918406" />
+	<data name="Vigor of Enthusiasm 16" field="16ve" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918407" />
+	<data name="Vigor of Enthusiasm 17" field="17ve" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918408" />
+	<data name="Vigor of Enthusiasm 18" field="18ve" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918409" />
+	<data name="Vigor of Enthusiasm 19" field="19ve" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918467" />
+	<data name="Vigor of Enthusiasm 20" field="20ve" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918468" />
+	<data name="Vigor of Enthusiasm 21" field="21ve" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918469" />
+	<data name="Vigor of Enthusiasm 22" field="22ve" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918470" />
+	<data name="Vigor of Enthusiasm 23" field="23ve" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918471" />
+	<data name="Vigor of Enthusiasm 24" field="24ve" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918472" />
+	<data name="Vigor of Enthusiasm 25" field="25ve" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918473" />
+	<data name="Vigor of Enthusiasm 26" field="26ve" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918474" />
+	<data name="Vigor of Enthusiasm 27" field="27ve" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918475" />
+	<data name="Vigor of Enthusiasm 28" field="28ve" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918476" />
+	<data name="Vigor of Enthusiasm 29" field="29ve" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918477" />
+	<data name="Vigor of Enthusiasm 30" field="30ve" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918478" />
+	<data name="Vigor of Enthusiasm 32" field="32ve" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918479" />
+	<data name="Vigor of Enthusiasm 31" field="31ve" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918480" />
+	<data name="Vigor of Enthusiasm 33" field="33ve" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918481" />
+	<data name="Vigor of Enthusiasm 34" field="34ve" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918482" />
+	<data name="Vigor of Enthusiasm 35" field="35ve" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918483" />
+	<data name="Vigor of Enthusiasm 36" field="36ve" template="BB" validator="val03_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918484" />
+	<data name="Language/Verbalizations 01" field="1lv" template="BB" validator="val13_9_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918560" />
+	<data name="Language/Verbalizations 02" field="2lv" template="BB" validator="val13_9_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918561" />
+	<data name="Language/Verbalizations 03" field="3lv" template="BB" validator="val13_9_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918562" />
+	<data name="Language/Verbalizations 04" field="4lv" template="BB" validator="val13_9_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918563" />
+	<data name="Language/Verbalizations 05" field="5lv" template="BB" validator="val13_9_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918564" />
+	<data name="Language/Verbalizations 06" field="6lv" template="BB" validator="val13_9_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918565" />
+	<data name="Language/Verbalizations 07" field="7lv" template="BB" validator="val13_9_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918566" />
+	<data name="Language/Verbalizations 08" field="8lv" template="BB" validator="val13_9_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918567" />
+	<data name="Language/Verbalizations 09" field="9lv" template="BB" validator="val13_9_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918568" />
+	<data name="Language/Verbalizations 10" field="10lv" template="BB" validator="val13_9_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918569" />
+	<data name="Language/Verbalizations 11" field="11lv" template="BB" validator="val13_9_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918570" />
+	<data name="Language/Verbalizations 12" field="12lv" template="BB" validator="val13_9_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918571" />
+	<data name="Language/Verbalizations 13" field="13lv" template="BB" validator="val13_9_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918572" />
+	<data name="Language/Verbalizations 14" field="14lv" template="BB" validator="val13_9_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918573" />
+	<data name="Language/Verbalizations 15" field="15lv" template="BB" validator="val13_9_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918574" />
+	<data name="Language/Verbalizations 16" field="16lv" template="BB" validator="val13_9_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918575" />
+	<data name="Language/Verbalizations 17" field="17lv" template="BB" validator="val13_9_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918576" />
+	<data name="Language/Verbalizations 18" field="18lv" template="BB" validator="val13_9_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918577" />
+	<data name="Language/Verbalizations 19" field="19lv" template="BB" validator="val13_9_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918578" />
+	<data name="Language/Verbalizations 20" field="20lv" template="BB" validator="val13_9_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918579" />
+	<data name="Language/Verbalizations 21" field="21lv" template="BB" validator="val13_9_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918580" />
+	<data name="Language/Verbalizations 22" field="22lv" template="BB" validator="val13_9_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918581" />
+	<data name="Language/Verbalizations 23" field="23lv" template="BB" validator="val13_9_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918582" />
+	<data name="Language/Verbalizations 24" field="24lv" template="BB" validator="val13_9_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918583" />
+	<data name="Language/Verbalizations 25" field="25lv" template="BB" validator="val13_9_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918584" />
+	<data name="Language/Verbalizations 26" field="26lv" template="BB" validator="val13_9_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918585" />
+	<data name="Language/Verbalizations 27" field="27lv" template="BB" validator="val13_9_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918586" />
+	<data name="Language/Verbalizations 28" field="28lv" template="BB" validator="val13_9_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918587" />
+	<data name="Language/Verbalizations 29" field="29lv" template="BB" validator="val13_9_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918588" />
+	<data name="Language/Verbalizations 30" field="30lv" template="BB" validator="val13_9_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918589" />
+	<data name="Language/Verbalizations 31" field="31lv" template="BB" validator="val13_9_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918590" />
+	<data name="Language/Verbalizations 32" field="32lv" template="BB" validator="val13_9_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918591" />
+	<data name="Language/Verbalizations 33" field="33lv" template="BB" validator="val13_9_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918592" />
+	<data name="Language/Verbalizations 34" field="34lv" template="BB" validator="val13_9_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918593" />
+	<data name="Language/Verbalizations 35" field="35lv" template="BB" validator="val13_9_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918594" />
+	<data name="Language/Verbalizations 36" field="36lv" template="BB" validator="val13_9_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918595" />
+	<data name="Presence of Laughter 01" field="1pl" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918707" />
+	<data name="Presence of Laughter 02" field="2pl" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918708" />
+	<data name="Presence of Laughter 03" field="3pl" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918709" />
+	<data name="Presence of Laughter 04" field="4pl" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918710" />
+	<data name="Presence of Laughter 05" field="5pl" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918711" />
+	<data name="Presence of Laughter 06" field="6pl" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918712" />
+	<data name="Presence of Laughter 07" field="7pl" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918713" />
+	<data name="Presence of Laughter 08" field="8pl" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918714" />
+	<data name="Presence of Laughter 09" field="9pl" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918715" />
+	<data name="Presence of Laughter 10" field="10pl" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918716" />
+	<data name="Presence of Laughter 11" field="11pl" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918717" />
+	<data name="Presence of Laughter 12" field="12pl" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918718" />
+	<data name="Presence of Laughter 13" field="13pl" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918719" />
+	<data name="Presence of Laughter 14" field="14pl" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918720" />
+	<data name="Presence of Laughter 15" field="15pl" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918721" />
+	<data name="Presence of Laughter 16" field="16pl" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918722" />
+	<data name="Presence of Laughter 17" field="17pl" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918723" />
+	<data name="Presence of Laughter 18" field="18pl" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918724" />
+	<data name="Presence of Laughter 19" field="19pl" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918725" />
+	<data name="Presence of Laughter 20" field="20pl" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918726" />
+	<data name="Presence of Laughter 21" field="21pl" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918727" />
+	<data name="Presence of Laughter 22" field="22pl" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918728" />
+	<data name="Presence of Laughter 23" field="23pl" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918729" />
+	<data name="Presence of Laughter 24" field="24pl" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918730" />
+	<data name="Presence of Laughter 25" field="25pl" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918731" />
+	<data name="Presence of Laughter 26" field="26pl" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918732" />
+	<data name="Presence of Laughter 27" field="27pl" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918733" />
+	<data name="Presence of Laughter 28" field="28pl" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918734" />
+	<data name="Presence of Laughter 29" field="29pl" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918735" />
+	<data name="Presence of Laughter 30" field="30pl" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918736" />
+	<data name="Presence of Laughter 31" field="31pl" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918737" />
+	<data name="Presence of Laughter 32" field="32pl" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918738" />
+	<data name="Presence of Laughter 33" field="33pl" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918739" />
+	<data name="Presence of Laughter 34" field="34pl" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918740" />
+	<data name="Presence of Laughter 35" field="35pl" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918741" />
+	<data name="Presence of Laughter 36" field="36pl" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918742" />
+	<data name="Presence of Negativity 01" field="1pn" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918890" />
+	<data name="Presence of Negativity 02" field="2pn" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918891" />
+	<data name="Presence of Negativity 03" field="3pn" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918892" />
+	<data name="Presence of Negativity 04" field="4pn" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918893" />
+	<data name="Presence of Negativity 05" field="5pn" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918894" />
+	<data name="Presence of Negativity 06" field="6pn" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918895" />
+	<data name="Presence of Negativity 07" field="7pn" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918896" />
+	<data name="Presence of Negativity 08" field="8pn" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918897" />
+	<data name="Presence of Negativity 09" field="9pn" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918898" />
+	<data name="Presence of Negativity 10" field="10pn" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918899" />
+	<data name="Presence of Negativity 11" field="11pn" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918900" />
+	<data name="Presence of Negativity 12" field="12pn" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918901" />
+	<data name="Presence of Negativity 13" field="13pn" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918902" />
+	<data name="Presence of Negativity 14" field="14pn" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918903" />
+	<data name="Presence of Negativity 15" field="15pn" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918904" />
+	<data name="Presence of Negativity 16" field="16pn" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918905" />
+	<data name="Presence of Negativity 17" field="17pn" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918906" />
+	<data name="Presence of Negativity 18" field="18pn" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918907" />
+	<data name="Presence of Negativity 19" field="19pn" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918908" />
+	<data name="Presence of Negativity 20" field="20pn" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918909" />
+	<data name="Presence of Negativity 21" field="21pn" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918910" />
+	<data name="Presence of Negativity 22" field="22pn" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918911" />
+	<data name="Presence of Negativity 23" field="23pn" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918912" />
+	<data name="Presence of Negativity 24" field="24pn" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918913" />
+	<data name="Presence of Negativity 25" field="25pn" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918914" />
+	<data name="Presence of Negativity 26" field="26pn" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918915" />
+	<data name="Presence of Negativity 27" field="27pn" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918916" />
+	<data name="Presence of Negativity 28" field="28pn" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918917" />
+	<data name="Presence of Negativity 29" field="29pn" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918918" />
+	<data name="Presence of Negativity 30" field="30pn" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918919" />
+	<data name="Presence of Negativity 31" field="31pn" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918920" />
+	<data name="Presence of Negativity 32" field="32pn" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918921" />
+	<data name="Presence of Negativity 33" field="33pn" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918922" />
+	<data name="Presence of Negativity 34" field="34pn" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918923" />
+	<data name="Presence of Negativity 35" field="35pn" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918924" />
+	<data name="Presence of Negativity 36" field="36pn" template="BB" validator="yesno_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240918925" />
+	<data name="Special Flag" field="sf" template="BB" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240919483" />
+	<data name="Special Flag Explain" field="sfe" template="BB" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1280240919484" />
+	<data name="Scorer" field="sc" template="BB" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.ComboFieldBox" classid="1280240920971" />
+	<data name="Date Scored" field="dos" template="BB" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1280240920972" />
+	<data name="Episode Order" field="ord" template="BB" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280240920973" />
+	<data name="Child Tester" field="ct" template="BB" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.ComboFieldBox" classid="1280240920974" />
+	<data name="Baseline" field="bl" template="BB" validator="val15_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280777657640" />
+	<data name="Latency to first positivity" field="lp" template="BB" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1280777657641" />
+	<dependency field="Special Flag Explain">
+		<parent field="Special Flag" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+</dataset>
+

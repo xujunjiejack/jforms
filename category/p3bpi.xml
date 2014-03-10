@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE category SYSTEM "../../dtd/category.dtd">
+<category name="Berkeley Puppet Interview" abrv="bpi" filename="p3bpi">
+	<template name="temp1">
+		<name format="" />
+		<field format="@t" />
+	</template>
+</category>
+

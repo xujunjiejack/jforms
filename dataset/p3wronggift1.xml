@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Wrong Gift 1" abrv="p3wg1" filename="p3wronggift1">
+	<template name="main">
+		<name format="" />
+		<field format="wg@" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<validator name="val01_9980-9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="1">
+		<valid value="9999" />
+		<valid value="9998" />
+		<valid value="9997" />
+		<valid value="9996" />
+		<valid value="9995" />
+		<valid value="9994" />
+		<valid value="9993" />
+		<valid value="9992" />
+		<valid value="9991" />
+		<valid value="9990" />
+		<valid value="9989" />
+		<valid value="9988" />
+		<valid value="9987" />
+		<valid value="9986" />
+		<valid value="9985" />
+		<valid value="9984" />
+		<valid value="9983" />
+		<valid value="9982" />
+		<valid value="9981" />
+		<valid value="9980" />
+		<valid value="8" />
+	</validator>
+	<validator name="val02_9980-9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="2">
+		<valid value="9999" />
+		<valid value="9998" />
+		<valid value="9997" />
+		<valid value="9996" />
+		<valid value="9995" />
+		<valid value="9994" />
+		<valid value="9993" />
+		<valid value="9992" />
+		<valid value="9991" />
+		<valid value="9990" />
+		<valid value="9989" />
+		<valid value="9988" />
+		<valid value="9987" />
+		<valid value="9986" />
+		<valid value="9985" />
+		<valid value="9984" />
+		<valid value="9983" />
+		<valid value="9982" />
+		<valid value="9981" />
+		<valid value="9980" />
+	</validator>
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<key name="Twin" field="twin" template="na" validator="INTEGER" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<data name="Int. Of Antic. PA 1" field="ap1" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600933" />
+	<data name="Int. Of Antic. PA 2" field="ap2" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600934" />
+	<data name="Int. Of Antic. PA 3" field="ap3" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600935" />
+	<data name="Int. Of Antic. PA 4" field="ap4" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600936" />
+	<data name="Int. Of Antic. PA 5" field="ap5" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600937" />
+	<data name="Int. Of Antic. PA 6" field="ap6" template="main" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600938" />
+	<data name="Pres. of Posit. 1" field="pp1" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600939" />
+	<data name="Pres. of Posit. 2" field="pp2" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600940" />
+	<data name="Pres. of Posit. 3" field="pp3" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600941" />
+	<data name="Pres. of Posit. 4" field="pp4" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600942" />
+	<data name="Pres. of Posit. 5" field="pp5" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600943" />
+	<data name="Pres. of Posit. 6" field="pp6" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600944" />
+	<data name="Pres. of Posit. 7" field="pp7" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600945" />
+	<data name="Pres. of Posit. 8" field="pp8" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600946" />
+	<data name="Pres. of Posit. 9" field="pp9" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600947" />
+	<data name="Pres. of Posit. 10" field="pp10" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600948" />
+	<data name="Pres. of Posit. 11" field="pp11" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600949" />
+	<data name="Pres. of Posit. 12" field="pp12" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600950" />
+	<data name="Pres. of Posit. 13" field="pp13" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600951" />
+	<data name="Pres. of Posit. 14" field="pp14" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600952" />
+	<data name="Pres. of Posit. 15" field="pp15" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600953" />
+	<data name="Pres. of Posit. 16" field="pp16" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600954" />
+	<data name="Pres. of Posit. 17" field="pp17" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600955" />
+	<data name="Pres. of Posit. 18" field="pp18" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600956" />
+	<data name="Pres. of Posit. 19" field="pp19" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600957" />
+	<data name="Pres. of Posit. 20" field="pp20" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600958" />
+	<data name="Pres. of Posit. 21" field="pp21" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600959" />
+	<data name="Pres. of Posit. 22" field="pp22" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600960" />
+	<data name="Pres. of Posit. 23" field="pp23" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600961" />
+	<data name="Pres. of Posit. 24" field="pp24" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600962" />
+	<data name="Pres. of Posit. 25" field="pp25" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600963" />
+	<data name="Pres. of Posit. 26" field="pp26" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600964" />
+	<data name="Pres. of Posit. 27" field="pp27" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600965" />
+	<data name="Pres. of Posit. 28" field="pp28" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600966" />
+	<data name="Pres. of Posit. 29" field="pp29" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600967" />
+	<data name="Pres. of Posit. 30" field="pp30" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600968" />
+	<data name="Pres. of Posit. 31" field="pp31" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600969" />
+	<data name="Pres. of Posit. 32" field="pp32" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600970" />
+	<data name="Pres. of Posit. 33" field="pp33" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600971" />
+	<data name="Pres. of Posit. 34" field="pp34" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600972" />
+	<data name="Pres. of Posit. 35" field="pp35" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600973" />
+	<data name="Pres. of Posit. 36" field="pp36" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600974" />
+	<data name="Pres. of Posit. 37" field="pp37" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600975" />
+	<data name="Pres. of Posit. 38" field="pp38" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600976" />
+	<data name="Pres. of Posit. 39" field="pp39" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600977" />
+	<data name="Pres. of Posit. 40" field="pp40" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600978" />
+	<data name="Pres. of Posit. 41" field="pp41" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600979" />
+	<data name="Pres. of Posit. 42" field="pp42" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600980" />
+	<data name="Pres. of Negat. 1" field="pn1" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600981" />
+	<data name="Pres. of Negat. 2" field="pn2" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600982" />
+	<data name="Pres. of Negat. 3" field="pn3" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600983" />
+	<data name="Pres. of Negat. 4" field="pn4" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456600984" />
+	<data name="Pres. of Negat. 5" field="pn5" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601040" />
+	<data name="Pres. of Negat. 6" field="pn6" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601041" />
+	<data name="Pres. of Negat. 7" field="pn7" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601042" />
+	<data name="Pres. of Negat. 8" field="pn8" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601043" />
+	<data name="Pres. of Negat. 9" field="pn9" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601044" />
+	<data name="Pres. of Negat. 10" field="pn10" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601045" />
+	<data name="Pres. of Negat. 11" field="pn11" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601046" />
+	<data name="Pres. of Negat. 12" field="pn12" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601047" />
+	<data name="Pres. of Negat. 13" field="pn13" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601048" />
+	<data name="Pres. of Negat. 14" field="pn14" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601049" />
+	<data name="Pres. of Negat. 15" field="pn15" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601050" />
+	<data name="Pres. of Negat. 16" field="pn16" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601051" />
+	<data name="Pres. of Negat. 17" field="pn17" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601052" />
+	<data name="Pres. of Negat. 18" field="pn18" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601053" />
+	<data name="Pres. of Negat. 19" field="pn19" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601054" />
+	<data name="Pres. of Negat. 20" field="pn20" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601055" />
+	<data name="Pres. of Negat. 21" field="pn21" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601056" />
+	<data name="Pres. of Negat. 22" field="pn22" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601057" />
+	<data name="Pres. of Negat. 23" field="pn23" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601058" />
+	<data name="Pres. of Negat. 24" field="pn24" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601059" />
+	<data name="Pres. of Negat. 25" field="pn25" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601060" />
+	<data name="Pres. of Negat. 26" field="pn26" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601061" />
+	<data name="Pres. of Negat. 27" field="pn27" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601062" />
+	<data name="Pres. of Negat. 28" field="pn28" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601063" />
+	<data name="Pres. of Negat. 29" field="pn29" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601064" />
+	<data name="Pres. of Negat. 30" field="pn30" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601065" />
+	<data name="Pres. of Negat. 31" field="pn31" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601066" />
+	<data name="Pres. of Negat. 32" field="pn32" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601067" />
+	<data name="Pres. of Negat. 33" field="pn33" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601068" />
+	<data name="Pres. of Negat. 34" field="pn34" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601069" />
+	<data name="Pres. of Negat. 35" field="pn35" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601070" />
+	<data name="Pres. of Negat. 36" field="pn36" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601071" />
+	<data name="Pres. of Negat. 37" field="pn37" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601072" />
+	<data name="Pres. of Negat. 38" field="pn38" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601073" />
+	<data name="Pres. of Negat. 39" field="pn39" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601074" />
+	<data name="Pres. of Negat. 40" field="pn40" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601075" />
+	<data name="Pres. of Negat. 41" field="pn41" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601076" />
+	<data name="Pres. of Negat. 42" field="pn42" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601077" />
+	<data name="Scorer" field="sc" template="main" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.ComboFieldBox" classid="1316456601357" />
+	<data name="Child Tester" field="ct" template="main" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.ComboFieldBox" classid="1316456601358" />
+	<data name="Date Scored" field="dos" template="main" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601359" />
+	<data name="Epi. Order" field="ord" template="main" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601360" />
+	<data name="Baseline" field="bl" template="main" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601361" />
+	<data name="Lat. First Pos." field="lfp" template="main" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601362" />
+	<data name="Lat. First Neg." field="lfn" template="main" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601363" />
+	<data name="Pres. Of Voc." field="pv" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601364" />
+	<data name="Special Flag" field="sf" template="main" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1316456601365" />
+	<data name="Comments" field="cmnts" template="main" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1316456601366" />
+	<dependency field="Comments">
+		<parent field="Special Flag" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+</dataset>
+

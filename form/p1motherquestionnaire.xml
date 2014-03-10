@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Mother Questionnaire" abrv="p1motherquestionnaire" filename="p1motherquestionnaire">
+	<template name="temp1">
+		<name format="" />
+		<field format="@m" />
+	</template>
+	<dataset file="ita1_a" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_IT_A1_M" />
+	<dataset file="as_a" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_AS_M" />
+	<dataset file="itb1_a" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_IT_B1_M" />
+	<dataset file="itc1_a" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_IT_C1_M" />
+	<dataset file="itd1_a" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_IT_D1_M" />
+	<dataset file="ite1_a" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_IT_E1_M" />
+	<dataset file="itf1_a" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_IT_F1_M" />
+	<dataset file="ita1_b" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_IT_A1_M" />
+	<dataset file="as_b" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_AS_M" />
+	<dataset file="itb1_b" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_IT_B1_M" />
+	<dataset file="itc1_b" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_IT_C1_M" />
+	<dataset file="itd1_b" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_IT_D1_M" />
+	<dataset file="ite1_b" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_IT_E1_M" />
+	<dataset file="itf1_b" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_IT_F1_M" />
+	<dataset file="crprei" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_CR_M" />
+	<dataset file="crproa" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_CR_M" />
+	<dataset file="crprac" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_CR_M" />
+	<dataset file="crpreo" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_CR_M" />
+	<dataset file="crprca" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_CR_M" />
+	<dataset file="crprrg" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_CR_M" />
+	<dataset file="crprcg" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_CR_M" />
+	<schema file="p1dates" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_DATES" />
+	<key name="Family Id" entryset="A1 Twin A" filename="ita1_a" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Data Mode" entryset="A1 Twin A" filename="ita1_a" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="A1 Twin A" abrv="a1 a" numcols="2" displayheader="true" header="A1 Twin A">
+		<datafield name="Mother Questionnaire" entryset="Phase One Dates" filename="build\schema\p1dates.xml" type="1" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1045606528173" options="0,MM/dd/yyyy" />
+		<datafield name="1" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716406" options="" />
+		<datafield name="2" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716407" options="" />
+		<datafield name="3" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716408" options="" />
+		<datafield name="4" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716409" options="" />
+		<datafield name="5" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716410" options="" />
+		<datafield name="6" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716411" options="" />
+		<datafield name="7" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716412" options="" />
+		<datafield name="8" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716413" options="" />
+		<datafield name="9" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716414" options="" />
+		<datafield name="10" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716415" options="" />
+		<datafield name="11" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716416" options="" />
+		<datafield name="12" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716417" options="" />
+		<datafield name="13" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716418" options="" />
+		<datafield name="14" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716419" options="" />
+		<datafield name="15" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716420" options="" />
+		<datafield name="16" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716421" options="" />
+		<datafield name="17" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716422" options="" />
+		<datafield name="18" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716423" options="" />
+		<datafield name="19" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716424" options="" />
+		<datafield name="20" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716425" options="" />
+		<datafield name="21" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716426" options="" />
+		<datafield name="22" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716427" options="" />
+		<datafield name="23" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716428" options="" />
+		<datafield name="24" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716429" options="" />
+		<datafield name="25" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716430" options="" />
+		<datafield name="26" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716431" options="" />
+		<datafield name="27" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716432" options="" />
+		<datafield name="28" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396578" options="" />
+		<datafield name="28 explain" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051050265572" options="" />
+		<datafield name="29" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716434" options="" />
+		<datafield name="29 explain" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051050265573" options="" />
+		<datafield name="30" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716435" options="" />
+		<datafield name="30 explain" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051050265574" options="" />
+		<datafield name="31" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716436" options="" />
+		<datafield name="32" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716437" options="" />
+		<datafield name="33" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716438" options="" />
+		<datafield name="34" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716439" options="" />
+		<datafield name="35" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716440" options="" />
+		<datafield name="36" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716441" options="" />
+		<datafield name="37" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716442" options="" />
+		<datafield name="38" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716443" options="" />
+		<datafield name="39" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716444" options="" />
+		<datafield name="40" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716445" options="" />
+		<datafield name="41" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716446" options="" />
+		<datafield name="42" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716447" options="" />
+		<datafield name="43" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716448" options="" />
+		<datafield name="44" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716449" options="" />
+		<datafield name="45" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716450" options="" />
+		<datafield name="46" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716451" options="" />
+		<datafield name="47" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716452" options="" />
+		<datafield name="48" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716453" options="" />
+		<datafield name="49" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716454" options="" />
+		<datafield name="50" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716455" options="" />
+		<datafield name="51" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716456" options="" />
+		<datafield name="52" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716457" options="" />
+		<datafield name="53" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716458" options="" />
+		<datafield name="54" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716459" options="" />
+		<datafield name="55" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716460" options="" />
+		<datafield name="56" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716461" options="" />
+		<datafield name="57" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716462" options="" />
+		<datafield name="58" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716463" options="" />
+		<datafield name="59" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716464" options="" />
+		<datafield name="60" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716465" options="" />
+		<datafield name="61" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716466" options="" />
+		<datafield name="62" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716467" options="" />
+		<datafield name="63" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716468" options="" />
+		<datafield name="64" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716469" options="" />
+		<datafield name="65" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716470" options="" />
+		<datafield name="66" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716471" options="" />
+		<datafield name="67" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716472" options="" />
+		<datafield name="68" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716473" options="" />
+		<datafield name="69" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716474" options="" />
+		<datafield name="70" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716475" options="" />
+		<datafield name="71" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716476" options="" />
+		<datafield name="72" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716477" options="" />
+		<datafield name="73" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716478" options="" />
+		<datafield name="74" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716479" options="" />
+		<datafield name="75" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716480" options="" />
+		<datafield name="76" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716481" options="" />
+		<datafield name="77" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716482" options="" />
+		<datafield name="78" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716483" options="" />
+		<datafield name="79" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716484" options="" />
+		<datafield name="80" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716485" options="" />
+		<datafield name="81" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716486" options="" />
+		<datafield name="82" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716487" options="" />
+		<datafield name="83" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716488" options="" />
+		<datafield name="84" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716489" options="" />
+		<datafield name="85" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716490" options="" />
+		<datafield name="86" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716491" options="" />
+		<datafield name="87" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716492" options="" />
+		<datafield name="88" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716493" options="" />
+		<datafield name="89" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716494" options="" />
+		<datafield name="90" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716495" options="" />
+		<datafield name="91" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716496" options="" />
+		<datafield name="92" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716497" options="" />
+		<datafield name="93" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716498" options="" />
+		<datafield name="94" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716499" options="" />
+		<datafield name="95" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716500" options="" />
+		<datafield name="96" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716501" options="" />
+		<datafield name="97" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716502" options="" />
+		<datafield name="98" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716503" options="" />
+		<datafield name="99" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716504" options="" />
+		<datafield name="100" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716505" options="" />
+		<datafield name="101" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716506" options="" />
+		<datafield name="102" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716507" options="" />
+		<datafield name="103" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716508" options="" />
+		<datafield name="104" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716509" options="" />
+		<datafield name="105" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716510" options="" />
+		<datafield name="106" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716511" options="" />
+		<datafield name="107" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716512" options="" />
+		<datafield name="108" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716513" options="" />
+		<datafield name="109" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716514" options="" />
+		<datafield name="110" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716515" options="" />
+		<datafield name="111" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716516" options="" />
+		<datafield name="112" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716517" options="" />
+		<datafield name="113" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716518" options="" />
+		<datafield name="114" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716519" options="" />
+		<datafield name="115" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716520" options="" />
+		<datafield name="116" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716521" options="" />
+		<datafield name="117" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716522" options="" />
+		<datafield name="118" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716523" options="" />
+		<datafield name="119" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716524" options="" />
+		<datafield name="120" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716525" options="" />
+		<datafield name="121" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716526" options="" />
+		<datafield name="122" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716527" options="" />
+		<datafield name="123" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716528" options="" />
+		<datafield name="124" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716529" options="" />
+		<datafield name="125" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716530" options="" />
+		<datafield name="126" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716531" options="" />
+		<datafield name="127" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716532" options="" />
+		<datafield name="128" entryset="A1 Twin A" filename="build\dataset\ita1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716533" options="" />
+		<datafield name="129" entryset="Autism Screener Twin A" filename="build\dataset\as_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716537" options="" />
+	</componentset>
+	<componentset name="A2 Twin A" abrv="a2 a" numcols="2" displayheader="true" header="A2 Twin A">
+		<datafield name="1" entryset="Autism Screener Twin A" filename="build\dataset\as_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716678" options="" />
+		<datafield name="2" entryset="Autism Screener Twin A" filename="build\dataset\as_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716679" options="" />
+		<datafield name="3" entryset="Autism Screener Twin A" filename="build\dataset\as_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716680" options="" />
+		<datafield name="4" entryset="Autism Screener Twin A" filename="build\dataset\as_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716681" options="" />
+		<datafield name="5" entryset="Autism Screener Twin A" filename="build\dataset\as_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716682" options="" />
+		<datafield name="6" entryset="Autism Screener Twin A" filename="build\dataset\as_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716683" options="" />
+		<datafield name="7" entryset="Autism Screener Twin A" filename="build\dataset\as_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716684" options="" />
+		<datafield name="8" entryset="Autism Screener Twin A" filename="build\dataset\as_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716685" options="" />
+	</componentset>
+	<componentset name="B1 Twin A" abrv="b1 a" numcols="2" displayheader="true" header="B1 Twin A">
+		<datafield name="0" entryset="B1 Twin A" filename="build\dataset\itb1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1050961310980" options="" />
+		<datafield name="1" entryset="B1 Twin A" filename="build\dataset\itb1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1050961310981" options="" />
+		<datafield name="2" entryset="B1 Twin A" filename="build\dataset\itb1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1050961310982" options="" />
+		<datafield name="3" entryset="B1 Twin A" filename="build\dataset\itb1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1050961310983" options="" />
+		<datafield name="4" entryset="B1 Twin A" filename="build\dataset\itb1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1050961310984" options="" />
+		<datafield name="5" entryset="B1 Twin A" filename="build\dataset\itb1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1050961310985" options="" />
+		<datafield name="B1 6" entryset="Autism Screener Twin A" filename="build\dataset\as_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716686" options="" />
+		<datafield name="B1 7" entryset="Autism Screener Twin A" filename="build\dataset\as_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716687" options="" />
+		<datafield name="B1 8" entryset="Autism Screener Twin A" filename="build\dataset\as_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716688" options="" />
+	</componentset>
+	<componentset name="B2 Twin A" abrv="b2 a" numcols="2" displayheader="true" header="B2 Twin A">
+		<datafield name="B2 1" entryset="Autism Screener Twin A" filename="build\dataset\as_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833717071" options="" />
+		<datafield name="B2 2" entryset="Autism Screener Twin A" filename="build\dataset\as_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833717072" options="" />
+		<datafield name="B2 2 explain" entryset="Autism Screener Twin A" filename="build\dataset\as_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1050961311157" options="" />
+		<datafield name="B2 3" entryset="Autism Screener Twin A" filename="build\dataset\as_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833717073" options="" />
+		<datafield name="B2 3 explain" entryset="Autism Screener Twin A" filename="build\dataset\as_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1050961311158" options="" />
+		<datafield name="B2 4" entryset="Autism Screener Twin A" filename="build\dataset\as_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833717074" options="" />
+		<datafield name="B2 5" entryset="Autism Screener Twin A" filename="build\dataset\as_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1049833717075" options="" />
+	</componentset>
+	<componentset name="C1 Twin A" abrv="c1 a" numcols="2" displayheader="true" header="C1 Twin A">
+		<datafield name="0" entryset="C1 Twin A" filename="build\dataset\itc1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716723" options="" />
+		<datafield name="1" entryset="C1 Twin A" filename="build\dataset\itc1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716724" options="" />
+		<datafield name="2" entryset="C1 Twin A" filename="build\dataset\itc1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716725" options="" />
+		<datafield name="3" entryset="C1 Twin A" filename="build\dataset\itc1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716726" options="" />
+		<datafield name="4" entryset="C1 Twin A" filename="build\dataset\itc1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716727" options="" />
+		<datafield name="5" entryset="C1 Twin A" filename="build\dataset\itc1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716728" options="" />
+		<datafield name="6" entryset="C1 Twin A" filename="build\dataset\itc1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716729" options="" />
+		<datafield name="7" entryset="C1 Twin A" filename="build\dataset\itc1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716730" options="" />
+		<datafield name="8" entryset="C1 Twin A" filename="build\dataset\itc1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716731" options="" />
+		<datafield name="9" entryset="C1 Twin A" filename="build\dataset\itc1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716732" options="" />
+		<datafield name="10" entryset="C1 Twin A" filename="build\dataset\itc1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716733" options="" />
+		<datafield name="11" entryset="C1 Twin A" filename="build\dataset\itc1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716734" options="" />
+		<datafield name="12" entryset="C1 Twin A" filename="build\dataset\itc1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716735" options="" />
+	</componentset>
+	<componentset name="D1 Twin A" abrv="d1 a" numcols="2" displayheader="true" header="D1 Twin A">
+		<datafield name="1" entryset="D1 Twin A" filename="build\dataset\itd1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716739" options="" />
+		<datafield name="2" entryset="D1 Twin A" filename="build\dataset\itd1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716740" options="" />
+		<datafield name="3" entryset="D1 Twin A" filename="build\dataset\itd1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716741" options="" />
+		<datafield name="4" entryset="D1 Twin A" filename="build\dataset\itd1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716742" options="" />
+		<datafield name="5" entryset="D1 Twin A" filename="build\dataset\itd1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716743" options="" />
+		<datafield name="6" entryset="D1 Twin A" filename="build\dataset\itd1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716744" options="" />
+		<datafield name="7" entryset="D1 Twin A" filename="build\dataset\itd1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716745" options="" />
+		<datafield name="8" entryset="D1 Twin A" filename="build\dataset\itd1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716746" options="" />
+		<datafield name="9" entryset="D1 Twin A" filename="build\dataset\itd1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716747" options="" />
+		<datafield name="10" entryset="D1 Twin A" filename="build\dataset\itd1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716748" options="" />
+		<datafield name="11" entryset="D1 Twin A" filename="build\dataset\itd1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716749" options="" />
+		<datafield name="12" entryset="D1 Twin A" filename="build\dataset\itd1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716750" options="" />
+		<datafield name="13" entryset="D1 Twin A" filename="build\dataset\itd1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716751" options="" />
+		<datafield name="14" entryset="D1 Twin A" filename="build\dataset\itd1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716752" options="" />
+		<datafield name="15" entryset="D1 Twin A" filename="build\dataset\itd1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716753" options="" />
+		<datafield name="16" entryset="D1 Twin A" filename="build\dataset\itd1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716754" options="" />
+		<datafield name="17" entryset="D1 Twin A" filename="build\dataset\itd1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716755" options="" />
+		<datafield name="18" entryset="D1 Twin A" filename="build\dataset\itd1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716756" options="" />
+		<datafield name="19" entryset="D1 Twin A" filename="build\dataset\itd1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716757" options="" />
+		<datafield name="19s" entryset="D1 Twin A" filename="build\dataset\itd1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1049902396802" options="" />
+		<datafield name="20" entryset="D1 Twin A" filename="build\dataset\itd1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716758" options="" />
+		<datafield name="20s" entryset="D1 Twin A" filename="build\dataset\itd1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1049902396803" options="" />
+		<datafield name="21" entryset="D1 Twin A" filename="build\dataset\itd1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716759" options="" />
+		<datafield name="21s" entryset="D1 Twin A" filename="build\dataset\itd1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1049902396804" options="" />
+		<datafield name="22" entryset="D1 Twin A" filename="build\dataset\itd1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716760" options="" />
+		<datafield name="22s" entryset="D1 Twin A" filename="build\dataset\itd1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1049902396805" options="" />
+		<datafield name="23" entryset="D1 Twin A" filename="build\dataset\itd1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716761" options="" />
+		<datafield name="23s" entryset="D1 Twin A" filename="build\dataset\itd1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1049902396806" options="" />
+		<datafield name="24" entryset="D1 Twin A" filename="build\dataset\itd1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716762" options="" />
+		<datafield name="24s" entryset="D1 Twin A" filename="build\dataset\itd1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1049902396807" options="" />
+	</componentset>
+	<componentset name="E1 Twin A" abrv="e1 a" numcols="2" displayheader="true" header="E1 Twin A">
+		<datafield name="1" entryset="E1 Twin A" filename="build\dataset\ite1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716766" options="" />
+		<datafield name="2" entryset="E1 Twin A" filename="build\dataset\ite1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716767" options="" />
+		<datafield name="3" entryset="E1 Twin A" filename="build\dataset\ite1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716768" options="" />
+		<datafield name="4" entryset="E1 Twin A" filename="build\dataset\ite1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716769" options="" />
+		<datafield name="5" entryset="E1 Twin A" filename="build\dataset\ite1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716770" options="" />
+		<datafield name="6" entryset="E1 Twin A" filename="build\dataset\ite1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716771" options="" />
+		<datafield name="7" entryset="E1 Twin A" filename="build\dataset\ite1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716772" options="" />
+		<datafield name="8" entryset="E1 Twin A" filename="build\dataset\ite1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716773" options="" />
+		<datafield name="9" entryset="E1 Twin A" filename="build\dataset\ite1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716774" options="" />
+	</componentset>
+	<componentset name="F1 Twin A" abrv="f1 a" numcols="2" displayheader="true" header="F1 Twin A">
+		<datafield name="1" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716778" options="" />
+		<datafield name="1 months" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716779" options="" />
+		<datafield name="2" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716780" options="" />
+		<datafield name="2 months" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716781" options="" />
+		<datafield name="3" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716782" options="" />
+		<datafield name="3 months" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716783" options="" />
+		<datafield name="4" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716784" options="" />
+		<datafield name="4 months" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716785" options="" />
+		<datafield name="5" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716786" options="" />
+		<datafield name="5 months" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716787" options="" />
+		<datafield name="6" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716788" options="" />
+		<datafield name="6 months" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716789" options="" />
+		<datafield name="7" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716790" options="" />
+		<datafield name="7 months" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716791" options="" />
+		<datafield name="8" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716792" options="" />
+		<datafield name="8 months" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716793" options="" />
+		<datafield name="9" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716794" options="" />
+		<datafield name="9 months" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716795" options="" />
+		<datafield name="10" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716796" options="" />
+		<datafield name="10 months" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716797" options="" />
+		<datafield name="11" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716798" options="" />
+		<datafield name="11 months" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716799" options="" />
+		<datafield name="12" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716800" options="" />
+		<datafield name="12 months" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716801" options="" />
+		<datafield name="12s" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1049902396906" options="" />
+		<datafield name="13" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716802" options="" />
+		<datafield name="13 months" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716803" options="" />
+		<datafield name="13s" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1049902396907" options="" />
+		<datafield name="14" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716804" options="" />
+		<datafield name="14 months" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716805" options="" />
+		<datafield name="14s" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1049902396908" options="" />
+		<datafield name="15" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716806" options="" />
+		<datafield name="16" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1049833716807" options="" />
+		<datafield name="17" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716808" options="" />
+		<datafield name="18" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716809" options="" />
+		<datafield name="19a" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734084" options="" />
+		<datafield name="19b" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734085" options="" />
+		<datafield name="19c" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734086" options="" />
+		<datafield name="19d" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734087" options="" />
+		<datafield name="19e" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734088" options="" />
+		<datafield name="19f" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734089" options="" />
+		<datafield name="20" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716847" options="" />
+		<datafield name="21a" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734090" options="" />
+		<datafield name="21b" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734091" options="" />
+		<datafield name="21c" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734092" options="" />
+		<datafield name="21d" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734093" options="" />
+		<datafield name="21e" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734094" options="" />
+		<datafield name="21f" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734095" options="" />
+		<datafield name="21g" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734096" options="" />
+		<datafield name="21h" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734097" options="" />
+		<datafield name="21i" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734098" options="" />
+		<datafield name="21j" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734099" options="" />
+		<datafield name="21k" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734100" options="" />
+		<datafield name="21l" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734101" options="" />
+		<datafield name="21m" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734102" options="" />
+		<datafield name="21n" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734103" options="" />
+		<datafield name="21o" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734104" options="" />
+		<datafield name="21p" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734105" options="" />
+		<datafield name="21q" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734106" options="" />
+		<datafield name="21r" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734107" options="" />
+		<datafield name="21s" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734108" options="" />
+		<datafield name="21t" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734109" options="" />
+		<datafield name="21u" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734110" options="" />
+		<datafield name="21v" entryset="F1 Twin A" filename="build\dataset\itf1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734111" options="" />
+	</componentset>
+	<componentset name="A1 Twin B" abrv="a1 b" numcols="2" displayheader="true" header="A1 Twin B">
+		<datafield name="1" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396551" options="" />
+		<datafield name="2" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396552" options="" />
+		<datafield name="3" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396553" options="" />
+		<datafield name="4" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396554" options="" />
+		<datafield name="5" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396555" options="" />
+		<datafield name="6" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396556" options="" />
+		<datafield name="7" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396557" options="" />
+		<datafield name="8" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396558" options="" />
+		<datafield name="9" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396559" options="" />
+		<datafield name="10" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396560" options="" />
+		<datafield name="11" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396561" options="" />
+		<datafield name="12" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396562" options="" />
+		<datafield name="13" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396563" options="" />
+		<datafield name="14" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396564" options="" />
+		<datafield name="15" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396565" options="" />
+		<datafield name="16" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396566" options="" />
+		<datafield name="17" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396567" options="" />
+		<datafield name="18" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396568" options="" />
+		<datafield name="19" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396569" options="" />
+		<datafield name="20" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396570" options="" />
+		<datafield name="21" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396571" options="" />
+		<datafield name="22" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396572" options="" />
+		<datafield name="23" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396573" options="" />
+		<datafield name="24" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396574" options="" />
+		<datafield name="25" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396575" options="" />
+		<datafield name="26" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396576" options="" />
+		<datafield name="27" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396577" options="" />
+		<datafield name="28" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396578" options="" />
+		<datafield name="28 explain" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051050265438" options="" />
+		<datafield name="29" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716434" options="" />
+		<datafield name="29 explain" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051050265439" options="" />
+		<datafield name="30" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833716435" options="" />
+		<datafield name="30 explain" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051050265440" options="" />
+		<datafield name="31" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396581" options="" />
+		<datafield name="32" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396582" options="" />
+		<datafield name="33" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396583" options="" />
+		<datafield name="34" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396584" options="" />
+		<datafield name="35" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396585" options="" />
+		<datafield name="36" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396586" options="" />
+		<datafield name="37" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396587" options="" />
+		<datafield name="38" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396588" options="" />
+		<datafield name="39" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396589" options="" />
+		<datafield name="40" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396590" options="" />
+		<datafield name="41" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396591" options="" />
+		<datafield name="42" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396592" options="" />
+		<datafield name="43" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396593" options="" />
+		<datafield name="44" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396594" options="" />
+		<datafield name="45" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396595" options="" />
+		<datafield name="46" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396596" options="" />
+		<datafield name="47" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396597" options="" />
+		<datafield name="48" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396598" options="" />
+		<datafield name="49" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396599" options="" />
+		<datafield name="50" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396600" options="" />
+		<datafield name="51" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396601" options="" />
+		<datafield name="52" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396602" options="" />
+		<datafield name="53" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396603" options="" />
+		<datafield name="54" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396604" options="" />
+		<datafield name="55" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396605" options="" />
+		<datafield name="56" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396606" options="" />
+		<datafield name="57" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396607" options="" />
+		<datafield name="58" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396608" options="" />
+		<datafield name="59" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396609" options="" />
+		<datafield name="60" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396610" options="" />
+		<datafield name="61" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396611" options="" />
+		<datafield name="62" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396612" options="" />
+		<datafield name="63" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396613" options="" />
+		<datafield name="64" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396614" options="" />
+		<datafield name="65" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396615" options="" />
+		<datafield name="66" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396616" options="" />
+		<datafield name="67" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396617" options="" />
+		<datafield name="68" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396618" options="" />
+		<datafield name="69" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396619" options="" />
+		<datafield name="70" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396620" options="" />
+		<datafield name="71" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396621" options="" />
+		<datafield name="72" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396622" options="" />
+		<datafield name="73" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396623" options="" />
+		<datafield name="74" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396624" options="" />
+		<datafield name="75" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396625" options="" />
+		<datafield name="76" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396626" options="" />
+		<datafield name="77" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396627" options="" />
+		<datafield name="78" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396628" options="" />
+		<datafield name="79" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396629" options="" />
+		<datafield name="80" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396630" options="" />
+		<datafield name="81" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396631" options="" />
+		<datafield name="82" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396632" options="" />
+		<datafield name="83" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396633" options="" />
+		<datafield name="84" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396634" options="" />
+		<datafield name="85" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396635" options="" />
+		<datafield name="86" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396636" options="" />
+		<datafield name="87" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396637" options="" />
+		<datafield name="88" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396638" options="" />
+		<datafield name="89" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396639" options="" />
+		<datafield name="90" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396640" options="" />
+		<datafield name="91" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396641" options="" />
+		<datafield name="92" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396642" options="" />
+		<datafield name="93" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396643" options="" />
+		<datafield name="94" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396644" options="" />
+		<datafield name="95" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396645" options="" />
+		<datafield name="96" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396646" options="" />
+		<datafield name="97" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396647" options="" />
+		<datafield name="98" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396648" options="" />
+		<datafield name="99" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396649" options="" />
+		<datafield name="100" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396650" options="" />
+		<datafield name="101" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396651" options="" />
+		<datafield name="102" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396652" options="" />
+		<datafield name="103" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396653" options="" />
+		<datafield name="104" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396654" options="" />
+		<datafield name="105" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396655" options="" />
+		<datafield name="106" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396656" options="" />
+		<datafield name="107" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396657" options="" />
+		<datafield name="108" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396658" options="" />
+		<datafield name="109" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396659" options="" />
+		<datafield name="110" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396660" options="" />
+		<datafield name="111" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396661" options="" />
+		<datafield name="112" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396662" options="" />
+		<datafield name="113" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396663" options="" />
+		<datafield name="114" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396664" options="" />
+		<datafield name="115" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396665" options="" />
+		<datafield name="116" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396666" options="" />
+		<datafield name="117" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396667" options="" />
+		<datafield name="118" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396668" options="" />
+		<datafield name="119" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396669" options="" />
+		<datafield name="120" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396670" options="" />
+		<datafield name="121" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396671" options="" />
+		<datafield name="122" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396672" options="" />
+		<datafield name="123" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396673" options="" />
+		<datafield name="124" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396674" options="" />
+		<datafield name="125" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396675" options="" />
+		<datafield name="126" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396676" options="" />
+		<datafield name="127" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396677" options="" />
+		<datafield name="128" entryset="A1 Twin B" filename="build\dataset\ita1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396678" options="" />
+		<datafield name="129" entryset="Autism Screener Twin B" filename="build\dataset\as_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902032625" options="" />
+	</componentset>
+	<componentset name="A2 Twin B" abrv="a2 b" numcols="2" displayheader="true" header="A2 Twin B">
+		<datafield name="1" entryset="Autism Screener Twin B" filename="build\dataset\as_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902032626" options="" />
+		<datafield name="2" entryset="Autism Screener Twin B" filename="build\dataset\as_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902032627" options="" />
+		<datafield name="3" entryset="Autism Screener Twin B" filename="build\dataset\as_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902032628" options="" />
+		<datafield name="4" entryset="Autism Screener Twin B" filename="build\dataset\as_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902032629" options="" />
+		<datafield name="5" entryset="Autism Screener Twin B" filename="build\dataset\as_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902032630" options="" />
+		<datafield name="6" entryset="Autism Screener Twin B" filename="build\dataset\as_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902032631" options="" />
+		<datafield name="7" entryset="Autism Screener Twin B" filename="build\dataset\as_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902032632" options="" />
+		<datafield name="8" entryset="Autism Screener Twin B" filename="build\dataset\as_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902032633" options="" />
+	</componentset>
+	<componentset name="B1 Twin B" abrv="b1 b" numcols="2" displayheader="true" header="B1 Twin B">
+		<datafield name="0" entryset="B1 Twin B" filename="build\dataset\itb1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1050961311305" options="" />
+		<datafield name="1" entryset="B1 Twin B" filename="build\dataset\itb1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1050961311306" options="" />
+		<datafield name="2" entryset="B1 Twin B" filename="build\dataset\itb1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1050961311307" options="" />
+		<datafield name="3" entryset="B1 Twin B" filename="build\dataset\itb1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1050961311308" options="" />
+		<datafield name="4" entryset="B1 Twin B" filename="build\dataset\itb1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1050961311309" options="" />
+		<datafield name="5" entryset="B1 Twin B" filename="build\dataset\itb1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1050961311310" options="" />
+		<datafield name="B1 6" entryset="Autism Screener Twin B" filename="build\dataset\as_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902032634" options="" />
+		<datafield name="B1 7" entryset="Autism Screener Twin B" filename="build\dataset\as_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902032635" options="" />
+		<datafield name="B1 8" entryset="Autism Screener Twin B" filename="build\dataset\as_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902032636" options="" />
+	</componentset>
+	<componentset name="B2 Twin B" abrv="b2 b" numcols="2" displayheader="true" header="B2 Twin B">
+		<datafield name="B2 1" entryset="Autism Screener Twin B" filename="build\dataset\as_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902032637" options="" />
+		<datafield name="B2 2" entryset="Autism Screener Twin B" filename="build\dataset\as_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902032638" options="" />
+		<datafield name="B2 2 explain" entryset="Autism Screener Twin B" filename="build\dataset\as_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1050961311331" options="" />
+		<datafield name="B2 3" entryset="Autism Screener Twin B" filename="build\dataset\as_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902032639" options="" />
+		<datafield name="B2 3 explain" entryset="Autism Screener Twin B" filename="build\dataset\as_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1050961311332" options="" />
+		<datafield name="B2 4" entryset="Autism Screener Twin B" filename="build\dataset\as_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902032640" options="" />
+		<datafield name="B2 5" entryset="Autism Screener Twin B" filename="build\dataset\as_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1049902032641" options="" />
+	</componentset>
+	<componentset name="C1 Twin B" abrv="c1 b" numcols="2" displayheader="true" header="C1 Twin B">
+		<datafield name="0" entryset="C1 Twin B" filename="build\dataset\itc1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396777" options="" />
+		<datafield name="1" entryset="C1 Twin B" filename="build\dataset\itc1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396690" options="" />
+		<datafield name="2" entryset="C1 Twin B" filename="build\dataset\itc1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396691" options="" />
+		<datafield name="3" entryset="C1 Twin B" filename="build\dataset\itc1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396692" options="" />
+		<datafield name="4" entryset="C1 Twin B" filename="build\dataset\itc1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396693" options="" />
+		<datafield name="5" entryset="C1 Twin B" filename="build\dataset\itc1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396694" options="" />
+		<datafield name="6" entryset="C1 Twin B" filename="build\dataset\itc1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396695" options="" />
+		<datafield name="7" entryset="C1 Twin B" filename="build\dataset\itc1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396696" options="" />
+		<datafield name="8" entryset="C1 Twin B" filename="build\dataset\itc1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396697" options="" />
+		<datafield name="9" entryset="C1 Twin B" filename="build\dataset\itc1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396698" options="" />
+		<datafield name="10" entryset="C1 Twin B" filename="build\dataset\itc1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396699" options="" />
+		<datafield name="11" entryset="C1 Twin B" filename="build\dataset\itc1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396700" options="" />
+		<datafield name="12" entryset="C1 Twin B" filename="build\dataset\itc1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396701" options="" />
+	</componentset>
+	<componentset name="D1 Twin B" abrv="d1 b" numcols="2" displayheader="true" header="D1 Twin B">
+		<datafield name="1" entryset="D1 Twin B" filename="build\dataset\itd1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396751" options="" />
+		<datafield name="2" entryset="D1 Twin B" filename="build\dataset\itd1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396752" options="" />
+		<datafield name="3" entryset="D1 Twin B" filename="build\dataset\itd1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396753" options="" />
+		<datafield name="4" entryset="D1 Twin B" filename="build\dataset\itd1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396754" options="" />
+		<datafield name="5" entryset="D1 Twin B" filename="build\dataset\itd1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396755" options="" />
+		<datafield name="6" entryset="D1 Twin B" filename="build\dataset\itd1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396756" options="" />
+		<datafield name="7" entryset="D1 Twin B" filename="build\dataset\itd1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396757" options="" />
+		<datafield name="8" entryset="D1 Twin B" filename="build\dataset\itd1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396758" options="" />
+		<datafield name="9" entryset="D1 Twin B" filename="build\dataset\itd1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396759" options="" />
+		<datafield name="10" entryset="D1 Twin B" filename="build\dataset\itd1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396760" options="" />
+		<datafield name="11" entryset="D1 Twin B" filename="build\dataset\itd1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396761" options="" />
+		<datafield name="12" entryset="D1 Twin B" filename="build\dataset\itd1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396762" options="" />
+		<datafield name="13" entryset="D1 Twin B" filename="build\dataset\itd1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396763" options="" />
+		<datafield name="14" entryset="D1 Twin B" filename="build\dataset\itd1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396764" options="" />
+		<datafield name="15" entryset="D1 Twin B" filename="build\dataset\itd1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396765" options="" />
+		<datafield name="16" entryset="D1 Twin B" filename="build\dataset\itd1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396766" options="" />
+		<datafield name="17" entryset="D1 Twin B" filename="build\dataset\itd1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396767" options="" />
+		<datafield name="18" entryset="D1 Twin B" filename="build\dataset\itd1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396768" options="" />
+		<datafield name="19" entryset="D1 Twin B" filename="build\dataset\itd1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396769" options="" />
+		<datafield name="19s" entryset="D1 Twin B" filename="build\dataset\itd1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1049902396835" options="" />
+		<datafield name="20" entryset="D1 Twin B" filename="build\dataset\itd1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396770" options="" />
+		<datafield name="20s" entryset="D1 Twin B" filename="build\dataset\itd1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1049902396836" options="" />
+		<datafield name="21" entryset="D1 Twin B" filename="build\dataset\itd1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396771" options="" />
+		<datafield name="21s" entryset="D1 Twin B" filename="build\dataset\itd1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1049902396837" options="" />
+		<datafield name="22" entryset="D1 Twin B" filename="build\dataset\itd1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396772" options="" />
+		<datafield name="22s" entryset="D1 Twin B" filename="build\dataset\itd1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1049902396838" options="" />
+		<datafield name="23" entryset="D1 Twin B" filename="build\dataset\itd1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396773" options="" />
+		<datafield name="23s" entryset="D1 Twin B" filename="build\dataset\itd1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1049902396839" options="" />
+		<datafield name="24" entryset="D1 Twin B" filename="build\dataset\itd1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396774" options="" />
+		<datafield name="24s" entryset="D1 Twin B" filename="build\dataset\itd1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1049902396840" options="" />
+	</componentset>
+	<componentset name="E1 Twin B" abrv="e1 b" numcols="2" displayheader="true" header="E1 Twin B">
+		<datafield name="1" entryset="E1 Twin B" filename="build\dataset\ite1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396844" options="" />
+		<datafield name="2" entryset="E1 Twin B" filename="build\dataset\ite1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396845" options="" />
+		<datafield name="3" entryset="E1 Twin B" filename="build\dataset\ite1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396846" options="" />
+		<datafield name="4" entryset="E1 Twin B" filename="build\dataset\ite1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396847" options="" />
+		<datafield name="5" entryset="E1 Twin B" filename="build\dataset\ite1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396848" options="" />
+		<datafield name="6" entryset="E1 Twin B" filename="build\dataset\ite1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396849" options="" />
+		<datafield name="7" entryset="E1 Twin B" filename="build\dataset\ite1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396850" options="" />
+		<datafield name="8" entryset="E1 Twin B" filename="build\dataset\ite1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396851" options="" />
+		<datafield name="9" entryset="E1 Twin B" filename="build\dataset\ite1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049902396852" options="" />
+	</componentset>
+	<componentset name="F1 Twin B" abrv="f1 b" numcols="2" displayheader="true" header="F1 Twin B">
+		<datafield name="1" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833816778" options="" />
+		<datafield name="1 months" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833816779" options="" />
+		<datafield name="2" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833816780" options="" />
+		<datafield name="2 months" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833816781" options="" />
+		<datafield name="3" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833816782" options="" />
+		<datafield name="3 months" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833816783" options="" />
+		<datafield name="4" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833816784" options="" />
+		<datafield name="4 months" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833816785" options="" />
+		<datafield name="5" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833816786" options="" />
+		<datafield name="5 months" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833816787" options="" />
+		<datafield name="6" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833816788" options="" />
+		<datafield name="6 months" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833816789" options="" />
+		<datafield name="7" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833816790" options="" />
+		<datafield name="7 months" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833816791" options="" />
+		<datafield name="8" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833816792" options="" />
+		<datafield name="8 months" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833816793" options="" />
+		<datafield name="9" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833816794" options="" />
+		<datafield name="9 months" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833816795" options="" />
+		<datafield name="10" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833816796" options="" />
+		<datafield name="10 months" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833816797" options="" />
+		<datafield name="11" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833816798" options="" />
+		<datafield name="11 months" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833816799" options="" />
+		<datafield name="12" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833816800" options="" />
+		<datafield name="12 months" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833816801" options="" />
+		<datafield name="12s" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1049902396906" options="" />
+		<datafield name="13" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833816802" options="" />
+		<datafield name="13 months" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833816803" options="" />
+		<datafield name="13s" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1049902396907" options="" />
+		<datafield name="14" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833816804" options="" />
+		<datafield name="14 months" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833816805" options="" />
+		<datafield name="14s" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1049902396908" options="" />
+		<datafield name="15" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833816806" options="" />
+		<datafield name="16" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1049833816807" options="" />
+		<datafield name="17" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833816808" options="" />
+		<datafield name="18" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833816809" options="" />
+		<datafield name="19a" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734084" options="" />
+		<datafield name="19b" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734085" options="" />
+		<datafield name="19c" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734086" options="" />
+		<datafield name="19d" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734087" options="" />
+		<datafield name="19e" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734088" options="" />
+		<datafield name="19f" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734089" options="" />
+		<datafield name="20" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049833816847" options="" />
+		<datafield name="21a" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734090" options="" />
+		<datafield name="21b" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734091" options="" />
+		<datafield name="21c" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734092" options="" />
+		<datafield name="21d" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734093" options="" />
+		<datafield name="21e" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734094" options="" />
+		<datafield name="21f" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734095" options="" />
+		<datafield name="21g" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734096" options="" />
+		<datafield name="21h" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734097" options="" />
+		<datafield name="21i" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734098" options="" />
+		<datafield name="21j" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734099" options="" />
+		<datafield name="21k" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734100" options="" />
+		<datafield name="21l" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734101" options="" />
+		<datafield name="21m" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734102" options="" />
+		<datafield name="21n" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734103" options="" />
+		<datafield name="21o" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734104" options="" />
+		<datafield name="21p" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734105" options="" />
+		<datafield name="21q" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734106" options="" />
+		<datafield name="21r" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734107" options="" />
+		<datafield name="21s" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734108" options="" />
+		<datafield name="21t" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734109" options="" />
+		<datafield name="21u" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734110" options="" />
+		<datafield name="21v" entryset="F1 Twin B" filename="build\dataset\itf1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1049912734111" options="" />
+	</componentset>
+	<componentset name="Child Rearing Practicies Report" abrv="crpr" numcols="2" displayheader="true" header="Child Rearing Practicies Report">
+		<datafield name="1" entryset="Encouraging Independence" filename="build\dataset\crprei.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341227" options="" />
+		<datafield name="2" entryset="Encouraging Independence" filename="build\dataset\crprei.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341228" options="" />
+		<datafield name="3" entryset="Open expression of affect" filename="build\dataset\crproa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341254" options="" />
+		<datafield name="4" entryset="Authoritarian Control" filename="build\dataset\crprac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341276" options="" />
+		<datafield name="5" entryset="Authoritarian Control" filename="build\dataset\crprac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341277" options="" />
+		<datafield name="6" entryset="Open expression of affect" filename="build\dataset\crproa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341255" options="" />
+		<datafield name="7" entryset="Encouraging openness of expression" filename="build\dataset\crpreo.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047943100826" options="" />
+		<datafield name="8" entryset="Encouraging Independence" filename="build\dataset\crprei.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341229" options="" />
+		<datafield name="9" entryset="Encouraging openness of expression" filename="build\dataset\crpreo.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047943100827" options="" />
+		<datafield name="10" entryset="Encouraging Independence" filename="build\dataset\crprei.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341230" options="" />
+		<datafield name="11" entryset="Authoritarian Control" filename="build\dataset\crprac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341278" options="" />
+		<datafield name="12" entryset="Control by anxiety induction" filename="build\dataset\crprca.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341272" options="" />
+		<datafield name="13" entryset="Authoritarian Control" filename="build\dataset\crprac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341279" options="" />
+		<datafield name="14" entryset="Open expression of affect" filename="build\dataset\crproa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341256" options="" />
+		<datafield name="15" entryset="Rational guiding of child" filename="build\dataset\crprrg.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341262" options="" />
+		<datafield name="16" entryset="Open expression of affect" filename="build\dataset\crproa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341257" options="" />
+		<datafield name="17" entryset="Encouraging Independence" filename="build\dataset\crprei.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341231" options="" />
+		<datafield name="18" entryset="Open expression of affect" filename="build\dataset\crproa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341258" options="" />
+		<datafield name="19" entryset="Authoritarian Control" filename="build\dataset\crprac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341280" options="" />
+		<datafield name="20" entryset="Encouraging openness of expression" filename="build\dataset\crpreo.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047943100828" options="" />
+		<datafield name="21" entryset="Control by guilt induction" filename="build\dataset\crprcg.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341267" options="" />
+		<datafield name="22" entryset="Rational guiding of child" filename="build\dataset\crprrg.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341263" options="" />
+		<datafield name="23" entryset="Rational guiding of child" filename="build\dataset\crprrg.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341264" options="" />
+		<datafield name="24" entryset="Encouraging openness of expression" filename="build\dataset\crpreo.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047943100829" options="" />
+		<datafield name="25" entryset="Authoritarian Control" filename="build\dataset\crprac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341281" options="" />
+		<datafield name="26" entryset="Authoritarian Control" filename="build\dataset\crprac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341282" options="" />
+		<datafield name="27" entryset="Open expression of affect" filename="build\dataset\crproa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341259" options="" />
+		<datafield name="28" entryset="Authoritarian Control" filename="build\dataset\crprac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341283" options="" />
+		<datafield name="29" entryset="Control by guilt induction" filename="build\dataset\crprcg.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341268" options="" />
+		<datafield name="30" entryset="Encouraging Independence" filename="build\dataset\crprei.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341232" options="" />
+		<datafield name="31" entryset="Authoritarian Control" filename="build\dataset\crprac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341284" options="" />
+		<datafield name="32" entryset="Control by guilt induction" filename="build\dataset\crprcg.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341269" options="" />
+		<datafield name="33" entryset="Encouraging Independence" filename="build\dataset\crprei.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341233" options="" />
+		<datafield name="34" entryset="Authoritarian Control" filename="build\dataset\crprac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341285" options="" />
+		<datafield name="35" entryset="Control by anxiety induction" filename="build\dataset\crprca.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341273" options="" />
+	</componentset>
+</form>
+

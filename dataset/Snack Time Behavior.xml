@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Snack Time Behavior" abrv="Snack Time Behavior" filename="Snack Time Behavior">
+	<template name="st_temp">
+		<name format="" />
+		<field format="st@" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<validator name="val01_9980-9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="1">
+		<valid value="9999" />
+		<valid value="9998" />
+		<valid value="9997" />
+		<valid value="9996" />
+		<valid value="9995" />
+		<valid value="9994" />
+		<valid value="9993" />
+		<valid value="9992" />
+		<valid value="9991" />
+		<valid value="9990" />
+		<valid value="9989" />
+		<valid value="9988" />
+		<valid value="9987" />
+		<valid value="9986" />
+		<valid value="9985" />
+		<valid value="9984" />
+		<valid value="9983" />
+		<valid value="9982" />
+		<valid value="9981" />
+		<valid value="9980" />
+	</validator>
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<key name="Twin" field="twin" template="na" validator="INTEGER" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<data name="Dissatisfaction Bell 1st" field="3dis" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982970977" />
+	<data name="Dissatisfaction Bell Last" field="l3dis" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982970978" />
+	<data name="Dissatisfaction Share" field="12dis" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982970979" />
+	<data name="Dissatisfaction Finish" field="13dis" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982970980" />
+	<data name="Fidget Inst. 1st" field="1fid" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982970981" />
+	<data name="Fidget Choose 1st" field="2fid" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982970982" />
+	<data name="Fidget Bell 1st" field="3fid" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982970983" />
+	<data name="Fidget Inst. Last" field="l1fid" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982970984" />
+	<data name="Fidget Choose Last" field="l2fid" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982970985" />
+	<data name="Fidget Bell Last" field="l3fid" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982970986" />
+	<data name="Fidget Verify" field="10fid" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982970987" />
+	<data name="Fidget Waiting" field="11fid" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982970988" />
+	<data name="Fidget Share" field="12fid" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982970989" />
+	<data name="Fidget Finish" field="13fid" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982970990" />
+	<data name="Initiated Neg. Phys. Inst. 1st" field="1ini" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982970991" />
+	<data name="Initiated Neg. Phys. Choose 1st" field="2ini" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982970992" />
+	<data name="Initiated Neg. Phys. Bell 1st" field="3ini" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982970993" />
+	<data name="Initiated Neg. Phys. Inst. Last" field="l1ini" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982970994" />
+	<data name="Initiated Neg. Phys. Choose Last" field="l2ini" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982970995" />
+	<data name="Initiated Neg. Phys. Bell Last" field="l3ini" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982970996" />
+	<data name="Initiated Neg. Phys. Verify" field="10ini" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982970997" />
+	<data name="Initiated Neg. Phys. Waiting" field="11ini" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982970998" />
+	<data name="Initiated Neg. Phys. Share" field="12ini" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982970999" />
+	<data name="Initiated Neg. Phys. Finish" field="13ini" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971000" />
+	<data name="Cotwin's Acquiescence Inst. 1st" field="1pta" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971001" />
+	<data name="Cotwin's Acquiescence Choose 1st" field="2pta" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971002" />
+	<data name="Cotwin's Acquiescence Bell 1st" field="3pta" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971003" />
+	<data name="Cotwin's Acquiescence Inst. Last" field="l1pta" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971004" />
+	<data name="Cotwin's Acquiescence Choose Last" field="l2pta" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971005" />
+	<data name="Cotwin's Acquiescence Bell Last" field="l3pta" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971006" />
+	<data name="Cotwin's Acquiescence Verify" field="10pta" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971007" />
+	<data name="Cotwin's Acquiescence Waiting" field="11pta" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971008" />
+	<data name="Cotwin's Acquiescence Share" field="12pta" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971009" />
+	<data name="Cotwin's Acquiescence Finish" field="13pta" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971010" />
+	<data name="Cotwin's Resistance Inst. 1st" field="1ptr" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971011" />
+	<data name="Cotwin's Resistance Choose 1st" field="2ptr" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971012" />
+	<data name="Cotwin's Resistance Bell 1st" field="3ptr" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971013" />
+	<data name="Cotwin's Resistance Inst. Last" field="l1ptr" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971014" />
+	<data name="Cotwin's Resistance Choose Last" field="l2ptr" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971015" />
+	<data name="Cotwin's Resistance Bell Last" field="l3ptr" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971016" />
+	<data name="Cotwin's Resistance Verify" field="10ptr" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971017" />
+	<data name="Cotwin's Resistance Waiting" field="11ptr" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971018" />
+	<data name="Cotwin's Resistance Share" field="12ptr" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971019" />
+	<data name="Cotwin's Resistance Finish" field="13ptr" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971020" />
+	<data name="Verbal Conflict Inst. 1st" field="1vc" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971021" />
+	<data name="Verbal Conflict Choose 1st" field="2vc" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971022" />
+	<data name="Verbal Conflict Bell 1st" field="3vc" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971023" />
+	<data name="Verbal Conflict Inst. Last" field="l1vc" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971024" />
+	<data name="Verbal Conflict Choose Last" field="l2vc" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971025" />
+	<data name="Verbal Conflict Bell Last" field="l3vc" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971026" />
+	<data name="Verbal Conflict Verify" field="10vc" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971027" />
+	<data name="Verbal Conflict Waiting" field="11vc" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971028" />
+	<data name="Verbal Conflict Share" field="12vc" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971029" />
+	<data name="Verbal Conflict Finish" field="13vc" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971030" />
+	<data name="Cooperation/Pro-social Inst. 1st" field="1cp" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971031" />
+	<data name="Cooperation/Pro-social Choose 1st" field="2cp" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971032" />
+	<data name="Cooperation/Pro-social Bell 1st" field="3cp" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971033" />
+	<data name="Cooperation/Pro-social Inst. Last" field="l1cp" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971034" />
+	<data name="Cooperation/Pro-social Choose Last" field="l2cp" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971035" />
+	<data name="Cooperation/Pro-social Bell Last" field="l3cp" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971036" />
+	<data name="Cooperation/Pro-social Verify" field="10cp" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971037" />
+	<data name="Cooperation/Pro-social Waiting" field="11cp" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971038" />
+	<data name="Cooperation/Pro-social Share" field="12cp" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971039" />
+	<data name="Cooperation/Pro-social Finish" field="13cp" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971040" />
+	<data name="Positively Accepted/Acted Upon Inst. 1st" field="1pca" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971041" />
+	<data name="Positively Accepted/Acted Upon Choose 1st" field="2pca" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971042" />
+	<data name="Positively Accepted/Acted Upon Bell 1st" field="3pca" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971043" />
+	<data name="Positively Accepted/Acted Upon Inst. Last" field="l1pca" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971044" />
+	<data name="Positively Accepted/Acted Upon Choose Last" field="l2pca" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971045" />
+	<data name="Positively Accepted/Acted Upon Bell Last" field="l3pca" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971046" />
+	<data name="Positively Accepted/Acted Upon Verify" field="10pca" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971047" />
+	<data name="Positively Accepted/Acted Upon Waiting" field="11pca" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971048" />
+	<data name="Positively Accepted/Acted Upon Share" field="12pca" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971049" />
+	<data name="Positively Accepted/Acted Upon Finish" field="13pca" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971050" />
+	<data name="Positively Rejected/Ignore Inst. 1st" field="1pcr" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971051" />
+	<data name="Positively Rejected/Ignore Choose 1st" field="2pcr" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971052" />
+	<data name="Positively Rejected/Ignore Bell 1st" field="3pcr" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971053" />
+	<data name="Positively Rejected/Ignore Inst. Last" field="l1pcr" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971054" />
+	<data name="Positively Rejected/Ignore Choose Last" field="l2pcr" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971055" />
+	<data name="Positively Rejected/Ignore Bell Last" field="l3pcr" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982971056" />
+	<data name="Positively Rejected/Ignore Verify" field="10pcr" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288986440125" />
+	<data name="Positively Rejected/Ignore Waiting" field="11pcr" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288986440126" />
+	<data name="Positively Rejected/Ignore Share" field="12pcr" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288986440127" />
+	<data name="Positively Rejected/Ignore Finish" field="13pcr" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288986440128" />
+	<data name="Negatively Accepted/Acted Upon Inst. 1st" field="1nca" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288986440129" />
+	<data name="Negatively Accepted/Acted Upon Choose 1st" field="2nca" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288986440130" />
+	<data name="Negatively Accepted/Acted Upon Bell 1st" field="3nca" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288986440131" />
+	<data name="Negatively Accepted/Acted Upon Inst. Last" field="l1nca" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288986440132" />
+	<data name="Negatively Accepted/Acted Upon Choose Last" field="l2nca" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288986440133" />
+	<data name="Negatively Accepted/Acted Upon Bell Last" field="l3nca" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288986440134" />
+	<data name="Negatively Accepted/Acted Upon Verify" field="10nca" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288986440135" />
+	<data name="Negatively Accepted/Acted Upon Waiting" field="11nca" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288986440136" />
+	<data name="Negatively Accepted/Acted Upon Share" field="12nca" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288986440137" />
+	<data name="Negatively Accepted/Acted Upon Finish" field="13nca" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288986440138" />
+	<data name="Negatively Rejected/Ignore Inst. 1st" field="1ncr" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288986440139" />
+	<data name="Negatively Rejected/Ignore Choose 1st" field="2ncr" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288986440140" />
+	<data name="Negatively Rejected/Ignore Bell 1st" field="3ncr" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288986440141" />
+	<data name="Negatively Rejected/Ignore Inst. Last" field="l1ncr" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288986440142" />
+	<data name="Negatively Rejected/Ignore Choose Last" field="l2ncr" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288986440143" />
+	<data name="Negatively Rejected/Ignore Bell Last" field="l3ncr" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288986440144" />
+	<data name="Negatively Rejected/Ignore Verify" field="10ncr" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288986440145" />
+	<data name="Negatively Rejected/Ignore Waiting" field="11ncr" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288986440146" />
+	<data name="Negatively Rejected/Ignore Share" field="12ncr" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288986440147" />
+	<data name="Negatively Rejected/Ignore Finish" field="13ncr" template="st_temp" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288986440148" />
+</dataset>
+

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Twin" abrv="dnt" filename="dnt">
+	<template name="Twin B">
+		<name format="" />
+		<field format="dn@tb" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<template name="Twin A">
+		<name format="" />
+		<field format="dn@ta" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<validator name="yesno01_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="1">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="varchar_9998_9999" type="VARCHAR" defaultvalue="9998" allowblanks="false" lowerbound="2147483647" upperbound="2147483647">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<data name="Twin A Id" field="id" template="Twin A" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1100113376192" />
+	<data name="Twin A Received" field="rec" template="Twin A" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1100113376193" />
+	<data name="Twin A Date" field="dat" template="Twin A" validator="varchar_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1100113376194" />
+	<data name="Twin A Comments" field="com" template="Twin A" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1100113376195" />
+	<data name="Twin B Id" field="id" template="Twin B" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1100113376196" />
+	<data name="Twin B Received" field="rec" template="Twin B" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1100113376197" />
+	<data name="Twin B Date" field="dat" template="Twin B" validator="varchar_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1100113376198" />
+	<data name="Twin B Comments" field="com" template="Twin B" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1100113376199" />
+</dataset>
+

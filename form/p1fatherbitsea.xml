@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Father BITSEA" abrv="fatherbitsea" filename="p1fatherbitsea">
+	<template name="temp1">
+		<name format="" />
+		<field format="@f" />
+	</template>
+	<dataset file="bico_a" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_BI_F" />
+	<dataset file="bipr_a" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_BI_F" />
+	<dataset file="bia1_a" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_IT_A1_F" />
+	<dataset file="bias_a" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_AS_F" />
+	<dataset file="bico_b" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_BI_F" />
+	<dataset file="bipr_b" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_BI_F" />
+	<dataset file="bia1_b" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_IT_A1_F" />
+	<dataset file="bias_b" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_1_AS_F" />
+	<key name="Family Id" entryset="Competence Domain Twin A" filename="bico_a" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Data Mode" entryset="Competence Domain Twin A" filename="bico_a" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="BITSEA Twin A" abrv="bi a" numcols="2" displayheader="true" header="BITSEA Twin A">
+		<datafield name="1" entryset="Competence Domain Twin A" filename="build\dataset\bico_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078243" options="" />
+		<datafield name="2" entryset="Problem Domain Twin A" filename="build\dataset\bipr_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078165" options="" />
+		<datafield name="3" entryset="Problem Domain Twin A" filename="build\dataset\bipr_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078166" options="" />
+		<datafield name="4" entryset="Problem Domain Twin A" filename="build\dataset\bipr_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078167" options="" />
+		<datafield name="5" entryset="Competence Domain Twin A" filename="build\dataset\bico_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078244" options="" />
+		<datafield name="6" entryset="Problem Domain Twin A" filename="build\dataset\bipr_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078169" options="" />
+		<datafield name="7" entryset="Problem Domain Twin A" filename="build\dataset\bipr_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078170" options="" />
+		<datafield name="8" entryset="Problem Domain Twin A" filename="build\dataset\bipr_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078171" options="" />
+		<datafield name="8s" entryset="Problem Domain Twin A" filename="build\dataset\bipr_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064430078296" options="" />
+		<datafield name="9" entryset="Problem Domain Twin A" filename="build\dataset\bipr_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078172" options="" />
+		<datafield name="10" entryset="Competence Domain Twin A" filename="build\dataset\bico_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078245" options="" />
+		<datafield name="11" entryset="Problem Domain Twin A" filename="build\dataset\bipr_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078174" options="" />
+		<datafield name="12" entryset="Problem Domain Twin A" filename="build\dataset\bipr_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078175" options="" />
+		<datafield name="13" entryset="Competence Domain Twin A" filename="build\dataset\bico_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078246" options="" />
+		<datafield name="14" entryset="Problem Domain Twin A" filename="build\dataset\bipr_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078177" options="" />
+		<datafield name="15" entryset="Competence Domain Twin A" filename="build\dataset\bico_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078247" options="" />
+		<datafield name="16" entryset="Problem Domain Twin A" filename="build\dataset\bipr_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078179" options="" />
+		<datafield name="17" entryset="Problem Domain Twin A" filename="build\dataset\bipr_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078180" options="" />
+		<datafield name="18" entryset="Problem Domain Twin A" filename="build\dataset\bipr_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078181" options="" />
+		<datafield name="19" entryset="Competence Domain Twin A" filename="build\dataset\bico_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078248" options="" />
+		<datafield name="20" entryset="Competence Domain Twin A" filename="build\dataset\bico_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078249" options="" />
+		<datafield name="21" entryset="Problem Domain Twin A" filename="build\dataset\bipr_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078184" options="" />
+		<datafield name="22" entryset="Competence Domain Twin A" filename="build\dataset\bico_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078250" options="" />
+		<datafield name="23" entryset="Problem Domain Twin A" filename="build\dataset\bipr_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078186" options="" />
+		<datafield name="24" entryset="Problem Domain Twin A" filename="build\dataset\bipr_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078187" options="" />
+		<datafield name="25" entryset="Competence Domain Twin A" filename="build\dataset\bico_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078251" options="" />
+		<datafield name="26" entryset="Problem Domain Twin A" filename="build\dataset\bipr_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078189" options="" />
+		<datafield name="27" entryset="Problem Domain Twin A" filename="build\dataset\bipr_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078190" options="" />
+		<datafield name="28" entryset="Problem Domain Twin A" filename="build\dataset\bipr_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078191" options="" />
+		<datafield name="29" entryset="Competence Domain Twin A" filename="build\dataset\bico_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078252" options="" />
+		<datafield name="30" entryset="Problem Domain Twin A" filename="build\dataset\bipr_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078193" options="" />
+		<datafield name="31" entryset="Competence Domain Twin A" filename="build\dataset\bico_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078253" options="" />
+		<datafield name="32" entryset="Problem Domain Twin A" filename="build\dataset\bipr_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078195" options="" />
+		<datafield name="33" entryset="Problem Domain Twin A" filename="build\dataset\bipr_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078196" options="" />
+		<datafield name="34" entryset="Problem Domain Twin A" filename="build\dataset\bipr_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078197" options="" />
+		<datafield name="35" entryset="Problem Domain Twin A" filename="build\dataset\bipr_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078198" options="" />
+		<datafield name="36" entryset="Problem Domain Twin A" filename="build\dataset\bipr_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078199" options="" />
+		<datafield name="36s" entryset="Problem Domain Twin A" filename="build\dataset\bipr_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064430078228" options="" />
+		<datafield name="37" entryset="Problem Domain Twin A" filename="build\dataset\bipr_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078229" options="" />
+		<datafield name="37s" entryset="Problem Domain Twin A" filename="build\dataset\bipr_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064430078230" options="" />
+		<datafield name="38" entryset="Problem Domain Twin A" filename="build\dataset\bipr_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078231" options="" />
+		<datafield name="39" entryset="Problem Domain Twin A" filename="build\dataset\bipr_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078232" options="" />
+		<datafield name="40" entryset="Problem Domain Twin A" filename="build\dataset\bipr_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078233" options="" />
+		<datafield name="41" entryset="Problem Domain Twin A" filename="build\dataset\bipr_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078234" options="" />
+		<datafield name="41s" entryset="Problem Domain Twin A" filename="build\dataset\bipr_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064430078235" options="" />
+		<datafield name="42" entryset="Problem Domain Twin A" filename="build\dataset\bipr_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078236" options="" />
+		<datafield name="42s" entryset="Problem Domain Twin A" filename="build\dataset\bipr_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064430078237" options="" />
+		<datafield name="A" entryset="Problem Domain Twin A" filename="build\dataset\bipr_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078238" options="" />
+		<datafield name="B" entryset="Problem Domain Twin A" filename="build\dataset\bipr_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078239" options="" />
+	</componentset>
+	<componentset name="ITSEA Twin A" abrv="it a" numcols="2" displayheader="true" header="ITSEA Twin A">
+		<datafield name="1" entryset="A1 Twin A" filename="build\dataset\bia1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078456" options="" />
+		<datafield name="2" entryset="A1 Twin A" filename="build\dataset\bia1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078457" options="" />
+		<datafield name="3" entryset="A1 Twin A" filename="build\dataset\bia1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078458" options="" />
+		<datafield name="4" entryset="A1 Twin A" filename="build\dataset\bia1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078459" options="" />
+		<datafield name="5" entryset="A1 Twin A" filename="build\dataset\bia1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078460" options="" />
+		<datafield name="6" entryset="A1 Twin A" filename="build\dataset\bia1_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430078461" options="" />
+	</componentset>
+	<componentset name="Autism Screener Twin A" abrv="as a" numcols="2" displayheader="true" header="Autism Screener Twin A">
+		<datafield name="1" entryset="Autism Screener Twin A" filename="build\dataset\bias_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511007496" options="" />
+		<datafield name="2" entryset="Autism Screener Twin A" filename="build\dataset\bias_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511007497" options="" />
+		<datafield name="3" entryset="Autism Screener Twin A" filename="build\dataset\bias_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511007498" options="" />
+		<datafield name="4" entryset="Autism Screener Twin A" filename="build\dataset\bias_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511007499" options="" />
+		<datafield name="5" entryset="Autism Screener Twin A" filename="build\dataset\bias_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511007500" options="" />
+		<datafield name="6" entryset="Autism Screener Twin A" filename="build\dataset\bias_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511007501" options="" />
+		<datafield name="7" entryset="Autism Screener Twin A" filename="build\dataset\bias_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511007502" options="" />
+		<datafield name="8" entryset="Autism Screener Twin A" filename="build\dataset\bias_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511007503" options="" />
+		<datafield name="9" entryset="Autism Screener Twin A" filename="build\dataset\bias_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511007504" options="" />
+		<datafield name="10" entryset="Autism Screener Twin A" filename="build\dataset\bias_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511007505" options="" />
+		<datafield name="11" entryset="Autism Screener Twin A" filename="build\dataset\bias_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511007506" options="" />
+		<datafield name="12" entryset="Autism Screener Twin A" filename="build\dataset\bias_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511007507" options="" />
+		<datafield name="13" entryset="Autism Screener Twin A" filename="build\dataset\bias_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511007508" options="" />
+		<datafield name="14" entryset="Autism Screener Twin A" filename="build\dataset\bias_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511007509" options="" />
+		<datafield name="15" entryset="Autism Screener Twin A" filename="build\dataset\bias_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511007510" options="" />
+		<datafield name="15s" entryset="Autism Screener Twin A" filename="build\dataset\bias_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064511007511" options="" />
+		<datafield name="16" entryset="Autism Screener Twin A" filename="build\dataset\bias_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511007512" options="" />
+		<datafield name="16s" entryset="Autism Screener Twin A" filename="build\dataset\bias_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064511007513" options="" />
+		<datafield name="17" entryset="Autism Screener Twin A" filename="build\dataset\bias_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511007514" options="" />
+		<datafield name="18" entryset="Autism Screener Twin A" filename="build\dataset\bias_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064511007515" options="" />
+		<datafield name="19" entryset="Autism Screener Twin A" filename="build\dataset\bias_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511007516" options="" />
+		<datafield name="19a" entryset="Autism Screener Twin A" filename="build\dataset\bias_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064511007517" options="" />
+		<datafield name="19b Start Age" entryset="Autism Screener Twin A" filename="build\dataset\bias_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511007518" options="" />
+		<datafield name="19b Stop Age" entryset="Autism Screener Twin A" filename="build\dataset\bias_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511007519" options="" />
+		<datafield name="19s" entryset="Autism Screener Twin A" filename="build\dataset\bias_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064511007520" options="" />
+		<datafield name="20" entryset="Autism Screener Twin A" filename="build\dataset\bias_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511007521" options="" />
+		<datafield name="20s" entryset="Autism Screener Twin A" filename="build\dataset\bias_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064511007522" options="" />
+		<datafield name="21" entryset="Autism Screener Twin A" filename="build\dataset\bias_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511007523" options="" />
+		<datafield name="21s" entryset="Autism Screener Twin A" filename="build\dataset\bias_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064511007524" options="" />
+		<datafield name="22" entryset="Autism Screener Twin A" filename="build\dataset\bias_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1074288192553" options="" />
+		<datafield name="23" entryset="Autism Screener Twin A" filename="build\dataset\bias_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1074288192554" options="" />
+		<datafield name="24" entryset="Autism Screener Twin A" filename="build\dataset\bias_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1074288192555" options="" />
+		<datafield name="25" entryset="Autism Screener Twin A" filename="build\dataset\bias_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1074288192556" options="" />
+		<datafield name="26" entryset="Autism Screener Twin A" filename="build\dataset\bias_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1108593979639" options="" />
+		<datafield name="26s" entryset="Autism Screener Twin A" filename="build\dataset\bias_a.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1109096572544" options="" />
+	</componentset>
+	<componentset name="BITSEA Twin B" abrv="bi b" numcols="2" displayheader="true" header="BITSEA Twin B">
+		<datafield name="1" entryset="Competence Domain Twin B" filename="build\dataset\bico_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088243" options="" />
+		<datafield name="2" entryset="Problem Domain Twin B" filename="build\dataset\bipr_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088165" options="" />
+		<datafield name="3" entryset="Problem Domain Twin B" filename="build\dataset\bipr_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088166" options="" />
+		<datafield name="4" entryset="Problem Domain Twin B" filename="build\dataset\bipr_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088167" options="" />
+		<datafield name="5" entryset="Competence Domain Twin B" filename="build\dataset\bico_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088244" options="" />
+		<datafield name="6" entryset="Problem Domain Twin B" filename="build\dataset\bipr_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088169" options="" />
+		<datafield name="7" entryset="Problem Domain Twin B" filename="build\dataset\bipr_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088170" options="" />
+		<datafield name="8" entryset="Problem Domain Twin B" filename="build\dataset\bipr_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088171" options="" />
+		<datafield name="8s" entryset="Problem Domain Twin B" filename="build\dataset\bipr_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064430088296" options="" />
+		<datafield name="9" entryset="Problem Domain Twin B" filename="build\dataset\bipr_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088172" options="" />
+		<datafield name="10" entryset="Competence Domain Twin B" filename="build\dataset\bico_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088245" options="" />
+		<datafield name="11" entryset="Problem Domain Twin B" filename="build\dataset\bipr_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088174" options="" />
+		<datafield name="12" entryset="Problem Domain Twin B" filename="build\dataset\bipr_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088175" options="" />
+		<datafield name="13" entryset="Competence Domain Twin B" filename="build\dataset\bico_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088246" options="" />
+		<datafield name="14" entryset="Problem Domain Twin B" filename="build\dataset\bipr_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088177" options="" />
+		<datafield name="15" entryset="Competence Domain Twin B" filename="build\dataset\bico_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088247" options="" />
+		<datafield name="16" entryset="Problem Domain Twin B" filename="build\dataset\bipr_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088179" options="" />
+		<datafield name="17" entryset="Problem Domain Twin B" filename="build\dataset\bipr_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088180" options="" />
+		<datafield name="18" entryset="Problem Domain Twin B" filename="build\dataset\bipr_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088181" options="" />
+		<datafield name="19" entryset="Competence Domain Twin B" filename="build\dataset\bico_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088248" options="" />
+		<datafield name="20" entryset="Competence Domain Twin B" filename="build\dataset\bico_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088249" options="" />
+		<datafield name="21" entryset="Problem Domain Twin B" filename="build\dataset\bipr_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088184" options="" />
+		<datafield name="22" entryset="Competence Domain Twin B" filename="build\dataset\bico_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088250" options="" />
+		<datafield name="23" entryset="Problem Domain Twin B" filename="build\dataset\bipr_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088186" options="" />
+		<datafield name="24" entryset="Problem Domain Twin B" filename="build\dataset\bipr_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088187" options="" />
+		<datafield name="25" entryset="Competence Domain Twin B" filename="build\dataset\bico_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088251" options="" />
+		<datafield name="26" entryset="Problem Domain Twin B" filename="build\dataset\bipr_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088189" options="" />
+		<datafield name="27" entryset="Problem Domain Twin B" filename="build\dataset\bipr_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088190" options="" />
+		<datafield name="28" entryset="Problem Domain Twin B" filename="build\dataset\bipr_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088191" options="" />
+		<datafield name="29" entryset="Competence Domain Twin B" filename="build\dataset\bico_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088252" options="" />
+		<datafield name="30" entryset="Problem Domain Twin B" filename="build\dataset\bipr_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088193" options="" />
+		<datafield name="31" entryset="Competence Domain Twin B" filename="build\dataset\bico_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088253" options="" />
+		<datafield name="32" entryset="Problem Domain Twin B" filename="build\dataset\bipr_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088195" options="" />
+		<datafield name="33" entryset="Problem Domain Twin B" filename="build\dataset\bipr_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088196" options="" />
+		<datafield name="34" entryset="Problem Domain Twin B" filename="build\dataset\bipr_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088197" options="" />
+		<datafield name="35" entryset="Problem Domain Twin B" filename="build\dataset\bipr_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088198" options="" />
+		<datafield name="36" entryset="Problem Domain Twin B" filename="build\dataset\bipr_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088199" options="" />
+		<datafield name="36s" entryset="Problem Domain Twin B" filename="build\dataset\bipr_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064430088228" options="" />
+		<datafield name="37" entryset="Problem Domain Twin B" filename="build\dataset\bipr_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088229" options="" />
+		<datafield name="37s" entryset="Problem Domain Twin B" filename="build\dataset\bipr_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064430088230" options="" />
+		<datafield name="38" entryset="Problem Domain Twin B" filename="build\dataset\bipr_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088231" options="" />
+		<datafield name="39" entryset="Problem Domain Twin B" filename="build\dataset\bipr_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088232" options="" />
+		<datafield name="40" entryset="Problem Domain Twin B" filename="build\dataset\bipr_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088233" options="" />
+		<datafield name="41" entryset="Problem Domain Twin B" filename="build\dataset\bipr_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088234" options="" />
+		<datafield name="41s" entryset="Problem Domain Twin B" filename="build\dataset\bipr_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064430088235" options="" />
+		<datafield name="42" entryset="Problem Domain Twin B" filename="build\dataset\bipr_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088236" options="" />
+		<datafield name="42s" entryset="Problem Domain Twin B" filename="build\dataset\bipr_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064430088237" options="" />
+		<datafield name="A" entryset="Problem Domain Twin B" filename="build\dataset\bipr_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088238" options="" />
+		<datafield name="B" entryset="Problem Domain Twin B" filename="build\dataset\bipr_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088239" options="" />
+	</componentset>
+	<componentset name="ITSEA Twin B" abrv="it b" numcols="2" displayheader="true" header="ITSEA Twin B">
+		<datafield name="1" entryset="A1 Twin B" filename="build\dataset\bia1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088456" options="" />
+		<datafield name="2" entryset="A1 Twin B" filename="build\dataset\bia1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088457" options="" />
+		<datafield name="3" entryset="A1 Twin B" filename="build\dataset\bia1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088458" options="" />
+		<datafield name="4" entryset="A1 Twin B" filename="build\dataset\bia1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088459" options="" />
+		<datafield name="5" entryset="A1 Twin B" filename="build\dataset\bia1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088460" options="" />
+		<datafield name="6" entryset="A1 Twin B" filename="build\dataset\bia1_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064430088461" options="" />
+	</componentset>
+	<componentset name="Autism Screener Twin B" abrv="as b" numcols="2" displayheader="true" header="Autism Screener Twin B">
+		<datafield name="1" entryset="Autism Screener Twin B" filename="build\dataset\bias_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511008496" options="" />
+		<datafield name="2" entryset="Autism Screener Twin B" filename="build\dataset\bias_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511008497" options="" />
+		<datafield name="3" entryset="Autism Screener Twin B" filename="build\dataset\bias_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511008498" options="" />
+		<datafield name="4" entryset="Autism Screener Twin B" filename="build\dataset\bias_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511008499" options="" />
+		<datafield name="5" entryset="Autism Screener Twin B" filename="build\dataset\bias_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511008500" options="" />
+		<datafield name="6" entryset="Autism Screener Twin B" filename="build\dataset\bias_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511008501" options="" />
+		<datafield name="7" entryset="Autism Screener Twin B" filename="build\dataset\bias_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511008502" options="" />
+		<datafield name="8" entryset="Autism Screener Twin B" filename="build\dataset\bias_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511008503" options="" />
+		<datafield name="9" entryset="Autism Screener Twin B" filename="build\dataset\bias_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511008504" options="" />
+		<datafield name="10" entryset="Autism Screener Twin B" filename="build\dataset\bias_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511008505" options="" />
+		<datafield name="11" entryset="Autism Screener Twin B" filename="build\dataset\bias_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511008506" options="" />
+		<datafield name="12" entryset="Autism Screener Twin B" filename="build\dataset\bias_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511008507" options="" />
+		<datafield name="13" entryset="Autism Screener Twin B" filename="build\dataset\bias_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511008508" options="" />
+		<datafield name="14" entryset="Autism Screener Twin B" filename="build\dataset\bias_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511008509" options="" />
+		<datafield name="15" entryset="Autism Screener Twin B" filename="build\dataset\bias_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511008510" options="" />
+		<datafield name="15s" entryset="Autism Screener Twin B" filename="build\dataset\bias_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064511008511" options="" />
+		<datafield name="16" entryset="Autism Screener Twin B" filename="build\dataset\bias_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511008512" options="" />
+		<datafield name="16s" entryset="Autism Screener Twin B" filename="build\dataset\bias_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064511008513" options="" />
+		<datafield name="17" entryset="Autism Screener Twin B" filename="build\dataset\bias_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511008514" options="" />
+		<datafield name="18" entryset="Autism Screener Twin B" filename="build\dataset\bias_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064511008515" options="" />
+		<datafield name="19" entryset="Autism Screener Twin B" filename="build\dataset\bias_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511008516" options="" />
+		<datafield name="19a" entryset="Autism Screener Twin B" filename="build\dataset\bias_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064511008517" options="" />
+		<datafield name="19b Start Age" entryset="Autism Screener Twin B" filename="build\dataset\bias_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511008518" options="" />
+		<datafield name="19b Stop Age" entryset="Autism Screener Twin B" filename="build\dataset\bias_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511008519" options="" />
+		<datafield name="19s" entryset="Autism Screener Twin B" filename="build\dataset\bias_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064511008520" options="" />
+		<datafield name="20" entryset="Autism Screener Twin B" filename="build\dataset\bias_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511008521" options="" />
+		<datafield name="20s" entryset="Autism Screener Twin B" filename="build\dataset\bias_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064511008522" options="" />
+		<datafield name="21" entryset="Autism Screener Twin B" filename="build\dataset\bias_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1064511008523" options="" />
+		<datafield name="21s" entryset="Autism Screener Twin B" filename="build\dataset\bias_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1064511008524" options="" />
+		<datafield name="22" entryset="Autism Screener Twin B" filename="build\dataset\bias_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1074288728048" options="" />
+		<datafield name="23" entryset="Autism Screener Twin B" filename="build\dataset\bias_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1074288728049" options="" />
+		<datafield name="24" entryset="Autism Screener Twin B" filename="build\dataset\bias_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1074288728050" options="" />
+		<datafield name="25" entryset="Autism Screener Twin B" filename="build\dataset\bias_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1074288728051" options="" />
+		<datafield name="26" entryset="Autism Screener Twin B" filename="build\dataset\bias_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1108593979676" options="" />
+		<datafield name="26s" entryset="Autism Screener Twin B" filename="build\dataset\bias_b.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1109096572620" options="" />
+	</componentset>
+</form>
+

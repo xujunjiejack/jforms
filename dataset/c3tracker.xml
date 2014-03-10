@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="C3 Tracker" abrv="c3tracker" filename="c3tracker">
+	<validator name="val01_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="1">
+		<valid value="9998" />
+		<valid value="9999" />
+	</validator>
+	<validator name="blankformat" type="VARCHAR" defaultvalue="9998" allowblanks="true" lowerbound="2147483647" upperbound="2147483647">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="val13_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="3">
+		<valid value="9998" />
+		<valid value="9999" />
+	</validator>
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<data name="Priority Score" field="priorityscore" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233277762365" />
+	<data name="Primary Caregiver" field="cg" template="na" validator="val13_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233276104316" />
+	<data name="Packet Sent" field="c3packetsent" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233276104317" />
+	<data name="Sender" field="sender" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233276104318" />
+	<data name="CG Interview Date" field="cgqu" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233276104319" />
+	<data name="CG DPS A Date" field="cgdisca" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233276104321" />
+	<data name="CG DPS A Interviewer" field="cgdiscaint" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233276104329" />
+	<data name="CG DPS B Date" field="cgdiscb" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233276104330" />
+	<data name="CG DPS B Interviewer" field="cgdiscbint" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233276104331" />
+	<data name="Tw A Interview Date" field="twahr" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762342" />
+	<data name="Tw A Interviewer" field="twahrint" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233277762343" />
+	<data name="Tw A Interview Received" field="twahrrec" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762344" />
+	<data name="Tw B Interview Date" field="twbhr" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762345" />
+	<data name="Tw B Interviewer" field="twbhrint" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233277762346" />
+	<data name="Tw B Interview Received" field="twbhrrec" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762347" />
+	<data name="Tw A DPS Date" field="twadisc" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762348" />
+	<data name="Tw A DPS Interviewer" field="twadiscint" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233277762349" />
+	<data name="Tw B DPS Date" field="twbdisc" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762350" />
+	<data name="Tw B DPS Interviewer" field="twbdiscint" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233277762351" />
+	<data name="CG Consent" field="cgconsen" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762352" />
+	<data name="Tw A Assent" field="aassent" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762353" />
+	<data name="Tw B Assent" field="bassent" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762354" />
+	<data name="CG Payment Date" field="paycg" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762355" />
+	<data name="CG Payment Amt" field="payamcg" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233277762356" />
+	<data name="Tw A Payment Date" field="paya" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762357" />
+	<data name="Tw A Payment Amt" field="payama" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233277762358" />
+	<data name="Tw B Payment Date" field="payb" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762359" />
+	<data name="Tw B Payment Amt" field="payamb" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233277762360" />
+	<data name="Conte 3 Complete Date" field="c3comp" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762361" />
+	<data name="Comments" field="c3comments" template="na" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1233277762362" />
+	<data name="Exclude" field="c3exclude" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233277762363" />
+	<data name="Emergency Number" field="emergnum" template="na" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1233277762364" />
+	
+	<data name="Date letter 1 sent" field="c3ltr1" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762394" />
+	<data name="Date reply 1 received" field="c3cf1" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762393" />
+	<data name="Letter 1 Response" field="c3cf1rep" template="na" validator="val01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762366" />
+	
+	
+	
+	<data name="Best time 1" field="besttime1" template="na" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1391494106648" />
+	<data name="Best day 1" field="bestday1" template="na" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1391494106648" />
+	<data name="Best time 2" field="besttime2" template="na" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1391494106648" />
+	<data name="Best day 2" field="bestday2" template="na" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1391494106648" />
+	
+	
+	<data name="Phone 1" field="phone" template="na" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1233277762373" />
+	<data name="Alternate phone 1" field="altphone" template="na" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1233277762374" />
+	<data name="Email 1" field="email" template="na" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1233277762375" />
+	
+	
+	<data name="Date letter 2 sent" field="c3ltr2" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762395" />
+	<data name="Date reply 2 received" field="c3cf2" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762367" />
+	<data name="Letter 2 Response" field="c3cf2rep" template="na" validator="val01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762368" />
+
+	<data name="Phone 2" field="phone2" template="na" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1233277762398" />
+	<data name="Alternate phone 2" field="altphone2" template="na" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1233277762397" />
+	<data name="Email 2" field="email2" template="na" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1233277762396" />
+	
+	
+	
+	<dependency field="Best time 1">
+		<parent field="Letter 1 Response" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Best day 1">
+		<parent field="Letter 1 Response" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Phone 1">
+		<parent field="Letter 1 Response" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Alternate phone 1">
+		<parent field="Letter 1 Response" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Email 1">
+		<parent field="Letter 1 Response" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Best time 2">
+		<parent field="Letter 2 Response" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Best day 2">
+		<parent field="Letter 2 Response" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Phone 2">
+		<parent field="Letter 2 Response" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Alternate phone 2">
+		<parent field="Letter 2 Response" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Email 2">
+		<parent field="Letter 2 Response" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	
+	
+</dataset>
+

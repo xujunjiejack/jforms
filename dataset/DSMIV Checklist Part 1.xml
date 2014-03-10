@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="DSMIV Checklist Part 1" abrv="DCP1" filename="DSMIV Checklist Part 1">
+	<template name="temp1">
+		<name format="" />
+		<field format="ks@" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<validator name="val01_9998_9999" type="INTEGER" defaultvalue="1" allowblanks="false" lowerbound="0" upperbound="1">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="val_0127_9998-9999" type="INTEGER" defaultvalue="1" allowblanks="false" lowerbound="2147483647" upperbound="2147483647">
+		<valid value="0" />
+		<valid value="1" />
+		<valid value="2" />
+		<valid value="7" />
+		<valid value="9998" />
+		<valid value="9999" />
+	</validator>
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<key name="Twin" field="twin" template="na" validator="INTEGER" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<data name="KSMD Flag" field="mdflag" template="temp1" validator="val01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294111014082" />
+	<data name="KSMD Name" field="mdname" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294111014083" />
+	<data name="Maj. Dep. Prev. Diag." field="md1" template="temp1" validator="val_0127_9998-9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294111014084" />
+	<data name="Maj. Dep. Prev. Age" field="md2" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294111014085" />
+	<data name="Maj. Dep. Cur. Diag." field="md3" template="temp1" validator="val_0127_9998-9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294111014086" />
+	<data name="Maj. Dep. Cur. Age" field="md4" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294111014087" />
+	<data name="Maj. Dep. Duration" field="md5" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294111014088" />
+	<data name="Maj. Dep. Total" field="md6" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294111014089" />
+	<data name="Pscho. Feat. Prev. Diag." field="ps1" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011500" />
+	<data name="Pscho. Feat. Prev. Age" field="ps2" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011501" />
+	<data name="Pscho. Feat. Cur. Diag." field="ps3" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011502" />
+	<data name="Pscho. Feat. Cur. Age" field="ps4" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011503" />
+	<data name="Pscho. Feat. Duration" field="ps5" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011504" />
+	<data name="Pscho. Feat. Total " field="ps6" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011505" />
+	<data name="Dysthymic Prev. Diag." field="dy1" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011506" />
+	<data name="Dysthymic Prev. Age" field="dy2" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011507" />
+	<data name="Dysthymic Cur. Diag." field="dy3" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011508" />
+	<data name="Dysthymic Cur. Age" field="dy4" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011509" />
+	<data name="Dysthymic Duration" field="dy5" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011510" />
+	<data name="Dysthymic Total" field="dy6" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011511" />
+	<data name="Adj. Dep. Prev. Diag." field="dm1" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011519" />
+	<data name="Adj. Dep. Prev. Age" field="dm2" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011520" />
+	<data name="Adj. Dep. Cur. Diag." field="dm3" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011521" />
+	<data name="Adj. Dep. Cur. Age" field="dm4" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011522" />
+	<data name="Adj. Dep. Duration" field="dm5" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011523" />
+	<data name="Dep. NOS. Total" field="de6" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011517" />
+	<data name="Dep. NOS.Prev. Diag." field="de1" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011512" />
+	<data name="Dep. NOS. Prev. Age" field="de2" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011513" />
+	<data name="Dep. NOS.Cur. Diag." field="de3" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011514" />
+	<data name="Dep. NOS. Cur. Age" field="de4" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011515" />
+	<data name="Dep. NOS. Duration" field="de5" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011516" />
+	<data name="Adj. Dep. Total " field="dm6" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011524" />
+	<data name="Mania Prev. Diag." field="ma1" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011525" />
+	<data name="Mania Prev. Age" field="ma2" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011526" />
+	<data name="Mania Cur. Diag." field="ma3" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011527" />
+	<data name="Mania Cur. Age" field="ma4" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011528" />
+	<data name="Mania Duration" field="ma5" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011529" />
+	<data name="Mania Total " field="ma6" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011530" />
+	<data name="Hypomania Prev. Diag." field="hy1" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011575" />
+	<data name="Hypomania Prev. Age" field="hy2" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011576" />
+	<data name="Hypomania Cur. Diag." field="hy3" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011577" />
+	<data name="Hypomania Cur. Age" field="hy4" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011578" />
+	<data name="Hypomania Duration" field="hy5" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011579" />
+	<data name="Hypomania Total" field="hy6" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011580" />
+	<data name="Cyclothymia Prev. Diag." field="cy1" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011581" />
+	<data name="Cyclothymia Prev. Age" field="cy2" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011582" />
+	<data name="Cyclothymia Cur. Diag." field="cy3" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011583" />
+	<data name="Cyclothymia Cur. Age" field="cy4" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011584" />
+	<data name="Cyclothymia Duration" field="cy5" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011585" />
+	<data name="Cyclothymia Total" field="cy6" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011586" />
+	<data name="Bipolar Prev. Diag." field="bi1" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011587" />
+	<data name="Bipolar Prev. Age" field="bi2" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011588" />
+	<data name="Bipolar Cur. Diag." field="bi3" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011589" />
+	<data name="Bipolar Cur. Age" field="bi4" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011590" />
+	<data name="Bipolar Duration" field="bi5" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011591" />
+	<data name="Bipolar Total" field="bi6" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011592" />
+	<data name="Bipolar I Prev. Diag." field="bi11" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011654" />
+	<data name="Bipolar I Prev. Age" field="bi12" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011655" />
+	<data name="Bipolar I Cur. Diag." field="bi13" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011656" />
+	<data name="Bipolar I Cur. Age" field="bi14" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011657" />
+	<data name="Bipolar I Duration" field="bi15" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011658" />
+	<data name="Bipolar I Total" field="bi16" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011659" />
+	<data name="Bipolar II Prev. Diag." field="bi21" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011660" />
+	<data name="Bipolar II Prev. Age" field="bi22" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011661" />
+	<data name="Bipolar II Cur. Diag." field="bi23" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011662" />
+	<data name="Bipolar II Cur. Age" field="bi24" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011663" />
+	<data name="Bipolar II Duration" field="bi25" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011664" />
+	<data name="Bipolar II Total" field="bi26" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011665" />
+	<data name="Schiz.-Man. Prev. Diag." field="scm1" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011666" />
+	<data name="Schiz.-Man. Prev. Age" field="scm2" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011667" />
+	<data name="Schiz.-Man. Cur. Diag." field="scm3" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011668" />
+	<data name="Schiz.-Man. Cur. Age" field="scm4" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011669" />
+	<data name="Schiz.-Man. Duration" field="scm5" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011670" />
+	<data name="Schiz.-Man. Total" field="scm6" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011671" />
+	<data name="Schiz.-Dep. Prev. Diag." field="scd1" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011672" />
+	<data name="Schiz.-Dep. Prev. Age" field="scd2" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011673" />
+	<data name="Schiz.-Dep. Cur. Diag." field="scd3" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011674" />
+	<data name="Schiz.-Dep. Cur. Age" field="scd4" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011675" />
+	<data name="Schiz.-Dep. Duration" field="scd5" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011676" />
+	<data name="Schiz.-Dep. Total" field="scd6" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011677" />
+	<data name="Schizophrenia Prev. Diag." field="sc1" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011763" />
+	<data name="Schizophrenia Prev. Age" field="sc2" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011764" />
+	<data name="Schizophrenia Cur. Diag." field="sc3" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011765" />
+	<data name="Schizophrenia Cur. Age" field="sc4" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011766" />
+	<data name="Schizophrenia Duration" field="sc5" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011767" />
+	<data name="Schizophrenia Total" field="sc6" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011768" />
+	<data name="Schizophreniform Prev. Diag." field="scf1" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011769" />
+	<data name="Schizophreniform Prev. Age" field="scf2" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011770" />
+	<data name="Schizophreniform Cur. Diag." field="scf3" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011771" />
+	<data name="Schizophreniform Cur. Age" field="scf4" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011772" />
+	<data name="Schizophreniform Duration" field="scf5" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011773" />
+	<data name="Schizophreniform Total" field="scf6" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011774" />
+	<data name="Brief. Reac. Prev. Diag." field="brp1" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011775" />
+	<data name="Brief. Reac. Prev. Age" field="brp2" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011776" />
+	<data name="Brief. Reac. Cur. Diag." field="brp3" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011777" />
+	<data name="Brief. Reac. Cur. Age" field="brp4" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011778" />
+	<data name="Brief. Reac. Duration" field="brp5" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011779" />
+	<data name="Brief. Reac. Total " field="brp6" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011780" />
+	<data name="Panic Prev. Diag." field="pa1" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011781" />
+	<data name="Panic Prev. Age" field="pa2" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011782" />
+	<data name="Panic Cur. Diag." field="pa3" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011783" />
+	<data name="Panic Cur. Age" field="pa4" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011784" />
+	<data name="Panic Duration" field="pa5" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011785" />
+	<data name="Panic Total" field="pa6" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011786" />
+	<data name="Sep. Anx. Prev. Diag." field="sa1" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011787" />
+	<data name="Sep. Anx. Prev. Age" field="sa2" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011788" />
+	<data name="Sep. Anx. Cur. Diag." field="sa3" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011789" />
+	<data name="Sep. Anx. Cur. Age" field="sa4" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011790" />
+	<data name="Sep. Anx. Duration" field="sa5" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011791" />
+	<data name="Sep. Anx. Total" field="sa6" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011792" />
+	<data name="Avoid. Child Prev. Diag." field="adc1" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011793" />
+	<data name="Avoid. Child Prev. Age" field="adc2" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011794" />
+	<data name="Avoid. Child Cur. Diag." field="adc3" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011795" />
+	<data name="Avoid. Child Cur. Age" field="adc4" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011796" />
+	<data name="Avoid. Child Duration" field="adc5" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011797" />
+	<data name="Avoid. Child Total" field="adc6" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011798" />
+	<data name="Spec. Phobia Prev. Diag." field="sp1" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011799" />
+	<data name="Spec. Phobia Prev. Age" field="sp2" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011800" />
+	<data name="Spec. Phobia Cur. Diag." field="sp3" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011801" />
+	<data name="Spec. Phobia Cur. Age" field="sp4" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011802" />
+	<data name="Spec. Phobia Duration" field="sp5" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011803" />
+	<data name="Spec. Phobia Total" field="sp6" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011804" />
+	<data name="Soc. Phobia Prev. Age" field="so2" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011813" />
+	<data name="Soc. Phobia Cur. Age" field="so4" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011815" />
+	<data name="Soc. Phobia Total" field="so6" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011817" />
+	<data name="KSSO Flag" field="soflag" template="temp1" validator="val01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011811" />
+	<data name="KSSO Name" field="soname" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294119019237" />
+	<data name="Soc. Phobia Prev. Diag." field="so1" template="temp1" validator="val_0127_9998-9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011812" />
+	<data name="Soc. Phobia Cur. Diag." field="so3" template="temp1" validator="val_0127_9998-9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011814" />
+	<data name="Soc. Phobia Duration" field="so5" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011816" />
+	<data name="KSAG Flag" field="agflag" template="temp1" validator="val01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011818" />
+	<data name="KSAG Name" field="agname" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294119019238" />
+	<data name="Agoraphobia Prev. Diag." field="ag1" template="temp1" validator="val_0127_9998-9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011819" />
+	<data name="Agoraphobia Prev. Age" field="ag2" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011820" />
+	<data name="Agoraphobia Cur. Diag." field="ag3" template="temp1" validator="val_0127_9998-9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011821" />
+	<data name="Agoraphobia Cur. Age" field="ag4" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011822" />
+	<data name="Agoraphobia Duration" field="ag5" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011823" />
+	<data name="Agoraphobia Total" field="ag6" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011824" />
+	<data name="Overanxious Prev. Diag." field="oa1" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011975" />
+	<data name="Overanxious Prev. Age" field="oa2" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011976" />
+	<data name="Overanxious Cur. Diag." field="oa3" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011977" />
+	<data name="Overanxious Cur. Age" field="oa4" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011978" />
+	<data name="Overanxious Duration" field="oa5" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011979" />
+	<data name="Overanxious Total" field="oa6" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011980" />
+	<data name="Gen. Anx. Prev. Diag." field="ga1" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011981" />
+	<data name="Gen. Anx. Prev. Age" field="ga2" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011982" />
+	<data name="Gen. Anx. Cur. Diag." field="ga3" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011983" />
+	<data name="Gen. Anx. Cur. Age" field="ga4" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011984" />
+	<data name="Gen. Anx. Duration" field="ga5" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011985" />
+	<data name="Gen. Anx. Total" field="ga6" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011986" />
+	<data name="Obs. Comp. Prev. Diag." field="oc1" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011987" />
+	<data name="Obs. Comp. Prev. Age" field="oc2" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011988" />
+	<data name="Obs. Comp. Cur. Diag." field="oc3" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011989" />
+	<data name="Obs. Comp. Cur. Age" field="oc4" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011990" />
+	<data name="Obs. Comp. Duration" field="oc5" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011991" />
+	<data name="Obs. Comp. Total" field="oc6" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011992" />
+	<data name="Post. Traum. Prev. Diag." field="pt1" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011993" />
+	<data name="Post. Traum. Prev. Age" field="pt2" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011994" />
+	<data name="Post. Traum. Cur. Diag." field="pt3" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011995" />
+	<data name="Post. Traum. Cur. Age" field="pt4" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011996" />
+	<data name="Post. Traum. Duration" field="pt5" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011997" />
+	<data name="Post. Traum. Total" field="pt6" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011998" />
+	<data name="Acute Stress Prev. Diag." field="acu1" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113011999" />
+	<data name="Acute Stress Prev. Age" field="acu2" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012000" />
+	<data name="Acute Stress Cur. Diag." field="acu3" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012001" />
+	<data name="Acute Stress Cur. Age" field="acu4" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012002" />
+	<data name="Acute Stress Duration" field="acu5" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012003" />
+	<data name="Acute Stress Total" field="acu6" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012004" />
+	<data name="Adj. Anx. Prev. Diag." field="ada1" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012005" />
+	<data name="Adj. Anx. Prev. Age" field="ada2" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012006" />
+	<data name="Adj. Anx. Cur. Diag." field="ada3" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012007" />
+	<data name="Adj. Anx. Cur. Age" field="ada4" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012008" />
+	<data name="Adj. Anx. Duration" field="ada5" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012009" />
+	<data name="Adj. Anx. Total" field="ada6" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012010" />
+	<data name="Enuresis Prev. Diag." field="en1" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012011" />
+	<data name="Enuresis Prev. Age" field="en2" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012012" />
+	<data name="Enuresis Cur. Diag." field="en3" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012013" />
+	<data name="Enuresis Cur. Age" field="en4" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012014" />
+	<data name="Enuresis Duration" field="en5" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012015" />
+	<data name="Enuresis Total" field="en6" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012016" />
+	<data name="Encopresis Prev. Diag." field="enc1" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012017" />
+	<data name="Encopresis Prev. Age" field="enc2" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012018" />
+	<data name="Encopresis Cur. Diag." field="enc3" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012019" />
+	<data name="Encopresis Cur. Age" field="enc4" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012020" />
+	<data name="Encopresis Duration" field="enc5" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012021" />
+	<data name="Encopresis Total" field="enc6" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012022" />
+	<data name="Anorexia Prev. Diag." field="an1" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012023" />
+	<data name="Anorexia Prev. Age" field="an2" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012024" />
+	<data name="Anorexia Cur. Diag." field="an3" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012025" />
+	<data name="Anorexia Cur. Age" field="an4" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012026" />
+	<data name="Anorexia Duration" field="an5" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012027" />
+	<data name="Anorexia Total" field="an6" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012028" />
+	<data name="Bulimia Prev. Diag." field="bu1" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012029" />
+	<data name="Bulimia Prev. Age" field="bu2" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012030" />
+	<data name="Bulimia Cur. Diag." field="bu3" template="temp1" validator="val_0127_9998-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012031" />
+	<data name="Bulimia Cur. Age" field="bu4" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012032" />
+	<data name="Bulimia Duration" field="bu5" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012033" />
+	<data name="Bulimia Total" field="bu6" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012034" />
+	<data name="KSAD Flag" field="adflag" template="temp1" validator="val01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012236" />
+	<data name="KSAD Name" field="adname" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012237" />
+	<data name="ADHD Prev. Diag." field="ad1" template="temp1" validator="val_0127_9998-9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012238" />
+	<data name="ADHD Prev. Age" field="ad2" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012239" />
+	<data name="ADHD Cur. Diag." field="ad3" template="temp1" validator="val_0127_9998-9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012240" />
+	<data name="ADHD Cur. Age" field="ad4" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012241" />
+	<data name="ADHD Duration" field="ad5" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012242" />
+	<data name="ADHD Total" field="ad6" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012243" />
+	<data name="KSCD Flag" field="cdflag" template="temp1" validator="val01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012454" />
+	<data name="KSCD Name" field="cdname" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012455" />
+	<data name="Conduct Prev. Diag." field="cd1" template="temp1" validator="val_0127_9998-9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012456" />
+	<data name="Conduct Prev. Age" field="cd2" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012457" />
+	<data name="Conduct Cur. Diag." field="cd3" template="temp1" validator="val_0127_9998-9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012458" />
+	<data name="Conduct Cur. Age" field="cd4" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012459" />
+	<data name="Conduct Duration" field="cd5" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012460" />
+	<data name="Conduct Total" field="cd6" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1294113012461" />
+	<dependency field="KSMD Name">
+		<parent field="KSMD Flag" lowerbound="0" upperbound="1">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Maj. Dep. Prev. Diag.">
+		<parent field="KSMD Flag" lowerbound="0" upperbound="1">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Maj. Dep. Prev. Age">
+		<parent field="KSMD Flag" lowerbound="0" upperbound="1">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Maj. Dep. Cur. Diag.">
+		<parent field="KSMD Flag" lowerbound="0" upperbound="1">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Maj. Dep. Cur. Age">
+		<parent field="KSMD Flag" lowerbound="0" upperbound="1">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Maj. Dep. Duration">
+		<parent field="KSMD Flag" lowerbound="0" upperbound="1">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Maj. Dep. Total">
+		<parent field="KSMD Flag" lowerbound="0" upperbound="1">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Soc. Phobia Prev. Age">
+		<parent field="KSSO Flag" lowerbound="0" upperbound="1">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Soc. Phobia Cur. Age">
+		<parent field="KSSO Flag" lowerbound="0" upperbound="1">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Soc. Phobia Total">
+		<parent field="KSSO Flag" lowerbound="0" upperbound="1">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Soc. Phobia Prev. Diag.">
+		<parent field="KSSO Flag" lowerbound="0" upperbound="1">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Soc. Phobia Cur. Diag.">
+		<parent field="KSSO Flag" lowerbound="0" upperbound="1">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Soc. Phobia Duration">
+		<parent field="KSSO Flag" lowerbound="0" upperbound="1">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Agoraphobia Prev. Diag.">
+		<parent field="KSAG Flag" lowerbound="0" upperbound="1">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Agoraphobia Prev. Age">
+		<parent field="KSAG Flag" lowerbound="0" upperbound="1">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Agoraphobia Cur. Diag.">
+		<parent field="KSAG Flag" lowerbound="0" upperbound="1">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Agoraphobia Cur. Age">
+		<parent field="KSAG Flag" lowerbound="0" upperbound="1">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Agoraphobia Duration">
+		<parent field="KSAG Flag" lowerbound="0" upperbound="1">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Agoraphobia Total">
+		<parent field="KSAG Flag" lowerbound="0" upperbound="1">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="KSAD Name">
+		<parent field="KSAD Flag" lowerbound="0" upperbound="1">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="ADHD Prev. Diag.">
+		<parent field="KSAD Flag" lowerbound="0" upperbound="1">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="ADHD Prev. Age">
+		<parent field="KSAD Flag" lowerbound="0" upperbound="1">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="ADHD Cur. Diag.">
+		<parent field="KSAD Flag" lowerbound="0" upperbound="1">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="ADHD Cur. Age">
+		<parent field="KSAD Flag" lowerbound="0" upperbound="1">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="ADHD Duration">
+		<parent field="KSAD Flag" lowerbound="0" upperbound="1">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="ADHD Total">
+		<parent field="KSAD Flag" lowerbound="0" upperbound="1">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="KSCD Name">
+		<parent field="KSCD Flag" lowerbound="0" upperbound="1">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Conduct Prev. Diag.">
+		<parent field="KSCD Flag" lowerbound="0" upperbound="1">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Conduct Prev. Age">
+		<parent field="KSCD Flag" lowerbound="0" upperbound="1">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Conduct Cur. Diag.">
+		<parent field="KSCD Flag" lowerbound="0" upperbound="1">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Conduct Cur. Age">
+		<parent field="KSCD Flag" lowerbound="0" upperbound="1">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Conduct Duration">
+		<parent field="KSCD Flag" lowerbound="0" upperbound="1">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Conduct Total">
+		<parent field="KSCD Flag" lowerbound="0" upperbound="1">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="KSSO Name">
+		<parent field="KSSO Flag" lowerbound="0" upperbound="1">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="KSAG Name">
+		<parent field="KSAG Flag" lowerbound="0" upperbound="1">
+			<enable value="1" />
+		</parent>
+	</dependency>
+</dataset>

@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Obstetrical Complications Scale Mother TAP" abrv="ocsm_tap" filename="ocsm_tap">
+	<template name="temp1">
+		<name format="" />
+		<field format="os@" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<validator name="val01" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="1">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="blankformat" type="VARCHAR" defaultvalue="" allowblanks="true" lowerbound="2147483647" upperbound="2147483647">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="val03_9" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="3">
+		<valid value="9" />
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="format_9998_9999" type="VARCHAR" defaultvalue="9998" allowblanks="false" lowerbound="2147483647" upperbound="2147483647">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="bloodtype" type="VARCHAR" defaultvalue="9998" allowblanks="false" lowerbound="2147483647" upperbound="2147483647">
+		<valid value="A" />
+		<valid value="B" />
+		<valid value="AB" />
+		<valid value="O" />
+		<valid value="a" />
+		<valid value="b" />
+		<valid value="ab" />
+		<valid value="o" />
+		<valid value="A+" />
+		<valid value="A-" />
+		<valid value="B+" />
+		<valid value="B-" />
+		<valid value="AB+" />
+		<valid value="AB-" />
+		<valid value="O+" />
+		<valid value="O-" />
+		<valid value="a+" />
+		<valid value="a-" />
+		<valid value="b+" />
+		<valid value="b-" />
+		<valid value="ab+" />
+		<valid value="ab-" />
+		<valid value="o+" />
+		<valid value="o-" />
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="val04_9" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="4">
+		<valid value="9" />
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="val01_9" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="1">
+		<valid value="9" />
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="val02_9" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="2">
+		<valid value="9" />
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="val02_9980-9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="2">
+		<valid value="9999" />
+		<valid value="9998" />
+		<valid value="9997" />
+		<valid value="9996" />
+		<valid value="9995" />
+		<valid value="9994" />
+		<valid value="9993" />
+		<valid value="9992" />
+		<valid value="9991" />
+		<valid value="9990" />
+		<valid value="9989" />
+		<valid value="9988" />
+		<valid value="9987" />
+		<valid value="9986" />
+		<valid value="9985" />
+		<valid value="9984" />
+		<valid value="9983" />
+		<valid value="9982" />
+		<valid value="9981" />
+		<valid value="9980" />
+	</validator>
+	<validator name="val01_89" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="1">
+		<valid value="8" />
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<data name="Todays Date" field="datetoday" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="9045652178187" />
+	<data name="Coder ID" field="coderid" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="9145652178187" />
+	<data name="Mother Admission Date" field="madmin" template="temp1" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1045652178187" />
+	<data name="Mother Discharge Date" field="mdis" template="temp1" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1045652178188" />
+	<data name="Mother Blood Type" field="mblood" template="temp1" validator="bloodtype" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178189" />
+	<data name="Mother Hospital" field="mhosp" template="temp1" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178190" />
+	<data name="Mother Hospital City" field="mcity" template="temp1" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178191" />
+	<data name="Twin A Admission Date" field="aadmin" template="temp1" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1045652178193" />
+	<data name="Twin A Discharge Date" field="adis" template="temp1" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1045652178194" />
+	<data name="Twin A Blood Type" field="ablood" template="temp1" validator="bloodtype" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178195" />
+	<data name="Twin A Hospital" field="ahosp" template="temp1" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178196" />
+	<data name="Twin A Hospital City" field="acity" template="temp1" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178197" />
+	<data name="Twin B Admission Date" field="badmin" template="temp1" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1045652178199" />
+	<data name="Twin B Discharge Date" field="bdis" template="temp1" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1045653178200" />
+	<data name="Twin B Blood Type" field="bblood" template="temp1" validator="bloodtype" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178200" />
+	<data name="Twin B Hospital" field="bhosp" template="temp1" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178201" />
+	<data name="Twin B Hospital City" field="bcity" template="temp1" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178202" />
+	<data name="Marital Status at Twins Birth" field="001" template="temp1" validator="val04_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178204" />
+	<data name="Maternal age at Twins Birth" field="002" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178205" />
+	<data name="Gravidity" field="003" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178206" />
+	<data name="Parity" field="004" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178207" />
+	<data name="Abortions" field="005" template="temp1" validator="val01_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178208" />
+	<data name="How Many Abortions" field="05a" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178209" />
+	<data name="Premature Births" field="006" template="temp1" validator="val01" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178210" />
+	<data name="How Many Premature Births" field="06a" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178211" />
+	<data name="Stillbirths" field="007" template="temp1" validator="val01" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178212" />
+	<data name="How Many Stillbirths" field="07a" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="10456521782213" />
+	<data name="Prolonged unwanted Sterility" field="008" template="temp1" validator="val01" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178214" />
+	<data name="How Long unwanted Sterility" field="08a" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178215" />
+	<data name="Fertility Methods Used" field="009" template="temp1" validator="val01" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178216" />
+	<data name="Which Fertility Methods" field="09a" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178217" />
+	<data name="Length of Time Since Pregnancy" field="010" template="temp1" validator="val01" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178218" />
+	<data name="Amount of Time Since Pregnancy (months)" field="10a" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178219" />
+	<data name="Prenatal Care During First Half of Pregnancy" field="011" template="temp1" validator="val01" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178220" />
+	<data name="Specify Prenatal Care Information" field="11a" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1045652178221" />
+	<data name="Smoking During Pregnancy" field="012" template="temp1" validator="val01" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178222" />
+	<data name="Smoking First Trimester" field="12a" template="temp1" validator="val01" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178223" />
+	<data name="Smoking Second Trimester" field="12b" template="temp1" validator="val01" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178224" />
+	<data name="Smoking Third Trimester" field="12c" template="temp1" validator="val01" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178225" />
+	<data name="Smoking Specify Information" field="12d" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1045652178226" />
+	<data name="Drinking During Pregnancy" field="013" template="temp1" validator="val01" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178227" />
+	<data name="Drinking First Trimester" field="13a" template="temp1" validator="val01" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178228" />
+	<data name="Drinking Second Trimester" field="13b" template="temp1" validator="val01" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178229" />
+	<data name="Drinking Third Trimester" field="13c" template="temp1" validator="val01" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178230" />
+	<data name="Drinking Specify Infomation" field="13d" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1045652178231" />
+	<data name="Chronic Drug Abuse During Pregnancy" field="014" template="temp1" validator="val01" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178232" />
+	<data name="Drug Abuse First Trimester" field="14a" template="temp1" validator="val01" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178233" />
+	<data name="Drug Abuse Second Trimester" field="14b" template="temp1" validator="val01" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178234" />
+	<data name="Drug Abuse Third Trimester" field="14c" template="temp1" validator="val01" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178235" />
+	<data name="Drug Abuse Specify Information" field="14d" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="10456521781236" />
+	<data name="Bleeding During Pregnancy" field="015" template="temp1" validator="val01" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="10456521781237" />
+	<data name="Bleeding First Trimester" field="15a" template="temp1" validator="val01" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178238" />
+	<data name="Bleeding Second Trimester" field="15b" template="temp1" validator="val01" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178239" />
+	<data name="Bleeding Third Trimester" field="15c" template="temp1" validator="val01" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178240" />
+	<data name="Bleeding Specify Information" field="15d" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1045652178241" />
+	<data name="Medical Problems During Pregnancy" field="016" template="temp1" validator="val01" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178242" />
+	<data name="Medical Problems First Trimester" field="16a" template="temp1" validator="val01" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178243" />
+	<data name="Medical Problems Second Trimester" field="16b" template="temp1" validator="val01" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178244" />
+	<data name="Medical Problems Third Trimester" field="16c" template="temp1" validator="val01" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178245" />
+	<data name="Medical Problems Specify Information" field="16d" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1045652178246" />
+	<data name="Drugs given to Mother During Pregnancy" field="017" template="temp1" validator="val01" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178247" />
+	<data name="Drugs given First Trimester" field="17a" template="temp1" validator="val01" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178248" />
+	<data name="Drugs given Second Trimester" field="17b" template="temp1" validator="val01" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178249" />
+	<data name="Drugs given Third Trimester" field="17c" template="temp1" validator="val01" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178250" />
+	<data name="Drugs given Specify Information" field="17d" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1045652178251" />
+	<data name="Vitamins taken During Pregnancy" field="018" template="temp1" validator="val01" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178252" />
+	<data name="Vitamins First Trimester" field="18a" template="temp1" validator="val01" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178253" />
+	<data name="Vitamins Second Trimester" field="18b" template="temp1" validator="val01" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178254" />
+	<data name="Vitamins Third Trimester" field="18c" template="temp1" validator="val01" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178255" />
+	<data name="Vitamins Specify Information" field="18d" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1045652178256" />
+	<data name="Maternal Chronic Disease" field="019" template="temp1" validator="val01" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178257" />
+	<data name="Disease Specify Information" field="19a" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1045652178258" />
+	<data name="Cephalopelvic Disproportion" field="020" template="temp1" validator="val01" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178259" />
+	<data name="Rh Antagonism or Blood Group Incompatibility" field="021" template="temp1" validator="val01" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178260" />
+	<data name="Bed Rest" field="022" template="temp1" validator="val01" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178261" />
+	<data name="Bed First Trimester" field="22a" template="temp1" validator="val01" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178262" />
+	<data name="Bed Second Trimester" field="22b" template="temp1" validator="val01" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178263" />
+	<data name="Bed Third Trimester" field="22c" template="temp1" validator="val01" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178264" />
+	<data name="Bed Specify Information" field="22d" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1045652178265" />
+	<data name="Hyperemesis" field="023" template="temp1" validator="val01" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178266" />
+	<data name="Hyperemesis First Trimester" field="23a" template="temp1" validator="val01" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178267" />
+	<data name="Hyperemesis Second Trimester" field="23b" template="temp1" validator="val01" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178268" />
+	<data name="Hyperemesis Third Trimester" field="23c" template="temp1" validator="val01" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178269" />
+	<data name="Hyperemesis Specify Information" field="23d" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1045652178270" />
+	<data name="Edema/Pre-eclampsia" field="024" template="temp1" validator="val01" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178271" />
+	<data name="Edema/Pre-eclampsia First Trimester" field="24a" template="temp1" validator="val01" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178272" />
+	<data name="Edema/Pre-eclampsia Second Trimester" field="24b" template="temp1" validator="val01" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178273" />
+	<data name="Edema/Pre-eclampsia Thrid Trimester" field="24c" template="temp1" validator="val01" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178274" />
+	<data name="Edema/Pre-eclampsia Hospitalization" field="24d" template="temp1" validator="val01" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178275" />
+	<data name="Edema/Pre-eclampsia Specify Information" field="24e" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1045652178276" />
+	<data name="Highest Blood Pressure During Pregnancy" field="025" template="temp1" validator="val01" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178277" />
+	<data name="Specify Value" field="25a" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178278" />
+	<data name="Specify Date" field="25b" template="temp1" validator="blankformat" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1045652178279" />
+	<data name="Albnuminuria" field="026" template="temp1" validator="val01" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178280" />
+	<data name="Hemoglobin Level at end of Pregnancy" field="027" template="temp1" validator="val01" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178281" />
+	<data name="Specify Hgb" field="27a" template="temp1" validator="DOUBLE" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178282" />
+	<data name="Specify Hematocrit" field="27b" template="temp1" validator="DOUBLE" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178283" />
+	<data name="Magnesium Sulfate given for Preterm Labor" field="028" template="temp1" validator="val01" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178284" />
+	<data name="What Gestational Age" field="28a" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178285" />
+	<data name="Preterm Labor" field="029" template="temp1" validator="val01" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178286" />
+	<data name="At What Gestation Age" field="29a" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178287" />
+	<data name="Did Water Break during Preterm Labor" field="29b" template="temp1" validator="val01" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178288" />
+	<data name="Stimulation of Contractions" field="030" template="temp1" validator="val01" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178289" />
+	<data name="Specify Drug" field="30a" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178290" />
+	<data name="Specify Amount" field="30b" template="temp1" validator="DOUBLE" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178291" />
+	<data name="Drugs given During Labor and Delivery" field="031" template="temp1" validator="val01" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045653178293" />
+	<data name="Which Drug" field="31a" template="temp1" validator="val01" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178293" />
+	<data name="Specify Labor Drug" field="31b" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1045652178294" />
+	<data name="Specify Labor Drug Amount" field="31c" template="temp1" validator="DOUBLE" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178295" />
+	<data name="Membranes Ruptured Prior to Delivery" field="032" template="temp1" validator="val01_89" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178292" />
+	<data name="Duration of First Stage of Labor" field="033" template="temp1" validator="val01_89" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178296" />
+	<data name="Specify Duration of First Stage of Labor" field="33a" template="temp1" validator="DOUBLE" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178297" />
+	<data name="Duration of Second Stage of Labor (dilation to first twin)" field="034" template="temp1" validator="val01_89" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178298" />
+	<data name="Specify Duration of Second Stage of Labor (dilation to first twin)" field="34a" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178299" />
+	<data name="Duration of Second Stage of Labor (first twin to second twin)" field="035" template="temp1" validator="val01_89" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178300" />
+	<data name="Specify Duration of Second Stage of Labor (first twin to second twin)" field="35a" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178301" />
+	<data name="Duration of Third Stage of Labor" field="036" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652178302" />
+	<data name="Number of amnions" field="037" template="temp1" validator="val01" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1129135767623" />
+	<data name="Number of chorions" field="038" template="temp1" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1129135767742" />
+	<data name="Other information on mother" field="039" template="temp1" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1129135767743" />
+	<data name="Episiotomy" field="040" template="temp1" validator="val01" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1129135767744" />
+	<data name="Abnormal placental conditions" field="041" template="temp1" validator="val01" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1129135767745" />
+	<data name="Was TTTS present" field="41a" template="temp1" validator="val01" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1129135767746" />
+	<data name="additional information" field="41b" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1129135767747" />
+	<data name="Placenta previa or abruptia" field="042" template="temp1" validator="val01" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1129135767748" />
+	<data name="Other placenta invormation" field="043" template="temp1" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1129135767749" />
+	<data name="Special Flag" field="sf" template="temp1" validator="val01" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1129135767750" />
+	<data name="Explain" field="exp" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1129135767751" />
+	<dependency field="How Many Abortions">
+		<parent field="Abortions" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="How Many Premature Births">
+		<parent field="Premature Births" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="How Many Stillbirths">
+		<parent field="Stillbirths" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="How Long unwanted Sterility">
+		<parent field="Prolonged unwanted Sterility" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Which Fertility Methods">
+		<parent field="Fertility Methods Used" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Specify Prenatal Care Information">
+		<parent field="Prenatal Care During First Half of Pregnancy" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="0" />
+		</parent>
+	</dependency>
+	<dependency field="Smoking First Trimester">
+		<parent field="Smoking During Pregnancy" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Smoking Second Trimester">
+		<parent field="Smoking During Pregnancy" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Smoking Third Trimester">
+		<parent field="Smoking During Pregnancy" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Smoking Specify Information">
+		<parent field="Smoking During Pregnancy" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Drinking First Trimester">
+		<parent field="Drinking During Pregnancy" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Drinking Second Trimester">
+		<parent field="Drinking During Pregnancy" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Drinking Third Trimester">
+		<parent field="Drinking During Pregnancy" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Drinking Specify Infomation">
+		<parent field="Drinking During Pregnancy" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Drug Abuse First Trimester">
+		<parent field="Chronic Drug Abuse During Pregnancy" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Drug Abuse Second Trimester">
+		<parent field="Chronic Drug Abuse During Pregnancy" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Drug Abuse Third Trimester">
+		<parent field="Chronic Drug Abuse During Pregnancy" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Drug Abuse Specify Information">
+		<parent field="Chronic Drug Abuse During Pregnancy" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Bleeding First Trimester">
+		<parent field="Bleeding During Pregnancy" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Bleeding Second Trimester">
+		<parent field="Bleeding During Pregnancy" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Bleeding Third Trimester">
+		<parent field="Bleeding During Pregnancy" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Bleeding Specify Information">
+		<parent field="Bleeding During Pregnancy" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Medical Problems First Trimester">
+		<parent field="Medical Problems During Pregnancy" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Medical Problems Second Trimester">
+		<parent field="Medical Problems During Pregnancy" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Medical Problems Third Trimester">
+		<parent field="Medical Problems During Pregnancy" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Medical Problems Specify Information">
+		<parent field="Medical Problems During Pregnancy" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Drugs given First Trimester">
+		<parent field="Drugs given to Mother During Pregnancy" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Drugs given Second Trimester">
+		<parent field="Drugs given to Mother During Pregnancy" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Drugs given Third Trimester">
+		<parent field="Drugs given to Mother During Pregnancy" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Drugs given Specify Information">
+		<parent field="Drugs given to Mother During Pregnancy" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Vitamins First Trimester">
+		<parent field="Vitamins taken During Pregnancy" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="0" />
+		</parent>
+	</dependency>
+	<dependency field="Vitamins Second Trimester">
+		<parent field="Vitamins taken During Pregnancy" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="0" />
+		</parent>
+	</dependency>
+	<dependency field="Vitamins Third Trimester">
+		<parent field="Vitamins taken During Pregnancy" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="0" />
+		</parent>
+	</dependency>
+	<dependency field="Vitamins Specify Information">
+		<parent field="Vitamins taken During Pregnancy" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="0" />
+		</parent>
+	</dependency>
+	<dependency field="Disease Specify Information">
+		<parent field="Maternal Chronic Disease" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Bed First Trimester">
+		<parent field="Bed Rest" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Bed Second Trimester">
+		<parent field="Bed Rest" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Bed Third Trimester">
+		<parent field="Bed Rest" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Bed Specify Information">
+		<parent field="Bed Rest" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Hyperemesis First Trimester">
+		<parent field="Hyperemesis" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Hyperemesis Second Trimester">
+		<parent field="Hyperemesis" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Hyperemesis Third Trimester">
+		<parent field="Hyperemesis" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Hyperemesis Specify Information">
+		<parent field="Hyperemesis" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Edema/Pre-eclampsia First Trimester">
+		<parent field="Edema/Pre-eclampsia" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Edema/Pre-eclampsia Second Trimester">
+		<parent field="Edema/Pre-eclampsia" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Edema/Pre-eclampsia Thrid Trimester">
+		<parent field="Edema/Pre-eclampsia" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Edema/Pre-eclampsia Hospitalization">
+		<parent field="Edema/Pre-eclampsia" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Edema/Pre-eclampsia Specify Information">
+		<parent field="Edema/Pre-eclampsia" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Specify Value">
+		<parent field="Highest Blood Pressure During Pregnancy" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="0" />
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Specify Date">
+		<parent field="Highest Blood Pressure During Pregnancy" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="0" />
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Specify Hgb">
+		<parent field="Hemoglobin Level at end of Pregnancy" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="0" />
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Specify Hematocrit">
+		<parent field="Hemoglobin Level at end of Pregnancy" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="0" />
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="What Gestational Age">
+		<parent field="Magnesium Sulfate given for Preterm Labor" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="At What Gestation Age">
+		<parent field="Preterm Labor" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Did Water Break during Preterm Labor">
+		<parent field="Preterm Labor" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Specify Drug">
+		<parent field="Stimulation of Contractions" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Specify Amount">
+		<parent field="Stimulation of Contractions" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Which Drug">
+		<parent field="Drugs given During Labor and Delivery" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Specify Labor Drug">
+		<parent field="Drugs given During Labor and Delivery" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Specify Labor Drug Amount">
+		<parent field="Drugs given During Labor and Delivery" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Specify Duration of First Stage of Labor">
+		<parent field="Duration of First Stage of Labor" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="0" />
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Specify Duration of Second Stage of Labor (dilation to first twin)">
+		<parent field="Duration of Second Stage of Labor (dilation to first twin)" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+			<enable value="0" />
+		</parent>
+	</dependency>
+	<dependency field="Specify Duration of Second Stage of Labor (first twin to second twin)">
+		<parent field="Duration of Second Stage of Labor (first twin to second twin)" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+			<enable value="0" />
+		</parent>
+	</dependency>
+	<dependency field="Was TTTS present">
+		<parent field="Abnormal placental conditions" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="additional information">
+		<parent field="Abnormal placental conditions" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Explain">
+		<parent field="Special Flag" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+</dataset>
+

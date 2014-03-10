@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Block Design" abrv="p3blockdesign" filename="p3blockdesing">
+	<dataset file="blockdesign" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_BL_T" />
+	<key name="Family Id" entryset="Block Design" filename="blockdesign" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Twin" entryset="Block Design" filename="blockdesign" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Twin,A:1,B:2" />
+	<key name="Data Mode" entryset="Block Design" filename="blockdesign" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="Block Design" abrv="block design" numcols="2" displayheader="true" header="Block Design">
+		<datafield name="Complete Time 1 (seconds)" entryset="Block Design" filename="build\dataset\blockdesign.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574110157" options="" />
+		<datafield name="Correct Design 1" entryset="Block Design" filename="build\dataset\blockdesign.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574110196" options="" />
+		<datafield name="Points 1" entryset="Block Design" filename="build\dataset\blockdesign.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574110247" options="" />
+		<datafield name="Complete Time 2 (seconds)" entryset="Block Design" filename="build\dataset\blockdesign.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574110158" options="" />
+		<datafield name="Correct Design 2" entryset="Block Design" filename="build\dataset\blockdesign.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574110197" options="" />
+		<datafield name="Points 2" entryset="Block Design" filename="build\dataset\blockdesign.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574110248" options="" />
+		<datafield name="Complete Time 3 (seconds)" entryset="Block Design" filename="build\dataset\blockdesign.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574110159" options="" />
+		<datafield name="Correct Design 3" entryset="Block Design" filename="build\dataset\blockdesign.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574110198" options="" />
+		<datafield name="Points 3" entryset="Block Design" filename="build\dataset\blockdesign.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574110249" options="" />
+		<datafield name="Complete Time 4 (seconds)" entryset="Block Design" filename="build\dataset\blockdesign.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574110160" options="" />
+		<datafield name="Correct Design 4" entryset="Block Design" filename="build\dataset\blockdesign.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574110199" options="" />
+		<datafield name="Points 4" entryset="Block Design" filename="build\dataset\blockdesign.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574110250" options="" />
+		<datafield name="Complete Time 5 (seconds)" entryset="Block Design" filename="build\dataset\blockdesign.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574110161" options="" />
+		<datafield name="Correct Design 5" entryset="Block Design" filename="build\dataset\blockdesign.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574110200" options="" />
+		<datafield name="Points 5" entryset="Block Design" filename="build\dataset\blockdesign.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574110251" options="" />
+		<datafield name="Complete Time 6 (seconds)" entryset="Block Design" filename="build\dataset\blockdesign.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574110162" options="" />
+		<datafield name="Correct Design 6" entryset="Block Design" filename="build\dataset\blockdesign.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574110201" options="" />
+		<datafield name="Points 6" entryset="Block Design" filename="build\dataset\blockdesign.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574110252" options="" />
+		<datafield name="Complete Time 7 (seconds)" entryset="Block Design" filename="build\dataset\blockdesign.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574110163" options="" />
+		<datafield name="Correct Design 7" entryset="Block Design" filename="build\dataset\blockdesign.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574110202" options="" />
+		<datafield name="Points 7" entryset="Block Design" filename="build\dataset\blockdesign.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574110253" options="" />
+		<datafield name="Complete Time 8 (seconds)" entryset="Block Design" filename="build\dataset\blockdesign.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574110164" options="" />
+		<datafield name="Correct Design 8" entryset="Block Design" filename="build\dataset\blockdesign.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574110203" options="" />
+		<datafield name="Points 8" entryset="Block Design" filename="build\dataset\blockdesign.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574110254" options="" />
+		<datafield name="Complete Time 9 (seconds)" entryset="Block Design" filename="build\dataset\blockdesign.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574110165" options="" />
+		<datafield name="Correct Design 9" entryset="Block Design" filename="build\dataset\blockdesign.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574110204" options="" />
+		<datafield name="Points 9" entryset="Block Design" filename="build\dataset\blockdesign.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574110255" options="" />
+		<datafield name="Complete Time 10 (seconds)" entryset="Block Design" filename="build\dataset\blockdesign.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574110166" options="" />
+		<datafield name="Correct Design 10" entryset="Block Design" filename="build\dataset\blockdesign.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574110205" options="" />
+		<datafield name="Points 10" entryset="Block Design" filename="build\dataset\blockdesign.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574110256" options="" />
+		<datafield name="Complete Time 11 (seconds)" entryset="Block Design" filename="build\dataset\blockdesign.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574110167" options="" />
+		<datafield name="Correct Design 11" entryset="Block Design" filename="build\dataset\blockdesign.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574110206" options="" />
+		<datafield name="Points 11" entryset="Block Design" filename="build\dataset\blockdesign.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574110257" options="" />
+		<datafield name="Complete Time 12 (seconds)" entryset="Block Design" filename="build\dataset\blockdesign.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574110168" options="" />
+		<datafield name="Correct Design 12" entryset="Block Design" filename="build\dataset\blockdesign.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574110207" options="" />
+		<datafield name="Points 12" entryset="Block Design" filename="build\dataset\blockdesign.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574110258" options="" />
+		<datafield name="Total" entryset="Block Design" filename="build\dataset\blockdesign.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1054574112340" options="" />
+		<datafield name="Examiner" entryset="Block Design" filename="build\dataset\blockdesign.xml" type="0" class="com.wtp.jforms.ui.control.smart.ComboFieldBox" editable="true" classid="1054574110259" options="0,Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_STAFF,number" />
+	</componentset>
+</form>
+

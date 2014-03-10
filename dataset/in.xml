@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Interest" abrv="in" filename="in">
+	<template name="temp1">
+		<name format="in@" />
+		<field format="in@" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+</dataset>
+

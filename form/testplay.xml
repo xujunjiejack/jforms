@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Test Play" abrv="testplay" filename="testplay">
+	<dataset file="fppp" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_FP" />
+	<key name="Family Id" entryset="Presence of Positivity" filename="fppp" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Twin" entryset="Presence of Positivity" filename="fppp" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Twin,A:1,B:2" />
+	<key name="Data Mode" entryset="Presence of Positivity" filename="fppp" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Date Mode,Entry:Entry,Check:Check" />
+	<componentset name="Test" abrv="test" numcols="2" displayheader="true" header="Test">
+		<datafield name="1" entryset="Presence of Positivity" filename="build\dataset\fppp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475740" options="" />
+		<datafield name="2" entryset="Presence of Positivity" filename="build\dataset\fppp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475741" options="" />
+		<datafield name="3" entryset="Presence of Positivity" filename="build\dataset\fppp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475742" options="" />
+		<datafield name="4" entryset="Presence of Positivity" filename="build\dataset\fppp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475743" options="" />
+		<datafield name="5" entryset="Presence of Positivity" filename="build\dataset\fppp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475744" options="" />
+		<datafield name="6" entryset="Presence of Positivity" filename="build\dataset\fppp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475745" options="" />
+		<datafield name="7" entryset="Presence of Positivity" filename="build\dataset\fppp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475746" options="" />
+		<datafield name="8" entryset="Presence of Positivity" filename="build\dataset\fppp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475747" options="" />
+		<datafield name="9" entryset="Presence of Positivity" filename="build\dataset\fppp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475748" options="" />
+		<datafield name="10" entryset="Presence of Positivity" filename="build\dataset\fppp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475749" options="" />
+		<datafield name="11" entryset="Presence of Positivity" filename="build\dataset\fppp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475750" options="" />
+		<datafield name="12" entryset="Presence of Positivity" filename="build\dataset\fppp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475751" options="" />
+		<datafield name="13" entryset="Presence of Positivity" filename="build\dataset\fppp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475752" options="" />
+		<datafield name="14" entryset="Presence of Positivity" filename="build\dataset\fppp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475753" options="" />
+		<datafield name="15" entryset="Presence of Positivity" filename="build\dataset\fppp.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475754" options="" />
+	</componentset>
+</form>
+

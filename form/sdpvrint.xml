@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Post-Visit Ratings: PC Interviewer" abrv="sdpvrint" filename="sdpvrint">
+	<template name="temp1">
+		<name format="" />
+		<field format="@i" />
+	</template>
+	<schema file="pvisd" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_SD_HO_I" />
+	<schema file="sddates" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_SD_DATES" />
+	<dataset file="pvrint" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_SD_HO_I" />
+	<key name="Family Id" entryset="Post-Visit Ratings: PC Interview" filename="pvrint" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Data Mode" entryset="Post-Visit Ratings: PC Interview" filename="pvrint" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="Tracker Data" abrv="tracker data" numcols="2" displayheader="true" header="Tracker Data">
+		<datafield name="Date of Assessment" entryset="Sensory Defensiveness Dates" filename="build\schema\sddates.xml" type="1" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1052931475394" options="0,MM/dd/yyyy" />
+		<datafield name="Staff Number" entryset="Post-Visit Ratings: PC Interview Tracker" filename="build\schema\pvisd.xml" type="1" class="com.wtp.jforms.ui.control.smart.ComboFieldBox" editable="true" classid="1052931475380" options="0,Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_STAFF,number" />
+		<datafield name="Anyone Present During PC Session" entryset="Post-Visit Ratings: PC Interview Tracker" filename="build\schema\pvisd.xml" type="1" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475360" options="" />
+		<datafield name="Who" entryset="Post-Visit Ratings: PC Interview Tracker" filename="build\schema\pvisd.xml" type="1" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475361" options="" />
+		<datafield name="During Which Part" entryset="Post-Visit Ratings: PC Interview Tracker" filename="build\schema\pvisd.xml" type="1" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1052931475362" options="" />
+		<datafield name="Could Primary Care-giver Hear Child Session" entryset="Post-Visit Ratings: PC Interview Tracker" filename="build\schema\pvisd.xml" type="1" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475363" options="" />
+		<datafield name="Which Parts" entryset="Post-Visit Ratings: PC Interview Tracker" filename="build\schema\pvisd.xml" type="1" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1052931475364" options="" />
+	</componentset>
+	<componentset name="Interview" abrv="interview" numcols="2" displayheader="true" header="Interview">
+		<datafield name="1" entryset="Post-Visit Ratings: PC Interview" filename="build\dataset\pvrint.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475383" options="" />
+		<datafield name="2" entryset="Post-Visit Ratings: PC Interview" filename="build\dataset\pvrint.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475384" options="" />
+		<datafield name="3" entryset="Post-Visit Ratings: PC Interview" filename="build\dataset\pvrint.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475385" options="" />
+		<datafield name="4" entryset="Post-Visit Ratings: PC Interview" filename="build\dataset\pvrint.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475386" options="" />
+		<datafield name="5" entryset="Post-Visit Ratings: PC Interview" filename="build\dataset\pvrint.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475387" options="" />
+		<datafield name="6" entryset="Post-Visit Ratings: PC Interview" filename="build\dataset\pvrint.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475388" options="" />
+		<datafield name="7" entryset="Post-Visit Ratings: PC Interview" filename="build\dataset\pvrint.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475389" options="" />
+		<datafield name="8" entryset="Post-Visit Ratings: PC Interview" filename="build\dataset\pvrint.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475390" options="" />
+		<datafield name="9" entryset="Post-Visit Ratings: PC Interview" filename="build\dataset\pvrint.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1052931475391" options="" />
+		<datafield name="10" entryset="Post-Visit Ratings: PC Interview" filename="build\dataset\pvrint.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1052931475392" options="" />
+	</componentset>
+</form>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="ITSEA Father" abrv="itf" filename="itf">
+	<template name="temp1">
+		<name format="" />
+		<field format="" />
+		<subsetname format="" />
+		<subsetfield format="@f" />
+	</template>
+</dataset>
+

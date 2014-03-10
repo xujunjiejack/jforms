@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Neonatal Complication Scale" abrv="ncs" filename="ncs">
+	<template name="temp1">
+		<name format="" />
+		<field format="nc@" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<validator name="val13_9" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="3">
+		<valid value="9" />
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="val12_9" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="2">
+		<valid value="9" />
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="val01_9" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="1">
+		<valid value="9" />
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="val12" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="2">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<data name="Twin A Sex" field="01a" template="temp1" validator="val12" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824187" />
+	<data name="Twin B Sex" field="01b" template="temp1" validator="val12" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824188" />
+	<data name="Twin A Birth Order" field="02a" template="temp1" validator="val12_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824189" />
+	<data name="Twin B Birth Order" field="02b" template="temp1" validator="val12_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824190" />
+	<data name="Twin A Gestational Age" field="03a" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824191" />
+	<data name="Twin B Gestational Age" field="03b" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824192" />
+	<data name="Twin A Size for Gestational Age" field="04a" template="temp1" validator="val13_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824193" />
+	<data name="Twin B Size for Gestational Age" field="04b" template="temp1" validator="val13_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824194" />
+	<data name="Twin A Birth Weight" field="05a" template="temp1" validator="DOUBLE" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824195" />
+	<data name="Twin B Birth Weight" field="05b" template="temp1" validator="DOUBLE" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824196" />
+	<data name="Twin A Head Circumference" field="06a" template="temp1" validator="DOUBLE" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824199" />
+	<data name="Twin B Head Circumference" field="06b" template="temp1" validator="DOUBLE" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824200" />
+	<data name="Twin A Length" field="07a" template="temp1" validator="DOUBLE" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824201" />
+	<data name="Twin B Length" field="07b" template="temp1" validator="DOUBLE" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824202" />
+	<data name="Twin A Resuscitation" field="08a" template="temp1" validator="val01_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824203" />
+	<data name="Twin B Resuscitation" field="08b" template="temp1" validator="val01_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824204" />
+	<data name="Twin A How Long" field="09a" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824205" />
+	<data name="Twin B How Long" field="09b" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824206" />
+	<data name="Twin A Resuscitation Comments" field="10a" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1045652824207" />
+	<data name="Twin B Resuscitation Comments" field="10b" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1045652824208" />
+	<data name="Twin A Onset of Stable Respiration" field="11a" template="temp1" validator="val01_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824209" />
+	<data name="Twin B Onset of Stable Respiration" field="11b" template="temp1" validator="val01_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824210" />
+	<data name="Twin A Specify Time (minutes)" field="12a" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824211" />
+	<data name="Twin B Specify Time (minutes)" field="12b" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824212" />
+	<data name="Twin A Neonatal Heart Rate" field="13a" template="temp1" validator="val01_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824213" />
+	<data name="Twin B Neonatal Heart Rate" field="13b" template="temp1" validator="val01_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824214" />
+	<data name="Twin A Highest Heart Rate" field="014" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824215" />
+	<data name="Twin B Highest Heart Rate" field="015" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824216" />
+	<data name="Twin A Lowest Heart Rate" field="016" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824217" />
+	<data name="Twin B Lowest Heart Rate" field="017" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824218" />
+	<data name="Twin A Neonatal Respiratory Rate" field="18a" template="temp1" validator="val01_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824219" />
+	<data name="Twin B Neonatal Respiratory Rate" field="18b" template="temp1" validator="val01_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824220" />
+	<data name="Twin A Specific Neonatal Respiratory Rate" field="19a" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824221" />
+	<data name="Twin B Specific Neonatal Respiratory Rate" field="19b" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824222" />
+	<data name="Twin A Apgar Score at One Minute" field="20a" template="temp1" validator="val01_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824223" />
+	<data name="Twin B Apgar Score at One Minute" field="20b" template="temp1" validator="val01_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824224" />
+	<data name="Twin A Specific Apgar Score One Minute" field="21a" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824225" />
+	<data name="Twin B Specific Apgar Score One Minute" field="21b" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824226" />
+	<data name="Twin A Apgar Score at Five Minutes" field="22a" template="temp1" validator="val01_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824227" />
+	<data name="Twin B Apgar Score at Five Minutes" field="22b" template="temp1" validator="val01_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824228" />
+	<data name="Twin A Specific Apgar Score Five Minutes" field="23a" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824229" />
+	<data name="Twin B Specific Apgar Score Five Minutes" field="23b" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824230" />
+	<data name="Twin A Infection" field="24a" template="temp1" validator="val01_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824231" />
+	<data name="Twin B Infection" field="24b" template="temp1" validator="val01_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824232" />
+	<data name="Twin A Infection Comments" field="25a" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1045652824233" />
+	<data name="Twin B Infection Comments" field="25b" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1045652824234" />
+	<data name="Twin A Noninfectious Illness" field="26a" template="temp1" validator="val01_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824235" />
+	<data name="Twin B Noninfectious Illness" field="26b" template="temp1" validator="val01_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824236" />
+	<data name="Twin A Noninfectious Illness Comments" field="27a" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1045652824237" />
+	<data name="Twin B Noninfectious Illness Comments" field="27b" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1045652824238" />
+	<data name="Twin A Temperature Disturbance" field="28a" template="temp1" validator="val01_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824239" />
+	<data name="Twin B Temperature Disturbance" field="28b" template="temp1" validator="val01_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824240" />
+	<data name="Twin A Temperature Disturbance Value" field="29a" template="temp1" validator="DOUBLE" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824241" />
+	<data name="Twin B Temperature Disturbance Value" field="29b" template="temp1" validator="DOUBLE" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824242" />
+	<data name="Twin A First Nipple Feeding" field="30a" template="temp1" validator="val01_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824243" />
+	<data name="Twin B First Nipple Feeding" field="30b" template="temp1" validator="val01_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824244" />
+	<data name="Twin A Type of Feeding" field="31a" template="temp1" validator="val13_9" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824245" />
+	<data name="Twin B Type of Feeding" field="31b" template="temp1" validator="val13_9" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824246" />
+	<data name="Twin A How Many Days" field="32a" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824247" />
+	<data name="Twin B How Many Days" field="32b" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824248" />
+	<data name="Twin A How Many Days Until Nipple Feed" field="33a" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824249" />
+	<data name="Twin B How Many Days Util Nippled Feed" field="33b" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824250" />
+	<data name="Twin A Type of Nipple Feeding" field="34a" template="temp1" validator="val13_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824251" />
+	<data name="Twin B Type of Nipple Feeding" field="34b" template="temp1" validator="val13_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824252" />
+	<data name="Twin A Surgery" field="35a" template="temp1" validator="val01_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824253" />
+	<data name="Twin B Surgery" field="35b" template="temp1" validator="val01_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824254" />
+	<data name="Twin A Surgery Comments" field="36a" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1045652824255" />
+	<data name="Twin B Surgery Comments" field="36b" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1045652824256" />
+	<data name="Twin A Urinated" field="37a" template="temp1" validator="val01_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824257" />
+	<data name="Twin B Urinated" field="37b" template="temp1" validator="val01_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824258" />
+	<data name="Twin A Deficated" field="38a" template="temp1" validator="val01_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824259" />
+	<data name="Twin B Deficated" field="38b" template="temp1" validator="val01_9" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824260" />
+	<data name="Twin A Days in NICU" field="39a" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824261" />
+	<data name="Twin B Days in NICU" field="39b" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824262" />
+	<data name="Twin A Days in Nursery" field="40a" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824263" />
+	<data name="Twin B Days in Nursery" field="40b" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824264" />
+	<data name="Twin A Additional Comments" field="41a" template="temp1" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1045652824265" />
+	<data name="Twin B Additional Comments" field="41b" template="temp1" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1045652824266" />
+	<data name="Twin A Circumcision" field="42a" template="temp1" validator="val01_9" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824267" />
+	<data name="Twin B Circumcision" field="42b" template="temp1" validator="val01_9" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824268" />
+	<data name="Twin A Circumcision Comments" field="43a" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1045652824269" />
+	<data name="Twin B Circumcision Comments" field="43b" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1045652824270" />
+	<data name="Twin A Were Anesthetics Used" field="44a" template="temp1" validator="val01_9" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824271" />
+	<data name="Twin B Were Anesthetics Used" field="44b" template="temp1" validator="val01_9" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824272" />
+	<data name="Twin A Specify Amount" field="45a" template="temp1" validator="DOUBLE" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824273" />
+	<data name="Twin B Specify Amount" field="45b" template="temp1" validator="DOUBLE" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1045652824274" />
+	<dependency field="Twin A How Long">
+		<parent field="Twin A Resuscitation" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Twin B How Long">
+		<parent field="Twin B Resuscitation" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Twin A Resuscitation Comments">
+		<parent field="Twin A Resuscitation" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Twin B Resuscitation Comments">
+		<parent field="Twin B Resuscitation" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Twin A Specify Time (minutes)">
+		<parent field="Twin A Onset of Stable Respiration" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Twin B Specify Time (minutes)">
+		<parent field="Twin B Onset of Stable Respiration" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Twin A Infection Comments">
+		<parent field="Twin A Infection" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Twin B Infection Comments">
+		<parent field="Twin B Infection" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Twin A Noninfectious Illness Comments">
+		<parent field="Twin A Noninfectious Illness" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Twin B Noninfectious Illness Comments">
+		<parent field="Twin B Noninfectious Illness" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Twin A Temperature Disturbance Value">
+		<parent field="Twin A Temperature Disturbance" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Twin B Temperature Disturbance Value">
+		<parent field="Twin B Temperature Disturbance" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Twin A Type of Feeding">
+		<parent field="Twin A First Nipple Feeding" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="0" />
+		</parent>
+	</dependency>
+	<dependency field="Twin B Type of Feeding">
+		<parent field="Twin B First Nipple Feeding" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="0" />
+		</parent>
+	</dependency>
+	<dependency field="Twin A How Many Days">
+		<parent field="Twin A First Nipple Feeding" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="0" />
+		</parent>
+	</dependency>
+	<dependency field="Twin B How Many Days">
+		<parent field="Twin B First Nipple Feeding" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="0" />
+		</parent>
+	</dependency>
+	<dependency field="Twin A How Many Days Until Nipple Feed">
+		<parent field="Twin A First Nipple Feeding" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="0" />
+		</parent>
+	</dependency>
+	<dependency field="Twin B How Many Days Util Nippled Feed">
+		<parent field="Twin B First Nipple Feeding" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="0" />
+		</parent>
+	</dependency>
+	<dependency field="Twin A Surgery Comments">
+		<parent field="Twin A Surgery" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Twin B Surgery Comments">
+		<parent field="Twin B Surgery" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Twin A Circumcision">
+		<parent field="Twin A Sex" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Twin B Circumcision">
+		<parent field="Twin B Sex" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Twin A Circumcision Comments">
+		<parent field="Twin A Sex" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+		<parent field="Twin A Circumcision" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Twin B Circumcision Comments">
+		<parent field="Twin B Sex" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+		<parent field="Twin B Circumcision" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Twin A Were Anesthetics Used">
+		<parent field="Twin A Sex" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+		<parent field="Twin A Circumcision" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Twin B Were Anesthetics Used">
+		<parent field="Twin B Sex" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+		<parent field="Twin B Circumcision" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Twin A Specify Amount">
+		<parent field="Twin A Sex" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+		<parent field="Twin A Circumcision" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+		<parent field="Twin A Were Anesthetics Used" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Twin B Specify Amount">
+		<parent field="Twin B Sex" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+		<parent field="Twin B Circumcision" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+		<parent field="Twin B Were Anesthetics Used" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+</dataset>
+

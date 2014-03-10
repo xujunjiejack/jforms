@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Twin A" abrv="p4twinmailedinterviewshortassessmenttwina" filename="p4twinmailedinterviewshortassessmenttwina">
+	<dataset file="p4twinmailedinterviewfields" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_DATES" />
+	<dataset file="hbq1a" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_HA_SP_T" />
+	<dataset file="bistwina" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_BI_T" />
+	<dataset file="hbq2a" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_HA_PB_T" />
+	<dataset file="hbq1cotwina" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_HA_SP_C" />
+	<dataset file="p4tiretwina" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_TI_T" />
+	<key name="Family Id" entryset="P4 Twin Mailed Interview Fields" filename="p4twinmailedinterviewfields" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Data Mode" entryset="HBQ1 A" filename="hbq1a" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="Interview Date" abrv="date" numcols="2" displayheader="true" header="Interview Date">
+		<datafield name="Date" entryset="P4 Twin Mailed Interview Fields" filename="build\dataset\p4twinmailedinterviewfields.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1211927264359" options="0,MM/dd/yyyy" />
+	</componentset>
+	<componentset name="HBQ Part 1 (HBQ1)" abrv="hbq1" numcols="2" displayheader="true" header="HBQ Part 1 (HBQ1)">
+		<datafield name="A" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931507" options="" />
+		<datafield name="1" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931508" options="" />
+		<datafield name="2" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931509" options="" />
+		<datafield name="3" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931510" options="" />
+		<datafield name="4" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931511" options="" />
+		<datafield name="5" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931512" options="" />
+		<datafield name="6" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931513" options="" />
+		<datafield name="7" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931514" options="" />
+		<datafield name="8" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931515" options="" />
+		<datafield name="9" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931516" options="" />
+		<datafield name="10" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931517" options="" />
+		<datafield name="11" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931532" options="" />
+		<datafield name="12" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931533" options="" />
+		<datafield name="13" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931534" options="" />
+		<datafield name="14" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931535" options="" />
+		<datafield name="15" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931536" options="" />
+		<datafield name="16" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931537" options="" />
+		<datafield name="17" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931538" options="" />
+		<datafield name="18" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931539" options="" />
+		<datafield name="19" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931540" options="" />
+		<datafield name="20" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931541" options="" />
+		<datafield name="21" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931542" options="" />
+		<datafield name="22" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931543" options="" />
+		<datafield name="23" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931544" options="" />
+		<datafield name="24" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931572" options="" />
+		<datafield name="25" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931573" options="" />
+		<datafield name="26" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931574" options="" />
+		<datafield name="27" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931575" options="" />
+		<datafield name="28" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931576" options="" />
+		<datafield name="29" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931577" options="" />
+		<datafield name="30" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931578" options="" />
+		<datafield name="31" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931579" options="" />
+		<datafield name="32" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931580" options="" />
+		<datafield name="33" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931581" options="" />
+		<datafield name="34" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931582" options="" />
+		<datafield name="35" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931583" options="" />
+		<datafield name="36" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931584" options="" />
+		<datafield name="37" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931625" options="" />
+		<datafield name="38" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931626" options="" />
+		<datafield name="39" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931627" options="" />
+		<datafield name="40" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931628" options="" />
+		<datafield name="41" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931629" options="" />
+		<datafield name="42" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931630" options="" />
+		<datafield name="43" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931631" options="" />
+		<datafield name="44" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931632" options="" />
+		<datafield name="45" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931633" options="" />
+		<datafield name="46" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931634" options="" />
+		<datafield name="47" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931635" options="" />
+		<datafield name="48" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931636" options="" />
+		<datafield name="49" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931689" options="" />
+		<datafield name="50" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931690" options="" />
+		<datafield name="51" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931691" options="" />
+		<datafield name="52" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931692" options="" />
+		<datafield name="53" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931693" options="" />
+		<datafield name="54" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931694" options="" />
+		<datafield name="55" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931695" options="" />
+		<datafield name="56" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931696" options="" />
+		<datafield name="57" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931697" options="" />
+		<datafield name="58" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931698" options="" />
+		<datafield name="59" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931699" options="" />
+		<datafield name="60" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931700" options="" />
+		<datafield name="61" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931765" options="" />
+		<datafield name="62" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931766" options="" />
+		<datafield name="63" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931767" options="" />
+		<datafield name="64" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931768" options="" />
+		<datafield name="65" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931769" options="" />
+		<datafield name="66" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931770" options="" />
+		<datafield name="67" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931771" options="" />
+		<datafield name="68" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931772" options="" />
+		<datafield name="69" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931773" options="" />
+		<datafield name="70" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931774" options="" />
+		<datafield name="71" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931775" options="" />
+		<datafield name="72" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931776" options="" />
+		<datafield name="73" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931777" options="" />
+		<datafield name="74" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931778" options="" />
+	</componentset>
+	<componentset name="BIS" abrv="bis" numcols="2" displayheader="true" header="BIS">
+		<datafield name="1" entryset="BIS A" filename="build\dataset\bistwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216310694508" options="" />
+		<datafield name="2" entryset="BIS A" filename="build\dataset\bistwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216310694509" options="" />
+		<datafield name="3" entryset="BIS A" filename="build\dataset\bistwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216310694510" options="" />
+		<datafield name="4" entryset="BIS A" filename="build\dataset\bistwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216310694511" options="" />
+		<datafield name="5" entryset="BIS A" filename="build\dataset\bistwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216310694512" options="" />
+		<datafield name="6" entryset="BIS A" filename="build\dataset\bistwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216310694513" options="" />
+		<datafield name="7" entryset="BIS A" filename="build\dataset\bistwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216310694514" options="" />
+		<datafield name="8" entryset="BIS A" filename="build\dataset\bistwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216310694515" options="" />
+		<datafield name="9" entryset="BIS A" filename="build\dataset\bistwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216310694516" options="" />
+		<datafield name="10" entryset="BIS A" filename="build\dataset\bistwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216310694517" options="" />
+		<datafield name="11" entryset="BIS A" filename="build\dataset\bistwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216310694518" options="" />
+		<datafield name="12" entryset="BIS A" filename="build\dataset\bistwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216310694519" options="" />
+		<datafield name="13" entryset="BIS A" filename="build\dataset\bistwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216310694520" options="" />
+		<datafield name="14" entryset="BIS A" filename="build\dataset\bistwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216310694521" options="" />
+		<datafield name="15" entryset="BIS A" filename="build\dataset\bistwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216310694522" options="" />
+		<datafield name="16" entryset="BIS A" filename="build\dataset\bistwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216310694523" options="" />
+		<datafield name="17" entryset="BIS A" filename="build\dataset\bistwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216310694524" options="" />
+		<datafield name="18" entryset="BIS A" filename="build\dataset\bistwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216310694525" options="" />
+		<datafield name="19" entryset="BIS A" filename="build\dataset\bistwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216310694526" options="" />
+		<datafield name="20" entryset="BIS A" filename="build\dataset\bistwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216310694527" options="" />
+	</componentset>
+	<componentset name="HBQ Part 2 (HBQ2)" abrv="hbq2" numcols="2" displayheader="true" header="HBQ Part 2 (HBQ2)">
+		<datafield name="1" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763444955" options="" />
+		<datafield name="2" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763444956" options="" />
+		<datafield name="3" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763444962" options="" />
+		<datafield name="4" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763444963" options="" />
+		<datafield name="5" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763444964" options="" />
+		<datafield name="6" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763444965" options="" />
+		<datafield name="7" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763444966" options="" />
+		<datafield name="8" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763444967" options="" />
+		<datafield name="9" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763444968" options="" />
+		<datafield name="10" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763444969" options="" />
+		<datafield name="11" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763444970" options="" />
+		<datafield name="12" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763444971" options="" />
+		<datafield name="13" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763444972" options="" />
+		<datafield name="14" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763444973" options="" />
+		<datafield name="15" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763444974" options="" />
+		<datafield name="16" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763444975" options="" />
+		<datafield name="17" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763444976" options="" />
+		<datafield name="18" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763444977" options="" />
+		<datafield name="19" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763444978" options="" />
+		<datafield name="20" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763444979" options="" />
+		<datafield name="21" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445003" options="" />
+		<datafield name="22" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445004" options="" />
+		<datafield name="23" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445005" options="" />
+		<datafield name="24" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445006" options="" />
+		<datafield name="25" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445007" options="" />
+		<datafield name="26" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445008" options="" />
+		<datafield name="27" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445009" options="" />
+		<datafield name="28" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445010" options="" />
+		<datafield name="29" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445011" options="" />
+		<datafield name="30" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445012" options="" />
+		<datafield name="31" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445013" options="" />
+		<datafield name="32" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445014" options="" />
+		<datafield name="33" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445015" options="" />
+		<datafield name="34" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445016" options="" />
+		<datafield name="35" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445017" options="" />
+		<datafield name="36" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445018" options="" />
+		<datafield name="37" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445019" options="" />
+		<datafield name="38" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445020" options="" />
+		<datafield name="39" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445021" options="" />
+		<datafield name="40" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445022" options="" />
+		<datafield name="41" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445066" options="" />
+		<datafield name="42" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445067" options="" />
+		<datafield name="43" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445068" options="" />
+		<datafield name="44" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445069" options="" />
+		<datafield name="45" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445070" options="" />
+		<datafield name="46" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445071" options="" />
+		<datafield name="47" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445072" options="" />
+		<datafield name="48" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445073" options="" />
+		<datafield name="49" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445074" options="" />
+		<datafield name="50" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445075" options="" />
+		<datafield name="51" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445076" options="" />
+		<datafield name="52" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445077" options="" />
+		<datafield name="53" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445078" options="" />
+		<datafield name="54" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445079" options="" />
+		<datafield name="55" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445080" options="" />
+		<datafield name="56" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445081" options="" />
+		<datafield name="57" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445082" options="" />
+		<datafield name="58" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445083" options="" />
+		<datafield name="59" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445084" options="" />
+		<datafield name="60" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445085" options="" />
+		<datafield name="61" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445149" options="" />
+		<datafield name="62" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445150" options="" />
+		<datafield name="63" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445151" options="" />
+		<datafield name="64" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445152" options="" />
+		<datafield name="65" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445153" options="" />
+		<datafield name="66" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445154" options="" />
+		<datafield name="67" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445155" options="" />
+		<datafield name="68" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445156" options="" />
+		<datafield name="69" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445157" options="" />
+		<datafield name="70" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445158" options="" />
+		<datafield name="71" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445159" options="" />
+		<datafield name="72" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445160" options="" />
+		<datafield name="73" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445161" options="" />
+		<datafield name="74" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445162" options="" />
+		<datafield name="75" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445163" options="" />
+		<datafield name="76" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445164" options="" />
+		<datafield name="77" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445165" options="" />
+		<datafield name="78" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445166" options="" />
+		<datafield name="79" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445167" options="" />
+		<datafield name="80" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445168" options="" />
+		<datafield name="81" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445169" options="" />
+		<datafield name="82" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445170" options="" />
+		<datafield name="83" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445171" options="" />
+		<datafield name="84" entryset="HBQ2 A" filename="build\dataset\hbq2a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445172" options="" />
+	</componentset>
+	<componentset name="HBQ1 Cotwin" abrv="hbq1cotwin" numcols="2" displayheader="true" header="HBQ1 Cotwin">
+		<datafield name="A" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931507" options="" />
+		<datafield name="1" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931508" options="" />
+		<datafield name="2" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931509" options="" />
+		<datafield name="3" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931510" options="" />
+		<datafield name="4" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931511" options="" />
+		<datafield name="5" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931512" options="" />
+		<datafield name="6" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931513" options="" />
+		<datafield name="7" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931514" options="" />
+		<datafield name="8" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931515" options="" />
+		<datafield name="9" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931516" options="" />
+		<datafield name="10" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931517" options="" />
+		<datafield name="11" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931532" options="" />
+		<datafield name="12" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931533" options="" />
+		<datafield name="13" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931534" options="" />
+		<datafield name="14" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931535" options="" />
+		<datafield name="15" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931536" options="" />
+		<datafield name="16" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931537" options="" />
+		<datafield name="17" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931538" options="" />
+		<datafield name="18" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931539" options="" />
+		<datafield name="19" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931540" options="" />
+		<datafield name="20" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931541" options="" />
+		<datafield name="21" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931542" options="" />
+		<datafield name="22" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931543" options="" />
+		<datafield name="23" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931544" options="" />
+		<datafield name="24" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931572" options="" />
+		<datafield name="25" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931573" options="" />
+		<datafield name="26" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931574" options="" />
+		<datafield name="27" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931575" options="" />
+		<datafield name="28" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931576" options="" />
+		<datafield name="29" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931577" options="" />
+		<datafield name="30" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931578" options="" />
+		<datafield name="31" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931579" options="" />
+		<datafield name="32" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931580" options="" />
+		<datafield name="33" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931581" options="" />
+		<datafield name="34" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931582" options="" />
+		<datafield name="35" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931583" options="" />
+		<datafield name="36" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931584" options="" />
+		<datafield name="37" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931625" options="" />
+		<datafield name="38" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931626" options="" />
+		<datafield name="39" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931627" options="" />
+		<datafield name="40" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931628" options="" />
+		<datafield name="41" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931629" options="" />
+		<datafield name="42" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931630" options="" />
+		<datafield name="43" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931631" options="" />
+		<datafield name="44" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931632" options="" />
+		<datafield name="45" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931633" options="" />
+		<datafield name="46" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931634" options="" />
+		<datafield name="47" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931635" options="" />
+		<datafield name="48" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931636" options="" />
+		<datafield name="49" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931689" options="" />
+		<datafield name="50" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931690" options="" />
+		<datafield name="51" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931691" options="" />
+		<datafield name="52" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931692" options="" />
+		<datafield name="53" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931693" options="" />
+		<datafield name="54" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931694" options="" />
+		<datafield name="55" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931695" options="" />
+		<datafield name="56" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931696" options="" />
+		<datafield name="57" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931697" options="" />
+		<datafield name="58" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931698" options="" />
+		<datafield name="59" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931699" options="" />
+		<datafield name="60" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931700" options="" />
+		<datafield name="61" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931765" options="" />
+		<datafield name="62" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931766" options="" />
+		<datafield name="63" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931767" options="" />
+		<datafield name="64" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931768" options="" />
+		<datafield name="65" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931769" options="" />
+		<datafield name="66" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931770" options="" />
+		<datafield name="67" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931771" options="" />
+		<datafield name="68" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931772" options="" />
+		<datafield name="69" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931773" options="" />
+		<datafield name="70" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931774" options="" />
+		<datafield name="71" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931775" options="" />
+		<datafield name="72" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931776" options="" />
+		<datafield name="73" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931777" options="" />
+		<datafield name="74" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931778" options="" />
+	</componentset>
+	<componentset name="TIRE" abrv="tire" numcols="2" displayheader="true" header="TIRE">
+		<datafield name="1" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211900073952" options="" />
+		<datafield name="2" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211900073953" options="" />
+		<datafield name="3" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211900073954" options="" />
+		<datafield name="4" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211900073955" options="" />
+		<datafield name="5" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211900073956" options="" />
+		<datafield name="6" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211900073957" options="" />
+		<datafield name="7" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211900073958" options="" />
+		<datafield name="8" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211900073959" options="" />
+		<datafield name="9" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211900073960" options="" />
+		<datafield name="10" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211900073961" options="" />
+		<datafield name="11" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211900073962" options="" />
+		<datafield name="12" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211900073963" options="" />
+		<datafield name="13" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211900073964" options="" />
+		<datafield name="14" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211900073965" options="" />
+		<datafield name="15" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211900073966" options="" />
+		<datafield name="16" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211900073967" options="" />
+		<datafield name="17" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211900073968" options="" />
+		<datafield name="18" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211900073969" options="" />
+		<datafield name="19" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211900073970" options="" />
+		<datafield name="20" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211900073971" options="" />
+		<datafield name="21" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532143" options="" />
+		<datafield name="22" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532144" options="" />
+		<datafield name="23" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532145" options="" />
+		<datafield name="24" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532146" options="" />
+		<datafield name="25" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532147" options="" />
+		<datafield name="26" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532148" options="" />
+		<datafield name="27" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532149" options="" />
+		<datafield name="28" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532150" options="" />
+		<datafield name="29" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532151" options="" />
+		<datafield name="30" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532152" options="" />
+		<datafield name="31" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532153" options="" />
+		<datafield name="32" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532154" options="" />
+		<datafield name="33" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532155" options="" />
+		<datafield name="34" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532156" options="" />
+		<datafield name="35" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532157" options="" />
+		<datafield name="36" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532158" options="" />
+		<datafield name="37" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532159" options="" />
+		<datafield name="38" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532160" options="" />
+		<datafield name="39" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532161" options="" />
+		<datafield name="40" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532162" options="" />
+		<datafield name="41" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532163" options="" />
+		<datafield name="42" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532164" options="" />
+		<datafield name="43" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532165" options="" />
+		<datafield name="44" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532166" options="" />
+		<datafield name="45" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532167" options="" />
+		<datafield name="46" entryset="TIRE Twin A" filename="build\dataset\p4tiretwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211924532168" options="" />
+	</componentset>
+</form>
+

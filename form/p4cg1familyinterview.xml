@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="CG1 Family Int." abrv="p4cg1familyinterview" filename="p4cg1familyinterview">
+	<template name="temp1">
+		<name format="" />
+		<field format="@m" />
+	</template>
+	<dataset file="crprei" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_CR_M" />
+	<dataset file="crproa" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_CR_M" />
+	<dataset file="crprac" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_CR_M" />
+	<dataset file="crpreo" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_CR_M" />
+	<dataset file="crprca" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_CR_M" />
+	<dataset file="crprrg" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_CR_M" />
+	<dataset file="crprcg" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_CR_M" />
+	<dataset file="dtqdi" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_DT_M" />
+	<dataset file="dtqaf" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_DT_M" />
+	<dataset file="dtqat" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_DT_M" />
+	<dataset file="fcs" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_FC_M" />
+	<dataset file="dasdn" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_DA_M" />
+	<dataset file="dasae" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_DA_M" />
+	<dataset file="dasds" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_DA_M" />
+	<dataset file="dasdc" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_DA_M" />
+	<dataset file="p4cgbmsa" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_BS_M" />
+	<key name="Family Id" entryset="Encouraging Independence" filename="crprei" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Data Mode" entryset="Encouraging Independence" filename="crprei" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="Child Rearing Practices Report" abrv="crpr" numcols="2" displayheader="true" header="Child Rearing Practices Report">
+		<datafield name="1" entryset="Encouraging Independence" filename="build\dataset\crprei.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341227" options="" />
+		<datafield name="2" entryset="Encouraging Independence" filename="build\dataset\crprei.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341228" options="" />
+		<datafield name="3" entryset="Open expression of affect" filename="build\dataset\crproa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341254" options="" />
+		<datafield name="4" entryset="Authoritarian Control" filename="build\dataset\crprac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341276" options="" />
+		<datafield name="5" entryset="Authoritarian Control" filename="build\dataset\crprac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341277" options="" />
+		<datafield name="6" entryset="Open expression of affect" filename="build\dataset\crproa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341255" options="" />
+		<datafield name="7" entryset="Encouraging openness of expression" filename="build\dataset\crpreo.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047943100826" options="" />
+		<datafield name="8" entryset="Encouraging Independence" filename="build\dataset\crprei.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341229" options="" />
+		<datafield name="9" entryset="Encouraging openness of expression" filename="build\dataset\crpreo.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047943100827" options="" />
+		<datafield name="10" entryset="Encouraging Independence" filename="build\dataset\crprei.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341230" options="" />
+		<datafield name="11" entryset="Authoritarian Control" filename="build\dataset\crprac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341278" options="" />
+		<datafield name="12" entryset="Control by anxiety induction" filename="build\dataset\crprca.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341272" options="" />
+		<datafield name="13" entryset="Authoritarian Control" filename="build\dataset\crprac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341279" options="" />
+		<datafield name="14" entryset="Open expression of affect" filename="build\dataset\crproa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341256" options="" />
+		<datafield name="15" entryset="Rational guiding of child" filename="build\dataset\crprrg.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341262" options="" />
+		<datafield name="16" entryset="Open expression of affect" filename="build\dataset\crproa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341257" options="" />
+		<datafield name="17" entryset="Encouraging Independence" filename="build\dataset\crprei.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341231" options="" />
+		<datafield name="18" entryset="Open expression of affect" filename="build\dataset\crproa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341258" options="" />
+		<datafield name="19" entryset="Authoritarian Control" filename="build\dataset\crprac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341280" options="" />
+		<datafield name="20" entryset="Encouraging openness of expression" filename="build\dataset\crpreo.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047943100828" options="" />
+		<datafield name="21" entryset="Control by guilt induction" filename="build\dataset\crprcg.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341267" options="" />
+		<datafield name="22" entryset="Rational guiding of child" filename="build\dataset\crprrg.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341263" options="" />
+		<datafield name="23" entryset="Rational guiding of child" filename="build\dataset\crprrg.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341264" options="" />
+		<datafield name="24" entryset="Encouraging openness of expression" filename="build\dataset\crpreo.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047943100829" options="" />
+		<datafield name="25" entryset="Authoritarian Control" filename="build\dataset\crprac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341281" options="" />
+		<datafield name="26" entryset="Authoritarian Control" filename="build\dataset\crprac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341282" options="" />
+		<datafield name="27" entryset="Open expression of affect" filename="build\dataset\crproa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341259" options="" />
+		<datafield name="28" entryset="Authoritarian Control" filename="build\dataset\crprac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341283" options="" />
+		<datafield name="29" entryset="Control by guilt induction" filename="build\dataset\crprcg.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341268" options="" />
+		<datafield name="30" entryset="Encouraging Independence" filename="build\dataset\crprei.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341232" options="" />
+		<datafield name="31" entryset="Authoritarian Control" filename="build\dataset\crprac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341284" options="" />
+		<datafield name="32" entryset="Control by guilt induction" filename="build\dataset\crprcg.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341269" options="" />
+		<datafield name="33" entryset="Encouraging Independence" filename="build\dataset\crprei.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341233" options="" />
+		<datafield name="34" entryset="Authoritarian Control" filename="build\dataset\crprac.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341285" options="" />
+		<datafield name="35" entryset="Control by anxiety induction" filename="build\dataset\crprca.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047935341273" options="" />
+	</componentset>
+	<componentset name="Differental Treatment" abrv="dtq" numcols="2" displayheader="true" header="Differental Treatment">
+		<datafield name="1" entryset="Discipline" filename="build\dataset\dtqdi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880027" options="" />
+		<datafield name="1a" entryset="Discipline" filename="build\dataset\dtqdi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880028" options="" />
+		<datafield name="1b" entryset="Discipline" filename="build\dataset\dtqdi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880029" options="" />
+		<datafield name="2" entryset="Affection" filename="build\dataset\dtqaf.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880032" options="" />
+		<datafield name="3" entryset="Attention" filename="build\dataset\dtqat.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880035" options="" />
+		<datafield name="3a" entryset="Attention" filename="build\dataset\dtqat.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880036" options="" />
+	</componentset>
+	<componentset name="Family Conflict Scale" abrv="fcs" numcols="2" displayheader="true" header="Family Conflict Scale">
+		<datafield name="1" entryset="Family Conflict Scale" filename="build\dataset\fcs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880111" options="" />
+		<datafield name="2a" entryset="Family Conflict Scale" filename="build\dataset\fcs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880112" options="" />
+		<datafield name="2b" entryset="Family Conflict Scale" filename="build\dataset\fcs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880113" options="" />
+		<datafield name="3a" entryset="Family Conflict Scale" filename="build\dataset\fcs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880114" options="" />
+		<datafield name="3b" entryset="Family Conflict Scale" filename="build\dataset\fcs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880115" options="" />
+		<datafield name="4" entryset="Family Conflict Scale" filename="build\dataset\fcs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880116" options="" />
+		<datafield name="5" entryset="Family Conflict Scale" filename="build\dataset\fcs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880117" options="" />
+		<datafield name="6" entryset="Family Conflict Scale" filename="build\dataset\fcs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880118" options="" />
+		<datafield name="7" entryset="Family Conflict Scale" filename="build\dataset\fcs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880119" options="" />
+		<datafield name="8" entryset="Family Conflict Scale" filename="build\dataset\fcs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880120" options="" />
+		<datafield name="9" entryset="Family Conflict Scale" filename="build\dataset\fcs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880121" options="" />
+		<datafield name="10" entryset="Family Conflict Scale" filename="build\dataset\fcs.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880122" options="" />
+	</componentset>
+	<componentset name="Dyadic Adjustment Scale" abrv="das" numcols="2" displayheader="true" header="Dyadic Adjustment Scale">
+		<datafield name="1" entryset="Dyadic Consensus" filename="build\dataset\dasdn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880409" options="" />
+		<datafield name="2" entryset="Dyadic Consensus" filename="build\dataset\dasdn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880410" options="" />
+		<datafield name="3" entryset="Dyadic Consensus" filename="build\dataset\dasdn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880411" options="" />
+		<datafield name="4" entryset="Affectional Expression" filename="build\dataset\dasae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880424" options="" />
+		<datafield name="5" entryset="Dyadic Consensus" filename="build\dataset\dasdn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880412" options="" />
+		<datafield name="6" entryset="Affectional Expression" filename="build\dataset\dasae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880425" options="" />
+		<datafield name="7" entryset="Dyadic Consensus" filename="build\dataset\dasdn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880413" options="" />
+		<datafield name="8" entryset="Dyadic Consensus" filename="build\dataset\dasdn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880414" options="" />
+		<datafield name="9" entryset="Dyadic Consensus" filename="build\dataset\dasdn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880415" options="" />
+		<datafield name="10" entryset="Dyadic Consensus" filename="build\dataset\dasdn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880416" options="" />
+		<datafield name="11" entryset="Dyadic Consensus" filename="build\dataset\dasdn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880417" options="" />
+		<datafield name="12" entryset="Dyadic Consensus" filename="build\dataset\dasdn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880418" options="" />
+		<datafield name="13" entryset="Dyadic Consensus" filename="build\dataset\dasdn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880419" options="" />
+		<datafield name="14" entryset="Dyadic Consensus" filename="build\dataset\dasdn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880420" options="" />
+		<datafield name="15" entryset="Dyadic Consensus" filename="build\dataset\dasdn.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880421" options="" />
+		<datafield name="16" entryset="Dyadic Satisfaction" filename="build\dataset\dasds.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880463" options="" />
+		<datafield name="17" entryset="Dyadic Satisfaction" filename="build\dataset\dasds.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880464" options="" />
+		<datafield name="18" entryset="Dyadic Satisfaction" filename="build\dataset\dasds.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880465" options="" />
+		<datafield name="19" entryset="Dyadic Satisfaction" filename="build\dataset\dasds.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880466" options="" />
+		<datafield name="20" entryset="Dyadic Satisfaction" filename="build\dataset\dasds.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880467" options="" />
+		<datafield name="21" entryset="Dyadic Satisfaction" filename="build\dataset\dasds.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880468" options="" />
+		<datafield name="22" entryset="Dyadic Satisfaction" filename="build\dataset\dasds.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880469" options="" />
+		<datafield name="23" entryset="Dyadic Satisfaction" filename="build\dataset\dasds.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880470" options="" />
+		<datafield name="24" entryset="Dyadic Cohesion" filename="build\dataset\dasdc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880475" options="" />
+		<datafield name="25" entryset="Dyadic Cohesion" filename="build\dataset\dasdc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880476" options="" />
+		<datafield name="26" entryset="Dyadic Cohesion" filename="build\dataset\dasdc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880477" options="" />
+		<datafield name="27" entryset="Dyadic Cohesion" filename="build\dataset\dasdc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880478" options="" />
+		<datafield name="28" entryset="Dyadic Cohesion" filename="build\dataset\dasdc.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880479" options="" />
+		<datafield name="29" entryset="Affectional Expression" filename="build\dataset\dasae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880426" options="" />
+		<datafield name="30" entryset="Affectional Expression" filename="build\dataset\dasae.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880427" options="" />
+		<datafield name="31" entryset="Dyadic Satisfaction" filename="build\dataset\dasds.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880471" options="" />
+		<datafield name="32" entryset="Dyadic Satisfaction" filename="build\dataset\dasds.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1047999880472" options="" />
+	</componentset>
+	<componentset name="Behavior Management Self Assessment" abrv="bmsa" numcols="2" displayheader="true" header="Behavior Management Self Assessment">
+		<datafield name="1" entryset="P4 CG interview BMSA" filename="build\dataset\p4cgbmsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1208789417370" options="" />
+		<datafield name="2" entryset="P4 CG interview BMSA" filename="build\dataset\p4cgbmsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1208789417371" options="" />
+		<datafield name="3" entryset="P4 CG interview BMSA" filename="build\dataset\p4cgbmsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1208789417372" options="" />
+		<datafield name="4" entryset="P4 CG interview BMSA" filename="build\dataset\p4cgbmsa.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1208789417373" options="" />
+	</componentset>
+</form>
+

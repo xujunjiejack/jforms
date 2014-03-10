@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Multidimensional Personality Questionnaire" abrv="mpq" filename="mpq">
+	<template name="temp1">
+		<name format="" />
+		<field format="" />
+		<subsetname format="mpq @" />
+		<subsetfield format="mp@" />
+	</template>
+</dataset>
+

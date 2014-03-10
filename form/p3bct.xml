@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Twin" abrv="p3bct" filename="p3bct">
+	<template name="temp">
+		<name format="" />
+		<field format="bc@t" />
+	</template>
+	<dataset file="bcd1t" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_BC_T_R1" />
+	<dataset file="bcd2t" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_BC_T_R1" />
+	<dataset file="bcd3t" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_BC_T_R1" />
+	<key name="Family Id" entryset="Twin day 1" filename="bcd1t" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Twin" entryset="Twin day 1" filename="bcd1t" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Twin,A:1,B:2" />
+	<key name="Data Mode" entryset="Twin day 1" filename="bcd1t" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="Day 1" abrv="d1" numcols="2" displayheader="true" header="Day 1">
+		<datafield name="Morning Sample Date" entryset="Twin day 1" filename="build\dataset\bcd1t.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1098299150565" options="0,MM/dd/yyyy" />
+		<datafield name="Morning Sample Time (military)" entryset="Twin day 1" filename="build\dataset\bcd1t.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1098299150566" options="0,HHmm" />
+		<datafield name="What doing w/in 30 min of sample1" entryset="Twin day 1" filename="build\dataset\bcd1t.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1098299150568" options="" />
+		<datafield name="Mid-Day Sample Date" entryset="Twin day 1" filename="build\dataset\bcd1t.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1098906974812" options="0,MM/dd/yyyy" />
+		<datafield name="Mid-Day Sample Time (military)" entryset="Twin day 1" filename="build\dataset\bcd1t.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1098299150570" options="0,HHmm" />
+		<datafield name="What doing w/in 30 min of sample2" entryset="Twin day 1" filename="build\dataset\bcd1t.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1098299150573" options="" />
+		<datafield name="Bedtime Sample Date" entryset="Twin day 1" filename="build\dataset\bcd1t.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1098906974813" options="0,MM/dd/yyyy" />
+		<datafield name="Bedtime Sample Time (military)" entryset="Twin day 1" filename="build\dataset\bcd1t.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1098299150574" options="0,HHmm" />
+		<datafield name="What doing w/in 30 min of sample3" entryset="Twin day 1" filename="build\dataset\bcd1t.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1098299150575" options="" />
+		<datafield name="Runny nose and/or cough" entryset="Twin day 1" filename="build\dataset\bcd1t.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1098299150579" options="" />
+		<datafield name="Feel warm or flushed" entryset="Twin day 1" filename="build\dataset\bcd1t.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1098299150580" options="" />
+		<datafield name="Cranky or irritable even when rested" entryset="Twin day 1" filename="build\dataset\bcd1t.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1098299150581" options="" />
+		<datafield name="Ear Infection" entryset="Twin day 1" filename="build\dataset\bcd1t.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1098299150582" options="" />
+		<datafield name="Feel aches and pains" entryset="Twin day 1" filename="build\dataset\bcd1t.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1098299150583" options="" />
+		<datafield name="Nausea or uneasy stomach" entryset="Twin day 1" filename="build\dataset\bcd1t.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1098299150584" options="" />
+		<datafield name="Waking Time (military)" entryset="Twin day 1" filename="build\dataset\bcd1t.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1098299150567" options="0,HHmm" />
+		<datafield name="Amount of Sleep (minutes)" entryset="Twin day 1" filename="build\dataset\bcd1t.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1098299150569" options="" />
+		<datafield name="Did you nap" entryset="Twin day 1" filename="build\dataset\bcd1t.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1098299150571" options="" />
+		<datafield name="How long was nap (minutes)" entryset="Twin day 1" filename="build\dataset\bcd1t.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1098299150572" options="" />
+		<datafield name="Have you taken antibiotics" entryset="Twin day 1" filename="build\dataset\bcd1t.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1098299150576" options="" />
+		<datafield name="Type" entryset="Twin day 1" filename="build\dataset\bcd1t.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1098299150577" options="" />
+		<datafield name="Number of Days" entryset="Twin day 1" filename="build\dataset\bcd1t.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1098299150578" options="" />
+		<datafield name="Have you taken any other medication" entryset="Twin day 1" filename="build\dataset\bcd1t.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1098299150585" options="" />
+		<datafield name="Name of Med(s)" entryset="Twin day 1" filename="build\dataset\bcd1t.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1098299150586" options="" />
+		<datafield name="Taken for" entryset="Twin day 1" filename="build\dataset\bcd1t.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1098299150587" options="" />
+		<datafield name="Amount" entryset="Twin day 1" filename="build\dataset\bcd1t.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1098299150588" options="" />
+	</componentset>
+	<componentset name="Day 2" abrv="d2" numcols="2" displayheader="true" header="Day 2">
+		<datafield name="Morning Sample Date" entryset="Twin day 2" filename="build\dataset\bcd2t.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1098299150700" options="0,MM/dd/yyyy" />
+		<datafield name="Morning Sample Time (military)" entryset="Twin day 2" filename="build\dataset\bcd2t.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1098299150701" options="0,HHmm" />
+		<datafield name="What doing w/in 30 min of sample1" entryset="Twin day 2" filename="build\dataset\bcd2t.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1098299150703" options="" />
+		<datafield name="Mid-Day Sample Date" entryset="Twin day 2" filename="build\dataset\bcd2t.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1098906974926" options="0,MM/dd/yyyy" />
+		<datafield name="Mid-Day Sample Time (military)" entryset="Twin day 2" filename="build\dataset\bcd2t.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1098299150705" options="0,HHmm" />
+		<datafield name="What doing w/in 30 min of sample2" entryset="Twin day 2" filename="build\dataset\bcd2t.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1098299150708" options="" />
+		<datafield name="Bedtime Sample Date" entryset="Twin day 2" filename="build\dataset\bcd2t.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1098906974927" options="0,MM/dd/yyyy" />
+		<datafield name="Bedtime Sample Time (military)" entryset="Twin day 2" filename="build\dataset\bcd2t.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1098299150709" options="0,HHmm" />
+		<datafield name="What doing w/in 30 min of sample3" entryset="Twin day 2" filename="build\dataset\bcd2t.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1098299150710" options="" />
+		<datafield name="Runny nose and/or cough" entryset="Twin day 2" filename="build\dataset\bcd2t.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="10982991714" options="" />
+		<datafield name="Feel warm or flushed" entryset="Twin day 2" filename="build\dataset\bcd2t.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1098299150715" options="" />
+		<datafield name="Cranky or irritable even when rested" entryset="Twin day 2" filename="build\dataset\bcd2t.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1098299150716" options="" />
+		<datafield name="Ear Infection" entryset="Twin day 2" filename="build\dataset\bcd2t.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1098299150717" options="" />
+		<datafield name="Feel aches and pains" entryset="Twin day 2" filename="build\dataset\bcd2t.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1098299150718" options="" />
+		<datafield name="Nausea or uneasy stomach" entryset="Twin day 2" filename="build\dataset\bcd2t.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1098299150719" options="" />
+		<datafield name="Waking Time (military)" entryset="Twin day 2" filename="build\dataset\bcd2t.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1098299150702" options="0,HHmm" />
+		<datafield name="Amount of Sleep (minutes)" entryset="Twin day 2" filename="build\dataset\bcd2t.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1098299150704" options="" />
+		<datafield name="Did you nap" entryset="Twin day 2" filename="build\dataset\bcd2t.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1098299150706" options="" />
+		<datafield name="How long was nap (minutes)" entryset="Twin day 2" filename="build\dataset\bcd2t.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1098299150707" options="" />
+		<datafield name="Have you taken antibiotics" entryset="Twin day 2" filename="build\dataset\bcd2t.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1098299150711" options="" />
+		<datafield name="Type" entryset="Twin day 2" filename="build\dataset\bcd2t.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1098299150712" options="" />
+		<datafield name="Number of Days" entryset="Twin day 2" filename="build\dataset\bcd2t.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1098299150713" options="" />
+		<datafield name="Have you taken any other medication" entryset="Twin day 2" filename="build\dataset\bcd2t.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1098299150720" options="" />
+		<datafield name="Name of Med(s)" entryset="Twin day 2" filename="build\dataset\bcd2t.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1098299150721" options="" />
+		<datafield name="Taken for" entryset="Twin day 2" filename="build\dataset\bcd2t.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1098299150722" options="" />
+		<datafield name="Amount" entryset="Twin day 2" filename="build\dataset\bcd2t.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1098299150723" options="" />
+	</componentset>
+	<componentset name="Day 3" abrv="d3" numcols="2" displayheader="true" header="Day 3">
+		<datafield name="Morning Sample Date" entryset="Twin day 3" filename="build\dataset\bcd3t.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1098299150730" options="0,MM/dd/yyyy" />
+		<datafield name="Morning Sample Time (military)" entryset="Twin day 3" filename="build\dataset\bcd3t.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1098299150731" options="0,HHmm" />
+		<datafield name="What doing w/in 30 min of sample1" entryset="Twin day 3" filename="build\dataset\bcd3t.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1098299150733" options="" />
+		<datafield name="Mid-Day Sample Date" entryset="Twin day 3" filename="build\dataset\bcd3t.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1098906974955" options="0,MM/dd/yyyy" />
+		<datafield name="Mid-Day Sample Time (military)" entryset="Twin day 3" filename="build\dataset\bcd3t.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1098299150735" options="0,HHmm" />
+		<datafield name="What doing w/in 30 min of sample2" entryset="Twin day 3" filename="build\dataset\bcd3t.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1098299150738" options="" />
+		<datafield name="Bedtime Sample Date" entryset="Twin day 3" filename="build\dataset\bcd3t.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1098906974956" options="0,MM/dd/yyyy" />
+		<datafield name="Bedtime Sample Time (military)" entryset="Twin day 3" filename="build\dataset\bcd3t.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1098299150739" options="0,HHmm" />
+		<datafield name="What doing w/in 30 min of sample3" entryset="Twin day 3" filename="build\dataset\bcd3t.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1098299150740" options="" />
+		<datafield name="Runny nose and/or cough" entryset="Twin day 3" filename="build\dataset\bcd3t.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="10982991744" options="" />
+		<datafield name="Feel warm or flushed" entryset="Twin day 3" filename="build\dataset\bcd3t.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1098299150745" options="" />
+		<datafield name="Cranky or irritable even when rested" entryset="Twin day 3" filename="build\dataset\bcd3t.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1098299150746" options="" />
+		<datafield name="Ear Infection" entryset="Twin day 3" filename="build\dataset\bcd3t.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1098299150747" options="" />
+		<datafield name="Feel aches and pains" entryset="Twin day 3" filename="build\dataset\bcd3t.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1098299150748" options="" />
+		<datafield name="Nausea or uneasy stomach" entryset="Twin day 3" filename="build\dataset\bcd3t.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1098299150749" options="" />
+		<datafield name="Waking Time (military)" entryset="Twin day 3" filename="build\dataset\bcd3t.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1098299150732" options="0,HHmm" />
+		<datafield name="Amount of Sleep (minutes)" entryset="Twin day 3" filename="build\dataset\bcd3t.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1098299150734" options="" />
+		<datafield name="Did you nap" entryset="Twin day 3" filename="build\dataset\bcd3t.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1098299150736" options="" />
+		<datafield name="How long was nap (minutes)" entryset="Twin day 3" filename="build\dataset\bcd3t.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1098299150737" options="" />
+		<datafield name="Have you taken antibiotics" entryset="Twin day 3" filename="build\dataset\bcd3t.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1098299150741" options="" />
+		<datafield name="Type" entryset="Twin day 3" filename="build\dataset\bcd3t.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1098299150742" options="" />
+		<datafield name="Number of Days" entryset="Twin day 3" filename="build\dataset\bcd3t.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1098299150743" options="" />
+		<datafield name="Have you taken any other medication" entryset="Twin day 3" filename="build\dataset\bcd3t.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1098299150750" options="" />
+		<datafield name="Name of Med(s)" entryset="Twin day 3" filename="build\dataset\bcd3t.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1098299150751" options="" />
+		<datafield name="Taken for" entryset="Twin day 3" filename="build\dataset\bcd3t.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1098299150752" options="" />
+		<datafield name="Amount" entryset="Twin day 3" filename="build\dataset\bcd3t.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1098299150753" options="" />
+		<datafield name="Special Flag" entryset="Twin day 3" filename="build\dataset\bcd3t.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1113422590952" options="" />
+		<datafield name="Special Flag Memo" entryset="Twin day 3" filename="build\dataset\bcd3t.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1113422590953" options="" />
+	</componentset>
+</form>
+

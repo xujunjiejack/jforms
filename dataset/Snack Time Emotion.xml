@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Snack Time Emotion" abrv="Snack Time Emotion" filename="Snack Time Emotion">
+	<template name="standard1">
+		<name format="" />
+		<field format="st@" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<validator name="val01_9980-9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="1">
+		<valid value="9999" />
+		<valid value="9998" />
+		<valid value="9997" />
+		<valid value="9996" />
+		<valid value="9995" />
+		<valid value="9994" />
+		<valid value="9993" />
+		<valid value="9992" />
+		<valid value="9991" />
+		<valid value="9990" />
+		<valid value="9989" />
+		<valid value="9988" />
+		<valid value="9987" />
+		<valid value="9986" />
+		<valid value="9985" />
+		<valid value="9984" />
+		<valid value="9983" />
+		<valid value="9982" />
+		<valid value="9981" />
+		<valid value="9980" />
+	</validator>
+	<validator name="val02_9980-9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="2">
+		<valid value="9999" />
+		<valid value="9998" />
+		<valid value="9997" />
+		<valid value="9996" />
+		<valid value="9995" />
+		<valid value="9994" />
+		<valid value="9993" />
+		<valid value="9992" />
+		<valid value="9991" />
+		<valid value="9990" />
+		<valid value="9989" />
+		<valid value="9988" />
+		<valid value="9987" />
+		<valid value="9986" />
+		<valid value="9985" />
+		<valid value="9984" />
+		<valid value="9983" />
+		<valid value="9982" />
+		<valid value="9981" />
+		<valid value="9980" />
+	</validator>
+	<validator name="val04_9980-9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="4">
+		<valid value="9999" />
+		<valid value="9998" />
+		<valid value="9997" />
+		<valid value="9996" />
+		<valid value="9995" />
+		<valid value="9994" />
+		<valid value="9993" />
+		<valid value="9992" />
+		<valid value="9991" />
+		<valid value="9990" />
+		<valid value="9989" />
+		<valid value="9988" />
+		<valid value="9987" />
+		<valid value="9986" />
+		<valid value="9985" />
+		<valid value="9984" />
+		<valid value="9983" />
+		<valid value="9982" />
+		<valid value="9981" />
+		<valid value="9980" />
+	</validator>
+	<validator name="val15_9980-9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="5">
+		<valid value="9999" />
+		<valid value="9998" />
+		<valid value="9997" />
+		<valid value="9996" />
+		<valid value="9995" />
+		<valid value="9994" />
+		<valid value="9993" />
+		<valid value="9992" />
+		<valid value="9991" />
+		<valid value="9990" />
+		<valid value="9989" />
+		<valid value="9988" />
+		<valid value="9987" />
+		<valid value="9986" />
+		<valid value="9985" />
+		<valid value="9984" />
+		<valid value="9983" />
+		<valid value="9982" />
+		<valid value="9981" />
+		<valid value="9980" />
+	</validator>
+	<validator name="val115_9980-9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="15">
+		<valid value="9999" />
+		<valid value="9998" />
+		<valid value="9997" />
+		<valid value="9996" />
+		<valid value="9995" />
+		<valid value="9994" />
+		<valid value="9993" />
+		<valid value="9992" />
+		<valid value="9991" />
+		<valid value="9990" />
+		<valid value="9989" />
+		<valid value="9988" />
+		<valid value="9987" />
+		<valid value="9986" />
+		<valid value="9985" />
+		<valid value="9984" />
+		<valid value="9983" />
+		<valid value="9982" />
+		<valid value="9981" />
+		<valid value="9980" />
+	</validator>
+	<validator name="val01_9998" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="1">
+		<valid value="9998" />
+	</validator>
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<key name="Twin" field="twin" template="na" validator="INTEGER" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<data name="Scorer" field="sc" template="standard1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990742" />
+	<data name="Child Tester" field="ct" template="standard1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.ComboFieldBox" classid="1288982990743" />
+	<data name="Episode Order" field="ord" template="standard1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990744" />
+	<data name="Baseline" field="bl" template="standard1" validator="val15_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990745" />
+	<data name="Number of Instructions" field="ni" template="standard1" validator="val115_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990746" />
+	<data name="Fiia Inst. 1st" field="1fiia" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990755" />
+	<data name="Fiia Choose 1st" field="2fiia" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990756" />
+	<data name="Fiia Bell 1st" field="3fiia" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990757" />
+	<data name="Fiia Inst. Last" field="l1fiia" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990758" />
+	<data name="Fiia Choose Last" field="l2fiia" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990759" />
+	<data name="Fiia Bell Last" field="l3fiia" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990760" />
+	<data name="Fiia Verify" field="10fiia" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990761" />
+	<data name="Fiia Waiting" field="11fiia" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990762" />
+	<data name="Fiia Share" field="12fiia" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990763" />
+	<data name="Fiia Finish" field="13fiia" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990764" />
+	<data name="Sad Inst. 1st" field="1sd" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990765" />
+	<data name="Sad Choose 1st" field="2sd" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990766" />
+	<data name="Sad Bell 1st" field="3sd" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990767" />
+	<data name="Sad Inst. Last" field="l1sd" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990768" />
+	<data name="Sad Choose Last" field="l2sd" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990769" />
+	<data name="Sad Bell Last" field="l3sd" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990770" />
+	<data name="Sad Verify" field="10sd" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990771" />
+	<data name="Sad Waiting" field="11sd" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990772" />
+	<data name="Sad Share" field="12sd" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990773" />
+	<data name="Sad Finish" field="13sd" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990774" />
+	<data name="Neutral Inst. 1st" field="1neu" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990775" />
+	<data name="Neutral Choose 1st" field="2neu" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990776" />
+	<data name="Neutral Bell 1st" field="3neu" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990777" />
+	<data name="Neutral Inst. Last" field="l1neu" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990778" />
+	<data name="Neutral Choose Last" field="l2neu" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990779" />
+	<data name="Neutral Bell Last" field="l3neu" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990780" />
+	<data name="Neutral Verify" field="10neu" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990781" />
+	<data name="Neutral Waiting" field="11neu" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990782" />
+	<data name="Neutral Share" field="12neu" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990783" />
+	<data name="Neutral Finish" field="13neu" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990784" />
+	<data name="Content Inst. 1st" field="1con" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990825" />
+	<data name="Content Choose 1st" field="2con" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990826" />
+	<data name="Content Bell 1st" field="3con" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990827" />
+	<data name="Content Inst. Last" field="l1con" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990828" />
+	<data name="Content Choose Last" field="l2con" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990829" />
+	<data name="Content Bell Last" field="l3con" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990830" />
+	<data name="Content Verify" field="10con" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990831" />
+	<data name="Content Waiting" field="11con" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990832" />
+	<data name="Content Share" field="12con" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990833" />
+	<data name="Content Finish" field="13con" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990834" />
+	<data name="Enthusiastic Inst. 1st" field="1ee" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990835" />
+	<data name="Enthusiastic Choose 1st" field="2ee" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990836" />
+	<data name="Enthusiastic Bell 1st" field="3ee" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990837" />
+	<data name="Enthusiastic Inst. Last" field="l1ee" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990838" />
+	<data name="Enthusiastic Choose Last" field="l2ee" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990839" />
+	<data name="Enthusiastic Bell Last" field="l3ee" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990840" />
+	<data name="Enthusiastic Verify" field="10ee" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990841" />
+	<data name="Enthusiastic Waiting" field="11ee" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990842" />
+	<data name="Enthusiastic Share" field="12ee" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990843" />
+	<data name="Enthusiastic Finish" field="13ee" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990844" />
+	<data name="Equal. Of Shar." field="esg" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990845" />
+	<data name="Who Split Snack" field="wssg" template="standard1" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990846" />
+	<data name="Concerns For Equal." field="cesg" template="standard1" validator="val01_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990847" />
+	<data name="Dominance/Control" field="dcg" template="standard1" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990848" />
+	<data name="Dur. and Int. of Pos. Emo." field="dipeg" template="standard1" validator="val04_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990849" />
+	<data name="Dur. and Int. of Neg. Emo." field="dineg" template="standard1" validator="val04_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990850" />
+	<data name="Interaction with Exper." field="ieg" template="standard1" validator="val02_9980-9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990851" />
+	<data name="Special Flag" field="sf" template="standard1" validator="val01_9998" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1288982990852" />
+	<data name="Special Flag Explanation" field="sfexp" template="standard1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1288982990853" />
+	<dependency field="Special Flag Explanation">
+		<parent field="Special Flag" lowerbound="0" upperbound="1">
+			<enable value="1" />
+		</parent>
+	</dependency>
+</dataset>
+

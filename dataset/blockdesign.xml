@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Block Design" abrv="blockdesign" filename="blockdesign">
+	<template name="temp1">
+		<name format="" />
+		<field format="bl@" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<validator name="val0_47_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="4" upperbound="7">
+		<valid value="0" />
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="val069_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="69">
+		<valid value="9998" />
+		<valid value="9999" />
+	</validator>
+	<validator name="yesno01_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="1">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="val02_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="2">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<key name="Twin" field="twin" template="na" validator="INTEGER" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<data name="Complete Time 1 (seconds)" field="01tim" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054574110157" />
+	<data name="Complete Time 2 (seconds)" field="02tim" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054574110158" />
+	<data name="Complete Time 3 (seconds)" field="03tim" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054574110159" />
+	<data name="Complete Time 4 (seconds)" field="04tim" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054574110160" />
+	<data name="Complete Time 5 (seconds)" field="05tim" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054574110161" />
+	<data name="Complete Time 6 (seconds)" field="06tim" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054574110162" />
+	<data name="Complete Time 7 (seconds)" field="07tim" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054574110163" />
+	<data name="Complete Time 8 (seconds)" field="08tim" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054574110164" />
+	<data name="Complete Time 9 (seconds)" field="09tim" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054574110165" />
+	<data name="Complete Time 10 (seconds)" field="10tim" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054574110166" />
+	<data name="Complete Time 11 (seconds)" field="11tim" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054574110167" />
+	<data name="Complete Time 12 (seconds)" field="12tim" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054574110168" />
+	<data name="Correct Design 1" field="01cor" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054574110196" />
+	<data name="Correct Design 2" field="02cor" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054574110197" />
+	<data name="Correct Design 3" field="03cor" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054574110198" />
+	<data name="Correct Design 4" field="04cor" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054574110199" />
+	<data name="Correct Design 5" field="05cor" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054574110200" />
+	<data name="Correct Design 6" field="06cor" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054574110201" />
+	<data name="Correct Design 7" field="07cor" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054574110202" />
+	<data name="Correct Design 8" field="08cor" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054574110203" />
+	<data name="Correct Design 9" field="09cor" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054574110204" />
+	<data name="Correct Design 10" field="10cor" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054574110205" />
+	<data name="Correct Design 11" field="11cor" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054574110206" />
+	<data name="Correct Design 12" field="12cor" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054574110207" />
+	<data name="Points 1" field="01pts" template="temp1" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054574110247" />
+	<data name="Points 2" field="02pts" template="temp1" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054574110248" />
+	<data name="Points 3" field="03pts" template="temp1" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054574110249" />
+	<data name="Points 4" field="04pts" template="temp1" validator="val0_47_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054574110250" />
+	<data name="Points 5" field="05pts" template="temp1" validator="val0_47_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054574110251" />
+	<data name="Points 6" field="06pts" template="temp1" validator="val0_47_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054574110252" />
+	<data name="Points 7" field="07pts" template="temp1" validator="val0_47_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054574110253" />
+	<data name="Points 8" field="08pts" template="temp1" validator="val0_47_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054574110254" />
+	<data name="Points 9" field="09pts" template="temp1" validator="val0_47_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054574110255" />
+	<data name="Points 10" field="10pts" template="temp1" validator="val0_47_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054574110256" />
+	<data name="Points 11" field="11pts" template="temp1" validator="val0_47_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054574110257" />
+	<data name="Points 12" field="12pts" template="temp1" validator="val0_47_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054574110258" />
+	<data name="Examiner" field="e" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.ComboFieldBox" classid="1054574110259" />
+	<data name="Total" field="total" template="temp1" validator="val069_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1054574112340" />
+</dataset>
+

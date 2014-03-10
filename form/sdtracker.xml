@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Tracker" abrv="sdtracker" filename="sdtracker">
+	<schema file="sdtr" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_SD_TR" />
+	<schema file="sddates" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_SD_DATES" />
+	<schema file="sdcntrl" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_SD_TB_M" />
+	<key name="Family Id" entryset="Sensory Defensiveness Tracker" filename="sdtr" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,DATA_SD_TB_M,familyid" />
+	<key name="Twin" entryset="SD Control" filename="sdcntrl" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Twin,A:1,B:2" />
+	<key name="Data Mode" entryset="SD Control" filename="sdcntrl" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="Tracker" abrv="tr" numcols="2" displayheader="true" header="Tracker">
+		<datafield name="Primary Caregiver" entryset="Sensory Defensiveness Tracker" filename="build\schema\sdtr.xml" type="1" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1097274484655" options="" />
+		<datafield name="Twin A time one type" entryset="Sensory Defensiveness Tracker" filename="build\schema\sdtr.xml" type="1" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1097274484656" options="" />
+		<datafield name="Twin B time one type" entryset="Sensory Defensiveness Tracker" filename="build\schema\sdtr.xml" type="1" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1097274484657" options="" />
+		<datafield name="Phone Interview" entryset="Sensory Defensiveness Dates" filename="build\schema\sddates.xml" type="1" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1068170448498" options="0,MM/dd/yyyy" />
+		<datafield name="Twin A screener type" entryset="Sensory Defensiveness Tracker" filename="build\schema\sdtr.xml" type="1" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1097274484658" options="" />
+		<datafield name="Twin B screener type" entryset="Sensory Defensiveness Tracker" filename="build\schema\sdtr.xml" type="1" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1097274484659" options="" />
+		<datafield name="Screener payment sent" entryset="Sensory Defensiveness Tracker" filename="build\schema\sdtr.xml" type="1" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1097274484660" options="0,MM/dd/yyyy" />
+		<datafield name="Screener payment received" entryset="Sensory Defensiveness Tracker" filename="build\schema\sdtr.xml" type="1" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1097274484661" options="0,MM/dd/yyyy" />
+		<datafield name="Screener comments" entryset="Sensory Defensiveness Tracker" filename="build\schema\sdtr.xml" type="1" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1097274484662" options="" />
+		<datafield name="Twin A remain same type" entryset="Sensory Defensiveness Tracker" filename="build\schema\sdtr.xml" type="1" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1097274484663" options="" />
+		<datafield name="Twin B remain same type" entryset="Sensory Defensiveness Tracker" filename="build\schema\sdtr.xml" type="1" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1097274484664" options="" />
+		<datafield name="Type comments" entryset="Sensory Defensiveness Tracker" filename="build\schema\sdtr.xml" type="1" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1097274484665" options="" />
+		<datafield name="HBQ Completed" entryset="Sensory Defensiveness Dates" filename="build\schema\sddates.xml" type="1" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1078513691327" options="0,MM/dd/yyyy" />
+		<datafield name="MPQ Completed" entryset="Sensory Defensiveness Dates" filename="build\schema\sddates.xml" type="1" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1078513691328" options="0,MM/dd/yyyy" />
+		<datafield name="Visit Date" entryset="Sensory Defensiveness Dates" filename="build\schema\sddates.xml" type="1" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1097274484682" options="0,MM/dd/yyyy" />
+		<datafield name="Twin A matched Id#" entryset="Sensory Defensiveness Tracker" filename="build\schema\sdtr.xml" type="1" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1097274484666" options="" />
+		<datafield name="Twin B matched Id#" entryset="Sensory Defensiveness Tracker" filename="build\schema\sdtr.xml" type="1" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1097274484667" options="" />
+		<datafield name="Matched Id Comments" entryset="Sensory Defensiveness Tracker" filename="build\schema\sdtr.xml" type="1" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1097274484668" options="" />
+		<datafield name="Visit Payment" entryset="Sensory Defensiveness Tracker" filename="build\schema\sdtr.xml" type="1" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1097274484669" options="0,MM/dd/yyyy" />
+		<datafield name="SDS done" entryset="Sensory Defensiveness Tracker" filename="build\schema\sdtr.xml" type="1" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1097274484670" options="" />
+		<datafield name="SDS comments" entryset="Sensory Defensiveness Tracker" filename="build\schema\sdtr.xml" type="1" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1097274484671" options="" />
+		<datafield name="SD Control" entryset="SD Control" filename="build\schema\sdcntrl.xml" type="1" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="false" classid="1098905678955" options="" />
+	</componentset>
+</form>
+

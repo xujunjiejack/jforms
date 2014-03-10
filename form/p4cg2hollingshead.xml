@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="CG2 Hollingshead" abrv="p4cg2hollingshead" filename="p4cg2hollingshead">
+	<dataset file="hollingsheadf" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_HC_F" />
+	<key name="Family Id" entryset="Hollingshead Father" filename="hollingsheadf" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Data Mode" entryset="Hollingshead Father" filename="hollingsheadf" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="Hollingshead" abrv="hg" numcols="2" displayheader="true" header="Hollingshead">
+		<datafield name="PC Edu." entryset="Hollingshead Father" filename="build\dataset\hollingsheadf.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048724092420" options="" />
+		<datafield name="SC Edu" entryset="Hollingshead Father" filename="build\dataset\hollingsheadf.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048724092421" options="" />
+		<datafield name="PC Occupation Include" entryset="Hollingshead Father" filename="build\dataset\hollingsheadf.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048724092422" options="" />
+		<datafield name="PC Occupation" entryset="Hollingshead Father" filename="build\dataset\hollingsheadf.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048724092423" options="" />
+		<datafield name="SC Occupation Include" entryset="Hollingshead Father" filename="build\dataset\hollingsheadf.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048724092424" options="" />
+		<datafield name="SC Occupation" entryset="Hollingshead Father" filename="build\dataset\hollingsheadf.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048724092425" options="" />
+	</componentset>
+</form>
+

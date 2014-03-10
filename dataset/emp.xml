@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="Empathy" abrv="emp" filename="emp">
+	<template name="temp">
+		<name format="" />
+		<field format="em@" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<validator name="val13_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="3">
+		<valid value="9998" />
+		<valid value="9999" />
+	</validator>
+	<validator name="val12_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="2">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="yesno01_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="1">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="blankformat" type="VARCHAR" defaultvalue="9998" allowblanks="true" lowerbound="2147483647" upperbound="2147483647">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="val17_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="7">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="val14_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="4">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="val1_4_Double" type="DOUBLE" defaultvalue="9998" allowblanks="false" lowerbound="1.0" upperbound="4.0">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<key name="Twin" field="twin" template="na" validator="INTEGER" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<data name="Visit Date" field="dvisit" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1162584024104" />
+	<data name="Scorer" field="scorer" template="na" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1162584024105" />
+	<data name="Episode" field="episode" template="na" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1162584024106" />
+	<data name="Date Scored" field="dscore" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1162584024107" />
+	<data name="Experimenter Name" field="staffid" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.ComboFieldBox" classid="1162584024108" />
+	<data name="Baseline" field="bas" template="temp" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1162584024109" />
+	<data name="Post - empathy affect" field="post" template="temp" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1162584024110" />
+	<data name="Credibility" field="cred" template="temp" validator="val13_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1162584024111" />
+	<data name="Time Begin 1" field="tb1" template="temp" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1162584024113" />
+	<data name="Time End 1" field="te1" template="temp" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1162584024114" />
+	<data name="Hypothesis Testing 1" field="ht1" template="temp" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1162584024115" />
+	<data name="Hypothesis Statements 1" field="hts1" template="temp" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1162584024116" />
+	<data name="Verbal/Physical Prosocial Acts 1" field="vp1" template="temp" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1162584024117" />
+	<data name="Verbal/Physical Statements 1" field="vps1" template="temp" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1162584024118" />
+	<data name="Positive Valence Empathy 1" field="pve1" template="temp" validator="val1_4_Double" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1162584024119" />
+	<data name="Empathic Concern 1" field="ec1" template="temp" validator="val1_4_Double" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1162584024120" />
+	<data name="Fear/Anxiety 1" field="fa1" template="temp" validator="val1_4_Double" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1162584024121" />
+	<data name="Sadness 1" field="sa1" template="temp" validator="val1_4_Double" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1162584024122" />
+	<data name="Antipathy 1" field="ant1" template="temp" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1162584024123" />
+	<data name="Antipathy Statements 1" field="ants1" template="temp" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1162584024124" />
+	<data name="Inappropriate Positive Affect 1" field="ipa1" template="temp" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1162584024125" />
+	<data name="Present 1" field="pr1" template="temp" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1162584024126" />
+	<data name="Type 1" field="ty1" template="temp" validator="val12_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1162584024127" />
+	<data name="Y code 1" field="yc1" template="temp" validator="val14_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1162584024128" />
+	<data name="Global Empathy 1" field="ge1" template="temp" validator="val17_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1162584024129" />
+	<data name="Time Begin 2" field="tb2" template="temp" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="2262584024993" />
+	<data name="Time End 2" field="te2" template="temp" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="2262584024994" />
+	<data name="Hypothesis Testing 2" field="ht2" template="temp" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2262584024995" />
+	<data name="Hypothesis Statements 2" field="hts2" template="temp" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="2262584024996" />
+	<data name="Verbal/Physical Prosocial Acts 2" field="vp2" template="temp" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2262584024997" />
+	<data name="Verbal/Physical Statements 2" field="vps2" template="temp" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="2262584024998" />
+	<data name="Positive Valence Empathy 2" field="pve2" template="temp" validator="val1_4_Double" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2262584024999" />
+	<data name="Empathic Concern 2" field="ec2" template="temp" validator="val1_4_Double" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2262584024220" />
+	<data name="Fear/Anxiety 2" field="fa2" template="temp" validator="val1_4_Double" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2262584024992" />
+	<data name="Sadness 2" field="sa2" template="temp" validator="val1_4_Double" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2262584024222" />
+	<data name="Antipathy 2" field="ant2" template="temp" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2262584024223" />
+	<data name="Antipathy Statements 2" field="ants2" template="temp" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="2262584024224" />
+	<data name="Inappropriate Positive Affect 2" field="ipa2" template="temp" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2262584024225" />
+	<data name="Present 2" field="pr2" template="temp" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2262584024226" />
+	<data name="Type 2" field="ty2" template="temp" validator="val12_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2262584024227" />
+	<data name="Y code 2" field="yc2" template="temp" validator="val14_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2262584024228" />
+	<data name="Global Empathy 2" field="ge2" template="temp" validator="val17_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2262584024229" />
+	<data name="Time Begin 3" field="tb3" template="temp" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="3362584024333" />
+	<data name="Time End 3" field="te3" template="temp" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="3362584024334" />
+	<data name="Hypothesis Testing 3" field="ht3" template="temp" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="3362584024335" />
+	<data name="Hypothesis Statements 3" field="hts3" template="temp" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="3362584024336" />
+	<data name="Verbal/Physical Prosocial Acts 3" field="vp3" template="temp" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="3362584024337" />
+	<data name="Verbal/Physical Statements 3" field="vps3" template="temp" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="3362584024338" />
+	<data name="Positive Valence Empathy 3" field="pve3" template="temp" validator="val1_4_Double" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="3362584024339" />
+	<data name="Empathic Concern 3" field="ec3" template="temp" validator="val1_4_Double" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="3362584024320" />
+	<data name="Fear/Anxiety 3" field="fa3" template="temp" validator="val1_4_Double" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="3362584024993" />
+	<data name="Sadness 3" field="sa3" template="temp" validator="val1_4_Double" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="3362584024322" />
+	<data name="Antipathy 3" field="ant3" template="temp" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="3362584024323" />
+	<data name="Antipathy Statements 3" field="ants3" template="temp" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="3362584024324" />
+	<data name="Inappropriate Positive Affect 3" field="ipa3" template="temp" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="3362584024325" />
+	<data name="Present 3" field="pr3" template="temp" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="3362584024326" />
+	<data name="Type 3" field="ty3" template="temp" validator="val12_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="3362584024327" />
+	<data name="Y code 3" field="yc3" template="temp" validator="val14_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="3362584024328" />
+	<data name="Global Empathy 3" field="ge3" template="temp" validator="val17_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="3362584024329" />
+	<data name="Special Flag" field="sf" template="temp" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1162585809529" />
+	<data name="Special Flag Explain" field="sfexp" template="temp" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1162585809530" />
+	<data name="Interest / Attention 1" field="ia1" template="temp" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1164918454602" />
+	<data name="Interest / Attention 2" field="ia2" template="temp" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1164918454603" />
+	<data name="Interest / Attention 3" field="ia3" template="temp" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1164918454604" />
+	<dependency field="Type 1">
+		<parent field="Present 1" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Y code 1">
+		<parent field="Present 1" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Type 2">
+		<parent field="Present 2" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Y code 2">
+		<parent field="Present 2" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Type 3">
+		<parent field="Present 3" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Y code 3">
+		<parent field="Present 3" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+</dataset>
+

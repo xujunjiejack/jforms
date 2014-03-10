@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="bamo" abrv="autbamo" filename="autbamo">
+	<template name="temp">
+		<name format="" />
+		<field format="bamo@" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<validator name="autsim_val04_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="4">
+		<valid value="9999" />
+		<valid value="9998" />
+		<valid value="8" />
+	</validator>
+	<key name="Participant Number" field="partno" template="na" validator="INTEGER" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<data name="54" field="054" template="temp" validator="autsim_val04_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1127754546391" />
+	<data name="55" field="055" template="temp" validator="autsim_val04_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1127754546392" />
+	<data name="56" field="056" template="temp" validator="autsim_val04_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1127754546393" />
+	<data name="57" field="057" template="temp" validator="autsim_val04_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1127754546394" />
+	<data name="58" field="058" template="temp" validator="autsim_val04_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1127754546395" />
+	<data name="59" field="059" template="temp" validator="autsim_val04_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1127754546396" />
+	<data name="60" field="060" template="temp" validator="autsim_val04_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1127754546397" />
+	<data name="61" field="061" template="temp" validator="autsim_val04_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1127754546398" />
+	<data name="62" field="062" template="temp" validator="autsim_val04_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1127754546399" />
+	<data name="63" field="063" template="temp" validator="autsim_val04_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1127754546400" />
+	<data name="64" field="064" template="temp" validator="autsim_val04_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1127754546401" />
+	<data name="65" field="065" template="temp" validator="autsim_val04_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1127754546402" />
+	<data name="66" field="066" template="temp" validator="autsim_val04_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1127754546403" />
+	<data name="67" field="067" template="temp" validator="autsim_val04_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1127754546404" />
+	<data name="68" field="068" template="temp" validator="autsim_val04_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1127754546405" />
+	<data name="69" field="069" template="temp" validator="autsim_val04_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1127754546406" />
+	<data name="70" field="070" template="temp" validator="autsim_val04_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1127754546407" />
+	<data name="71" field="071" template="temp" validator="autsim_val04_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1127754546408" />
+	<data name="72" field="072" template="temp" validator="autsim_val04_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1127754546409" />
+	<data name="73" field="073" template="temp" validator="autsim_val04_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1127754546410" />
+	<data name="74" field="074" template="temp" validator="autsim_val04_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1127754546411" />
+	<data name="75" field="075" template="temp" validator="autsim_val04_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1127754546412" />
+	<data name="76" field="076" template="temp" validator="autsim_val04_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1127754546413" />
+</dataset>
+

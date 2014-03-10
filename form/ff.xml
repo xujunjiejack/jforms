@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Fake" abrv="ff" filename="ff">
+	<dataset file="ff" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="aaatable" />
+	<componentset name="fake" abrv="ff" numcols="2" displayheader="true" header="fake">
+		<datafield name="Date" entryset="Fake" filename="build\dataset\ff.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1280760492930" options="0,##/##/####" />
+	</componentset>
+</form>
+

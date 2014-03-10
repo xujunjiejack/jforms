@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset name="empathy_training" abrv="emp_training" filename="emp_training">
+	<template name="ems1">
+		<name format="" />
+		<field format="em@s1" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<template name="ems2">
+		<name format="" />
+		<field format="em@s2" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<template name="em">
+		<name format="" />
+		<field format="em@" />
+		<subsetname format="" />
+		<subsetfield format="" />
+	</template>
+	<validator name="val13_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="3">
+		<valid value="9998" />
+		<valid value="9999" />
+	</validator>
+	<validator name="blankformat" type="VARCHAR" defaultvalue="9998" allowblanks="true" lowerbound="2147483647" upperbound="2147483647">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="yesno01_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="1">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="val17_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="7">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<validator name="val14_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="4">
+		<valid value="9999" />
+		<valid value="9998" />
+	</validator>
+	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
+	<key name="Twin" field="twin" template="na" validator="INTEGER" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+	<data name="Visit date" field="visdate" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1167837074744" />
+	<data name="Scorer" field="scorer" template="na" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1167837074745" />
+	<data name="Date scored" field="datescor" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1167837074746" />
+	<data name="Episode" field="episode" template="na" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1167837074747" />
+	<data name="Exp name" field="expname" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.ComboFieldBox" classid="1167837074748" />
+	<data name="Baseline" field="baseln" template="em" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1167837074749" />
+	<data name="Post empathy" field="pea" template="em" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1167837074750" />
+	<data name="Credibility" field="cred" template="em" validator="val13_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1167837074751" />
+	<data name="Time begin: SIM1" field="tibes1" template="em" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1167837074752" />
+	<data name="Time end: SIM1" field="tiens1" template="em" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1167837074753" />
+	<data name="Intrest/Attention: SIM1" field="ht" template="ems1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1167837074754" />
+	<data name="Hypothesis Testing: SIM1" field="ht" template="ems1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1167837074755" />
+	<data name="Hypothesis Testing statements: SIM1" field="htst" template="ems1" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1167837074756" />
+	<data name="Verbal/Physical Prosocial Acts: SIM1" field="vpp" template="ems1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1167837074757" />
+	<data name="Verbal/Physical statements: SIM1" field="vpps" template="ems1" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1167837074758" />
+	<data name="Positive Valence: SIM1" field="pve" template="ems1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1167837074759" />
+	<data name="Empathic Concern: SIM1" field="ec" template="ems1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1167837074760" />
+	<data name="Fear/Anxiety: SIM2" field="fa" template="ems2" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1167837074778" />
+	<data name="Fear/Anxiety: SIM1" field="fa" template="ems1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1167837074761" />
+	<data name="Sadness: SIM1" field="sad" template="ems1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1167837074762" />
+	<data name="Anitpathy: SIM1" field="ant" template="ems1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1167837074763" />
+	<data name="Antipathy statements: SIM1" field="ants" template="ems1" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1167837074764" />
+	<data name="Imappropriate Positive: SIM1" field="ipa" template="ems1" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1167837074765" />
+	<data name="Self-Referencing/Imitation present: SIM1" field="pre" template="ems1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1167837074766" />
+	<data name="Self-Referencing/Imitation type: SIM1" field="typ" template="ems1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1167837074767" />
+	<data name="Self-Referencing Y code: SIM1" field="prey" template="ems1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1167837074768" />
+	<data name="Time begin: SIM2" field="tibe" template="ems2" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1167837074769" />
+	<data name="Time end: SIM2" field="tien" template="ems2" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1167837074770" />
+	<data name="Intrest/Attention: SIM2" field="inat" template="ems2" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1167837074771" />
+	<data name="Hypothesis testing: SIM2" field="ht" template="ems2" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1167837074772" />
+	<data name="Hypothesis testing statements: SIM2" field="htst" template="ems2" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1167837074773" />
+	<data name="Verbal/Physical Prosocial acts: SIM2" field="vpp" template="ems2" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1167837074774" />
+	<data name="Verbal/Physical statements: SIM2" field="vpps" template="ems2" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1167837074775" />
+	<data name="Postitive Valence: SIM2" field="pve" template="ems2" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1167837074776" />
+	<data name="Empathic concern: SIM2" field="ec" template="ems2" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1167837074777" />
+	<data name="Sadness: SIM2" field="sad" template="ems2" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1167837074779" />
+	<data name="Antipathy: SIM2" field="ant" template="ems2" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1167837074780" />
+	<data name="Antipathy statements: SIM2" field="ants" template="ems2" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1167837074781" />
+	<data name="Inappropriate Positive: SIM2" field="ipa" template="ems2" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1167837074782" />
+	<data name="Self-Referencing/Imitation present: SIM2" field="pre" template="ems2" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1167837074783" />
+	<data name="Self-Referencing/Imitation type: SIM2" field="typ" template="ems2" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1167837074784" />
+	<data name="Self-Referencing Y code: SIM2" field="prey" template="ems2" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1167837074785" />
+	<data name="Global Empathy" field="ges12" template="em" validator="val17_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1167837074786" />
+	<dependency field="Self-Referencing Y code: SIM1">
+		<parent field="Self-Referencing/Imitation present: SIM1" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Self-Referencing Y code: SIM2">
+		<parent field="Self-Referencing/Imitation present: SIM2" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+</dataset>
+

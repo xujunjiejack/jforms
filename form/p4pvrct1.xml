@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Child Tester 1" abrv="p4pvrct1" filename="p4pvrct1">
+	<template name="temp1">
+		<name format="" />
+		<field format="@e1" />
+	</template>
+	<dataset file="pvrcttrackere1" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_TR" />
+	<dataset file="pvrctia" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_IA_E1" />
+	<dataset file="pvrctbr" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_BR_E1" />
+	<dataset file="pvrctti" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_IO_E1" />
+	<dataset file="pvrctdi" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_IO_E1" />
+	<dataset file="pvrctpb" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_BP_E1" />
+	<dataset file="pvrctzy" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_ZY_E1" />
+	<key name="Family Id" entryset="Post Visit Ratings: Child Tester E1" filename="pvrcttrackere1" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Twin" entryset="Initial Approach" filename="pvrctia" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Twin,A:1,B:2" />
+	<key name="Data Mode" entryset="Initial Approach" filename="pvrctia" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="Observer Ratings" abrv="observerratings" numcols="2" displayheader="true" header="Observer Ratings">
+		<datafield name="Anyone Else Present" entryset="Post Visit Ratings: Child Tester E1" filename="build\dataset\pvrcttrackere1.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1123784008789" options="" />
+		<datafield name="Who was present" entryset="Post Visit Ratings: Child Tester E1" filename="build\dataset\pvrcttrackere1.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1123784008790" options="" />
+		<datafield name="During which part of the assessment" entryset="Post Visit Ratings: Child Tester E1" filename="build\dataset\pvrcttrackere1.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1123784008791" options="" />
+		<datafield name="Scale 1" entryset="Initial Approach" filename="build\dataset\pvrctia.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051131347654" options="" />
+		<datafield name="Scale 2" entryset="Initial Approach" filename="build\dataset\pvrctia.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051131347655" options="" />
+		<datafield name="Comments" entryset="Initial Approach" filename="build\dataset\pvrctia.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1051218502489" options="" />
+	</componentset>
+	<componentset name="Bayley Rating Scales" abrv="bayleyratingscales" numcols="2" displayheader="true" header="Bayley Rating Scales">
+		<datafield name="Overall Positive Affect" entryset="Bayley Rating Scales" filename="build\dataset\pvrctbr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051136746159" options="" />
+		<datafield name="Overall Negative Affect" entryset="Bayley Rating Scales" filename="build\dataset\pvrctbr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051136746160" options="" />
+		<datafield name="Energy" entryset="Bayley Rating Scales" filename="build\dataset\pvrctbr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051136746161" options="" />
+		<datafield name="Adaptation To Change In Test Materials" entryset="Bayley Rating Scales" filename="build\dataset\pvrctbr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051136746162" options="" />
+		<datafield name="Interest In Test Materials And Stimuli" entryset="Bayley Rating Scales" filename="build\dataset\pvrctbr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051136746163" options="" />
+		<datafield name="Initiative With Tasks" entryset="Bayley Rating Scales" filename="build\dataset\pvrctbr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051136746164" options="" />
+		<datafield name="Exploration Of Objects" entryset="Bayley Rating Scales" filename="build\dataset\pvrctbr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051136746165" options="" />
+		<datafield name="Attention To Tasks" entryset="Bayley Rating Scales" filename="build\dataset\pvrctbr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051136746166" options="" />
+		<datafield name="Persistance In Attempting To Complete Tasks" entryset="Bayley Rating Scales" filename="build\dataset\pvrctbr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051136746167" options="" />
+		<datafield name="Enthusiasm toward Tasks" entryset="Bayley Rating Scales" filename="build\dataset\pvrctbr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051136746168" options="" />
+		<datafield name="Fear" entryset="Bayley Rating Scales" filename="build\dataset\pvrctbr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051136746169" options="" />
+		<datafield name="Frustration With Inability To Complete Tasks" entryset="Bayley Rating Scales" filename="build\dataset\pvrctbr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051136746170" options="" />
+		<datafield name="Social Engagement With Child Tester Or Other Visitor" entryset="Bayley Rating Scales" filename="build\dataset\pvrctbr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051136746171" options="" />
+		<datafield name="Social Engagement With Primary Caregiver" entryset="Bayley Rating Scales" filename="build\dataset\pvrctbr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051136746172" options="" />
+		<datafield name="Cooperation With Child Tester" entryset="Bayley Rating Scales" filename="build\dataset\pvrctbr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051136746173" options="" />
+		<datafield name="Cooperation With Primary Caregiver" entryset="Bayley Rating Scales" filename="build\dataset\pvrctbr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051136746174" options="" />
+		<datafield name="Frenetic Movement" entryset="Bayley Rating Scales" filename="build\dataset\pvrctbr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051136746175" options="" />
+		<datafield name="Hyperactivity" entryset="Bayley Rating Scales" filename="build\dataset\pvrctbr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051136746176" options="" />
+		<datafield name="Shyness" entryset="Bayley Rating Scales" filename="build\dataset\pvrctbr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051136746177" options="" />
+		<datafield name="Prone To Anger Irritability" entryset="Bayley Rating Scales" filename="build\dataset\pvrctbr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051136746178" options="" />
+		<datafield name="Prone To Sadness" entryset="Bayley Rating Scales" filename="build\dataset\pvrctbr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051136746179" options="" />
+		<datafield name="Contentment" entryset="Bayley Rating Scales" filename="build\dataset\pvrctbr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051136746180" options="" />
+		<datafield name="Exuberance" entryset="Bayley Rating Scales" filename="build\dataset\pvrctbr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051136746181" options="" />
+		<datafield name="Anticipatory Positive Affect" entryset="Bayley Rating Scales" filename="build\dataset\pvrctbr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051136746182" options="" />
+		<datafield name="Impulsivity" entryset="Bayley Rating Scales" filename="build\dataset\pvrctbr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051136746183" options="" />
+		<datafield name="Compliance With Child Tester" entryset="Bayley Rating Scales" filename="build\dataset\pvrctbr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051136746184" options="" />
+		<datafield name="Compliance With Primary Caregiver" entryset="Bayley Rating Scales" filename="build\dataset\pvrctbr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051136746185" options="" />
+		<datafield name="Avoiding Averting Resistance With Primary Caregiver" entryset="Bayley Rating Scales" filename="build\dataset\pvrctbr.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051136746186" options="" />
+		<datafield name="Notable Parent-Twin Interactions" entryset="Bayley Rating Scales" filename="build\dataset\pvrctbr.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1200501289730" options="" />
+	</componentset>
+	<componentset name="Triadic Interaction" abrv="triad" numcols="2" displayheader="true" header="Triadic Interaction">
+		<datafield name="Displeasure, Disapproval, Criticism" entryset="Triadic Interaction" filename="build\dataset\pvrctti.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121733" options="" />
+		<datafield name="Enjoyment, Pleasure" entryset="Triadic Interaction" filename="build\dataset\pvrctti.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121734" options="" />
+		<datafield name="Parent Reads Twins Cues And Responds Sensitively And Appropriately" entryset="Triadic Interaction" filename="build\dataset\pvrctti.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121735" options="" />
+		<datafield name="Connectedness" entryset="Triadic Interaction" filename="build\dataset\pvrctti.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121736" options="" />
+		<datafield name="Intrusiveness" entryset="Triadic Interaction" filename="build\dataset\pvrctti.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121737" options="" />
+		<datafield name="Anger, Hostility / irritability In Triadic Interaction" entryset="Triadic Interaction" filename="build\dataset\pvrctti.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121738" options="" />
+		<datafield name="Flat, Empty, Constricted Interaction" entryset="Triadic Interaction" filename="build\dataset\pvrctti.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121739" options="" />
+		<datafield name="Tension, Anxiety In Interaction" entryset="Triadic Interaction" filename="build\dataset\pvrctti.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121740" options="" />
+		<datafield name="Enthusiasm, Joyfullness, Mutual Enjoyment, A Sense Of Triadic Joie De vivre" entryset="Triadic Interaction" filename="build\dataset\pvrctti.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121741" options="" />
+		<datafield name="Reciprocity Of Parent And Twins" entryset="Triadic Interaction" filename="build\dataset\pvrctti.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051138121742" options="" />
+		<datafield name="Organization, Regulation, of Parent-Twin Interactions" entryset="Triadic Interaction" filename="build\dataset\pvrctti.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051139187677" options="" />
+		<datafield name="State Similarity" entryset="Triadic Interaction" filename="build\dataset\pvrctti.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051139187678" options="" />
+	</componentset>
+	<componentset name="Dyadic Interaction" abrv="dyadic" numcols="2" displayheader="true" header="Dyadic Interaction">
+		<datafield name="Anger, Hostility, Irritability" entryset="Dyadic Interactions" filename="build\dataset\pvrctdi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051139187698" options="" />
+		<datafield name="Enjoyment, Pleasure, Enthusiasm" entryset="Dyadic Interactions" filename="build\dataset\pvrctdi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051139187699" options="" />
+		<datafield name="Reads Cues and Reponds" entryset="Dyadic Interactions" filename="build\dataset\pvrctdi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051139187700" options="" />
+		<datafield name="Connectedness" entryset="Dyadic Interactions" filename="build\dataset\pvrctdi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051139187701" options="" />
+		<datafield name="Intrusiveness" entryset="Dyadic Interactions" filename="build\dataset\pvrctdi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051139187702" options="" />
+		<datafield name="Flat, Empty, Constricted Interaction" entryset="Dyadic Interactions" filename="build\dataset\pvrctdi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051139187703" options="" />
+		<datafield name="Tension, Anxiety in Interaction" entryset="Dyadic Interactions" filename="build\dataset\pvrctdi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051139187704" options="" />
+		<datafield name="Reciprocity of Twin with Co-Twin" entryset="Dyadic Interactions" filename="build\dataset\pvrctdi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051139187705" options="" />
+		<datafield name="Organization, Regulation of Twin" entryset="Dyadic Interactions" filename="build\dataset\pvrctdi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051139187706" options="" />
+		<datafield name="State Similarity" entryset="Dyadic Interactions" filename="build\dataset\pvrctdi.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051139187707" options="" />
+	</componentset>
+	<componentset name="Behavior Problems" abrv="behavior" numcols="2" displayheader="true" header="Behavior Problems">
+		<datafield name="Hyperactivity Behavior" entryset="Behavior Problems" filename="build\dataset\pvrctpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051139187711" options="" />
+		<datafield name="Hyperactivity Problem" entryset="Behavior Problems" filename="build\dataset\pvrctpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051139187712" options="" />
+		<datafield name="Inattention Behavior" entryset="Behavior Problems" filename="build\dataset\pvrctpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051139187713" options="" />
+		<datafield name="Inattention Problem" entryset="Behavior Problems" filename="build\dataset\pvrctpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051139187714" options="" />
+		<datafield name="Aggressive Behavior" entryset="Behavior Problems" filename="build\dataset\pvrctpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051139187715" options="" />
+		<datafield name="Agressive Problem" entryset="Behavior Problems" filename="build\dataset\pvrctpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051139187716" options="" />
+		<datafield name="Non-compliance Behavior" entryset="Behavior Problems" filename="build\dataset\pvrctpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051139187717" options="" />
+		<datafield name="Non-compliance Problem" entryset="Behavior Problems" filename="build\dataset\pvrctpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051139187718" options="" />
+		<datafield name="Manic Behavior" entryset="Behavior Problems" filename="build\dataset\pvrctpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051139187719" options="" />
+		<datafield name="Manic Problem" entryset="Behavior Problems" filename="build\dataset\pvrctpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051139187720" options="" />
+		<datafield name="Depression Behavior" entryset="Behavior Problems" filename="build\dataset\pvrctpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051139187721" options="" />
+		<datafield name="Depression Problem" entryset="Behavior Problems" filename="build\dataset\pvrctpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051139187722" options="" />
+		<datafield name="Tics Behavior" entryset="Behavior Problems" filename="build\dataset\pvrctpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051139187723" options="" />
+		<datafield name="Tics Problem" entryset="Behavior Problems" filename="build\dataset\pvrctpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051139187724" options="" />
+		<datafield name="Obsessive-Compulsive Behavior" entryset="Behavior Problems" filename="build\dataset\pvrctpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051139187725" options="" />
+		<datafield name="Obsessive-Compulsive Problem" entryset="Behavior Problems" filename="build\dataset\pvrctpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051139187726" options="" />
+		<datafield name="Selective Mutism Behavior" entryset="Behavior Problems" filename="build\dataset\pvrctpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051139187727" options="" />
+		<datafield name="Selective Mutism Problem" entryset="Behavior Problems" filename="build\dataset\pvrctpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051139187728" options="" />
+		<datafield name="General Anxiety Behavior" entryset="Behavior Problems" filename="build\dataset\pvrctpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051139187729" options="" />
+		<datafield name="General Anxiety Problem" entryset="Behavior Problems" filename="build\dataset\pvrctpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051139187730" options="" />
+		<datafield name="Separation Anxiety Behavior" entryset="Behavior Problems" filename="build\dataset\pvrctpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051139187731" options="" />
+		<datafield name="Separation Anxiety Problem" entryset="Behavior Problems" filename="build\dataset\pvrctpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051139187732" options="" />
+		<datafield name="Social Phobia Behavior" entryset="Behavior Problems" filename="build\dataset\pvrctpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051139187733" options="" />
+		<datafield name="Social Phobia Problem" entryset="Behavior Problems" filename="build\dataset\pvrctpb.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051139187734" options="" />
+		<datafield name="Zygosity" entryset="Zygosity" filename="build\dataset\pvrctzy.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051139187738" options="" />
+		<datafield name="Reasons for Determiniation" entryset="Zygosity" filename="build\dataset\pvrctzy.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1051139187739" options="" />
+		<datafield name="Tricky Zygosity" entryset="Zygosity" filename="build\dataset\pvrctzy.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1051139187740" options="" />
+		<datafield name="Visit Comments" entryset="Post Visit Ratings: Child Tester E1" filename="build\dataset\pvrcttrackere1.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1200501289698" options="" />
+	</componentset>
+</form>
+

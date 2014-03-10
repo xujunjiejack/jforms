@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Self-Report: Boys" abrv="p4petersonindextwinboytanner" filename="p4petersonindextwinboytanner">
+	<dataset file="tanner" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_TS_T" />
+	<dataset file="petersonindextwin" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_4_PI_T" />
+	<key name="Family Id" entryset="Tanner Stages" filename="tanner" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Twin" entryset="Tanner Stages" filename="tanner" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Twin,A:1,B:2" />
+	<key name="Data Mode" entryset="Tanner Stages" filename="tanner" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="Tanner Stages" abrv="tanner" numcols="2" displayheader="true" header="Tanner Stages">
+		<datafield name="Testes Stages" entryset="Tanner Stages" filename="build\dataset\tanner.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1206552010457" options="" />
+		<datafield name="Pubic Stages" entryset="Tanner Stages" filename="build\dataset\tanner.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1206552010459" options="" />
+	</componentset>
+	<componentset name="Peterson Index" abrv="peterson" numcols="2" displayheader="true" header="Peterson Index">
+		<datafield name="Growth in height" entryset="Twin Response" filename="build\dataset\petersonindextwin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1206548002448" options="" />
+		<datafield name="Growth of body hair" entryset="Twin Response" filename="build\dataset\petersonindextwin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1206548002449" options="" />
+		<datafield name="Skin changes" entryset="Twin Response" filename="build\dataset\petersonindextwin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1206548002450" options="" />
+		<datafield name="Deepening of voice" entryset="Twin Response" filename="build\dataset\petersonindextwin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1206548002451" options="" />
+		<datafield name="Growth of facial hair" entryset="Twin Response" filename="build\dataset\petersonindextwin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1206548002453" options="" />
+		<datafield name="Height (inches)" entryset="Twin Response" filename="build\dataset\petersonindextwin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1206551221839" options="" />
+		<datafield name="Weight (pounds)" entryset="Twin Response" filename="build\dataset\petersonindextwin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1206551221840" options="" />
+		<datafield name="Rating of weight" entryset="Twin Response" filename="build\dataset\petersonindextwin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1206551221841" options="" />
+	</componentset>
+</form>
+
