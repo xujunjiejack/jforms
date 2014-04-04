@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Part 2B - Boy Puberty" abrv="c3petersonindextwinboytanner" filename="c3petersonindextwinboytanner">
+	<dataset file="mutwin" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_c3_MU_T" />
+	<dataset file="petersonindextwin" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_c3_PI_T" />
+	<key name="Family Id" entryset="MU twin" filename="mutwin" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Twin" entryset="MU twin" filename="mutwin" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Twin,A:1,B:2" />
+	<key name="Data Mode" entryset="MU twin" filename="mutwin" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="Peterson Index" abrv="peterson" numcols="2" displayheader="true" header="Peterson Index">
+		<datafield name="Growth in height" entryset="Twin Response" filename="build\dataset\petersonindextwin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1206548002448" options="" />
+		<datafield name="Growth of body hair" entryset="Twin Response" filename="build\dataset\petersonindextwin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1206548002449" options="" />
+		<datafield name="Skin changes" entryset="Twin Response" filename="build\dataset\petersonindextwin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1206548002450" options="" />
+		<datafield name="Deepening of voice" entryset="Twin Response" filename="build\dataset\petersonindextwin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1206548002451" options="" />
+		<datafield name="Growth of facial hair" entryset="Twin Response" filename="build\dataset\petersonindextwin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1206548002453" options="" />
+		<datafield name="Height (inches)" entryset="Twin Response" filename="build\dataset\petersonindextwin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1206551221839" options="" />
+		<datafield name="Weight (pounds)" entryset="Twin Response" filename="build\dataset\petersonindextwin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1206551221840" options="" />
+		<datafield name="Rating of weight" entryset="Twin Response" filename="build\dataset\petersonindextwin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1206551221841" options="" />
+	</componentset>
+	<componentset name="MU twin" abrv="mut" numcols="2" displayheader="true" header="MU twin">
+		<datafield name="Male Pubic Hair Growth" entryset="MU twin" filename="build\dataset\mutwin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1369927061011" options="" />
+		<datafield name="Male Genital Growth" entryset="MU twin" filename="build\dataset\mutwin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1369927061012" options="" />
+	</componentset>
+</form>
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Height and Weight Questions" abrv="hwq" filename="c3hwq">
+	<dataset file="p5hwq" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="data_c3_hw_m" />
+	<key name="Family Id" entryset="Height Weight Questions" filename="p5hwq" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,gen_family,familyid" />
+	<key name="Data Mode" entryset="Height Weight Questions" filename="p5hwq" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Datamode,Entry:Entry,Check:Check" />
+	<componentset name="Height Weight" abrv="hwq" numcols="2" displayheader="true" header="Height Weight">
+		<datafield name="Who is taller?" entryset="Height Weight Questions" filename="build\dataset\p5hwq.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1369321810948" options="" />
+		<datafield name="Difference in height?" entryset="Height Weight Questions" filename="build\dataset\p5hwq.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1369321810949" options="" />
+		<datafield name="Who weighs more?" entryset="Height Weight Questions" filename="build\dataset\p5hwq.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1369321810950" options="" />
+		<datafield name="Difference in weight?" entryset="Height Weight Questions" filename="build\dataset\p5hwq.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1369321810951" options="" />	
+	</componentset>
+</form>

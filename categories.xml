@@ -289,6 +289,7 @@
 			<form name="Interview Response" abrv="p5r2cg1interviewreponse" filename="p5r2cg1interviewreponse" />
 			<form name="Hollingshead" abrv="p5cg1hollingshead" filename="p5cg1hollingshead" />
 		</subcategory>
+		
 		<subcategory name="Twin Mailed Interview" abrv="p5r2twininterview" filename="p5r2twininterview">
 			<form name="Part 1 - Behavior" abrv="p5r2bt" filename="P5R2twinbehavior" />
 			<form name="Part 2A - Girl Puberty" abrv="p5petersonindextwingirltanner" filename="p5petersonindextwingirltanner" />
@@ -309,7 +310,24 @@
 	
 	<category name="Conte 3" abrv="C3" filename="conte3">
 		<form name="C3 Tracker" abrv="c3tracker" filename="c3tracker" />
-		<form name="CG Interview-Twin" abrv="CGinterviewtwin" filename="c3cginterviewtwin" />
+
+		<subcategory name="CG1 Questionnaire" abrv="c3cg1questionnaire" filename="c3cg1questionnaire">
+			<form name="CG Interview-Twin" abrv="CGinterviewtwin" filename="c3cginterviewtwin" />
+			<form name="CG Interview-Self" abrv="c3cg1si" filename="c3cg1SelfInterview" />
+
+			<form name="Height and Weight Questions" abrv="hwq" filename="c3hwq" />
+			<form name="Demographics" abrv="c3demo" filename="c3demo" />
+			<form name="Interview Response" abrv="c3cg1interviewreponse" filename="c3cg1interviewreponse" />
+			<form name="Hollingshead" abrv="c3cg1hollingshead" filename="c3cg1hollingshead" />
+		</subcategory>
+
+		<subcategory name="Twin Mailed Interview" abrv="c3twininterview" filename="c3twininterview">
+			<form name="Part 1 - Behavior" abrv="c3bt" filename="c3twinbehavior" />
+			<form name="Part 2A - Girl Puberty" abrv="c3petersonindextwingirltanner" filename="c3petersonindextwingirltanner" />
+			<form name="Part 2B - Boy Puberty" abrv="c3petersonindextwinboytanner" filename="c3petersonindextwinboytanner" />
+		</subcategory>	
+
+
 	</category>
 	
 </categories>
