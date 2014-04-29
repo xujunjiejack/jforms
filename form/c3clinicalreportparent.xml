@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+
+<form name="Clinical Report - Parent" abrv="c3crp" filename="c3clinicalreportparent">
+
+	<dataset file="clinicalreportparent" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_c3_DISC_DR_P" />
+
+	<key name="Family Id" entryset="CR Parent" filename="clinicalreportparent" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Twin" entryset="CR Parent" filename="clinicalreportparent" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Twin,A:1,B:2" />
+	<key name="Data Mode" entryset="CR Parent" filename="clinicalreportparent" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+
+	<componentset name="Diagnosis Category" abrv="DC" numcols="2" displayheader="true" header="Diagnosis Category">
+		<datafield name="Social Phobia diagnosis" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092000" options="" />
+		<datafield name="Specific Phobia diagnosis" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092003" options="" />
+		<datafield name="Separation Anxiety diagnosis" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092006" options="" />
+		<datafield name="Panic diagnosis" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092009" options="" />
+		<datafield name="Agoraphobia diagnosis" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092012" options="" />
+		<datafield name="Generalized Anxiety diagnosis" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092015" options="" />
+		<datafield name="Selective Mutism diagnosis" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092018" options="" />
+		<datafield name="Obssesive-Compulsive diagnosis" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092021" options="" />
+		<datafield name="Post-Traumatic Stress diagnosis" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092024" options="" />
+		<datafield name="Anorexia Nervosa diagnosis" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092027" options="" />
+		<datafield name="Bulimia Nervosa diagnosis" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092030" options="" />
+		<datafield name="Elimination Disorders diagnosis" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092033" options="" />
+		<datafield name="Tic Disorders diagnosis" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092036" options="" />
+		<datafield name="Pica diagnosis" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092039" options="" />
+		<datafield name="Trichotillomania diagnosis" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092042" options="" />
+		<datafield name="Major Depression/Dysthymia diagnosis" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092045" options="" />
+		<datafield name="Mania/Hypomania diagnosis" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092048" options="" />
+		<datafield name="Attention Deficit/Hyperactivity diagnosis" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092051" options="" />
+		<datafield name="Oppositional Defiant diagnosis" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092054" options="" />
+		<datafield name="Conduct diagnosis" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092057" options="" />
+	</componentset>
+
+	<componentset name="# of Symptoms" abrv="numSym" numcols="2" displayheader="true" header="# of Symptoms">
+		<datafield name="Social Phobia #symptoms" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092001" options="" />
+		<datafield name="Specific Phobia #symptoms" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092004" options="" />
+		<datafield name="Separation Anxiety #symptoms" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092007" options="" />
+		<datafield name="Panic #symptoms" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092010" options="" />
+		<datafield name="Agoraphobia #symptoms" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092013" options="" />
+		<datafield name="Generalized Anxiety #symptoms" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092016" options="" />
+		<datafield name="Selective Mutism #symptoms" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092019" options="" />
+		<datafield name="Obssesive-Compulsive #symptoms" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092022" options="" />
+		<datafield name="Post-Traumatic Stress #symptoms" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092025" options="" />
+		<datafield name="Anorexia Nervosa #symptoms" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092028" options="" />
+		<datafield name="Bulimia Nervosa #symptoms" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092031" options="" />
+		<datafield name="Elimination Disorders #symptoms" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092034" options="" />
+		<datafield name="Tic Disorders #symptoms" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092037" options="" />
+		<datafield name="Pica #symptoms" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092040" options="" />
+		<datafield name="Trichotillomania #symptoms" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092043" options="" />
+		<datafield name="Major Depression/Dysthymia #symptoms" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092046" options="" />
+		<datafield name="Mania/Hypomania #symptoms" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092049" options="" />
+		<datafield name="Attention Deficit/Hyperactivity #symptoms" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092052" options="" />
+		<datafield name="Oppositional Defiant #symptoms" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092055" options="" />
+		<datafield name="Conduct #symptoms" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092058" options="" />
+	</componentset>
+
+	<componentset name="Impairment Integer" abrv="II" numcols="2" displayheader="true" header="Impairment Integer">
+		<datafield name="Social Phobia impairment" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092002" options="" />
+		<datafield name="Specific Phobia impairment" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092005" options="" />
+		<datafield name="Separation Anxiety impairment" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092008" options="" />
+		<datafield name="Panic impairment" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092011" options="" />
+		<datafield name="Agoraphobia impairment" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092014" options="" />
+		<datafield name="Generalized Anxiety impairment" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092017" options="" />
+		<datafield name="Selective Mutism impairment" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092020" options="" />
+		<datafield name="Obssesive-Compulsive impairment" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092023" options="" />
+		<datafield name="Post-Traumatic Stress impairment" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092026" options="" />
+		<datafield name="Anorexia Nervosa impairment" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092029" options="" />
+		<datafield name="Bulimia Nervosa impairment" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092032" options="" />
+		<datafield name="Elimination Disorders impairment" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092035" options="" />
+		<datafield name="Tic Disorders impairment" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092038" options="" />
+		<datafield name="Pica impairment" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092041" options="" />
+		<datafield name="Trichotillomania impairment" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092044" options="" />
+		<datafield name="Major Depression/Dysthymia impairment" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092047" options="" />
+		<datafield name="Mania/Hypomania impairment" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092050" options="" />
+		<datafield name="Attention Deficit/Hyperactivity impairment" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092053" options="" />
+		<datafield name="Oppositional Defiant impairment" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092056" options="" />
+		<datafield name="Conduct impairment" entryset="CR Parent" filename="build\dataset\clinicalreportparent.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2048724092059" options="" />
+	</componentset>
+
+</form>
+
