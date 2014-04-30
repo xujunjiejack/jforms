@@ -15,8 +15,11 @@
 	<dataset file="p5apes" connection="MySQL:mysql.waisman.wisc.edu/wtp_data" tablename="data_c3_ap_t" />
 	<dataset file="p4tiretwin" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="data_c3_ti_t" />
 	<dataset file="pmtwin" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="data_c3_pm_t" />
-	<dataset file="hwtwin" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="data_c3_hw_t" />
 	<dataset file="p4handusagequestionaire" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="data_c3_hu_t" />
+
+
+
+
 	<key name="Family Id" entryset="BIS" filename="bistwinnew" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,gen_family,familyid" />
 	<key name="Twin" entryset="BIS" filename="bistwinnew" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="twin,A:1,B:2" />
 	<key name="Data Mode" entryset="BIS" filename="bistwinnew" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="datamode,Entry:Entry,Check:Check" />
@@ -205,7 +208,6 @@
 		<datafield name="84" entryset="HBQ" filename="build\dataset\hbqnew.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445172" options="" />
 	</componentset>
 	<componentset name="HBQ School and Peer" abrv="hbq1" numcols="2" displayheader="true" header="HBQ School and Peer">
-		<datafield name="A" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931507" options="" />
 		<datafield name="1" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931508" options="" />
 		<datafield name="2" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931509" options="" />
 		<datafield name="3" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931510" options="" />
@@ -283,7 +285,6 @@
 	</componentset>
 	
 	<componentset name="HBQ School and Peer Cotwin" abrv="hbq1cotwin" numcols="2" displayheader="true" header="HBQ1 School and Peer Cotwin">
-		<datafield name="A" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931507" options="" />
 		<datafield name="1" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931508" options="" />
 		<datafield name="2" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931509" options="" />
 		<datafield name="3" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931510" options="" />
@@ -392,7 +393,7 @@
 		<datafield name="28.Play Dough" entryset="P5 Sensory Defensiveness" filename="build\dataset\p5sd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1369927060120" options="" />
 		<datafield name="29.Foods" entryset="P5 Sensory Defensiveness" filename="build\dataset\p5sd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1369927060121" options="" />
 		<datafield name="30.Lotion" entryset="P5 Sensory Defensiveness" filename="build\dataset\p5sd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1369927060122" options="" />
-		<datafield name="31.Other ways you are touch sensitive?" entryset="P5 Sensory Defensiveness" filename="build\dataset\p5sd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1369927060123" options="" />
+		<datafield name="31.Other ways you are touch sensitive?" entryset="P5 Sensory Defensiveness" filename="build\dataset\p5sd.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1369927060123" options="" />
 		<datafield name="1.Toilet flushing" entryset="P5 Sensory Defensiveness" filename="build\dataset\p5sd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1369927060124" options="" />
 		<datafield name="2.Door bell" entryset="P5 Sensory Defensiveness" filename="build\dataset\p5sd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1369927060125" options="" />
 		<datafield name="3.Dog barking" entryset="P5 Sensory Defensiveness" filename="build\dataset\p5sd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1369927060126" options="" />
@@ -415,7 +416,7 @@
 		<datafield name="20.Malls" entryset="P5 Sensory Defensiveness" filename="build\dataset\p5sd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1369927060141" options="" />
 		<datafield name="21.Cafeterias" entryset="P5 Sensory Defensiveness" filename="build\dataset\p5sd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1369927060142" options="" />
 		<datafield name="22.Gymnasium" entryset="P5 Sensory Defensiveness" filename="build\dataset\p5sd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1369927060143" options="" />
-		<datafield name="23.Other ways you are sensitive to sound?" entryset="P5 Sensory Defensiveness" filename="build\dataset\p5sd.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1369927060144" options="" />
+		<datafield name="23.Other ways you are sensitive to sound?" entryset="P5 Sensory Defensiveness" filename="build\dataset\p5sd.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1369927060144" options="" />
 	</componentset>
 	<componentset name="Sensory Profile" abrv="SP" numcols="2" displayheader="true" header="Sensory Profile">
 		<datafield name="1" entryset="Sensory Profile Twin" filename="build\dataset\p4sensoryprofiletwin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211315205313" options="" />
@@ -672,7 +673,7 @@
 		<datafield name="92i" entryset="APES" filename="build\dataset\p5apes.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211382285725" options="" />
 		<datafield name="93" entryset="APES" filename="build\dataset\p5apes.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211382285726" options="" />
 		<datafield name="93i" entryset="APES" filename="build\dataset\p5apes.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211382285727" options="" />
-		<datafield name="94" entryset="APES" filename="build\dataset\p5apes.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1211382285728" options="" />
+		<datafield name="Explain: " entryset="APES" filename="build\dataset\p5apes.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1211382285728" options="" />
 	</componentset>
 	<componentset name="TIRE" abrv="tire" numcols="2" displayheader="true" header="TIRE">
 		<datafield name="1" entryset="TIRE Twin" filename="build\dataset\p4tiretwin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211900073952" options="" />
@@ -748,11 +749,6 @@
 		<datafield name="13" entryset="Hand Usage Questionaire" filename="build\dataset\p4handusagequestionaire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211316853200" options="" />
 		<datafield name="14" entryset="Hand Usage Questionaire" filename="build\dataset\p4handusagequestionaire.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1211316853201" options="" />
 	</componentset>
-	<componentset name="Height Weight Measures" abrv="hwm" numcols="2" displayheader="true" header="Height Weight Measures">
-		<datafield name="Who is taller?" entryset="Height Weight Measures - Twin" filename="build\dataset\hwtwin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1369927060987" options="" />
-		<datafield name="Difference in height?" entryset="Height Weight Measures - Twin" filename="build\dataset\hwtwin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1369927060988" options="" />
-		<datafield name="Who weighs more?" entryset="Height Weight Measures - Twin" filename="build\dataset\hwtwin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1369927060989" options="" />
-		<datafield name="Weight difference?" entryset="Height Weight Measures - Twin" filename="build\dataset\hwtwin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1369927060990" options="" />
-	</componentset>
+
 </form>
 
