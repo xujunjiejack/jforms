@@ -89,13 +89,21 @@
 	<data name="Trichotillomania #symptoms" field="tr" template="drsx" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2048724092043" />
 	<data name="Trichotillomania impairment" field="tr" template="drim" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2048724092044" />
 
-	<data name="Major Depression/Dysthymia diagnosis" field="md" template="drdx" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2048724092045" />
-	<data name="Major Depression/Dysthymia #symptoms" field="md" template="drsx" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2048724092046" />
-	<data name="Major Depression/Dysthymia impairment" field="md" template="drim" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2048724092047" />
+	<data name="Major Depression diagnosis" field="md" template="drdx" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2048724092045" />
+	<data name="Major Depression #symptoms" field="md" template="drsx" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2048724092046" />
+	<data name="Major Depression impairment" field="md" template="drim" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2048724092047" />
 
-	<data name="Mania/Hypomania diagnosis" field="ma" template="drdx" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2048724092048" />
-	<data name="Mania/Hypomania #symptoms" field="ma" template="drsx" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2048724092049" />
-	<data name="Mania/Hypomania impairment" field="ma" template="drim" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2048724092050" />
+	<data name="Dysthymia diagnosis" field="ds" template="drdx" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2048724092060" />
+	<data name="Dysthymia #symptoms" field="ds" template="drsx" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2048724092061" />
+	<data name="Dysthymia impairment" field="ds" template="drim" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2048724092062" />
+
+	<data name="Mania diagnosis" field="ma" template="drdx" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2048724092048" />
+	<data name="Mania #symptoms" field="ma" template="drsx" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2048724092049" />
+	<data name="Mania impairment" field="ma" template="drim" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2048724092050" />
+
+	<data name="Hypomania diagnosis" field="hm" template="drdx" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2048724092063" />
+	<data name="Hypomania #symptoms" field="hm" template="drsx" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2048724092064" />
+	<data name="Hypomania impairment" field="hm" template="drim" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2048724092065" />
 
 	<data name="Attention Deficit/Hyperactivity diagnosis" field="ad" template="drdx" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2048724092051" />
 	<data name="Attention Deficit/Hyperactivity #symptoms" field="ad" template="drsx" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2048724092052" />
@@ -110,4 +118,3 @@
 	<data name="Conduct impairment" field="cd" template="drim" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2048724092059" />
 
 </dataset>
-
