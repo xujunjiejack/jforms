@@ -23,9 +23,21 @@
 		<datafield name="Tw A DISC Interviewer" entryset="C3 Interview Tracker" filename="build\dataset\c3inttracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233277762349" options="" />
 		<datafield name="Tw B DISC Date" entryset="C3 Interview Tracker" filename="build\dataset\c3inttracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1233277762350" options="0,MM/dd/yyyy" />
 		<datafield name="Tw B DISC Interviewer" entryset="C3 Interview Tracker" filename="build\dataset\c3inttracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233277762351" options="" />
+
+		<datafield name="Tw A Zyg Date" entryset="C3 Interview Tracker" filename="build\dataset\c3inttracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1233277762448" options="0,MM/dd/yyyy" />
+		<datafield name="Tw A Zyg Interviewer" entryset="C3 Interview Tracker" filename="build\dataset\c3inttracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233277762449" options="" />
+		<datafield name="Tw B Zyg Date" entryset="C3 Interview Tracker" filename="build\dataset\c3inttracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1233277762450" options="0,MM/dd/yyyy" />
+		<datafield name="Tw B Zyg Interviewer" entryset="C3 Interview Tracker" filename="build\dataset\c3inttracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233277762451" options="" />
+		<datafield name="CG Zyg Date" entryset="C3 Interview Tracker" filename="build\dataset\c3inttracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1233277762452" options="0,MM/dd/yyyy" />
+		<datafield name="CG Zyg Interviewer" entryset="C3 Interview Tracker" filename="build\dataset\c3inttracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233277762453" options="" />
+
+
 		<datafield name="CG Consent" entryset="C3 Interview Tracker" filename="build\dataset\c3inttracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1233277762352" options="0,MM/dd/yyyy" />
 		<datafield name="Tw A Assent" entryset="C3 Interview Tracker" filename="build\dataset\c3inttracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1233277762353" options="0,MM/dd/yyyy" />
 		<datafield name="Tw B Assent" entryset="C3 Interview Tracker" filename="build\dataset\c3inttracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1233277762354" options="0,MM/dd/yyyy" />
+
+
+
 		<datafield name="CG Payment Date" entryset="C3 Interview Tracker" filename="build\dataset\c3inttracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1233277762355" options="0,MM/dd/yyyy" />
 		<datafield name="CG Payment Amt" entryset="C3 Interview Tracker" filename="build\dataset\c3inttracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233277762356" options="" />
 		<datafield name="Tw A Payment Date" entryset="C3 Interview Tracker" filename="build\dataset\c3inttracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1233277762357" options="0,MM/dd/yyyy" />
