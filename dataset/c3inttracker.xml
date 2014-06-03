@@ -46,7 +46,7 @@
 	<data name="Tw A Assent" field="aassent" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762353" />
 	<data name="Tw B Assent" field="bassent" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762354" />
 	
-	<data name="Zyg Pic Rec'd Date" field="zygpic" template="na" validator="val01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233277762555" />
+	<data name="Zyg Pic Rec'd Date" field="zygpic" template="na" validator="val01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762555" />
 
 
 	<data name="CG Payment Date" field="paycg" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762355" />
