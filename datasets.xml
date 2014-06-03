@@ -823,7 +823,7 @@
 	<dataset name="APES" abrv="p5apes" filename="p5apes" />
 	<dataset name="P5R2 Twin Mailed Interview Date" abrv="p5r2twinmailedinterviewdate" filename="p5r2twinmailedinterviewdate" />
 	
-	<dataset name="C3 Tracker" abrv="c3tracker" filename="c3tracker" />
+	<dataset name="C3 Interview Tracker" abrv="c3inttracker" filename="c3inttracker" />
 	<dataset name="Clinical Report Twin" abrv="crtw" filename="clinicalreporttwin" />
 	<dataset name="Clinical Report Parent" abrv="crp" filename="clinicalreportparent" />
 	

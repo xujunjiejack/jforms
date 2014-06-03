@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
-<dataset name="C3 Tracker" abrv="c3tracker" filename="c3tracker">
+<dataset name="C3 Interview Tracker" abrv="c3inttracker" filename="c3inttracker">
 	<validator name="val01_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="1">
 		<valid value="9998" />
 		<valid value="9999" />
