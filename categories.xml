@@ -306,7 +306,7 @@
 		<form name="P6 Tracker" abrv="p6tracker" filename="p6tracker" />
 	</category>
 	
-	<category name="Conte 3 - Interview" abrv="C3" filename="conte3_inteview">
+	<category name="Conte 3 - Interview" abrv="C3int" filename="conte3_interview">
 		<form name="C3 Interview Tracker" abrv="c3inttracker" filename="c3inttracker" />
 		<form name="Clinical Report - Parent" abrv="c3crp" filename="c3clinicalreportparent" />
 		<form name="Clinical Report - Twin" abrv="c3crtw" filename="c3clinicalreporttwin" />
@@ -330,5 +330,7 @@
 
 	</category>
 	
+	<category name="Conte 3 - Imaging" abrv="C3" filename="conte3_imaging">
+	</category>
 </categories>
 
