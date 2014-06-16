@@ -59,8 +59,8 @@
 			<subcategory name="Hollings Head" abrv="p1hollingshead" filename="p1hollingshead">
 				<form name="Mother" abrv="motherhollingshead" filename="p1motherhollingshead" />
 			</subcategory>
-			<form name="Mother BITSEA" abrv="motherbitsea" filename="p1motherbitsea" />
 			<form name="Father BITSEA" abrv="fatherbitsea" filename="p1fatherbitsea" />
+			<form name="Mother BITSEA" abrv="motherbitsea" filename="p1motherbitsea" />
 			<form name="Mother CRPR" abrv="mothercrpr" filename="p1mothercrpr" />
 			<form name="Father CRPR" abrv="fathercrpr" filename="p1fathercrpr" />
 			<form name="Mother ITSEA" abrv="p1motheritsea" filename="p1motheritsea" />
@@ -229,10 +229,9 @@
 			<form name="Sibling Questionnaire" abrv="p4sibquestionnaire" filename="p4sibquestionnaire" />
 			<form name="Stroop Tasks" abrv="p4strooptasks" filename="p4strooptasks" />
 			<form name="Twin Mailed Interview - Full Assessment" abrv="p4twininterview" filename="p4twininterview" />
-
 		</subcategory>
+
 		<subcategory name="Phase Four -- Short Assessment" abrv="p4short" filename="p4short">
-			
 
 			<subcategory name="Caregiver Interview - Short Assessment" abrv="cginterviewshort" filename="cginterviewshort">
 				<subcategory name="Caregiver 1 - Short Assessment" abrv="p4cg1short" filename="p4cg1short">
@@ -259,12 +258,18 @@
 			</subcategory>
 
 			<form name="Phase Four Tracker" abrv="p4track" filename="p4track" />
-
 			<form name="Sibling Questionnaire" abrv="p4sibquestionnaire" filename="p4sibquestionnaire" />
-
-
 			<form name="Zygosity" abrv="p4shortzygosity" filename="p4shortzygosity" />
 		</subcategory>
+
+		<subcategory name="Autism" abrv="autism" filename="autism">
+			<form name="Broader Autism Phenotype Questionnaire" abrv="bapq" filename="bapq" />
+		</subcategory>
+
+		<subcategory name="SPD" abrv="spd" filename="spd">
+			<form name="Rating Scale" abrv="spdratingscale" filename="spdratingscale" />
+		</subcategory>
+
 	</category>
 
 
@@ -300,13 +305,6 @@
 		<form name="DSMIV DIAGNOSES" abrv="DD" filename="DSMIV DIAGNOSES" />
 		<form name="P6 Tracker" abrv="p6tracker" filename="p6tracker" />
 	</category>
-	<category name="Autism" abrv="autism" filename="autism">
-		<form name="Broader Autism Phenotype Questionnaire" abrv="bapq" filename="bapq" />
-	</category>
-	<category name="SPD" abrv="spd" filename="spd">
-		<form name="Rating Scale" abrv="spdratingscale" filename="spdratingscale" />
-	</category>
-	
 	
 	<category name="Conte 3 - Interview" abrv="C3" filename="conte3_inteview">
 		<form name="C3 Interview Tracker" abrv="c3inttracker" filename="c3inttracker" />
