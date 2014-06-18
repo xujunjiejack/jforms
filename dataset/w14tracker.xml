@@ -31,9 +31,15 @@
 	<data name="Exclude" field="p5exclude" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233277762363" />
 	<data name="Emergency Number" field="emergnum" template="na" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1233277762364" />
 	<!-- p5itr -->
+	<data name="p5itr1" field="p5Itr1" template="na" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFiledBox" classid="1233277762367" /> 
 	<!-- p5cf1 -->
+	<data name="p5cf1" field="p5cf1" template="na" validator="MEMO" dependencies="flase" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1233277762370" />
 	<!-- pfcf1rep -->
+	<data name="pfcf1rep" field="pfcf1rep" template="na" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieledBox" classid="1233277762373" />
 	<!-- p5cf2 -->
+	<data name="p5cf2" field="pfcf2" template="na" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieledBox" classid="1233277762376" />
 	<!-- p5cf2rep -->
+	<data name="p5cf2rep" field="p5cf2rep" template="na" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1233277762379" />
+	<data name="pfcf2rep" field="pfcf2rep" template="na" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1233277762382" />
 </dataset>
 
