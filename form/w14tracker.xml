@@ -1,32 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE form SYSTEM "../../dtd/form.dtd">
-<form name="Wallace14 Tracker" abrv="W14_tr" filename="W14tracker" >
-
-	<dataset file="w14tracker" connection="MySQL:mysql.waisman.wisc.edu/wtp_data" tablename="DATA_w14_tr" />
-	
-	<key name="Family Id" entryset="W14 Tracker" filename="w14tracker" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
-   
-   <componentset name="W14 Tracker" abrv="tracker" numcols="2" displayheader="true" header="W14 Tracker">
-		<datafield name="Packet Sent" entryset="W14 Tracker" filename="build\dataset\w14tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1233276104317" options="0,MM/dd/yyyy" />
-		<datafield name="Sender" entryset="W14 Tracker" filename="build\dataset\w14tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233276104318" options="" />
-		<datafield name="CG 1 Interview Date" entryset="W14 Tracker" filename="build\dataset\w14tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1233276104319" options="0,MM/dd/yyyy" />
-		<datafield name="CG1 Interviewer" entryset="W14 Tracker" filename="build\dataset\w14tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233276104320" options="" />
-		<datafield name="CG 2 Interview date" entryset="W14 Tracker" filename="build\dataset\w14tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233276104329" options="" />
-		<datafield name="CG DPS B Date" entryset="W14 Tracker" filename="\dataset\w14tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1233276104330" options="0,MM/dd/yyyy" />
-		<datafield name="CG 2 Interviewer" entryset="W14 Tracker" filename="build\dataset\w14tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233276104331" options="" />
-		<datafield name="CG 1 Payment Date" entryset="W14 Tracker" filename="build\dataset\w14tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1233277762355" options="0,MM/dd/yyyy" />
-		<datafield name="CG 1 Payment Amt" entryset="W14 Tracker" filename="build\dataset\w14tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233277762356" options="" />
-		<datafield name="CG 2 Payment Date" entryset="W14 Tracker" filename="build\dataset\w14tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1233277762357" options="0,MM/dd/yyyy" />
-		<datafield name="CG 2 Payment Amt" entryset="W14 Tracker" filename="build\dataset\w14tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233277762358" options="" />
-		<datafield name="Wallace14 Complete Date" entryset="W14 Tracker" filename="build\dataset\w14tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1233277762361" options="0,MM/dd/yyyy" />
-		<datafield name="Exclude" entryset="W14 Tracker" filename="build\dataset\w14tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1233277762362" options="" />
-		<datafield name="Comments" entryset="W14 Tracker" filename="build\dataset\w14tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233277762363" options="" />
-		<datafield name="Date letter 1 sent" entryset="W14 Tracker" filename="build\dataset\w14tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1233277762367" options="" />
-		<datafield name="Date reply 1 received" entryset="W14 Tracker" filename="build\dataset\w14tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1233277762370" options="" />
-		<datafield name="Letter 1 Response" entryset="W14 Tracker" filename="build\dataset\w14tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1233277762373" options="" />
-		<datafield name="Date reply 2 received" entryset="W14 Tracker" filename="build\dataset\w14tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1233277762376" options="" />
-		<datafield name="Letter 2 Response" entryset="W14 Tracker" filename="build\dataset\w14tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1233277762379" options="" />
+<form name="Wallace14 Tracker" abrv="W14_tr" filename="w14tracker">
+	<dataset file="w14tracker" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="data_w14_tr" />
+	<key name="Family Id" entryset="Wallace14 Tracker" filename="w14tracker" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,gen_family,familyid" />
+	<componentset name="W14 Tracker" abrv="tracker" numcols="2" displayheader="true" header="W14 Tracker">
+		<datafield name="Packet sent" entryset="Wallace14 Tracker" filename="build\dataset\w14tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1403546303374" options="0,MM/dd/yyyy" />
+		<datafield name="Sender" entryset="Wallace14 Tracker" filename="build\dataset\w14tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1403546303375" options="" />
+		<datafield name="CG 1 Interview Date" entryset="Wallace14 Tracker" filename="build\dataset\w14tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1403546303376" options="0,MM/dd/yyyy" />
+		<datafield name="CG1 Interviewer" entryset="Wallace14 Tracker" filename="build\dataset\w14tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1403546303377" options="" />
+		<datafield name="CG 2 Interview date" entryset="Wallace14 Tracker" filename="build\dataset\w14tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1403546303378" options="" />
 	</componentset>
-
 </form>
 
