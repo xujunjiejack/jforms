@@ -19,5 +19,24 @@
 	<data name="CG 1 Interview Date" field="cg1intdate" template="na" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1403546303376" />
 	<data name="CG1 Interviewer" field="cg1int" template="na" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1403546303377" />
 	<data name="CG 2 Interview date" field="cg2intdate" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1403546303378" />
+	<data name="CG DPS B Date" field="pcdpsb" template="na" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233276104330" />
+	<data name="CG 2 Interviewer" field="cg2int" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233276104331" />
+	<data name="CG 1 Payment Date" field="cg1pay" template="na" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762355" />
+	<data name="CG 1 Payment Amt" field="cg1payam" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233277762356" />
+	<data name="CG 2 Payment Date" field="cg2pay" template="na" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762357" />
+	<data name="CG 2 Payment Amt" field="cg2payam" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233277762358" />
+	<data name="Wallace14 Complete Date" field="w14comp" template="na" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762361" />
+	<data name="Exclude" field="w14exclude" template="na" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233277762362" />
+	<data name="Comments" field="w14comments" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233277762363" />
+
+	<data name="Date letter 1 sent" field="w14ltr1" template="na" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762367" />
+
+	<data name="Date reply 1 received" field="w14cf1" template="na" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762370" />
+	<data name="Letter 1 Response" field="w14cf1rep" template="na" validator="val01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762373" />
+
+	<data name="Date letter 2 sent" field="w14ltr2" template="na" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762376" />
+
+	<data name="Date reply 2 received" field="w14cf2" template="na" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762379" />
+	<data name="Letter 2 Response" field="w14cf2rep" template="na" validator="val01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762382" />
 </dataset>
 

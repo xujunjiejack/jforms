@@ -9,6 +9,28 @@
 		<datafield name="CG 1 Interview Date" entryset="Wallace14 Tracker" filename="build\dataset\w14tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1403546303376" options="0,MM/dd/yyyy" />
 		<datafield name="CG1 Interviewer" entryset="Wallace14 Tracker" filename="build\dataset\w14tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1403546303377" options="" />
 		<datafield name="CG 2 Interview date" entryset="Wallace14 Tracker" filename="build\dataset\w14tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1403546303378" options="" />
+
+
+		<datafield name="CG DPS B Date" entryset="Wallace14 Tracker" filename="build\dataset\w14tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1233276104330" options="0,MM/dd/yyyy" />
+		<datafield name="CG 2 Interviewer" entryset="Wallace14 Tracker" filename="build\dataset\w14tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233276104331" options="" />
+		<datafield name="CG 1 Payment Date" entryset="Wallace14 Tracker" filename="build\dataset\w14tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1233277762355" options="0,MM/dd/yyyy" />
+		<datafield name="CG 1 Payment Amt" entryset="Wallace14 Tracker" filename="build\dataset\w14tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233277762356" options="" />
+		<datafield name="CG 2 Payment Date" entryset="Wallace14 Tracker" filename="build\dataset\w14tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1233277762357" options="0,MM/dd/yyyy" />
+		<datafield name="CG 2 Payment Amt" entryset="Wallace14 Tracker" filename="build\dataset\w14tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233277762358" options="" />
+		<datafield name="Wallace14 Complete Date" entryset="Wallace14 Tracker" filename="build\dataset\w14tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1233277762361" options="0,MM/dd/yyyy" />
+		<datafield name="Exclude" entryset="Wallace14 Tracker" filename="build\dataset\w14tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233277762362" options="" />
+		<datafield name="Comments" entryset="Wallace14 Tracker" filename="build\dataset\w14tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233277762363" options="" />
+
+		<datafield name="Date letter 1 sent" entryset="Wallace14 Tracker" filename="build\dataset\w14tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1233277762367" options="0,MM/dd/yyyy" />
+
+		<datafield name="Date reply 1 received" entryset="Wallace14 Tracker" filename="build\dataset\w14tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1233277762370" options="0,MM/dd/yyyy" />
+		<datafield name="Letter 1 Response" entryset="Wallace14 Tracker" filename="build\dataset\w14tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1233277762373" options="3,#" />
+
+		<datafield name="Date letter 2 sent" entryset="Wallace14 Tracker" filename="build\dataset\w14tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1233277762376" options="0,MM/dd/yyyy" />
+
+		<datafield name="Date reply 2 received" entryset="Wallace14 Tracker" filename="build\dataset\w14tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1233277762379" options="0,MM/dd/yyyy" />
+		<datafield name="Letter 2 Response" entryset="Wallace14 Tracker" filename="build\dataset\w14tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1233277762382" options="3,#" />
+
 	</componentset>
 </form>
 
