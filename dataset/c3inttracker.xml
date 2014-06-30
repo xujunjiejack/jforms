@@ -84,7 +84,8 @@
 	<data name="Phone 2" field="phone2" template="na" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1233277762398" />
 	<data name="Alternate phone 2" field="altphone2" template="na" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1233277762397" />
 	<data name="Email 2" field="email2" template="na" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1233277762396" />
-	
+	<data name="Email Sent date" field="emailsentdate" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762397" />
+	<data name="Email Notes" field="emailnotes" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762398" />	
 	
 	
 	<dependency field="Best time 1">
