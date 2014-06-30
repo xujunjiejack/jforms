@@ -73,8 +73,8 @@
 		<datafield name="Phone 2" entryset="C3 Interview Tracker" filename="build\dataset\c3inttracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1233277762398" options="" />
 		<datafield name="Alternate phone 2" entryset="C3 Interview Tracker" filename="build\dataset\c3inttracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1233277762397" options="" />
 		<datafield name="Email 2" entryset="C3 Interview Tracker" filename="build\dataset\c3inttracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1233277762396" options="" />
-		
-		
+		<datafield name="Email Sent date" entryset="C3 Interview Tracker" filename="build\dataset\c3inttracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1233277762397" options="0,MM/dd/yyyy" />		
+		<datafield name="Email notes" entryset="C3 Interview Tracker" filename="build\dataset\c3inttracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1233277762398" options="0,MM\dd\yyyy" />			
 		
 	</componentset>
 </form>
