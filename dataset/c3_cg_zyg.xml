@@ -86,11 +86,12 @@
 	<data name="Self Zygosity" field="31a" template="temp1" validator="val13_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048008881125" />
 	<data name="Identical Explain" field="31b" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048008881126" />
 	<data name="Fraternal Reason" field="31c" template="temp1" validator="val13_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048008881127" />
-	<data name="Picture preference" field="32" template="temp1" validator="val12_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.textFieldBox" classid="1048008881128" />
 	<data name="Zygosity" field="go" template="temp1" validator="val13_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048187005989" />
 	<data name="Tricky Zygosity" field="tr" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048187005990" />
 	<data name="Picture Requested" field="pr" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048187005991" />
 	<data name="Picture Included" field="pi" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048187005992" />
+	<data name="Picture preference" field="32" template="temp1" validator="val12_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.textFieldBox" classid="1048008881128" />
+	
 	<dependency field="Type">
 		<parent field="Fertility Drug Use" lowerbound="2147483647" upperbound="2147483647">
 			<enable value="1" />
