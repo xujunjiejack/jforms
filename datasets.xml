@@ -828,5 +828,8 @@
 	<dataset name="Clinical Report Parent" abrv="crp" filename="clinicalreportparent" />
 
 	<dataset name="Wallace14 Tracker" abrv="W14_tr" filename="w14tracker" />
+	
+	<dataset name="Zygosity" abrv="cgzyg" filename="c3_cg_zyg" />
+
 </datasets>
 
