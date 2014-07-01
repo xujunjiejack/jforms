@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
-<dataset name="caregiver Zygosity" abrv="cgzyg" filename="c3_cg_zyg">
+<dataset name="Zygosity" abrv="cgzyg" filename="c3_cg_zyg">
 	<template name="temp1">
 		<name format="" />
 		<field format="zy@ms" />
