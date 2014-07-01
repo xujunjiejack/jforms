@@ -17,8 +17,8 @@
 		<data name="Packet sent" field="w14packetsent" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1403546303374" />
 		<data name="Sender" field="sender" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1403546303375" />
 		<data name="CG 1 Interview Date" field="cg1intdate" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1403546303376" />
-		<data name="CG1 Interviewer" field="cg1int" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1403546303377" />
-		<data name="CG 2 Interview date" field="cg2intdate" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1403546303378" />
+		<data name="CG1 Interviewer" field="cg1int" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1403546303377" />
+		<data name="CG 2 Interview date" field="cg2intdate" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1403546303378" />
 		<data name="CG 2 Interviewer" field="cg2int" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233276104331" />
 		<data name="CG 1 Payment Date" field="cg1pay" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762355" />
 		<data name="CG 1 Payment Amt" field="cg1payam" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233277762356" />
