@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE form SYSTEM "../../dtd/form.dtd">
-<form name="Zygosity" abrv="scrzyg" filename="scrzyg">
+<form name="Caregiver Zygosity report" abrv="cgzyg" filename="c3_cg_zyg">  
 	<dataset file="scrzygosity" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_S_ZY" />
 	<dataset file="zygositytwina" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="GEN_TWINS" />
 	<dataset file="zygositytwinb" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="GEN_TWINS" />
