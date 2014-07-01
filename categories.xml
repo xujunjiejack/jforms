@@ -310,7 +310,7 @@
 		<form name="C3 Interview Tracker" abrv="c3inttracker" filename="c3inttracker" />
 		<form name="Clinical Report - Parent" abrv="c3crp" filename="c3clinicalreportparent" />
 		<form name="Clinical Report - Twin" abrv="c3crtw" filename="c3clinicalreporttwin" />
-		<form name="Caregiver Zygosity" abrv="cgzyg" filename="c3_cg_zyg">
+		<form name="Caregiver Zygosity" abrv="cgzyg" filename="c3_cg_zyg" />
 
 		<subcategory name="CG1 Questionnaire" abrv="c3cg1questionnaire" filename="c3cg1questionnaire">
 			<form name="CG Interview-Twin" abrv="CGinterviewtwin" filename="c3cginterviewtwin" />
