@@ -74,7 +74,8 @@
 		<datafield name="Tricky Zygosity" entryset="Zygosity" filename="build\dataset\c3_cg_zyg.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048187005990" options="" />
 		<datafield name="Picture Requested" entryset="Zygosity" filename="build\dataset\c3_cg_zyg.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048187005991" options="" />
 		<datafield name="Picture Included" entryset="Zygosity" filename="build\dataset\c3_cg_zyg.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048187005992" options="" />
-		<datafield name="Picture Preference" entryset="Zygosity" filename="build\dataset\c3_cg_zyg" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048008881128" options="options" />
- 	</componentset>
+		<datafield name="Picture Preference" entryset="Zygosity" filename="build\dataset\c3_cg_zyg.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1048008881128" options="options" />
+ 	
+	</componentset>
 </form>
 
