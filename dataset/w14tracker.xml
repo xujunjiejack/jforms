@@ -26,7 +26,7 @@
 		<data name="CG 2 Payment Amt" field="cg2payam" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233277762358" />
 		<data name="Wallace14 Complete Date" field="w14comp" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762361" />
 		<data name="Exclude" field="w14exclude" template="na" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233277762362" />
-		<data name="Comments" field="w14comments" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233277762363" />
+		<data name="Comments" field="w14comments" template="na" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1233277762363" />
 		<data name="Address" field="address" template="na" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1233277762364" />
 		<data name="Date letter 1 sent" field="w14ltr1" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762367" />
 		<data name="Date reply 1 received" field="w14cf1" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762370" />
