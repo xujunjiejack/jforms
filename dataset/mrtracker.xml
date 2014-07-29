@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
-<dataset name="Imaging tracker" abrv="mrtracker" filename="mrtracker">
+<dataset name="Imaging Tracker" abrv="mrtracker" filename="mrtracker">
 	<validator name="val14_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="4">
 		<valid value="9999" />
 		<valid value="9998" />
@@ -24,14 +24,15 @@
 	
 	<data name="Priority Score" field="priorityscore" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891234" />
 	<data name="Primary Caregiver" field="cg" template="na" validator="val13_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891237" />
+	
 	<data name="Letter 1 Sent Date" field="mrltr1" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567891240" />
 	<data name="Letter 2 Sent Date" field="mrltr2" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567891243" />
-	<data name="Email 1 Sent Date" field="mremail1" template="na" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567891246" />
-	<data name="Email 2 Sent Date" field="mremail2" template="na" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567891249" />
+	<data name="Email 1 Sent Date" field="mremail1" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567891246" />
+	<data name="Email 2 Sent Date" field="mremail2" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567891249" />
 	
 <!-- check these.... I don't think they are right -->
 	<data name="Contact Note (contactnte)" field="contactnte" template="na" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1234567891252" />
-	<data name="Contact form (contactfrm)" field="contactfrm" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891255" />
+	<data name="Contact Form (contactfrm)" field="contactfrm" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891255" />
 	<data name="Phone Screening" field="phonescrn" template="na" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891258" />
 
 	<data name="Visit Date" field="mrvisit" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567891261" />
