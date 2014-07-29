@@ -7,6 +7,7 @@
 		
 		<datafield name="Priority Score" entryset="" filename="build\dataset\mrtracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1234567891234" options="" />	
 		<datafield name="Primary Caregiver" entryset="Imaging Tracker" filename="build\dataset\mrtracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1234567891237" options="" />
+		
 		<datafield name="Letter 1 Sent Date" entryset="Imaging Tracker" filename="build\dataset\mrtracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1234567891240" options="0,MM/dd/yyyy" />
 		<datafield name="Letter 2 Sent Date" entryset="Imaging Tracker" filename="build\dataset\mrtracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1234567891243" options="0,MM/dd/yyyy" />
 		<datafield name="Email 1 Sent Date" entryset="Imaging Tracker" filename="build\dataset\mrtracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1234567891246" options="0,MM/dd/yyyy" />
@@ -21,6 +22,32 @@
 		<datafield name="E1" entryset="Imaging Tracker" filename="build\dataset\mrtracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1234567891264" options="" />
 		<datafield name="E2" entryset="Imaging Tracker" filename="build\dataset\mrtracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1234567891267" options="" />
 		<datafield name="E3" entryset="Imaging Tracker" filename="build\dataset\mrtracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1234567891270" options="" />
+
+		<datafield name="CG Consent" entryset="Imaging Tracker" filename="build\dataset\mrtracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1234567891273" options="" />
+		<datafield name="CG Questionare" entryset="Imaging Tracker" filename="build\dataset\mrtracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1234567891276" options="" />
+		<datafield name="Twin A Questionare" entryset="Imaging Tracker" filename="build\dataset\mrtracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1234567891279" options="" />
+		<datafield name="Twin B Questionare" entryset="Imaging Tracker" filename="build\dataset\mrtracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1234567891282" options="" />
+		<datafield name="Reactive Cortisol Twin A" entryset="Imaging Tracker" filename="build\dataset\mrtracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1234567891285" options="" />
+		<datafield name="Reactive Cortisol Twin B" entryset="Imaging Tracker" filename="build\dataset\mrtracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1234567891288" options="" />
+		<datafield name="Basal Cortisol Twin A" entryset="Imaging Tracker" filename="build\dataset\mrtracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1234567891291" options="" />
+		<datafield name="Basal Cortisol Twin B" entryset="Imaging Tracker" filename="build\dataset\mrtracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1234567891294" options="" />
+
+		<datafield name="CG Payment Date" entryset="Imaging Tracker" filename="build\dataset\mrtracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1234567891297" options="0,MM/dd/yyyy" />
+		<datafield name="CG Payment Amt" entryset="Imaging Tracker" filename="build\dataset\mrtracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1234567891300" options="" />
+		<datafield name="Tw A Payment Date" entryset="Imaging Tracker" filename="build\dataset\mrtracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1234567891303" options="0,MM/dd/yyyy" />
+		<datafield name="Tw A Payment Amt" entryset="Imaging Tracker" filename="build\dataset\mrtracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1234567891306" options="" />
+		<datafield name="Tw B Payment Date" entryset="Imaging Tracker" filename="build\dataset\mrtracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1234567891309" options="0,MM/dd/yyyy" />
+		<datafield name="Tw B Payment Amt" entryset="Imaging Tracker" filename="build\dataset\mrtracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1234567891312" options="" />
+		
+		<datafield name="Complete Date" entryset="Imaging Tracker" filename="build\dataset\mrtracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1234567891315" options="0,MM/dd/yyyy" />
+		<datafield name="Exclude" entryset="Imaging Tracker" filename="build\dataset\mrtracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1234567891318" options="" />
+		<datafield name="Comments" entryset="Imaging Tracker" filename="build\dataset\mrtracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1234567891321" options="" />
+		
+		<datafield name="phone" entryset="Imaging Tracker" filename="build\dataset\mrtracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1234567891324" options="" />
+		<datafield name="email" entryset="Imaging Tracker" filename="build\dataset\mrtracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1234567891327" options="" />
+	
+			
+
 
 		
 

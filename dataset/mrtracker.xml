@@ -40,7 +40,7 @@
 	<data name="E2" field="mrE2" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891267" />
 	<data name="E3" field="mrE3" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891270" />
 
-	<data name="CG Consent" field="cgconsen" template="na" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891273" />
+	<data name="CG Consent" field="cgconsent" template="na" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891273" />
 
 	<data name="CG Questionare" field="cgmrquest" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891276" />
 	<data name="Twin A Questionare" field="twamrquest" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891279" />
