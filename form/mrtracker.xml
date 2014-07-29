@@ -32,6 +32,8 @@
 		<datafield name="Basal Cortisol Twin A" entryset="Imaging Tracker" filename="build\dataset\mrtracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1234567891291" options="" />
 		<datafield name="Basal Cortisol Twin B" entryset="Imaging Tracker" filename="build\dataset\mrtracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1234567891294" options="" />
 
+		<datafield name="Travel Family" entryset="Imaging Tracker" filename="build\dataset\mrtracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1289879040009" options="" />
+
 		<datafield name="CG Payment Date" entryset="Imaging Tracker" filename="build\dataset\mrtracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1234567891297" options="0,MM/dd/yyyy" />
 		<datafield name="CG Payment Amt" entryset="Imaging Tracker" filename="build\dataset\mrtracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1234567891300" options="" />
 		<datafield name="Tw A Payment Date" entryset="Imaging Tracker" filename="build\dataset\mrtracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1234567891303" options="0,MM/dd/yyyy" />

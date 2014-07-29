@@ -50,7 +50,7 @@
 	<data name="Basal Cortisol Twin A" field="bcorta" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891291" />
 	<data name="Basal Cortisol Twin B" field="bcortb" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891294" />
 
-
+	<data name="Travel Family" field="travelfam" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891295" />
 
 	<data name="CG Payment Date" field="paycg" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567891297" />
 	<data name="CG Payment Amt" field="payamcg" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891300" />
