@@ -33,14 +33,15 @@
 <!-- check these.... I don't think they are right -->
 	<data name="Contact Note (contactnte)" field="contactnte" template="na" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1234567891252" />
 	<data name="Contact Form (contactfrm)" field="contactfrm" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891255" />
-	<data name="Phone Screening" field="phonescrn" template="na" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891258" />
+	<data name="Phone Screening" field="phonescrn" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891258" />
 
 	<data name="Visit Date" field="mrvisit" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567891261" />
 	<data name="E1" field="mrE1" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891264" />
 	<data name="E2" field="mrE2" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891267" />
 	<data name="E3" field="mrE3" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891270" />
 
-	<data name="CG Consent" field="cgconsent" template="na" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891273" />
+	<data name="CG Consent" field="cgconsent" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891273" />
+	<data name="Twin Assent" field="" template="na" validator="" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart." classid="1289879040000" />
 
 	<data name="CG Questionare" field="cgmrquest" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891276" />
 	<data name="Twin A Questionare" field="twamrquest" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891279" />
