@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+THIS IS A CHANGE. Track this
 <!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
 <dataset name="Imaging Tracker" abrv="mrtracker" filename="mrtracker">
 	<validator name="val14_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="4">
@@ -36,12 +37,13 @@
 	<data name="Phone Screening" field="phonescrn" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891258" />
 
 	<data name="Visit Date" field="mrvisit" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567891261" />
-	<data name="E1" field="mrE1" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891264" />
-	<data name="E2" field="mrE2" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891267" />
-	<data name="E3" field="mrE3" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891270" />
+	<data name="Examiner 1" field="mrE1" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891264" />
+	<data name="Examiner 2" field="mrE2" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891267" />
+	<data name="Examiner 3" field="mrE3" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891270" />
 
-	<data name="CG Consent" field="cgconsent" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891273" />
-	<data name="Twin Assent" field="" template="na" validator="" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart." classid="1289879040000" />
+	<data name="CG Consent" field="cgconsent" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567891273" />
+	<data name="Twin A Assent" field="twinaassent" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1389879040000" />
+	<data name="Twin B Assent" field="twinbassent" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1489879040000" />
 
 	<data name="CG Questionare" field="cgmrquest" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891276" />
 	<data name="Twin A Questionare" field="twamrquest" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891279" />
