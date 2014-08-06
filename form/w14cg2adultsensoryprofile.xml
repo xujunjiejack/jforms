@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE form SYSTEM "../../dtd/form.dtd">
-<form name="CG1 Sensory Profile" abrv="w14cg1si" filename="w14cgadultsensoryprofile">
+<form name="CG2 Sensory Profile" abrv="w14cg1si" filename="w14cg2adultsensoryprofile">
 	<template name="temp1">
 		<name format="" />
 		<field format="@m" />
 	</template>
 	
-	<dataset file="p4sensoryprofile" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_w14_AU_M" />
+	<dataset file="p4sensoryprofile" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_w14_AU_F" />
 
 	<key name="Family Id" entryset="Sensory Profile" filename="p4sensoryprofile" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
 	<key name="Data Mode" entryset="Sensory Profile" filename="p4sensoryprofile" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
