@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE form SYSTEM "../../dtd/form.dtd">
-<form name="Child Tester 1 New Zygosity" abrv="p3ct1newzyg" filename="p3ct1newzyg">
+<form name="Twin Zygosity" abrv="c3_twin_zyg" filename="c3_twin_zyg">
 	<template name="temp1">
 		<name format="" />
 		<field format="@e1" />
