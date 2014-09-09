@@ -5,7 +5,7 @@
 		<name format="" />
 		<field format="@e1" />
 	</template>
-	<dataset file="c3_twin_zyg" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_ZY_E1" />
+	<dataset file="c3_twin_zyg" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_c3_ZY_t" />
 	<key name="Family Id" entryset="Zygosity" filename="c3_twin_zyg" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
 	<key name="Data Mode" entryset="Zygosity" filename="c3_twin_zyg" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
 	<componentset name="Zygosity" abrv="zyg" numcols="2" displayheader="true" header="Zygosity">
