@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form name="Child Tester 1 New Zygosity" abrv="p3ct1newzyg" filename="p3ct1newzyg">
+	<template name="temp1">
+		<name format="" />
+		<field format="@e1" />
+	</template>
+	<dataset file="pvrctzy" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_3_ZY_E1" />
+	<key name="Family Id" entryset="Zygosity" filename="pvrctzy" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+	<key name="Data Mode" entryset="Zygosity" filename="pvrctzy" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+	<componentset name="Zygosity" abrv="zyg" numcols="2" displayheader="true" header="Zygosity">
+		<datafield name="1" entryset="Zygosity" filename="build\dataset\pvrctzy.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1267777057343" options="" />
+		<datafield name="2" entryset="Zygosity" filename="build\dataset\pvrctzy.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1267777057344" options="" />
+		<datafield name="3" entryset="Zygosity" filename="build\dataset\pvrctzy.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1267777057345" options="" />
+		<datafield name="5" entryset="Zygosity" filename="build\dataset\pvrctzy.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1267777057346" options="" />
+		<datafield name="6" entryset="Zygosity" filename="build\dataset\pvrctzy.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1267777057347" options="" />
+		<datafield name="7" entryset="Zygosity" filename="build\dataset\pvrctzy.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1267777057348" options="" />
+		<datafield name="9" entryset="Zygosity" filename="build\dataset\pvrctzy.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1267777057349" options="" />
+		<datafield name="9a" entryset="Zygosity" filename="build\dataset\pvrctzy.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1267777057350" options="" />
+		<datafield name="10" entryset="Zygosity" filename="build\dataset\pvrctzy.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1267777057351" options="" />
+		<datafield name="10a" entryset="Zygosity" filename="build\dataset\pvrctzy.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1267777057352" options="" />
+		<datafield name="11" entryset="Zygosity" filename="build\dataset\pvrctzy.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1267777057353" options="" />
+		<datafield name="11a" entryset="Zygosity" filename="build\dataset\pvrctzy.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1267777057354" options="" />
+		<datafield name="12" entryset="Zygosity" filename="build\dataset\pvrctzy.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1267777057355" options="" />
+		<datafield name="13" entryset="Zygosity" filename="build\dataset\pvrctzy.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1267777057356" options="" />
+		<datafield name="14" entryset="Zygosity" filename="build\dataset\pvrctzy.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1267777057357" options="" />
+		<datafield name="Comments" entryset="Zygosity" filename="build\dataset\pvrctzy.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1267777057358" options="" />
+		<datafield name="15" entryset="Zygosity" filename="build\dataset\pvrctzy.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1267777057359" options="" />
+		<datafield name="15a" entryset="Zygosity" filename="build\dataset\pvrctzy.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1267777057360" options="" />
+	</componentset>
+</form>
+
