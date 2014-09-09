@@ -37,9 +37,9 @@
 	<data name="9" field="zy009t" template="na" validator="val12_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1267777057349" />
 	<data name="9a" field="zy09at" template="na" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1267777057350" />
 	<data name="10" field="zy010t" template="na" validator="val12_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1267777057351" />
-	<data name="10a" field="10a" template="na" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1267777057352" />
+	<data name="10a" field="zy10at" template="na" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1267777057352" />
 	<data name="11" field="zy011t" template="na" validator="val12_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1267777057353" />
-	<data name="11a" field="11a" template="na" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1267777057354" />
+	<data name="11a" field="zy11at" template="na" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1267777057354" />
 	<data name="12" field="zy012t" template="na" validator="val06_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1267777057355" />
 	<data name="13" field="zy013t" template="na" validator="val06_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1267777057356" />
 	<data name="14" field="zy014t" template="na" validator="val012_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1267777057357" />
