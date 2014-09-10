@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE form SYSTEM "../../dtd/form.dtd">
 <form name="Twin Zygosity" abrv="c3_twin_zyg" filename="c3_twin_zyg">
-	<template name="temp1">
-		<name format="" />
-		<field format="@e1" />
-	</template>
 	<dataset file="c3_twin_zyg" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_c3_ZY_t" />
 	<key name="Family Id" entryset="Zygosity" filename="c3_twin_zyg" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
 	<key name="Data Mode" entryset="Zygosity" filename="c3_twin_zyg" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
