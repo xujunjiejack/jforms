@@ -334,6 +334,7 @@
 	
 	<category name="Conte 3 - Imaging" abrv="C3" filename="conte3_imaging">
 		<form name="Imaging Tracker" abrv="mrtracker" filename="mrtracker" />
+		<form name="PANAS-Gen" abrv="mrTwQuestPanas_Gen" filename="mrTwQuestPanas_Gen" />
 	</category>
 
 	<category name="Wallace14" abrv="wallace14" filename="Wallace14">
