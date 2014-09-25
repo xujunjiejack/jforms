@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset abrv="Twin Imaging Quest IRI" filename="Twin_Imaging_Quest_IRI" name="Twin Imaging Quest IRI">
+    <validator allowblanks="false" defaultvalue="9998" lowerbound="1" name="1-5" type="INTEGER" upperbound="5">
+        <valid value="9999"/>
+        <valid value="9998"/>
+    </validator>
+    <key field="familyid" name="Family Id" template="na" ui="com.wtp.jforms.ui.control.selection.FamilyId" validator="VARCHAR" value=""/>
+    <key field="twin" name="Twin" template="na" ui="com.wtp.jforms.ui.control.selection.RadioSelector" validator="INTEGER" value=""/>
+    <key field="datamode" name="Data Mode" template="na" ui="com.wtp.jforms.ui.control.selection.RadioSelector" validator="VARCHAR" value=""/>
+    <data classid="1234567890124" dependencies="no" editable="true" field="irfa001t" name="1" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890125" dependencies="no" editable="true" field="irec002t" name="2" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890126" dependencies="no" editable="true" field="irpt003t" name="3" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890127" dependencies="no" editable="true" field="irec004t" name="4" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890128" dependencies="no" editable="true" field="irfa005t" name="5" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890129" dependencies="no" editable="true" field="irpd006t" name="6" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890130" dependencies="no" editable="true" field="irfa007t" name="7" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890131" dependencies="no" editable="true" field="irpd008t" name="8" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890132" dependencies="no" editable="true" field="irec009t" name="9" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890133" dependencies="no" editable="true" field="irpd010t" name="10" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890134" dependencies="no" editable="true" field="irpc011t" name="11" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890135" dependencies="no" editable="true" field="irfa012t" name="12" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890136" dependencies="no" editable="true" field="irpd013t" name="13" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890137" dependencies="no" editable="true" field="irec014t" name="14" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890138" dependencies="no" editable="true" field="irpt015t" name="15" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890139" dependencies="no" editable="true" field="irfa016t" name="16" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890140" dependencies="no" editable="true" field="irpd017t" name="17" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890141" dependencies="no" editable="true" field="irec018t" name="18" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890142" dependencies="no" editable="true" field="irpd019t" name="19" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890143" dependencies="no" editable="true" field="irec020t" name="20" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890144" dependencies="no" editable="true" field="irpt021t" name="21" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890145" dependencies="no" editable="true" field="irec022t" name="22" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890146" dependencies="no" editable="true" field="irfa023t" name="23" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890147" dependencies="no" editable="true" field="irpd024t" name="24" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890148" dependencies="no" editable="true" field="irpt025t" name="25" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890149" dependencies="no" editable="true" field="irfa026t" name="26" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890150" dependencies="no" editable="true" field="irpd027t" name="27" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890151" dependencies="no" editable="true" field="irpt028t" name="28" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+</dataset>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
-<dataset abrv="Imaging Twin Interview BDI" filename="Imaging_Twin_Interview_BDI" name="Imaging Twin Interview BDI">
+<dataset abrv="Imaging Twin Quest BDI" filename="Imaging_Twin_Quest_BDI" name="Imaging Twin Quest BDI">
     <validator allowblanks="true" defaultvalue="9998" lowerbound="2147483647" name="blankformat" type="VARCHAR" upperbound="2147483647">
         <valid value="9999"/>
         <valid value="9998"/>
@@ -15,6 +15,7 @@
     </validator>
     <key field="familyid" name="Family Id" template="na" ui="com.wtp.jforms.ui.control.selection.FamilyId" validator="VARCHAR" value=""/>
     <key field="twin" name="Twin" template="na" ui="com.wtp.jforms.ui.control.selection.RadioSelector" validator="INTEGER" value=""/>
+     <key field="datamode" name="Data Mode" template="na" ui="com.wtp.jforms.ui.control.selection.RadioSelector" validator="VARCHAR" value=""/>
     <data classid="1234567890124" dependencies="no" editable="true" field="bd001t" name="1" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-3"/>
     <data classid="1234567890125" dependencies="no" editable="true" field="bd002t" name="2" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-3"/>
     <data classid="1234567890126" dependencies="no" editable="true" field="bd003t" name="3" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-3"/>
@@ -34,7 +35,7 @@
     <data classid="1234567890140" dependencies="no" editable="true" field="bd017t" name="17" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-3"/>
     <data classid="1234567890141" dependencies="no" editable="true" field="bd018t" name="18" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-3"/>
     <data classid="1234567890142" dependencies="no" editable="true" field="bd18at" name="18a" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="yesno"/>
-    <data classid="1234567890143" dependencies="no" editable="true" field="bd119t" name="19" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-3"/>
+    <data classid="1234567890143" dependencies="no" editable="true" field="bd019t" name="19" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-3"/>
     <data classid="1234567890144" dependencies="no" editable="true" field="bd020t" name="20" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-3"/>
     <data classid="1234567890145" dependencies="no" editable="true" field="bd021t" name="21" template="na" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" validator="blankformat"/>
 </dataset>

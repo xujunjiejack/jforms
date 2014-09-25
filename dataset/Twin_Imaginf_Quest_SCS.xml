@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset abrv="Twin Imaginf Quest SCS" filename="Twin_Imaginf_Quest_SCS" name="Twin Imaginf Quest SCS">
+    <validator allowblanks="false" defaultvalue="9998" lowerbound="1" name="1-3" type="INTEGER" upperbound="3">
+        <valid value="9999"/>
+        <valid value="9998"/>
+    </validator>
+    <validator allowblanks="false" defaultvalue="9998" lowerbound="1" name="1-6" type="INTEGER" upperbound="6">
+        <valid value="9999"/>
+        <valid value="9998"/>
+    </validator>
+    <key field="familyid" name="Family Id" template="na" ui="com.wtp.jforms.ui.control.selection.FamilyId" validator="VARCHAR" value=""/>
+    <key field="twin" name="Twin" template="na" ui="com.wtp.jforms.ui.control.selection.RadioSelector" validator="INTEGER" value=""/>
+    <key field="datamode" name="Data Mode" template="na" ui="com.wtp.jforms.ui.control.selection.RadioSelector" validator="VARCHAR" value=""/>
+    <data classid="1234567890124" dependencies="no" editable="true" field="so001at" name="1a" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-6"/>
+    <data classid="1234567890125" dependencies="no" editable="true" field="so001bt" name="1b" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-3"/>
+    <data classid="1234567890126" dependencies="no" editable="true" field="so002at" name="2a" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-6"/>
+    <data classid="1234567890127" dependencies="no" editable="true" field="so002bt" name="2b" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-3"/>
+    <data classid="1234567890128" dependencies="no" editable="true" field="so003at" name="3a" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-6"/>
+    <data classid="1234567890129" dependencies="no" editable="true" field="so003bt" name="3b" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-3"/>
+    <data classid="1234567890130" dependencies="no" editable="true" field="so004at" name="4a" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-6"/>
+    <data classid="1234567890131" dependencies="no" editable="true" field="so004bt" name="4b" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-3"/>
+    <data classid="1234567890132" dependencies="no" editable="true" field="so005at" name="5a" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-6"/>
+    <data classid="1234567890133" dependencies="no" editable="true" field="so005bt" name="5b" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-3"/>
+    <data classid="1234567890134" dependencies="no" editable="true" field="so006at" name="6a" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-6"/>
+    <data classid="1234567890135" dependencies="no" editable="true" field="so006bt" name="6b" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-3"/>
+    <data classid="1234567890136" dependencies="no" editable="true" field="so007at" name="7a" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-6"/>
+    <data classid="1234567890137" dependencies="no" editable="true" field="so007bt" name="7b" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-3"/>
+    <data classid="1234567890138" dependencies="no" editable="true" field="so008at" name="8a" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-6"/>
+    <data classid="1234567890139" dependencies="no" editable="true" field="so008bt" name="8b" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-3"/>
+    <data classid="1234567890140" dependencies="no" editable="true" field="so009at" name="9a" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-6"/>
+    <data classid="1234567890141" dependencies="no" editable="true" field="so009bt" name="9b" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-3"/>
+    <data classid="1234567890142" dependencies="no" editable="true" field="so010at" name="10a" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-6"/>
+    <data classid="1234567890143" dependencies="no" editable="true" field="so010bt" name="10b" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-3"/>
+    <data classid="1234567890144" dependencies="no" editable="true" field="so011at" name="11a" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-6"/>
+    <data classid="1234567890145" dependencies="no" editable="true" field="so011bt" name="11b" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-3"/>
+    <data classid="1234567890146" dependencies="no" editable="true" field="so012at" name="12a" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-6"/>
+    <data classid="1234567890147" dependencies="no" editable="true" field="so012bt" name="12b" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-3"/>
+    <data classid="1234567890148" dependencies="no" editable="true" field="so013at" name="13a" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-6"/>
+    <data classid="1234567890149" dependencies="no" editable="true" field="so013bt" name="13b" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-3"/>
+    <data classid="1234567890150" dependencies="no" editable="true" field="so014at" name="14a" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-6"/>
+    <data classid="1234567890151" dependencies="no" editable="true" field="so014bt" name="14b" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-3"/>
+    <data classid="1234567890152" dependencies="no" editable="true" field="so015at" name="15a" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-6"/>
+    <data classid="1234567890153" dependencies="no" editable="true" field="so015bt" name="15b" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-3"/>
+    <data classid="1234567890154" dependencies="no" editable="true" field="so016at" name="16a" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-6"/>
+    <data classid="1234567890155" dependencies="no" editable="true" field="so016bt" name="16b" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-3"/>
+    <data classid="1234567890156" dependencies="no" editable="true" field="so017at" name="17a" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-6"/>
+    <data classid="1234567890157" dependencies="no" editable="true" field="so017bt" name="17b" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-3"/>
+    <data classid="1234567890158" dependencies="no" editable="true" field="so018at" name="18a" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-6"/>
+    <data classid="1234567890159" dependencies="no" editable="true" field="so018bt" name="18b" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-3"/>
+    <data classid="1234567890160" dependencies="no" editable="true" field="so019at" name="19a" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-6"/>
+    <data classid="1234567890161" dependencies="no" editable="true" field="so019bt" name="19b" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-3"/>
+    <data classid="1234567890162" dependencies="no" editable="true" field="so020at" name="20a" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-6"/>
+    <data classid="1234567890163" dependencies="no" editable="true" field="so020bt" name="20b" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-3"/>
+</dataset>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset abrv="Twin Quest Imaging DPES" filename="Twin_Quest_Imaging_DPES" name="Twin Quest Imaging DPES">
+    <validator allowblanks="false" defaultvalue="9998" lowerbound="1" name="1-7" type="INTEGER" upperbound="7">
+        <valid value="9999"/>
+        <valid value="9998"/>
+    </validator>
+    <key field="familyid" name="Family Id" template="na" ui="com.wtp.jforms.ui.control.selection.FamilyId" validator="VARCHAR" value=""/>
+    <key field="twin" name="Twin" template="na" ui="com.wtp.jforms.ui.control.selection.RadioSelector" validator="INTEGER" value=""/>
+    <key field="datamode" name="Data Mode" template="na" ui="com.wtp.jforms.ui.control.selection.RadioSelector" validator="VARCHAR" value=""/>
+    <data classid="1234567890124" dependencies="no" editable="true" field="dpco001t" name="1" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890125" dependencies="no" editable="true" field="dpjo002t" name="2" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890126" dependencies="no" editable="true" field="dpho003t" name="3" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890127" dependencies="no" editable="true" field="dpla004t" name="4" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890128" dependencies="no" editable="true" field="dpde005t" name="5" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890129" dependencies="no" editable="true" field="dpcm006t" name="6" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890130" dependencies="no" editable="true" field="dppr007t" name="7" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890131" dependencies="no" editable="true" field="dpgr008t" name="8" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890132" dependencies="no" editable="true" field="dpam009t" name="9" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890133" dependencies="no" editable="true" field="dpaw010t" name="10" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890134" dependencies="no" editable="true" field="dpin011t" name="11" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890135" dependencies="no" editable="true" field="dpco012t" name="12" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890136" dependencies="no" editable="true" field="dpjo013t" name="13" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890137" dependencies="no" editable="true" field="dpho014t" name="14" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890138" dependencies="no" editable="true" field="dpla015t" name="15" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890139" dependencies="no" editable="true" field="dpde016t" name="16" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890140" dependencies="no" editable="true" field="dpcm017t" name="17" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890141" dependencies="no" editable="true" field="dppr018t" name="18" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890142" dependencies="no" editable="true" field="dpgr019t" name="19" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890143" dependencies="no" editable="true" field="dpam020t" name="20" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890144" dependencies="no" editable="true" field="dpaw021t" name="21" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890145" dependencies="no" editable="true" field="dpin022t" name="22" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890146" dependencies="no" editable="true" field="dpco023t" name="23" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890147" dependencies="no" editable="true" field="dpjo024t" name="24" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890148" dependencies="no" editable="true" field="dpho025t" name="25" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890149" dependencies="no" editable="true" field="dpla026t" name="26" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890150" dependencies="no" editable="true" field="dpde027t" name="27" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890151" dependencies="no" editable="true" field="dpcm028t" name="28" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890152" dependencies="no" editable="true" field="dppr029t" name="29" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890153" dependencies="no" editable="true" field="dpgr030t" name="30" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890154" dependencies="no" editable="true" field="dpam031t" name="31" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890155" dependencies="no" editable="true" field="dpaw032t" name="32" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890156" dependencies="no" editable="true" field="dpin033t" name="33" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890157" dependencies="no" editable="true" field="dpco034t" name="34" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890158" dependencies="no" editable="true" field="dpjo035t" name="35" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890159" dependencies="no" editable="true" field="dpho036t" name="36" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890160" dependencies="no" editable="true" field="dpla037t" name="37" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890161" dependencies="no" editable="true" field="dpde038t" name="38" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890162" dependencies="no" editable="true" field="dpcm039t" name="39" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890163" dependencies="no" editable="true" field="dppr040t" name="40" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890164" dependencies="no" editable="true" field="dpgr041t" name="41" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890165" dependencies="no" editable="true" field="dpam042t" name="42" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890166" dependencies="no" editable="true" field="dpaw043t" name="43" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890167" dependencies="no" editable="true" field="dpin044t" name="44" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890168" dependencies="no" editable="true" field="dpco045t" name="45" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890169" dependencies="no" editable="true" field="dpjo046t" name="46" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890170" dependencies="no" editable="true" field="dpho047t" name="47" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890171" dependencies="no" editable="true" field="dpla048t" name="48" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890172" dependencies="no" editable="true" field="dpde049t" name="49" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890173" dependencies="no" editable="true" field="dpcm050t" name="50" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890174" dependencies="no" editable="true" field="dppr051t" name="51" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890175" dependencies="no" editable="true" field="dpgr052t" name="52" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890176" dependencies="no" editable="true" field="dpam053t" name="53" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890177" dependencies="no" editable="true" field="dpaw054t" name="54" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890178" dependencies="no" editable="true" field="dpin055t" name="55" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890179" dependencies="no" editable="true" field="dpco056t" name="56" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890180" dependencies="no" editable="true" field="dpjo057t" name="57" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890181" dependencies="no" editable="true" field="dpho058t" name="58" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890182" dependencies="no" editable="true" field="dpla059t" name="59" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890183" dependencies="no" editable="true" field="dpde060t" name="60" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890184" dependencies="no" editable="true" field="dpcm061t" name="61" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890185" dependencies="no" editable="true" field="dppr062t" name="62" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890186" dependencies="no" editable="true" field="dpgr063t" name="63" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890187" dependencies="no" editable="true" field="dpam064t" name="64" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890188" dependencies="no" editable="true" field="dpaw065t" name="65" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890189" dependencies="no" editable="true" field="dpin066t" name="66" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890190" dependencies="no" editable="true" field="dpco067t" name="67" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890191" dependencies="no" editable="true" field="dpjo068t" name="68" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890192" dependencies="no" editable="true" field="dpho069t" name="69" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890193" dependencies="no" editable="true" field="dpla070t" name="70" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890194" dependencies="no" editable="true" field="dpde071t" name="71" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890195" dependencies="no" editable="true" field="dpcm072t" name="72" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890196" dependencies="no" editable="true" field="dppr073t" name="73" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890197" dependencies="no" editable="true" field="dpaw074t" name="74" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+    <data classid="1234567890198" dependencies="no" editable="true" field="dpin075t" name="75" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-7"/>
+</dataset>

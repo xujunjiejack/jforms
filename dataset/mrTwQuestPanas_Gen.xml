@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
-<dataset abrv="mrTwQuestPanas_Gen" filename="mrTwQuestPanas_Gen" name="PANAS-Gen">
+<dataset abrv="mrTwQuestPanas_Gen" filename="mrTwQuestPanas_Gen" name="mrTwQuestPanas_Gen">
     <validator name="val1_5" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1"  upperbound="5">
 		<valid value="9999" />
 		<valid value="9998" />
@@ -8,6 +8,7 @@
 
      <key field="familyid" name="Family Id" template="na" ui="com.wtp.jforms.ui.control.selection.FamilyId" validator="VARCHAR" value=""/>
     <key field="datamode" name="Data Mode" template="na" ui="com.wtp.jforms.ui.control.selection.RadioSelector" validator="VARCHAR" value=""/>
+    <key field="twin" name="Twin" template="na" ui="com.wtp.jforms.ui.control.selection.RadioSelector" validator="INTEGER" value=""/>
     <data classid="1234567890124" dependencies="no" editable="true" field="papa01t" name="Interested" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="val1_5"/>
     <data classid="1234567890125" dependencies="no" editable="true" field="pana02t" name="Distressed" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="val1_5"/>
     <data classid="1234567890126" dependencies="no" editable="true" field="papa03t" name="Excited" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="val1_5"/>
