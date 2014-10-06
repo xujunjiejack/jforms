@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form abrv="Twin Imaging Quest alcohol and tobacco" filename="Twin_Imaging_Quest_alcohol_and_tobacco" name="Twin Imaging Quest alcohol and tobacco">
+    <dataset connection="MySQL:mysql.waisman.wisc.edu/wtp_data" file="Twin_Imaging_Quest_alcohol_and_tobacco" tablename="data_mr_at_t"/>
+    <key class="com.wtp.jforms.ui.control.selection.FamilyId" entryset="Twin Imaging Quest alcohol and tobacco" filename="build\dataset\Twin_Imaging_Quest_alcohol_and_tobacco.xml" name="Family Id" options="MySQL:mysql.waisman.wisc.edu/wtp_data,GEN_FAMILY,familyid"/>
+    <key class="com.wtp.jforms.ui.control.selection.RadioSelector" entryset="Twin Imaging Quest alcohol and tobacco" filename="build\dataset\Twin_Imaging_Quest_alcohol_and_tobacco.xml" name="Twin" options="Twin,A:1,B:2"/>
+    <key class="com.wtp.jforms.ui.control.selection.RadioSelector" entryset="Twin Imaging Quest alcohol and tobacco" filename="build\dataset\Twin_Imaging_Quest_alcohol_and_tobacco.xml" name="Data Mode" options="Data Mode,Entry:Entry,Check:Check"/>
+    <componentset abrv="Twin Imaging Quest alcohol and tobacco" displayheader="true" header="Twin Imaging Quest alcohol and tobacco" name="Twin Imaging Quest alcohol and tobacco" numcols="2">
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890124" editable="true" entryset="Twin Imaging Quest alcohol and tobacco" filename="build\dataset\Twin_Imaging_Quest_alcohol_and_tobacco.xml" name="1" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890125" editable="true" entryset="Twin Imaging Quest alcohol and tobacco" filename="build\dataset\Twin_Imaging_Quest_alcohol_and_tobacco.xml" name="2" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890126" editable="true" entryset="Twin Imaging Quest alcohol and tobacco" filename="build\dataset\Twin_Imaging_Quest_alcohol_and_tobacco.xml" name="3" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890127" editable="true" entryset="Twin Imaging Quest alcohol and tobacco" filename="build\dataset\Twin_Imaging_Quest_alcohol_and_tobacco.xml" name="4" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890128" editable="true" entryset="Twin Imaging Quest alcohol and tobacco" filename="build\dataset\Twin_Imaging_Quest_alcohol_and_tobacco.xml" name="5" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890129" editable="true" entryset="Twin Imaging Quest alcohol and tobacco" filename="build\dataset\Twin_Imaging_Quest_alcohol_and_tobacco.xml" name="6" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890130" editable="true" entryset="Twin Imaging Quest alcohol and tobacco" filename="build\dataset\Twin_Imaging_Quest_alcohol_and_tobacco.xml" name="7" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890131" editable="true" entryset="Twin Imaging Quest alcohol and tobacco" filename="build\dataset\Twin_Imaging_Quest_alcohol_and_tobacco.xml" name="7a" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890132" editable="true" entryset="Twin Imaging Quest alcohol and tobacco" filename="build\dataset\Twin_Imaging_Quest_alcohol_and_tobacco.xml" name="7b" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890133" editable="true" entryset="Twin Imaging Quest alcohol and tobacco" filename="build\dataset\Twin_Imaging_Quest_alcohol_and_tobacco.xml" name="8" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890134" editable="true" entryset="Twin Imaging Quest alcohol and tobacco" filename="build\dataset\Twin_Imaging_Quest_alcohol_and_tobacco.xml" name="9" options="" type="0"/>
+    </componentset>
+</form>

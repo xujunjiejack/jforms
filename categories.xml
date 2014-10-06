@@ -334,7 +334,7 @@
 	
 	<category name="Conte 3 - Imaging" abrv="C3" filename="conte3_imaging">
 		<form name="Imaging Tracker" abrv="mrtracker" filename="mrtracker" />
-		<form abrv="Imaging Twin Questionnaire" filename="Imaging_Twin_Questionnaire" name="Imaging Twin Questionnaire" />
+		<form abrv="Twin Imaging Questionnaire" filename="Twin_Imaging_Questionnaire" name="Twin Imaging Questionnaire" />
 	</category>
 
 	<category name="Wallace14" abrv="wallace14" filename="Wallace14">

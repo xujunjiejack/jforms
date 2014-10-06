@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset abrv="data_mr_at_t" filename="Twin_Imaging_Quest_alcohol_and_tobacco" name="Twin Imaging Quest alcohol and tobacco">
+    <validator allowblanks="false" defaultvalue="9998" lowerbound="0" name="yesno" type="INTEGER" upperbound="1">
+        <valid value="9999"/>
+        <valid value="9998"/>
+    </validator>
+    <validator allowblanks="false" defaultvalue="9998" lowerbound="0" name="age" type="INTEGER" upperbound="200">
+        <valid value="9999"/>
+        <valid value="9998"/>
+    </validator>
+    <validator allowblanks="false" defaultvalue="9998" lowerbound="0" name="days" type="INTEGER" upperbound="30">
+        <valid value="9999"/>
+        <valid value="9998"/>
+    </validator>
+    <validator allowblanks="false" defaultvalue="9998" lowerbound="0" name="drinks" type="INTEGER" upperbound="2000000">
+        <valid value="9999"/>
+        <valid value="9998"/>
+    </validator>
+    <validator allowblanks="false" defaultvalue="9998" lowerbound="1" name="1-4" type="INTEGER" upperbound="4">
+        <valid value="9999"/>
+        <valid value="9998"/>
+    </validator>
+    <key field="familyid" name="Family Id" template="na" ui="com.wtp.jforms.ui.control.selection.FamilyId" validator="VARCHAR" value=""/>
+    <key field="twin" name="Twin" template="na" ui="com.wtp.jforms.ui.control.selection.RadioSelector" validator="INTEGER" value=""/>
+    <key field="datamode" name="Data Mode" template="na" ui="com.wtp.jforms.ui.control.selection.RadioSelector" validator="VARCHAR" value=""/>
+    <data classid="1234567890124" dependencies="no" editable="true" field="at001t" name="1" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="yesno"/>
+    <data classid="1234567890125" dependencies="no" editable="true" field="at002t" name="2" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="age"/>
+    <data classid="1234567890126" dependencies="no" editable="true" field="at003t" name="3" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="days"/>
+    <data classid="1234567890127" dependencies="no" editable="true" field="at004t" name="4" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="drinks"/>
+    <data classid="1234567890128" dependencies="no" editable="true" field="at005t" name="5" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="yesno"/>
+    <data classid="1234567890129" dependencies="no" editable="true" field="at006t" name="6" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="age"/>
+    <data classid="1234567890130" dependencies="no" editable="true" field="at007t" name="7" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="yesno"/>
+    <data classid="1234567890131" dependencies="no" editable="true" field="at07at" name="7a" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="days"/>
+    <data classid="1234567890132" dependencies="no" editable="true" field="at07bt" name="7b" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-4"/>
+    <data classid="1234567890133" dependencies="no" editable="true" field="at008t" name="8" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="yesno"/>
+    <data classid="1234567890134" dependencies="no" editable="true" field="at009t" name="9" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="age"/>
+    <dependency field="7a">
+        <parent field="7" lowerbound="214783647" upperbound="214783647">
+            <enable value="1"/>
+        </parent>
+    </dependency>
+    <dependency field="7b">
+        <parent field="7" lowerbound="214783647" upperbound="214783647">
+            <enable value="1"/>
+        </parent>
+    </dependency>
+</dataset>

@@ -847,6 +847,7 @@
 	<dataset abrv="Twin Imaging Quest PANAS post" filename="Twin_Imaging_Quest_PANAS_post" name="Twin Imaging Quest PANAS post" />
 	<dataset abrv="Twin Imaging Quest STAI post" filename="Twin_Imaging_Quest_STAI_post" name="Twin Imaging Quest STAI post" />
 	<dataset abrv="Twin Quest Imaging DPES" filename="Twin_Quest_Imaging_DPES" name="Twin Quest Imaging DPES" />
-
+	<dataset abrv="data_mr_at_t" filename="Twin_Imaging_Quest_alcohol_and_tobacco" name="Twin Imaging Quest alcohol and tobacco" />
+	<dataset abrv="data_mr_pq_t" filename="Twin_Imaging_PSQ" name="Twin Imaging PSQ" />
 </datasets>
 

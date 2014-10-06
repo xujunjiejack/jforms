@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset abrv="data_mr_pq_t" filename="Twin_Imaging_PSQ" name="Twin Imaging PSQ">
+    <validator allowblanks="false" defaultvalue="9998" lowerbound="0" name="yesno" type="INTEGER" upperbound="1">
+        <valid value="9999"/>
+        <valid value="9998"/>
+    </validator>
+    <validator allowblanks="false" defaultvalue="9998" lowerbound="0" name="time" type="INTEGER" upperbound="2400">
+        <valid value="9999"/>
+        <valid value="9998"/>
+    </validator>
+    <validator allowblanks="false" defaultvalue="9998" lowerbound="0" name="to_sleep" type="INTEGER" upperbound="1440">
+        <valid value="9999"/>
+        <valid value="9998"/>
+    </validator>
+    <validator allowblanks="false" defaultvalue="9998" lowerbound="0" name="sleep_time" type="INTEGER" upperbound="24">
+        <valid value="9999"/>
+        <valid value="9998"/>
+    </validator>
+    <validator allowblanks="false" defaultvalue="9998" lowerbound="1" name="1-4" type="INTEGER" upperbound="4">
+        <valid value="9999"/>
+        <valid value="9998"/>
+    </validator>
+    <key field="familyid" name="Family Id" template="na" ui="com.wtp.jforms.ui.control.selection.FamilyId" validator="VARCHAR" value=""/>
+    <key field="twin" name="Twin" template="na" ui="com.wtp.jforms.ui.control.selection.RadioSelector" validator="INTEGER" value=""/>
+    <key field="datamode" name="Data Mode" template="na" ui="com.wtp.jforms.ui.control.selection.RadioSelector" validator="VARCHAR" value=""/>
+    <data classid="1234567880124" dependencies="no" editable="true" field="pq001t" name="1" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="time"/>
+    <data classid="1234567880325" dependencies="no" editable="true" field="pq002t" name="2" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="to_sleep"/>
+    <data classid="1234567880526" dependencies="no" editable="true" field="pq003t" name="3" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="time"/>
+    <data classid="1234567880727" dependencies="no" editable="true" field="pq4mnt" name="4min" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="sleep_time"/>
+    <data classid="1234567880928" dependencies="no" editable="true" field="pq4mxt" name="4max" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="sleep_time"/>
+    <data classid="1234567881129" dependencies="no" editable="true" field="pq05at" name="5a" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-4"/>
+    <data classid="1234567881330" dependencies="no" editable="true" field="pq05bt" name="5b" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-4"/>
+    <data classid="1234567881531" dependencies="no" editable="true" field="pq05ct" name="5c" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-4"/>
+    <data classid="1234567881732" dependencies="no" editable="true" field="pq05dt" name="5d" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-4"/>
+    <data classid="1234567881933" dependencies="no" editable="true" field="pq05et" name="5e" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-4"/>
+    <data classid="1234567882134" dependencies="no" editable="true" field="pq05ft" name="5f" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-4"/>
+    <data classid="1234567882335" dependencies="no" editable="true" field="pq05gt" name="5g" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-4"/>
+    <data classid="1234567882536" dependencies="no" editable="true" field="pq05ht" name="5h" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-4"/>
+    <data classid="1234567882737" dependencies="no" editable="true" field="pq05it" name="5i" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-4"/>
+    <data classid="1234567882938" dependencies="no" editable="true" field="pq05jt" name="5j" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-4"/>
+    <data classid="1234567883139" dependencies="no" editable="true" field="pq5jext" name="5j explain" template="na" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" validator="MEMO"/>
+    <data classid="1234567883340" dependencies="no" editable="true" field="pq05kt" name="5k" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-4"/>
+    <data classid="1234567883541" dependencies="no" editable="true" field="pq5kext" name="5k explain" template="na" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" validator="MEMO"/>
+    <data classid="1234567883742" dependencies="no" editable="true" field="pq006t" name="6" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-4"/>
+    <data classid="1234567883943" dependencies="no" editable="true" field="pq007t" name="7" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-4"/>
+    <data classid="1234567884144" dependencies="no" editable="true" field="pq008t" name="8" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-4"/>
+    <data classid="1234567884345" dependencies="no" editable="true" field="pq009t" name="9" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-4"/>
+    <data classid="1234567884546" dependencies="no" editable="true" field="pq11at" name="11a" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-4"/>
+    <data classid="1234567884747" dependencies="no" editable="true" field="pq11bt" name="11b" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-4"/>
+    <data classid="1234567884948" dependencies="no" editable="true" field="pq11ct" name="11c" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-4"/>
+    <data classid="1234567885149" dependencies="no" editable="true" field="pq11dt" name="11d" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-4"/>
+    <data classid="1234567885350" dependencies="no" editable="true" field="pq11et" name="11e" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-4"/>
+    <data classid="1234567885551" dependencies="no" editable="true" field="pq11eext" name="11e explain" template="na" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" validator="MEMO"/>
+    <data classid="1234567885752" dependencies="no" editable="true" field="pq12at" name="12a" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="yesno"/>
+    <data classid="1234567885953" dependencies="no" editable="true" field="pq12bt" name="12b" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="yesno"/>
+    <data classid="1234567886154" dependencies="no" editable="true" field="pq12ct" name="12c" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="yesno"/>
+    <data classid="1234567886355" dependencies="no" editable="true" field="pq12dt" name="12d" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="yesno"/>
+    <data classid="1234567886556" dependencies="no" editable="true" field="pq12et" name="12e" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="yesno"/>
+    <data classid="1234567886757" dependencies="no" editable="true" field="pq12ft" name="12f" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="yesno"/>
+    <data classid="1234567886958" dependencies="no" editable="true" field="pq12gt" name="12g" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="yesno"/>
+    <data classid="1234567887159" dependencies="no" editable="true" field="pq12ht" name="12h" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="yesno"/>
+    <data classid="1234567887360" dependencies="no" editable="true" field="pq12it" name="12i" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="yesno"/>
+    <dependency field="5j explain">
+        <parent field="5j" lowerbound="1" upperbound="4"/>
+    </dependency>
+    <dependency field="5k explain">
+        <parent field="5k" lowerbound="1" upperbound="4"/>
+    </dependency>
+    <dependency field="11e explain">
+        <parent field="11e" lowerbound="1" upperbound="4"/>
+    </dependency>
+</dataset>

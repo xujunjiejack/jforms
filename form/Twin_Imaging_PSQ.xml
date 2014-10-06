@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form abrv="Twin Imaging PSQ" filename="Twin_Imaging_PSQ" name="Twin Imaging PSQ">
+    <dataset connection="MySQL:mysql.waisman.wisc.edu/wtp_data" file="Twin_Imaging_PSQ" tablename="data_mr_pq_t"/>
+    <key class="com.wtp.jforms.ui.control.selection.FamilyId" entryset="Twin Imaging PSQ" filename="build\dataset\Twin_Imaging_PSQ.xml" name="Family Id" options="MySQL:mysql.waisman.wisc.edu/wtp_data,GEN_FAMILY,familyid"/>
+    <key class="com.wtp.jforms.ui.control.selection.RadioSelector" entryset="Twin Imaging PSQ" filename="build\dataset\Twin_Imaging_PSQ.xml" name="Twin" options="Twin,A:1,B:2"/>
+    <key class="com.wtp.jforms.ui.control.selection.RadioSelector" entryset="Twin Imaging PSQ" filename="build\dataset\Twin_Imaging_PSQ.xml" name="Data Mode" options="Data Mode,Entry:Entry,Check:Check"/>
+    <componentset abrv="Twin Imaging PSQ" displayheader="true" header="Twin Imaging PSQ" name="Twin Imaging PSQ" numcols="2">
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2224567880124" editable="true" entryset="Twin Imaging PSQ" filename="build\dataset\Twin_Imaging_PSQ.xml" name="1" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2234567880325" editable="true" entryset="Twin Imaging PSQ" filename="build\dataset\Twin_Imaging_PSQ.xml" name="2" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2244567880526" editable="true" entryset="Twin Imaging PSQ" filename="build\dataset\Twin_Imaging_PSQ.xml" name="3" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2254567880727" editable="true" entryset="Twin Imaging PSQ" filename="build\dataset\Twin_Imaging_PSQ.xml" name="4min" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2264567880928" editable="true" entryset="Twin Imaging PSQ" filename="build\dataset\Twin_Imaging_PSQ.xml" name="4max" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2274567881129" editable="true" entryset="Twin Imaging PSQ" filename="build\dataset\Twin_Imaging_PSQ.xml" name="5a" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2284567881330" editable="true" entryset="Twin Imaging PSQ" filename="build\dataset\Twin_Imaging_PSQ.xml" name="5b" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2294567881531" editable="true" entryset="Twin Imaging PSQ" filename="build\dataset\Twin_Imaging_PSQ.xml" name="5c" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2304567881732" editable="true" entryset="Twin Imaging PSQ" filename="build\dataset\Twin_Imaging_PSQ.xml" name="5d" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2314567881933" editable="true" entryset="Twin Imaging PSQ" filename="build\dataset\Twin_Imaging_PSQ.xml" name="5e" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2324567882134" editable="true" entryset="Twin Imaging PSQ" filename="build\dataset\Twin_Imaging_PSQ.xml" name="5f" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2334567882335" editable="true" entryset="Twin Imaging PSQ" filename="build\dataset\Twin_Imaging_PSQ.xml" name="5g" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2344567882536" editable="true" entryset="Twin Imaging PSQ" filename="build\dataset\Twin_Imaging_PSQ.xml" name="5h" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2354567882737" editable="true" entryset="Twin Imaging PSQ" filename="build\dataset\Twin_Imaging_PSQ.xml" name="5i" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2364567882938" editable="true" entryset="Twin Imaging PSQ" filename="build\dataset\Twin_Imaging_PSQ.xml" name="5j" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="2374567883139" editable="true" entryset="Twin Imaging PSQ" filename="build\dataset\Twin_Imaging_PSQ.xml" name="5j explain" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2384567883340" editable="true" entryset="Twin Imaging PSQ" filename="build\dataset\Twin_Imaging_PSQ.xml" name="5k" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="2394567883541" editable="true" entryset="Twin Imaging PSQ" filename="build\dataset\Twin_Imaging_PSQ.xml" name="5k explain" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2404567883742" editable="true" entryset="Twin Imaging PSQ" filename="build\dataset\Twin_Imaging_PSQ.xml" name="6" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2414567883943" editable="true" entryset="Twin Imaging PSQ" filename="build\dataset\Twin_Imaging_PSQ.xml" name="7" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2424567884144" editable="true" entryset="Twin Imaging PSQ" filename="build\dataset\Twin_Imaging_PSQ.xml" name="8" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2434567884345" editable="true" entryset="Twin Imaging PSQ" filename="build\dataset\Twin_Imaging_PSQ.xml" name="9" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2444567884546" editable="true" entryset="Twin Imaging PSQ" filename="build\dataset\Twin_Imaging_PSQ.xml" name="11a" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2454567884747" editable="true" entryset="Twin Imaging PSQ" filename="build\dataset\Twin_Imaging_PSQ.xml" name="11b" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2464567884948" editable="true" entryset="Twin Imaging PSQ" filename="build\dataset\Twin_Imaging_PSQ.xml" name="11c" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2474567885149" editable="true" entryset="Twin Imaging PSQ" filename="build\dataset\Twin_Imaging_PSQ.xml" name="11d" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2484567885350" editable="true" entryset="Twin Imaging PSQ" filename="build\dataset\Twin_Imaging_PSQ.xml" name="11e" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="2494567885551" editable="true" entryset="Twin Imaging PSQ" filename="build\dataset\Twin_Imaging_PSQ.xml" name="11e explain" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2504567885752" editable="true" entryset="Twin Imaging PSQ" filename="build\dataset\Twin_Imaging_PSQ.xml" name="12a" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2514567885953" editable="true" entryset="Twin Imaging PSQ" filename="build\dataset\Twin_Imaging_PSQ.xml" name="12b" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2524567886154" editable="true" entryset="Twin Imaging PSQ" filename="build\dataset\Twin_Imaging_PSQ.xml" name="12c" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2534567886355" editable="true" entryset="Twin Imaging PSQ" filename="build\dataset\Twin_Imaging_PSQ.xml" name="12d" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2544567886556" editable="true" entryset="Twin Imaging PSQ" filename="build\dataset\Twin_Imaging_PSQ.xml" name="12e" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2554567886757" editable="true" entryset="Twin Imaging PSQ" filename="build\dataset\Twin_Imaging_PSQ.xml" name="12f" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2564567886958" editable="true" entryset="Twin Imaging PSQ" filename="build\dataset\Twin_Imaging_PSQ.xml" name="12g" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2574567887159" editable="true" entryset="Twin Imaging PSQ" filename="build\dataset\Twin_Imaging_PSQ.xml" name="12h" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2584567887360" editable="true" entryset="Twin Imaging PSQ" filename="build\dataset\Twin_Imaging_PSQ.xml" name="12i" options="" type="0"/>
+    </componentset>
+</form>
