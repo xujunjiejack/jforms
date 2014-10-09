@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
-<dataset abrv="Imaging Twin Quest PANAS-Initial" filename="Imaging_Twin_Quest_PANAS-Initial" name="Imaging Twin Quest PANAS-Initial">
+<dataset abrv="Imaging Twin Quest PANA-Initial" filename="Imaging_Twin_Quest_PANAS-Initial" name="PANAS-NOW Initial">
     <validator allowblanks="true" defaultvalue="9998" lowerbound="2147483647" name="blankformat" type="VARCHAR" upperbound="2147483647">
         <valid value="9999"/>
         <valid value="9998"/>
@@ -18,7 +18,7 @@
     <data classid="1234567890127" dependencies="no" editable="true" field="pana04t" name="Upset" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
     <data classid="1234567890128" dependencies="no" editable="true" field="papa05t" name="Strong" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
     <data classid="1234567890129" dependencies="no" editable="true" field="pana06t" name="Guilty" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
-    <data classid="1234567890130" dependencies="no" editable="true" field="pana07t" name="scared" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890130" dependencies="no" editable="true" field="pana07t" name="Scared" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
     <data classid="1234567890131" dependencies="no" editable="true" field="pana08t" name="Hostile" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
     <data classid="1234567890132" dependencies="no" editable="true" field="papa09t" name="Enthusiastic" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
     <data classid="1234567890133" dependencies="no" editable="true" field="papa10t" name="Proud" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>

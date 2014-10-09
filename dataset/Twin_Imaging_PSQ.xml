@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
-<dataset abrv="data_mr_pq_t" filename="Twin_Imaging_PSQ" name="Twin Imaging PSQ">
+<dataset abrv="data_mr_pq_t" filename="Twin_Imaging_PSQ" name="PSQ">
     <validator allowblanks="false" defaultvalue="9998" lowerbound="0" name="yesno" type="INTEGER" upperbound="1">
         <valid value="9999"/>
         <valid value="9998"/>

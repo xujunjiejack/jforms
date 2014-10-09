@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
-<dataset abrv="Twin Imaginf Quest SCS" filename="Twin_Imaginf_Quest_SCS" name="Twin Imaginf Quest SCS">
+<dataset abrv="Twin Imaginf Quest SCS" filename="Twin_Imaginf_Quest_SCS" name="SCS">
     <validator allowblanks="false" defaultvalue="9998" lowerbound="1" name="1-3" type="INTEGER" upperbound="3">
         <valid value="9999"/>
         <valid value="9998"/>

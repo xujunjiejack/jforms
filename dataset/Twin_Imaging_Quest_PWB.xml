@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
-<dataset abrv="Twin Imaging Quest PWB" filename="Twin_Imaging_Quest_PWB" name="Twin Imaging Quest PWB">
+<dataset abrv="Twin Imaging Quest PWB" filename="Twin_Imaging_Quest_PWB" name="PWB">
     <validator allowblanks="false" defaultvalue="9998" lowerbound="1" name="1-6" type="INTEGER" upperbound="6">
         <valid value="9999"/>
         <valid value="9998"/>

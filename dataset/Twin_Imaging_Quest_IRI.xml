@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
-<dataset abrv="Twin Imaging Quest IRI" filename="Twin_Imaging_Quest_IRI" name="Twin Imaging Quest IRI">
+<dataset abrv="Twin Imaging Quest IRI" filename="Twin_Imaging_Quest_IRI" name="IRI">
     <validator allowblanks="false" defaultvalue="9998" lowerbound="1" name="1-5" type="INTEGER" upperbound="5">
         <valid value="9999"/>
         <valid value="9998"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
-<dataset abrv="data_mr_at_t" filename="Twin_Imaging_Quest_alcohol_and_tobacco" name="Twin Imaging Quest alcohol and tobacco">
+<dataset abrv="data_mr_at_t" filename="Twin_Imaging_Quest_alcohol_and_tobacco" name="Alcohol and Tobacco Use">
     <validator allowblanks="false" defaultvalue="9998" lowerbound="0" name="yesno" type="INTEGER" upperbound="1">
         <valid value="9999"/>
         <valid value="9998"/>

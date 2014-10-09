@@ -833,21 +833,21 @@
 	<dataset name="Zygosity" abrv="cgzyg" filename="c3_cg_zyg" />
 	<dataset name="Imaging tracker" abrv="mrtracker" filename="mrtracker" />
 
-	<dataset abrv="mrTwQuestPanas_Gen" filename="mrTwQuestPanas_Gen" name="PANAS-Gen" />
-	<dataset abrv="Imaging Twin Quest PANA-Initial" filename="Imaging_Twin_Quest_PANAS-Initial" name="Imaging Twin Quest PANAS-Initial" />
-	<dataset abrv="Imaging Twin Quest BDI" filename="Imaging_Twin_Quest_BDI" name="Imaging Twin Quest BDI" />
-	<dataset abrv="Twin Imaging Quest ASI" filename="Twin_Imaging_Quest_ASI" name="Twin Imaging Quest ASI" />
-	<dataset abrv="Twin Imaging Quest IRI" filename="Twin_Imaging_Quest_IRI" name="Twin Imaging Quest IRI" />
-	<dataset abrv="Twin Imaging Quest ERQ" filename="Twin_Imaging_Quest_ERQ" name="Twin Imaging Quest ERQ" />
-	<dataset abrv="Twin Imagine Quest MCSD" filename="Twin_Imagine_Quest_MCSD" name="Twin Imagine Quest MCSD" />
-	<dataset abrv="Twin Imaginf Quest SCS" filename="Twin_Imaginf_Quest_SCS" name="Twin Imaginf Quest SCS" />
-	<dataset abrv="Twin Imaging Quest PWB" filename="Twin_Imaging_Quest_PWB" name="Twin Imaging Quest PWB" />
-	<dataset abrv="Twin Imaging Quest STAI int" filename="Twin_Imaging_Quest_STAI_int" name="Twin Imaging Quest STAI int" />
-	<dataset abrv="Twin Imaging Quest PANAS pre" filename="Twin_Imaging_Quest_PANAS_pre" name="Twin Imaging Quest PANAS pre" />
-	<dataset abrv="Twin Imaging Quest PANAS post" filename="Twin_Imaging_Quest_PANAS_post" name="Twin Imaging Quest PANAS post" />
-	<dataset abrv="Twin Imaging Quest STAI post" filename="Twin_Imaging_Quest_STAI_post" name="Twin Imaging Quest STAI post" />
-	<dataset abrv="Twin Quest Imaging DPES" filename="Twin_Quest_Imaging_DPES" name="Twin Quest Imaging DPES" />
-	<dataset abrv="data_mr_at_t" filename="Twin_Imaging_Quest_alcohol_and_tobacco" name="Twin Imaging Quest alcohol and tobacco" />
+	<dataset abrv="mrTwQuestPanas_Gen" filename="mrTwQuestPanas_Gen" name="PANAS Gen" />
+	<dataset abrv="Imaging Twin Quest PANA-Initial" filename="Imaging_Twin_Quest_PANAS-Initial" name="PANAS-NOW Initial" />
+	<dataset abrv="Imaging Twin Quest BDI" filename="Imaging_Twin_Quest_BDI" name="BDI" />
+	<dataset abrv="Twin Imaging Quest ASI" filename="Twin_Imaging_Quest_ASI" name="ASI" />
+	<dataset abrv="Twin Imaging Quest IRI" filename="Twin_Imaging_Quest_IRI" name="IRI" />
+	<dataset abrv="Twin Imaging Quest ERQ" filename="Twin_Imaging_Quest_ERQ" name="ERQ" />
+	<dataset abrv="Twin Imagine Quest MCSD" filename="Twin_Imagine_Quest_MCSD" name="MCSD" />
+	<dataset abrv="Twin Imaginf Quest SCS" filename="Twin_Imaginf_Quest_SCS" name="SCS" />
+	<dataset abrv="Twin Imaging Quest PWB" filename="Twin_Imaging_Quest_PWB" name="PWB" />
+	<dataset abrv="Twin Imaging Quest STAI int" filename="Twin_Imaging_Quest_STAI_int" name="STAI initial" />
+	<dataset abrv="Twin Imaging Quest PANAS pre" filename="Twin_Imaging_Quest_PANAS_pre" name="PANAS-NOW pre-scan" />
+	<dataset abrv="Twin Imaging Quest PANAS post" filename="Twin_Imaging_Quest_PANAS_post" name="PANAS-NOW post-scan" />
+	<dataset abrv="Twin Imaging Quest STAI post" filename="Twin_Imaging_Quest_STAI_post" name="STAI post" />
+	<dataset abrv="Twin Quest Imaging DPES" filename="Twin_Quest_Imaging_DPES" name="DPES" />
+	<dataset abrv="data_mr_at_t" filename="Twin_Imaging_Quest_alcohol_and_tobacco" name="Alcohol and Tobacco Use" />
 	<dataset abrv="data_mr_pq_t" filename="Twin_Imaging_PSQ" name="Twin Imaging PSQ" />
 </datasets>
 
