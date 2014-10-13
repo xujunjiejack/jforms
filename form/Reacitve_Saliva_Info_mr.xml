@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form abrv="Reacitve_Saliva_Info_mr" filename="Reacitve_Saliva_Info_mr" name="Reacitve_Saliva_Info_mr">
+    <dataset connection="MySQL:mysql.waisman.wisc.edu/wtp_data" file="Reacitve_Saliva_Info_mr" tablename="data_mr_rc_t"/>
+    <key class="com.wtp.jforms.ui.control.selection.FamilyId" entryset="Reacitve Saliva Info" filename="build\dataset\Reacitve_Saliva_Info_mr.xml" name="Family Id" options="MySQL:mysql.waisman.wisc.edu/wtp_data,GEN_FAMILY,familyid"/>
+    <key class="com.wtp.jforms.ui.control.selection.RadioSelector" entryset="Reacitve Saliva Info" filename="build\dataset\Reacitve_Saliva_Info_mr.xml" name="Twin" options="Twin,A:1,B:2"/>
+    <key class="com.wtp.jforms.ui.control.selection.RadioSelector" entryset="Reacitve Saliva Info" filename="build\dataset\Reacitve_Saliva_Info_mr.xml" name="Data Mode" options="Data Mode,Entry:Entry,Check:Check"/>
+    <componentset abrv="Reacitve Saliva Info" displayheader="true" header="Reacitve Saliva Info" name="Reacitve Saliva Info" numcols="2">
+        <datafield class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567890124" editable="true" entryset="Reacitve Saliva Info" filename="build\dataset\Reacitve_Saliva_Info_mr.xml" name="Appt Date" options="0,MM/dd/yyyy" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890125" editable="true" entryset="Reacitve Saliva Info" filename="build\dataset\Reacitve_Saliva_Info_mr.xml" name="Appt Time" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890126" editable="true" entryset="Reacitve Saliva Info" filename="build\dataset\Reacitve_Saliva_Info_mr.xml" name="Cortisol Sample 1 Time (24hr time)" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890127" editable="true" entryset="Reacitve Saliva Info" filename="build\dataset\Reacitve_Saliva_Info_mr.xml" name="Cortisol Sample 2 Time (24hr time)" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890128" editable="true" entryset="Reacitve Saliva Info" filename="build\dataset\Reacitve_Saliva_Info_mr.xml" name="Cortisol Sample 3 Time (24hr time)" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890129" editable="true" entryset="Reacitve Saliva Info" filename="build\dataset\Reacitve_Saliva_Info_mr.xml" name="Wake up Time" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890130" editable="true" entryset="Reacitve Saliva Info" filename="build\dataset\Reacitve_Saliva_Info_mr.xml" name="Time Asleep (mins" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890131" editable="true" entryset="Reacitve Saliva Info" filename="build\dataset\Reacitve_Saliva_Info_mr.xml" name="Nap" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890132" editable="true" entryset="Reacitve Saliva Info" filename="build\dataset\Reacitve_Saliva_Info_mr.xml" name="Nap (mins" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890133" editable="true" entryset="Reacitve Saliva Info" filename="build\dataset\Reacitve_Saliva_Info_mr.xml" name="Runny Nose or Cough" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890134" editable="true" entryset="Reacitve Saliva Info" filename="build\dataset\Reacitve_Saliva_Info_mr.xml" name="Warm or Flushed" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890135" editable="true" entryset="Reacitve Saliva Info" filename="build\dataset\Reacitve_Saliva_Info_mr.xml" name="Cranky or Irritable" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890136" editable="true" entryset="Reacitve Saliva Info" filename="build\dataset\Reacitve_Saliva_Info_mr.xml" name="Ear infection" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890137" editable="true" entryset="Reacitve Saliva Info" filename="build\dataset\Reacitve_Saliva_Info_mr.xml" name="Aches or Pains" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890138" editable="true" entryset="Reacitve Saliva Info" filename="build\dataset\Reacitve_Saliva_Info_mr.xml" name="Nausea or Uneasy Stomach" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890139" editable="true" entryset="Reacitve Saliva Info" filename="build\dataset\Reacitve_Saliva_Info_mr.xml" name="Antibiotics" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1234567890140" editable="true" entryset="Reacitve Saliva Info" filename="build\dataset\Reacitve_Saliva_Info_mr.xml" name="Type" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890141" editable="true" entryset="Reacitve Saliva Info" filename="build\dataset\Reacitve_Saliva_Info_mr.xml" name="How Long" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890142" editable="true" entryset="Reacitve Saliva Info" filename="build\dataset\Reacitve_Saliva_Info_mr.xml" name="Medication Today" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1234567890143" editable="true" entryset="Reacitve Saliva Info" filename="build\dataset\Reacitve_Saliva_Info_mr.xml" name="Type and Amount" options="" type="0"/>
+    </componentset>
+</form>
