@@ -3,6 +3,7 @@
 <form name="Twin Zygosity" abrv="c3_twin_zyg" filename="c3_twin_zyg">
 	<dataset file="c3_twin_zyg" connection="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb" tablename="DATA_c3_ZY_t" />
 	<key name="Family Id" entryset="Zygosity" filename="c3_twin_zyg" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,GEN_FAMILY,familyid" />
+    <key class="com.wtp.jforms.ui.control.selection.RadioSelector" entryset="Reacitve Saliva Info" filename="build\dataset\Reacitve_Saliva_Info_mr.xml" name="Twin" options="Twin,A:1,B:2"/>
 	<key name="Data Mode" entryset="Zygosity" filename="c3_twin_zyg" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
 	<componentset name="Zygosity" abrv="zyg" numcols="2" displayheader="true" header="Zygosity">
 		<datafield name="1" entryset="Zygosity" filename="build\dataset\c3_twin_zyg.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1267777057343" options="" />
