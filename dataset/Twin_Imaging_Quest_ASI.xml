@@ -5,7 +5,7 @@
         <valid value="9999"/>
         <valid value="9998"/>
     </validator>
-    <validator allowblanks="false" defaultvalue="9998" lowerbound="1" name="1-4" type="INTEGER" upperbound="4">
+    <validator allowblanks="false" defaultvalue="9998" lowerbound="0" name="1-4" type="INTEGER" upperbound="4">
         <valid value="9999"/>
         <valid value="9998"/>
     </validator>

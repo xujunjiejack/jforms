@@ -8,6 +8,7 @@
     <dataset connection="MySQL:mysql.waisman.wisc.edu/wtp_data" file="Twin_Imaging_Quest_IRI" tablename="data_mr_ir_t"/>
     <dataset connection="MySQL:mysql.waisman.wisc.edu/wtp_data" file="Imaging_Twin_Quest_BDI" tablename="data_mr_bd_t"/>
     <dataset connection="MySQL:mysql.waisman.wisc.edu/wtp_data" file="Twin_Imaging_Quest_ASI" tablename="data_mr_ai_t"/>
+    <dataset connection="MySQL:mysql.waisman.wisc.edu/wtp_data" file="Twin_Imaginf_Quest_SCS" tablename="data_mr_so_t"/>
     <dataset connection="MySQL:mysql.waisman.wisc.edu/wtp_data" file="Twin_Imaging_Quest_PWB" tablename="data_mr_pb_t"/>
     <dataset connection="MySQL:mysql.waisman.wisc.edu/wtp_data" file="Twin_Imaging_Quest_alcohol_and_tobacco" tablename="data_mr_at_t"/>
     <dataset connection="MySQL:mysql.waisman.wisc.edu/wtp_data" file="Twin_Imaging_PSQ" tablename="data_mr_pq_t"/>
@@ -237,6 +238,49 @@
         <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890326" editable="true" entryset="ASI" filename="build\dataset\Twin_Imaging_Quest_ASI.xml" name="15" options="" type="0"/>
         <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890327" editable="true" entryset="ASI" filename="build\dataset\Twin_Imaging_Quest_ASI.xml" name="16" options="" type="0"/>
     </componentset>
+    <componentset abrv="SCS" displayheader="true" header="SCS" name="SCS" numcols="2">
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890560" editable="true" entryset="SCS" filename="build\dataset\Twin_Imaginf_Quest_SCS.xml" name="1a" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890561" editable="true" entryset="SCS" filename="build\dataset\Twin_Imaginf_Quest_SCS.xml" name="1b" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890562" editable="true" entryset="SCS" filename="build\dataset\Twin_Imaginf_Quest_SCS.xml" name="2a" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890563" editable="true" entryset="SCS" filename="build\dataset\Twin_Imaginf_Quest_SCS.xml" name="2b" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890564" editable="true" entryset="SCS" filename="build\dataset\Twin_Imaginf_Quest_SCS.xml" name="3a" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890565" editable="true" entryset="SCS" filename="build\dataset\Twin_Imaginf_Quest_SCS.xml" name="3b" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890566" editable="true" entryset="SCS" filename="build\dataset\Twin_Imaginf_Quest_SCS.xml" name="4a" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890567" editable="true" entryset="SCS" filename="build\dataset\Twin_Imaginf_Quest_SCS.xml" name="4b" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890568" editable="true" entryset="SCS" filename="build\dataset\Twin_Imaginf_Quest_SCS.xml" name="5a" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890569" editable="true" entryset="SCS" filename="build\dataset\Twin_Imaginf_Quest_SCS.xml" name="5b" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890570" editable="true" entryset="SCS" filename="build\dataset\Twin_Imaginf_Quest_SCS.xml" name="6a" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890571" editable="true" entryset="SCS" filename="build\dataset\Twin_Imaginf_Quest_SCS.xml" name="6b" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890572" editable="true" entryset="SCS" filename="build\dataset\Twin_Imaginf_Quest_SCS.xml" name="7a" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890573" editable="true" entryset="SCS" filename="build\dataset\Twin_Imaginf_Quest_SCS.xml" name="7b" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890574" editable="true" entryset="SCS" filename="build\dataset\Twin_Imaginf_Quest_SCS.xml" name="8a" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890575" editable="true" entryset="SCS" filename="build\dataset\Twin_Imaginf_Quest_SCS.xml" name="8b" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890576" editable="true" entryset="SCS" filename="build\dataset\Twin_Imaginf_Quest_SCS.xml" name="9a" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890577" editable="true" entryset="SCS" filename="build\dataset\Twin_Imaginf_Quest_SCS.xml" name="9b" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890578" editable="true" entryset="SCS" filename="build\dataset\Twin_Imaginf_Quest_SCS.xml" name="10a" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890579" editable="true" entryset="SCS" filename="build\dataset\Twin_Imaginf_Quest_SCS.xml" name="10b" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890580" editable="true" entryset="SCS" filename="build\dataset\Twin_Imaginf_Quest_SCS.xml" name="11a" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890581" editable="true" entryset="SCS" filename="build\dataset\Twin_Imaginf_Quest_SCS.xml" name="11b" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890582" editable="true" entryset="SCS" filename="build\dataset\Twin_Imaginf_Quest_SCS.xml" name="12a" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890583" editable="true" entryset="SCS" filename="build\dataset\Twin_Imaginf_Quest_SCS.xml" name="12b" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890584" editable="true" entryset="SCS" filename="build\dataset\Twin_Imaginf_Quest_SCS.xml" name="13a" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890585" editable="true" entryset="SCS" filename="build\dataset\Twin_Imaginf_Quest_SCS.xml" name="13b" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890586" editable="true" entryset="SCS" filename="build\dataset\Twin_Imaginf_Quest_SCS.xml" name="14a" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890587" editable="true" entryset="SCS" filename="build\dataset\Twin_Imaginf_Quest_SCS.xml" name="14b" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890588" editable="true" entryset="SCS" filename="build\dataset\Twin_Imaginf_Quest_SCS.xml" name="15a" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890589" editable="true" entryset="SCS" filename="build\dataset\Twin_Imaginf_Quest_SCS.xml" name="15b" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890590" editable="true" entryset="SCS" filename="build\dataset\Twin_Imaginf_Quest_SCS.xml" name="16a" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890591" editable="true" entryset="SCS" filename="build\dataset\Twin_Imaginf_Quest_SCS.xml" name="16b" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890592" editable="true" entryset="SCS" filename="build\dataset\Twin_Imaginf_Quest_SCS.xml" name="17a" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890593" editable="true" entryset="SCS" filename="build\dataset\Twin_Imaginf_Quest_SCS.xml" name="17b" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890594" editable="true" entryset="SCS" filename="build\dataset\Twin_Imaginf_Quest_SCS.xml" name="18a" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890595" editable="true" entryset="SCS" filename="build\dataset\Twin_Imaginf_Quest_SCS.xml" name="18b" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890596" editable="true" entryset="SCS" filename="build\dataset\Twin_Imaginf_Quest_SCS.xml" name="19a" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890597" editable="true" entryset="SCS" filename="build\dataset\Twin_Imaginf_Quest_SCS.xml" name="19b" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890598" editable="true" entryset="SCS" filename="build\dataset\Twin_Imaginf_Quest_SCS.xml" name="20a" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890599" editable="true" entryset="SCS" filename="build\dataset\Twin_Imaginf_Quest_SCS.xml" name="20b" options="" type="0"/>
+    </componentset>
+
     <componentset abrv="PWB" displayheader="true" header="PWB" name="PWB" numcols="2">
         <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890328" editable="true" entryset="PWB" filename="build\dataset\Twin_Imaging_Quest_PWB.xml" name="1" options="" type="0"/>
         <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890329" editable="true" entryset="PWB" filename="build\dataset\Twin_Imaging_Quest_PWB.xml" name="2" options="" type="0"/>
