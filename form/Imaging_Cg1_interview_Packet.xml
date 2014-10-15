@@ -6,6 +6,7 @@
     <dataset connection="MySQL:mysql.waisman.wisc.edu/wtp_data" file="BDI_mr_m" tablename="data_mr_bd_m"/>
     <dataset connection="MySQL:mysql.waisman.wisc.edu/wtp_data" file="PSI_mr_m" tablename="data_mr_ps_m"/>
     <dataset connection="MySQL:mysql.waisman.wisc.edu/wtp_data" file="FS_mr_m" tablename="data_mr_fs_m"/>
+    <dataset connection="MySQL:mysql.waisman.wisc.edu/wtp_data" file="BRO_mr_m" tablename="data_mr_ro_m"/>
     <key class="com.wtp.jforms.ui.control.selection.FamilyId" entryset="Dates" filename="build\dataset\Dates_mr_cg.xml" name="Family Id" options="MySQL:mysql.waisman.wisc.edu/wtp_data,GEN_FAMILY,familyid"/>
     <key class="com.wtp.jforms.ui.control.selection.RadioSelector" entryset="Dates" filename="build\dataset\Dates_mr_cg.xml" name="Data Mode" options="Data Mode,Entry:Entry,Check:Check"/>
     <componentset abrv="Dates" displayheader="true" header="Dates" name="Dates" numcols="2">
@@ -117,6 +118,13 @@
         <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890223" editable="true" entryset="PSI" filename="build\dataset\PSI_mr_m.xml" name="36" options="" type="0"/>
         <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890224" editable="true" entryset="PSI" filename="build\dataset\PSI_mr_m.xml" name="37" options="" type="0"/>
         <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890225" editable="true" entryset="PSI" filename="build\dataset\PSI_mr_m.xml" name="38" options="" type="0"/>
+    </componentset>
+    <componentset abrv="BRO" displayheader="true" header="BRO" name="BRO" numcols="2">
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890230" editable="true" entryset="BRO" filename="build\dataset\BRO_mr_m.xml" name="1" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890231" editable="true" entryset="BRO" filename="build\dataset\BRO_mr_m.xml" name="2" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890232" editable="true" entryset="BRO" filename="build\dataset\BRO_mr_m.xml" name="3" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890233" editable="true" entryset="BRO" filename="build\dataset\BRO_mr_m.xml" name="4" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890234" editable="true" entryset="BRO" filename="build\dataset\BRO_mr_m.xml" name="5" options="" type="0"/>
     </componentset>
     <componentset abrv="FS" displayheader="true" header="FS" name="FS" numcols="2">
         <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890226" editable="true" entryset="FS" filename="build\dataset\FS_mr_m.xml" name="1" options="" type="0"/>
