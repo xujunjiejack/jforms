@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset abrv="data_mr_dates" filename="Dates_mr_cg" name="Dates">
+    <validator allowblanks="true" defaultvalue="9998" lowerbound="2147483647" name="blankformat" type="VARCHAR" upperbound="2147483647">
+        <valid value="9999"/>
+        <valid value="9998"/>
+    </validator>
+    <validator allowblanks="false" defaultvalue="9998" lowerbound="1" name="1-3" type="INTEGER" upperbound="3">
+        <valid value="9999"/>
+        <valid value="9998"/>
+    </validator>
+    <key field="familyid" name="Family Id" template="na" ui="com.wtp.jforms.ui.control.selection.FamilyId" validator="VARCHAR" value=""/>
+    <key field="datamode" name="Data Mode" template="na" ui="com.wtp.jforms.ui.control.selection.RadioSelector" validator="VARCHAR" value=""/>
+    <data classid="1234567890124" dependencies="no" editable="true" field="qucgr" name="Respondent" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-3"/>
+    <data classid="1234567890125" dependencies="no" editable="true" field="qucg" name="Today's Date" template="na" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" validator="blankformat"/>
+</dataset>

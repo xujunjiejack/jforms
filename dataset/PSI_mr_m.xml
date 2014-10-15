@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset abrv="data_mr_ps_m" filename="PSI_mr_m" name="PSI">
+    <validator allowblanks="false" defaultvalue="9998" lowerbound="1" name="1-4" type="INTEGER" upperbound="4">
+        <valid value="9999"/>
+        <valid value="9998"/>
+    </validator>
+    <validator allowblanks="false" defaultvalue="9998" lowerbound="1" name="1-5" type="INTEGER" upperbound="5">
+        <valid value="9999"/>
+        <valid value="9998"/>
+    </validator>
+    <key field="familyid" name="Family Id" template="na" ui="com.wtp.jforms.ui.control.selection.FamilyId" validator="VARCHAR" value=""/>
+    <key field="datamode" name="Data Mode" template="na" ui="com.wtp.jforms.ui.control.selection.RadioSelector" validator="VARCHAR" value=""/>
+    <data classid="1234567890124" dependencies="no" editable="true" field="pssi001m" name="1" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890125" dependencies="no" editable="true" field="pssc002m" name="2" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890126" dependencies="no" editable="true" field="pssc003m" name="3" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890127" dependencies="no" editable="true" field="pssi004m" name="4" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890128" dependencies="no" editable="true" field="psat005m" name="5" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890129" dependencies="no" editable="true" field="pssc006m" name="6" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890130" dependencies="no" editable="true" field="psat007m" name="7" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890131" dependencies="no" editable="true" field="pssc008m" name="8" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890132" dependencies="no" editable="true" field="pssi009m" name="9" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890133" dependencies="no" editable="true" field="psrs010m" name="10" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890134" dependencies="no" editable="true" field="psrs011m" name="11" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890135" dependencies="no" editable="true" field="psat012m" name="12" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890136" dependencies="no" editable="true" field="psrs013m" name="13" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890137" dependencies="no" editable="true" field="psat014m" name="14" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890138" dependencies="no" editable="true" field="psat015m" name="15" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890139" dependencies="no" editable="true" field="psrs016m" name="16" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890140" dependencies="no" editable="true" field="psrr017m" name="17" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890141" dependencies="no" editable="true" field="pssc018m" name="18" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890142" dependencies="no" editable="true" field="psrr019m" name="19" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890143" dependencies="no" editable="true" field="pssc020m" name="20" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890144" dependencies="no" editable="true" field="psrr021m" name="21" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890145" dependencies="no" editable="true" field="pssi022m" name="22" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890146" dependencies="no" editable="true" field="psrr023m" name="23" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890147" dependencies="no" editable="true" field="psat024m" name="24" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890148" dependencies="no" editable="true" field="psrr025m" name="25" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890149" dependencies="no" editable="true" field="psrs026m" name="26" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890150" dependencies="no" editable="true" field="pssc027m" name="27" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890151" dependencies="no" editable="true" field="psrs028m" name="28" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890152" dependencies="no" editable="true" field="pssc029m" name="29" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890153" dependencies="no" editable="true" field="psrs030m" name="30" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890154" dependencies="no" editable="true" field="pssi031m" name="31" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890155" dependencies="no" editable="true" field="psrr032m" name="32" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890156" dependencies="no" editable="true" field="pssc033m" name="33" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890157" dependencies="no" editable="true" field="pssc034m" name="34" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890158" dependencies="no" editable="true" field="psrr035m" name="35" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+    <data classid="1234567890159" dependencies="no" editable="true" field="pssc036m" name="36" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-4"/>
+    <data classid="1234567890160" dependencies="no" editable="true" field="pssc037m" name="37" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-4"/>
+    <data classid="1234567890161" dependencies="no" editable="true" field="pssc038m" name="38" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-5"/>
+</dataset>

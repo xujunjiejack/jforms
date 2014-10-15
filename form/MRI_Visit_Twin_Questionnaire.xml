@@ -20,6 +20,7 @@
     <key class="com.wtp.jforms.ui.control.selection.FamilyId" entryset="PANAS-Gen" filename="build\dataset\mrTwQuestPanas_Gen.xml" name="Family Id" options="MySQL:mysql.waisman.wisc.edu/wtp_data,GEN_FAMILY,familyid"/>
     <key class="com.wtp.jforms.ui.control.selection.RadioSelector" entryset="PANAS-Gen" filename="build\dataset\mrTwQuestPanas_Gen.xml" name="Data Mode" options="Data Mode,Entry:Entry,Check:Check"/>
     <key class="com.wtp.jforms.ui.control.selection.RadioSelector" entryset="PANAS-Gen" filename="build\dataset\mrTwQuestPanas_Gen.xml" name="Twin" options="Twin,A:1,B:2"/>
+    
     <componentset abrv="PANAS-Gen" displayheader="true" header="PANAS-Gen" name="PANAS-Gen" numcols="2">
         <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890124" editable="true" entryset="PANAS-Gen" filename="build\dataset\mrTwQuestPanas_Gen.xml" name="Interested" options="" type="0"/>
         <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890125" editable="true" entryset="PANAS-Gen" filename="build\dataset\mrTwQuestPanas_Gen.xml" name="Distressed" options="" type="0"/>

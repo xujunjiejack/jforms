@@ -851,5 +851,15 @@
 	<dataset abrv="data_mr_pq_t" filename="Twin_Imaging_PSQ" name="Twin Imaging PSQ" />
 
 	<dataset abrv="data_mr_rc_t" filename="Reacitve_Saliva_Info_mr" name="Reacitve Saliva Info" />
+
+	<dataset abrv="data_mr_dates" filename="Dates_mr_cg" name="Dates" />
+	<dataset abrv="data_mr_fs_m" filename="FS_mr_m" name="FS" />
+	<dataset abrv="data_mr_ro_m" filename="BRO_mr_m" name="BRO" />
+	<dataset abrv="data_mr_ps_m" filename="PSI_mr_m" name="PSI" />
+	<dataset abrv="data_mr_bd_m" filename="BDI_mr_m" name="BDI" />
+	<dataset abrv="data_mr_fe_m" filename="FEQ_mr_m" name="FEQ" />
+
+	<dataset name="R1 Tracker" abrv="r1tracker" filename="r1tracker" />
+
 </datasets>
 

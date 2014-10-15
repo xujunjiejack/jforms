@@ -336,12 +336,17 @@
 		<form name="Imaging Tracker" abrv="mrtracker" filename="mrtracker" />
 		<form abrv="MRI Visit Twin Questionnaire" filename="MRI_Visit_Twin_Questionnaire" name="MRI Visit Twin Questionnaire" />
 		<form abrv="Reacitve Saliva Info" filename="Reacitve_Saliva_Info" name="Reacitve Saliva Info" />
+		<form abrv="Imaging Cg1 interview Packet" filename="Imaging_Cg1_interview_Packet" name="Imaging Cg1 interview Packet" />
 	</category>
 
 	<category name="Wallace14" abrv="wallace14" filename="Wallace14">
 		<form name="Wallace14 Tracker" abrv="W14_tr" filename="w14tracker" />
 		<form name="CG1 Sensory Profile" abrv="w14cg1si" filename="w14cgadultsensoryprofile" />
 		<form name="CG2 Sensory Profile" abrv="w14cg1si" filename="w14cg2adultsensoryprofile" />
+	</category>
+
+	<category name="RDOC" abrv="RDOC" filename="r">
+		<form name="R1 Tracker" abrv="r1tracker" filename="r1tracker" />
 	</category>
 
 </categories>

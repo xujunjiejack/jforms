@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset abrv="data_mr_fs_m" filename="FS_mr_m" name="FS">
+    <validator allowblanks="false" defaultvalue="9998" lowerbound="1" name="1-4" type="INTEGER" upperbound="4">
+        <valid value="9999"/>
+        <valid value="9998"/>
+    </validator>
+    <validator allowblanks="false" defaultvalue="9998" lowerbound="1" name="1-3" type="INTEGER" upperbound="3">
+        <valid value="9999"/>
+        <valid value="9998"/>
+    </validator>
+    <key field="familyid" name="Family Id" template="na" ui="com.wtp.jforms.ui.control.selection.FamilyId" validator="VARCHAR" value=""/>
+    <key field="datamode" name="Data Mode" template="na" ui="com.wtp.jforms.ui.control.selection.RadioSelector" validator="VARCHAR" value=""/>
+    <data classid="1234567890124" dependencies="no" editable="true" field="fs001m" name="1" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-4"/>
+    <data classid="1234567890125" dependencies="no" editable="true" field="fs002m" name="2" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-4"/>
+    <data classid="1234567890126" dependencies="no" editable="true" field="fs003m" name="3" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-3"/>
+    <data classid="1234567890127" dependencies="no" editable="true" field="fs004m" name="4" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-4"/>
+</dataset>
