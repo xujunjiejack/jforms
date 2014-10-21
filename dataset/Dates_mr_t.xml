@@ -6,7 +6,7 @@
         <valid value="9998"/>
     </validator>
     <key field="familyid" name="Family Id" template="na" ui="com.wtp.jforms.ui.control.selection.FamilyId" validator="VARCHAR" value=""/>
-    <key field="twin" name="Twin" template="na" ui="com.wtp.jforms.ui.control.selection.RadioSelector" validator="INTEGER" value=""/>
     <key field="datamode" name="Data Mode" template="na" ui="com.wtp.jforms.ui.control.selection.RadioSelector" validator="VARCHAR" value=""/>
-    <data classid="1234567890124" dependencies="no" editable="true" field="qut" name="Date of Twin Visit" template="na" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" validator="blankformat"/>
+    <data classid="1234567890124" dependencies="no" editable="true" field="quta" name="Date of Twin A Questionnaire" template="na" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" validator="blankformat"/>
+    <data classid="1234567890125" dependencies="no" editable="true" field="qutb" name="Date of Twin B Questionnaire" template="na" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" validator="blankformat"/>
 </dataset>

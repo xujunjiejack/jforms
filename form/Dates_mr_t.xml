@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form abrv="Dates" filename="Dates_mr_t" name="Dates">
+    <dataset connection="MySQL:mysql.waisman.wisc.edu/wtp_data" file="Dates_mr_t" tablename="data_mr_dates"/>
+    <key class="com.wtp.jforms.ui.control.selection.FamilyId" entryset="Dates" filename="build\dataset\Dates_mr_t.xml" name="Family Id" options="MySQL:mysql.waisman.wisc.edu/wtp_data,GEN_FAMILY,familyid"/>
+    <key class="com.wtp.jforms.ui.control.selection.RadioSelector" entryset="PANAS-Gen" filename="build\dataset\mrTwQuestPanas_Gen.xml" name="Data Mode" options="Data Mode,Entry:Entry,Check:Check"/>
+    <componentset abrv="Dates" displayheader="true" header="Dates" name="Dates" numcols="2">
+        <datafield class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567890124" editable="true" entryset="Dates" filename="build\dataset\Dates_mr_t.xml" name="Date of Twin A Questionnaire" options="0,MM/dd/yyyy" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567890125" editable="true" entryset="Dates" filename="build\dataset\Dates_mr_t.xml" name="Date of Twin B Questionnaire" options="0,MM/dd/yyyy" type="0"/>
+    </componentset>
+</form>
