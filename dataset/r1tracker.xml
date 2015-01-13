@@ -33,6 +33,7 @@
 	<data name="Tw A DPS Interviewer" field="twadpsint" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233277762349" />
 	<data name="Tw B DPS Date" field="twbdps" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762350" />
 	<data name="Tw B DPS Interviewer" field="twbdpsint" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233277762351" />
+	<data name="ZygPic Recieved" field="zygpic" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233997762399" />
 	<data name="PC Consent" field="pcconsen" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762352" />
 	<data name="Tw A Assent" field="aassent" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762353" />
 	<data name="Tw B Assent" field="bassent" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762354" />

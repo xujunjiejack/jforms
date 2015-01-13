@@ -24,6 +24,9 @@
 		<datafield name="Tw A DPS Interviewer" entryset="r1 Tracker" filename="build\dataset\r1tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233277762349" options="" />
 		<datafield name="Tw B DPS Date" entryset="r1 Tracker" filename="build\dataset\r1tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1233277762350" options="0,MM/dd/yyyy" />
 		<datafield name="Tw B DPS Interviewer" entryset="r1 Tracker" filename="build\dataset\r1tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233277762351" options="" />
+
+		<datafield name="ZygPic Recieved" entryset="r1 Tracker" filename="build\dataset\r1tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233277769999" options="0,MM/dd/yyyy" />
+		
 		<datafield name="PC Consent" entryset="r1 Tracker" filename="build\dataset\r1tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1233277762352" options="0,MM/dd/yyyy" />
 		<datafield name="Tw A Assent" entryset="r1 Tracker" filename="build\dataset\r1tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1233277762353" options="0,MM/dd/yyyy" />
 		<datafield name="Tw B Assent" entryset="r1 Tracker" filename="build\dataset\r1tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1233277762354" options="0,MM/dd/yyyy" />
