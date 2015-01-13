@@ -41,6 +41,9 @@
 	<data name="CG Zyg Date" field="cgzyg" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1111111111134" />
 	<data name="CG Zyg Interviewer" field="cgzygint" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1111111111135" />
 
+	<data name="zygPic Received" field="zygpic" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="9911111111134" />
+	
+
 	
 	<data name="CG Consent" field="cgconsen" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1111111111136" />
 	<data name="Tw A Assent" field="aassent" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1111111111137" />
