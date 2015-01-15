@@ -31,6 +31,8 @@
 		<datafield name="CG Zyg Date" entryset="C3 Interview Tracker" filename="build\dataset\c3inttracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1111111111134" options="0,MM/dd/yyyy" />
 		<datafield name="CG Zyg Interviewer" entryset="C3 Interview Tracker" filename="build\dataset\c3inttracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1111111111135" options="" />
 
+		
+
 		<datafield name="CG Consent" entryset="C3 Interview Tracker" filename="build\dataset\c3inttracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1111111111136" options="0,MM/dd/yyyy" />
 		<datafield name="Tw A Assent" entryset="C3 Interview Tracker" filename="build\dataset\c3inttracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1111111111137" options="0,MM/dd/yyyy" />
 		<datafield name="Tw B Assent" entryset="C3 Interview Tracker" filename="build\dataset\c3inttracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1111111111138" options="0,MM/dd/yyyy" />
