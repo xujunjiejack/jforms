@@ -362,6 +362,7 @@
 			<form name="Hollingshead" abrv="rdcg1hollingshead" filename="rdcg1hollingshead" />
 		</subcategory>
 		<form name="Twin Zygosity" abrv="rd_twin_zyg" filename="rd_twin_zyg" />
+		<form name="Caregiver Zygosity" abrv="cgzyg" filename="rd_cg_zyg" />
 	</category>
 
 </categories>

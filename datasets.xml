@@ -863,6 +863,7 @@
 
 	<dataset name="R1 Tracker" abrv="r1tracker" filename="r1tracker" />
 	<dataset name="Zygosity" abrv="rd_twin_zyg" filename="rd_twin_zyg" />
+	<dataset name="Zygosity" abrv="cgzyg" filename="rd_cg_zyg" />
 
 
 </datasets>
