@@ -361,6 +361,11 @@
 			<form name="Interview Response" abrv="rdcg1interviewreponse" filename="rdcg1interviewreponse" />
 			<form name="Hollingshead" abrv="rdcg1hollingshead" filename="rdcg1hollingshead" />
 		</subcategory>
+		<subcategory name="Twin Mailed Interview" abrv="rdtwininterview" filename="rdtwininterview">
+			<form name="Part 1 - Behavior" abrv="rdbt" filename="rdtwinbehavior" />
+			<form name="Part 2A - Girl Puberty" abrv="rdpetersonindextwingirltanner" filename="rdpetersonindextwingirltanner" />
+			<form name="Part 2B - Boy Puberty" abrv="rdpetersonindextwinboytanner" filename="rdpetersonindextwinboytanner" />
+		</subcategory>
 		<form name="Twin Zygosity" abrv="rd_twin_zyg" filename="rd_twin_zyg" />
 		<form name="Caregiver Zygosity" abrv="cgzyg" filename="rd_cg_zyg" />
 	</category>
