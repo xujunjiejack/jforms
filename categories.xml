@@ -361,6 +361,7 @@
 			<form name="Interview Response" abrv="rdcg1interviewreponse" filename="rdcg1interviewreponse" />
 			<form name="Hollingshead" abrv="rdcg1hollingshead" filename="rdcg1hollingshead" />
 		</subcategory>
+		<form name="Twin Zygosity" abrv="rd_twin_zyg" filename="rd_twin_zyg" />
 	</category>
 
 </categories>
