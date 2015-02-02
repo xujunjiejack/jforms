@@ -352,7 +352,7 @@
 
 	<category name="RDOC" abrv="RDOC" filename="r">
 		<form name="R1 Tracker" abrv="r1tracker" filename="r1tracker" />
-		<subcategory name="RDOC Questionnaire" abrv="rdcg1questionnaire" filename="rdcg1questionnaire">
+		<subcategory name="CG1 Questionnaire" abrv="rdcg1questionnaire" filename="rdcg1questionnaire">
 			<form name="CG Interview-Twin" abrv="CGinterviewtwin" filename="rdcginterviewtwin" />
 			<form name="CG Interview-Self" abrv="rdcg1si" filename="rdcg1SelfInterview" />
 
