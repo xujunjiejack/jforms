@@ -862,6 +862,8 @@
 	<dataset abrv="data_mr_fe_m" filename="FEQ_mr_m" name="FEQ" />
 
 	<dataset name="R1 Tracker" abrv="r1tracker" filename="r1tracker" />
+	<dataset name="Zygosity" abrv="rd_twin_zyg" filename="rd_twin_zyg" />
+
 
 </datasets>
 
