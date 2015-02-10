@@ -864,6 +864,11 @@
 	<dataset name="R1 Tracker" abrv="r1tracker" filename="r1tracker" />
 	<dataset name="Zygosity" abrv="rd_twin_zyg" filename="rd_twin_zyg" />
 	<dataset name="Zygosity" abrv="cgzyg" filename="rd_cg_zyg" />
+	<dataset abrv="data_rd_ad_t" filename="RDOC_disc_interview_APSD_self" name="APSD self" />
+	<dataset abrv="data_rd_se_t" filename="rdoc_disc_interview_self_esteem" name="self esteem" />
+	<dataset abrv="data_rd_pa_t" filename="rdoc_disc_interview_PANAS" name="PANAS" />
+	<dataset abrv="data_rd_hs_t" filename="rdoc_disc_interview_attribution_stories" name="Attribution Stories" />
+	<dataset abrv="data_rd_ad_c" filename="rdoc_disc_interview_APSD_twin" name="APSD twin" />
 
 
 </datasets>

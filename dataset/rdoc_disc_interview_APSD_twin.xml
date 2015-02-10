@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset abrv="data_rd_ad_c" filename="rdoc_disc_interview_APSD_twin" name="APSD twin">
+    <validator allowblanks="false" defaultvalue="9998" lowerbound="0" name="0-2" type="INTEGER" upperbound="2">
+        <valid value="9999"/>
+        <valid value="9998"/>
+    </validator>
+    <key field="familyid" name="Family Id" template="na" ui="com.wtp.jforms.ui.control.selection.FamilyId" validator="VARCHAR" value=""/>
+    <key field="twin" name="Twin" template="na" ui="com.wtp.jforms.ui.control.selection.RadioSelector" validator="INTEGER" value=""/>
+    <key field="datamode" name="Data Mode" template="na" ui="com.wtp.jforms.ui.control.selection.RadioSelector" validator="VARCHAR" value=""/>
+    <data classid="1234567890144" dependencies="no" editable="true" field="adim001c" name="1" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="0-2"/>
+    <data classid="1234567890145" dependencies="no" editable="true" field="adto002c" name="2" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="0-2"/>
+    <data classid="1234567890146" dependencies="no" editable="true" field="adcu003c" name="3" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="0-2"/>
+    <data classid="1234567890147" dependencies="no" editable="true" field="adim004c" name="4" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="0-2"/>
+    <data classid="1234567890148" dependencies="no" editable="true" field="adna005c" name="5" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="0-2"/>
+    <data classid="1234567890149" dependencies="no" editable="true" field="adto006c" name="6" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="0-2"/>
+    <data classid="1234567890150" dependencies="no" editable="true" field="adcu007c" name="7" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="0-2"/>
+    <data classid="1234567890151" dependencies="no" editable="true" field="adna008c" name="8" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="0-2"/>
+    <data classid="1234567890152" dependencies="no" editable="true" field="adim009c" name="9" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="0-2"/>
+    <data classid="1234567890153" dependencies="no" editable="true" field="adna010c" name="10" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="0-2"/>
+    <data classid="1234567890154" dependencies="no" editable="true" field="adna011c" name="11" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="0-2"/>
+    <data classid="1234567890155" dependencies="no" editable="true" field="adcu012c" name="12" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="0-2"/>
+    <data classid="1234567890156" dependencies="no" editable="true" field="adim013c" name="13" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="0-2"/>
+    <data classid="1234567890157" dependencies="no" editable="true" field="adna014c" name="14" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="0-2"/>
+    <data classid="1234567890158" dependencies="no" editable="true" field="adna015c" name="15" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="0-2"/>
+    <data classid="1234567890159" dependencies="no" editable="true" field="adna016c" name="16" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="0-2"/>
+    <data classid="1234567890160" dependencies="no" editable="true" field="adim017c" name="17" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="0-2"/>
+    <data classid="1234567890161" dependencies="no" editable="true" field="adcu018c" name="18" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="0-2"/>
+    <data classid="1234567890162" dependencies="no" editable="true" field="adcu019c" name="19" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="0-2"/>
+    <data classid="1234567890163" dependencies="no" editable="true" field="adcu020c" name="20" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="0-2"/>
+</dataset>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset abrv="data_rd_hs_t" filename="rdoc_disc_interview_attribution_stories" name="Attribution Stories">
+    <validator allowblanks="false" defaultvalue="9998" lowerbound="1" name="a" type="INTEGER" upperbound="4">
+        <valid value="9999"/>
+        <valid value="9998"/>
+    </validator>
+    <validator allowblanks="false" defaultvalue="9998" lowerbound="1" name="b" type="INTEGER" upperbound="2">
+        <valid value="9999"/>
+        <valid value="9998"/>
+    </validator>
+    <validator allowblanks="false" defaultvalue="9998" lowerbound="1" name="c" type="INTEGER" upperbound="3">
+        <valid value="9999"/>
+        <valid value="9998"/>
+    </validator>
+    <key field="familyid" name="Family Id" template="na" ui="com.wtp.jforms.ui.control.selection.FamilyId" validator="VARCHAR" value=""/>
+    <key field="twin" name="Twin" template="na" ui="com.wtp.jforms.ui.control.selection.RadioSelector" validator="INTEGER" value=""/>
+    <key field="datamode" name="Data Mode" template="na" ui="com.wtp.jforms.ui.control.selection.RadioSelector" validator="VARCHAR" value=""/>
+    <data classid="1234567890184" dependencies="no" editable="true" field="hsis01at" name="1a" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="a"/>
+    <data classid="1234567890185" dependencies="no" editable="true" field="hsis01bt" name="1b" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="b"/>
+    <data classid="1234567890186" dependencies="no" editable="true" field="hsdi01ct" name="1c" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="c"/>
+    <data classid="1234567890187" dependencies="no" editable="true" field="hsrs02at" name="2a" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="a"/>
+    <data classid="1234567890188" dependencies="no" editable="true" field="hsrs02bt" name="2b" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="b"/>
+    <data classid="1234567890189" dependencies="no" editable="true" field="hsdr02ct" name="2c" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="c"/>
+    <data classid="1234567890190" dependencies="no" editable="true" field="hsrs03at" name="3a" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="a"/>
+    <data classid="1234567890191" dependencies="no" editable="true" field="hsrs03bt" name="3b" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="b"/>
+    <data classid="1234567890192" dependencies="no" editable="true" field="hsdr03ct" name="3c" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="c"/>
+    <data classid="1234567890193" dependencies="no" editable="true" field="hsis04at" name="4a" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="a"/>
+    <data classid="1234567890194" dependencies="no" editable="true" field="hsis04bt" name="4b" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="b"/>
+    <data classid="1234567890195" dependencies="no" editable="true" field="hsdi04ct" name="4c" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="c"/>
+    <data classid="1234567890196" dependencies="no" editable="true" field="hsrs05at" name="5a" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="a"/>
+    <data classid="1234567890197" dependencies="no" editable="true" field="hsrs05bt" name="5b" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="b"/>
+    <data classid="1234567890198" dependencies="no" editable="true" field="hsdr05ct" name="5c" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="c"/>
+    <data classid="1234567890199" dependencies="no" editable="true" field="hsis06at" name="6a" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="a"/>
+    <data classid="1234567890200" dependencies="no" editable="true" field="hsis06bt" name="6b" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="b"/>
+    <data classid="1234567890201" dependencies="no" editable="true" field="hsdi06ct" name="6c" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="c"/>
+    <data classid="1234567890202" dependencies="no" editable="true" field="hsrs07at" name="7a" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="a"/>
+    <data classid="1234567890203" dependencies="no" editable="true" field="hsrs07bt" name="7b" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="b"/>
+    <data classid="1234567890204" dependencies="no" editable="true" field="hsdr07ct" name="7c" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="c"/>
+    <data classid="1234567890205" dependencies="no" editable="true" field="hsis08at" name="8a" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="a"/>
+    <data classid="1234567890206" dependencies="no" editable="true" field="hsis08bt" name="8b" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="b"/>
+    <data classid="1234567890207" dependencies="no" editable="true" field="hsdi08ct" name="8c" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="c"/>
+    <data classid="1234567890208" dependencies="no" editable="true" field="hsrs09at" name="9a" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="a"/>
+    <data classid="1234567890209" dependencies="no" editable="true" field="hsrs09bt" name="9b" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="b"/>
+    <data classid="1234567890210" dependencies="no" editable="true" field="hsdr09ct" name="9c" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="c"/>
+    <data classid="1234567890211" dependencies="no" editable="true" field="hsis10at" name="10a" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="a"/>
+    <data classid="1234567890212" dependencies="no" editable="true" field="hsis10bt" name="10b" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="b"/>
+    <data classid="1234567890213" dependencies="no" editable="true" field="hsdi10ct" name="10c" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="c"/>
+    <data classid="1234567890214" dependencies="no" editable="true" field="hsrs11at" name="11a" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="a"/>
+    <data classid="1234567890215" dependencies="no" editable="true" field="hsrs11bt" name="11b" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="b"/>
+    <data classid="1234567890216" dependencies="no" editable="true" field="hsdr11ct" name="11c" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="c"/>
+</dataset>

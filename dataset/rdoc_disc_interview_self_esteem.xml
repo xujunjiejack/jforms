@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset abrv="data_rd_se_t" filename="rdoc_disc_interview_self_esteem" name="self esteem">
+    <validator allowblanks="false" defaultvalue="9998" lowerbound="1" name="1-4" type="INTEGER" upperbound="4">
+        <valid value="9999"/>
+        <valid value="9998"/>
+    </validator>
+    <key field="familyid" name="Family Id" template="na" ui="com.wtp.jforms.ui.control.selection.FamilyId" validator="VARCHAR" value=""/>
+    <key field="twin" name="Twin" template="na" ui="com.wtp.jforms.ui.control.selection.RadioSelector" validator="INTEGER" value=""/>
+    <key field="datamode" name="Data Mode" template="na" ui="com.wtp.jforms.ui.control.selection.RadioSelector" validator="VARCHAR" value=""/>
+    <data classid="1234567890164" dependencies="no" editable="true" field="sers001t" name="1" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-4"/>
+    <data classid="1234567890165" dependencies="no" editable="true" field="sers002t" name="2" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-4"/>
+    <data classid="1234567890166" dependencies="no" editable="true" field="sers003t" name="3" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-4"/>
+    <data classid="1234567890167" dependencies="no" editable="true" field="sers004t" name="4" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-4"/>
+    <data classid="1234567890168" dependencies="no" editable="true" field="sers005t" name="5" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-4"/>
+    <data classid="1234567890169" dependencies="no" editable="true" field="sers006t" name="6" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-4"/>
+    <data classid="1234567890170" dependencies="no" editable="true" field="sers007t" name="7" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-4"/>
+    <data classid="1234567890171" dependencies="no" editable="true" field="sers008t" name="8" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-4"/>
+    <data classid="1234567890172" dependencies="no" editable="true" field="sers009t" name="9" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-4"/>
+    <data classid="1234567890173" dependencies="no" editable="true" field="sers010t" name="10" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1-4"/>
+</dataset>
