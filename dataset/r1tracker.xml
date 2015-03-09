@@ -18,7 +18,6 @@
 	<data name="Packet Sent" field="r1packetsent" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233276104317" />
 	<data name="Sender" field="sender" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233276104318" />
 	<data name="CG Interview Date" field="pchr" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233276104319" />
-	<data name="CG Interviewer" field="pchrint" template="na" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233276104320" />
 	<data name="CG DISC A Date" field="pcdpsa" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233276104321" />
 	<data name="CG DISC A Interviewer" field="pcdpsaint" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233276104329" />
 	<data name="CG DISC B Date" field="pcdpsb" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233276104330" />
@@ -30,17 +29,26 @@
 	<data name="Tw B Interviewer" field="twbhrint" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233277762346" />
 	<data name="Tw B Interview Received" field="twbhrrec" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762347" />
 	<data name="Tw A DISC Date" field="twadps" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762348" />
+	<data name="Tw A DISC Int Received" field="twadiscrecieved" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1189879040540" />
 	<data name="Tw A DISC Interviewer" field="twadpsint" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233277762349" />
+
 	<data name="Tw B DISC Date" field="twbdps" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762350" />
+	<data name="Tw B DISC Int Received" field="twbdiscrecieved" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1219879040541" />
+
 	<data name="Tw B DISC Interviewer" field="twbdpsint" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233277762351" />
+
+
+
 	<data name="ZygPic Recieved" field="zygpic" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233997762399" />
 	
-	<data name="Tw A Zyg Date" field="twazyg" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1111111111130" />
-	<data name="Tw A Zyg Interviewer" field="twazygint" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1111111111131" />
-	<data name="Tw B Zyg Date" field="twbzyg" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1111111111132" />
-	<data name="Tw B Zyg Interviewer" field="twbzygint" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1111111111133" />
-	<data name="CG Zyg Date" field="cgzyg" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1111111111134" />
-	<data name="CG Zyg Interviewer" field="cgzygint" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1111111111135" />
+	<data name="Zygosity Required" field="zygrequired" template="na" validator="val01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1289879040000" />
+
+	<data name="Tw A Zyg Date" field="twazyg" template="na" validator="blankformat" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1111111111130" />
+	<data name="Tw A Zyg Interviewer" field="twazygint" template="na" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1111111111131" />
+	<data name="Tw B Zyg Date" field="twbzyg" template="na" validator="blankformat" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1111111111132" />
+	<data name="Tw B Zyg Interviewer" field="twbzygint" template="na" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1111111111133" />
+	<data name="CG Zyg Date" field="cgzyg" template="na" validator="blankformat" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1111111111134" />
+	<data name="CG Zyg Interviewer" field="cgzygint" template="na" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1111111111135" />
 
 
 	<data name="CG Consent" field="pcconsen" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1233277762352" />
@@ -56,5 +64,37 @@
 	<data name="Comments" field="r1comments" template="na" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1233277762362" />
 	<data name="Exclude" field="r1exclude" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1233277762363" />
 	<data name="Emergency Number" field="emergnum" template="na" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1233277762364" />
+
+	<dependency field="Tw A Zyg Date">
+		<parent field="Zygosity Required" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Tw A Zyg Interviewer">
+		<parent field="Zygosity Required" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Tw B Zyg Date">
+		<parent field="Zygosity Required" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="Tw B Zyg Interviewer">
+		<parent field="Zygosity Required" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="CG Zyg Date">
+		<parent field="Zygosity Required" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	<dependency field="CG Zyg Interviewer">
+		<parent field="Zygosity Required" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+	
 </dataset>
 
