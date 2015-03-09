@@ -30,8 +30,8 @@
 	<data name="Email 2 Sent Date" field="mremail2" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567891249" />
 	
 	<data name="Contact Note" field="contactnte" template="na" validator="MEMO" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1234567891252" />
-	<data name="Contact Form" field="contactfrm" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891255" />
-	<data name="Phone Screening" field="phonescrn" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891258" />
+	<data name="Contact Form" field="contactfrm" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567891255" />
+	<data name="Phone Screening" field="phonescrn" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567891258" />
 	<data name="Visit Date" field="mrvisit" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567891261" />
 	
 	<data name="Examiner 1" field="mrE1" template="na" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891264" />
@@ -42,14 +42,14 @@
 	<data name="Twin A Assent" field="twinaassent" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1389879040000" />
 	<data name="Twin B Assent" field="twinbassent" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1489879040000" />
 
-	<data name="CG Questionare" field="cgmrquest" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891276" />
-	<data name="Twin A Questionare" field="twamrquest" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891279" />
-	<data name="Twin B Questionare" field="twbmrquest" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891282" />
+	<data name="CG Questionare" field="cgmrquest" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567891276" />
+	<data name="Twin A Questionare" field="twamrquest" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567891279" />
+	<data name="Twin B Questionare" field="twbmrquest" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567891282" />
 	
-	<data name="Reactive Cortisol Twin A" field="rcorta" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891285" />
-	<data name="Reactive Cortisol Twin B" field="rcortb" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891288" />
-	<data name="Basal Cortisol Twin A" field="bcorta" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891291" />
-	<data name="Basal Cortisol Twin B" field="bcortb" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891294" />
+	<data name="Reactive Cortisol Twin A" field="rcorta" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567891285" />
+	<data name="Reactive Cortisol Twin B" field="rcortb" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567891288" />
+	<data name="Basal Cortisol Twin A" field="bcorta" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567891291" />
+	<data name="Basal Cortisol Twin B" field="bcortb" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567891294" />
 
 	<data name="Travel Reimbursment" field="travelfam" template="na" validator="val01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891295" />
 
