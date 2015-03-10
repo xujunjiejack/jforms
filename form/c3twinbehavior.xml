@@ -24,7 +24,7 @@
 	<key name="Twin" entryset="BIS" filename="bistwinnew" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="twin,A:1,B:2" />
 	<key name="Data Mode" entryset="BIS" filename="bistwinnew" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="datamode,Entry:Entry,Check:Check" />
 	<componentset name="Date" abrv="date" numcols="2" displayheader="true" header="Date">
-		<datafield name="Date" entryset="P5 Twin Mailed Interview Date" filename="build\dataset\p5r2twinmailedinterviewdate.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1238991088957" options="0,MM/dd/yyyy" />
+		<datafield name="Date" entryset="Date" filename="build\dataset\p5r2twinmailedinterviewdate.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1238991088957" options="0,MM/dd/yyyy" />
 	</componentset>
 	<componentset name="BIS/BAS" abrv="bb" numcols="2" displayheader="true" header="BIS/BAS">
 		<datafield name="1" entryset="BIS" filename="build\dataset\bistwinnew.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216310694508" options="" />
