@@ -350,7 +350,7 @@
 		<form name="CG2 Sensory Profile" abrv="w14cg1si" filename="w14cg2adultsensoryprofile" />
 	</category>
 
-	<category name="RDOC" abrv="RDOC" filename="r">
+	<category name="RDOC - Interview" abrv="RDOC" filename="r">
 		<form name="R1 Tracker" abrv="r1tracker" filename="r1tracker" />
 		<subcategory name="CG1 Questionnaire" abrv="rdcg1questionnaire" filename="rdcg1questionnaire">
 			<form name="CG Interview-Twin" abrv="CGinterviewtwin" filename="rdcginterviewtwin" />
@@ -369,6 +369,9 @@
 		<form name="Twin Zygosity" abrv="rd_twin_zyg" filename="rd_twin_zyg" />
 		<form name="Caregiver Zygosity" abrv="cgzyg" filename="rd_cg_zyg" />
 		<form abrv="Disc Interview" filename="Disc_Interview_rdoc" name="Disc Interview" />
+	</category>
+	<category name="RDOC - Imaging" abrv="rdmr" filename="rdmr">
+		<form abrv="tr" filename="tr_tracker_rdmr" name="Tracker" />
 	</category>
 
 </categories>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset abrv="data_rdmr_tr" filename="tr_tracker_rdmr" name="Tracker">
+    <validator allowblanks="true" defaultvalue="9998" lowerbound="2147483647" name="blankformat" type="VARCHAR" upperbound="2147483647">
+        <valid value="9999"/>
+        <valid value="9998"/>
+    </validator>
+    <key field="familyid" name="Family Id" template="na" ui="com.wtp.jforms.ui.control.selection.FamilyId" validator="VARCHAR" value=""/>
+    <data classid="1234567890124" dependencies="no" editable="true" field="ursiid" name="ursiid" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="VARCHAR"/>
+    <data classid="1234567890125" dependencies="no" editable="true" field="pc" name="pc" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="VARCHAR"/>
+    <data classid="1234567890126" dependencies="no" editable="true" field="mrcall" name="mrcall" template="na" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" validator="blankformat"/>
+    <data classid="1234567890127" dependencies="no" editable="true" field="mrint" name="mrint" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="VARCHAR"/>
+    <data classid="1234567890128" dependencies="no" editable="true" field="mrvisit" name="mrvisit" template="na" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" validator="blankformat"/>
+    <data classid="1234567890129" dependencies="no" editable="true" field="mre1" name="mre1" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="VARCHAR"/>
+    <data classid="1234567890130" dependencies="no" editable="true" field="mre2" name="mre2" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="VARCHAR"/>
+    <data classid="1234567890131" dependencies="no" editable="true" field="coinscompa" name="coinscompa" template="na" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" validator="blankformat"/>
+    <data classid="1234567890132" dependencies="no" editable="true" field="coinscompb" name="coinscompb" template="na" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" validator="blankformat"/>
+    <data classid="1234567890133" dependencies="no" editable="true" field="coinscompcg" name="coinscompcg" template="na" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" validator="blankformat"/>
+    <data classid="1234567890134" dependencies="no" editable="true" field="coinsnote" name="coinsnote" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="VARCHAR"/>
+    <data classid="1234567890135" dependencies="no" editable="true" field="paycg" name="paycg" template="na" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" validator="blankformat"/>
+    <data classid="1234567890136" dependencies="no" editable="true" field="payamcg" name="payamcg" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="VARCHAR"/>
+    <data classid="1234567890137" dependencies="no" editable="true" field="paya" name="paya" template="na" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" validator="blankformat"/>
+    <data classid="1234567890138" dependencies="no" editable="true" field="payama" name="payama" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="VARCHAR"/>
+    <data classid="1234567890139" dependencies="no" editable="true" field="payb" name="payb" template="na" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" validator="blankformat"/>
+    <data classid="1234567890140" dependencies="no" editable="true" field="payamb" name="payamb" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="VARCHAR"/>
+    <data classid="1234567890141" dependencies="no" editable="true" field="mrcomp" name="mrcomp" template="na" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" validator="blankformat"/>
+    <data classid="1234567890142" dependencies="no" editable="true" field="mrexclude" name="mrexclude" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="VARCHAR"/>
+    <data classid="1234567890143" dependencies="no" editable="true" field="mriordera" name="mriordera" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="VARCHAR"/>
+    <data classid="1234567890144" dependencies="no" editable="true" field="mriorderb" name="mriorderb" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="VARCHAR"/>
+    <data classid="1234567890145" dependencies="no" editable="true" field="specflag" name="specflag" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="VARCHAR"/>
+    <data classid="1234567890146" dependencies="no" editable="true" field="rdcomments" name="rdcomments" template="na" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" validator="VARCHAR"/>
+    <data classid="1234567890147" dependencies="no" editable="true" field="rdltr1" name="rdltr1" template="na" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" validator="blankformat"/>
+    <data classid="1234567890148" dependencies="no" editable="true" field="rdltr2" name="rdltr2" template="na" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" validator="blankformat"/>
+    <data classid="1234567890149" dependencies="no" editable="true" field="rdemail1" name="rdemail1" template="na" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" validator="blankformat"/>
+    <data classid="1234567890150" dependencies="no" editable="true" field="rdemail2" name="rdemail2" template="na" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" validator="blankformat"/>
+    <data classid="1234567890151" dependencies="no" editable="true" field="rdcf1" name="rdcf1" template="na" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" validator="blankformat"/>
+    <data classid="1234567890152" dependencies="no" editable="true" field="rdcfresp1" name="rdcfresp1" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="VARCHAR"/>
+    <data classid="1234567890153" dependencies="no" editable="true" field="rdcf2" name="rdcf2" template="na" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" validator="blankformat"/>
+    <data classid="1234567890154" dependencies="no" editable="true" field="rdcfresp2" name="rdcfresp2" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="VARCHAR"/>
+    <data classid="1234567890155" dependencies="no" editable="true" field="rdrecruitothers" name="rdrecruitothers" template="na" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" validator="VARCHAR"/>
+</dataset>
