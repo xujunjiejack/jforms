@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form abrv="reactive cortisol dates and times" filename="reactive_cortisol_dates_and_times_MRI_visit_mr" name="reactive cortisol dates and times">
+    <dataset connection="MySQL:mysql.waisman.wisc.edu/wtp_data" file="reactive_cortisol_dates_and_times_MRI_visit_mr" tablename="data_mr_dates"/>
+    <key class="com.wtp.jforms.ui.control.selection.FamilyId" entryset="reactive cortisol dates and times" filename="build\dataset\reactive_cortisol_dates_and_times_MRI_visit_mr.xml" name="Family Id" options="MySQL:mysql.waisman.wisc.edu/wtp_data,GEN_FAMILY,familyid"/>
+    <key name="Data Mode" entryset="reactive cortisol dates and times" filename="reactive_cortisol_dates_and_times_MRI_visit_mr" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
+    <componentset abrv="reactive cortisol dates and times" displayheader="true" header="reactive cortisol dates and times" name="reactive cortisol dates and times" numcols="2">
+        <datafield class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567890124" editable="true" entryset="reactive cortisol dates and times" filename="build\dataset\reactive_cortisol_dates_and_times_MRI_visit_mr.xml" name="Date" options="0,MM/dd/yyyy" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567890125" editable="true" entryset="reactive cortisol dates and times" filename="build\dataset\reactive_cortisol_dates_and_times_MRI_visit_mr.xml" name="Visit Time" options="0,HHmm" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567890126" editable="true" entryset="reactive cortisol dates and times" filename="build\dataset\reactive_cortisol_dates_and_times_MRI_visit_mr.xml" name="Twin A Sample 1 time" options="0,HHmm" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567890127" editable="true" entryset="reactive cortisol dates and times" filename="build\dataset\reactive_cortisol_dates_and_times_MRI_visit_mr.xml" name="TIME Twin A MRI ENDED" options="0,HHmm" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567890128" editable="true" entryset="reactive cortisol dates and times" filename="build\dataset\reactive_cortisol_dates_and_times_MRI_visit_mr.xml" name="Twin A Sample2 time" options="0,HHmm" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567890129" editable="true" entryset="reactive cortisol dates and times" filename="build\dataset\reactive_cortisol_dates_and_times_MRI_visit_mr.xml" name="Twin B Sample 1 time" options="0,HHmm" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567890130" editable="true" entryset="reactive cortisol dates and times" filename="build\dataset\reactive_cortisol_dates_and_times_MRI_visit_mr.xml" name="TIME Twin B MRI ENDED" options="0,HHmm" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567890131" editable="true" entryset="reactive cortisol dates and times" filename="build\dataset\reactive_cortisol_dates_and_times_MRI_visit_mr.xml" name="Twin B Sample 2 time" options="0,HHmm" type="0"/>
+    </componentset>
+</form>

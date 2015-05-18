@@ -871,6 +871,12 @@
 	<dataset abrv="data_rd_ad_c" filename="rdoc_disc_interview_APSD_twin" name="APSD twin" />
 
 	<dataset abrv="data_rdmr_tr" filename="tr_tracker_rdmr" name="tracker" />
+	<dataset abrv="data_mr_dates" filename="reactive_cortisol_dates_and_times_MRI_visit_mr" name="reactive cortisol dates and times"/>
+	<dataset abrv="data_mr_ms_t" filename="measures_mri_visit_mr" name="measures"/>
+	<dataset abrv="data_mr_ls_e" filename="logsheet_mri_visit_mr" name="logsheet"/>
+	<dataset abrv="gen_twins" filename="logsheet_gender_component_mri_visit_mr" name="logsheet gender component"/>
+
+	
 
 
 </datasets>

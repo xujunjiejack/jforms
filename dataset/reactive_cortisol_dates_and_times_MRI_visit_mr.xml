@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset abrv="data_mr_dates" filename="reactive_cortisol_dates_and_times_MRI_visit_mr" name="reactive cortisol dates and times">
+    <validator allowblanks="true" defaultvalue="9998" lowerbound="2147483647" name="blankformat" type="VARCHAR" upperbound="2147483647">
+        <valid value="9999"/>
+        <valid value="9998"/>
+    </validator>
+    <key field="familyid" name="Family Id" template="na" ui="com.wtp.jforms.ui.control.selection.FamilyId" validator="VARCHAR" value=""/>
+    <key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
+    <data classid="1234567890124" dependencies="no" editable="true" field="visit" name="Date" template="na" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" validator="blankformat"/>
+    <data classid="1234567890125" dependencies="no" editable="true" field="vitime" name="Visit Time" template="na" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" validator="blankformat"/>
+    <data classid="1234567890126" dependencies="no" editable="true" field="vicorta1" name="Twin A Sample 1 time" template="na" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" validator="blankformat"/>
+    <data classid="1234567890127" dependencies="no" editable="true" field="vimrienda" name="TIME Twin A MRI ENDED" template="na" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" validator="blankformat"/>
+    <data classid="1234567890128" dependencies="no" editable="true" field="vicorta2" name="Twin A Sample2 time" template="na" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" validator="blankformat"/>
+    <data classid="1234567890129" dependencies="no" editable="true" field="vicortb1" name="Twin B Sample 1 time" template="na" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" validator="blankformat"/>
+    <data classid="1234567890130" dependencies="no" editable="true" field="vimriendb" name="TIME Twin B MRI ENDED" template="na" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" validator="blankformat"/>
+    <data classid="1234567890131" dependencies="no" editable="true" field="vicortb2" name="Twin B Sample 2 time" template="na" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" validator="blankformat"/>
+</dataset>

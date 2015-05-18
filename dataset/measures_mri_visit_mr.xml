@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset abrv="data_mr_ms_t" filename="measures_mri_visit_mr" name="measures">
+    <validator allowblanks="true" defaultvalue="9998" lowerbound="2147483647" name="blankformat" type="VARCHAR" upperbound="2147483647">
+        <valid value="9999"/>
+        <valid value="9998"/>
+    </validator>
+    <key field="familyid" name="Family Id" template="na" ui="com.wtp.jforms.ui.control.selection.FamilyId" validator="VARCHAR" value=""/>
+    <key field="twin" name="Twin" template="na" ui="com.wtp.jforms.ui.control.selection.RadioSelector" validator="INTEGER" value=""/>
+    <key field="datamode" name="Data Mode" template="na" ui="com.wtp.jforms.ui.control.selection.RadioSelector" validator="VARCHAR" value=""/>
+
+    <data classid="1234567890124" dependencies="no" editable="true" field="mshi1t" name="height 1" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="DOUBLE"/>
+    <data classid="1234567890125" dependencies="no" editable="true" field="mshi2t" name="height 2" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="DOUBLE"/>
+    <data classid="1234567890126" dependencies="no" editable="true" field="mswp1t" name="Weight 1" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="DOUBLE"/>
+    <data classid="1234567890127" dependencies="no" editable="true" field="mswp2t" name="Weight 2" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="DOUBLE"/>
+    <data classid="1234567890128" dependencies="no" editable="true" field="mshc1t" name="Head Circumference 1" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="DOUBLE"/>
+    <data classid="1234567890129" dependencies="no" editable="true" field="mshc2t" name="Head Circumference 2" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="DOUBLE"/>
+    <data classid="1234567890130" dependencies="no" editable="true" field="msnotes" name="Notes" template="na" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" validator="VARCHAR"/>
+</dataset>

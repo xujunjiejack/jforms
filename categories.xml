@@ -334,6 +334,11 @@
 	
 	<category name="Conte 3 - Imaging" abrv="C3" filename="conte3_imaging">
 		<form name="Imaging Tracker" abrv="mrtracker" filename="mrtracker" />
+		<subcategory name="MRI Visit" abrv="MRI Visit" filename="MRI_Visit_Twin_Questionnaire">	
+			<form abrv="reactive cortisol dates and times" filename="reactive_cortisol_dates_and_times_MRI_visit_mr" name="reactive cortisol dates and times"/>
+			<form abrv="Imaging Visit Experimenter Logsheet" filename="Imaging_Visit_Experimenter_Logsheet" name="Imaging Visit Experimenter Logsheet"/>
+			
+		</subcategory>
 		
 		<subcategory name="Imaging Twin Questionnaire" abrv="MRI_Visit_Twin_Questionnaire" filename="MRI_Visit_Twin_Questionnaire">
 			<form abrv="Dates" filename="Dates_mr_t" name="Dates" />

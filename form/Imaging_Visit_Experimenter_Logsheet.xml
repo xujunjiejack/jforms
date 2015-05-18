@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form SYSTEM "../../dtd/form.dtd">
+<form abrv="Imaging Visit Experimenter Logsheet" filename="Imaging_Visit_Experimenter_Logsheet" name="Imaging Visit Experimenter Logsheet">
+    <dataset connection="MySQL:mysql.waisman.wisc.edu/wtp_data" file="logsheet_mri_visit_mr" tablename="data_mr_ls_e"/>
+    <dataset connection="MySQL:mysql.waisman.wisc.edu/wtp_data" file="measures_mri_visit_mr" tablename="data_mr_ms_t"/>
+    <key class="com.wtp.jforms.ui.control.selection.FamilyId" entryset="logsheet" filename="build\dataset\logsheet_mri_visit_mr.xml" name="Family Id" options="MySQL:mysql.waisman.wisc.edu/wtp_data,GEN_FAMILY,familyid"/>
+    <key class="com.wtp.jforms.ui.control.selection.RadioSelector" entryset="logsheet" filename="build\dataset\logsheet_mri_visit_mr.xml" name="Twin" options="Twin,A:1,B:2"/>
+    <key class="com.wtp.jforms.ui.control.selection.RadioSelector" entryset="logsheet" filename="build\dataset\logsheet_mri_visit_mr.xml" name="Data Mode" options="Data Mode,Entry:Entry,Check:Check"/>
+    <componentset abrv="logsheet" displayheader="true" header="logsheet" name="logsheet" numcols="2">
+        <datafield class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567890124" editable="true" entryset="logsheet" filename="build\dataset\logsheet_mri_visit_mr.xml" name="Date" options="0,MM/dd/yyyy" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890125" editable="true" entryset="logsheet" filename="build\dataset\logsheet_mri_visit_mr.xml" name="Experimenter 1" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890126" editable="true" entryset="logsheet" filename="build\dataset\logsheet_mri_visit_mr.xml" name="Experimenter 2" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890127" editable="true" entryset="logsheet" filename="build\dataset\logsheet_mri_visit_mr.xml" name="Experimenter 3" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890128" editable="true" entryset="logsheet" filename="build\dataset\logsheet_mri_visit_mr.xml" name="Participant 4-Digit ID" options="0" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890129" editable="true" entryset="logsheet" filename="build\dataset\logsheet_mri_visit_mr.xml" name="Session #" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890130" editable="true" entryset="logsheet" filename="build\dataset\logsheet_mri_visit_mr.xml" name="cantab version" options="" type="0"/>
+
+
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890161" editable="true" entryset="measures" filename="build\dataset\measures_mri_visit_mr.xml" name="height 1" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890162" editable="true" entryset="measures" filename="build\dataset\measures_mri_visit_mr.xml" name="height 2" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890163" editable="true" entryset="measures" filename="build\dataset\measures_mri_visit_mr.xml" name="Weight 1" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890164" editable="true" entryset="measures" filename="build\dataset\measures_mri_visit_mr.xml" name="Weight 2" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890165" editable="true" entryset="measures" filename="build\dataset\measures_mri_visit_mr.xml" name="Head Circumference 1" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890166" editable="true" entryset="measures" filename="build\dataset\measures_mri_visit_mr.xml" name="Head Circumference 2" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1234567890167" editable="true" entryset="measures" filename="build\dataset\measures_mri_visit_mr.xml" name="Notes" options="" type="0"/>
+
+
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890131" editable="true" entryset="logsheet" filename="build\dataset\logsheet_mri_visit_mr.xml" name="Button Order" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567890132" editable="true" entryset="logsheet" filename="build\dataset\logsheet_mri_visit_mr.xml" name="Scan Start Time" options="0,HHmm" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567890133" editable="true" entryset="logsheet" filename="build\dataset\logsheet_mri_visit_mr.xml" name="Scan End Time" options="0,HHmm" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890134" editable="true" entryset="logsheet" filename="build\dataset\logsheet_mri_visit_mr.xml" name="Eprime File to Use" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1234567890135" editable="true" entryset="logsheet" filename="build\dataset\logsheet_mri_visit_mr.xml" name="Localizer" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1234567890136" editable="true" entryset="logsheet" filename="build\dataset\logsheet_mri_visit_mr.xml" name="T1: Ax FSPGR Bravo" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1234567890137" editable="true" entryset="logsheet" filename="build\dataset\logsheet_mri_visit_mr.xml" name="HOS WB HRbrain" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1234567890138" editable="true" entryset="logsheet" filename="build\dataset\logsheet_mri_visit_mr.xml" name="3b: QUICK SCAN TO LINE UP FOR EP1" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1234567890139" editable="true" entryset="logsheet" filename="build\dataset\logsheet_mri_visit_mr.xml" name="Multislice EPI #1" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1234567890140" editable="true" entryset="logsheet" filename="build\dataset\logsheet_mri_visit_mr.xml" name="Multislice EPI #2" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1234567890141" editable="true" entryset="logsheet" filename="build\dataset\logsheet_mri_visit_mr.xml" name="Multislice EPI #3" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1234567890142" editable="true" entryset="logsheet" filename="build\dataset\logsheet_mri_visit_mr.xml" name="Multislice EPI #4" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1234567890143" editable="true" entryset="logsheet" filename="build\dataset\logsheet_mri_visit_mr.xml" name="Multislice EPI #5" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1234567890144" editable="true" entryset="logsheet" filename="build\dataset\logsheet_mri_visit_mr.xml" name="Resting State" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1234567890145" editable="true" entryset="logsheet" filename="build\dataset\logsheet_mri_visit_mr.xml" name="DTI" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1234567890146" editable="true" entryset="logsheet" filename="build\dataset\logsheet_mri_visit_mr.xml" name="Vipr" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1234567890147" editable="true" entryset="logsheet" filename="build\dataset\logsheet_mri_visit_mr.xml" name="Eye Tracking Notes" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1234567890148" editable="true" entryset="logsheet" filename="build\dataset\logsheet_mri_visit_mr.xml" name="Biopac Notes" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1234567890149" editable="true" entryset="logsheet" filename="build\dataset\logsheet_mri_visit_mr.xml" name="BioPulse Notes" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1234567890150" editable="true" entryset="logsheet" filename="build\dataset\logsheet_mri_visit_mr.xml" name="BioResp Notes" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1234567890151" editable="true" entryset="logsheet" filename="build\dataset\logsheet_mri_visit_mr.xml" name="BioSCR Notes" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890152" editable="true" entryset="logsheet" filename="build\dataset\logsheet_mri_visit_mr.xml" name="Debriefing Question 1" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890153" editable="true" entryset="logsheet" filename="build\dataset\logsheet_mri_visit_mr.xml" name="Debriefing Question 2" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890154" editable="true" entryset="logsheet" filename="build\dataset\logsheet_mri_visit_mr.xml" name="Debriefing Question 3" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890155" editable="true" entryset="logsheet" filename="build\dataset\logsheet_mri_visit_mr.xml" name="Debriefing Question 4" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1234567890156" editable="true" entryset="logsheet" filename="build\dataset\logsheet_mri_visit_mr.xml" name="OSPAN Notes" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1234567890157" editable="true" entryset="logsheet" filename="build\dataset\logsheet_mri_visit_mr.xml" name="CANTAB Notes" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1234567890158" editable="true" entryset="logsheet" filename="build\dataset\logsheet_mri_visit_mr.xml" name="Memory &amp; Likability Notes" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1234567890159" editable="true" entryset="logsheet" filename="build\dataset\logsheet_mri_visit_mr.xml" name="Questionnaire Notes" options="" type="0"/>
+    </componentset>
+</form>

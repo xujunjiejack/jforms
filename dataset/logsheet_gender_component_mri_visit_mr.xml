@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
+<dataset abrv="gen_twins" filename="logsheet_gender_component_mri_visit_mr" name="logsheet gender component">
+    <validator allowblanks="true" defaultvalue="9998" lowerbound="2147483647" name="blankformat" type="VARCHAR" upperbound="2147483647">
+        <valid value="9999"/>
+        <valid value="9998"/>
+    </validator>
+    <validator allowblanks="false" defaultvalue="9998" lowerbound="214783647" name="1_2" type="INTEGER" upperbound="214783647">
+        <valid value="1"/>
+        <valid value="2"/>
+        <valid value="9999"/>
+        <valid value="9998"/>
+    </validator>
+    <key field="familyid" name="Family Id" template="na" ui="com.wtp.jforms.ui.control.selection.FamilyId" validator="VARCHAR" value=""/>
+    <key field="twin" name="Twin" template="na" ui="com.wtp.jforms.ui.control.selection.RadioSelector" validator="INTEGER" value=""/>
+    <key field="datamode" name="Data Mode" template="na" ui="com.wtp.jforms.ui.control.selection.RadioSelector" validator="VARCHAR" value=""/>
+    <data classid="1234567890124" dependencies="no" editable="true" field="gender" name="Gender" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="1_2"/>
+</dataset>
