@@ -16,5 +16,12 @@
 	<data name="Twin B Last Name" field="lastname" template="na" validator="blankvarchar" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1124917160713" />
 	<data name="Twin B Date of Birth" field="dateofbirth" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1124917160714" />
 	<data name="Twin B Gender" field="gender" template="na" validator="gender12_9998_9998" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1124917160715" />
+	<data name="Twin B Phone Number" field="phonenumber" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1124316394020" />
+	<data name="Twin B State" field="state" template="na" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1124316394017" />
+	<data name="Twin B Zip Code" field="zip" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1124316394018" />
+	<data name="Twin B Email" field="email" template="na" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1124316394021" />
+	<data name="Twin B Address" field="address" template="na" validator="blankvarchar" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1124316394025" />
+	<data name="Twin B City" field="city" template="na" validator="blankvarchar" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1124316394026" />
+	
 </dataset>
 
