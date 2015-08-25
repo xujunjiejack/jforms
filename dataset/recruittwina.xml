@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
-<dataset name="Recruit Twin A" abrv="recruittwina" filename="recruittwina" active="n">
+<dataset name="Recruit Twin A" abrv="recruittwina" filename="recruittwina" active="y">
 	<validator name="blankvarchar" type="VARCHAR" defaultvalue="" allowblanks="true" lowerbound="2147483647" upperbound="2147483647" />
 	<validator name="blankformat" type="VARCHAR" defaultvalue="" allowblanks="true" lowerbound="2147483647" upperbound="2147483647">
 		<valid value="9999" />
