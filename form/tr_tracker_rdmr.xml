@@ -6,15 +6,22 @@
     <componentset abrv="Tracker" displayheader="true" header="Tracker" name="Tracker" numcols="2">
         <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890124" editable="true" entryset="Tracker" filename="build\dataset\tr_tracker_rdmr.xml" name="ursiid" options="" type="0"/>
         <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890125" editable="true" entryset="Tracker" filename="build\dataset\tr_tracker_rdmr.xml" name="pc" options="" type="0"/>
+
         <datafield class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567890126" editable="true" entryset="Tracker" filename="build\dataset\tr_tracker_rdmr.xml" name="mrcall" options="0,MM/dd/yyyy" type="0"/>
-        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890127" editable="true" entryset="Tracker" filename="build\dataset\tr_tracker_rdmr.xml" name="mrint" options="" type="0"/>
-        <datafield class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567890128" editable="true" entryset="Tracker" filename="build\dataset\tr_tracker_rdmr.xml" name="mrvisit" options="0,MM/dd/yyyy" type="0"/>
-        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890129" editable="true" entryset="Tracker" filename="build\dataset\tr_tracker_rdmr.xml" name="mre1" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567890127" editable="true" entryset="Tracker" filename="build\dataset\tr_tracker_rdmr.xml" name="mrintcg" options="0,MM/dd/yyyy" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567890128" editable="true" entryset="Tracker" filename="build\dataset\tr_tracker_rdmr.xml" name="mrinta" options="0,MM/dd/yyyy" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567890129" editable="true" entryset="Tracker" filename="build\dataset\tr_tracker_rdmr.xml" name="mrintb" options="0,MM/dd/yyyy" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567890155" editable="true" entryset="Tracker" filename="build\dataset\tr_tracker_rdmr.xml" name="visconirm" options="0,MM/dd/yyyy" type="0"/>
+        
         <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890130" editable="true" entryset="Tracker" filename="build\dataset\tr_tracker_rdmr.xml" name="mre2" options="" type="0"/>
         <datafield class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567890131" editable="true" entryset="Tracker" filename="build\dataset\tr_tracker_rdmr.xml" name="coinscompa" options="0,MM/dd/yyyy" type="0"/>
         <datafield class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567890132" editable="true" entryset="Tracker" filename="build\dataset\tr_tracker_rdmr.xml" name="coinscompb" options="0,MM/dd/yyyy" type="0"/>
         <datafield class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567890133" editable="true" entryset="Tracker" filename="build\dataset\tr_tracker_rdmr.xml" name="coinscompcg" options="0,MM/dd/yyyy" type="0"/>
         <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890134" editable="true" entryset="Tracker" filename="build\dataset\tr_tracker_rdmr.xml" name="coinsnote" options="" type="0"/>
+
+        <datafield class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567890156" editable="true" entryset="Tracker" filename="build\dataset\tr_tracker_rdmr.xml" name="inquisita" options="0,MM/dd/yyyy" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567890157" editable="true" entryset="Tracker" filename="build\dataset\tr_tracker_rdmr.xml" name="inquisitb" options="0,MM/dd/yyyy" type="0"/>
+
         <datafield class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567890135" editable="true" entryset="Tracker" filename="build\dataset\tr_tracker_rdmr.xml" name="paycg" options="0,MM/dd/yyyy" type="0"/>
         <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890136" editable="true" entryset="Tracker" filename="build\dataset\tr_tracker_rdmr.xml" name="payamcg" options="" type="0"/>
         <datafield class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567890137" editable="true" entryset="Tracker" filename="build\dataset\tr_tracker_rdmr.xml" name="paya" options="0,MM/dd/yyyy" type="0"/>
@@ -23,8 +30,6 @@
         <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890140" editable="true" entryset="Tracker" filename="build\dataset\tr_tracker_rdmr.xml" name="payamb" options="" type="0"/>
         <datafield class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567890141" editable="true" entryset="Tracker" filename="build\dataset\tr_tracker_rdmr.xml" name="mrcomp" options="0,MM/dd/yyyy" type="0"/>
         <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890142" editable="true" entryset="Tracker" filename="build\dataset\tr_tracker_rdmr.xml" name="mrexclude" options="" type="0"/>
-        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890143" editable="true" entryset="Tracker" filename="build\dataset\tr_tracker_rdmr.xml" name="mriordera" options="" type="0"/>
-        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890144" editable="true" entryset="Tracker" filename="build\dataset\tr_tracker_rdmr.xml" name="mriorderb" options="" type="0"/>
         <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890145" editable="true" entryset="Tracker" filename="build\dataset\tr_tracker_rdmr.xml" name="specflag" options="" type="0"/>
         <datafield class="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1234567890146" editable="true" entryset="Tracker" filename="build\dataset\tr_tracker_rdmr.xml" name="rdcomments" options="" type="0"/>
         <datafield class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567890147" editable="true" entryset="Tracker" filename="build\dataset\tr_tracker_rdmr.xml" name="rdltr1" options="0,MM/dd/yyyy" type="0"/>
@@ -35,6 +40,5 @@
         <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890152" editable="true" entryset="Tracker" filename="build\dataset\tr_tracker_rdmr.xml" name="rdcfresp1" options="" type="0"/>
         <datafield class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567890153" editable="true" entryset="Tracker" filename="build\dataset\tr_tracker_rdmr.xml" name="rdcf2" options="0,MM/dd/yyyy" type="0"/>
         <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890154" editable="true" entryset="Tracker" filename="build\dataset\tr_tracker_rdmr.xml" name="rdcfresp2" options="" type="0"/>
-        <datafield class="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1234567890155" editable="true" entryset="Tracker" filename="build\dataset\tr_tracker_rdmr.xml" name="rdrecruitothers" options="" type="0"/>
     </componentset>
 </form>

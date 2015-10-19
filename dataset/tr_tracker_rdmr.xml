@@ -38,4 +38,14 @@
     <data classid="1234567890153" dependencies="no" editable="true" field="rdcf2" name="rdcf2" template="na" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" validator="blankformat"/>
     <data classid="1234567890154" dependencies="no" editable="true" field="rdcfresp2" name="rdcfresp2" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="VARCHAR"/>
     <data classid="1234567890155" dependencies="no" editable="true" field="rdrecruitothers" name="rdrecruitothers" template="na" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" validator="VARCHAR"/>
+    
+    <data classid="1234567890155" dependencies="no" editable="true" field="mrintcg" name="mrintcg" template="na" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" validator="blankformat"/>
+    <data classid="1234567890156" dependencies="no" editable="true" field="mrinta" name="mrinta" template="na" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" validator="blankformat"/>
+    <data classid="1234567890157" dependencies="no" editable="true" field="mrintb" name="mrintb" template="na" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" validator="blankformat"/>
+    <data classid="1234567890158" dependencies="no" editable="true" field="visconirm" name="visconirm" template="na" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" validator="blankformat"/>
+    
+    <data classid="2234567890127" dependencies="no" editable="true" field="inquisitb" name="inquisitb" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="VARCHAR"/>
+    <data classid="2234567890127" dependencies="no" editable="true" field="inquisita" name="inquisita" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="VARCHAR"/>
+    
+
 </dataset>
