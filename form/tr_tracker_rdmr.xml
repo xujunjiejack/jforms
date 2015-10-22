@@ -4,7 +4,13 @@
     <dataset connection="MySQL:mysql.waisman.wisc.edu/wtp_data" file="tr_tracker_rdmr" tablename="data_rdmr_tr"/>
     <key class="com.wtp.jforms.ui.control.selection.FamilyId" entryset="Tracker" filename="build\dataset\tr_tracker_rdmr.xml" name="Family Id" options="MySQL:mysql.waisman.wisc.edu/wtp_data,GEN_FAMILY,familyid"/>
     <componentset abrv="Tracker" displayheader="true" header="Tracker" name="Tracker" numcols="2">
-        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890124" editable="true" entryset="Tracker" filename="build\dataset\tr_tracker_rdmr.xml" name="ursiid" options="" type="0"/>
+
+        
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567891124" editable="true" entryset="Tracker" filename="build\dataset\tr_tracker_rdmr.xml" name="ursiid Twin A" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567892124" editable="true" entryset="Tracker" filename="build\dataset\tr_tracker_rdmr.xml" name="ursiid Twin B" options="" type="0"/>
+        <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567893124" editable="true" entryset="Tracker" filename="build\dataset\tr_tracker_rdmr.xml" name="ursiid Care Giver" options="" type="0"/>
+
+
         <datafield class="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1234567890125" editable="true" entryset="Tracker" filename="build\dataset\tr_tracker_rdmr.xml" name="pc" options="" type="0"/>
 
         <datafield class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1234567890126" editable="true" entryset="Tracker" filename="build\dataset\tr_tracker_rdmr.xml" name="mrcall" options="0,MM/dd/yyyy" type="0"/>

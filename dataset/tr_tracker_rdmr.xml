@@ -6,7 +6,11 @@
         <valid value="9998"/>
     </validator>
     <key field="familyid" name="Family Id" template="na" ui="com.wtp.jforms.ui.control.selection.FamilyId" validator="VARCHAR" value=""/>
-    <data classid="1234567890124" dependencies="no" editable="true" field="ursiid" name="ursiid" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="VARCHAR"/>
+    
+    <data classid="1234567810124" dependencies="no" editable="true" field="ursiida" name="ursiid Twin A" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="VARCHAR"/>
+    <data classid="1234567820124" dependencies="no" editable="true" field="ursiidb" name="ursiid Twin B" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="VARCHAR"/>
+    <data classid="1234567830124" dependencies="no" editable="true" field="ursiidcg" name="ursiid Care Giver" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="VARCHAR"/>
+
     <data classid="1234567890125" dependencies="no" editable="true" field="pc" name="pc" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="VARCHAR"/>
     <data classid="1234567890126" dependencies="no" editable="true" field="mrcall" name="mrcall" template="na" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" validator="blankformat"/>
     <data classid="1234567890127" dependencies="no" editable="true" field="mrint" name="mrint" template="na" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" validator="VARCHAR"/>
