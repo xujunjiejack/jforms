@@ -12,7 +12,7 @@
 		<datafield name="CG DISC A Date" entryset="r1 Tracker" filename="build\dataset\r1tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1233276104321" options="0,MM/dd/yyyy" />
 		<datafield name="CG DISC A Interviewer" entryset="r1 Tracker" filename="build\dataset\r1tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233276104329" options="" />
 		<datafield name="CG DISC B Date" entryset="r1 Tracker" filename="build\dataset\r1tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1233276104330" options="0,MM/dd/yyyy" />
-		<datafield name="CG DISC B Interviewer" entryset="r1 Tracker" filename="build\dataset\r1tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233276104331" options="" />
+		<datafield name="CG DISC B Interviewer" entryset="r1 Tracker" filename="build\dataset\r1tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1230276104331" options="" />
 		<datafield name="Tw A Interview Date" entryset="r1 Tracker" filename="build\dataset\r1tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1233277762342" options="0,MM/dd/yyyy" />
 		<datafield name="Tw A Interviewer" entryset="r1 Tracker" filename="build\dataset\r1tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233277762343" options="" />
 		<datafield name="Tw A Interview Received" entryset="r1 Tracker" filename="build\dataset\r1tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1233277762344" options="0,MM/dd/yyyy" />
@@ -51,7 +51,19 @@
 		<datafield name="RDOC Complete Date" entryset="r1 Tracker" filename="build\dataset\r1tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" editable="true" classid="1233277762361" options="0,MM/dd/yyyy" />
 		<datafield name="Comments" entryset="r1 Tracker" filename="build\dataset\r1tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1233277762362" options="" />
 		<datafield name="Exclude" entryset="r1 Tracker" filename="build\dataset\r1tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233277762363" options="" />
-      <datafield name="Emergency Number" entryset="r1 Tracker" filename="build\dataset\r1tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1233277762364" options="" />
+
+
+		<!--  Need to be tested    -->
+		
+		<datafield name="sensitive_comment" entryset="r1 Tracker" filename="build\dataset\r1tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1231270104331" options="" />	
+		<datafield name="r1ltr1" entryset="r1 Tracker" filename="build\dataset\r1tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1232271104331" options="" />	
+		<datafield name="r1cf2rep" entryset="r1 Tracker" filename="build\dataset\r1tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1233272104331" options="" />	
+		<datafield name="r1cf2" entryset="r1 Tracker" filename="build\dataset\r1tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1234273104331" options="" />	
+		<datafield name="r1cf1" entryset="r1 Tracker" filename="build\dataset\r1tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1235274104331" options="" />	
+		<datafield name="pfcf1rep" entryset="r1 Tracker" filename="build\dataset\r1tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1236275104331" options="" />	
+		<datafield name="pchrint" entryset="r1 Tracker" filename="build\dataset\r1tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1237278104331" options="" />	
+
+	      <datafield name="Emergency Number" entryset="r1 Tracker" filename="build\dataset\r1tracker.xml" type="0" class="com.wtp.jforms.ui.control.smart.MemoFieldBox" editable="true" classid="1233277762364" options="" />
 	</componentset>
 </form>
 
