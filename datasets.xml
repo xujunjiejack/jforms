@@ -875,7 +875,8 @@
 	<dataset abrv="data_mr_ms_t" filename="measures_mri_visit_mr" name="measures"/>
 	<dataset abrv="data_mr_ls_e" filename="logsheet_mri_visit_mr" name="logsheet"/>
 	<dataset abrv="gen_twins" filename="logsheet_gender_component_mri_visit_mr" name="logsheet gender component"/>
-	<dataset name="Demographics Twin" abrv="dem_twin" filename="dem_twin"/>
+	<dataset name="Demographics Caregiver" abrv="dem_mr_m" filename="dem_mr_m"/>
+	<dataset name="Demographics Twin" abrv="dem_twin" filename="dem_twin_adjusted"/>
 	
 
 

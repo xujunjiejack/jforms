@@ -378,7 +378,10 @@
 	<category name="RDOC - Imaging" abrv="rdmr" filename="rdmr">
 		<form abrv="tr" filename="tr_tracker_rdmr" name="Tracker" />
 		<form name="Demographics - Caregiver" abrv="mr_de_m" filename="mr_de_m" />
+		<!--
 		<form name="Demographics - Adult Twin" abrv="mr_de_t" filename="mr_de_t" />
+	-->
+		<form name="Demographics - Adult Twin" abrv="mr_de_t" filename="mr_de_t_adjusted" />
 	</category>
 
 </categories>

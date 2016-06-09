@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
-<dataset name="Demographics Twin" abrv="dem_twin" filename="dem_twin">
+<dataset name="Demographics Caregiver" abrv="dem_mr_m" filename="dem_mr_m">
 	<template name="temp1">
 		<name format="" />
 		<field format="de@m" />
@@ -24,6 +24,10 @@
 		<valid value="9999" />
 	</validator>
 	<validator name="val13_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="1" upperbound="3">
+		<valid value="9998" />
+		<valid value="9999" />
+	</validator>
+	<validator name="val0high_9998_9999" type="INTEGER" defaultvalue="9998" allowblanks="false" lowerbound="0" upperbound="2147483647">
 		<valid value="9998" />
 		<valid value="9999" />
 	</validator>
@@ -74,7 +78,6 @@
 		<valid value="9998" />
 	</validator>
 	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
-    <key field="twin" name="Twin" template="na" ui="com.wtp.jforms.ui.control.selection.RadioSelector" validator="INTEGER" value=""/>
 	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
 	<data name="Bio. Mother Race" field="01b" template="temp1" validator="race" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048019587734" />
 	<data name="Mother Birthdate" field="002" template="temp1" validator="blankformat" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1048019587735" />
@@ -96,29 +99,29 @@
 	<data name="Mother Working" field="12a" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048019587748" />
 	<data name="Mother Work Hrs/Week" field="12b" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048019587749" />
 	<data name="Mother Work from Home (Hrs/Week)" field="12c" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048019587750" />
-	<data name="Mother Job Title " field="12d" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048019587751" />
+	<data name="Mother Job Title 1" field="12d" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048019587751" />
 	<data name="Mother Job Title 2" field="12e" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048019587752" />
 	<data name="Mother Job Activities" field="12f" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048019587753" />
-	<data name="Mother Job Activities 2" field="12g" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048019587754" />
+	<data name="Mother Job Supervision" field="12g" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048019587754" />
 	<data name="Mother Not Working" field="12h" template="temp1" validator="val14_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048019587755" />
 	<data name="Mother Not Working Other Explain" field="12he" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048019587756" />
 	<data name="Father Working" field="13a" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048019587757" />
 	<data name="Father Work Hrs/Week" field="13b" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048019587758" />
 	<data name="Father Work from Home (Hrs/Week)" field="13c" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048019587759" />
-	<data name="Father Job Title" field="13d" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048019587760" />
+	<data name="Father Job Title 1" field="13d" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048019587760" />
 	<data name="Father Job Title 2" field="13e" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048019587761" />
 	<data name="Father Job Activities" field="13f" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048019587762" />
-	<data name="Father Job Activities 2" field="13g" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048019587763" />
+	<data name="Father Job Supervision" field="13g" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048019587763" />
 	<data name="Father Not Working" field="13h" template="temp1" validator="val14_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048019587764" />
 	<data name="Father Not Working Other Explain" field="13he" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048019587765" />
 	<data name="Own Business/Farm" field="14a" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048019587766" />
 	<data name="Value of Business/Farm" field="14b" template="temp1" validator="val49_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048019587767" />
 	<data name="Family Income" field="015" template="temp1" validator="val117_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048019587768" />
-	<data name="Marital Status" field="16a" template="temp1" validator="val17_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048019587769" />
-	<data name="Martial Status Change" field="17a" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048019587770" />
-	<data name="Marital Status Change Explain" field="17b" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048019587771" />
-	<data name="Marital Status Change - Age of Twins In Weeks" field="17c" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048019587772" />
-	<data name="Marital Status Change - Age of Twins In Years" field="17c" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="9048019587772" />
+	<data name="Marital Status" field="17a" template="temp1" validator="val17_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048019587769" />
+	<data name="Martial Status Change" field="18a" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048019587770" />
+	<data name="Marital Status Change Explain" field="18b" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1048019587771" />
+	<data name="Marital Status Change - Age of Twins In Weeks" field="18c" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048019587772" />
+	<data name="Marital Status Change - Age of Twins In Years" field="18c" template="temp1" validator="INTEGER" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="9048019587772" />
 	<data name="No. of Brothers" field="08a" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048542087508" />
 	<data name="No. of Sisters" field="08b" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1048542087509" />
 	<data name="Mother Hispanic or Latino" field="01a" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1111014150948" />
@@ -133,15 +136,23 @@
 	<data name="Paternal Grandmother Race" field="04i" template="temp1" validator="val116_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1173221447616" />
 	<data name="Paternal Grandfather Ethnic" field="04j" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1173221447617" />
 	<data name="Paternal Grandfather Race" field="04k" template="temp1" validator="val116_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1173221447618" />
-	<data name="Living with Partner" field="16b" template="temp1" validator="yesno01_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1173221447619" />
-	<data name="Living with twins bio parent or other" field="16c" template="temp1" validator="val12_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1173221447620" />
-	<data name="Living Situation Other" field="16d" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1173221447621" />
-	<data name="Twins live with bio mother, bio father, or other" field="18a" template="temp1" validator="val13_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1173223717599" />
-	<data name="Twins have contact with other bio parent" field="18b" template="temp1" validator="val13_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1173223717600" />
-	<data name="Hours Twin A spends with him/her" field="18c" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1173223717601" />
-	<data name="Hours Twin B spends with him/her" field="18d" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1173223717602" />
-	<data name="Twins live with another caregiver" field="18e" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1173223717603" />
-	<data name="Num of people at twins primary residence" field="019" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1173223717604" />
+	<data name="Living with Partner" field="16a" template="temp1" validator="yesno01_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1173221447619" />
+	<data name="Living with twins bio parent or other" field="16b" template="temp1" validator="val12_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1173221447620" />
+	<data name="Same Partner since Twins" field="16c" template="temp1" validator="yesno01_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1173221457620" />
+	<data name="Time with Current Partner" field="16d" template="temp1" validator="val0high_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1173221467620" />
+
+	<data name="Other Romantic Relationships" field="16e" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1173221477620" />
+
+	<data name="Amount Romantic Relationships" field="16f" template="temp1" validator="val0high_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1173221487620" />	
+
+	<data name="Living Situation Other" field="16g" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1173221447621" />
+
+	<data name="Twins live with bio mother, bio father, or other" field="19a" template="temp1" validator="val13_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1173223717599" />
+	<data name="Twins have contact with other bio parent" field="19b" template="temp1" validator="val13_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1173223717600" />
+	<data name="Hours Twin A spends with him/her" field="19c" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1173223717601" />
+	<data name="Hours Twin B spends with him/her" field="19d" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1173223717602" />
+	<data name="Twins live with another caregiver" field="19e" template="temp1" validator="MEMO" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1173223717603" />
+	<data name="Num of people at twins primary residence" field="020" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1173223717604" />
 	<data name="Person 1 Relationship" field="2a" template="temp1" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1173223717605" />
 	<data name="Person 1 Ethnicity" field="2b" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1173223717606" />
 	<data name="Person 1 Race" field="2c" template="temp1" validator="val116_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1173223717607" />
@@ -178,10 +189,10 @@
 	<data name="Person 12 Relationship" field="2hh" template="temp1" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1173223717782" />
 	<data name="Person 12 Ethnicity" field="2ii" template="temp1" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1173223717783" />
 	<data name="Person 12 Race" field="2jj" template="temp1" validator="val116_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1173223717784" />
-	<data name="Num times twin A moved" field="21a" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1184884784537" />
-	<data name="Num times twin B moved" field="21b" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1184884784538" />
-	<data name="Num times twin A changed schools" field="22a" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1184884784539" />
-	<data name="Num times twin B changed schools" field="22b" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1184884784540" />
+	<data name="Num times twin A moved" field="22a" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1184884784537" />
+	<data name="Num times twin B moved" field="22b" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1184884784538" />
+	<data name="Num times twin A changed schools" field="23a" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1184884784539" />
+	<data name="Num times twin B changed schools" field="23b" template="temp1" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1184884784540" />
 	<data name="Who owns/runs/manages business/farm" field="14c" template="temp1" validator="VARCHAR" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1174342506521" />
 	<dependency field="Mother NOT Bio. Parent Explain">
 		<parent field="Mother Bio. Parent" lowerbound="2147483647" upperbound="2147483647">
@@ -219,7 +230,7 @@
 		</parent>
 	</dependency>
 
-	<dependency field="Mother Job Title">
+	<dependency field="Mother Job Title 1">
 		<parent field="Mother Working" lowerbound="2147483647" upperbound="2147483647">
 			<enable value="1" />
 		</parent>
@@ -376,5 +387,25 @@
 			<enable value="1" />
 		</parent>
 	</dependency>
+
+	<dependency field="Same Partner since Twins">
+		<parent field="Living with Partner" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="1" />
+		</parent>
+	</dependency>
+
+	<dependency field="Time with Current Partner">
+		<parent field="Living with Partner" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="0" />
+		</parent>
+	</dependency>
+
+	<dependency field="Amount Romantic Relationships">
+		<parent field="Other Romantic Relationships" lowerbound="2147483647" upperbound="2147483647">
+			<enable value="0" />
+		</parent>
+	</dependency>
+
+
 </dataset>
 
