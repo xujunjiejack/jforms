@@ -3,7 +3,7 @@
 <dataset name="Demographics Twin" abrv="dem_twin" filename="dem_twin_adjusted">
 	<template name="temp1">
 		<name format="" />
-		<field format="de@m" />
+		<field format="de@t" />
 		<subsetname format="" />
 		<subsetfield format="" />
 	</template>
